@@ -1,0 +1,67 @@
+1
+00:00:00,660 --> 00:00:03,450
+Qué haremos a partir de ahora en el curso.
+
+2
+00:00:03,450 --> 00:00:11,430
+Pues a partir de ahora lo que vamos a estar viendo es desarrollo web Bakken con J.S de acuerdo con JavaScript.
+
+3
+00:00:11,430 --> 00:00:17,420
+Nosotros podemos hacer tanto el frontón de una página web que todo lo que hemos estado viendo anteriormente
+
+4
+00:00:17,550 --> 00:00:23,910
+pero también podemos utilizar JavaScript en el servidor en las bases de datos como modo de ver en el
+
+5
+00:00:23,910 --> 00:00:30,280
+Bakken y en el servidor con DJs y también podemos construir servicios redes con expres etcétera.
+
+6
+00:00:30,430 --> 00:00:35,580
+Entonces a partir de ahora vamos a estar viendo lo siguiente y todo lo que vamos a ver va a contar de
+
+7
+00:00:36,150 --> 00:00:42,090
+la utilización del stack y el desarrollo de aplicaciones con este Stack el Minessota que son las siglas
+
+8
+00:00:42,090 --> 00:00:46,020
+de Mongo de expres angular y no DJs.
+
+9
+00:00:46,050 --> 00:00:49,770
+De acuerdo a este conjunto de tecnología forma el Minessota.
+
+10
+00:00:49,830 --> 00:00:53,760
+Entonces vamos a estar haciendo un desarrollo de este tipo.
+
+11
+00:00:54,120 --> 00:01:00,900
+Primero veremos la introducción a Mungo de acuerdo veremos varias cosas de MongoDB para hacernos una
+
+12
+00:01:00,900 --> 00:01:01,750
+idea.
+
+13
+00:01:01,980 --> 00:01:10,320
+Después veremos una introducción a DJs y después veremos cómo crear una Pierres full con DJs Mongo Mongo
+
+14
+00:01:10,320 --> 00:01:12,450
+DB y expres de acuerdo.
+
+15
+00:01:12,510 --> 00:01:21,390
+Todo eso es lo que vamos a ver a vista de pájaro a partir de ahora en el curso así que estate atento
+
+16
+00:01:21,400 --> 00:01:25,650
+porque lo primero que vamos a empezar a aprender va a ser el tema de cómo debe y te voy a hacer una
+
+17
+00:01:25,650 --> 00:01:27,960
+introducción ahora en la siguiente clase.

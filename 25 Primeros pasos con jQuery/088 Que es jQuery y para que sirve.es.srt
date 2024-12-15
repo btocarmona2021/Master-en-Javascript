@@ -1,0 +1,91 @@
+1
+00:00:01,420 --> 00:00:06,460
+A partir de ahora en el curso vamos a estar hablando acerca de Geico herí y Kairi es una librería para
+
+2
+00:00:06,460 --> 00:00:11,410
+JavaScript que nos va a dar un montón de funcionalidades costosa ya desarrolladas.
+
+3
+00:00:11,500 --> 00:00:17,440
+Por ejemplo el tema de hacer efectos el tema de peticiones Ayax el tema de compatibilidad con otros
+
+4
+00:00:17,530 --> 00:00:24,800
+navegadores web nos va a hacer que el código se reduzca mucho a lo que hacemos en JavaScript puro.
+
+5
+00:00:24,910 --> 00:00:30,640
+Vamos a poder trabajar también con los eventos de manera sencilla y luego sobre Kourí tenemos un montón
+
+6
+00:00:30,640 --> 00:00:34,470
+de plugins que nos van a hacer la vida mucho más sencilla.
+
+7
+00:00:34,490 --> 00:00:40,510
+Plugins para hacer cosas como sliders y librería también que corren sobre Kui como contribuí que nos
+
+8
+00:00:40,510 --> 00:00:47,410
+permite hacer muchos elementos de una interfaz de usuario de manera muy simple plugins para hacer cualquier
+
+9
+00:00:47,410 --> 00:00:53,280
+cosa prácticamente que te imaginen en el frontend ya existen en esta tecnología sobre todo si se lo
+
+10
+00:00:53,290 --> 00:00:54,620
+utilizan muchísimo.
+
+11
+00:00:54,670 --> 00:01:01,150
+Aún hoy en día y seguirá utilizando en proyectos monolíticos un proyecto monolítico es una web cuyo
+
+12
+00:01:01,360 --> 00:01:06,040
+front backend más o menos está integrado es decir un proyecto que tú hagas completo con Lara un proyecto
+
+13
+00:01:06,040 --> 00:01:13,090
+que tengas completo con Simphony un proyecto que tú que tú hagas completo con un CMS un proyecto completo
+
+14
+00:01:13,150 --> 00:01:19,840
+con un framework full stack digamos va a necesitar Swery para hacer tema de Ayax tema de asincronía
+
+15
+00:01:19,840 --> 00:01:26,920
+tema de cualquier efecto cualquier interacción en la parte del frontend vamos a necesitar utilizar JavaScript
+
+16
+00:01:27,040 --> 00:01:33,190
+y si usamos cuero y vamos a tener mucho más fácil la programación de esas partes del proyecto.
+
+17
+00:01:33,340 --> 00:01:40,600
+Otra cosa sería en proyectos S.p.A de acuerdo o en aplicaciones en las cuales tenemos el Bakken completamente
+
+18
+00:01:40,600 --> 00:01:47,680
+separado de frontend en el cual solamente tenemos una web S.p.A y en el Bakken tenemos un API y en esta
+
+19
+00:01:47,680 --> 00:01:51,620
+web S.p.A consumimos información del Bakken o del API.
+
+20
+00:01:51,830 --> 00:01:56,860
+Entonces en ese caso sí que hay frameworks que nos dan ya la herramienta mucho más optimizadas como
+
+21
+00:01:56,860 --> 00:02:01,390
+en el caso de angular que también lo estaremos viendo en el curso pero más adelante.
+
+22
+00:02:01,390 --> 00:02:05,100
+Así que de momento vamos a aprender QWERTY y ya te digo es una cosa súper fundamental.
+
+23
+00:02:05,100 --> 00:02:09,070
+Lo están pidiendo toda la empresa y es lo que vamos a ver a partir de ahora en el curso.

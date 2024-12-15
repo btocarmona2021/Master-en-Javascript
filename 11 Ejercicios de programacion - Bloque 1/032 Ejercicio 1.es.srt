@@ -1,0 +1,267 @@
+1
+00:00:00,540 --> 00:00:05,370
+Bien pues ahora vamos a hacer una serie de ejercicios de programación utilizando javascript para entender
+
+2
+00:00:05,370 --> 00:00:11,760
+tanto JavaScript y todo lo que hemos estado viendo como para aprender más y asentar mucho más los conocimientos
+
+3
+00:00:11,760 --> 00:00:16,270
+que hemos aprendido de programación y así también practicar con JavaScript.
+
+4
+00:00:16,310 --> 00:00:22,110
+Y también vamos a asentar los conocimientos que hemos aprendido acerca de programación y de programación
+
+5
+00:00:22,110 --> 00:00:22,730
+en JavaScript.
+
+6
+00:00:22,740 --> 00:00:28,260
+Así que vamos a empezar a hacer ejercicios y entonces yo lo que haría sería crear un fichero nuevo para
+
+7
+00:00:28,260 --> 00:00:38,730
+cada ejercicio controlase el fichero que toca ahora es el 11 y va a ser el ejercicio 1 Ejercicio 1 punto
+
+8
+00:00:38,740 --> 00:00:40,730
+J.S..
+
+9
+00:00:42,480 --> 00:00:55,380
+Vamos a hacer lo primero el uso de Street Street vamos a cargar el archivo él escribe nuestro índex
+
+10
+00:00:57,150 --> 00:01:10,230
+ejercicio 1 y vamos a hacer el ejercicio y te voy a decir el enunciado para que lo hagas tú también.
+
+11
+00:01:10,560 --> 00:01:15,240
+Tenemos que hacer un programa que nos pida dos números y que nos diga cuál es mayor cuál es menor y
+
+12
+00:01:15,240 --> 00:01:32,330
+si son iguales de acuerdo programa que pida dos números y que nos diga cuál es el mayor el menor.
+
+13
+00:01:32,750 --> 00:01:33,800
+Y si son iguales
+
+14
+00:01:37,500 --> 00:01:38,850
+vale perfecto.
+
+15
+00:01:38,850 --> 00:01:42,760
+Cómo podemos pedir al usuario un dato.
+
+16
+00:01:42,760 --> 00:01:47,370
+Pues como ya hemos visto en la clase anterior con el prompt con la función pregunta dónde vamos a crear
+
+17
+00:01:47,370 --> 00:01:52,470
+una variable que va a ser número 1 número 1 y a utilizar el prompt
+
+18
+00:01:55,800 --> 00:01:59,530
+como primer parámetro como texto que llevamos que se va a mostrar en él.
+
+19
+00:01:59,610 --> 00:02:12,980
+En el prompt Mazer introduce el primer número y que por defecto sea cero.
+
+20
+00:02:12,990 --> 00:02:16,170
+Y después vamos a introducir.
+
+21
+00:02:16,170 --> 00:02:17,710
+Ahora creamos el segundo número.
+
+22
+00:02:17,730 --> 00:02:26,310
+La segunda variable que va a ser el segundo número que nos va a pedir prompt y le decimos que introduce
+
+23
+00:02:26,430 --> 00:02:34,410
+el segundo número y por defecto también que venga a cero.
+
+24
+00:02:34,440 --> 00:02:40,470
+Ojo aquí porque antes como antes te he dicho si yo quiero hacer una operación con número y quiero comparar
+
+25
+00:02:40,470 --> 00:02:45,600
+número lo que tendría que hacer sería convertir esto a un número porque siempre el programa recoge una
+
+26
+00:02:45,600 --> 00:02:45,950
+estrella.
+
+27
+00:02:45,960 --> 00:02:53,400
+Entonces vamos a hacer un par Saint Paul Saint para convertir el número para convertir el string que
+
+28
+00:02:53,400 --> 00:02:57,740
+nos coge el prom a un número y poder hacer operaciones con él.
+
+29
+00:02:57,900 --> 00:03:01,530
+Parse de esta manera ya está pidiendo un número vamos a comprobarlo.
+
+30
+00:03:01,530 --> 00:03:03,300
+Incluso podríamos hacer el consolé log
+
+31
+00:03:06,770 --> 00:03:12,090
+de número 1 y número dos.
+
+32
+00:03:12,570 --> 00:03:21,780
+Vale guarda actualizo la pantalla me pide el primer número obviamente 10 y me pide el segundo número.
+
+33
+00:03:21,790 --> 00:03:30,020
+Le voy a poner 12 10 y 12.
+
+34
+00:03:30,580 --> 00:03:36,190
+Bien pues ya tenemos los dos números entonces tenemos que hacer lo que nos dice el enunciado que nos
+
+35
+00:03:36,190 --> 00:03:41,710
+diga si son iguales o que nos diga cuál en mayor o cuál es menor.
+
+36
+00:03:41,710 --> 00:03:42,980
+Cómo podemos hacer esto.
+
+37
+00:03:42,990 --> 00:03:55,570
+Pues como vamos a hacer ONIF que nos compruebe si n si el número 1 es igual igual al número 2.
+
+38
+00:03:56,980 --> 00:04:01,720
+Pues esto no tiene que soltar un Aulet que nos diga los números son iguales
+
+39
+00:04:05,380 --> 00:04:06,730
+son iguales.
+
+40
+00:04:06,730 --> 00:04:15,340
+Luego podemos utilizar el sair en el caso de que eso no sea así de que no sean iguales pues tendríamos
+
+41
+00:04:15,340 --> 00:04:17,740
+que comprobar si número 1
+
+42
+00:04:21,160 --> 00:04:30,290
+en mayor al número 2 entonces podríamos poner un alerta que nos diga los números.
+
+43
+00:04:30,280 --> 00:04:32,020
+O sea que nos diga el número uno
+
+44
+00:04:34,930 --> 00:04:35,740
+es mayor
+
+45
+00:04:38,590 --> 00:04:48,640
+al 2 o incluso podría decirnos que el mayores vale que nos diga que el número mayor está y en número
+
+46
+00:04:48,640 --> 00:04:49,690
+menor está.
+
+47
+00:04:50,170 --> 00:05:03,370
+En este caso el número mayor es y aquí que nos ponga números 1 concatenada un número 1 y el número menor
+
+48
+00:05:10,270 --> 00:05:19,870
+es que no ponga el número 2 la variable número de esta manera Yo compruebo si el número 1 el número
+
+49
+00:05:19,870 --> 00:05:22,100
+dos son iguales muestro que son iguales.
+
+50
+00:05:22,130 --> 00:05:25,640
+Si el número uno es mayor el número dos pues aquí me lo indica.
+
+51
+00:05:25,640 --> 00:05:33,020
+Vale podemos ir comprobando esto vamos a actualizar la pantalla introduzco el primer número 10 introduzco
+
+52
+00:05:33,090 --> 00:05:43,670
+el segundo número tres me dice el número mayor es el 10 el número menor es 3 vale y si lo pusiera igual
+
+53
+00:05:44,410 --> 00:05:49,150
+10 y 10 me va a decir que son iguales.
+
+54
+00:05:49,150 --> 00:05:55,480
+Efectivamente estamos haciendo bien el ejercicio lo estamos haciendo bastante bien.
+
+55
+00:05:55,670 --> 00:06:00,880
+Bien nos quedaría comprobar el caso de que el número 2 sea mayor al número 1.
+
+56
+00:06:00,890 --> 00:06:02,460
+Entonces el SOIB
+
+57
+00:06:09,260 --> 00:06:15,980
+tendríamos que comprobar si el número 2 es mayor al número 1 vale en ese caso
+
+58
+00:06:19,620 --> 00:06:26,610
+tendríamos que mostrar los Alerts de igual forma pero en este caso el número mayor sería el 2 y el número
+
+59
+00:06:27,060 --> 00:06:29,660
+menor sería el 1 vale.
+
+60
+00:06:31,370 --> 00:06:38,190
+Y en el caso de que ninguna de estas cosas se cumpliera pues podríamos poner una alerta que dijera que
+
+61
+00:06:38,250 --> 00:06:44,490
+introduzca un número introduce en números correctos.
+
+62
+00:06:44,490 --> 00:06:45,420
+Vamos a comprobarlo
+
+63
+00:06:50,000 --> 00:06:50,620
+vamos a comprobarlo.
+
+64
+00:06:50,630 --> 00:06:58,850
+Pero en principio ya tendríamos el ejercicio hecho bien el número uno el diez y el número dos sería
+
+65
+00:06:58,850 --> 00:06:59,540
+12.
+
+66
+00:06:59,600 --> 00:07:05,540
+No tiene que decir que el número mayor es 12 y el número menor es 10 con lo cual esto está funcionando
+
+67
+00:07:05,540 --> 00:07:08,360
+perfectamente y ya tenemos el ejercicio hecho.

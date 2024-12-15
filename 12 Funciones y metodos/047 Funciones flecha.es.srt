@@ -1,0 +1,63 @@
+1
+00:00:00,660 --> 00:00:04,980
+Una cosa es que esté utilizando mucho ahora los nuevos estándares de JavaScript son las funciones de
+
+2
+00:00:04,980 --> 00:00:11,970
+flecha la funciones de flecha lo mismo que define una función como lo estamos haciendo aquí pero en
+
+3
+00:00:11,970 --> 00:00:17,980
+lugar de esto en lugar de poner la palabra función se le quita y utilizamos una flecha.
+
+4
+00:00:18,000 --> 00:00:23,990
+De esta manera de esa forma esta función de Calvache funciona exactamente igual de acuerdo.
+
+5
+00:00:24,090 --> 00:00:28,510
+Y aquí también lo podríamos hacer de forma que escriban escribo mucho menos.
+
+6
+00:00:28,530 --> 00:00:38,640
+Incluso podríamos quitar la parte de los paréntesis y dejar el dato simplemente el parámetro o simplemente
+
+7
+00:00:38,640 --> 00:00:44,070
+decir la función de flecha es una forma de definir funciones de Calvache de una manera mucho más limpia
+
+8
+00:00:44,070 --> 00:00:45,400
+y clara.
+
+9
+00:00:46,020 --> 00:00:51,270
+Simplemente utilizando una flecha y en el caso de que lleve un parámetro no hace falta ni imponerlos
+
+10
+00:00:51,320 --> 00:00:59,010
+paréntesis si lleva dos parámetros sí pero es sustituir simplemente la palabra función por la flecha.
+
+11
+00:00:59,010 --> 00:00:59,820
+Así de sencillo.
+
+12
+00:00:59,820 --> 00:01:04,170
+No necesitamos mucha explicación porque además esto lo vamos a estar practicando a lo largo del curso
+
+13
+00:01:04,500 --> 00:01:13,050
+simplemente una función de flecha pues se utiliza así en lugar de poner función en lugar de poner esto
+
+14
+00:01:13,050 --> 00:01:18,780
+funciona total pues se pone simplemente el parámetro y la flecha y la llave.
+
+15
+00:01:18,790 --> 00:01:21,250
+Luego para el bloque de instrucciones que va a ejecutar la función.
+
+16
+00:01:21,260 --> 00:01:22,110
+Pero nada más.

@@ -1,0 +1,163 @@
+1
+00:00:00,420 --> 00:00:06,480
+Vamos a empezar a aprender desarrollo web desde cero una página web puede estar formada por multitud
+
+2
+00:00:06,480 --> 00:00:12,210
+de lenguajes de programación por multitud de lenguajes de marcas por multitud de tecnología y por multitud
+
+3
+00:00:12,210 --> 00:00:17,690
+de cosas y se puede convertir en algo muy complejo pero para empezar a crear una página web.
+
+4
+00:00:17,700 --> 00:00:23,610
+Nosotros no tenemos que pensar en todas las cosas que puede que puede llegar a tener un sitio web simplemente
+
+5
+00:00:23,670 --> 00:00:31,590
+tenemos que empezar por la base y la base de cualquier página web es el lenguaje HTML HTML no es un
+
+6
+00:00:31,590 --> 00:00:37,650
+lenguaje de programación como tal porque no tiene estructura de control no tiene condicionales no tiene
+
+7
+00:00:37,650 --> 00:00:44,550
+bucles no tiene nada es nada de eso simplemente es un lenguaje de marcado o de etiquetado que nos permite
+
+8
+00:00:44,550 --> 00:00:51,090
+crear la estructura básica el esqueleto básico de una página web de acuerdo si nos vamos a Wikipedia
+
+9
+00:00:51,120 --> 00:00:59,180
+podemos ver que HTML significa hipertexto Markup Language y es un lenguaje de marcas de hipertexto y
+
+10
+00:00:59,190 --> 00:01:06,510
+básicamente nos permite hacer la estructura básica de una página web de acuerdo por ejemplo cualquier
+
+11
+00:01:06,510 --> 00:01:13,200
+página web si le damos clic derecho en nuestro navegador a ver código fuente de la página vamos a ver
+
+12
+00:01:13,290 --> 00:01:20,460
+una serie de código y este código que vemos aquí en su mayoría es HTML de acuerdo por ejemplo aquí estamos
+
+13
+00:01:20,460 --> 00:01:27,960
+viendo cómo se abre la estructura de la página HTML como si lo pone un título Cómo se dibuja una tabla
+
+14
+00:01:27,960 --> 00:01:29,930
+con HTML etcétera.
+
+15
+00:01:30,140 --> 00:01:35,580
+Entonces HTML normal no es más que un lenguaje etiquetado un lenguaje de marcas para interpretar una
+
+16
+00:01:35,580 --> 00:01:43,800
+página web en HTML podemos meter texto podemos meter imágenes vídeos contenido de acuerdo y básicamente
+
+17
+00:01:44,400 --> 00:01:50,700
+dentro de una página web HTML la estructura fundamental es la parte en la que está el texto de nuestra
+
+18
+00:01:50,700 --> 00:01:54,690
+página web en la que están las imágenes de nuestra página web y HTML.
+
+19
+00:01:54,690 --> 00:02:00,090
+Realmente no tiene nada que ver con la apariencia visual de una web simplemente en la estructura de
+
+20
+00:02:00,090 --> 00:02:00,870
+la web.
+
+21
+00:02:00,900 --> 00:02:07,950
+Luego para darle estilo y para darle un diseño a nuestra web ya utilizaríamos otro lenguaje que tampoco
+
+22
+00:02:07,950 --> 00:02:14,070
+es un lenguaje de programación como tal pero sí que es un lenguaje de maquetación que es el lenguaje
+
+23
+00:02:14,070 --> 00:02:20,880
+CSS que significa hojas de estilos en cascada entonces con HTML hacemos la estructura básica de nuestra
+
+24
+00:02:20,880 --> 00:02:29,790
+página web y con CSS le damos estilo por el momento vamos a estar aprendiendo HTML que es el lenguaje
+
+25
+00:02:29,790 --> 00:02:37,110
+de marcas de hipertexto que nos va a permitir eso definir nuestra web de manera básica para trabajar
+
+26
+00:02:37,170 --> 00:02:38,120
+con HTML.
+
+27
+00:02:38,130 --> 00:02:43,890
+Vamos a necesitar un navegador web como puede ser el caso de Mozilla Firefox o como puede ser el caso
+
+28
+00:02:43,890 --> 00:02:50,220
+de Google Crown que es el que yo voy a estar utilizando de acuerdo para poder ver página web.
+
+29
+00:02:50,310 --> 00:02:53,550
+Nosotros vamos a utilizar siempre un navegador web de toda la vida.
+
+30
+00:02:53,550 --> 00:03:00,150
+Cuando entras en Facebook está utilizando un navegador web para verlo y para estar programando o para
+
+31
+00:03:00,150 --> 00:03:03,900
+estar creando nuestras páginas Web básicas con HTML.
+
+32
+00:03:03,930 --> 00:03:08,160
+Vamos a estar necesitando un navegador web para ir cargando ahí nuestra página web.
+
+33
+00:03:08,160 --> 00:03:15,090
+De hecho si te das cuenta aquí esta página de Google Crom es un índex punto HTML es decir es un fichero
+
+34
+00:03:15,540 --> 00:03:23,160
+HTML y esto es una página HTML con su estilo CSS también de acuerdo pero simplemente quiero que te quedes
+
+35
+00:03:23,160 --> 00:03:31,560
+en esta clase que HTML es el lenguaje con el que se hace la estructura básica de una página web y luego
+
+36
+00:03:31,560 --> 00:03:37,740
+para poder hacer las páginas web necesitamos un programa con el que codificar nuestro HTML.
+
+37
+00:03:37,740 --> 00:03:42,660
+En mi caso voy a estar utilizando su blend text aunque realmente podría utilizar cualquier editor de
+
+38
+00:03:42,660 --> 00:03:49,210
+texto plano como por ejemplo el bloc de notas de Windows o cualquier otro editor de texto de acuerdo
+
+39
+00:03:49,230 --> 00:03:55,580
+pero en nuestro caso vamos a estar utilizando el suplentes para hacerlo un poco más profesional.
+
+40
+00:03:55,620 --> 00:04:00,120
+Entonces ya hemos visto lo que es HTML y ya hemos visto las herramientas que vamos a utilizar para crear
+
+41
+00:04:00,120 --> 00:04:01,760
+nuestras páginas web desde cero.

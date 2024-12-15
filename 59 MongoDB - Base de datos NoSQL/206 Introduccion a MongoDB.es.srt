@@ -1,0 +1,59 @@
+1
+00:00:00,690 --> 00:00:06,300
+En esta sección del curso vamos a ver una introducción a MongoDB mode es un sistema gestor de base de
+
+2
+00:00:06,300 --> 00:00:14,100
+datos no SQL de acuerdo es el sistema gestor de base de datos SQL líder en el mercado actualmente y
+
+3
+00:00:14,130 --> 00:00:19,220
+en esta sección vamos a ver de qué se trata y cómo funciona de manera básica.
+
+4
+00:00:19,290 --> 00:00:28,350
+Vamos a ver qué es no SQL y SQL y la teoría a grandes rasgos de cómo debe y la diferencia entre un sistema
+
+5
+00:00:28,350 --> 00:00:32,930
+gestor de bases de datos no SQL y SQL como SQL.
+
+6
+00:00:32,970 --> 00:00:36,860
+Veremos una clase bastante extensa hablando de esto.
+
+7
+00:00:36,960 --> 00:00:42,230
+Después pasaremos a la instalación de MongoDB veremos cómo instalarlo en nuestro sistema operativo.
+
+8
+00:00:42,240 --> 00:00:48,690
+Aprenderemos también comandos básicos y cómo administrarlo de manera visual utilizando el programa robo
+
+9
+00:00:48,690 --> 00:00:52,060
+3T anteriormente conocido como robo Monkey.
+
+10
+00:00:52,560 --> 00:01:00,110
+Y una vez que aprendamos todo esto ya pasaremos a desarrollar un Bakken con DJs utilizando uno RM Paramonga
+
+11
+00:01:00,120 --> 00:01:04,970
+de ve que se llama mongolos y además utilizando también expres para hacer el API.
+
+12
+00:01:05,190 --> 00:01:11,310
+Así que esto va a ser muy interesante y en esta sección vamos a estar hablando de MongoDB así que en
+
+13
+00:01:11,310 --> 00:01:15,490
+la siguiente clase ya empezamos con con la teoría de Mongo.
+
+14
+00:01:15,750 --> 00:01:21,300
+Espero que te sirva espero que te ayuden si tienes cualquier duda y a saber que me lo puedes poner en
+
+15
+00:01:21,300 --> 00:01:26,610
+el panel de pregunta y respuesta del curso y vamos a empezar a ver la introducción a modo de.

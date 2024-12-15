@@ -1,0 +1,191 @@
+1
+00:00:00,840 --> 00:00:03,760
+Ahora vamos a ver cómo hacer búsqueda dentro de una ley.
+
+2
+00:00:03,810 --> 00:00:09,390
+Esto es sencillo simplemente vamos a poner algún comentario búsquedas y lo hacemos aquí en este mismo
+
+3
+00:00:09,390 --> 00:00:13,500
+fichero Tengo una raíz de lenguajes.
+
+4
+00:00:13,510 --> 00:00:21,940
+Como ya hemos visto pues utilizar el método Fain y esto tiene una función de carga dentro en la cual
+
+5
+00:00:21,940 --> 00:00:27,850
+yo puedo utilizar puedo utilizar una función de Calvache normal de toda la vida que aquello le pasa
+
+6
+00:00:27,850 --> 00:00:36,340
+el lenguaje como parámetro lenguaje y que haga un Returned de en el caso que algún Returned de la comparación
+
+7
+00:00:36,340 --> 00:00:42,880
+entre lenguaje que es la variable que yo estoy usando como parámetro y la búsqueda que yo quiero hacer
+
+8
+00:00:42,980 --> 00:00:44,770
+a lo mejor yo quiero buscar PHP.
+
+9
+00:00:44,770 --> 00:00:52,200
+Quiero comprobar si esto nos devuelve Tru y no encuentra realmente el lenguaje vale y entonces esto
+
+10
+00:00:52,200 --> 00:00:56,800
+lo voy a mantener dentro de una variable que sea búsqueda.
+
+11
+00:00:56,800 --> 00:01:06,550
+Así es como se hace una búsqueda dentro de una raíz no voy a hacer un log para ver si realmente encuentra
+
+12
+00:01:06,550 --> 00:01:07,110
+búsqueda.
+
+13
+00:01:08,680 --> 00:01:10,310
+Efectivamente me encuentro PHP.
+
+14
+00:01:10,420 --> 00:01:15,050
+Si pusiera otro lenguaje PHP 7 vamos a ponerle y actualizo la pantalla.
+
+15
+00:01:15,050 --> 00:01:21,160
+Me va a decir aun definir por qué no lo encuentra bien pero esto lo puede reducir muchísimo este código
+
+16
+00:01:21,160 --> 00:01:26,670
+que he hecho aquí lo puedo reducir muchísimo simplemente haciendo esto como una función de flecha lo
+
+17
+00:01:26,760 --> 00:01:30,110
+a reducir un montón simplemente poniendo esto así.
+
+18
+00:01:31,000 --> 00:01:37,540
+Y cuando tenemos que hacer un RETURN simplemente cin sin gran cosa podemos hacerlo de esta manera simplemente
+
+19
+00:01:37,540 --> 00:01:44,290
+poniendo las flechas quitamos las llaves lo quitamos todo incluso vamos a quitar el return porque no
+
+20
+00:01:44,290 --> 00:01:51,340
+hace falta simplemente dejando la fecha y la comparación de acuerdo simplemente dejando la condición
+
+21
+00:01:51,340 --> 00:01:57,080
+aquí la comparación entre lenguaje y el string que yo estoy pasando que quiero buscar.
+
+22
+00:01:57,100 --> 00:01:59,530
+Y con esto tendría el mismo resultado.
+
+23
+00:01:59,530 --> 00:02:02,750
+Efectivamente no lo encuentra pero si lo pongo PHP.
+
+24
+00:02:02,800 --> 00:02:04,810
+Normal que ese elemento sí que existe.
+
+25
+00:02:05,170 --> 00:02:09,820
+Pues si que me lo encuentra y así es como yo puedo comprobar si un elemento existe entre una raíz o
+
+26
+00:02:09,820 --> 00:02:17,680
+no de la misma forma si el método Find Index que nos permite en lugar de sacar el texto del lenguaje
+
+27
+00:02:17,680 --> 00:02:22,840
+que yo estoy buscando del elemento Bellotti buscando me permite sacar el índice en el cual se encuentra
+
+28
+00:02:23,620 --> 00:02:26,140
+efectivamente se encuentra en el índice cero.
+
+29
+00:02:26,150 --> 00:02:34,600
+Si yo buscara Jota Jota s en mayúscula me lo encontraría en el índice 1 y yo puedo hacer lo que quiera
+
+30
+00:02:34,630 --> 00:02:40,480
+con ese índice habiendo buscado el índice ya tengo no me Belarra y el índice donde se encuentra el elemento
+
+31
+00:02:40,480 --> 00:02:46,420
+que yo necesito sacar así que esta otra manera de hacer una búsqueda dentro de un array otro método
+
+32
+00:02:46,420 --> 00:02:53,440
+interesante más que para buscar para encontrar si hay valores de un tipo u otro dentro de una raíz es
+
+33
+00:02:53,470 --> 00:02:56,230
+que si yo tuviera por ejemplo una raíz de números
+
+34
+00:02:59,790 --> 00:03:01,140
+precios vamos a poner.
+
+35
+00:03:01,590 --> 00:03:11,670
+Si yo tuviera una red de números aquí que tuviera el 10 20 50 80 12 si yo tuviera este número yo puedo
+
+36
+00:03:11,690 --> 00:03:16,350
+buscar sobre este array de números Malet vamos a duplicar esta línea
+
+37
+00:03:19,110 --> 00:03:25,470
+y puedo hacer y puedo hacer un filtro para comprobar si existen valores mayores o menores o iguales
+
+38
+00:03:25,500 --> 00:03:28,260
+aún a un valor que yo quiera buscar.
+
+39
+00:03:28,260 --> 00:03:35,700
+En este caso voy a utilizar la red de precios que utiliza el método son de acuerdo al método eso nos
+
+40
+00:03:35,700 --> 00:03:50,430
+va a permitir comprobar si algún valor algún precio por ejemplo algún precio es mayor o igual a 20 por
+
+41
+00:03:50,430 --> 00:03:56,430
+ejemplo a ver cuántos elementos hay mayores o iguales a 20 o si realmente existen elementos mayoría
+
+42
+00:03:56,450 --> 00:04:03,140
+iguales a 20 y eso es lo que quiero yo saber me dice que ok y efectivamente Troop porque está el 20
+
+43
+00:04:03,130 --> 00:04:06,000
+el 50 y el 80 pero existen mayores a 80
+
+44
+00:04:09,620 --> 00:04:19,360
+me dice Truc porque existe uno que es 80 o en adelante pero existiria uno mayor a 80 false no existe.
+
+45
+00:04:19,910 --> 00:04:32,650
+Vale Mayora 79 existe dentro de la ley si vale incluso menor a 10 existe a decir que no.
+
+46
+00:04:33,190 --> 00:04:40,450
+Efectivamente pues para eso sirve este método son para buscar que cumplan una condición concreta si
+
+47
+00:04:40,450 --> 00:04:47,710
+son mayores o menores exactamente iguales o algo así hacer una búsqueda de ese tipo dentro de los elementos
+
+48
+00:04:47,710 --> 00:04:48,260
+de una raíz.

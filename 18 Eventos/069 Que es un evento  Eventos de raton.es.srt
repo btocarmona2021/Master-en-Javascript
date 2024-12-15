@@ -1,0 +1,615 @@
+1
+00:00:00,450 --> 00:00:02,380
+Ahora vamos a hablar acerca de los eventos.
+
+2
+00:00:02,460 --> 00:00:05,690
+Los eventos son funciones que se ejecutan cada vez que sucede algo.
+
+3
+00:00:05,690 --> 00:00:11,520
+Por ejemplo cuando el usuario mueve el ratón cuando el usuario le da clic a algo algún elemento.
+
+4
+00:00:11,520 --> 00:00:17,270
+Cuando el usuario escribe algo en un input cuando el usuario borra algo cuando el usuario redimensiona
+
+5
+00:00:17,270 --> 00:00:18,090
+la ventana.
+
+6
+00:00:18,150 --> 00:00:22,000
+Todo esto son eventos que pueden suceder dentro de nuestra página web.
+
+7
+00:00:22,070 --> 00:00:27,450
+Entonces con JavaScript podemos interactuar con todos los elementos de nuestra página web de manera
+
+8
+00:00:27,540 --> 00:00:33,660
+sencilla de acuerdo podemos hacer que cuando el usuario le dé clic a un botón pase cualquier cosa cuando
+
+9
+00:00:33,660 --> 00:00:37,370
+el usuario pase por encima de un elemento que pase cualquier otra cosa.
+
+10
+00:00:37,490 --> 00:00:43,350
+Entonces vamos a hablar acerca del evento y cómo funcionan dentro de JavaScript así que vamos a crear
+
+11
+00:00:43,350 --> 00:00:55,410
+un nuevo archivo dentro de la carpeta J.S. que se va a llamar XXX guión eventos punto JS vamos a cargar
+
+12
+00:00:55,410 --> 00:01:02,160
+nuestro archivo de momento podemos comentar los escritos que estamos cargando por aquí abajo los vamos
+
+13
+00:01:02,160 --> 00:01:10,260
+a comentar y vamos a cargar nuestro nuevo archivo por aquí abajo para que estén todos los elementos
+
+14
+00:01:10,260 --> 00:01:13,810
+del DOM cargados.
+
+15
+00:01:13,800 --> 00:01:18,600
+Bien pues sería el fichero XXX eventos.
+
+16
+00:01:19,530 --> 00:01:22,890
+Primero vamos a hablar acerca de los eventos de ratón.
+
+17
+00:01:22,950 --> 00:01:30,630
+De acuerdo Street un evento es una función que se ejecuta cuando sucede algo.
+
+18
+00:01:30,640 --> 00:01:35,580
+De acuerdo entonces vamos a ver los eventos de ratón eventos del ratón
+
+19
+00:01:39,500 --> 00:01:46,220
+de acuerdo tenemos eventos para cuando le demos clic a algo para cuando pasemos por encima de un elemento
+
+20
+00:01:46,280 --> 00:01:50,480
+y para cuando salgamos de ese elemento lo vamos a ver muy clarito.
+
+21
+00:01:50,510 --> 00:01:56,960
+Mira voy a crear ahora mismo en nuestra página web lo que tenemos es esto tenemos estas cosas de aquí
+
+22
+00:01:57,500 --> 00:02:06,950
+y vale pues vamos a borrar algunas cosas vamos a borrar la sección esta o la podemos cortar por aquí
+
+23
+00:02:06,950 --> 00:02:08,890
+abajo vale
+
+24
+00:02:12,400 --> 00:02:12,940
+entonces
+
+25
+00:02:18,090 --> 00:02:25,070
+voy a quitar este párrafo de aquí y aquí voy a poner un botón vale un botón de HTML para eso pongo la
+
+26
+00:02:25,070 --> 00:02:36,890
+etiqueta Bouton y le voy a poner un nombre presionarme Balet y le voy a poner una idea para poder identificarlo
+
+27
+00:02:37,030 --> 00:02:37,940
+y de que le voy a poner.
+
+28
+00:02:37,940 --> 00:02:44,440
+Va a ser botón guardo actualizo la pantalla y aquí me aparece sin ningún tipo de problema.
+
+29
+00:02:44,460 --> 00:02:55,640
+Voy a poner un H.R aquí para separarlo todo y voy a poner un B.R. entre el botón y la caja ver bien.
+
+30
+00:02:55,670 --> 00:02:56,890
+Hasta aquí todo genial.
+
+31
+00:02:56,900 --> 00:03:04,100
+Tenemos un botón y tenemos un un texto dentro de un DIV que de hecho debería meter el botón dentro de
+
+32
+00:03:04,100 --> 00:03:06,520
+un párrafo para que se viera mejor.
+
+33
+00:03:12,720 --> 00:03:18,250
+Vale ahora sí entonces tenemos un botón y una caja un dip con con una idea.
+
+34
+00:03:18,430 --> 00:03:26,680
+Vale pues nosotros podemos capturar o seleccionar ese botón dentro de una variable botón y lo podemos
+
+35
+00:03:26,680 --> 00:03:37,210
+seleccionar con el selector documento punto y selector y recogemos el elemento con el botón oro con
+
+36
+00:03:37,260 --> 00:03:45,790
+punto y cómo puedo hacer dos cosas captura de evento en el html poniendo el atributo por ejemplo en
+
+37
+00:03:45,790 --> 00:03:51,190
+este caso vamos a ver el clic pues podría poner el evento on click.
+
+38
+00:03:51,190 --> 00:03:56,320
+Si yo pongo el evento a un click cada vez que el usuario le dé clic en el botón aquí se va a ejecutar
+
+39
+00:03:56,320 --> 00:03:56,740
+algo.
+
+40
+00:03:56,770 --> 00:03:59,730
+Por ejemplo puedo poner una alerta aquí mismo.
+
+41
+00:04:02,320 --> 00:04:02,810
+Hola.
+
+42
+00:04:02,860 --> 00:04:05,170
+Me ha impresionado.
+
+43
+00:04:05,620 --> 00:04:06,740
+Puedo hacerlo así.
+
+44
+00:04:06,790 --> 00:04:12,460
+Esto es una manera clásica de ejecutar eventos en el evento a un click.
+
+45
+00:04:12,680 --> 00:04:18,550
+Fíjate lo que ha pasado cuando le he dado clic me ha lanzado él me ha presionado ha lanzado esa alerta
+
+46
+00:04:19,080 --> 00:04:23,470
+inclusive yo podría tener alguna función que lo hiciera sería cambiar el color.
+
+47
+00:04:23,470 --> 00:04:29,080
+Vale por ejemplo podría tener una función función cambiar
+
+48
+00:04:32,410 --> 00:04:43,990
+color y que esa función cambiara el color del propio botón de acuerdo entonces podría acceder al botón
+
+49
+00:04:47,140 --> 00:05:00,370
+y cambiar el estado del punto background que me cambia de color rojo vale y aquí podría hacer un para
+
+50
+00:05:00,370 --> 00:05:14,610
+que el color del botón se fuera alternando es decir que si el color cierto es exactamente igual a Grin
+
+51
+00:05:15,070 --> 00:05:21,980
+porque lo ponga rojo de acuerdo esto ya sabes que es recomendable si lo voy a llamar varias veces crear
+
+52
+00:05:21,980 --> 00:05:22,730
+una variable
+
+53
+00:05:25,700 --> 00:05:31,130
+para no estar reutilizando este trozo de código porque esto fuerza a volver a acceder a esas propiedades
+
+54
+00:05:31,220 --> 00:05:34,970
+y eso hace que el programa sea más lento entonces.
+
+55
+00:05:34,970 --> 00:05:38,550
+BG sí BG es igual igual a Grin.
+
+56
+00:05:38,620 --> 00:05:42,600
+Pues que lo ponga rojo BG igual a rojo.
+
+57
+00:05:42,620 --> 00:05:46,970
+Y si no pues que lo ponga verde.
+
+58
+00:05:47,570 --> 00:05:56,210
+Vale esto es muy sencillo y así de sencillo así de simple.
+
+59
+00:05:56,340 --> 00:06:03,110
+Bien entonces si yo ejecuto esta función cambiar color en el botón.
+
+60
+00:06:03,650 --> 00:06:09,750
+El evento on click en el evento click que va a suceder cuando yo presiona el botón.
+
+61
+00:06:09,740 --> 00:06:14,450
+Esto es un evento pues aquí yo voy a llamar a la función cambiar color.
+
+62
+00:06:15,420 --> 00:06:20,620
+Vale que tengo en mi código de JavaScript guardado.
+
+63
+00:06:20,620 --> 00:06:28,160
+Vale tengo ahí la función definida y la llamo el HTML porque tengo incrustado aquí incluido mi escribir
+
+64
+00:06:28,160 --> 00:06:29,480
+de JavaScript.
+
+65
+00:06:29,480 --> 00:06:35,990
+Genial entonces actualizo la pantalla le doy click aquí no pasa absolutamente nada por qué no pasa nada
+
+66
+00:06:35,990 --> 00:06:40,340
+porque realmente no estará ejecutando la función cambiar color realmente.
+
+67
+00:06:40,400 --> 00:06:47,540
+Entonces tenemos que ver si realmente se la está ejecutando o no simplemente tendría que hacer un consolé
+
+68
+00:06:47,680 --> 00:06:48,620
+Autolog.
+
+69
+00:06:49,710 --> 00:06:58,450
+Y aquí poner meas has dado click vale actualizo la pantalla me has dado click me ha dado click click
+
+70
+00:06:58,660 --> 00:07:00,110
+y funciona perfectamente.
+
+71
+00:07:00,110 --> 00:07:05,290
+Vale entonces el problema es que yo tengo aquí la variable Berge pero no puedo asignarle otro valor
+
+72
+00:07:05,320 --> 00:07:09,770
+porque si no machaca lo que tengo aquí entonces sí que puedo utilizar la variable para comprobar que
+
+73
+00:07:09,770 --> 00:07:13,330
+hay dentro pero realmente lo que tengo que hacer es asignarle el valor de esta manera
+
+74
+00:07:18,340 --> 00:07:20,140
+a la propiedad en background.
+
+75
+00:07:20,180 --> 00:07:25,010
+Vale botón punto tal es igual a el color que queda.
+
+76
+00:07:25,070 --> 00:07:27,280
+De esta manera así que debe ir alternando.
+
+77
+00:07:27,330 --> 00:07:28,470
+Esto hizo la pantalla.
+
+78
+00:07:28,550 --> 00:07:34,670
+Efectivamente si le voy dando click fíjate lo que va pasando mal me va alternando el color mientras
+
+79
+00:07:34,670 --> 00:07:37,340
+que yo le voy dando click y aquí abajo se me está marcando.
+
+80
+00:07:37,370 --> 00:07:42,290
+Cuantas veces le estoy dando click al botón con lo cual ya estamos capturando el evento del click sin
+
+81
+00:07:42,290 --> 00:07:45,140
+ningún tipo de problema.
+
+82
+00:07:45,190 --> 00:07:47,660
+Vale incluso podría utilizar esto mucho más
+
+83
+00:07:54,040 --> 00:07:55,210
+podía ponerle un patín
+
+84
+00:07:58,370 --> 00:08:04,850
+de 10 px y podría incluso quitarle el borde o ponerle otro
+
+85
+00:08:10,600 --> 00:08:19,850
+un PX Solid CC por ejemplo Malé y esto sería un estilo que estaría siempre de manera global.
+
+86
+00:08:19,850 --> 00:08:27,750
+Lo corto y lo pongo por aquí vale y se lo asignó a mi botón que acabo de seleccionar con el selector.
+
+87
+00:08:29,330 --> 00:08:36,440
+Efectivamente si le doy click fíjate lo que pasa cada vez que se ejecuta me cambia los estilo y tal.
+
+88
+00:08:36,530 --> 00:08:43,670
+Genial pues este era el evento clique donde yo puedo llamarlo de esta manera con los con los atributos
+
+89
+00:08:43,700 --> 00:08:50,450
+HTML que nos permiten hacer esto con los atributos que hay un click con Blur o en Choir todos los eventos
+
+90
+00:08:50,450 --> 00:08:53,750
+que hay incluso podría capturar el doble click.
+
+91
+00:08:53,780 --> 00:09:00,250
+De acuerdo eso se hace con el evento de l click.
+
+92
+00:09:00,260 --> 00:09:03,270
+De esa manera yo ahora si actualizo con un click no me vale.
+
+93
+00:09:03,290 --> 00:09:09,420
+Pero si le doy 2 rápidamente efectivamente me lo cambio me captura el evento del doble click y me ejecuta
+
+94
+00:09:09,500 --> 00:09:10,570
+ese método.
+
+95
+00:09:10,610 --> 00:09:18,670
+Vale pues yo puedo hacerlo de esta manera que está bien pero realmente no estamos encapsulan darlo todo
+
+96
+00:09:18,670 --> 00:09:25,180
+en la parte de JavaScript realmente estamos ensuciando nuestro código de HTML con código de Javascript
+
+97
+00:09:25,180 --> 00:09:30,460
+con lo cual estamos haciendo un poco de código espagueti aunque realmente esto no es muy grave pero
+
+98
+00:09:31,240 --> 00:09:37,640
+no es grave de hecho pero todo lo que podamos llevarnos a la parte de JavaScript y separarlo de la parte
+
+99
+00:09:37,640 --> 00:09:42,820
+de JavaScript mejor que mejor muchísimo mejor es una práctica muchísimo mejor y el código queda más
+
+100
+00:09:42,820 --> 00:09:48,430
+limpio de forma que esto lo vamos a quitar y simplemente quería que supieras que existe en esta manera
+
+101
+00:09:48,430 --> 00:09:50,750
+de llamar a los eventos.
+
+102
+00:09:50,770 --> 00:09:56,830
+Esta manera de capturar eventos y ejecutar una función cuando se produzca pero hay una forma mejor y
+
+103
+00:09:56,830 --> 00:10:05,050
+esa forma mejor es utilizando el ADB Lillehammer era de ver Lillehammer es una cosa similar a lo que
+
+104
+00:10:05,050 --> 00:10:13,930
+hace Kairi que puedes ejecutar un evento justo dentro del código de JavaScript y tener un escuchador
+
+105
+00:10:13,930 --> 00:10:20,820
+de eventos de acuerdo si yo tengo el botón aquí si yo tengo mi botón Vale.
+
+106
+00:10:21,140 --> 00:10:29,690
+Si yo tengo mi botón me lo voy a llevar para acá abajo si yo tengo mi botón sobre este objeto del botón
+
+107
+00:10:29,720 --> 00:10:36,330
+tengo ya disponible el método and even Líster.
+
+108
+00:10:36,560 --> 00:10:40,940
+De esta manera y un poco actual cualquier evento por ejemplo el evento click y esto tiene una función
+
+109
+00:10:40,940 --> 00:10:44,270
+de Calvache que en este caso la función de Calvache sería cambiar color.
+
+110
+00:10:45,170 --> 00:10:50,960
+Vale pero yo puedo definir una función predefinida y una función anónima perfectamente que nos sirva
+
+111
+00:10:50,960 --> 00:10:59,360
+también para hacer la funcionalidad que fuera y actriz de la pantalla me hice hace hace Veliz en TalCual
+
+112
+00:10:59,380 --> 00:11:04,460
+vale y aquí el problema es que no puedo pasar de una función tal cual debería pasarle una función de
+
+113
+00:11:04,460 --> 00:11:10,760
+Calvache que podría hacerlo con una función de flecha o simplemente poniendo función
+
+114
+00:11:14,610 --> 00:11:21,310
+y aquí dentro sí que puedo ejecutar ya ni cambiar color cuando se produzca eso.
+
+115
+00:11:21,320 --> 00:11:26,270
+Eso sí si autoriza la pantalla ahora va todo bien si yo doy click pam me lo cambias y vuelvo a dar clic
+
+116
+00:11:26,270 --> 00:11:26,810
+otra vez.
+
+117
+00:11:26,970 --> 00:11:32,510
+Vale y es lo mismo y el código está mil veces más limpio y puedo controlarlo muchísimo más que si lo
+
+118
+00:11:32,510 --> 00:11:38,780
+tengo que si tengo un poco de código JavaScript aquí con llamándolo evento aquí capturando los eventos
+
+119
+00:11:38,780 --> 00:11:39,910
+aquí y tal.
+
+120
+00:11:40,100 --> 00:11:45,920
+De esta manera pues separo mucho más el código y Casulo todo el código de JavaScript en un fichero JavaScript
+
+121
+00:11:45,980 --> 00:11:49,270
+y lo guardo de acuerdo lo separo.
+
+122
+00:11:49,400 --> 00:11:52,570
+Esto es mucho más eficiente.
+
+123
+00:11:52,670 --> 00:11:53,660
+Este sería el evento.
+
+124
+00:11:53,810 --> 00:11:58,340
+Click click captura el click.
+
+125
+00:11:58,340 --> 00:11:59,500
+Ya hemos visto el doble click.
+
+126
+00:11:59,520 --> 00:12:09,650
+También ahora vamos a ver el mouse over mouse over Balet que básicamente lo que hace es que cuando tú
+
+127
+00:12:09,650 --> 00:12:15,290
+pases por encima de un botón de acuerdo el típico efecto over de CSS.
+
+128
+00:12:15,280 --> 00:12:19,430
+Esto hace lo mismo cuando pasan por encima de algo te lo cambian de color.
+
+129
+00:12:19,580 --> 00:12:21,770
+Vamos a ver como hacerlo tenemos el botón.
+
+130
+00:12:21,920 --> 00:12:27,830
+Utiliza el método de bendiciones utiliza el evento mouse over.
+
+131
+00:12:27,860 --> 00:12:29,450
+Hay un montonazo de eventos.
+
+132
+00:12:30,360 --> 00:12:36,650
+Hay un listado muy grande de eventos pero vamos a ver nosotros los principales function y aquí dentro
+
+133
+00:12:36,660 --> 00:12:43,310
+dentro del Calvar pues podemos llamar a un método que haga un cambio de código que ejecute cualquier
+
+134
+00:12:43,310 --> 00:12:46,580
+cosa o incluso que le cambien los estilo a ese botón.
+
+135
+00:12:46,940 --> 00:12:56,930
+En este caso pediríamos botón punto está el punto background y le voy a poner un background CCF para
+
+136
+00:12:56,930 --> 00:12:59,600
+que cuando pasemos por encima se lo cambie el estilo.
+
+137
+00:12:59,600 --> 00:13:03,950
+Entonces tenemos la pantalla si paso por encima fíjate lo que has visto no cambio el estilo.
+
+138
+00:13:03,980 --> 00:13:04,900
+Si le doy clic.
+
+139
+00:13:05,050 --> 00:13:07,140
+Si pasa por encima le cambia el color.
+
+140
+00:13:07,160 --> 00:13:10,540
+Si vuelvo a tal y si se queda bien.
+
+141
+00:13:11,240 --> 00:13:18,020
+Luego tenemos otro evento que es el mouse Out que es igual que este pero simplemente captura el evento
+
+142
+00:13:18,020 --> 00:13:23,160
+o lance el evento cuando sales de pasar por encima con él con el cursor del ratón.
+
+143
+00:13:23,170 --> 00:13:29,810
+De acuerdo si yo voy a pasar por encima del ratón genial me ejecuta el mouse over y si salgo me va a
+
+144
+00:13:29,810 --> 00:13:37,370
+ejecutar el mouse out recuerdo el mouse de esa manera puedo hacer un efecto over de esta forma cuando
+
+145
+00:13:37,370 --> 00:13:41,960
+yo salga voy a ponerle un color blanco.
+
+146
+00:13:42,130 --> 00:13:49,370
+Vale cuando yo salga del botón paso por encima me pone este color y esto debería de funcionar mal vamos
+
+147
+00:13:49,370 --> 00:13:52,250
+a actualizar la pantalla pasa por encima.
+
+148
+00:13:53,150 --> 00:14:00,310
+Salgo y no me lo ejecuta correctamente es porque he puesto aquí Black Jack Black irrealmente es simplemente
+
+149
+00:14:00,310 --> 00:14:05,690
+poner Black vale de esa manera se actualizó la pantalla pasó por encima bien si salgo me lo puede negro
+
+150
+00:14:05,730 --> 00:14:12,860
+si le doy click me lo ponen ese color si salgo me lo vuelvo a poner negro vale entonces podían probar
+
+151
+00:14:12,860 --> 00:14:22,030
+con otros colores con el hielo y con él CCCP que es el gris claro si autorizó la pantalla pasó por encima
+
+152
+00:14:22,130 --> 00:14:27,140
+salgo me lo pone gris y encima le doy click y ahora voy a salir y me voy a poner gris.
+
+153
+00:14:27,190 --> 00:14:33,880
+Efectivamente entonces conecto eventos principalmente podemos manejar y podemos controlar las cosas
+
+154
+00:14:33,880 --> 00:14:37,780
+que pasan cuando yo muevo el cursor por encima o le doy click a un elemento.

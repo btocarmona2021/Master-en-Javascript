@@ -1,0 +1,267 @@
+1
+00:00:00,690 --> 00:00:02,960
+Ahora vamos a aprender a trabajar con las funciones.
+
+2
+00:00:02,970 --> 00:00:09,940
+Para eso voy a crear un nuevo archivo de JavaScript que se va a llamar diecinueve funciones junto JS.
+
+3
+00:00:10,080 --> 00:00:15,910
+Aquí vamos a estar trabajando con las funciones y voy a explicar qué son para qué sirven y cómo se utiliza.
+
+4
+00:00:15,930 --> 00:00:29,490
+Vamos a cargar el script por aquí es que 19 funciones bien vamos a poner el Deluxe Street y voy a estar
+
+5
+00:00:29,490 --> 00:00:32,490
+hablando de las funciones.
+
+6
+00:00:32,580 --> 00:00:37,800
+Las funciones son un grupo de órdenes agrupado con un nombre concreto es decir en una función y voy
+
+7
+00:00:37,800 --> 00:00:44,010
+a tener un conjunto de reglas de funciones de cosas que se van a ejecutar y yo puedo coger esa función
+
+8
+00:00:44,010 --> 00:00:49,200
+y reutilizarla tantas veces como quiera de acuerdo por ejemplo cuando yo estoy conduciendo un coche
+
+9
+00:00:49,470 --> 00:00:56,790
+tengo una función que es acelerar que combina varios elementos del motor y varios elementos del vehículo
+
+10
+00:00:56,790 --> 00:01:03,510
+en la dirección que nos van a hacer que van a hacer que el coche haga esa funcionalidad que es el acelerar
+
+11
+00:01:03,690 --> 00:01:10,700
+cuando frenamos pues también se ejecutan varias instrucciones dentro del coche en el motor en el freno
+
+12
+00:01:10,700 --> 00:01:13,050
+en tal para que el coche frene.
+
+13
+00:01:13,050 --> 00:01:20,400
+Vale entonces el vehículo tiene muchas funciones que se van ejecutando cuando son invocadas entonces
+
+14
+00:01:20,400 --> 00:01:25,020
+lo mismo en JavaScript y en cualquier lenguaje de programación una función es un conjunto de órdenes
+
+15
+00:01:25,020 --> 00:01:30,270
+que se van a ejecutar cuando nosotros invoquemos a la función de acuerdo que es que es una cápsula donde
+
+16
+00:01:30,270 --> 00:01:36,870
+están todas esas órdenes guardadas vale entonces vamos a ver como cómo se utilizan de todas formas te
+
+17
+00:01:36,870 --> 00:01:53,310
+voy a poner aquí una definición básica una función es una agrupación reutilizable de un conjunto de
+
+18
+00:01:53,400 --> 00:02:00,580
+instrucciones vale decir una agrupación reutilizable un conjunto de instrucciones que podemos estar
+
+19
+00:02:00,580 --> 00:02:04,220
+utilizando tantas veces como queramos y se encarga de hacer algo.
+
+20
+00:02:04,250 --> 00:02:10,120
+No vamos a ver una función de acuerdo antes hemos estado utilizando funciones como el Aulet como el
+
+21
+00:02:10,120 --> 00:02:16,480
+prompt que cada una de esas funciones hacía algo diferente de acuerdo pues podíamos reutilizar tantas
+
+22
+00:02:16,480 --> 00:02:18,660
+veces como quisiera o una función de eso.
+
+23
+00:02:18,700 --> 00:02:25,660
+Entonces cómo puedo crear una función en Javascript con la palabra reservada función función con esta
+
+24
+00:02:25,660 --> 00:02:33,850
+palabra reservada seguida del nombre de la función por ejemplo calculadora yo puedo crear una función
+
+25
+00:02:34,120 --> 00:02:42,220
+de acuerdo y esta función que simplemente me devuelva un texto aún consolé log o me devuelve un texto.
+
+26
+00:02:42,270 --> 00:02:47,940
+Cómo hacer que una función me devuelva un texto utilizando la palabra Return con la palabra Return.
+
+27
+00:02:47,940 --> 00:02:54,030
+La función me va a devolver algo en este caso que quiero que me devuelva pues que me devuelva Hola soy
+
+28
+00:02:54,090 --> 00:02:54,990
+la calculadora
+
+29
+00:02:58,790 --> 00:03:00,190
+vale ya puntico.
+
+30
+00:03:00,640 --> 00:03:04,820
+Entonces yo puedo llamar a éste a esta función tantas veces como yo quiera.
+
+31
+00:03:04,820 --> 00:03:14,690
+Vale puedo tener un consolé punto y dentro invocar a mi a mi función calculadora calculadora Badi invocarla
+
+32
+00:03:14,690 --> 00:03:15,680
+100 mil veces.
+
+33
+00:03:18,000 --> 00:03:19,750
+Vale la estoy invocando 100 mil veces.
+
+34
+00:03:19,760 --> 00:03:26,260
+Qué va a pasar que cuando yo ejecute mi código fijate lo que pasa ahora soy una calculadora o una calculadora.
+
+35
+00:03:26,300 --> 00:03:34,100
+Hola soy la calculadora simplemente llamando a la función invocando la ley incluso en lugar de hacer
+
+36
+00:03:34,100 --> 00:03:44,280
+el return podría tener dentro el propio consolé log dentro de la función podría tener un consolero console
+
+37
+00:03:44,330 --> 00:03:50,300
+punto lo que me dijera Hola soy la calculadora
+
+38
+00:03:53,630 --> 00:04:02,840
+y podría tener un consolero que diga así soy yo por ejemplo y simplemente conecto cada vez que invoca
+
+39
+00:04:02,840 --> 00:04:08,870
+a la calculadora se va a ejecutar eso cada vez que yo invoque esta función se va a ejecutar este conjunto
+
+40
+00:04:08,870 --> 00:04:11,140
+de instrucciones de acuerdo.
+
+41
+00:04:11,180 --> 00:04:12,830
+De esta manera defino la función
+
+42
+00:04:16,720 --> 00:04:22,370
+y cada vez que la llame se van a ejecutar este conjunto de instrucciones
+
+43
+00:04:29,170 --> 00:04:34,100
+vale y pues simplemente esto es invocar o llamar
+
+44
+00:04:36,830 --> 00:04:39,440
+a la función.
+
+45
+00:04:39,850 --> 00:04:46,580
+Entonces si actualizo la pantalla pues mira me dice esto se llamará tantas veces como quisiera la calculadora
+
+46
+00:04:46,790 --> 00:04:52,890
+me va a sacar va a hacer la funcionalidad que haga la función va a hacer las va a ejecutar lo que tenga
+
+47
+00:04:52,890 --> 00:04:57,100
+que ejecutar la función tantas veces como yo llame a la función vale.
+
+48
+00:04:57,650 --> 00:05:00,590
+Efectivamente y con el return.
+
+49
+00:05:00,590 --> 00:05:03,560
+Pues yo podría devolver un valor en la función.
+
+50
+00:05:03,560 --> 00:05:10,220
+Así de sencillo yo aquí puedo tener mil variables definidas puedo tener mil millones de cosas ni millones
+
+51
+00:05:10,220 --> 00:05:11,570
+de instrucciones a ejecutarse.
+
+52
+00:05:11,570 --> 00:05:16,440
+Lógica compleja y tal y esa lógica se va a ejecutar cada vez que yo quiera llamando a la función.
+
+53
+00:05:16,520 --> 00:05:23,780
+Vale si no quiero poner un consuelo pues simplemente con el return me va a servir y de hecho puedo hacer
+
+54
+00:05:23,780 --> 00:05:25,440
+un RETURN.
+
+55
+00:05:25,480 --> 00:05:31,370
+Vale no solamente puedo hacer esto y no ponerle un retuve sino que yo puedo hacer una funcionalidad
+
+56
+00:05:31,370 --> 00:05:36,860
+que escupa cosas por consola o lo que sea pero además hacer un RETURN y eso no se va a ver en un principio
+
+57
+00:05:37,910 --> 00:05:42,210
+no se va a ver porque aquí simplemente se ejecuta lo que es visual vale.
+
+58
+00:05:42,290 --> 00:05:51,380
+Pero si yo llamara a la función si yo calculadora calculadora vamos bien calculadora si yo llamo a la
+
+59
+00:05:51,380 --> 00:05:54,290
+función desde la consola me devuelve el consuelo.
+
+60
+00:05:54,290 --> 00:05:56,540
+1 el 2 y me devuelve el string.
+
+61
+00:05:56,600 --> 00:05:59,150
+Hola soy la calculadora qué es lo que devuelve la función.
+
+62
+00:05:59,150 --> 00:06:00,870
+Realmente vale.
+
+63
+00:06:00,870 --> 00:06:08,810
+Incluso si yo solamente invocará una vez a la calculadora a la función y la meto dentro de una variable
+
+64
+00:06:08,900 --> 00:06:16,270
+resultado y a mí se me ocurre hacer un console log del resultado
+
+65
+00:06:20,740 --> 00:06:27,510
+pues me devuelve Hola soy la calculadora de hecho lo más recomendable es que si la función devuelve
+
+66
+00:06:27,510 --> 00:06:32,360
+un dato no imprimir cosas por aquí pero ya hemos visto cómo funciona.
+
+67
+00:06:32,370 --> 00:06:39,390
+Cómo hacer una función que es una función a grandes rasgos ya hemos visto lo más básico de las funciones.

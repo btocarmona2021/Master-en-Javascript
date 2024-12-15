@@ -1,0 +1,455 @@
+1
+00:00:00,930 --> 00:00:07,950
+Ya tenemos el .6 también hecho así que voy a marcarlo en verde y vamos al punto 7 que dice que hay que
+
+2
+00:00:07,950 --> 00:00:16,500
+crear una sección sobre mí en la que habrá un acordeón de Cury Highway de acuerdo para eso vamos a crear
+
+3
+00:00:16,500 --> 00:00:24,510
+una nueva página en nuestro proyecto que va a ser básicamente igual que la que tenemos aquí pero simplemente
+
+4
+00:00:24,600 --> 00:00:26,830
+el centro de la web no va a tener lo mismo.
+
+5
+00:00:26,850 --> 00:00:33,420
+Vamos a crear un nuevo archivo que se va a llamar sobre mí o about.
+
+6
+00:00:33,420 --> 00:00:43,110
+Vamos a ponerle Aboud punto HTML y aquí vamos a copiar pues el índex HTML entero y le vamos a cambiar
+
+7
+00:00:43,110 --> 00:00:54,180
+algunas cositas vamos a copiar y vamos a pegar la parte de los post la vamos a cambiar por otra cosa
+
+8
+00:00:54,870 --> 00:01:03,990
+vale el 6 básico lo vamos a dejar Boks como IDE algo genérico y aquí es donde cargaremos el acordeón
+
+9
+00:01:07,710 --> 00:01:09,130
+o.
+
+10
+00:01:09,500 --> 00:01:18,380
+El resto de cosas para que se quede igual en el Leider lo podemos quitar incluso si lo podríamos quitar
+
+11
+00:01:18,410 --> 00:01:20,690
+porque en esta página no lo vamos a estar usando
+
+12
+00:01:23,180 --> 00:01:29,750
+moment JS también lo podemos quitar.
+
+13
+00:01:30,440 --> 00:01:30,890
+Vale.
+
+14
+00:01:30,890 --> 00:01:40,130
+él es líder en HTML también lo vamos a quitar y vamos a enlazar desde índex a esa página a la página
+
+15
+00:01:40,130 --> 00:01:41,940
+sobre mí.
+
+16
+00:01:42,080 --> 00:01:53,230
+Aquí vamos a hacer un link a about punto HTML y aquí en esta parte de alguien esté about HTML también
+
+17
+00:01:53,700 --> 00:02:01,400
+About.com HTML y esto me lleve al índex punto HTML y aquí pues también
+
+18
+00:02:04,830 --> 00:02:06,690
+índex punto HTML.
+
+19
+00:02:06,800 --> 00:02:12,080
+Guardo actualizo la pantalla y ahora puedo ir a la página sobre mí.
+
+20
+00:02:12,080 --> 00:02:21,590
+Efectivamente aquí la tenemos completamente limpia y sigue funcionando todo bien salvo el tema del JavaScript
+
+21
+00:02:22,380 --> 00:02:27,280
+que claro ahora realmente hay cosas que no cargan.
+
+22
+00:02:27,290 --> 00:02:28,290
+Por.
+
+23
+00:02:30,390 --> 00:02:38,930
+Porque no tenemos las librerías correctamente importadas porque muchas cosas las utilizan vale la parte
+
+24
+00:02:40,430 --> 00:02:41,960
+de galería.
+
+25
+00:02:42,080 --> 00:02:46,480
+Esto solamente debería cargarse si estamos en la página index.
+
+26
+00:02:46,640 --> 00:02:48,450
+Cómo podríamos comprobar eso.
+
+27
+00:02:48,460 --> 00:02:55,850
+Pues aquí podríamos hacer UNIV vamos a hacer un hit por aquí y vamos a comprobar si en el Location de
+
+28
+00:02:55,850 --> 00:02:58,460
+la web está índex o que está.
+
+29
+00:02:58,470 --> 00:03:07,250
+Y de esa manera cargamos una cosa o cargamos otra vale podemos hacer window punto location punto HR-V
+
+30
+00:03:08,760 --> 00:03:15,520
+punto índex off y pudo comprobar si existe índex.
+
+31
+00:03:15,560 --> 00:03:23,690
+En el caso de que exista índex que sea mayor a menos uno pues entonces que cargue esto en el caso de
+
+32
+00:03:23,690 --> 00:03:30,520
+que no se actualice la pantalla ahora me sigue sin funcionar el JavaScript aquí en el inicio.
+
+33
+00:03:30,570 --> 00:03:32,700
+Que me carga vale.
+
+34
+00:03:32,900 --> 00:03:35,780
+De hecho voy a comprobar qué error me da JavaScript.
+
+35
+00:03:35,780 --> 00:03:42,230
+Voy a darle a más herramientas herramientas de desarrollador y veo que también me carga porque tampoco
+
+36
+00:03:42,240 --> 00:03:47,720
+está lo estamos utilizando porque eso solamente lo utilizamos en el Indec así que vamos a utilizar esta
+
+37
+00:03:47,720 --> 00:03:51,710
+misma condición para ver si realmente
+
+38
+00:03:55,610 --> 00:03:57,060
+lo podemos utilizar.
+
+39
+00:03:57,200 --> 00:04:04,640
+Eso sería en este caso en el caso de los de los post vale así que también vamos a hacer una condición
+
+40
+00:04:04,640 --> 00:04:11,650
+para que solamente se ejecute cuando estemos en el Index valés y guardo y actualizo la pantalla.
+
+41
+00:04:11,720 --> 00:04:18,100
+Ahora ya no me ocupa el error el JavaScript funciona en el caso de que tenga que funcionar y en el índex
+
+42
+00:04:18,130 --> 00:04:23,720
+pues también me funciona lo que tiene que funcionar vale de esa manera pues utilizamos el mismo archivo
+
+43
+00:04:23,840 --> 00:04:28,000
+y simplemente cargamos las cosas que son necesarias cuando sean necesarias.
+
+44
+00:04:28,420 --> 00:04:35,210
+Vale o también otra estrategia que podríamos seguir es hacer archivo JavaScript separados cada uno para
+
+45
+00:04:35,210 --> 00:04:35,720
+una cosa.
+
+46
+00:04:35,720 --> 00:04:39,040
+Eso también lo podemos hacer sin ningún tipo de problema.
+
+47
+00:04:39,590 --> 00:04:44,660
+De hecho sería una buena práctica separarlo cada funcionalidad en un archivo JavaScript incluir ese
+
+48
+00:04:44,660 --> 00:04:49,810
+archivo en las páginas que sea necesario vale.
+
+49
+00:04:49,940 --> 00:04:53,080
+Pero bueno aquí vamos a hacerlo en un fichero nada más.
+
+50
+00:04:53,120 --> 00:04:58,030
+Pero te dejo como ejercicio que se pare en diferentes archivos y lo vaya incluyendo en el proyecto.
+
+51
+00:04:58,610 --> 00:05:04,560
+Entonces aquí lo que vamos a hacer va a ser incluir el acordeón de QWERTY Higüey vale.
+
+52
+00:05:04,640 --> 00:05:09,670
+Cómo podemos incluir jQuery uy en el proyecto y en esta página.
+
+53
+00:05:09,750 --> 00:05:17,570
+Pues como hemos hecho en el proyecto de antes teníamos la carpeta de jQuery UI y también en el archivo
+
+54
+00:05:17,570 --> 00:05:20,670
+interfaz lo habíamos incluido de esta manera.
+
+55
+00:05:20,690 --> 00:05:22,570
+Así que vamos a hacer la misma historia.
+
+56
+00:05:22,730 --> 00:05:31,100
+Vamos a ir a la carpeta del curso y vamos a entrar a la carpeta aprendiendo jQuery J.S. Y vamos a copiar
+
+57
+00:05:31,100 --> 00:05:32,810
+el GIC Cury Highway.
+
+58
+00:05:32,810 --> 00:05:40,110
+Vale lo vamos a copiar y no lo vamos a llevar al proyecto JS dentro de la carpeta.
+
+59
+00:05:40,580 --> 00:05:42,310
+Vale y aquí lo vamos a pegar.
+
+60
+00:05:43,100 --> 00:05:52,130
+Y ahora simplemente copiamos la importación del archivo necesario de el archivo interface punto HTML
+
+61
+00:05:52,220 --> 00:05:55,750
+y no llevamos al Aboud.
+
+62
+00:05:56,060 --> 00:05:57,100
+Vale ya lo tenemos.
+
+63
+00:05:57,100 --> 00:06:03,780
+Ya tenemos nuestro jQuery UI importado y ya debe estar funcionando bien.
+
+64
+00:06:03,800 --> 00:06:08,260
+Ahora vamos a utilizar el acordeón la pantalla aquí no hay ningún tipo de problema.
+
+65
+00:06:08,500 --> 00:06:15,670
+Vamos a utilizar el acordeón así que vamos a nuestro box a nuestro DIV con IDEP Box y para utilizar
+
+66
+00:06:15,670 --> 00:06:18,580
+el acordeón tenemos que crear un DIV con un IDE.
+
+67
+00:06:18,600 --> 00:06:21,400
+En este caso vamos a ponerle el acordeón
+
+68
+00:06:25,070 --> 00:06:32,070
+cerramos el DIB y vamos a ponerle una H3 por cada sección que vaya a tener el acordeón.
+
+69
+00:06:32,070 --> 00:06:42,210
+En este caso vamos a poner quiénes somos y luego debemos tener un chip un párrafo aquí meter el texto
+
+70
+00:06:42,210 --> 00:06:43,640
+que yo quiera.
+
+71
+00:06:44,130 --> 00:06:52,230
+Vamos a meter un Loreen Ipsum Balet como éste un texto de prueba y así esto sería una de las pestañita
+
+72
+00:06:52,230 --> 00:06:55,140
+del acordeón vale porque si yo me voy a mi JavaScript
+
+73
+00:06:59,140 --> 00:07:07,650
+yo voy a coger la condición que he hecho aquí para hacer el acordeón solamente cuando yo esté en Abat
+
+74
+00:07:07,660 --> 00:07:09,480
+en la página de.
+
+75
+00:07:10,010 --> 00:07:15,620
+También podría crearme un archivo separado para hacer cada funcionalidad o para cada página HTML que
+
+76
+00:07:15,620 --> 00:07:16,210
+yo tengo.
+
+77
+00:07:16,210 --> 00:07:17,940
+Vale soy como tú quieras.
+
+78
+00:07:18,050 --> 00:07:23,040
+Aquí tendría que comprobar si existe en la web real de la palabra about.
+
+79
+00:07:23,210 --> 00:07:27,890
+En el caso de que esto existiera pues aquí yo puedo utilizar
+
+80
+00:07:30,930 --> 00:07:38,880
+el selector de élide acordeón que hemos creado antes y utilizar el método acordeón
+
+81
+00:07:41,770 --> 00:07:47,620
+vale de esa manera si actualizo la pantalla ahora aquí me aparece mi acordeón fíjate me aparece solamente
+
+82
+00:07:47,620 --> 00:07:56,590
+con un tap o con un elemento porque realmente no tiene más al box le voy a poner también un tamaño concreto
+
+83
+00:07:56,620 --> 00:08:05,980
+para que no sea tan grande Boggs a ese Dib le voy a dar un tamaño de un tuit de un 60 por ciento vale
+
+84
+00:08:06,010 --> 00:08:16,240
+para que no sea tan grande y también de poner un float le vaya actualizo la pantalla y ahí queda.
+
+85
+00:08:16,240 --> 00:08:18,100
+También le voy a dar un margen superior
+
+86
+00:08:20,860 --> 00:08:22,750
+de 40 pixeles.
+
+87
+00:08:22,840 --> 00:08:27,140
+Guardo actualizó la pantalla y ahí tenemos el acordeón.
+
+88
+00:08:27,230 --> 00:08:31,170
+Ahora vamos a meterle un poco más de datos al acordeón.
+
+89
+00:08:31,180 --> 00:08:36,710
+No vamos a meterle varias secciones como ésta cada sección de ésta o cada trozo de código igual que
+
+90
+00:08:36,710 --> 00:08:39,710
+este será una de las Tapp que va a tener el acordeón.
+
+91
+00:08:39,760 --> 00:08:43,530
+Fíjate que el acordeón puede estar funcionando perfectamente.
+
+92
+00:08:43,990 --> 00:08:54,640
+Vale también voy a ponerle un H 2 que diga sobre nosotros o sobre mi sobre mi
+
+93
+00:08:57,630 --> 00:08:58,720
+vale que lo tenemos
+
+94
+00:09:01,360 --> 00:09:07,940
+podemos ponerle incluso este tipo de estilo un HD2 dentro de un post así que vamos a copiar esos estilos
+
+95
+00:09:07,960 --> 00:09:08,710
+CSS
+
+96
+00:09:12,230 --> 00:09:14,430
+vale un post H2.
+
+97
+00:09:14,990 --> 00:09:15,800
+Realmente
+
+98
+00:09:18,280 --> 00:09:21,090
+vamos a aplicarlo de manera global a la web.
+
+99
+00:09:21,390 --> 00:09:22,620
+Se autorizó la pantalla.
+
+100
+00:09:22,640 --> 00:09:25,690
+Vale hoy se queda mucho mejor.
+
+101
+00:09:25,690 --> 00:09:26,120
+Vale.
+
+102
+00:09:26,130 --> 00:09:30,320
+Y también le vamos a poner los estilos de la letra que tiene los post
+
+103
+00:09:33,330 --> 00:09:35,640
+o que se actualizan en la pantalla.
+
+104
+00:09:35,740 --> 00:09:37,090
+Ahí se ve mucho mejor.
+
+105
+00:09:37,080 --> 00:09:43,100
+Vale entonces al acordeón le estábamos poniendo unos estilos
+
+106
+00:09:45,590 --> 00:09:48,110
+también le vamos a poner unos estilos al acordeón
+
+107
+00:09:50,790 --> 00:09:55,160
+margin top de 20 pixeles
+
+108
+00:09:59,000 --> 00:10:04,400
+vale y aquí tenemos ya nuestro acordeón vamos a por quiénes somos nuestros servicios
+
+109
+00:10:08,650 --> 00:10:21,090
+aquí en el segundo H3 nuestros servicios y nuestros clientes.
+
+110
+00:10:21,090 --> 00:10:27,990
+Vale y ya tenemos nuestro acordeón de Highway montado y nuestra página de sobre.
+
+111
+00:10:28,030 --> 00:10:34,090
+Esto evidentemente si tuviéramos que meter información real pues quedaría bastante bastante bien o incluso
+
+112
+00:10:34,090 --> 00:10:38,980
+cambiar los colores del tema de QWERTY para que se adaptara a los colores de nuestro tema.
+
+113
+00:10:38,980 --> 00:10:44,730
+Todo eso se puede hacer de una manera muy sencilla como ya hemos estado viendo durante el curso.
+
+114
+00:10:44,740 --> 00:10:48,130
+Así que este punto número 7 también ya lo tenemos hecho.

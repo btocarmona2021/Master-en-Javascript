@@ -1,0 +1,115 @@
+1
+00:00:00,980 --> 00:00:07,650
+Bien ahora vamos a empezar a desarrollar nuestro proyecto de angular y vamos a dividirlo en varios puntos
+
+2
+00:00:07,650 --> 00:00:10,530
+que he detallado en este documento.
+
+3
+00:00:10,530 --> 00:00:15,480
+El primero sería maquetar una web parecida a esta de acuerdo no tienen por qué ser exactamente igual
+
+4
+00:00:15,510 --> 00:00:21,390
+pero va a ser una web parecida a esta en la cual tendremos un menú que será también la cabecera de la
+
+5
+00:00:21,390 --> 00:00:29,380
+página web con varias como central de menú una cabecera por aquí y un sobre mí.
+
+6
+00:00:29,390 --> 00:00:31,300
+Eso sí en la página principal.
+
+7
+00:00:31,610 --> 00:00:34,900
+Esto va a ser una web de un portafolio de un portafolio personal.
+
+8
+00:00:34,910 --> 00:00:36,620
+Por ejemplo el mío.
+
+9
+00:00:36,830 --> 00:00:43,250
+Entonces voy a tener una página sobre mí tendré otra sección de trabajos y todas las secciones que quiera.
+
+10
+00:00:43,310 --> 00:00:48,680
+Lo principal es que haya una página como ésta y también vamos a tener una página que lo haremos más
+
+11
+00:00:48,680 --> 00:00:53,240
+adelante con los proyectos que hayamos hecho sino un listado de proyectos que saldrán de la base de
+
+12
+00:00:53,240 --> 00:00:57,230
+datos y que para eso utilizaremos el baking que hemos estado creando con DJs.
+
+13
+00:00:57,800 --> 00:01:03,170
+Entonces lo primero que haremos será maquetar una web como ésta de acuerdo primero crearemos los componentes
+
+14
+00:01:03,590 --> 00:01:14,420
+El Html básico de las secciones Ital y entonces daremos con HTML5 y CSS3.
+
+15
+00:01:14,480 --> 00:01:20,180
+Segundo haremos las diferentes secciones de la web cada una en una página distinta la sección de proyecto
+
+16
+00:01:20,180 --> 00:01:26,140
+la sección de sobre mí la sección de crear proyectos la sección de contacto etcétera.
+
+17
+00:01:26,250 --> 00:01:32,000
+Crearemos esas secciones de esas páginas luego en la sección de crear el proyecto haremos un formulario
+
+18
+00:01:32,000 --> 00:01:38,300
+que guarde nuevo proyecto en nuestro Bakken mediante nuestro Bakken en la base de datos utilizando la
+
+19
+00:01:38,300 --> 00:01:43,490
+pirrol que hemos creado luego limitaremos todos esos proyectos en la sección de proyectos de acuerdo
+
+20
+00:01:43,610 --> 00:01:46,550
+y lo mostraremos de una manera parecida a ésta.
+
+21
+00:01:47,540 --> 00:01:53,450
+Luego tendremos una página individual para cada proyecto es decir que si le damos clic a uno de los
+
+22
+00:01:53,450 --> 00:01:57,530
+proyectos entraremos a una página individual con todos los detalles de ese proyecto.
+
+23
+00:01:57,530 --> 00:02:04,460
+Tendremos un botón de editar en el cual accederemos a otra página en la cual podremos editar los proyectos
+
+24
+00:02:04,550 --> 00:02:08,370
+y luego tendremos un botón de borrar que también tendremos que hacer que funcione.
+
+25
+00:02:08,450 --> 00:02:12,950
+Así que esta va a ser la aplicación que vamos a hacer esta va a ser la página web que haremos el proyecto
+
+26
+00:02:12,950 --> 00:02:13,880
+que haremos.
+
+27
+00:02:13,880 --> 00:02:18,710
+Vamos a empezar con esto vamos a empezar creando los componentes del proyecto las diferentes secciones
+
+28
+00:02:18,710 --> 00:02:25,010
+configurando el RUT gritar y tal y luego ya pasaremos a lo que viene siendo la maquetación web de este
+
+29
+00:02:25,010 --> 00:02:25,570
+proyecto.

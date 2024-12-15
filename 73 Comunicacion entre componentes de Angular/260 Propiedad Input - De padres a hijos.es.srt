@@ -1,0 +1,599 @@
+1
+00:00:00,600 --> 00:00:07,880
+Ahora vamos a aprender a trabajar con las propiedades Input Output para hacer interacción entre componentes
+
+2
+00:00:08,040 --> 00:00:12,060
+y para trabajar con la comunicación entre componentes.
+
+3
+00:00:12,060 --> 00:00:17,940
+Lo primero que vamos a ver van a ser los inputs los inputs nos van a permitir pasar valores de un componente
+
+4
+00:00:17,940 --> 00:00:23,830
+padre a un componente hijo que se esté invocando dentro de ese componente padre.
+
+5
+00:00:24,030 --> 00:00:30,910
+De esa manera podremos pasar datos del padre al hijo vamos a ver un ejemplo de cómo hacer esto.
+
+6
+00:00:30,960 --> 00:00:36,030
+Básicamente lo que vamos a hacer va a ser pasar información del componente padre a ese otro componente
+
+7
+00:00:36,360 --> 00:00:42,660
+hijo simplemente entonces vamos a ver un ejemplo para entenderlo mejor vamos a abrir la consola de comando
+
+8
+00:00:42,720 --> 00:00:44,930
+y vamos a generar un nuevo componente.
+
+9
+00:00:45,060 --> 00:00:46,670
+LG G.
+
+10
+00:00:46,800 --> 00:00:58,290
+Component components barra es Leider se llama el componente vale generábamos este nuevo componente lo
+
+11
+00:00:58,290 --> 00:01:04,710
+tenemos por aquí perfectamente y vamos a meter el tema de la galería y todo eso dentro de ese nuevo
+
+12
+00:01:04,710 --> 00:01:06,450
+componente.
+
+13
+00:01:06,450 --> 00:01:16,460
+Vale vamos a cortar esto que tenemos por aquí lo pegamos en su init Vali y vamos a cargar también Cubelli
+
+14
+00:01:16,800 --> 00:01:20,360
+la variable vamos a declarar en el aire.
+
+15
+00:01:20,360 --> 00:01:23,820
+También vale hacemos esto perfectamente.
+
+16
+00:01:23,820 --> 00:01:29,790
+Ahora realmente encontacto no debería aparecer nada de esto.
+
+17
+00:01:29,910 --> 00:01:41,380
+Si debería aparecer aparece de hecho pero esto me lo tengo que llevar yo a la vista de oidas.
+
+18
+00:01:41,420 --> 00:01:46,650
+Vale pero yo por aquí perfecto.
+
+19
+00:01:46,850 --> 00:01:50,000
+Entonces ahora mismo el componente de contacto está limpio.
+
+20
+00:01:50,030 --> 00:01:51,250
+Si alguien H1B
+
+21
+00:01:54,180 --> 00:02:00,970
+pues veo que mi componente de contacto está limpio es algo con el H1 y aquí yo voy a añadir mi componente
+
+22
+00:02:01,060 --> 00:02:01,520
+hijo.
+
+23
+00:02:01,540 --> 00:02:05,710
+Ahora mismo el componente padre es contacto y el componente hijo va a ser es Leider
+
+24
+00:02:09,740 --> 00:02:12,890
+vale perfectamente.
+
+25
+00:02:12,890 --> 00:02:16,790
+Aquí lo estamos viendo aunque claro fíjate que tenemos algún error.
+
+26
+00:02:16,790 --> 00:02:25,700
+Vamos a revisar qué pasa dice que es Leider Isa ãngulo recomponen tengo que revisar que lo tenga yo
+
+27
+00:02:25,700 --> 00:02:27,470
+en mi LG Module
+
+28
+00:02:31,030 --> 00:02:37,390
+si que lo tengo y tengo que ver que efectivamente la etiqueta desapruebe Leider pero yo quiero que sea
+
+29
+00:02:37,490 --> 00:02:41,260
+Leider solamente vale perfecto.
+
+30
+00:02:41,520 --> 00:02:45,030
+Ahora mismo tengo Yammy el líder y ya cargado.
+
+31
+00:02:45,030 --> 00:02:45,420
+Aquí
+
+32
+00:02:48,870 --> 00:02:50,950
+vale genial.
+
+33
+00:02:50,970 --> 00:02:57,840
+Entonces yo me interesa pasarle unos valores de mi componente padre a mi componente hijo.
+
+34
+00:02:57,840 --> 00:02:59,210
+Entonces qué me interesa pasar.
+
+35
+00:02:59,210 --> 00:03:05,300
+Pues a lo mejor me interesaría pasarle la anchura que va a tener mi Leider antes de cargarlo todo.
+
+36
+00:03:05,340 --> 00:03:17,040
+Qué voy a hacer me voy a crear una propiedad por aquí que va a ser públic Wiz es Leider Madi va a ser
+
+37
+00:03:17,130 --> 00:03:24,540
+un number okey entonces voy a utilizar el Chui data mining para cambiar el tamaño del Leider
+
+38
+00:03:28,190 --> 00:03:33,920
+input type text y utilizas la propiedad NG Model
+
+39
+00:03:37,520 --> 00:03:42,740
+y debió pasar aquí pues simplemente la variable width es Leider vale
+
+40
+00:03:45,550 --> 00:03:49,620
+y esa va a ser la propiedad que va a estar modificando porque si yo la muestro por alguien alguien un
+
+41
+00:03:49,660 --> 00:03:49,980
+tronco
+
+42
+00:03:57,590 --> 00:04:06,070
+vale que sea tamaño del slider y que me muestre aquí pues simplemente Withers Leider
+
+43
+00:04:09,240 --> 00:04:09,540
+ok.
+
+44
+00:04:10,280 --> 00:04:13,550
+Entonces simplemente se va a mostrar todo esto.
+
+45
+00:04:13,550 --> 00:04:15,680
+Toda esta información se va a mostrar cuando
+
+46
+00:04:20,000 --> 00:04:28,010
+la propiedad Whites Leider existe tengo algo dentro NG IHF Cubides Leider.
+
+47
+00:04:28,880 --> 00:04:38,380
+Cuando el site tenga algo dentro o así elementos GUI algo que ahora se muestra toda la información vale
+
+48
+00:04:39,920 --> 00:04:45,060
+y aquí veo ponerle tamaño del ex líder.
+
+49
+00:04:45,320 --> 00:04:46,770
+Vale perfecto.
+
+50
+00:04:47,380 --> 00:04:54,650
+Entonces ahora mismo pues se mostrará en el Leider cuando hay elemento aquí un tamaño bien entonce ahora
+
+51
+00:04:54,650 --> 00:04:56,480
+mismo pues pasa eso.
+
+52
+00:04:56,480 --> 00:05:00,440
+Yo pongo aquí el tamaño que yo quiero.
+
+53
+00:05:00,440 --> 00:05:08,240
+Vale voy a poner que sea un tipo number el campo para forzar a que esto sea un número para no pueden
+
+54
+00:05:08,240 --> 00:05:12,570
+meter letra y pues me carga el componente y además me carga.
+
+55
+00:05:12,920 --> 00:05:19,100
+Aquí esto vale me carga la cifra y la propiedad me la muestra.
+
+56
+00:05:19,700 --> 00:05:24,320
+Entonces lo que voy a hacer es pasarle el valor de esta propiedad al componente hijo.
+
+57
+00:05:24,320 --> 00:05:29,930
+Cómo puedo hacer eso con los atributos que yo puedo pasarle por aquí puedo pasar algún atributo de esta
+
+58
+00:05:29,930 --> 00:05:30,430
+manera
+
+59
+00:05:33,130 --> 00:05:38,050
+simplemente le paso el atributo como me dé la gana.
+
+60
+00:05:38,050 --> 00:05:45,170
+Le pongo los corchetes y dentro del nombre que yo quiera anchura le voy a poner anchura.
+
+61
+00:05:45,270 --> 00:05:50,250
+Y aquí le paso la variable que yo quiera pasarle al otro componente.
+
+62
+00:05:50,250 --> 00:05:58,470
+En este caso le quiero pasar la variable Wiz es líder y automáticamente estaré transfiriendo el tamaño
+
+63
+00:05:59,460 --> 00:06:05,100
+o la anchura del Leider la propiedad que yo tengo en mi componente padre de contacto al componente hijo
+
+64
+00:06:05,100 --> 00:06:13,600
+que es component entonces directamente esto ya no lo voy a mostrar aquí sino que lo mostraré en el otro
+
+65
+00:06:13,600 --> 00:06:15,970
+componente vale me lo voy a llevar el otro componente
+
+66
+00:06:19,720 --> 00:06:27,500
+me va a llevar a su vista lo voy a mostrar por aquí y entonces ahora en mi componente de líder en el
+
+67
+00:06:27,500 --> 00:06:33,500
+componente hijo lo que tengo que hacer es recibir esa propiedad anchura para poder utilizarla.
+
+68
+00:06:33,500 --> 00:06:34,570
+Cómo puedo hacerlo.
+
+69
+00:06:34,580 --> 00:06:43,100
+Pues simplemente por aquí me defino una propiedad imput arroba imput vale para eso tengo que cargar
+
+70
+00:06:43,100 --> 00:06:51,770
+el decorador también por aquí arriba imput lo cargo yo puedo utilizar mi decorador para recoger la variable
+
+71
+00:06:51,770 --> 00:06:53,080
+que yo le esté pasando.
+
+72
+00:06:53,150 --> 00:07:03,620
+Qué variable estoy pasando pues la variable en este caso anchura la recojo del atributo que yo le estoy
+
+73
+00:07:03,620 --> 00:07:05,660
+poniendo a mi Directiva es Leider
+
+74
+00:07:08,660 --> 00:07:17,910
+vale y esto va a ser simplemente un anverso Vale y ahora yo puedo mostrar anchura mi página web puedo
+
+75
+00:07:17,910 --> 00:07:22,710
+hacer lo que quiera con anchura anchura por ejemplo ya puedo utilizarla en el tamaño del Leider puedo
+
+76
+00:07:22,710 --> 00:07:28,710
+hacer disputo anchura y que supuestamente nos cambie el tamaño del Leider cada vez que se cargue el
+
+77
+00:07:28,710 --> 00:07:36,390
+componente y puedo mostrar anchura por aquí en lugar de Whites Leider anchura guardo y el flujo va a
+
+78
+00:07:36,390 --> 00:07:37,450
+ser el siguiente.
+
+79
+00:07:37,470 --> 00:07:44,940
+Tengo mi propiedad Whites Leider yo la cambio con mi móvil y una vez que cita esa propiedad rellena
+
+80
+00:07:45,090 --> 00:07:51,390
+me cargan mi otro componente le paso la anchura recojo con el imput el atributo de anchura desde el
+
+81
+00:07:51,390 --> 00:07:58,650
+componente padre lo utilizo en el BX Leider para que se ajuste el tamaño y también lo muestro por aquí
+
+82
+00:07:58,680 --> 00:08:06,510
+en el componente hijo es decir estoy pasando datos del padre al componente hijo que Leider guardo actualizo
+
+83
+00:08:06,510 --> 00:08:16,010
+la pantalla voy a meter un tamaño vale y fíjate que me muestra el Leider pero no como yo quiero por
+
+84
+00:08:16,010 --> 00:08:18,530
+qué porque está reaccionando.
+
+85
+00:08:21,150 --> 00:08:24,030
+A cada vez que yo escribo directamente vale.
+
+86
+00:08:24,080 --> 00:08:31,670
+Yo quiero que mejor que esto mejor que eso reaccione cuando yo le dé a Enter Baby cuando yo le doy a
+
+87
+00:08:31,670 --> 00:08:44,130
+Enter que ya apuntó enter cuando viene de a enterar al campo voy a lanzar el método cargar es Leider
+
+88
+00:08:44,640 --> 00:08:44,970
+vale
+
+89
+00:08:49,850 --> 00:08:53,690
+carga el líder lo voy a tener por aquí.
+
+90
+00:08:54,230 --> 00:08:55,420
+Carga de Sneider
+
+91
+00:08:59,470 --> 00:09:05,410
+y esto voy a tener la propiedad anchura tu es Leider.
+
+92
+00:09:05,690 --> 00:09:13,910
+Voy a poner mi oponerle y entonces voy a utilizar realmente anchura tubes Leider para hacer la condición
+
+93
+00:09:13,910 --> 00:09:14,950
+que estamos haciendo aquí.
+
+94
+00:09:18,420 --> 00:09:20,070
+Anchuras todos tus Leider
+
+95
+00:09:22,960 --> 00:09:28,240
+vale y entonces cuando yo va a cargar es Leider lo que voy a hacer va a ser darle
+
+96
+00:09:31,640 --> 00:09:37,170
+un tamaño el tamaño que tiene disputo UIT es Leiras vale.
+
+97
+00:09:37,190 --> 00:09:45,200
+De esa manera cuando yo actualice la pantalla le voy a meter aquí algo.
+
+98
+00:09:45,980 --> 00:09:51,140
+No quiero que me muestre eso de esa manera porque todavía no lo guarda o solamente voy a estar operando
+
+99
+00:09:51,140 --> 00:09:57,590
+con esta variable anchura tubes Leider que va a ser de hecho la que le voy a pasar al componente hijo
+
+100
+00:09:58,240 --> 00:10:06,260
+vale directamente entonces voy a utilizarla 200 99 día enter Pam y fíjate el tamaño que le he puesto
+
+101
+00:10:06,260 --> 00:10:11,870
+le ha puesto el que yo le he dicho realmente y además me lo muestra el componente hijo si le pongo otra
+
+102
+00:10:13,880 --> 00:10:18,530
+ya no me la cambia porque no está destruyendo primero el componente.
+
+103
+00:10:18,660 --> 00:10:30,320
+Entonces lo que voy a hacer va a ser primero ponerlo anulã anchura es Leider para que me borre lo que
+
+104
+00:10:30,320 --> 00:10:31,970
+hay dentro.
+
+105
+00:10:33,020 --> 00:10:40,340
+Vale le pongo 200 ahora no me lo cambia porque lo que tengo que hacer es destruir el componente irremediablemente
+
+106
+00:10:40,340 --> 00:10:40,700
+vale
+
+107
+00:10:44,450 --> 00:10:48,020
+tengo que destruir el componente para destruirlo simplemente borro esto
+
+108
+00:10:51,170 --> 00:10:56,400
+y ya anchura Twin Leider debería estar vacío automáticamente.
+
+109
+00:10:56,900 --> 00:11:00,500
+Vale pero si le da entrar realmente me lo vacía.
+
+110
+00:11:00,500 --> 00:11:02,710
+Ahora si yo le pusiera 500.
+
+111
+00:11:03,170 --> 00:11:08,810
+Ahora si me lo coge porque lo que tengo que hacer es vaciar mi variable de acuerdo tengo que vaciar
+
+112
+00:11:08,870 --> 00:11:15,110
+mi variable anchuroso es líder en todo lo que puedo hacer para hacerlo fácilmente en lugar de poner
+
+113
+00:11:15,110 --> 00:11:23,360
+esto a Nul voy a hacer en lugar de usar el que ya voy a hacer un par de botones que sean 1 Cargar
+
+114
+00:11:29,550 --> 00:11:30,820
+cargar es Leider
+
+115
+00:11:40,540 --> 00:11:43,540
+cargarles Leider y otro VSA resetear Leider
+
+116
+00:11:54,460 --> 00:12:02,470
+vale entonces voy a llamar a mi componente resetear es Leider cuando yo quiera como le dé click
+
+117
+00:12:06,550 --> 00:12:12,600
+y voy a vaciar el valor que tiene anchura tubes Leider que es el valor que le veo a pasar realmente
+
+118
+00:12:14,100 --> 00:12:22,890
+a mi componente hijo en este caso le pongo Nul o false directamente guardo actualizo la pantalla ya
+
+119
+00:12:22,890 --> 00:12:30,030
+tengo los dos botones voy a poner aquí un valor 444 cargar el Leider lo carga si le pongo otro ya no
+
+120
+00:12:30,030 --> 00:12:35,910
+me lo carga a no ser que RE7 realmente el dato me lo pasa correctamente pero no me actualiza el objeto
+
+121
+00:12:35,910 --> 00:12:40,040
+este si resetear la idea y lo vuelvo a cargar ahora sí vale.
+
+122
+00:12:40,350 --> 00:12:44,740
+La única forma de hacerlo es esto vale.
+
+123
+00:12:45,420 --> 00:12:50,290
+Aquí lo estamos viendo y estamos viendo cómo le pasamos un dato del componente padre de contacto porque
+
+124
+00:12:50,340 --> 00:12:57,300
+este formulario está en el componente de contacto y estamos pasando una variable del componente padre
+
+125
+00:12:57,360 --> 00:13:00,290
+al componente hijo.
+
+126
+00:13:00,510 --> 00:13:08,790
+Otra cosa que podemos hacer también es pasarle una variable cualquiera al componente hijo que sea por
+
+127
+00:13:08,790 --> 00:13:21,350
+ejemplo pues ahora mismo tenemos caption a false vale pero si se lo ponemos a Trump vamos a ver que
+
+128
+00:13:21,350 --> 00:13:22,870
+ahora tiene caption si esto no.
+
+129
+00:13:22,880 --> 00:13:28,110
+Entonces vamos a ponerle que esto sea otra variable que reciba vale vamos a ponerle cartoons
+
+130
+00:13:31,650 --> 00:13:38,790
+y vamos a pasar las canciones que va a ser una propiedad que vamos a tener en este componente Publications
+
+131
+00:13:41,910 --> 00:13:51,140
+golean y vamos a dar un valor por defecto disputó caption es igual a false vale.
+
+132
+00:13:51,280 --> 00:13:56,670
+Esto lo vamos a ir variando conforme nos interesen le va a pasar ese valor por aquí captemos
+
+133
+00:13:59,460 --> 00:14:07,690
+vale vamos a ponerle otro nombre en lugar de captemos etiquetas vale y entonces tú me dirías que si
+
+134
+00:14:07,690 --> 00:14:17,920
+yo utilizo la arroba input por aquí tendré que recoger una variable que se llama etiquetas vale.
+
+135
+00:14:17,970 --> 00:14:21,450
+Y efectivamente tengo que recoger etiqueta y esto es un tipo Bolea.
+
+136
+00:14:22,490 --> 00:14:28,320
+Si yo quiero recoger una variable que se llama etiquetas pero ponerle otro nombre en mi componente hijo
+
+137
+00:14:28,740 --> 00:14:31,410
+lo puedo hacer de esta manera.
+
+138
+00:14:31,410 --> 00:14:34,630
+Etiquetas por ahí se lo paso como decorador.
+
+139
+00:14:34,880 --> 00:14:42,900
+Y por aquí yo uso capcioso vale y le cambio el nombre y aquí lo utilizo esa propiedad disputo captemos
+
+140
+00:14:43,180 --> 00:14:43,770
+vale.
+
+141
+00:14:44,010 --> 00:14:46,150
+Vamos a ver si funciona o no.
+
+142
+00:14:46,150 --> 00:14:48,570
+De paso minicomponente los valores.
+
+143
+00:14:48,580 --> 00:14:52,160
+Vale también voy a mostrar las caption en mi componente hijo
+
+144
+00:14:56,800 --> 00:15:06,070
+captemos y muestro la propiedad captemos del componente hijo paseandose del padre y vemos que funciona
+
+145
+00:15:06,070 --> 00:15:09,770
+perfectamente porque este valor se lo estamos pasando del padre.
+
+146
+00:15:10,030 --> 00:15:17,290
+Y entonces si yo quisiera pasarle otro valor se lo pasan por aquí Tru lo estoy cambiando en el componente
+
+147
+00:15:17,290 --> 00:15:19,370
+padre de contacto.
+
+148
+00:15:19,390 --> 00:15:27,940
+Si yo cargo mi es Leider ahora el valor si que me lo pasa diferente desde el padre al hijo con lo cual
+
+149
+00:15:27,940 --> 00:15:34,270
+ya hemos visto cómo trabajar con el decorador arroba imput y compartir datos de un componente padre
+
+150
+00:15:34,330 --> 00:15:35,500
+a un componente hijo.

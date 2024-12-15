@@ -1,0 +1,39 @@
+1
+00:00:00,210 --> 00:00:04,620
+A partir de ahora lo que vamos a hacer va a ser trabajar con las directivas una directiva no es más
+
+2
+00:00:04,620 --> 00:00:09,170
+que una pequeña funcionalidad que vamos a tener en nuestras vistas o en nuestras plantillas.
+
+3
+00:00:09,300 --> 00:00:14,910
+Por ejemplo una Directiva seria la etiqueta de un componente ya que en nuestro HTML creamos un nuevo
+
+4
+00:00:14,910 --> 00:00:20,790
+elemento que es ese componente y tiene una etiqueta con lo cual eso es una directiva.
+
+5
+00:00:20,820 --> 00:00:27,970
+También hay directivas para hacer estructuras de control hay directivas para hacer condicionales y bucles
+
+6
+00:00:27,980 --> 00:00:32,550
+de directivas para hacer condiciones con un atributo en las etiquetas.
+
+7
+00:00:32,580 --> 00:00:38,340
+Hay directivas para hacer eventos hay directivas para Tata Vinny hay directivas para un montón de cosas
+
+8
+00:00:38,690 --> 00:00:44,700
+y simplemente son atributos o nuevas etiquetas que tenemos en nuestra parte de la vista y en nuestra
+
+9
+00:00:44,700 --> 00:00:50,730
+parte del HTML así que lo que vamos a hacer en la siguiente clase va a ser ver las diferentes directivas
+
+10
+00:00:51,750 --> 00:00:53,640
+que hay y cómo utilizarlas.

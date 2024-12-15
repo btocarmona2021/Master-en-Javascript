@@ -1,0 +1,119 @@
+1
+00:00:01,260 --> 00:00:06,630
+Otra cosa que tiene Taipe scrip para trabajar con las variables es la posibilidad de definir con la
+
+2
+00:00:06,630 --> 00:00:08,970
+palabra bar o con la palabra LET.
+
+3
+00:00:08,970 --> 00:00:15,120
+Eso ya lo vimos anteriormente en el curso y la diferencia simplemente es el alcance que tiene esa variable
+
+4
+00:00:15,520 --> 00:00:21,420
+no porque cuando yo utilizo LED lo estoy utilizando a nivel de bloque y cuando yo utilizo Bahr lo utilizo
+
+5
+00:00:21,420 --> 00:00:22,660
+a nivel global.
+
+6
+00:00:22,740 --> 00:00:34,980
+Podemos hacer un ejemplo rápido aquí LEED vs bar de forma que si yo me creo que unas variables número
+
+7
+00:00:34,980 --> 00:00:46,370
+1 10 y número 2 12 y luego a UNIV
+
+8
+00:00:49,610 --> 00:00:56,290
+y en el caso de que el número 1 sea igual igual a 10 pues entonces entramos al ir y entonces yo dentro
+
+9
+00:00:56,290 --> 00:01:03,160
+de él voy a quedarme dos variables me voy a crear una variable con Colet que se va a llamar número 1
+
+10
+00:01:03,970 --> 00:01:14,410
+y le voy a dar otro valor 44 y crear otra variable número 2 y le voy a dar un valor que va a ser 55
+
+11
+00:01:14,610 --> 00:01:15,760
+si hago un consuelo
+
+12
+00:01:18,460 --> 00:01:28,510
+de número 1 y número dos pues me mostrará unos valores y si lo hago fuera me mostrará otro si luego
+
+13
+00:01:28,540 --> 00:01:31,370
+dentro me va a sacar 44 y 55.
+
+14
+00:01:31,630 --> 00:01:38,530
+Y si luego fuera me va a sacar 10 y 55 porque la palabra bar me permite redefinir el valor a nivel global
+
+15
+00:01:38,530 --> 00:01:44,410
+y la palabra LED sólo actúa a nivel de bloque de instrucciones que es este bloque aquí sí guardo y actualizo
+
+16
+00:01:44,410 --> 00:01:49,960
+la pantalla y abro mis herramientas de desarrollador y actualizo.
+
+17
+00:01:50,200 --> 00:01:51,340
+Vale aquí vemos
+
+18
+00:01:54,830 --> 00:01:59,050
+tengo que guardar y lanzar la compilación eso sí voy a lanzarla
+
+19
+00:02:25,330 --> 00:02:27,750
+lanzó la compilación y ahora vamos a probar esto.
+
+20
+00:02:27,790 --> 00:02:35,590
+Evidentemente me saca primero 44 y 55 que es lo que está dentro del ir y después me saca 10 y 55 que
+
+21
+00:02:35,590 --> 00:02:38,890
+es lo que está fuera del IGP que es lo que está por aquí.
+
+22
+00:02:38,960 --> 00:02:48,640
+Vale entonces lo que está pasando simplemente es eso a nivel de bloque utilizamos LED pero esto no está
+
+23
+00:02:48,640 --> 00:02:51,990
+modificando la variable que fuera que es una variable global.
+
+24
+00:02:52,000 --> 00:02:57,110
+Si utilizara Abar pues si que le cambia el valor a la variable global.
+
+25
+00:02:57,140 --> 00:03:02,860
+Vale y esa es la diferencia que hay entre el LED y bar que ya lo estuvimos viendo en el curso anteriormente
+
+26
+00:03:02,890 --> 00:03:06,460
+pero te lo vuelvo a picar un poco para que lo recuerdes.
+
+27
+00:03:06,460 --> 00:03:12,340
+Pues esto también lo incluye Taipe scrip y también lo tienen las versiones Ultimate JavaScript y el
+
+28
+00:03:12,340 --> 00:03:18,700
+nuevo navegador lo interpreta correctamente qué pasa qué navegador antiguo pues la variable LED no se
+
+29
+00:03:18,700 --> 00:03:23,920
+puede utilizar hay que usar todo con Baur pero con Type scrip solucionamos ese problema y lo hace de
+
+30
+00:03:23,920 --> 00:03:28,930
+manera automática la compilación y la compatibilidad con el resto de navegadores.

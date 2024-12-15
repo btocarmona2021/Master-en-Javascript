@@ -1,0 +1,139 @@
+1
+00:00:01,020 --> 00:00:05,610
+Ahora vamos a ver un último método para hacer acciones.
+
+2
+00:00:05,730 --> 00:00:11,340
+Ya hemos visto cómo hacer varias acciones en varias funcionalidades interesantes y vamos a ver un último
+
+3
+00:00:11,340 --> 00:00:13,950
+método de momento para hacer otro.
+
+4
+00:00:13,980 --> 00:00:19,810
+Otra acción de este tipo de acuerdo para hacer otra interacción de este tipo.
+
+5
+00:00:19,820 --> 00:00:26,690
+Ahora vamos a ver cómo hacer un efecto de soltar y arrastrar un Pablete que se llama No vamos a crear
+
+6
+00:00:26,740 --> 00:00:27,680
+un hundí por aquí
+
+7
+00:00:31,340 --> 00:00:41,600
+con una idea que se llame área de hacer real Dib y voy a crear otro elemento que va a ser otro IP con
+
+8
+00:00:41,600 --> 00:00:51,450
+otro que se llame elemento movido y le voy a dar unos estílo a cada uno le voy a poner la clase elemento
+
+9
+00:00:51,450 --> 00:00:57,900
+a cada uno elemento y la clase elemento
+
+10
+00:01:04,100 --> 00:01:07,730
+tengo estos dos le voy a dar un estilo a cada uno.
+
+11
+00:01:07,880 --> 00:01:18,830
+Vale Ah elemento movido le voy a dar unos destiló o simplemente voy a hacer que sea un cuadradito de
+
+12
+00:01:18,830 --> 00:01:28,220
+un tamaño concreto a copiar este trozo de código tanto estas propiedades CSS a un tamaño de 100 por
+
+13
+00:01:28,220 --> 00:01:39,440
+cien y un borde rojo vale se actualiza la pantalla aquí me aparece ahora voy a crearme otra regla CSS
+
+14
+00:01:39,470 --> 00:01:42,260
+para el otro DIV para el área
+
+15
+00:01:45,530 --> 00:01:55,790
+Area y le voy a poner un tamaño más grande de 300 por 300 y un borde verde en este caso sería Grin.
+
+16
+00:01:56,640 --> 00:02:05,100
+Guardo actualizo la pantalla y aquí me aparece vale incluso podría poner un B.R. entre medias para separar
+
+17
+00:02:05,190 --> 00:02:06,660
+esos dos elementos.
+
+18
+00:02:06,660 --> 00:02:12,420
+Efectivamente vale lo que vamos a hacer es detectar cuando yo muevo este elemento sobre el área o cuando
+
+19
+00:02:12,420 --> 00:02:13,760
+yo suelte ese elemento.
+
+20
+00:02:14,040 --> 00:02:22,060
+Para eso tenemos una cosa que se llama drop vale y hay un método de interacción que se llama papable.
+
+21
+00:02:22,120 --> 00:02:32,340
+Entonces voy a seleccionar mi área que es donde yo voy a soltar el DIB área voy a utilizar el drop Table
+
+22
+00:02:38,160 --> 00:02:44,970
+Malherbe utilizado este método y simplemente voy a hacer también que mi elemento
+
+23
+00:02:50,230 --> 00:02:59,150
+elemento movido sea de arable vale intragable para poder moverlo sobre ese área.
+
+24
+00:02:59,150 --> 00:03:04,210
+Vale si esto hizo la pantalla yo puedo mover este elemento y si lo suelto aquí pues se va a ejecutar
+
+25
+00:03:04,270 --> 00:03:07,490
+un evento vale ese evento será el drop vale.
+
+26
+00:03:07,500 --> 00:03:13,670
+Yo dentro de cada método de esto tengo una serie de opciones si que le paso un Jayson y el evento drop
+
+27
+00:03:14,230 --> 00:03:16,390
+va a ejecutar una función de calva function
+
+28
+00:03:19,200 --> 00:03:25,050
+o que esta función de Calvache simplemente si hacemos un consolé Autolog.
+
+29
+00:03:26,510 --> 00:03:36,080
+Yo puedo decir has soltado algo dentro de el área de acuerdo y esto va a detectar cuando yo suelte algún
+
+30
+00:03:36,080 --> 00:03:38,440
+elemento actualizo la pantalla.
+
+31
+00:03:38,450 --> 00:03:44,560
+Si suelto esto me dice Has soltado algo dentro del área y lo saco y luego lo vuelvo a meter me lo dice.
+
+32
+00:03:44,600 --> 00:03:51,200
+Vale entonces de esta manera yo puedo hacer áreas dentro de mi interfaz en las cuales yo vaya metiendo
+
+33
+00:03:51,200 --> 00:03:53,140
+cosa y eso vaya haciendo acciones.
+
+34
+00:03:53,150 --> 00:03:56,170
+Lo que sí me vale lo que se me vaya ocurriendo vale.
+
+35
+00:03:56,390 --> 00:04:00,360
+Así que esto es otra funcionalidad interesante que nos da Kairi y.

@@ -1,0 +1,191 @@
+1
+00:00:00,990 --> 00:00:05,640
+La primera directiva que vamos a ver que ya la hemos visto anteriormente de acuerdo la hemos visto anteriormente
+
+2
+00:00:05,640 --> 00:00:12,150
+en el curso en la directiva M.G. y esto es una directiva estructural una directiva que nos permite hacer
+
+3
+00:00:12,150 --> 00:00:16,790
+un condicional en la parte de la vista de acuerdo y es muy interesante
+
+4
+00:00:19,730 --> 00:00:25,040
+si me voy a mi vista por ejemplo en la vista de nuestras zapatillas que se está recorriendo aquí nuestro
+
+5
+00:00:25,040 --> 00:00:31,610
+componente esto sería subsistan lo que vamos a hacer va a ser una condición para que cuando el precio
+
+6
+00:00:32,210 --> 00:00:39,590
+de una deportiva sea menor a 80 euros de acuerdo aquí podemos ponerle el símbolo del euro
+
+7
+00:00:42,640 --> 00:00:43,240
+o del dólar.
+
+8
+00:00:43,240 --> 00:00:51,130
+Tú le puedes poner cualquier símbolo de una moneda cuando el precio sea menor a eso a 80 euros al menor
+
+9
+00:00:51,140 --> 00:00:57,670
+igual a 80 euros se marque en verde de acuerdo o incluso que ponga al lado una etiqueta que ponga barato
+
+10
+00:00:57,790 --> 00:01:01,370
+de acuerdo vamos a hacer eso que ponga barato en oferta.
+
+11
+00:01:01,540 --> 00:01:06,310
+Entonces vamos a hacer una directiva en eje y vale vamos a crear un Span
+
+12
+00:01:10,950 --> 00:01:22,400
+español que ponga en oferta en oferta si lo dejo así de fácil va a salir en todos los elementos de mi
+
+13
+00:01:22,800 --> 00:01:31,620
+listado de acuerdo Pasarín absolutamente todos como estamos viendo pero yo solamente quiero que salga
+
+14
+00:01:31,740 --> 00:01:35,360
+cuando el precio sea menor o igual a 80.
+
+15
+00:01:35,370 --> 00:01:41,370
+Para eso utilizo la directiva NG y la directiva estructura que se utilizan con el asterisco y automáticamente
+
+16
+00:01:41,370 --> 00:01:48,420
+después le pongo yo la directiva que quiera usar en este caso NG y para hacer un condicional ir clásico
+
+17
+00:01:48,420 --> 00:01:50,650
+de toda la vida que hemos estado viendo en todo el curso.
+
+18
+00:01:50,910 --> 00:01:58,280
+Entonces si deportiva punto precio es menor o igual a 80.
+
+19
+00:01:58,620 --> 00:02:01,790
+Entonces que me ponga en oferta ok.
+
+20
+00:02:02,010 --> 00:02:07,690
+Efectivamente aquí me lo pone ahí está simplemente así.
+
+21
+00:02:07,910 --> 00:02:14,560
+Y si quiero que solamente sea para los que son menores a 80 pues le quito el igual y solamente me parece
+
+22
+00:02:15,080 --> 00:02:17,240
+que su precio es igual a 60.
+
+23
+00:02:17,570 --> 00:02:25,330
+Si yo modifico el precio de alguno de estos objetos y actualizo la pantalla efectivamente también me
+
+24
+00:02:25,330 --> 00:02:31,990
+aparece ese flagelo en oferta cuando se cumple la condición con lo cual así de sencillo podemos utilizar
+
+25
+00:02:31,990 --> 00:02:33,110
+esta directiva.
+
+26
+00:02:33,220 --> 00:02:39,710
+Incluso podría hacer una cosa interesante que sería utilizar la etiqueta de atributo estal vale utilizar
+
+27
+00:02:39,720 --> 00:02:41,700
+esa etiqueta atributo.
+
+28
+00:02:42,010 --> 00:02:47,970
+Vamos a ponerlo aquí al lado cuando dice una etiqueta de atributo tenemos que utilizarla entre corchetes.
+
+29
+00:02:48,280 --> 00:02:50,950
+Entonces yo puedo poner la propiedad Bagram
+
+30
+00:02:53,530 --> 00:03:01,360
+cuando se cumpla una condición vale cuando se cumpla que deportiva sea menor o igual al precio.
+
+31
+00:03:01,450 --> 00:03:06,520
+Esto es muy sencillo de hacer yo podría hacer esta condición cuando deportiva cuando Deportivo Punto
+
+32
+00:03:06,520 --> 00:03:08,320
+precio sea menor a 80.
+
+33
+00:03:08,680 --> 00:03:18,200
+Vale entonces con una ternaria le pongo un color de fondo en este caso le voy a poner un verde un Grint
+
+34
+00:03:18,320 --> 00:03:27,020
+lo voy a poner entre comillas simple Grin y en el caso de que no con los dos puntos le voy a poner un
+
+35
+00:03:27,020 --> 00:03:34,820
+background transparente y directamente transparente transparente.
+
+36
+00:03:35,270 --> 00:03:44,200
+Lo hago actualizo la pantalla y efectivamente me aparece en oferta aquí directamente vale voy a quitar
+
+37
+00:03:44,200 --> 00:03:45,670
+aquí el espacio que aparece aquí
+
+38
+00:03:49,780 --> 00:03:56,860
+utilizando esa esa directiva también de atributos yo puedo seleccionar un atributo y luego ponerle una
+
+39
+00:03:56,860 --> 00:04:02,200
+propiedad si yo quisiera o utilizar el Gestal como hemos hecho en el vídeo anterior en la cabeza anterior
+
+40
+00:04:02,950 --> 00:04:09,750
+vale incluso podría pues utilizar más condicionales de este tipo y ponerle más cosa vale.
+
+41
+00:04:11,710 --> 00:04:20,050
+Es decir le puedo poner también un color el precio sea menos de 80 que tenga un color width y si no
+
+42
+00:04:20,160 --> 00:04:28,480
+que lo tenga Black males de la pantalla pues aquí no aparece ya esto en oferta haciendo una condición
+
+43
+00:04:28,510 --> 00:04:35,260
+con el LG IP para mostrar esta etiqueta o para mostrar y mostrar la etiqueta en zip y luego asignándole
+
+44
+00:04:35,320 --> 00:04:40,090
+unos estílo en línea utilizando condicionales en los propios estilos.
+
+45
+00:04:40,090 --> 00:04:46,330
+Luego veremos más cosas para trabajar con las propiedades de atributo y para poder Binh de arma estilo
+
+46
+00:04:46,440 --> 00:04:47,290
+etcétera.
+
+47
+00:04:47,920 --> 00:04:50,790
+Pero eso ya lo iremos viendo poco a poco en las siguientes clases.
+
+48
+00:04:50,800 --> 00:04:56,470
+De momento ya hemos visto bastantes cositas como hacer condicionales en una plantilla de angulas.

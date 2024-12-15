@@ -1,0 +1,591 @@
+1
+00:00:00,590 --> 00:00:05,880
+No íbamos a ver las novedades y la instalación de Angular 10 de acuerdo a la nueva versión de Angular
+
+2
+00:00:05,880 --> 00:00:07,650
+que acaba de salir hace unos poquitos días.
+
+3
+00:00:07,710 --> 00:00:10,230
+Para ello me voy a estar basando en este artículo de mi web.
+
+4
+00:00:10,320 --> 00:00:15,000
+Hace muy poquito salió la nueva versión de Angular, la versión 10, y esta versión, como las que se
+
+5
+00:00:15,000 --> 00:00:19,350
+venían actualizando últimamente, no representa un gran cambio con respecto a las versiones anteriores.
+
+6
+00:00:19,380 --> 00:00:22,710
+Es decir, que si tuviese desprogramar con angular, pues todo va a estar igual.
+
+7
+00:00:22,740 --> 00:00:25,050
+Si ya saben ángulos 9 ya sabe angular.
+
+8
+00:00:25,050 --> 00:00:25,290
+10.
+
+9
+00:00:25,290 --> 00:00:31,440
+No hay cambios de sintaxis relevante, ni cambio ni breaking changes que aunque tu aplicación se rompa
+
+10
+00:00:31,680 --> 00:00:37,590
+básicamente si tiene una aplicación con ángulos 9 pasar la angular 10 va a ser muy fácil y no te va
+
+11
+00:00:37,590 --> 00:00:38,690
+a suponer mucho problema.
+
+12
+00:00:38,760 --> 00:00:42,780
+Pero bueno, tenemos algunas novedades que no son muy radicales, pero al fin y al cabo son novedades
+
+13
+00:00:42,780 --> 00:00:43,640
+que te voy a explicar a ti.
+
+14
+00:00:43,980 --> 00:00:50,140
+Una de las cosas que han implementado nuevas es un nuevo Rains Piquer, de acuerdo que es un nuevo elemento
+
+15
+00:00:50,140 --> 00:00:50,930
+de los formularios.
+
+16
+00:00:51,270 --> 00:00:55,440
+También se ha agregado la posibilidad de activar un modo estricto en los proyectos que lo que hace es
+
+17
+00:00:55,440 --> 00:00:57,740
+volver a taipe scrip un poco más estricto.
+
+18
+00:00:57,750 --> 00:01:00,990
+Por ejemplo, te limita el uso del tipo veni o te lo elimina.
+
+19
+00:01:01,260 --> 00:01:05,490
+Ya no puedes directamente usar ese tipo y te obliga a usar tipado fuerte en todo momento.
+
+20
+00:01:05,790 --> 00:01:09,510
+Se ha mejorado el compilador y angular cele y en general ahora funciona mejor.
+
+21
+00:01:09,540 --> 00:01:13,950
+También se han hecho mejor rendimiento general y a nivel interno el framework, es decir, se han corregido
+
+22
+00:01:13,980 --> 00:01:14,390
+bugs.
+
+23
+00:01:14,400 --> 00:01:18,420
+En general, las aplicaciones ahora pesan menos y tienen una mejor compresión.
+
+24
+00:01:18,450 --> 00:01:21,960
+Esto últimamente en cada versión lo van implementando y lo van mejorando.
+
+25
+00:01:22,290 --> 00:01:26,700
+También se ha reducido la cantidad de navegadores compatibles con ãngulo, es decir, que han quitado
+
+26
+00:01:26,910 --> 00:01:32,860
+o han dejado de dar soporte a navegadores que son más antiguos, navegador principales y a las últimas
+
+27
+00:01:32,860 --> 00:01:35,280
+versiones va a seguir funcionando todo perfectamente.
+
+28
+00:01:35,940 --> 00:01:40,290
+También ha mejorado el tema de la migración con los proyectos, ahora un poco más efectiva, y no hay
+
+29
+00:01:40,290 --> 00:01:44,130
+mucho más cambio relevante de acuerdo, ni de sintaxis ni de nada.
+
+30
+00:01:44,160 --> 00:01:45,870
+Así que señalan los principales cambios.
+
+31
+00:01:46,120 --> 00:01:51,300
+OK, pues una vez que ya hemos visto las novedades vamos a pasar a hacer la instalación, así que vamos
+
+32
+00:01:51,300 --> 00:01:52,200
+a seguir los pasos.
+
+33
+00:01:52,620 --> 00:01:56,070
+Lo puedes revisar en este artículo, pero yo lo voy a estar explicando todo paso a paso.
+
+34
+00:01:56,070 --> 00:02:02,730
+Lo primero que tenemos que hacer es ir a la web de DJs para actualizar la versión de 9 DJs que tenemos
+
+35
+00:02:02,730 --> 00:02:04,770
+instalada la última versión disponible.
+
+36
+00:02:04,950 --> 00:02:10,710
+Te recomiendo siempre que utilices la LTS actual para que sea lo más estable posible.
+
+37
+00:02:10,910 --> 00:02:15,900
+Tú no DJ ese acuerdo, así que vamos a descargar esta versión, la guardamos y ahora vamos a actualizar
+
+38
+00:02:15,900 --> 00:02:21,840
+nuestro no de acuerdo, voy a abrirlo, voy a abrir el fichero, le voy a dar a aceptar y voy a instalar
+
+39
+00:02:21,840 --> 00:02:23,380
+esta nueva versión, voy a actualizar mi.
+
+40
+00:02:23,790 --> 00:02:27,440
+Esto sería lo más importante de momento no que le dí a NEX.
+
+41
+00:02:27,450 --> 00:02:31,620
+Acepto esto, esto lo dejo tal cual lo dejo tal cual.
+
+42
+00:02:31,800 --> 00:02:36,360
+Aquí no voy a tocar nada, le voy a dar Annex y aquí también le voy a dar a instalar.
+
+43
+00:02:36,450 --> 00:02:37,380
+De acuerdo, me espero.
+
+44
+00:02:37,380 --> 00:02:41,880
+Le digo que si me espero y ya me va a actualizar, no de JSA su última versión.
+
+45
+00:02:42,000 --> 00:02:46,530
+Es importante hacer esto porque así podremos descargarlo los paquetes lo más actualizados posible.
+
+46
+00:02:47,040 --> 00:02:51,130
+Una vez que ha terminado esto, lo que vamos a hacer va a ser comprobar que tenemos no devine instalado.
+
+47
+00:02:51,150 --> 00:02:56,850
+Para ello abrimos el símbolo del sistema o le damos a la tecla de Windows y escribimos CMD y nos aparecerá
+
+48
+00:02:56,850 --> 00:03:01,690
+esto, le damos enter, lo abrimos y aquí no va a aparecer la consola de nuestro sistema operativo.
+
+49
+00:03:01,800 --> 00:03:02,320
+De acuerdo.
+
+50
+00:03:02,610 --> 00:03:05,680
+Entonces aquí vamos a poner lo siguiente, no de versión.
+
+51
+00:03:05,940 --> 00:03:08,260
+Esto es lo que va a hacer este comando sacando la versión de Node.
+
+52
+00:03:08,290 --> 00:03:10,590
+Yo tengo esta que acabo de actualizar ahora.
+
+53
+00:03:10,760 --> 00:03:10,980
+Vale.
+
+54
+00:03:11,400 --> 00:03:17,070
+El siguiente paso sería actualizar el gestor de paquetes de PM, el gestor de paquetes de Neuwirth que
+
+55
+00:03:17,850 --> 00:03:21,260
+nos va a permitir instalar la versión nueva de Angulos, Cellay, etcétera.
+
+56
+00:03:21,360 --> 00:03:29,350
+Para ello lo que tengo que hacer es ejecutar el comando LPM install menosque en mm arroba Ladd.
+
+57
+00:03:29,940 --> 00:03:34,770
+Este de acuerdo le voy a dar a enter y esto me va a actualizar esa versión de RPM a la última.
+
+58
+00:03:34,860 --> 00:03:39,950
+Ahora comprobaremos cual tenemos ok si ahora o MPM menos menos versión.
+
+59
+00:03:40,770 --> 00:03:47,580
+Voy a ver que tengo la versión de aquí de en MM, la más actualizada, entonces de momento todo correcto.
+
+60
+00:03:47,580 --> 00:03:52,980
+Vamos a hacer CLS y vamos a seguir con el procedimiento para instalar Angular 10 en nuestro equipo.
+
+61
+00:03:53,070 --> 00:03:57,810
+Ahora lo siguiente que tenemos que hacer es borrar la caché en MM para que cuando yo me intente bajarlo
+
+62
+00:03:57,830 --> 00:04:02,550
+los paquetes de angular, pues se descargue lo más autorizado y no los que tiene guardados en caché.
+
+63
+00:04:02,760 --> 00:04:09,810
+Para ello voy a hacer MPM Cache Clean Menu menos force de acuerdo la idea enter y esto me va a borrar
+
+64
+00:04:09,810 --> 00:04:13,200
+la caché de momento para así poder descargarme siempre lo mas actualizado.
+
+65
+00:04:13,470 --> 00:04:18,990
+Ahora lo que voy a hacer va a ser desactivar la auditoría de PM porque suelen dar problemas en general
+
+66
+00:04:19,080 --> 00:04:21,740
+o ni siquiera dan problemas, pero dan avisos que son incómodos.
+
+67
+00:04:21,780 --> 00:04:26,040
+Por tanto, voy a hacer MPM Seth Audit False.
+
+68
+00:04:26,220 --> 00:04:28,980
+De acuerdo a Enter y ya está, ok.
+
+69
+00:04:29,070 --> 00:04:33,660
+Ahora lo que voy a hacer es de quitar la versión antigua que tengo de anular Cele y para ello ejecuto
+
+70
+00:04:33,960 --> 00:04:36,900
+un primer comando que va a ser LPM un tal.
+
+71
+00:04:38,930 --> 00:04:45,440
+Menos que para hacerlo de forma global angular guión Cellay OK, es toda digital, una versión antigua
+
+72
+00:04:45,440 --> 00:04:49,640
+de Angular Cellay y luego voy a Digital, a la versión última que yo tengo instalada.
+
+73
+00:04:49,640 --> 00:04:58,610
+En este caso voy a hacer MPM un instante menos que arroba angular barra Cellay De acuerdo a Enteritos
+
+74
+00:04:58,650 --> 00:05:03,800
+me va a desinstalar la versión que tengo de angulos Celli que sera la de la version 9 y ahora yo quiero
+
+75
+00:05:03,850 --> 00:05:05,110
+instalarme la de la versión 10.
+
+76
+00:05:05,120 --> 00:05:07,150
+Por tanto ahora mismo va todo bien.
+
+77
+00:05:07,160 --> 00:05:11,360
+Voy a hacer CLS para limpiar la consola, existas en Mac, Linux el comando sería Clear.
+
+78
+00:05:11,390 --> 00:05:16,040
+En este caso en Windows CLS y ahora lo que voy a hacer de nuevo, borrar la caché.
+
+79
+00:05:16,070 --> 00:05:21,050
+Para ello voy a hacer en MPM Cache Clean Menus menos force.
+
+80
+00:05:21,200 --> 00:05:25,220
+De esa forma, cuando ejecuta el comando instalacion me van a ir perfecto.
+
+81
+00:05:25,310 --> 00:05:31,580
+Ahora voy a ejecutar el comando para instalar Angular Lehi y con él poder luego instalar Angular 10
+
+82
+00:05:31,640 --> 00:05:33,560
+o generar proyectos de angular 10.
+
+83
+00:05:33,560 --> 00:05:41,810
+Por lo tanto voy a hacer MPM instalar menosque arroba angular barra Cellay arroba LAT.
+
+84
+00:05:42,040 --> 00:05:47,420
+Estoy de acuerdo la idea de Intel y esto se va a bajar la última ùltimo última versión de Angular 10
+
+85
+00:05:47,420 --> 00:05:53,240
+a nuestro equipo y así vamos a poder estar trabajando con él y generando un proyecto bien una vez terminado
+
+86
+00:05:53,360 --> 00:05:54,740
+el comando de instalación.
+
+87
+00:05:54,890 --> 00:05:59,510
+Ahora lo que vamos a hacer ya va a ser generar un nuevo proyecto de angular en nuestro equipo.
+
+88
+00:05:59,510 --> 00:06:04,370
+De acuerdo para ello lo podemos hacer en cualquiera de nuestras carpetas de nuestro proyecto.
+
+89
+00:06:04,640 --> 00:06:07,820
+Pero yo te recomiendo que lo hagas dentro una carpeta donde tú puedas trabajar.
+
+90
+00:06:07,820 --> 00:06:12,800
+En mi caso, yo trabajo en una carpeta en concreto en la carpeta de 3 W, así que me voy a mover ahí.
+
+91
+00:06:13,060 --> 00:06:18,190
+CD CD 2 puntos Barragan 64, Barra 3 W.
+
+92
+00:06:18,230 --> 00:06:19,760
+Este acuerdo de aquí voy a estar trabajando yo.
+
+93
+00:06:20,090 --> 00:06:25,460
+En tu caso puedes ejecutar los comandos que vienen a continuación donde tú quieras y crear la carpeta
+
+94
+00:06:25,460 --> 00:06:26,630
+del proyecto donde tú quieras.
+
+95
+00:06:26,660 --> 00:06:31,610
+En mi caso, yo suelo trabajar aquí, tú en la carpeta que tú quieras, en el escritorio, donde sea.
+
+96
+00:06:31,700 --> 00:06:32,210
+De acuerdo?
+
+97
+00:06:32,370 --> 00:06:34,970
+OK, pues aquí voy a ejecutar el comando NG New.
+
+98
+00:06:35,270 --> 00:06:39,590
+Este comando me va a permitir generar un nuevo proyecto de angular de acuerdo.
+
+99
+00:06:39,590 --> 00:06:45,680
+Y no pasa con un asistente que nos va a pedir una serie de pasos para poder crear nuestro proyecto satisfactoriamente.
+
+100
+00:06:45,680 --> 00:06:48,890
+De acuerdo, le voy a dar a Enter y me va a empezar a pedir cosas de acuerdo.
+
+101
+00:06:48,890 --> 00:06:54,080
+Fíjate, ya me pregunta varias cosas, me dice cuál quieres que sea el nombre de tu proyecto?
+
+102
+00:06:54,170 --> 00:06:54,620
+De acuerdo.
+
+103
+00:06:54,620 --> 00:06:59,300
+Pues yo le voy a poner, por ejemplo, pruebas angular 10.
+
+104
+00:06:59,420 --> 00:07:00,770
+De acuerdo y le voy a dar a enter.
+
+105
+00:07:00,860 --> 00:07:02,920
+Me pregunta si quiero añadir el rudin de angulas.
+
+106
+00:07:02,930 --> 00:07:05,570
+Le voy a decir que no, porque luego lo vamos a configurar nosotros.
+
+107
+00:07:05,570 --> 00:07:10,100
+En el caso de que le digamos que si nos va a crear una configuración alternativa que posiblemente de
+
+108
+00:07:10,100 --> 00:07:11,300
+problema en algún momento.
+
+109
+00:07:11,940 --> 00:07:17,930
+OK, aquí me pregunta que qué formato quiero para darle estilo al proyecto, qué hoja de estilo quiero
+
+110
+00:07:17,930 --> 00:07:18,890
+usar o lo que sea.
+
+111
+00:07:19,320 --> 00:07:24,690
+Puedo usar algún preprocesador CSS, pero en mi caso lo voy a dejar marcado por defecto en CSS.
+
+112
+00:07:24,920 --> 00:07:31,910
+Voy a dar a Enter y ya me crea todos los ficheros generales CAFO online en proyecto de acuerdo y lo
+
+113
+00:07:31,910 --> 00:07:36,350
+que hace es generar una estructura de carpeta de directorio ya amigable y a partir de ahora lo que está
+
+114
+00:07:36,350 --> 00:07:39,620
+haciendo es descargarse los paquetes de triángulo de acuerdo o bajarse.
+
+115
+00:07:39,950 --> 00:07:41,740
+Vienen pm. todas las dependencias.
+
+116
+00:07:41,810 --> 00:07:47,150
+Todo el fring en general y ya montarlo para que funcione el proyecto inicial y a partir de ahí empezar
+
+117
+00:07:47,150 --> 00:07:50,330
+a construir nuestra obligación que queramos con angular.
+
+118
+00:07:50,330 --> 00:07:50,630
+10.
+
+119
+00:07:51,470 --> 00:07:56,650
+Pues estudio ha terminado aquí podemos comprobar que esto ya está correcto, aunque en algún aviso sí
+
+120
+00:07:56,660 --> 00:07:59,090
+llegamos y vemos este mensaje que está todo bien.
+
+121
+00:07:59,420 --> 00:08:04,310
+Ahora vamos a ejecutar el comando CLS para limpiar la pantalla o Clear si está en otros sistemas operativos.
+
+122
+00:08:04,700 --> 00:08:07,010
+Y ahora lo que voy a hacer ya es arrancar mi proyecto.
+
+123
+00:08:07,160 --> 00:08:08,390
+Cómo puedo arrancar mi proyecto?
+
+124
+00:08:08,870 --> 00:08:13,790
+Paso número 1 Tengo que entrar a la carpeta del proyecto y en mi caso tendría que hacer CD para moverme
+
+125
+00:08:13,790 --> 00:08:17,860
+al directorio del proyecto y en este caso sería pruebas angular.
+
+126
+00:08:18,410 --> 00:08:18,850
+10.
+
+127
+00:08:20,660 --> 00:08:22,970
+Mi carpeta del proyecto que se ha generado.
+
+128
+00:08:23,480 --> 00:08:29,030
+Si hago Odir, pues aquí veo todas las carpetas, todos los ficheros que me han generado mi comando
+
+129
+00:08:29,580 --> 00:08:32,060
+NG New de acuerdo que me han permitido crear el proyecto.
+
+130
+00:08:32,540 --> 00:08:35,420
+Vale, una vez aquí lo que puedo hacer es lo siguiente lanzar comando.
+
+131
+00:08:35,480 --> 00:08:37,750
+NG Sirve este comando lo que va a hacer?
+
+132
+00:08:37,790 --> 00:08:41,480
+Arrancarme el servidor local de angular y permitirme empezar a trabajar con él.
+
+133
+00:08:41,620 --> 00:08:45,440
+Y vamos a ver nuestra primera pantalla de Angular 10, a quien nuestro navegador web.
+
+134
+00:08:45,740 --> 00:08:50,420
+Así que esperamos un poquillo a que arranque esta compilando cosas por primera vez.
+
+135
+00:08:50,710 --> 00:08:56,180
+Y aquí me dice que está todo compilado correctamente y que tengo mi angular en el local Josín en el
+
+136
+00:08:56,180 --> 00:09:05,060
+puerto 4200 por tanto navegador y aquí escribo local Jost Los puntos 4200 le dí a enter y vola.
+
+137
+00:09:05,060 --> 00:09:09,080
+Aquí tengo mi proyecto de pruebas angular 10 que acabo de crear.
+
+138
+00:09:09,120 --> 00:09:14,240
+Pues lo tengo aquí generado ya para empezar a trabajar y a partir de aquí yo ya puedo estar trabajando
+
+139
+00:09:14,240 --> 00:09:19,340
+con angular y cada cambio que yo hago en la pantalla pues se va a reflejar aquí y ya tenemos nuestra
+
+140
+00:09:19,340 --> 00:09:24,350
+versión 10 de angular instalada y ya sabemos cómo instalarlo y cómo hacer una actualización de la versión
+
+141
+00:09:24,350 --> 00:09:25,490
+anterior de la versión nueva.
+
+142
+00:09:25,690 --> 00:09:30,460
+Y también si tiene algún proyecto de angular nuevo y solamente quieres actualizarlo a la versión 10,
+
+143
+00:09:30,470 --> 00:09:32,600
+pues te dejo por aquí los pasos que debería seguir.
+
+144
+00:09:32,600 --> 00:09:37,270
+Simplemente entra a la carpeta del proyecto hacer el update de los paquetes a la versión final.
+
+145
+00:09:37,850 --> 00:09:42,610
+9 Y luego de ahí lo que hace será actualizarlo a la versión 10 de acuerdo y ya está.
+
+146
+00:09:42,680 --> 00:09:48,230
+Ya estaría con eso ya se habría actualizado tu proyecto a la versión 10 y si hay algún cambio o alguna
+
+147
+00:09:48,230 --> 00:09:52,660
+cosilla que tienes que modificar porque algo te revienta, ya es cosa tuya de que lo vaya revisando.
+
+148
+00:09:52,670 --> 00:09:57,470
+Pero bueno, en principio tenemos Angular 10 instalado y hemos visto sus novedades y su instalación.

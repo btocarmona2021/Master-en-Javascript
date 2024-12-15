@@ -1,0 +1,475 @@
+1
+00:00:01,110 --> 00:00:06,300
+Ahora vamos a empezar con la parte más interesante de JavaScript porque la finalidad de JavaScript es
+
+2
+00:00:06,360 --> 00:00:13,500
+interactuar con la página web es decir interactuar con el código HTML y que mediante Javascript podamos
+
+3
+00:00:13,500 --> 00:00:20,580
+manipular a nuestro antojo de manera dinámica el documento modere decir el Dom que eso sería el árbol
+
+4
+00:00:20,580 --> 00:00:27,600
+de etiquetas y elementos que componen una web es decir pues el body es un elemento del DOM el H1 es
+
+5
+00:00:27,600 --> 00:00:32,750
+un elemento del DOM el p es otro elemento del DOM entonces vamos a empezar a trabajar con eso.
+
+6
+00:00:32,760 --> 00:00:42,940
+Para eso vamos a crear un archivo nuevo que se va a llamar veinti ocho Dom punto JS.
+
+7
+00:00:43,080 --> 00:00:53,130
+Por el momento lo vamos a llamar así entonces vamos a ponerle unos Street y vamos a hablar del DOM o
+
+8
+00:00:53,160 --> 00:01:03,270
+el documento Objet Mot y vamos a cargar el archivo en el Index 28. Dom
+
+9
+00:01:15,820 --> 00:01:17,810
+Dom punto JS.
+
+10
+00:01:18,170 --> 00:01:24,550
+Vale entonces lo interesante de JavaScript es que nosotros podemos modificar el HTML de una página sin
+
+11
+00:01:24,550 --> 00:01:31,720
+ningún tipo de problema y podemos seleccionar los diferentes elementos que tenemos en la página y manipularlos
+
+12
+00:01:31,990 --> 00:01:39,340
+como nos dé la gana y hacer lo que queramos con ellos no de forma que si por ejemplo ahora mismo en
+
+13
+00:01:39,340 --> 00:01:46,270
+mi página tengo esto voy a abrir la consola para ver diferentes cosas.
+
+14
+00:01:47,720 --> 00:01:48,830
+Mira yo tengo esto.
+
+15
+00:01:48,860 --> 00:01:58,280
+Entonces si yo me voy a mi HTC a mi HTML yo puedo tener aquí un dip que tenga un IDE un identificador
+
+16
+00:01:59,090 --> 00:02:07,680
+que sea mi caja vale y voy a cerrar ese Dib y ese Dip simplemente tiene dentro un texto.
+
+17
+00:02:09,500 --> 00:02:16,040
+Hola soy una caja vale y eso me va a aparecer aquí sin ningún tipo de problema.
+
+18
+00:02:16,100 --> 00:02:22,970
+Cómo puedo yo seleccionar este elemento de aquí para manipularlo para cambiarle sus propiedades o para
+
+19
+00:02:22,970 --> 00:02:24,110
+hacer lo que quiera con él.
+
+20
+00:02:24,500 --> 00:02:29,400
+Pues para eso tengo un objeto que se llama Documet al cual puedo acceder a sus propiedades.
+
+21
+00:02:29,500 --> 00:02:35,750
+Puedo buscar dentro del documento HTML los elementos cuyo IDE sea mi caja.
+
+22
+00:02:35,750 --> 00:02:44,200
+Entonces para eso puedo utilizar el Get Element voy y de acuerdo puedo seleccionar los elementos por
+
+23
+00:02:44,330 --> 00:02:47,100
+IDE y voy a buscar mi caja.
+
+24
+00:02:47,210 --> 00:02:48,790
+Voy a buscar ese elemento.
+
+25
+00:02:48,880 --> 00:02:56,230
+Vale y entonces yo puedo hacer un lo puedo meter dentro de una variable Bancaja y puedo hacer un log
+
+26
+00:02:56,270 --> 00:03:01,560
+para ver qué es lo que no te con solo Autolog para ver qué tiene dentro caja.
+
+27
+00:03:02,330 --> 00:03:09,890
+Si actualizo la pantalla vamos a ver que nos dicen Nul porque realmente no existe esto y por qué pasa
+
+28
+00:03:09,890 --> 00:03:15,350
+esto y me devuelven Null cuando realmente sí que existe este elemento con esa idea porque el script
+
+29
+00:03:15,380 --> 00:03:21,470
+lo estoy cargando antes de que esté todo el HTML listo de acuerdo antes de que esto exista ya estoy
+
+30
+00:03:21,470 --> 00:03:26,780
+ejecutando esto por lo tanto cuando se ejecuta esta línea no encuentra nada en el body porque realmente
+
+31
+00:03:26,780 --> 00:03:28,790
+todavía no nos lo ha cargado.
+
+32
+00:03:28,790 --> 00:03:35,120
+Entonces para solucionar esto lo que puedo hacer es poner esta etiqueta describe cargada al final del
+
+33
+00:03:35,120 --> 00:03:36,480
+body.
+
+34
+00:03:36,480 --> 00:03:46,610
+Vale aquí aquí puedo cargar mis etiquetas script millors que lo puedo cargar aquí de esa manera utilizo
+
+35
+00:03:46,730 --> 00:03:47,400
+la pantalla.
+
+36
+00:03:47,450 --> 00:03:54,530
+Efectivamente cuando yo busco en el DOM mi elemento Tocumen Cetelem romboide en mi elemento con ID en
+
+37
+00:03:54,530 --> 00:03:55,130
+mi caja.
+
+38
+00:03:55,130 --> 00:04:01,610
+Efectivamente me devuelve esto de aquí ok sin ningún tipo de problema que es el DIV que estamos viendo
+
+39
+00:04:01,610 --> 00:04:04,210
+por pantalla.
+
+40
+00:04:04,430 --> 00:04:12,050
+Entonces yo podría incluso capturar el código HTML que dentro de ese DIV INER HTML.
+
+41
+00:04:12,140 --> 00:04:19,550
+Si yo hago esto y actualizo la pantalla me dice han definido por qué me dicen defining porque esto realmente
+
+42
+00:04:19,550 --> 00:04:24,190
+sería INET HTML con mayúscula valés y autorizó la pantalla ahora.
+
+43
+00:04:24,200 --> 00:04:30,850
+Efectivamente me saca el texto que yo tengo dentro o que aquí está sin ningún tipo de problema incluso
+
+44
+00:04:30,970 --> 00:04:37,700
+desde javascript podría cambiar el texto que hay dentro de un Dib vale simplemente dándole aquí un valor
+
+45
+00:04:37,750 --> 00:04:38,540
+igualando lo
+
+46
+00:04:42,110 --> 00:04:43,830
+o simplemente haciendo lo siguiente.
+
+47
+00:04:43,830 --> 00:04:47,870
+QUITO De aquí al Inega HTML y Kojo caja.
+
+48
+00:04:48,440 --> 00:04:53,910
+Utilizo la propiedad INER HTML porque esto es un elemento del DOM que acabo de seleccionar y aquí elemento
+
+49
+00:04:53,920 --> 00:04:57,140
+y el texto que yo quiera texto voy a meterle
+
+50
+00:04:59,940 --> 00:05:04,620
+texto en la caja desde J.S..
+
+51
+00:05:04,760 --> 00:05:11,220
+Vale si hago esto voy a estar modificándose EDIT Y efectivamente le he metido ese nuevo texto dentro
+
+52
+00:05:11,230 --> 00:05:17,610
+es decir modificado el HTML y he cambiado y lo he cambiado a mi antojo y a mi gusto de acuerdo y he
+
+53
+00:05:17,610 --> 00:05:19,000
+puesto lo que a mi me ha dado la gana.
+
+54
+00:05:19,050 --> 00:05:19,840
+Realmente no
+
+55
+00:05:23,130 --> 00:05:25,960
+incluso podría cambiarle los estilos sin ningún tipo de problema.
+
+56
+00:05:25,980 --> 00:05:27,260
+Es decir el elemento caja.
+
+57
+00:05:27,270 --> 00:05:34,430
+Yo puedo decir oye mira el está y el punto en background background.
+
+58
+00:05:34,740 --> 00:05:42,990
+Quiero que me lo ponga el fondo del elemento que me lo pongan de color red vale sin ningún tipo de problema
+
+59
+00:05:42,990 --> 00:05:48,390
+lo voy a hacer autorizó la pantalla y efectivamente me lo cambia a rojo sin ningún tipo de problema
+
+60
+00:05:48,600 --> 00:05:52,680
+y puedo modificar esto y recontra modificarlo a mi me de la gana.
+
+61
+00:05:52,710 --> 00:06:03,410
+Caja punto está el punto Padín y le puedo poner un par de 20 PX sin ningún tipo de problema y eso me
+
+62
+00:06:03,410 --> 00:06:11,280
+modifica mi elemento desde javascript incluso el color caja punto está y punto.
+
+63
+00:06:11,280 --> 00:06:16,470
+Estos son todo regla de CSS está el punto y a partir de ahí le pongo la regla CSS que yo quiera le puedo
+
+64
+00:06:16,470 --> 00:06:18,240
+poner un color de letra
+
+65
+00:06:21,770 --> 00:06:22,410
+guay.
+
+66
+00:06:22,430 --> 00:06:26,180
+Y así poder modificar esto como a mi me de la Real Gana.
+
+67
+00:06:26,180 --> 00:06:34,850
+Incluso podría hacer cosas tan interesantes como pedir al usuario que meta un dato de acuerdo o simplemente
+
+68
+00:06:34,850 --> 00:06:35,840
+tener una función.
+
+69
+00:06:35,840 --> 00:06:46,370
+Mira vamos a tener una función vamos a definir una función por aquí por aquí arriba función cambia color
+
+70
+00:06:47,880 --> 00:06:49,180
+cambia el color.
+
+71
+00:06:49,530 --> 00:06:55,530
+Vale y esta función simplemente va a recibir un color que va a ser un código de color o el nombre de
+
+72
+00:06:55,530 --> 00:07:02,880
+un color y entonces vamos a coger caja que es la variable que está de forma global y yo puedo hacer
+
+73
+00:07:02,880 --> 00:07:10,510
+esta y el punto color y pasarle el color que me pase el usuario cuando llame a la función o cuando ya
+
+74
+00:07:10,590 --> 00:07:17,250
+invoquemos esta función pasar ese color o pasarle ese background que va a ser el color de fondo.
+
+75
+00:07:17,810 --> 00:07:27,270
+Y esto lo quito o ni siquiera eso lo dejo valentón yo voy a actualizar la pantalla y si yo invoco la
+
+76
+00:07:27,270 --> 00:07:32,370
+función cambia color cambia color y le paso un color.
+
+77
+00:07:32,370 --> 00:07:39,090
+En este caso Grin debía pasar entre comillas porque es un string efectivamente me cambia el color sin
+
+78
+00:07:39,090 --> 00:07:46,330
+ningún tipo de problema y así yo puedo estar 50 000 horas cambiando colores hielo y me modifica el DOM
+
+79
+00:07:46,330 --> 00:07:49,130
+me modifica los atributos que tiene el elemento.
+
+80
+00:07:49,190 --> 00:07:55,300
+De todas formas si yo reviso mi elemento en el html veo que tengo el ID de mi caja y veo que tengo propiedades
+
+81
+00:07:55,530 --> 00:07:59,650
+theyll con todos los estilos que yo le he puesto por JavaScript.
+
+82
+00:07:59,730 --> 00:08:00,680
+De acuerdo.
+
+83
+00:08:00,750 --> 00:08:08,400
+También podría añadirle cualquier tipo de atributo HTML en este caso si yo quiero añadirle un atributo
+
+84
+00:08:08,910 --> 00:08:17,200
+que sea una clase yo podría hacer esto y podría coger y añadirle la clase o la madre.
+
+85
+00:08:18,210 --> 00:08:22,470
+Si ahora mismo actualizo la pantalla también podría coger y modificar
+
+86
+00:08:25,620 --> 00:08:28,670
+una clase y ponerle una clase que yo quisiera.
+
+87
+00:08:28,890 --> 00:08:33,570
+Por ejemplo la clase hola con la propiedad clase Nein le puedo poner una clase.
+
+88
+00:08:34,260 --> 00:08:36,330
+Efectivamente aquí la tenemos.
+
+89
+00:08:36,450 --> 00:08:37,780
+Hola y no puedo poner más.
+
+90
+00:08:37,830 --> 00:08:42,000
+Hola dos vales y guardo y actualizo.
+
+91
+00:08:42,000 --> 00:08:47,190
+Efectivamente así se añade en clase con el atributo Classmate y yo puedo estar modificando todas las
+
+92
+00:08:47,190 --> 00:08:53,690
+propiedades que quiera de mi elemento seleccionado con el documenté Televen Boydell.
+
+93
+00:08:54,300 --> 00:08:58,890
+Muchísimas propiedades que yo puedo modificar pero eso es cuestión de ir buscándola o que en el momento
+
+94
+00:08:58,890 --> 00:09:03,420
+en el cual no surjan pues y utilizándola de momento esto es lo básico.
+
+95
+00:09:03,600 --> 00:09:03,910
+Vale.
+
+96
+00:09:03,930 --> 00:09:09,630
+Otra de las formas que tenemos de seleccionar un elemento dentro de nuestro documento dentro de nuestro
+
+97
+00:09:09,630 --> 00:09:17,280
+elemento de nuestra página web es utilizando el selector que el selector es una manera muchísimo más
+
+98
+00:09:17,280 --> 00:09:22,590
+sencilla muy parecida qwerty de seleccionar un elemento de nuestra página es decir en lugar de hacer
+
+99
+00:09:22,590 --> 00:09:30,360
+un gTLD Minbari de yo podría hacer lo siguiente ya comentar esta línea y puedo hacer esto Bancaja es
+
+100
+00:09:30,360 --> 00:09:39,300
+igual a document punto y selector y esto me parece mucho más elegante a mi parecer y aquí seleccionar
+
+101
+00:09:39,300 --> 00:09:46,650
+el elemento como si fuera CCS si yo quiero seleccionar un dip pues cojo la almohadilla y pongo el líder
+
+102
+00:09:47,220 --> 00:09:47,790
+de mi caja.
+
+103
+00:09:47,790 --> 00:09:54,810
+Si yo quisiera seleccionar un elemento cuyo ideé sea mi caja si yo quisiera seleccionar elementos cuyo
+
+104
+00:09:55,110 --> 00:10:02,010
+cuya clase hacia mi caja pues tendría que utilizarlo así de momento seleccionando con el selector con
+
+105
+00:10:02,010 --> 00:10:09,690
+el IDE y el nombre del IDE de mi elemento al igual que hacemos en CSS es decir CSS nosotros utilizamos
+
+106
+00:10:10,830 --> 00:10:18,030
+sin nada para el nombre de la etiqueta con el tajo con la almohadilla para elemento que tienen una idea
+
+107
+00:10:18,090 --> 00:10:21,930
+para seleccionar una idea y el punto para seleccionar una clase.
+
+108
+00:10:21,930 --> 00:10:26,820
+De esta manera al igual que hacemos en CSS con los electores podemos hacerlo en JavaScript.
+
+109
+00:10:26,820 --> 00:10:35,780
+Si hacemos esto es exactamente lo mismo y yo puedo aquí llaman a la función cambia el color lo cambia
+
+110
+00:10:35,780 --> 00:10:36,440
+de verde
+
+111
+00:10:39,290 --> 00:10:44,560
+y no me deja esta vez aquí es porque he puesto el banquero borraba y algo vale.
+
+112
+00:10:44,810 --> 00:10:50,400
+Si lo vuelvo a hacer me actualizo la pantalla antes.
+
+113
+00:10:50,480 --> 00:10:55,740
+Efectivamente ahora sí que me funciona genial pues de esta manera para mí es mucho mejor estamanera
+
+114
+00:10:55,790 --> 00:10:56,240
+que ésta.
+
+115
+00:10:56,270 --> 00:11:01,250
+Pero también vamos a ver el resto de métodos que hay para seleccionar el resto de cosas seleccionar
+
+116
+00:11:01,250 --> 00:11:06,920
+etiquetas seleccionar clase etcétera y espero que con esta clase ya tengamos una visión global de lo
+
+117
+00:11:06,920 --> 00:11:10,850
+que es el DOM y cómo seleccionar cosas de nuestro HTML.
+
+118
+00:11:10,850 --> 00:11:17,680
+De igual forma si tuviéramos más más elementos a nuestro HTML también podríamos ir seleccionando malecon
+
+119
+00:11:17,740 --> 00:11:21,650
+diferente IDE o lo que sea pero de momento yo creo que ha quedado claro.

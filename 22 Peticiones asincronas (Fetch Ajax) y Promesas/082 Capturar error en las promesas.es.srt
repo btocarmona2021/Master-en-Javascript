@@ -1,0 +1,99 @@
+1
+00:00:01,080 --> 00:00:07,860
+Bien pero imagínate que se produce algún error en la promesa que al final no se hace correctamente la
+
+2
+00:00:07,860 --> 00:00:12,420
+petición y no se recogen los datos o alguna de estas promesas no se cumple.
+
+3
+00:00:12,420 --> 00:00:18,390
+Cómo podemos recoger el error que sucede y hacer algo de acuerdo en la página para mostrar algo o mostrar
+
+4
+00:00:18,600 --> 00:00:20,400
+algún tipo de alerta o de aviso.
+
+5
+00:00:20,470 --> 00:00:23,540
+Pues para eso podemos capturar el error con el método Catt.
+
+6
+00:00:23,730 --> 00:00:31,920
+El método caches típico para capturar errores y excepciones que suceden en el código.
+
+7
+00:00:31,920 --> 00:00:38,490
+En este caso si sucede un error podemos capturarlo error y esto es una función de Calvache una función
+
+8
+00:00:39,010 --> 00:00:46,680
+y yo puedo hacer un consolé punto log del error e incluso añadir cualquier mensaje de error a la página
+
+9
+00:00:46,680 --> 00:00:53,310
+o cualquier cosa que se me ocurra entonces ahora mismo si yo abro la consola de el navegador no voy
+
+10
+00:00:53,310 --> 00:01:01,330
+a tener ningún error realmente o sea realmente todo va bien pero al segundo tal cual todo lo que hemos
+
+11
+00:01:01,330 --> 00:01:02,260
+visto anteriormente.
+
+12
+00:01:02,980 --> 00:01:09,190
+Pero claro imagínate que no tuviera yo conexión a internet vale imagínate que yo no tuviera conexión
+
+13
+00:01:09,190 --> 00:01:11,560
+a Internet o estuviera llamando a un método que no existe.
+
+14
+00:01:11,560 --> 00:01:18,160
+Por ejemplo a este método de aquí a una R.L que no existe que no me va a devolver nada si hago esto
+
+15
+00:01:18,160 --> 00:01:28,840
+y actualizo la pantalla aquí sí que me da la ESA se resuelve porque nos devuelve algo ok pero si yo
+
+16
+00:01:28,840 --> 00:01:31,450
+llamo a una web que realmente no exista
+
+17
+00:01:33,970 --> 00:01:44,810
+vale si llamo a esta web revelé aquí me devuelve el error y el error File Fetch ok.
+
+18
+00:01:44,910 --> 00:01:51,000
+Ese es el error Balet yo pediría concatenar algo para ver que realmente es el error.
+
+19
+00:01:51,210 --> 00:01:57,690
+Ese es el error que nos devuelve Balet y una vez que capturó este error yo ya sé qué está pasando.
+
+20
+00:01:57,690 --> 00:02:10,420
+Incluso podría mostrar una alerta diciendo error en las peticiones cuando suceda un error vale error
+
+21
+00:02:10,420 --> 00:02:16,500
+en las peticiones cuando yo haga una petición a un servicio requeté caído cuando no tenga internet cuando
+
+22
+00:02:16,500 --> 00:02:21,010
+pase cualquier cosa y en este caso el error es que esta web no existe.
+
+23
+00:02:21,030 --> 00:02:27,210
+Con lo cual no puede hacer el fetch y por eso da el error la promesa pero si lo dejamos bien pues todo
+
+24
+00:02:27,210 --> 00:02:30,630
+va igual y todo va perfectamente bien.
+
+25
+00:02:31,500 --> 00:02:34,860
+Así que ya sabemos como captura un error en las promesas.

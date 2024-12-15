@@ -1,0 +1,47 @@
+1
+00:00:00,660 --> 00:00:07,360
+Otra cosa interesante que tienen las animaciones es la posibilidad de añadirle un Kolchak de acuerdo
+
+2
+00:00:07,360 --> 00:00:13,100
+porque ahora mismo imagínate que yo quiero ver cuando acaba una animación.
+
+3
+00:00:13,120 --> 00:00:21,340
+Pues si yo le digo a ocultar lo que se me ocurriría podría ser que cuando yo le diera a ocultar aquello
+
+4
+00:00:21,400 --> 00:00:28,650
+podría mostrar un consolé Autolog cartel ocultado por ejemplo.
+
+5
+00:00:30,370 --> 00:00:36,040
+Entonces claro si sirve de algo donde ocultar me pone el cartel ocultado pero realmente se me muestra
+
+6
+00:00:36,040 --> 00:00:37,490
+antes de que la animación acabe.
+
+7
+00:00:37,630 --> 00:00:43,060
+Entonces si yo quiero solucionar eso tengo la posibilidad de añadirle como segundo parámetro una función
+
+8
+00:00:43,060 --> 00:00:50,380
+anónima de Calvache y una vez que acabe la animación realmente entonces me va a mostrar esto se va a
+
+9
+00:00:50,380 --> 00:00:52,960
+ejecutar el contenido que hay aquí realmente.
+
+10
+00:00:53,110 --> 00:00:56,260
+Una vez que esté ya todo oculto le doy aquí.
+
+11
+00:00:56,260 --> 00:01:01,270
+Una vez que termina me muestra esto y esto gracias a la posibilidad de añadir como segundo parámetro
+
+12
+00:01:01,330 --> 00:01:02,230
+un Caloca.

@@ -1,0 +1,323 @@
+1
+00:00:01,290 --> 00:00:06,030
+Ahora vamos a hacer la sección de proyectos aquí simplemente ahora un listado de todos los proyectos
+
+2
+00:00:06,030 --> 00:00:12,140
+con su correspondiente imagen y su pequeña descripción su nombre etcétera vale.
+
+3
+00:00:12,330 --> 00:00:18,470
+Así que lo primero que vamos a hacer va a ser en nuestro servicio de proyectos en nuestro proyecto servis
+
+4
+00:00:18,540 --> 00:00:24,430
+crear el método correspondiente para sacar de la base de datos y consumir de nuestro hobby.
+
+5
+00:00:24,750 --> 00:00:30,200
+Todos nuestros proyectos de acuerdo conseguir un Jayson una colección de objetos Jayson con todos los
+
+6
+00:00:30,210 --> 00:00:33,000
+proyectos de la base de datos.
+
+7
+00:00:33,000 --> 00:00:35,570
+Para eso voy a crearme un método llamado get projects
+
+8
+00:00:39,190 --> 00:00:41,690
+que le vamos a pasar como parámetro.
+
+9
+00:00:41,680 --> 00:00:47,760
+Nada realmente porque lo va a listar todo y además le voy a pasar o le voy a decir que me va a devolver
+
+10
+00:00:47,760 --> 00:00:51,720
+un observable de cualquier tipo.
+
+11
+00:00:51,720 --> 00:00:56,340
+Vale entonces aquí qué vamos a hacer pues vamos a hacer lo primero.
+
+12
+00:00:56,340 --> 00:01:05,960
+La variable Geddes que va a ser un niño http: Geddes utiliza el método Seth para decirle en qué formato
+
+13
+00:01:05,960 --> 00:01:11,910
+le vamos a enviar la información en este caso le vamos a enviar la información con un contentarme
+
+14
+00:01:14,900 --> 00:01:24,830
+Application Jayson Cierco un punto y coma y ya vamos a hacer la petición Ayax por Get returned dis punto
+
+15
+00:01:25,110 --> 00:01:33,780
+guion bajo http: punto Goeth vamos a consumir una web de nuestra API disputo o R.L más y de encadenamos
+
+16
+00:01:33,810 --> 00:01:39,560
+el método concreto del segmento de la ruta concreto que sería proyectes vale.
+
+17
+00:01:39,750 --> 00:01:46,600
+Como ya le paso mi segundo parámetro que serían los Getter Geddes los puntos Geddes.
+
+18
+00:01:46,600 --> 00:01:53,330
+De esta manera yo voy a hacer la medición Ayax ahora me voy a mi componente de Prayuth si estoy aquí
+
+19
+00:01:54,040 --> 00:02:03,410
+lo abro y aquí voy a estar importando pues el servicio el modelo etcetc import con el modelo primero
+
+20
+00:02:03,410 --> 00:02:20,140
+Projet from junto con To Barrapunto punto Barrán Models barra Project Zero con Punto y Coma import me
+
+21
+00:02:20,300 --> 00:02:22,280
+importa el servicio Projet servis
+
+22
+00:02:24,950 --> 00:02:34,790
+Service from punto punto Barrapunto punto barra servicios barra Proyect punto servirse.
+
+23
+00:02:34,790 --> 00:02:41,640
+Cierro con punto y coma y ahora voy a cargar mi archivo global también para sacar la web CL del Happy
+
+24
+00:02:43,830 --> 00:02:55,930
+from punto.com Barrapunto juntó barra el vices barra global y ahora voy a cargar mi servicio en mi.
+
+25
+00:02:55,940 --> 00:03:08,860
+A raíz de Providers de mi componente probé ayer y en el array le paso Proyect Servillo okey perfecto.
+
+26
+00:03:08,900 --> 00:03:17,380
+Ahora voy a cargar mi servicio en una propiedad de mi clase en el constructor para inyectarla inyectã
+
+27
+00:03:17,420 --> 00:03:18,020
+el objeto
+
+28
+00:03:20,860 --> 00:03:30,520
+Private Home bajo un proyect servis 2.0 un objeto de tipo Pro y de servir.
+
+29
+00:03:30,690 --> 00:03:35,700
+Yo ahora voy a utilizar el método creado en mi servicio.
+
+30
+00:03:35,850 --> 00:03:45,670
+Ok para eso me creó un nuevo método minicomponente que se va a llamar proyectes de la misma forma.
+
+31
+00:03:46,430 --> 00:03:53,010
+Vale y aquí voy a hacer lo siguiente punto y un bajo el servis punto proyectes.
+
+32
+00:03:53,530 --> 00:04:02,330
+Vale no necesita que le pase nada y utiliza el método subscribe para suscribir no observable y recoger
+
+33
+00:04:02,330 --> 00:04:09,300
+la respuesta que devuelve el API en este caso pues este método tiene disponible dos funciones de Calvo
+
+34
+00:04:09,350 --> 00:04:14,080
+con abonara Response y otra para el posible error.
+
+35
+00:04:14,140 --> 00:04:19,580
+Bien pues si no llegar al error simplemente hacemos un consolé punto log con el error
+
+36
+00:04:23,840 --> 00:04:29,870
+y si no llega la Response pues también vamos a hacer un consolarlos por el momento de el contenido de
+
+37
+00:04:29,880 --> 00:04:36,590
+responsa que guardo para que esto funcione tendré que llamarlo Anero Ni-Ni porque es el método que se
+
+38
+00:04:36,590 --> 00:04:43,400
+ejecuta nada más cargar el componente disputo proyecto llamo a mi método que acabo de crear en mi clase
+
+39
+00:04:43,400 --> 00:04:49,740
+en mi componente y se actualiza la pantalla y abro mi consola puedo ver.
+
+40
+00:04:49,740 --> 00:04:57,770
+Vale puedo ver si actualizo que tengo un objeto con una propiedad Projet y aquí tengo una raíz de 7
+
+41
+00:04:57,800 --> 00:05:04,040
+objetos y si te das cuenta todos estos objetos corresponden a todos los documentos que tengo en mi colección
+
+42
+00:05:04,040 --> 00:05:08,600
+de proyectos de mi base de datos que esto no lo está devolviendo el API como podemos comprobar aquí
+
+43
+00:05:08,600 --> 00:05:16,130
+en la ventanita en el cual no ha hecho la recurres a esta o RL porque correctamente de acuerdo con lo
+
+44
+00:05:16,130 --> 00:05:18,040
+cual ya tenemos la información aquí.
+
+45
+00:05:18,200 --> 00:05:23,780
+Así que lo que nos quedaría sería mostrarla como podamos mostrarla en la vista pues simplemente vamos
+
+46
+00:05:23,780 --> 00:05:34,640
+a crear una propiedad pública que se vaya mal Projet que va a ser uno más en una ley de objetos de tipo
+
+47
+00:05:34,640 --> 00:05:38,220
+proyecto teóricamente.
+
+48
+00:05:38,540 --> 00:05:49,020
+Entonces aquí en la Response lo que voy a hacer va a ser lo siguiente darle si realmente me llega si
+
+49
+00:05:49,020 --> 00:05:57,540
+me llega Response punto proyectes pues darle ese valor a esa propiedad disputo projects le voy a dar
+
+50
+00:05:57,540 --> 00:06:00,860
+el valor de Response untó Proyect.
+
+51
+00:06:00,870 --> 00:06:09,300
+De esa manera si guardo y me abro mi vista de este componente yo aquí voy a crear un container también
+
+52
+00:06:09,720 --> 00:06:11,990
+div class container
+
+53
+00:06:14,560 --> 00:06:15,750
+Zero lib.
+
+54
+00:06:15,750 --> 00:06:18,810
+Aquí voy a poner un HDD que sea proyectos
+
+55
+00:06:22,410 --> 00:06:33,600
+cierra el H2 yo puedo utilizar voy a hacer un mueble de hecho para listar todos los proyectos entonces
+
+56
+00:06:33,710 --> 00:06:42,500
+voy a hacer un NG effort de todos los proyectos G for creérmela variable Proyect of projects.
+
+57
+00:06:42,870 --> 00:06:47,340
+Vale voy a recorrer todos los proyectos y voy a crear una variable en cada iteración.
+
+58
+00:06:47,340 --> 00:06:51,980
+Ahora puedo acceder al nombre de cada proyecto proyecto con TuneIn.
+
+59
+00:06:51,990 --> 00:07:00,270
+De esa manera si aterriza la pantalla por aquí me aparecen mis proyectos perfectamente listados.
+
+60
+00:07:00,280 --> 00:07:05,990
+Vale perfecto ya tenemos los datos sacados del Bakken.
+
+61
+00:07:06,090 --> 00:07:11,700
+Ahora lo que queda sería mostrar el resto de información que sería interesante o que fuera interesante
+
+62
+00:07:12,960 --> 00:07:19,590
+y simplemente también mostrar la imagen y todo eso dentro del propio link y luego maquetar.
+
+63
+00:07:19,890 --> 00:07:32,070
+Vale vamos a mostrar algún dato más como por ejemplo el año eso lo vamos a poner justo debajo proyecto
+
+64
+00:07:33,090 --> 00:07:37,350
+Punto Hillier o incluso lenguajes links
+
+65
+00:07:40,440 --> 00:07:44,260
+o la categoría category.
+
+66
+00:07:44,260 --> 00:07:53,730
+Y esto lo vamos a meter todo en Spanx o de hecho en HD2 2 o H3 y esto ya sería un párrafo
+
+67
+00:07:56,460 --> 00:08:03,730
+y luego también vamos a mostrar la imagen justo aquí arriba y emerge rece como tenemos también la web
+
+68
+00:08:03,760 --> 00:08:11,670
+R.L del Appiah aquí en el objeto global puedo crearme una propiedad públic o R.L que sea una string
+
+69
+00:08:12,240 --> 00:08:22,170
+y en el constructor le voy a dar un valor disputo o RLS es igual al Global punto where.
+
+70
+00:08:22,380 --> 00:08:26,070
+Esta moneda la puede utilizar la web R.L aquí para imprimirla
+
+71
+00:08:28,320 --> 00:08:35,250
+disputo disputo no hace falta simplemente con un R.L le puedo concatenar además el método de la épica
+
+72
+00:08:35,250 --> 00:08:36,760
+ni me interesa en el backend.
+
+73
+00:08:36,860 --> 00:08:43,050
+Si nos vamos a las rutas vemos que nos falta un método para alistar o para sacar esa imagen.
+
+74
+00:08:43,080 --> 00:08:50,150
+De acuerdo eso lo haremos ahora después un método que nos devuelva una imagen vale entonces de momento
+
+75
+00:08:50,150 --> 00:08:53,350
+con esta información nos sirve vale.
+
+76
+00:08:53,650 --> 00:08:56,990
+Y ahora en la siguiente clase vale.
+
+77
+00:08:57,020 --> 00:09:01,070
+De momento esto no sirve en la siguiente clase lo que vamos a hacer va a ser un método en nuestro Bakken
+
+78
+00:09:01,340 --> 00:09:08,210
+que nos devuelva una imagen de acuerdo con esa imagen por nosotros y que el backend escupa esa imagen.
+
+79
+00:09:08,210 --> 00:09:13,610
+De esa forma podemos controlar cierta ciertas cosas mucho más que si accedemos directamente al sistema
+
+80
+00:09:13,610 --> 00:09:21,140
+de archivos te vamos a hacer una RL nueva en nuestro Bakken para alistar o para devolver una imagen
+
+81
+00:09:21,200 --> 00:09:24,980
+y luego poder incrustar la y mostrarla en nuestra página web.

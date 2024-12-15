@@ -1,0 +1,147 @@
+1
+00:00:00,810 --> 00:00:06,510
+Ahora vamos a trabajar con las funciones y el tipado dentro de Taipe scrip para eso me voy a crear un
+
+2
+00:00:06,510 --> 00:00:17,100
+nuevo archivo dentro de la carpeta JBS que se va a llamar 04 funciones punto de ese vale y vamos a volver
+
+3
+00:00:17,100 --> 00:00:24,340
+a lanzar la compilación controlde y vuelvo a lanzar el comando TSC menos uve doble y vamos a hacer las
+
+4
+00:00:24,360 --> 00:00:25,970
+pruebas que vamos a hacer aquí.
+
+5
+00:00:25,970 --> 00:00:37,620
+Vale voy a cargar el archivo en mi índex 04 funciones y vamos a trabajar con la función y el tipado
+
+6
+00:00:39,440 --> 00:00:40,710
+vale en Tepes Creep.
+
+7
+00:00:40,800 --> 00:00:43,500
+Cuando nosotros definimos un método o una función
+
+8
+00:00:51,600 --> 00:00:56,360
+número por ejemplo yo puedo definir la función igual que la hago en JavaScript puro.
+
+9
+00:00:56,400 --> 00:01:01,820
+De acuerdo puedo tener una función a la cual yo le parece un parámetro que va a ser un número.
+
+10
+00:01:01,860 --> 00:01:08,560
+Vale por ejemplo número y simplemente voy a hacer un retuit de número vale.
+
+11
+00:01:08,580 --> 00:01:15,520
+El número es y le con Kanté no número OK.
+
+12
+00:01:15,540 --> 00:01:16,500
+Así de sencillo.
+
+13
+00:01:16,530 --> 00:01:22,580
+Entonces yo voy a llamar a mi función de número y ya está.
+
+14
+00:01:22,590 --> 00:01:25,410
+Puedo hacer con ella lo que yo quiera un consolé punto lo
+
+15
+00:01:29,370 --> 00:01:29,690
+vale.
+
+16
+00:01:30,000 --> 00:01:36,930
+Y entonces simplemente me devuelve el número es porque no se lo estoy pasando por default le puedo decir
+
+17
+00:01:37,320 --> 00:01:44,310
+un valor por defecto que sea 12 vale en el caso de que no le llegue y efectivamente el número 12 y yo
+
+18
+00:01:44,310 --> 00:01:45,750
+se lo paso como un parámetro
+
+19
+00:01:48,620 --> 00:01:50,080
+pues aquí me lo saca.
+
+20
+00:01:50,600 --> 00:01:53,870
+Vale hasta aquí todo correcto.
+
+21
+00:01:53,870 --> 00:01:57,000
+Esto era una función normal en JavaScript.
+
+22
+00:01:57,020 --> 00:02:04,130
+Incluso podría tener más funciones hacerme todas las que yo quisiera y lo bueno que scrip es que yo
+
+23
+00:02:04,130 --> 00:02:11,440
+puedo definir el tipado que tiene mi parámetro de acuerdo qué tipo de dato va a ser mi parámetro.
+
+24
+00:02:11,450 --> 00:02:16,820
+Por ejemplo en este caso le puedo decir que el tipo de dato va a ser un number pero además le puede
+
+25
+00:02:16,820 --> 00:02:18,630
+indicar qué tipo de dato va a devolver.
+
+26
+00:02:18,680 --> 00:02:25,490
+En este caso va a ser un estreno de acuerdo si lo pongo de esta manera de forma que ahora mismo la combinación
+
+27
+00:02:25,490 --> 00:02:30,030
+va correcta y la función funciona de la misma forma.
+
+28
+00:02:30,080 --> 00:02:36,830
+Pero qué pasa si yo le digo aquí que quiero que el dato sea una string pues ya la compilación me va
+
+29
+00:02:36,830 --> 00:02:41,660
+a fallar esto se va a seguir ejecutando porque al final de JavaScript pero en la compilación hay fallos
+
+30
+00:02:41,720 --> 00:02:49,880
+vale decir que pasar un Amber porque si no pues el parámetro no funciona y si yo le digo que lo que
+
+31
+00:02:49,940 --> 00:02:54,010
+tiene que devolver este método o esta función es un string que tiene que devolver un string porque si
+
+32
+00:02:54,020 --> 00:03:03,490
+yo le pasa un number si le digo que la función tiene que devolver un número pues si yo le intento devolver
+
+33
+00:03:03,490 --> 00:03:08,710
+una string va a seguir funcionando de igual forma pero en la consola me va a indicar el error de tipado
+
+34
+00:03:08,710 --> 00:03:14,560
+me dice que el tipo string no es asignarle a un tipo number vale porque yo lo estoy intentando sino
+
+35
+00:03:14,620 --> 00:03:19,840
+un valor estoy intentando devolver un valor cuando tengo definido que la función va a devolverme un
+
+36
+00:03:19,990 --> 00:03:27,370
+string vale pues de igual forma podría crearme mil métodos que jugando con esto yo puedo controlar mucho
+
+37
+00:03:27,370 --> 00:03:30,910
+más los datos que entran y salen de mis métodos y de mis funciones.

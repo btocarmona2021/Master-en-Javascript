@@ -1,0 +1,59 @@
+1
+00:00:01,050 --> 00:00:05,200
+Otros métodos interesantes son los que nos permiten ordenar un array.
+
+2
+00:00:05,460 --> 00:00:08,880
+Por ejemplo ahora mismo tenemos este array aquí arriba
+
+3
+00:00:11,910 --> 00:00:21,320
+array de películas tenemos con un orden concreto de forma que si yo lo muestro en un Consol log lo muestro
+
+4
+00:00:21,350 --> 00:00:27,710
+por aquí vamos a subir aquí arriba con sólo el punto log.
+
+5
+00:00:27,950 --> 00:00:32,970
+Si yo lo muestro pues me va a parecer normal.
+
+6
+00:00:32,970 --> 00:00:38,810
+Vale me aparece en la red normal pero si yo quiero ordenarlo vale para eso puedo utilizar el método
+
+7
+00:00:38,850 --> 00:00:45,760
+sort okey el método sort películas puntos sort nos va a permitir ordenar el array.
+
+8
+00:00:45,770 --> 00:00:55,150
+Qué pasa que por default me va a aparecer pues ordenado por orden alfabético G A BCD por orden alfabético
+
+9
+00:00:55,150 --> 00:00:56,990
+la G primero la l ITA.
+
+10
+00:00:57,920 --> 00:01:03,100
+Pero orden por orden alfabético pero imagínate que quiero darle la vuelta también a la O sea en lugar
+
+11
+00:01:03,100 --> 00:01:08,440
+de utilizar el short quiero en lugar de ordenarlos por orden alfabético simplemente quiero darle la
+
+12
+00:01:08,440 --> 00:01:11,880
+vuelta a la raíz pues para eso tengo el método reverse también.
+
+13
+00:01:12,160 --> 00:01:20,190
+Y también nos va a permitir darle la vuelta a la raíz que es el orden inverso quetenía efectivamente
+
+14
+00:01:20,190 --> 00:01:26,430
+es el orden inverso quetenía con lo cual con esto de un método vamos tanto a ordenar alfabética o numéricamente
+
+15
+00:01:26,490 --> 00:01:30,150
+como darle la vuelta a una raíz y que tenga el orden inverso.

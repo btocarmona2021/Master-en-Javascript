@@ -1,0 +1,375 @@
+1
+00:00:00,840 --> 00:00:03,400
+Ahora vamos a aprender a trabajar con los objetos.
+
+2
+00:00:03,480 --> 00:00:10,830
+Jason Jayson son las siglas de JavaScript Objet notación notación de objetos de JavaScript y nos permite
+
+3
+00:00:10,980 --> 00:00:14,370
+crear objetos de manera muy simple y muy sencilla.
+
+4
+00:00:14,370 --> 00:00:20,280
+Esta clase de objetos de JavaScript son prácticamente Arráiz asociativo dentro de JavaScript y nos permiten
+
+5
+00:00:20,280 --> 00:00:25,320
+hacer infinidad de cosas y estructurar los datos de una manera muy simple óptima y rápida así que vamos
+
+6
+00:00:25,320 --> 00:00:28,790
+a ver que es un objeto Jayson como se puede utilizar ital.
+
+7
+00:00:28,830 --> 00:00:35,610
+Vamos a crear una nueva página HTML y un nuevo archivo de JavaScript a empezar de cero y verlo todo
+
+8
+00:00:35,610 --> 00:00:44,430
+mejor vamos a crear una página que se llame página HTML y aquí vamos a meter una estructura de HTML
+
+9
+00:00:44,430 --> 00:01:04,420
+normal Doctrine HTML HTML es cerramos el HTML Gear cerramos el CEAT con la etiqueta meta echárselo VF
+
+10
+00:01:04,440 --> 00:01:08,470
+y 8 mantenemos la etiqueta Titelman
+
+11
+00:01:10,960 --> 00:01:17,170
+curso de JS de Víctor Robles cierra la etiqueta Bitel
+
+12
+00:01:20,340 --> 00:01:24,470
+abre el body y cierra el body.
+
+13
+00:01:24,730 --> 00:01:32,260
+Ahora vamos a trabajar con los objetos Greyson o simplemente Jayson
+
+14
+00:01:35,250 --> 00:01:39,810
+y esto vale ahora vamos a crear el archivo para hacer la práctica.
+
+15
+00:01:39,830 --> 00:01:48,720
+En este caso sería el archivo 33 controles de 33 Jayson junto JS y vamos a empezar a practicar.
+
+16
+00:01:48,860 --> 00:01:54,770
+Con esto vamos a incluir este archivo en nuestra página
+
+17
+00:01:57,530 --> 00:02:00,250
+scrip type text JavaScript
+
+18
+00:02:10,350 --> 00:02:13,440
+y listo para
+
+19
+00:02:17,970 --> 00:02:19,730
+bien pues Yeison
+
+20
+00:02:23,400 --> 00:02:28,620
+son las siglas de JavaScript Objet Notion vale notación de objetos de JavaScript.
+
+21
+00:02:28,630 --> 00:02:34,040
+Esto nos permite hacer objetos muy simples hacer una especie de array asociativo.
+
+22
+00:02:34,130 --> 00:02:43,070
+Por ejemplo yo puedo crear una variable que sea película y un objeto de Jayson un objeto de JavaScript
+
+23
+00:02:43,070 --> 00:02:48,620
+se define se define de esta manera con llaves y le voy indicando las propiedades que va teniendo va
+
+24
+00:02:48,620 --> 00:03:00,390
+a tener la propiedad título de la película título en este caso sería Batman vs Superman.
+
+25
+00:03:01,280 --> 00:03:07,520
+Podríamos ponerle el año Geer como propiedad y dentro le metemos el dato en este caso sería un número
+
+26
+00:03:07,520 --> 00:03:15,620
+así que sería el 2017 por ejemplo y le podríamos poner también el país de procedencia de la película
+
+27
+00:03:16,340 --> 00:03:18,010
+en este caso Estados Unidos
+
+28
+00:03:20,690 --> 00:03:26,750
+y de esta manera definimos un objeto Jayson vale con las llaves y poniéndole el nombre a la propiedad
+
+29
+00:03:27,280 --> 00:03:33,730
+y además poniéndole asignándole un valor a cada una de esas propiedades y separarlo por comas ok.
+
+30
+00:03:33,830 --> 00:03:38,020
+De esa manera tengo mi objeto Jayson cómo accedo a las propiedades de mi objeto.
+
+31
+00:03:38,060 --> 00:03:39,430
+Cómo accedo a estas propiedades.
+
+32
+00:03:39,460 --> 00:03:50,400
+Pues sencillo ahora mismo si hago un consolé Autolog de película fácilmente en mi navegador en página
+
+33
+00:03:50,690 --> 00:03:56,570
+HTML me aparece aquí mi objeto con todas las propiedades que yo el indicado.
+
+34
+00:03:56,570 --> 00:03:57,990
+Yo tengo mi objeto película.
+
+35
+00:03:58,490 --> 00:04:03,230
+Si yo quiero acceder a una de sus propiedades pues simplemente pongo el nombre de la propiedad título
+
+36
+00:04:04,010 --> 00:04:09,590
+Película punto el punto sirve para acceder a una propiedad de un objeto y ya pongo el nombre de la propiedad.
+
+37
+00:04:09,590 --> 00:04:15,210
+Si hago esto me saca el nombre de la propiedad de acuerdo.
+
+38
+00:04:15,500 --> 00:04:18,530
+Así de sencillo así de simple.
+
+39
+00:04:18,530 --> 00:04:24,500
+Si yo quisiera cambiar por ejemplo el valor de una propiedad pues podría hacer película punto título
+
+40
+00:04:25,990 --> 00:04:27,940
+y de esta manera le cambio el nombre.
+
+41
+00:04:27,950 --> 00:04:34,450
+Esta vez se va a llamar superman Voynich jergón puntico.
+
+42
+00:04:34,930 --> 00:04:41,240
+Y ahora si actualizo la pantalla ahora ha cambiado el título de acuerdo y puedo acceder perfectamente
+
+43
+00:04:41,240 --> 00:04:45,440
+a película película punto título.
+
+44
+00:04:46,190 --> 00:04:46,970
+Así de sencillo.
+
+45
+00:04:46,970 --> 00:04:52,200
+Y ahí me aparece vale incluso el código también
+
+46
+00:04:54,890 --> 00:04:55,440
+perfecto.
+
+47
+00:04:55,440 --> 00:05:02,420
+Pues esto es un objeto Yeison yo puedo almacenar información así de manera muy sencilla vale en este
+
+48
+00:05:02,510 --> 00:05:07,160
+lenguaje de programación no hay array asociativo como por ejemplo en PHP que sí que los hay pero sí
+
+49
+00:05:07,160 --> 00:05:13,640
+que hay objetos de este tipo que es algo muy muy útil luego cuando hagamos programación en el Bakken
+
+50
+00:05:13,640 --> 00:05:14,560
+también.
+
+51
+00:05:14,630 --> 00:05:20,960
+Con esto podemos enviar datos recibir datos de una manera muy ligera y muy simple por ejemplo mongo.
+
+52
+00:05:20,990 --> 00:05:26,780
+Ese sistema de bases de datos almacena su información de esta manera de acuerdo no tiene tabla sino
+
+53
+00:05:26,780 --> 00:05:32,960
+que tiene documentos que son Jayson que tienen propiedades y tienen su dato guardado ahí de acuerdo
+
+54
+00:05:32,960 --> 00:05:39,980
+y de una manera mucho más rápida de trabajar que de otra manera porque al final son muy poco carácter
+
+55
+00:05:40,010 --> 00:05:46,430
+y muy muy sencilla la arquitectura de esto y la complejidad que esto tiene es sencilla y funciona muy
+
+56
+00:05:46,430 --> 00:05:47,270
+bien.
+
+57
+00:05:47,300 --> 00:05:54,440
+También podría tener una raid de películas por ejemplo varias películas voy a quitar esta línea de aquí
+
+58
+00:05:58,340 --> 00:06:05,600
+podría tener una raíz normal de JavaScript y podría meterle yo dentro mis objetos de película título
+
+59
+00:06:08,700 --> 00:06:09,870
+La verdad duele
+
+60
+00:06:12,780 --> 00:06:15,810
+IER 2016
+
+61
+00:06:19,710 --> 00:06:20,460
+país
+
+62
+00:06:23,470 --> 00:06:29,940
+Francia por ejemplo yo así podría ir creando objetos podría incluso meter mi objeto de película y si
+
+63
+00:06:29,940 --> 00:06:37,410
+luego muestro mi Array vamos a ver que tenemos dos elementos y esto ya es una colección de objetos y
+
+64
+00:06:37,410 --> 00:06:43,020
+tenemos nuestros dos objetos el cero y el uno uno que lo hemos hecho nosotros aquí y otro que es una
+
+65
+00:06:43,020 --> 00:06:51,480
+variable vale y puedo tener incluso Array dentro de un objeto y objetos dentro del objeto y lo que se
+
+66
+00:06:51,480 --> 00:06:57,050
+nos ocurra de forma que yo ahora mismo podría recorrer mi mis películas.
+
+67
+00:06:58,530 --> 00:07:00,960
+Vale podría fácilmente hacer un florín
+
+68
+00:07:04,110 --> 00:07:18,570
+Index in películas Vari Index y podría recorrer mi película Balet y meterla dentro de un DIV que yo
+
+69
+00:07:18,570 --> 00:07:20,150
+tenga por aquí.
+
+70
+00:07:32,310 --> 00:07:38,900
+Podría hacerlo así y dentro de este Dip meter todas mis películas que están dentro de un objeto Jayson
+
+71
+00:07:39,220 --> 00:07:45,000
+que ya te digo que la arquitectura de esto y la complejidad que tienen los objetos no es muy grande
+
+72
+00:07:46,530 --> 00:07:51,330
+y lo que ocupan estos objetos es muy poco porque no tiene no tiene nada más.
+
+73
+00:07:51,330 --> 00:07:57,570
+Es como si fuera una raya disociativo pero es un objeto yo puedo recorrer esto e ir metiendo dentro
+
+74
+00:07:57,570 --> 00:08:08,670
+de mí div de películas no puedo hacer aquí bar caja películas y hago un documento punto y selector
+
+75
+00:08:12,050 --> 00:08:15,540
+voy a seleccionar.
+
+76
+00:08:15,540 --> 00:08:25,560
+En este caso se llama película serie de películas y voy a cargar el script abajo para que encuentre
+
+77
+00:08:26,430 --> 00:08:26,970
+ese DIV
+
+78
+00:08:38,790 --> 00:08:48,250
+y entonces por cada película que yo rellene osea que yo encuentre voy a hacer una variable un párrafo
+
+79
+00:08:48,370 --> 00:08:50,220
+y voy a hacer un documento punto.
+
+80
+00:08:50,360 --> 00:08:59,480
+Create Element ya crea un elemento un párrafo y voy a hacerle un APEN.
+
+81
+00:08:59,530 --> 00:09:04,810
+Simplemente voy a hacer P.N APEN y voy a añadirle
+
+82
+00:09:07,670 --> 00:09:10,220
+películas.
+
+83
+00:09:10,590 --> 00:09:19,850
+Cojo el índice índex y cojo la propiedad que yo quiera en este caso título más obvio añadir el título.
+
+84
+00:09:20,200 --> 00:09:24,560
+Okey genial entonces.
+
+85
+00:09:24,990 --> 00:09:33,600
+De esta manera y ahora pues la caja película yo le hago el papel del párrafo y listo.
+
+86
+00:09:33,600 --> 00:09:36,220
+De esta manera se actualiza la pantalla.
+
+87
+00:09:36,300 --> 00:09:38,400
+Aquí me aparecen mis dos películas listadas.
+
+88
+00:09:38,400 --> 00:09:43,380
+Incluso podría concatenar aquí podría concatenar aquí de manera simple.
+
+89
+00:09:43,380 --> 00:09:53,720
+El año también hay películas punto sobre películas índex para coger el inicio justo en el que estamos
+
+90
+00:09:53,820 --> 00:09:58,550
+que estamos recorriendo la RAI y accedemos al objeto y a la propiedad Guier.
+
+91
+00:09:58,590 --> 00:10:04,430
+De esta manera tan sin tan sencilla podamos mostrar también el año y así es como se trabaja con los
+
+92
+00:10:04,440 --> 00:10:11,520
+objetos Jayson y con esta especie de array asociativo pero que básicamente es un objeto muy sencillo
+
+93
+00:10:11,610 --> 00:10:17,730
+de acuerdo y esto se comporta como un objeto como tal con su propiedad y sus valores simplemente no
+
+94
+00:10:17,730 --> 00:10:19,770
+tiene más complejidad que ésta.

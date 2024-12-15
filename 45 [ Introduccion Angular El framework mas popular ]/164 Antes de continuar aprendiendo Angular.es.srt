@@ -1,0 +1,99 @@
+1
+00:00:00,420 --> 00:00:06,870
+Antes de continuar quiero decirte que este curso es cien por cien compatible con todas las versiones
+
+2
+00:00:06,870 --> 00:00:13,740
+de angular a partir de la versión 2 final de angular oque angular va sacando versiones cada muy poquito
+
+3
+00:00:13,740 --> 00:00:18,810
+tiempo cada poquitos meses saca una nueva versión pero eso no significa que nuestro código se vaya a
+
+4
+00:00:18,810 --> 00:00:24,990
+romper decir se programa exactamente igual con angulado final con angular 4 con angular 5 con angular
+
+5
+00:00:24,990 --> 00:00:27,860
+6 y con angular 7 exactamente igual.
+
+6
+00:00:27,870 --> 00:00:32,610
+No hay ningún cambio significativo a nivel de código los conceptos son exactamente lo mismo.
+
+7
+00:00:32,700 --> 00:00:37,290
+Si sabes programar con angular 4 sabes programar con angular 7 no hay problema.
+
+8
+00:00:37,290 --> 00:00:42,930
+Vale saber programar con angular 6 entonces no te preocupes cuando yo durante el curso hable acerca
+
+9
+00:00:42,930 --> 00:00:49,950
+de angular 6 o acercade angular 4 acerca de angular 7 o acerca de lo que sea porque a partir de la versión
+
+10
+00:00:49,950 --> 00:00:56,670
+2 final de angular todo todo el código es el mismo se programa exactamente igual con la versión 2 con
+
+11
+00:00:56,670 --> 00:01:03,840
+la versión 4 con la versión 5 con la versión 6 y con la versión 7 de Angulo así que el curso es completamente
+
+12
+00:01:03,840 --> 00:01:10,200
+compatible con angular 7 No hay ningún tipo de problema y además cuando hay algún tipo de cambio con
+
+13
+00:01:10,200 --> 00:01:15,270
+alguna versión Ital lo voy a estar indicando así que no te preocupes por nada este curso es completamente
+
+14
+00:01:15,270 --> 00:01:21,420
+compatible con todas las versiones de angular a partir de la versión 2 final y no hay ningún tipo de
+
+15
+00:01:21,420 --> 00:01:27,750
+problema así que cálmate no te preocupes el código es exactamente igual en angular 6 en angular 7 en
+
+16
+00:01:27,750 --> 00:01:33,390
+angular 5 etcétera no hay problema y cuando yo mencioné durante el curso alguna versión específica de
+
+17
+00:01:33,390 --> 00:01:37,590
+angular que a lo mejor pueda estar hablando del angular 4 puede estar hablando de angular 6 pues están
+
+18
+00:01:37,590 --> 00:01:38,300
+hablando de angular.
+
+19
+00:01:38,300 --> 00:01:39,750
+7 No hay problema.
+
+20
+00:01:39,760 --> 00:01:46,680
+Vale el código es igual los pasos son los mismos todo es exactamente igual porque no cambia la forma
+
+21
+00:01:46,680 --> 00:01:51,720
+de programar sino que cuando cambiamos de versión lo que hace el equipo de angulares mejorar algunos
+
+22
+00:01:51,720 --> 00:01:57,600
+errores que hay interno añadir alguna funcionalidad nueva de acuerdo a ese tipo de cosas pero los conceptos
+
+23
+00:01:57,610 --> 00:02:04,050
+la forma de programar y todo lo que vemos en este curso es completamente compatible con la nueva versión
+
+24
+00:02:04,050 --> 00:02:10,680
+de angular con la versión 7 con la versión 6 la 5 la 4 y la 2 final así que no te preocupes y continuamos
+
+25
+00:02:11,040 --> 00:02:12,810
+aprendiendo angular en el curso.

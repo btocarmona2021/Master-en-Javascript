@@ -1,0 +1,115 @@
+1
+00:00:00,690 --> 00:00:06,330
+Lo siguiente que vamos a hacer ya para afianzar lo aprendido y aprender algunas cosas nuevas es un ejercicio
+
+2
+00:00:06,420 --> 00:00:13,830
+completo de acuerdo en este ejercicio vamos a tener varias páginas y van a estar enlazadas entre sí
+
+3
+00:00:13,920 --> 00:00:18,990
+eso será una cosa nueva que aprenderemos en cada una de las páginas vamos a ir practicando las diferentes
+
+4
+00:00:18,990 --> 00:00:21,610
+cosas que hemos ido aprendiendo.
+
+5
+00:00:21,690 --> 00:00:27,070
+Vale pues para eso dentro del PAN te voy a hacer un esquema más o menos de cómo va a ser.
+
+6
+00:00:27,360 --> 00:00:33,600
+Mira vamos a tener una página principal a ver si puedo seleccionar mi cuadrado vamos a tener una página
+
+7
+00:00:33,600 --> 00:00:43,980
+principal en la cual vamos a tener un encabezado vamos a tener un encabezado por aquí lo vamos a tener
+
+8
+00:00:44,040 --> 00:00:53,040
+un menú con una lista que tendrá pues un enlace a otra página tendrán cada uno de los elementos de la
+
+9
+00:00:53,040 --> 00:00:59,880
+lista tendrá un enlace a otra de las páginas que vamos a tener luego en esta página vamos a tener también
+
+10
+00:01:00,030 --> 00:01:05,430
+un subtítulo Un encabezado de menor
+
+11
+00:01:08,440 --> 00:01:09,430
+de menor tamaño.
+
+12
+00:01:09,440 --> 00:01:19,090
+Por aquí tendríamos un subtítulo luego vamos a tener un párrafo y antes del párrafo vamos a tener una
+
+13
+00:01:19,180 --> 00:01:25,910
+imagen una foto ahí M.G. Bueno una foto.
+
+14
+00:01:26,230 --> 00:01:30,340
+Uno de estos enlaces que vamos a tener en el menú nos va a llevar a otra página
+
+15
+00:01:34,610 --> 00:01:41,680
+nos va a llevar a otra página que va a tener exactamente el mismo encabezado es decir el H1 igual y
+
+16
+00:01:41,680 --> 00:01:47,170
+el menú o la lista de la misma manera de acuerdo esto va a ser lo mismo.
+
+17
+00:01:47,500 --> 00:01:54,150
+Lo único la única diferencia es que va a tener también un subtítulo y va a pintar una tabla
+
+18
+00:01:57,390 --> 00:01:58,840
+va a pintar una tabla
+
+19
+00:02:02,160 --> 00:02:10,860
+va a pintar una tabla y en cada uno de estos elementos vamos a poner un texto y aquí abajo una imagen
+
+20
+00:02:13,590 --> 00:02:18,680
+en cada uno de los sitios vamos a poner una imagen dentro de la tabla tendremos una tabla como esto
+
+21
+00:02:18,870 --> 00:02:27,540
+con su encabezado o su titular y debajo de una imagen que sea lo que diga si aquí pone perro aquí vamos
+
+22
+00:02:27,540 --> 00:02:32,840
+a tener una foto de un perro o gato aquí abajo una foto de un gato y eso es lo que vamos a tener.
+
+23
+00:02:32,940 --> 00:02:37,280
+Y por último vamos a tener otra página vamos a hacer un poco de zoom.
+
+24
+00:02:38,250 --> 00:02:39,660
+Vamos a tener otra página
+
+25
+00:02:42,450 --> 00:02:50,340
+que va a tener el mismo encabezado que tenían las páginas anteriores y esto será una página de contacto
+
+26
+00:02:50,340 --> 00:02:57,420
+que tendrá un pequeño subtítulo y luego tendrá un formulario con diferentes campos con el nombre la
+
+27
+00:02:57,420 --> 00:03:08,340
+descripción un selector y un botón de Enviar ok y tendrá un formulario y todas estas páginas Irán enlazadas
+
+28
+00:03:08,430 --> 00:03:12,860
+entre sí con enlace y nosotros podremos navegar entre ellas.
+
+29
+00:03:12,900 --> 00:03:17,010
+De acuerdo pues este es el ejercicio que vamos a hacer en las siguientes clases.

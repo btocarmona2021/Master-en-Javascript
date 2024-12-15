@@ -1,0 +1,415 @@
+1
+00:00:00,930 --> 00:00:05,130
+Ahora vamos a aprender a pasar parámetros por las wereables de acuerdo.
+
+2
+00:00:05,160 --> 00:00:09,750
+Cuando digo pasar parametro me refiero a pasar valores por la UE.
+
+3
+00:00:09,900 --> 00:00:16,070
+Por ejemplo pasar un nuevo parámetro recogerlo en otro componente y poder hacer lo que queramos con
+
+4
+00:00:16,070 --> 00:00:20,810
+s con s con ese dato que pasamos por la UE.
+
+5
+00:00:21,360 --> 00:00:26,190
+Entonces vamos a ver cómo hacer la configuración de las rutas y cómo hacer la configuración en el componente
+
+6
+00:00:26,190 --> 00:00:28,620
+para poder recibir esos parámetros por la UE.
+
+7
+00:00:29,060 --> 00:00:31,610
+Y para poder mostrarlos.
+
+8
+00:00:31,860 --> 00:00:37,110
+Vale entonces lo que vamos a hacer va a ser abrir nuestro archivo a Pepe Rudin y en el componente que
+
+9
+00:00:37,110 --> 00:00:42,450
+nosotros queramos en el componente que nos dé la gana vamos a hacer esta funcionalidad por ejemplo en
+
+10
+00:00:42,450 --> 00:00:48,450
+el componente de cursos le podemos pasar un parámetro se pasa poniendo la barra y poniendo dos puntos
+
+11
+00:00:48,450 --> 00:00:54,570
+y el nombre del parámetro en este caso vamos a poner el parámetro nombre por ejemplo le podría poner
+
+12
+00:00:54,570 --> 00:01:00,570
+también otro parámetro que fuera apellidos y si quisiera que esos parámetros fueran opcionales tendría
+
+13
+00:01:00,570 --> 00:01:09,080
+que crear una ruta alternativa vale una ruta alternativa por aquí simplemente.
+
+14
+00:01:09,270 --> 00:01:17,280
+De esta manera vale o de esta manera para que el parámetro apellido fuera opcional de acuerdo y tuviera
+
+15
+00:01:17,370 --> 00:01:24,060
+una alternativa el componente pero de momento simplemente con el parámetro con un parámetro el parámetro
+
+16
+00:01:24,060 --> 00:01:28,800
+nombre para ser el que vamos a recibir y con el cual vamos a estar practicando y vamos a estar recibiendo
+
+17
+00:01:28,800 --> 00:01:33,630
+la información que le pasamos por ahí entonces vamos a utilizar el componente curs.
+
+18
+00:01:33,640 --> 00:01:42,690
+Hasta aquí vamos a abrir su clase y su visto vale hemos dicho que la ruta es cursos entonces de esta
+
+19
+00:01:42,690 --> 00:01:48,800
+manera si yo accedo a cursos ahora y actualizo la pantalla fíjate lo que me encarga John Guarch.
+
+20
+00:01:48,810 --> 00:01:53,700
+Es decir no me encargo del componente de curso porque realmente esas rutas no existen y quiero que la
+
+21
+00:01:53,700 --> 00:02:03,000
+ruta de cuyo éxito también tendré que crearla primero y ya tengo el parámetro nombre como un parámetro
+
+22
+00:02:03,030 --> 00:02:03,730
+opcional.
+
+23
+00:02:03,730 --> 00:02:09,710
+Vale actualizo la pantalla y ahora si me carga cursos Walks con lo cual esto está funcionando pero es
+
+24
+00:02:09,710 --> 00:02:13,750
+que además le puedo pasar nombre por aquí.
+
+25
+00:02:14,340 --> 00:02:17,850
+Un primer parámetro y funciona sigue funcionando.
+
+26
+00:02:17,850 --> 00:02:23,310
+Sólo me falta poder recoger ese parámetro entonces para poder recoger parámetros tengo que cargar varios
+
+27
+00:02:23,310 --> 00:02:27,950
+componentes del router con nuestro componente.
+
+28
+00:02:28,080 --> 00:02:33,660
+De acuerdo varios módulos varias clases del router para poder trabajar con él las clases que voy a cargar
+
+29
+00:02:33,660 --> 00:02:39,350
+van a ser las siguientes el router el Actívate router
+
+30
+00:02:43,650 --> 00:02:52,310
+Rute Actívate Rute ojo escribirlo bien y el paramos Vale y ahora voy a hacer from y esto está en Arrúa
+
+31
+00:02:52,310 --> 00:03:00,420
+angular barra router varios servicio varios de estas clases son servicios que tenemos que inyectar en
+
+32
+00:03:00,420 --> 00:03:09,450
+nuestro constructor dentro del constructor vamos a inyectar nuestras propiedades Private un bajo Rute
+
+33
+00:03:09,540 --> 00:03:15,780
+que sería la Activate brute y luego vamos a crear otra propiedad privada de bajo Rutter que sería el
+
+34
+00:03:15,780 --> 00:03:23,240
+objeto router de tipo router sería una propiedad de tipo router y ahora simplemente si yo quiero acceder
+
+35
+00:03:23,240 --> 00:03:26,900
+a las propiedades o los parámetros que me digan por la UE.
+
+36
+00:03:27,040 --> 00:03:32,690
+De momento si yo guardo y reviso mi consola veo que no tengo ningún error que todo está compilando bien
+
+37
+00:03:33,660 --> 00:03:40,850
+y en donde para recoger los parámetros por la web tengo que utilizar disputo guión bajo Rute punto para
+
+38
+00:03:40,850 --> 00:03:50,330
+AIMS y utilizo el método suscripta para recoger el parámetro por la web real es decir al final me estoy
+
+39
+00:03:50,330 --> 00:03:55,050
+suscribiendo observable para recoger el resultado de los parámetros.
+
+40
+00:03:56,090 --> 00:04:04,070
+Esto tiene una función de Calvache que recibe como un parámetro un parámetro parámetro que es un objeto
+
+41
+00:04:04,070 --> 00:04:14,450
+de tipo Paraules y aquí dentro yo ya tengo dentro de ese parámetro tengo todos los valores que le estoy
+
+42
+00:04:14,450 --> 00:04:15,590
+pasando por la web.
+
+43
+00:04:15,680 --> 00:04:22,960
+Todos los parámetros que le estoy pasando por la web redecilla hago console punto log de paradones voy
+
+44
+00:04:22,990 --> 00:04:25,940
+a ver que si abro la consola
+
+45
+00:04:29,210 --> 00:04:36,750
+me aparece un objeto con la propiedad que me interesa que es la que está llegando por la web que es
+
+46
+00:04:36,750 --> 00:04:37,800
+mi nombre.
+
+47
+00:04:37,890 --> 00:04:42,930
+Vale si no le pasara nada me va a llevar me va a llevar un objeto vacío o no me va a llegar absolutamente
+
+48
+00:04:42,930 --> 00:04:43,570
+nada.
+
+49
+00:04:43,660 --> 00:04:48,600
+Efectivamente me llega un objeto vacío si le paso algo pues los parámetros que yo le pase que yo tengo
+
+50
+00:04:48,600 --> 00:04:54,260
+configurado en mi ruta me aparecen dentro de un objeto Jayson al cual yo pueda acceder como quiera.
+
+51
+00:04:54,260 --> 00:05:04,860
+Entonces ahora mismo yo podría crearme una propiedad pública nombre que sea un string y le puedo asignar
+
+52
+00:05:04,860 --> 00:05:07,020
+un valor sin ningún tipo de problema.
+
+53
+00:05:07,020 --> 00:05:13,750
+Puedo hacer lo siguiente disputó nombre es igual amparamos apuntó nombre.
+
+54
+00:05:14,360 --> 00:05:19,560
+Vale lo puedo hacer de esta manera o incluso en formato de rivales y yo lo hago así no hay ningún tipo
+
+55
+00:05:19,560 --> 00:05:28,510
+de problema puedo mostrarlo disputo nombre guardo actualizo y aquí me aparece mi nombre el nombre que
+
+56
+00:05:28,510 --> 00:05:29,870
+estoy pasando por la web.
+
+57
+00:05:30,370 --> 00:05:36,310
+Qué pasa que en JavaScript también puedo acceder a las propiedades de un objeto como si fuera una raya
+
+58
+00:05:36,310 --> 00:05:42,850
+asociativo que podría hacer de la misma forma Parham como si fuera una raya disociativo pasarle por
+
+59
+00:05:42,850 --> 00:05:45,290
+aquí nombre.
+
+60
+00:05:46,090 --> 00:05:53,350
+De la misma manera funciona en JavaScript y va a funcionar igual exactamente igual lo puedo hacer como
+
+61
+00:05:53,350 --> 00:05:59,470
+más te interese como más elegante te parezca a mí me parece mejor la primera forma pero las dos formas
+
+62
+00:05:59,470 --> 00:06:04,740
+son válidas y muy correctas así que de esta manera estoy recogiendo el valor que me lleva por la web.
+
+63
+00:06:04,750 --> 00:06:11,000
+Ahora qué voy a hacer con ese valor que me llevó por la web y mostrarlo en el componente.
+
+64
+00:06:11,000 --> 00:06:22,330
+Vale yo tengo aquí cursos Works voy a cambiarlo voy a poner un H1B y quitarlo de Works con el componente
+
+65
+00:06:22,780 --> 00:06:29,530
+de cursos y entonces voy a poner aquí un h 3 que diga
+
+66
+00:06:32,750 --> 00:06:41,570
+bienvenido y aquí imprima el nombre que me llevó por la web el nombre vale pero solamente quiero que
+
+67
+00:06:41,570 --> 00:06:48,060
+me muestre esto en el caso de que la propiedad nombre tenga algo y sea válida de acuerdo entonces NG.
+
+68
+00:06:48,470 --> 00:06:54,680
+En el caso de que nombre tenga algo dentro y vaya cubital me muestre que me muestre este H3.
+
+69
+00:06:54,680 --> 00:06:58,970
+Vaya actualizo la pantalla y aquí me aparece bienvenido Víctor Robles.
+
+70
+00:06:58,970 --> 00:07:05,600
+Si le quito el parámetro que le envío por la web pues ahora no aparecerá nada mal y si le pasa otra
+
+71
+00:07:05,600 --> 00:07:09,950
+cosa pues me llega sin ningún tipo de problema.
+
+72
+00:07:10,010 --> 00:07:14,600
+Qué pasa si quisiera pasarle otro parámetro además a esta misma web.
+
+73
+00:07:14,720 --> 00:07:22,280
+Pero quiero que sea obligatorio pues simplemente se lo paso por aquí que puedo pasar otro parámetro
+
+74
+00:07:22,280 --> 00:07:29,240
+por la web que se llame followers vale entonces simplemente lo podría recoger de la misma forma por
+
+75
+00:07:29,240 --> 00:07:37,550
+aquí puedo hacer una propiedad perfectamente que fueran disputo followers Paramales punto followers
+
+76
+00:07:37,580 --> 00:07:39,620
+para recogerlo del objeto.
+
+77
+00:07:39,620 --> 00:07:46,840
+Vale aclarar la propiedad pública followers que va a ser un objeto de tipo number.
+
+78
+00:07:46,940 --> 00:07:55,790
+Entonces aquí visita hagámosla o R.L correctamente nos vamos a cursos cargo primer parámetro y un segundo
+
+79
+00:08:01,520 --> 00:08:04,520
+vamos a ver que la web revelé me encarga perfectamente.
+
+80
+00:08:04,610 --> 00:08:12,380
+Pero claro aquí tenemos un pequeño fallo y es que para ambos punto followers esto debería ser un entero
+
+81
+00:08:12,470 --> 00:08:16,160
+y realmente yo creo que es un Extrem porque si un consuelo
+
+82
+00:08:21,020 --> 00:08:25,210
+Hip-Hop para mis puntos followers
+
+83
+00:08:27,730 --> 00:08:28,210
+vale
+
+84
+00:08:32,300 --> 00:08:41,150
+yo podría comprobar que es un string y yo le estoy asignando a mi propiedad followers una un valor de
+
+85
+00:08:41,150 --> 00:08:46,550
+tipo de string cuando tengo definido que es un valor de tipo number y aquí el compilador no nos está
+
+86
+00:08:46,550 --> 00:08:53,540
+avisando ni la consola ni nada realmente porque esto tarda un poquito en comprobarlo y hasta que no
+
+87
+00:08:54,200 --> 00:09:00,200
+acaba de cargar la aplicación y tal pues no acaba de recoger los parámetros por la web R.L y por eso
+
+88
+00:09:00,260 --> 00:09:07,080
+no comprueba correctamente el tipado de esta variable simplemente le asigna el valor y punto vale no
+
+89
+00:09:07,080 --> 00:09:13,220
+se espera comprobar el tipado porque realmente este valor no lo tiene a la hora de compilar sino que
+
+90
+00:09:13,220 --> 00:09:17,630
+viene por sí sino que viene a asíncrono entre comillas.
+
+91
+00:09:17,630 --> 00:09:26,750
+Entonces si yo quisiera realmente convertir este valor a un entero o un dato numérico tendré que ponerle
+
+92
+00:09:26,750 --> 00:09:28,410
+un más delante.
+
+93
+00:09:28,580 --> 00:09:28,890
+Vale.
+
+94
+00:09:28,910 --> 00:09:34,220
+Ahora si me lo convierte a tipo number con lo cual le pongo el más delante y eso automáticamente me
+
+95
+00:09:34,220 --> 00:09:39,090
+lo convierte a tipo number y hacemos las cosas correctamente ok.
+
+96
+00:09:39,250 --> 00:09:47,830
+Y entonces pues una vez que tengo ese valor de followers pues también lo puedo mostrar por aquí en un
+
+97
+00:09:47,840 --> 00:09:51,250
+h 3 con otro en Facebook.
+
+98
+00:09:51,350 --> 00:09:51,980
+Que diga
+
+99
+00:09:54,980 --> 00:09:55,820
+followers
+
+100
+00:10:00,050 --> 00:10:03,930
+y aquí yo puedo decir tus seguidores son de aquí.
+
+101
+00:10:03,970 --> 00:10:05,920
+Imprimir followers
+
+102
+00:10:09,830 --> 00:10:15,270
+guardados hizo la pantalla y aquí me lo imprime también.
+
+103
+00:10:15,290 --> 00:10:21,020
+Con lo cual ya sabemos como pasar parãmetros por la web R.L y sabemos cómo funciona un poquito más el
+
+104
+00:10:21,020 --> 00:10:22,670
+tema de las rutas en angular.

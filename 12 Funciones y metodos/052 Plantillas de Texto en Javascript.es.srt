@@ -1,0 +1,211 @@
+1
+00:00:00,770 --> 00:00:06,600
+Para terminar ya con el tema de los Triz y del procesamiento de cadenas de texto una cosa súper nueva
+
+2
+00:00:06,600 --> 00:00:11,220
+que tienen los nuevos estándares de JavaScript como estos que estamos utilizando en el curso es el uso
+
+3
+00:00:11,220 --> 00:00:17,760
+de plantillas es decir yo puedo sustituir valores dentro de un string sin necesidad de estar concatenando
+
+4
+00:00:17,850 --> 00:00:25,480
+de forma que yo puedo tener una plantilla de texto y sustituir variables dentro de ella de manera muy
+
+5
+00:00:25,530 --> 00:00:26,190
+sencilla.
+
+6
+00:00:28,080 --> 00:00:35,880
+Entonces vamos a crear un nuevo archivo para hacer este ejemplo y esta práctica controlase el fichero
+
+7
+00:00:35,890 --> 00:00:41,310
+bajel 24 Nión plantillas junto JS.
+
+8
+00:00:41,700 --> 00:00:43,380
+Vamos a leer usa Street
+
+9
+00:00:46,470 --> 00:00:52,140
+vamos a guardar y vamos a incluir nuestro Creep en el Index.
+
+10
+00:00:52,140 --> 00:00:55,020
+Este caso sería el 24 plantillas
+
+11
+00:00:59,480 --> 00:01:02,800
+Esto sirve mucho para hacer plantillas de texto lo vamos a ver como se hace.
+
+12
+00:01:02,930 --> 00:01:06,980
+Vamos a ver cómo hacer plantillas de texto.
+
+13
+00:01:07,040 --> 00:01:13,850
+Mira yo puedo tener una variable que sea nombre y voy a pedirla en un prompt.
+
+14
+00:01:13,970 --> 00:01:21,830
+Por ejemplo mente de un hombre y por defecto que venga vacío.
+
+15
+00:01:21,830 --> 00:01:26,990
+Ni siquiera le ponemos el por defecto y luego vamos a tener otra variable que va a ser apellidos
+
+16
+00:01:29,690 --> 00:01:38,330
+que la vamos a pedir también un prompt y que diga mente tus apellidos y normalmente si yo quisiera meter
+
+17
+00:01:38,390 --> 00:01:45,110
+esto dentro de un texto yo crearía una variable que fuera texto y podría hacer lo siguiente.
+
+18
+00:01:45,110 --> 00:01:55,850
+Mi nombre es tal y entonces aquí concatenar el nombre vale y luego podría decir mis apellidos son.
+
+19
+00:01:58,400 --> 00:02:08,300
+Y luego concatenar pues con uno más los apellidos vale esto sería algo normal y entonces yo puedo hacer
+
+20
+00:02:08,300 --> 00:02:16,460
+aquí un documento punto right de esto para que se muestre en la página web.
+
+21
+00:02:17,410 --> 00:02:23,720
+Vale utilizo el objeto como el método Gurlitt y esa función pues yo le paso este parámetro para que
+
+22
+00:02:23,720 --> 00:02:25,300
+me lo muestre por pantalla.
+
+23
+00:02:25,510 --> 00:02:26,330
+Meto mi nombre
+
+24
+00:02:29,030 --> 00:02:33,640
+meto mis apellidos y aquí me lo muestra sin ningún tipo de problema.
+
+25
+00:02:33,680 --> 00:02:41,870
+Vale incluso podría poner aquí un B.R. para que me haga un salto de línea y toda la historia.
+
+26
+00:02:41,870 --> 00:02:42,700
+Hasta ahí genial.
+
+27
+00:02:42,860 --> 00:02:47,150
+Pero claro esto quizá un poco improductivo a mi no me acaba de convencer.
+
+28
+00:02:47,300 --> 00:02:54,890
+Yo puedo hacer lo mismo pero puedo utilizar una plantilla vale voy a poner el texto nombre elaborar
+
+29
+00:02:55,070 --> 00:02:59,420
+el número de la variable y en una plantilla para eso puedo utilizar las comillas invertidas.
+
+30
+00:02:59,420 --> 00:03:06,800
+Mira de esta manera yo puedo meter aquí en de manera multi línea en una multi línea.
+
+31
+00:03:06,800 --> 00:03:09,200
+Vale puedo meter aquí un texto enorme.
+
+32
+00:03:09,200 --> 00:03:17,030
+Vale puedo decir hola qué tal y esto lo puedo meter dentro de un H1.
+
+33
+00:03:17,600 --> 00:03:27,490
+Cierro la H1 y aquí puedo decir dentro de un h. 3.
+
+34
+00:03:27,710 --> 00:03:35,930
+Mi nombre es y entonces aquí puedo utilizar el dólar llaves y de esta manera yo Interplay el valor de
+
+35
+00:03:35,930 --> 00:03:42,110
+una variable dentro de la plantilla interpolar es decir imprimo la variable dentro de la propia plantilla
+
+36
+00:03:42,200 --> 00:03:46,400
+y elemento la variable nombre vale y hago lo mismo con los apellidos
+
+37
+00:03:50,720 --> 00:03:51,800
+mis apellidos
+
+38
+00:03:55,130 --> 00:03:58,460
+son y clavo aquí la variable.
+
+39
+00:03:58,460 --> 00:04:02,520
+Apellidos de esta manera si yo lo hago así.
+
+40
+00:04:02,540 --> 00:04:03,700
+Así de sencillo.
+
+41
+00:04:03,710 --> 00:04:08,620
+Tengo una plantilla de JavaScript que encima es una plantilla en la cual estoy metiendo HTML incluso
+
+42
+00:04:08,620 --> 00:04:09,950
+si actualizo la pantalla
+
+43
+00:04:13,160 --> 00:04:14,440
+fíjate lo que pasa.
+
+44
+00:04:14,450 --> 00:04:15,110
+Brutal.
+
+45
+00:04:15,210 --> 00:04:18,570
+Me parece increíble tengo mi plantilla con mi H1.
+
+46
+00:04:18,740 --> 00:04:26,810
+Tengo las variables que se han interpelado y se han sustituido aquí y perfecto lo tengo en un trozo
+
+47
+00:04:26,810 --> 00:04:32,450
+de código multi línea no estoy concatenando con mas con tal con cual simplemente de manera limpia con
+
+48
+00:04:32,450 --> 00:04:38,450
+comillas invertida y con la interpolación de variables con dólar y las llaves ya puede imprimir variables
+
+49
+00:04:38,450 --> 00:04:42,640
+dentro de una plantilla y esta plantilla de texto ya sabe se puede estar.
+
+50
+00:04:42,650 --> 00:04:47,930
+Podemos estar haciendo plantillas de texto diferente se sustituyen la pareja las variables y funciona
+
+51
+00:04:47,990 --> 00:04:52,910
+genial así que esto son la plantilla es todo algo nuevo de JavaScript en los últimos estándares en el
+
+52
+00:04:52,910 --> 00:04:54,660
+macrismo y etcétera.
+
+53
+00:04:54,690 --> 00:04:57,020
+Y como ya lo estamos utilizando funciona muy bien.

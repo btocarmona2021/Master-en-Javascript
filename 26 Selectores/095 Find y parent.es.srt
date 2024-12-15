@@ -1,0 +1,335 @@
+1
+00:00:01,470 --> 00:00:05,810
+Ahora vamos a ver otras cosas interesantes acerca de los electores.
+
+2
+00:00:06,210 --> 00:00:13,410
+Mira nosotros por ejemplo imagínate que tenemos pues una lista enlacen aquí y quiero ponerle tanto a
+
+3
+00:00:13,410 --> 00:00:20,610
+los enlaces como los párrafos vale un margen superior tanto a los enlaces como los párrafos un margen
+
+4
+00:00:20,880 --> 00:00:24,980
+superior y quiero ponerle el mismo la misma clase vale.
+
+5
+00:00:24,990 --> 00:00:30,070
+Así que vamos a crear esa clase en el CSS.
+
+6
+00:00:30,060 --> 00:00:37,080
+Vamos a ponerle un nombre márgen superior aparece el nombre de la clase y le vamos a poner un Mayito
+
+7
+00:00:39,300 --> 00:00:50,890
+de 45 píxeles y le vamos a poner un display blog importã display Block.
+
+8
+00:00:50,910 --> 00:01:03,710
+Lo primero de todo yo quiero ponerle esa clase a esos elementos tanto a los enlaces como a los párrafos.
+
+9
+00:01:03,710 --> 00:01:07,690
+Entonces cómo hago eso para seleccionar para seleccionar los dos elementos.
+
+10
+00:01:07,690 --> 00:01:15,110
+Pues puedo hacer lo siguiente Puedo utilizar el dólar para llamar allí Kourí y seleccionar los párrafos
+
+11
+00:01:16,510 --> 00:01:18,970
+y seleccionar los enlaces.
+
+12
+00:01:19,070 --> 00:01:30,440
+De esta manera y ahora yo puedo hacer lo siguiente a class y le añado mi clase margen superior izquierdo
+
+13
+00:01:30,730 --> 00:01:37,790
+con Puntí como guardo y actualizo la pantalla todos los elementos que he seleccionado de esta manera
+
+14
+00:01:38,630 --> 00:01:47,240
+funcionan y le añadimos esa clase también es interesante para no sobresaturado muchas veces de acceso
+
+15
+00:01:47,240 --> 00:01:53,480
+al Dom cuando realmente si le vamos a poner lo mismo podemos hacerlo de esta manera y lo optimizó mucho
+
+16
+00:01:53,480 --> 00:01:56,240
+más el código.
+
+17
+00:01:56,240 --> 00:02:04,010
+Otra cosa interesante que podemos hacer vale esto lo podemos comentar incluso otra cosa interesante
+
+18
+00:02:04,010 --> 00:02:08,060
+que podemos hacer es que si si si tenemos por ejemplo aquí un dip
+
+19
+00:02:11,510 --> 00:02:13,940
+con una idea que se llama caja
+
+20
+00:02:17,560 --> 00:02:19,710
+y aquí tenemos un párrafo
+
+21
+00:02:26,500 --> 00:02:27,640
+Hola soy una caja
+
+22
+00:02:30,630 --> 00:02:41,780
+de aquí tenemos un mueble con un LED elemento 1 y elemento
+
+23
+00:02:48,540 --> 00:02:57,000
+vale imagínate que yo quiero seleccionar el elemento 2 vale de esta lista que de aquí dentro de un dip
+
+24
+00:02:57,170 --> 00:03:02,020
+pues a lo mejor es muy complejo hacer todo el selector completo hasta llegar a Estelí.
+
+25
+00:03:02,210 --> 00:03:03,550
+Vale.
+
+26
+00:03:03,550 --> 00:03:10,190
+A lo mejor es muy complejo y a lo mejor tengo miles de elementos que tienen una clase común dentro de
+
+27
+00:03:10,510 --> 00:03:22,340
+caja que sea la clase que sea resaltado por ejemplo vale y esa clase de resultado que tenga una característica
+
+28
+00:03:22,340 --> 00:03:24,740
+concreta resaltado
+
+29
+00:03:28,010 --> 00:03:33,680
+que tenga un border botón de un X o de 2 x.
+
+30
+00:03:33,900 --> 00:03:41,880
+Solid Brown padeció esto qué va a pasar.
+
+31
+00:03:41,880 --> 00:03:44,290
+Por qué no pasa nada.
+
+32
+00:03:44,300 --> 00:03:47,340
+Vamos a ponerle Grin.
+
+33
+00:03:47,930 --> 00:03:50,660
+Y aquí va un portero vale.
+
+34
+00:03:50,970 --> 00:03:58,520
+Ahora aparece el borde inferior pero es que además puedo tener una Span con esa clase también
+
+35
+00:04:07,380 --> 00:04:11,100
+vale y entonces pues también va a aparecer resaltado.
+
+36
+00:04:11,220 --> 00:04:19,460
+Qué pasa si yo quiero seleccionar todos los elementos con esa clase dentro de el caja pero yo no me
+
+37
+00:04:19,500 --> 00:04:24,610
+sé exactamente dónde están o quiero simplemente encontrarlos quiero simplemente buscarlo.
+
+38
+00:04:26,220 --> 00:04:33,990
+Pues mira podemos hacer el selector normal seleccionamos el elemento que conocemos que realmente sabemos
+
+39
+00:04:33,990 --> 00:04:39,900
+dónde está caja y luego como no sabemos dónde están lo otro elemento ni dónde se ubican podemos utilizar
+
+40
+00:04:39,900 --> 00:04:51,120
+un método que se llama Find y yo le indicó aquí que búsquelo elemento con con clase punto resaltado
+
+41
+00:04:52,310 --> 00:04:55,670
+y esto lo que hace es recorrer el Down completo y buscarme.
+
+42
+00:04:55,680 --> 00:05:02,340
+Justo esos elementos esto lo voy a meter dentro de una variable que se va a llamar búsqueda y voy a
+
+43
+00:05:02,340 --> 00:05:11,640
+hacer un consorcio de búsqueda a ver qué me saca a través de la pantalla y efectivamente me saca ély
+
+44
+00:05:11,760 --> 00:05:14,370
+y el PAN me lo acaba de encontrar.
+
+45
+00:05:14,370 --> 00:05:21,150
+Vale o sea perfecto me lo acabo de encontrar esos dos elementos aquí el resultado y el espanto me lo
+
+46
+00:05:21,150 --> 00:05:22,990
+acabo de encontrar utilizando el método offline.
+
+47
+00:05:23,060 --> 00:05:30,030
+Vale otra manera también osea esto cuando realmente no sabemos que hay dentro no sabemos dónde están
+
+48
+00:05:30,030 --> 00:05:37,940
+los elementos pero realmente también podríamos haber hecho caja punto resaltado de esta manera.
+
+49
+00:05:37,950 --> 00:05:40,860
+También iba a funcionar.
+
+50
+00:05:40,860 --> 00:05:47,820
+Vale también funcionaría pero el método offline no sirve para buscar dentro de un árbol de HTML muy
+
+51
+00:05:47,820 --> 00:05:54,350
+grande para buscar etiqueta o para buscar algo que no sabemos exactamente dónde está.
+
+52
+00:05:54,360 --> 00:05:57,970
+Vale también imagínate que yo estoy dentro.
+
+53
+00:05:58,170 --> 00:06:04,080
+Yo acabo de seleccionar resaltado o acabo de seleccionar si acabo de seleccionar el resultado.
+
+54
+00:06:04,080 --> 00:06:11,340
+Imagínate que yo quiero salir de resaltado y seleccionar uno de estos elemento de aquí 1 un elemento
+
+55
+00:06:11,340 --> 00:06:13,240
+del menú cómo podría hacerlo.
+
+56
+00:06:13,270 --> 00:06:23,810
+Vale como poder hacerlo porque si yo hago ahora mismo fin aquí Fine y busco esto este es el lector Google.
+
+57
+00:06:24,420 --> 00:06:28,750
+Esto realmente no me va a funcionar no me va a sacar nada.
+
+58
+00:06:28,910 --> 00:06:31,390
+Efectivamente no me saca nada.
+
+59
+00:06:31,470 --> 00:06:38,430
+Es decir yo estoy en esto jeto plantado pronto estoy buscando algo que es imposible sacarlo en 2 Cómo
+
+60
+00:06:38,430 --> 00:06:44,190
+puedo volver o cómo puedo salir de ese selector en el que estoy actualmente salir fuera a los electores
+
+61
+00:06:44,190 --> 00:06:50,880
+padre o a las etiquetas padre y después buscar o puedo utilizar el método Parent vale.
+
+62
+00:06:51,060 --> 00:06:59,310
+Si utilizo el método varen ya estoy saliendo un nivel por encima y sigo estando dentro del Dib caja
+
+63
+00:06:59,400 --> 00:07:08,730
+vale porque este elemento sigue estando dentro del caja vale y más importante indicarle el LQ en qué
+
+64
+00:07:08,730 --> 00:07:12,780
+elemento me estoy posicionando multidifusión me estoy posicionando en el elemento cero.
+
+65
+00:07:12,850 --> 00:07:15,100
+Vale con lo cual sigo en caja.
+
+66
+00:07:15,310 --> 00:07:21,680
+Vale si le pongo otro par en otro par voy a salir ya de caja vale
+
+67
+00:07:24,770 --> 00:07:30,230
+y ahora acabo de seleccionar efectivamente caja vale.
+
+68
+00:07:30,270 --> 00:07:34,890
+Ahora he seleccionado caja Ok y si le pongo otro Paret
+
+69
+00:07:41,070 --> 00:07:44,940
+pues ahora si que me acaba de seleccionar el elemento que yo indico.
+
+70
+00:07:44,980 --> 00:07:50,990
+Vale porque parto del body de acuerdo y he salido de toda la etiqueta en la que yo estaba y empezaba
+
+71
+00:07:51,110 --> 00:07:53,880
+a partir del body vale.
+
+72
+00:07:54,040 --> 00:08:02,730
+O sea que de esta manera podemos ir saltando de un directorio a Podemos disertando de esta manera podemos
+
+73
+00:08:02,730 --> 00:08:08,370
+ir saltando de una etiqueta a otra de acuerdo en este caso en un ejemplo muy sencillo y muy entre comillas
+
+74
+00:08:08,370 --> 00:08:13,660
+tonto pero realmente cuando estamos programando algo con más sentido.
+
+75
+00:08:14,070 --> 00:08:27,390
+Por ejemplo si yo me posiciono si yo me posiciono aquí y tengo un IDE elemento 2 si yo tengo el Tide
+
+76
+00:08:27,780 --> 00:08:35,790
+vamos a seleccionarlo y hacerlo con algo con más sentido si yo tengo el elemento 2 tengo y seguiré.
+
+77
+00:08:36,930 --> 00:08:47,850
+Y yo quiero buscar todos los elementos cuya clase es punto resaltado y estos elementos están en el DIV
+
+78
+00:08:48,660 --> 00:08:52,810
+donde están dentro del Dib no están dentro de la etiqueta L.
+
+79
+00:08:52,860 --> 00:08:58,020
+Pues yo sí que puedo utiliza el Paret males y me vengo el código de JavaScript que utiliza el Parenti
+
+80
+00:08:59,280 --> 00:09:06,010
+para salir de la huele vale algo de la huele.
+
+81
+00:09:06,030 --> 00:09:14,250
+O sea ahora me planto en la web y realmente salgo del lí me planto en la huele y ahora salgo del huele
+
+82
+00:09:14,310 --> 00:09:17,000
+y me planto en el DIB realmente.
+
+83
+00:09:17,010 --> 00:09:24,600
+Entonces ahora sí que me selecciona el spam resaltado así que de esta manera podemos utilizar este método
+
+84
+00:09:24,600 --> 00:09:27,360
+también para seleccionar elementos.

@@ -1,0 +1,243 @@
+1
+00:00:00,600 --> 00:00:07,110
+Anteriormente ya hemos estado viendo la directiva tributo en esta Hil y hemos estado haciendo ejercicio
+
+2
+00:00:07,110 --> 00:00:13,600
+y pruebas con ella de acuerdo y ahora vamos a ver cómo trabajar con NG Clas que es otra directiva de
+
+3
+00:00:13,710 --> 00:00:21,270
+atributo también que nos permite asignarle a un elemento una clase cuando se cumpla una condición de
+
+4
+00:00:21,270 --> 00:00:24,630
+acuerdo entonces vamos a ver cómo trabajar con ella.
+
+5
+00:00:24,630 --> 00:00:31,620
+Mira lo que vamos a hacer va a ser lo siguiente en nuestro listado de productos lo que vamos a hacer
+
+6
+00:00:31,620 --> 00:00:39,030
+es que si el precio es mayor igual 80 de acuerdo vamos a ponerle uno del estilo diferente al precio
+
+7
+00:00:39,090 --> 00:00:43,800
+de acuerdo vamos a poner el logo de color gris etcétera le vamos a asignar una clase.
+
+8
+00:00:44,280 --> 00:00:46,810
+Entonces cómo podemos utilizar el NG class.
+
+9
+00:00:46,830 --> 00:00:51,990
+Pues esto es muy sencillo hay dos formas de utilizarlo en forma de atributo vale haciendo clase.
+
+10
+00:00:51,990 --> 00:00:58,860
+Punto vale que esto realmente lo podemos utilizar en cualquier atributo HTML de acuerdo con cualquier
+
+11
+00:00:59,490 --> 00:01:03,570
+cualquier atributo de cualquier etiqueta podemos hacer condiciones de este tipo entonces con las clases
+
+12
+00:01:03,570 --> 00:01:11,640
+podemos hacer eso podemos ponerle a clase alto precio cuando se cumple una condición es decir cuando
+
+13
+00:01:11,640 --> 00:01:19,230
+deportiva punto precio sea mayor o igual a 80.
+
+14
+00:01:19,230 --> 00:01:25,440
+En ese caso yo voy a ponerle esa clase a mi elemento Cs o sea un elemento de la página web y si yo lo
+
+15
+00:01:25,440 --> 00:01:35,910
+inspeccionó vamos a ver que realmente si tiene 80 el precio yo debería haberle deberían ponerse una
+
+16
+00:01:36,180 --> 00:01:43,350
+clase especial a esto se lo he puesto aquí en un sitio que no debería ser vale esto tengo que ponerlo
+
+17
+00:01:43,410 --> 00:01:47,330
+en el precio solamente a en Electron de precio.
+
+18
+00:01:47,580 --> 00:01:57,060
+Ahora si lo pongo por aquí y le voy a poner esa clase solamente cuando el precio sea mayor igual a 80
+
+19
+00:01:58,830 --> 00:02:07,500
+o que por aquí guardo actualizo la pantalla y efectivamente me pone la clase de alto precio.
+
+20
+00:02:07,500 --> 00:02:09,320
+Qué pasa que la clase no tiene nada.
+
+21
+00:02:09,330 --> 00:02:15,600
+Entonces vamos a crear una clase en nuestro componente realmente tenemos una hoja de estilo creo que
+
+22
+00:02:15,600 --> 00:02:21,660
+vinculada no la tenemos vinculada pero podríamos crear una hoja de estilo para este componente o una
+
+23
+00:02:21,660 --> 00:02:22,970
+hoja estilo global.
+
+24
+00:02:23,050 --> 00:02:30,570
+Vale yo a mí me gusta más tener una hoja de estilo global cuando no es algo súper súper específico entonces
+
+25
+00:02:30,570 --> 00:02:37,410
+voy a crear una hoja de estilo dentro de assets voy a crear una nueva hoja de estilo guardo va a ser
+
+26
+00:02:37,620 --> 00:02:46,880
+estaís CSS y voy a quedarme aquí la clase que hemos dicho las clases alto precio vale
+
+27
+00:02:49,690 --> 00:03:01,430
+punto alto precio y le voy a dar un color que va a ser un Gray y le voy a poner un iPhone 6 de 18 PX
+
+28
+00:03:02,420 --> 00:03:08,810
+guardo aunque realmente su destino no se van a cargar a no ser que yo los cargue en mi índex HTML que
+
+29
+00:03:08,810 --> 00:03:11,810
+en este caso pondría podría hacerlo de esta manera.
+
+30
+00:03:11,810 --> 00:03:12,170
+Link
+
+31
+00:03:14,900 --> 00:03:26,050
+HR-V y le voy a poner aquí la ruta de mi archivo en este caso sería assets barra estaís CSS.
+
+32
+00:03:26,390 --> 00:03:32,900
+Cierro el link guardo actualizo la pantalla vale y no me funciona por qué no me funciona.
+
+33
+00:03:32,900 --> 00:03:40,490
+Vamos a ver controlo y vamos a revisar si este fichero lo carga si que lo está cargando vale pero no
+
+34
+00:03:40,490 --> 00:03:47,660
+hace caso a lo estiro que yo estoy diciendo porque esto debería tener los estilos que yo le digo.
+
+35
+00:03:47,660 --> 00:03:49,190
+Vamos a hacer controles Ce5
+
+36
+00:03:52,310 --> 00:03:56,310
+y no funciona ese estilo que yo estoy poniendo a alto precio.
+
+37
+00:03:56,430 --> 00:04:00,240
+Voy a ponerle importan a cada cosa
+
+38
+00:04:10,710 --> 00:04:12,130
+y tampoco me lo coge.
+
+39
+00:04:12,250 --> 00:04:14,130
+Vale no me está cogiéndolo estilo.
+
+40
+00:04:14,130 --> 00:04:19,040
+Realmente está importando el archivo correctamente pero no me está cogiéndolo estilo entonces si tenemos
+
+41
+00:04:19,040 --> 00:04:24,860
+algún problema de este tipo lo que podemos hacer es abrir el archivo que tenemos por aquí fuera angular
+
+42
+00:04:24,890 --> 00:04:34,590
+punto Jayson y añadirlo estilo a aquí a mi parte de estaís o de Asech de aquí normalmente se añaden
+
+43
+00:04:34,640 --> 00:04:40,460
+los estilos y se añaden también los clips externos la librería externa etcétera que nosotros queramos
+
+44
+00:04:40,460 --> 00:04:48,890
+agregar al Freiburg entonces vamos a agregar aquí a la parte de establish a raíz de estaís vamos a agregar
+
+45
+00:04:49,970 --> 00:04:53,690
+el archivo que está en assets barra
+
+46
+00:04:56,290 --> 00:04:59,180
+estaís CSS irrealmente.
+
+47
+00:04:59,230 --> 00:05:07,360
+Este archivo está en SRC assets barra estaís exactamente no en otro archivo de CSS que ya viene por
+
+48
+00:05:07,360 --> 00:05:08,740
+defecto que es aquí.
+
+49
+00:05:08,950 --> 00:05:12,720
+También podemos poner estilo pero de momento lo dejamos así.
+
+50
+00:05:12,760 --> 00:05:20,800
+Ahora tenemos que cortar la ejecución de angular CL y hacemos control C y volvemos a lanzar en reserve
+
+51
+00:05:23,090 --> 00:05:29,750
+para que coja estos cambios que hemos hecho el compilador vale ahora sí vale.
+
+52
+00:05:29,840 --> 00:05:38,240
+Ahora si lo coge es decir angular ya no es tan flexible a la hora de agregar estilos de esta manera
+
+53
+00:05:38,750 --> 00:05:42,070
+podríamos hacerlo realmente si insistimos en arreglarlo.
+
+54
+00:05:42,080 --> 00:05:47,780
+Se podría hacer pero la forma más recomendable agregarlo de esta manera los estilos en las redes TALIS
+
+55
+00:05:47,810 --> 00:05:53,840
+para que el compilador y Wolfpack lo coja y luego lo minificción y cuando queramos agregar algún escribe
+
+56
+00:05:53,840 --> 00:05:55,850
+eterno pues lo hacemos desde aquí.
+
+57
+00:05:55,910 --> 00:06:02,090
+Vale entonces de esta manera agregamos nuestro estilo CSS que hemos creado y se muestra aquí si o cualquier
+
+58
+00:06:02,090 --> 00:06:09,420
+cambio en mi estilo CSS a partir de ahora voy a quitar el important a poner un tamaño de letra de 38
+
+59
+00:06:09,420 --> 00:06:16,320
+píxeles o guardo actualizo la pantalla y fijate lo que pasa que me hace el cambio de manera inmediata.
+
+60
+00:06:16,330 --> 00:06:23,070
+Vale entonces ya hemos visto cómo utilizar en clase de manera básica en forma de atributo cuando se
+
+61
+00:06:23,070 --> 00:06:25,890
+cumple esta condición no añade esta clase.

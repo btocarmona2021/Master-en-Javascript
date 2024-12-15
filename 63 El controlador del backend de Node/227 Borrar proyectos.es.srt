@@ -1,0 +1,199 @@
+1
+00:00:00,810 --> 00:00:06,510
+Ya tenemos un medio para guardar un proyecto para listar todos los proyectos para listar un proyecto
+
+2
+00:00:06,540 --> 00:00:08,760
+y para actualizar un proyecto.
+
+3
+00:00:08,760 --> 00:00:12,930
+Ahora toca ya crear un método para eliminar un proyecto.
+
+4
+00:00:12,930 --> 00:00:15,840
+Para eso vamos a crear aquí un método que se va a llamar
+
+5
+00:00:18,420 --> 00:00:23,770
+delete proyecto.
+
+6
+00:00:24,010 --> 00:00:29,550
+Que se llamaba apuntad de proyectos esto se va a llamar delete borrar el proyecto va a ser una función
+
+7
+00:00:30,000 --> 00:00:35,610
+que va a recibir un parámetro REC y otro revés.
+
+8
+00:00:36,630 --> 00:00:41,080
+Vale tenemos que recoger por la web también el IDE del proyecto a borrar.
+
+9
+00:00:41,130 --> 00:00:50,200
+En ese caso vamos a crear una variable llamada Projet IDE y vamos a recoger REC punto paramí para recoger
+
+10
+00:00:50,200 --> 00:00:51,900
+el parámetro IDE.
+
+11
+00:00:52,040 --> 00:01:00,530
+Bien ahora voy a utilizar mi modelo proyecto Valle y voy a utilizar el método File va y Hide and delete.
+
+12
+00:01:00,780 --> 00:01:06,600
+Vale que es otro método que me permite enviarle un IDEP y buscar ese objeto en la base de datos y eliminar
+
+13
+00:01:06,660 --> 00:01:09,150
+ese documento de la colección de la base de datos.
+
+14
+00:01:09,450 --> 00:01:14,790
+Así que esto como un primer parámetro tiene el IDE del documento eliminado en este caso el proyecto
+
+15
+00:01:15,600 --> 00:01:22,340
+Abidin y luego tiene una función de Calvache que va a ser una función de flecha en nuestro caso que
+
+16
+00:01:22,350 --> 00:01:30,130
+va a recibir un par de parámetros el error o el Projet delete
+
+17
+00:01:32,840 --> 00:01:36,200
+o remover como quiera.
+
+18
+00:01:36,300 --> 00:01:39,280
+Vale entonces aquí vamos a hacer Univ.
+
+19
+00:01:39,450 --> 00:01:51,600
+En el caso de que se produzca un error haremos un returned respondió estátus 500 punto Shen y vamos
+
+20
+00:01:51,600 --> 00:02:05,850
+a enviar un mensaje que diga no se ha podido borrar el documento o el proyecto vamos a poner punto y
+
+21
+00:02:05,850 --> 00:02:07,040
+coma.
+
+22
+00:02:07,290 --> 00:02:13,670
+Ahora vamos a crear otro y vamos a hacer otro ID que nos compruebe si en el caso de que sea false Proyect
+
+23
+00:02:13,880 --> 00:02:25,020
+removed pues entonces que no Antiga punto de status seguramente será un 4 0 4 lo que pasará aquí.
+
+24
+00:02:25,200 --> 00:02:29,880
+Entonces haremos un censo que diga no se puede
+
+25
+00:02:34,310 --> 00:02:39,440
+eliminar ese proyecto cierra con un punto y coma.
+
+26
+00:02:39,590 --> 00:02:45,620
+En el caso de que no hayamos entrado a ninguna de estas condiciones y hayamos salido de la ejecución
+
+27
+00:02:45,620 --> 00:02:49,580
+de estos males y haya monte vuelto ya directamente.
+
+28
+00:02:49,580 --> 00:02:54,760
+Una respuesta en la acción pues en ese caso hacemos un retuit cuando ya llegamos aquí sin haber entrado
+
+29
+00:02:54,780 --> 00:03:05,460
+en ninguna de las condiciones anteriores respondió estátus 200 punto sen ya envío mi proyecto mi objeto
+
+30
+00:03:05,460 --> 00:03:19,730
+de proyecto vale proyecto removed y lo meto dentro de una propiedad Proyecto Varela guardo y ya voy
+
+31
+00:03:19,730 --> 00:03:27,260
+a crear mi ruta esta ruta va a ser igual que la de las anteriores al igual que ésta por ejemplo así
+
+32
+00:03:27,260 --> 00:03:29,180
+que la voy a copiar pegar.
+
+33
+00:03:29,180 --> 00:03:35,540
+Lo único que va a cambiar es que el método va a ser delete que nos permite eliminar recursos de el API
+
+34
+00:03:35,960 --> 00:03:40,460
+la ruta va a ser si se va a llamar igual le va a pasar el parámetro igual y el método a utilizar va
+
+35
+00:03:40,460 --> 00:03:43,610
+a ser el delete.
+
+36
+00:03:44,060 --> 00:03:53,690
+Guardo y ahora me voy aquí a la parte aquí mismo sí y entonces yo voy a borrar ahora está este documento
+
+37
+00:03:53,690 --> 00:04:01,910
+de la base de datos cambia el método a delete le doy asen y me devuelve un error vale me dicen aquí
+
+38
+00:04:01,910 --> 00:04:11,000
+me lo dicen la consola me dice fanboy de delete no existe y efectivamente no existe y eso es porque
+
+39
+00:04:11,210 --> 00:04:18,890
+realmente el método se llama Feinman y de remove remove de acuerdo siempre confundo delete con remove
+
+40
+00:04:18,890 --> 00:04:26,570
+así que date cuenta de que hay cosas que se nos escapan y cuando estamos programando muchas veces nos
+
+41
+00:04:26,570 --> 00:04:32,060
+equivocamos al escribir cosas o si no pagan cosa vale entonces por eso yo no cor.to estos errores sino
+
+42
+00:04:32,060 --> 00:04:38,600
+que te los dejo para que tú veas también los errores que pueden suceder y cómo se pueden arreglar de
+
+43
+00:04:38,600 --> 00:04:44,630
+acuerdo porque en la vida real te van a pasar errores como esto y muchísimo más complejo y serán cosas
+
+44
+00:04:44,630 --> 00:04:52,070
+que te costará encontrar cómo arreglarla y si yo te muestro cómo arreglo estas pequeñas cosas y muestro
+
+45
+00:04:52,070 --> 00:04:56,580
+estos errores pues también es un aprendizaje que te lleva bien.
+
+46
+00:04:56,900 --> 00:05:02,480
+Entonces ahora lo ejecuto y me va a devolver un objeto mal este objeto es el objeto que acaba de borrar
+
+47
+00:05:02,810 --> 00:05:10,790
+porque si yo hago una consulta a mi colección si yo ejecuto de nuevo esta consulta ya no aparece el
+
+48
+00:05:10,790 --> 00:05:16,400
+objeto de Facebook porque lo acabo de eliminar con lo cual ya tenemos un método en nuestra base de datos
+
+49
+00:05:16,400 --> 00:05:22,330
+que nos permite eliminar documentos de la base de datos y en este caso eliminar nuestros proyectos del
+
+50
+00:05:22,340 --> 00:05:22,640
+Baque.

@@ -1,0 +1,339 @@
+1
+00:00:00,540 --> 00:00:05,940
+Bien ya hemos hecho este pequeño ejercicio para practicar con el Elif para comprobar si un usuario es
+
+2
+00:00:05,940 --> 00:00:09,870
+mayor de edad y luego hacer ciertas condiciones dentro del mismo.
+
+3
+00:00:10,480 --> 00:00:19,260
+Pero ahora imagínate que queremos comprobar si el usuario es mayor de edad y a la vez si es menor de
+
+4
+00:00:19,260 --> 00:00:25,520
+cierta edad pues podríamos hacerlo como hemos hecho aquí con UNIV y luego con otro.
+
+5
+00:00:25,710 --> 00:00:31,020
+Pero imagínate que tenemos varias condiciones que necesitamos que se cumplan en una misma condición
+
+6
+00:00:31,020 --> 00:00:36,690
+de acuerdo imagínate que necesitamos que varias condiciones se cumplan en una misma condición y no queremos
+
+7
+00:00:36,690 --> 00:00:43,470
+estar anidando if Traci porque eso es algo que no es productivo pues para eso tenemos los operadores
+
+8
+00:00:43,530 --> 00:00:47,540
+lógicos de acuerdo los operadores lógicos los vamos a poner por aquí abajo
+
+9
+00:00:51,050 --> 00:00:52,280
+operadores lógicos
+
+10
+00:00:56,990 --> 00:01:01,420
+son varios hay varios no tenemos aun
+
+11
+00:01:04,320 --> 00:01:16,400
+el ADN de acuerdo que es el y esto significa que yo puedo hacer una condición y luego indicarle un operador
+
+12
+00:01:16,480 --> 00:01:21,470
+aun y luego ponerle otra condición de acuerdo al mismo IFF.
+
+13
+00:01:21,650 --> 00:01:32,600
+Luego tenemos el Hor el oro que sería como decir o me acuerdo que sería con la doble tubería eso sería
+
+14
+00:01:33,080 --> 00:01:41,150
+básicamente yo puedo decir si da mayor igual a 18 o si es mayor igual a lo que sea o menor igual o lo
+
+15
+00:01:41,150 --> 00:01:48,950
+que sea eso lo vamos a ver algún ejemplo con esto y luego también tenemos el de negación de negación
+
+16
+00:01:50,330 --> 00:01:58,700
+que sería el símbolo de exclamación de acuerdo yo puedo decirle que la edad sea diferente a tal o puedo
+
+17
+00:01:58,700 --> 00:02:04,490
+negar cualquier expresión con el símbolo de exclamación.
+
+18
+00:02:04,670 --> 00:02:10,270
+Por ejemplo vamos a poner varios ejemplos con el operador de negación por ejemplo muy sencillo mira
+
+19
+00:02:10,490 --> 00:02:20,720
+el operador de negacion vamos a poner aquí negacion yo puedo hacer un ir y aquí voy a crear una variable
+
+20
+00:02:21,470 --> 00:02:28,360
+que se llama Geer y estamos al año 2018 no 2018.
+
+21
+00:02:28,940 --> 00:02:36,890
+Entonces si Guier es diferente a 2016 y no es 2016.
+
+22
+00:02:37,310 --> 00:02:38,390
+De acuerdo.
+
+23
+00:02:38,810 --> 00:02:43,710
+Este símbolo indica que no es igual a 2016.
+
+24
+00:02:44,060 --> 00:02:46,450
+Si quisiera que fuera igual sería con el igual igual.
+
+25
+00:02:46,490 --> 00:03:01,340
+Como he explicado antes si no es igual a 2016 que muestra un console lo que digo que el año no es 2016.
+
+26
+00:03:02,510 --> 00:03:07,630
+Vale ahora vamos a hacer un ejemplo con el operador.
+
+27
+00:03:08,240 --> 00:03:17,690
+Por ejemplo yo puedo decirle Mira tengo la variable año ya creada la voy a sacar fuera.
+
+28
+00:03:18,960 --> 00:03:20,370
+Vamos a ver.
+
+29
+00:03:20,370 --> 00:03:26,640
+De hecho si funciona esto vamos hecho que nos diga que el año no es 2016 y efectivamente
+
+30
+00:03:30,280 --> 00:03:33,820
+incluso podríamos decir realmente es.
+
+31
+00:03:33,830 --> 00:03:41,340
+Y entonces aquí le concatenando el año como la pantalla y efectivamente funcionó.
+
+32
+00:03:41,540 --> 00:03:50,810
+Vale con Elan vamos a hacer un ir y en donde vamos a comprobar lo siguiente Si Geer que es mayor o igual
+
+33
+00:03:51,530 --> 00:04:03,890
+a 2000 y con el aun y es Geer es menor o igual a 2020
+
+34
+00:04:08,690 --> 00:04:15,120
+podemos hacer un console junto lo que diga estamos en la era actual.
+
+35
+00:04:15,460 --> 00:04:16,500
+Vale por ejemplo.
+
+36
+00:04:18,150 --> 00:04:24,920
+Y si no que nos diga que estamos en la era posmoderna por poner algo
+
+37
+00:04:29,510 --> 00:04:30,940
+o que íbamos a comprobarlo.
+
+38
+00:04:30,940 --> 00:04:34,060
+Entonces se actualizó la página me dice Estamos en la era actual.
+
+39
+00:04:34,070 --> 00:04:34,520
+Por qué.
+
+40
+00:04:34,520 --> 00:04:38,400
+Porque el año está entre el 2000 y el 2020.
+
+41
+00:04:38,410 --> 00:04:42,480
+Vale incluso podría ponerle otra condición que fuera.
+
+42
+00:04:42,590 --> 00:04:53,030
+Si el año es diferente a 2018 esto ya no se va a cumplir porque esto va a comprobar lo siguiente Si
+
+43
+00:04:53,630 --> 00:05:01,460
+el año es mayor igual o 2000 y el año es menor igual 2020 y el año es diferente a 2018.
+
+44
+00:05:01,460 --> 00:05:05,600
+Si estas tres condiciones juntas se cumplen vamos a mostrar esto.
+
+45
+00:05:05,720 --> 00:05:13,100
+Y si no se cumplen vamos a mostrar esto esto otro y con este operador lógico Houthi concatenando o encadenando
+
+46
+00:05:13,100 --> 00:05:14,520
+varias condiciones.
+
+47
+00:05:14,580 --> 00:05:19,910
+Vale voy a actualizar la pantalla y ahora me dice que estamos en la era posmoderna porque el año coincide
+
+48
+00:05:19,910 --> 00:05:21,460
+con 2018.
+
+49
+00:05:21,650 --> 00:05:29,030
+Pero si le quito esta condición última pues se queda se queda bien y pasa por él por la primera por
+
+50
+00:05:29,040 --> 00:05:33,820
+el primer bloque de instrucciones dentro de la condición vale ahora vamos a hacer un ejemplo con el
+
+51
+00:05:33,890 --> 00:05:34,320
+otro.
+
+52
+00:05:35,010 --> 00:05:36,310
+Entonces vamos a poner aquí.
+
+53
+00:05:36,320 --> 00:05:46,580
+Si el año es exactamente igual a 2008 o el año es exactamente igual a
+
+54
+00:05:49,920 --> 00:05:56,970
+2018 vamos a poner que en cualquier caso de que se cumpla una de estas condiciones vamos a poner aquí
+
+55
+00:05:57,810 --> 00:06:00,230
+que vamos a hacer un consolé punto.
+
+56
+00:06:00,600 --> 00:06:10,890
+Vamos a poner que el año acaba en 8 de acuerdo y como la primera condición no se va a cumplir pues va
+
+57
+00:06:10,890 --> 00:06:17,460
+a pasar a la otra va a pasar a esta segunda condición porque esto es un o si esto pasa o esto otro pasa
+
+58
+00:06:18,070 --> 00:06:24,480
+mal entonces vamos a actualizar la pantalla y me dice que el año acaba en 8 de acuerdo así que de esta
+
+59
+00:06:24,480 --> 00:06:32,370
+manera podemos nosotros hacer o hacer uso de varias condiciones y varias y varios operadores lógicos
+
+60
+00:06:32,370 --> 00:06:40,980
+dentro de un mismo y también podemos utilizar los paréntesis para dar prioridad a una operación u otra.
+
+61
+00:06:40,980 --> 00:06:50,190
+Por ejemplo si yo aquí en el horror utilizo los paréntesis yo podría meter aquí una condición más grande
+
+62
+00:06:50,760 --> 00:06:57,630
+le voy a poner los paréntesis correctamente yo podría meter aquí una perfectamente podría indicarle
+
+63
+00:06:57,630 --> 00:07:01,080
+que si es mayor o igual
+
+64
+00:07:05,170 --> 00:07:14,050
+a 2018 y además es exactamente igual a 2020
+
+65
+00:07:17,160 --> 00:07:21,570
+1028 pues aquí que me diga que el año acaba en 8.
+
+66
+00:07:21,630 --> 00:07:26,280
+Entonces podemos comprobar lo que se actualizó la pantalla no me muestra nada.
+
+67
+00:07:26,280 --> 00:07:27,710
+Voy a poner un si biopoder
+
+68
+00:07:31,620 --> 00:07:32,850
+año no registrado
+
+69
+00:07:36,310 --> 00:07:44,480
+vale para hacer la prueba me hice año no registrado vale pero si yo pusiera que el año sería que es
+
+70
+00:07:44,480 --> 00:07:50,720
+el 2028 y supongo que el año 2028 me va a pasar por la primera condición y no se va a cumplir el año
+
+71
+00:07:50,720 --> 00:07:52,730
+es igual a 2018 no.
+
+72
+00:07:52,910 --> 00:08:00,830
+Por lo tanto me voy a ir ejecuto este bloque de condiciones si el año es mayor o igual a 2018 y además
+
+73
+00:08:00,950 --> 00:08:02,760
+el año es igual a 2028.
+
+74
+00:08:02,780 --> 00:08:07,580
+Entonces este bloque de intrucciones devuelve true por lo tanto esto es como si fuera una operación
+
+75
+00:08:07,580 --> 00:08:13,740
+entera y aquí sería como decir truc y entonces pasaría y inundaría.
+
+76
+00:08:13,740 --> 00:08:24,050
+Okey pero si esta condición interior no se cumple si el año es menor a 2018 y el año no coincide con
+
+77
+00:08:24,050 --> 00:08:27,290
+2020 pues esto no va a pasar.
+
+78
+00:08:27,350 --> 00:08:33,110
+De acuerdo a esta condición no se va a cumplir y entonces si esta condición no se cumple si el año no
+
+79
+00:08:33,110 --> 00:08:39,620
+es mayor a 2018 y además tampoco es igual a 2020 si no se cumplen estas dos condiciones si no se hace
+
+80
+00:08:39,950 --> 00:08:46,130
+correctamente y esto devuelve trouppe estas dos operaciones de aquí puede volver a falsear y entonces
+
+81
+00:08:46,250 --> 00:08:52,260
+esto no sucederá y nos pasará de forma que ahora sí el 1028.
+
+82
+00:08:52,560 --> 00:08:55,740
+Sí que pasa y me dice que el año acaba en 8.
+
+83
+00:08:55,820 --> 00:09:01,850
+Pero si yo le pongo otro año pues no va a pasar por ahí.
+
+84
+00:09:01,850 --> 00:09:10,840
+Y entonces nos muestra lo que en ese acuerdo no entra a la condición sino que salta al a verse bien
+
+85
+00:09:10,900 --> 00:09:15,800
+pues ya hemos visto un poco más acerca de las condiciones y acerca de los operadores lógicos.

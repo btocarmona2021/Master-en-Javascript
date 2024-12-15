@@ -1,0 +1,127 @@
+1
+00:00:00,660 --> 00:00:07,920
+Vamos a volver al fichero 30 eventos de JS Porque quiero explicar una cosa con referencia al tema de
+
+2
+00:00:08,010 --> 00:00:15,660
+los eventos y al deber Líster hay una cosa muy interesante que ya existía en la parte de ella y Kairi
+
+3
+00:00:15,690 --> 00:00:22,620
+pero con los nuevos avances de JavaScript puro nativo ya lo podemos hacer también y es el operador dis
+
+4
+00:00:23,010 --> 00:00:24,730
+el operador dis.
+
+5
+00:00:24,840 --> 00:00:32,220
+Una cosa maravillosa es decir mira yo tengo en el Hynde punto HTML un botón que se llama
+
+6
+00:00:35,820 --> 00:00:42,270
+presionarme que este botón lo estoy seleccionando en mi código Javascript con el cual el lector vale
+
+7
+00:00:42,970 --> 00:00:47,210
+y entonces lo estoy utilizando por aquí y tal.
+
+8
+00:00:47,290 --> 00:00:49,110
+Vamos a índex punto HTML
+
+9
+00:00:51,750 --> 00:00:58,120
+lo estoy utilizando por aquí no voy a parar esto y este fichero tengo que cargarlo dentro de mi script
+
+10
+00:00:58,170 --> 00:01:02,250
+por aquí voy a cargarlo voy a cortarlo de aquí lo veo por aquí
+
+11
+00:01:06,790 --> 00:01:10,560
+tengo que cargar describe en el Index para que funcione mal.
+
+12
+00:01:10,630 --> 00:01:20,410
+Entonces cuando yo presionaba mi botón me hacía un efecto concreto vale cuando yo le doy clic pues me
+
+13
+00:01:20,440 --> 00:01:25,480
+hace un efecto y cuando paso por encima también por los eventos que yo he puesto aquí vale pero imagínate
+
+14
+00:01:25,480 --> 00:01:33,540
+que tú quieres dentro de este propio de este propio método tú quieres modificar algo de ese botón Vale
+
+15
+00:01:33,740 --> 00:01:41,470
+tú quieres modificar alguna cosa de ese botón y se te ocurre que puedes hacer document punto Equalizer
+
+16
+00:01:41,590 --> 00:01:44,050
+total o utilizar la variable botón.
+
+17
+00:01:44,050 --> 00:01:53,820
+También puedes hacerlo botón y entonces a lo mejor le cambiamos un margen o le ponemos un border Deredia
+
+18
+00:01:54,070 --> 00:01:56,560
+PX Solid Black.
+
+19
+00:01:56,950 --> 00:02:01,060
+Por ejemplo esto lo podríamos hacer sin ningún tipo de problema accedemos a la variable que está aquí
+
+20
+00:02:01,060 --> 00:02:09,290
+fuera y tal y si le doy clic pues efectivamente me hace eso pero hay una cosa que es mucho más efectiva
+
+21
+00:02:09,380 --> 00:02:15,920
+y más óptima que es utilizar el operador DIS es decir el operador dis hace referencia al objeto en el
+
+22
+00:02:15,920 --> 00:02:18,320
+cual yo estoy haciendo clic en ese momento.
+
+23
+00:02:18,320 --> 00:02:24,800
+Este evento click está esta manera de capturar el evento corresponde a cuando yo le doy clic a este
+
+24
+00:02:24,800 --> 00:02:25,240
+botón.
+
+25
+00:02:25,370 --> 00:02:29,840
+Entonces dice estoy haciendo referencia al elemento al cual le estoy dando clic.
+
+26
+00:02:29,840 --> 00:02:37,670
+Entonces si yo pongo dis punto pues tengo acceso a todo mi objeto que sobre el cual se está aplicando
+
+27
+00:02:37,670 --> 00:02:45,500
+el evento o sobre el cual se ha lanzado ese evento entonces si hago consolón también te dije Vamos a
+
+28
+00:02:45,500 --> 00:02:46,270
+ver que tenemos.
+
+29
+00:02:49,120 --> 00:02:54,770
+Efectivamente el botón sobre el cual yo he dado clic de forma que puedo acceder a ese botón o a ese
+
+30
+00:02:54,770 --> 00:03:00,250
+elemento al cual yo le he dado clic o sobre el cual se ha aplicado o se ha lanzado un evento de manera
+
+31
+00:03:00,250 --> 00:03:06,430
+muy sencilla y de manera muy óptima utilizando el diseño al igual que hacemos con el cuero y que lo
+
+32
+00:03:06,430 --> 00:03:07,940
+veremos después etcétera.

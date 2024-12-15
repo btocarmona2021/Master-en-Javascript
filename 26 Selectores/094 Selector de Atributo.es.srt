@@ -1,0 +1,111 @@
+1
+00:00:00,990 --> 00:00:09,570
+También podemos seleccionar por atributo selectores de atributo los electores de atributo nos permiten
+
+2
+00:00:09,840 --> 00:00:16,270
+seleccionar la etiqueta o los elementos de HTML que tengan ciertos atributos puestos.
+
+3
+00:00:16,650 --> 00:00:25,560
+Por ejemplo si yo tuviera alguien mi código por ejemplo vamos a poner aquí una lista.
+
+4
+00:00:25,560 --> 00:00:29,950
+Huele huele.
+
+5
+00:00:30,000 --> 00:00:36,380
+Si yo tuviera una lista de elementos vamos a hacer una lista rápido
+
+6
+00:00:39,780 --> 00:00:42,500
+y vamos a poner unos enlaces a HR-V
+
+7
+00:00:46,320 --> 00:00:56,630
+y cierro el ah vale vamos a hacer varios enlaces un enlace sería que llevara a Google HTTPS LOS PUNTOS
+
+8
+00:00:56,870 --> 00:01:07,320
+BARRA BARRA RW El punto Google.com podríamos poner un Twitter Caminal al link que fuera Google.
+
+9
+00:01:07,580 --> 00:01:09,410
+Vale eso sería un atributo también.
+
+10
+00:01:09,500 --> 00:01:11,120
+Y aquí pondría pues ir a Google
+
+11
+00:01:15,160 --> 00:01:22,210
+y así podemos hacer con el resto de enlaces por ejemplo un enlace que vaya a Facebook HTTPS dos puntos
+
+12
+00:01:22,210 --> 00:01:31,690
+barra barra RW punto Facebook puntocom que llevar a Facebook ir a Facebook
+
+13
+00:01:36,940 --> 00:01:46,690
+y vamos a en Twitter que sea Facebook y bueno podríamos seguir añadiendo enlaces aquí pero con esto
+
+14
+00:01:46,690 --> 00:01:51,630
+será suficiente con esto será suficiente para ver el ejemplo.
+
+15
+00:01:51,620 --> 00:02:00,150
+Mira podemos ir al código de JavaScript un código de Cury y podemos seleccionar los elementos por atributo.
+
+16
+00:02:00,160 --> 00:02:01,780
+Cómo se hace esto cómo se hace esto.
+
+17
+00:02:01,780 --> 00:02:09,520
+Pues utilizando los corchetes vale y aquello puede indicarle lo que yo quiera a nivel de atributo HTML
+
+18
+00:02:09,520 --> 00:02:17,010
+es decir seleccionar metodóloga elementos cuyo títol sea igual a Google.
+
+19
+00:02:17,010 --> 00:02:23,020
+Vale y entonces a esos elementos le vamos a poner un color
+
+20
+00:02:26,830 --> 00:02:27,630
+un background
+
+21
+00:02:34,230 --> 00:02:44,020
+Grin o CSS lo podríamos poner también gastar CCCC que eso sería un gris clarito y luego podríamos seleccionar
+
+22
+00:02:44,020 --> 00:02:56,020
+también todo lo elemento cuyo título cuyo atributo title se iguala Facebook y ponerlo en CSS de igual
+
+23
+00:02:56,020 --> 00:03:07,520
+forma CSS un nuevo atributo CSS que sea vacunaron y le vamos a poner un color Blu
+
+24
+00:03:10,450 --> 00:03:11,570
+a esos elementos.
+
+25
+00:03:11,620 --> 00:03:17,860
+Si yo guardé y actualizo la pantalla vamos a ver que efectivamente el link que lleva a Google me lo
+
+26
+00:03:17,860 --> 00:03:24,610
+pone en gris porque lo ha seleccionado de acuerdo a seleccionado el atributo title igual a Google y
+
+27
+00:03:24,630 --> 00:03:30,940
+ha puesto ese color y luego ha seleccionado también el elemento de Facebook que tenía ese tinte y le
+
+28
+00:03:30,940 --> 00:03:34,780
+ha puesto color blog con lo cual esto es un selector de atributo.

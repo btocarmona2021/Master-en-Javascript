@@ -1,0 +1,819 @@
+1
+00:00:00,450 --> 00:00:04,890
+Ahora vamos a hacer un ejercicio con los Arráiz para que nos quede más claro.
+
+2
+00:00:04,890 --> 00:00:16,240
+Vamos a crear un nuevo archivo de JavaScript controles y se va a llamar 27. ejercicio Arráiz punto JS
+
+3
+00:00:17,150 --> 00:00:30,560
+lo guardo y lo vamos a incluir en nuestro Index va a ser el número 27 ejercicio Arráiz guardo y vamos
+
+4
+00:00:30,560 --> 00:00:40,220
+a poner del uso de Street y voy a decir el enunciado bien tenemos que hacer un programa que
+
+5
+00:00:43,570 --> 00:00:50,690
+uno pida seis números por pantalla y los meta en una raíz.
+
+6
+00:00:53,050 --> 00:00:54,850
+Eso es lo primero que tienen que hacer.
+
+7
+00:00:54,850 --> 00:00:59,690
+Lo segundo tiene que mostrar
+
+8
+00:01:02,180 --> 00:01:05,700
+el array entero.
+
+9
+00:01:05,960 --> 00:01:10,580
+Básicamente todos sus elementos todos sus elementos
+
+10
+00:01:15,850 --> 00:01:22,970
+en el cuerpo de la página y en la consola vale.
+
+11
+00:01:23,090 --> 00:01:24,420
+Tenemos que hacer esas dos cosas.
+
+12
+00:01:24,740 --> 00:01:27,080
+Tres tienen que hacer también.
+
+13
+00:01:27,110 --> 00:01:34,160
+También tenemos que sacar el array o el vector o la matriz o lo que sea ordenado de acuerdo.
+
+14
+00:01:34,160 --> 00:01:40,100
+Tenemos que ordenarlo y mostrarlo.
+
+15
+00:01:40,430 --> 00:01:44,540
+Después tenemos que punto número 4.
+
+16
+00:01:44,540 --> 00:01:46,010
+Invertir su orden
+
+17
+00:01:49,820 --> 00:01:50,630
+y mostrarlo
+
+18
+00:01:53,600 --> 00:01:54,130
+cinco
+
+19
+00:01:57,650 --> 00:02:00,890
+mostrar cuántos elementos tiene el array también
+
+20
+00:02:06,590 --> 00:02:08,690
+y por último tenemos que hacer una búsqueda
+
+21
+00:02:11,300 --> 00:02:22,700
+de un valor introducido por el usuario de un valor introducido por el usuario y que nos diga si está
+
+22
+00:02:22,790 --> 00:02:34,280
+en el array y además que nos diga su posición que nos diga si lo encuentra y su índice de acuerdo.
+
+23
+00:02:34,310 --> 00:02:36,320
+Eso es lo que tenemos que hacer.
+
+24
+00:02:36,320 --> 00:02:40,340
+Punto número 1 vamos a hacer el punto número uno que pida seis números por pantalla.
+
+25
+00:02:40,340 --> 00:02:41,740
+Cómo hacemos esto.
+
+26
+00:02:43,840 --> 00:02:51,550
+Lo primero vamos a creer en la variable de la RAI números que simplemente va a ser un rey vacío o incluso
+
+27
+00:02:51,550 --> 00:02:56,800
+podemos hacer ni un rey para definir el objeto de la Rey indicarle cuántas posiciones va a tener en
+
+28
+00:02:56,800 --> 00:02:57,730
+este caso seis.
+
+29
+00:02:57,760 --> 00:03:04,540
+De esa manera ya tenemos un rey conseguí con posiciones y ahora vamos a estar pidiendo los números.
+
+30
+00:03:04,540 --> 00:03:10,570
+Vale vamos a pedir los números al usuario cómo lo hacemos pues simplemente con un foro con un Ford que
+
+31
+00:03:10,570 --> 00:03:23,140
+ya sabemos que tiene tres partes el contador la condición mientras que el contador sea menor que 5 porque
+
+32
+00:03:23,140 --> 00:03:31,360
+empezamos a contar desde el cero del 0 al 5 y 6 números y luego en el caso de que sea menor que 5 pues
+
+33
+00:03:31,360 --> 00:03:39,190
+siempre vamos a seguir tirando y incrementamos el valor del contador en 1 entonce en cada una de estas
+
+34
+00:03:39,190 --> 00:03:39,900
+iteraciones.
+
+35
+00:03:39,940 --> 00:03:47,890
+Vamos a utilizar la raíz de números y en la posición que estemos integrando en este momento vamos a
+
+36
+00:03:47,890 --> 00:03:57,460
+estar pidiéndole un prompt al usuario de acuerdo vamos a estar pidiéndole que introduzca un número introduce
+
+37
+00:03:58,930 --> 00:04:10,050
+un número y por default que nos venga a cero y además va a utilizar el par Saint Parcent para que no
+
+38
+00:04:10,060 --> 00:04:14,060
+lo convierta a un número finalmente vale de esta manera.
+
+39
+00:04:14,080 --> 00:04:26,970
+Si yo ejecuto mi código actualizo la pantalla me pide un número 1 2 3 4 5 y ya vale nos pide 5 números
+
+40
+00:04:26,980 --> 00:04:34,970
+en este caso aquí deberíamos ponerle menor o igual para que llegue a números.
+
+41
+00:04:35,140 --> 00:04:42,490
+Y finalmente cuando acabe el bucle vamos a hacer un consolé punto de números a ver qué hay dentro de
+
+42
+00:04:42,490 --> 00:04:49,530
+acuerdo y iterar en cada una de las posiciones que tiene ya el array y le vamos añadiendo un valor analizamos
+
+43
+00:04:49,610 --> 00:04:54,900
+la pantalla 1 2 3 4 5 y 6.
+
+44
+00:04:54,970 --> 00:05:01,840
+Ahora si tenemos ese elemento partiendo del 0 al 5 y cada uno con un número diferente perfecto ya le
+
+45
+00:05:01,840 --> 00:05:10,030
+hemos pedido al usuario los valores y además lo hemos metido dentro de un elemento del array hubiera
+
+46
+00:05:10,030 --> 00:05:18,900
+sido lo mismo hacer esto con un puf de acuerdo si nosotros hubiéramos creado la variable números más
+
+47
+00:05:19,060 --> 00:05:26,930
+números y la creamos vacía vacío lo hacemos así nosotros podríamos hacer números punto.
+
+48
+00:05:27,060 --> 00:05:32,780
+Voy a comentar esto para tenerlo de referencia como referencia números punto.
+
+49
+00:05:32,890 --> 00:05:40,030
+Podríamos haber hecho y podríamos haber hecho el Passaic y el prom y la historia así de esta manera
+
+50
+00:05:40,090 --> 00:05:40,870
+el resultado.
+
+51
+00:05:41,280 --> 00:05:48,950
+Yo creo que es exactamente el mismo y actualizamos la pantalla 1 2 3 4 5 y 6.
+
+52
+00:05:49,060 --> 00:05:53,240
+Efectivamente el resultado del mismo lo puede hacer de la manera que más te guste.
+
+53
+00:05:53,260 --> 00:05:59,380
+A mí personalmente me gusta más la segunda manera como lo hemos hecho mal pero yo voy a quitar estos
+
+54
+00:05:59,380 --> 00:06:00,760
+comentarios.
+
+55
+00:06:00,850 --> 00:06:06,640
+Simplemente quería enseñarte como se hacía de esa manera también entonces quiero que mostremos el array
+
+56
+00:06:06,640 --> 00:06:09,760
+entero por la consola eso ya lo hemos hecho aquí.
+
+57
+00:06:10,210 --> 00:06:12,340
+Vale esto sería mostrar el array por la consola
+
+58
+00:06:19,600 --> 00:06:25,240
+esto sería pedir los números pedir seis números
+
+59
+00:06:28,360 --> 00:06:35,950
+mostrar la raíz de la consola y quiero que lo muestre en el cuerpo de la página mostrar el cuerpo de
+
+60
+00:06:35,950 --> 00:06:36,600
+la página.
+
+61
+00:06:38,470 --> 00:06:44,350
+Esto es sencillo simplemente con un document right como ya hemos visto como un punto Bright document
+
+62
+00:06:44,430 --> 00:06:48,580
+punto Grit lo podemos mostrar en el cuerpo de la página.
+
+63
+00:06:48,580 --> 00:06:56,410
+Por el momento luego veremos más cosas para manipular el DOM y muchas cosas para incrustar nuestro texto
+
+64
+00:06:56,410 --> 00:07:01,690
+o lo que sea dentro del HTML pero eso lo veremos luego entonces.
+
+65
+00:07:01,690 --> 00:07:10,570
+Contenido de array esto lo vamos a meter dentro de un H1 para que sea un encabezado grande H1.
+
+66
+00:07:10,780 --> 00:07:18,460
+Y ahora con Podemos mostrar el contenido de un array pues como ya he enseñado en clases anteriores podemos
+
+67
+00:07:18,460 --> 00:07:21,430
+utiliza el favorito el Fortín o un Forth normal.
+
+68
+00:07:21,430 --> 00:07:26,350
+Yo recomendaría utilizar un Fortich en la manera que más me gusta a mí.
+
+69
+00:07:26,350 --> 00:07:37,750
+Entonces puede utilizar números punto Fortich y esto tiene una función de Calvar dentro en la cual puedo
+
+70
+00:07:37,750 --> 00:07:46,140
+recoger simplemente el valor o el elemento en este caso el número también el Index el índice y voy a
+
+71
+00:07:46,140 --> 00:07:47,850
+utilizar la función de flecha
+
+72
+00:07:50,940 --> 00:07:56,430
+exactamente y el calvo lo tengo definido como una función anónima de flecha y entonces puedo hacer ahora
+
+73
+00:07:56,430 --> 00:08:01,420
+un documento punto right de los números de acuerdo de números.
+
+74
+00:08:02,190 --> 00:08:05,610
+Así de simple y lo voy a meter dentro de un estro
+
+75
+00:08:08,690 --> 00:08:18,060
+dentro de una etiqueta estro concatenando el número cierro la etiqueta Strogg y le pongo un B.R. también
+
+76
+00:08:19,890 --> 00:08:21,070
+para que salte de línea.
+
+77
+00:08:21,090 --> 00:08:24,900
+Guardo actualizo la pantalla mientras el número
+
+78
+00:08:30,900 --> 00:08:35,740
+efectivamente aquietan qué pasa me lo muestra pero no me lo está mostrando mal.
+
+79
+00:08:35,760 --> 00:08:40,670
+Vale vamos a revisar por qué no lo muestra mal es porque se Ramalá Hedi Queta.
+
+80
+00:08:40,710 --> 00:08:42,660
+Efectivamente aquí cerramos el extremo.
+
+81
+00:08:42,690 --> 00:08:46,730
+Ahora si se actualizó la pantalla me lo vuelvo a pedir.
+
+82
+00:08:50,090 --> 00:08:54,140
+Efectivamente ahora sí que me lo muestra todos los números que yo he metido.
+
+83
+00:08:54,140 --> 00:08:57,250
+Esto podría haberlo formateado Moralito podría haber hecho lo que yo quisiera.
+
+84
+00:08:57,260 --> 00:09:01,560
+1 2 3 4 1 3 4 5 6.
+
+85
+00:09:01,560 --> 00:09:02,500
+Lo recuerdo perfecto.
+
+86
+00:09:02,510 --> 00:09:07,910
+Todo perfecto contenido y Arráiz mostrado aquí y también mostrado en la consola en forma de un Consol
+
+87
+00:09:07,990 --> 00:09:09,550
+punto lógico.
+
+88
+00:09:09,590 --> 00:09:12,520
+Ahora tenemos que ordenarlo y mostrarlo.
+
+89
+00:09:12,790 --> 00:09:16,780
+Vale ordenar y mostrar.
+
+90
+00:09:17,090 --> 00:09:22,730
+Como hemos dicho aquí en el enunciado ordenarlo y mostrar cómo podemos ordenar una raíz pues simplemente
+
+91
+00:09:22,730 --> 00:09:27,090
+utilizamos números y el método sort.
+
+92
+00:09:27,410 --> 00:09:28,970
+De esta manera ya lo tengo.
+
+93
+00:09:28,970 --> 00:09:40,410
+Vale ya tengo el ordenador si yo ahora mismo o con su elpunto log de números me aparecerá ordenado.
+
+94
+00:09:40,460 --> 00:09:44,020
+Efectivamente no aparece ordenado tal como yo le he dicho.
+
+95
+00:09:44,220 --> 00:09:51,200
+Entonces una vez que tengo hecho esto qué puedo hacer para mostrarlo de nuevo por pantalla.
+
+96
+00:09:51,200 --> 00:09:56,180
+Pues mira este trozo de código sería el mismo yo podría copiarlo y pegarlo pero lo más recomendable
+
+97
+00:09:56,180 --> 00:10:01,610
+hacerlo en una función así que nos vamos a hacer una función por aquí arriba function que se va a llamar
+
+98
+00:10:01,610 --> 00:10:05,710
+mostrar array.
+
+99
+00:10:06,050 --> 00:10:12,470
+Vale y esta función va a recibir una raíz que va a ser elementos se va a llamar para hacer una función
+
+100
+00:10:12,470 --> 00:10:18,290
+super genérica y este trozo de código yo me lo llevo hacia arriba pero llevo aquí
+
+101
+00:10:20,900 --> 00:10:24,240
+simplemente me va a imprimir esto contenido de la RAI.
+
+102
+00:10:24,890 --> 00:10:32,600
+Luego le voy a meter un texto custom texto custom le vamos a poner custom y lo vamos a concatenar aquí
+
+103
+00:10:35,490 --> 00:10:45,640
+vale lo vamos a concatenar aquí de la siguiente manera el texto custom texto custom lo vamos a poner
+
+104
+00:10:45,640 --> 00:10:54,550
+aquí para pasarle un dato si me interesa OK por default que venga vacío porque por defecto pues tampoco
+
+105
+00:10:55,300 --> 00:10:57,090
+tampoco va a pasar nada.
+
+106
+00:10:57,130 --> 00:10:59,290
+Sea por defecto pondria contenido de la RAI.
+
+107
+00:10:59,470 --> 00:11:06,430
+Genial ya pero si yo le paso un texto custom por ejemplo contenido de la RAI y de paso por aquí ordenado
+
+108
+00:11:06,460 --> 00:11:09,140
+pues aquí me pondría ordenado o le paso lo que sea.
+
+109
+00:11:09,240 --> 00:11:10,930
+Pues me lo pondré aquí.
+
+110
+00:11:11,010 --> 00:11:13,560
+Luego elementos elemento sería el rey.
+
+111
+00:11:13,580 --> 00:11:15,920
+Entonces tengo que sustituirlo por número.
+
+112
+00:11:15,940 --> 00:11:25,870
+Esto sería elemento y tendría que ser el Document right de elementos de elemento del elemento que está
+
+113
+00:11:25,870 --> 00:11:31,450
+recorriendo en este momento y esto ya que estoy lo puedo organizar en una lista desordenada vale puedo
+
+114
+00:11:31,450 --> 00:11:32,470
+hacer un documento right
+
+115
+00:11:37,050 --> 00:11:45,990
+huele a confundir como y esto va a ser la etiqueta que luego va a clavar en el HTML en la parte inicial
+
+116
+00:11:45,990 --> 00:11:55,150
+del body weight cierra el huele y esto sería un lío y esto sería otro.
+
+117
+00:11:56,370 --> 00:11:57,840
+Y aquí ya Quito el.
+
+118
+00:11:57,990 --> 00:12:03,620
+De esta manera si yo cojo esta función y la llamo por aquí le invoco mostrarã Rey.
+
+119
+00:12:03,900 --> 00:12:09,210
+Simplemente me tengo que pasar mi array de números y tengo que pasar el texto custom.
+
+120
+00:12:09,240 --> 00:12:15,750
+En el caso de que yo quiera si no quiero no se lo paso guardo actualizo la pantalla método número
+
+121
+00:12:20,290 --> 00:12:22,660
+y el resultado es exactamente el mismo.
+
+122
+00:12:22,910 --> 00:12:29,030
+Entonces cuando yo quiera volver a mostrar los números cuando yo quiera volver a mostrar el resultado
+
+123
+00:12:29,030 --> 00:12:36,020
+de cualquier Arráiz mostrar o sea recorrer todo ese Array y mostrar su resultado en el body de la página
+
+124
+00:12:36,020 --> 00:12:43,490
+simplemente cojo esta función y la llamo por aquí vale y puedo pasar un modificador un texto custom
+
+125
+00:12:43,490 --> 00:12:52,730
+que sería ordenados o sea en este caso sería contenido de la RAI ordenado guardo actualizo la pantalla
+
+126
+00:12:53,460 --> 00:12:54,370
+meto un número
+
+127
+00:12:59,330 --> 00:13:08,130
+y efectivamente aquí abajo me aparece contenido de array ordenado y aquí lo vemos ordenado 12 2 tal
+
+128
+00:13:08,130 --> 00:13:13,410
+tal tal y tal no parece ordenado pues según aparece ordenado por orden alfabético.
+
+129
+00:13:13,410 --> 00:13:19,280
+Vale pues sólo tiene en cuenta el primero la primera cifra esto lo que hace es ordenar de manera alfabética.
+
+130
+00:13:19,680 --> 00:13:26,730
+Si yo quisiera que tome la ordenada de manera numérica tendría que ponerle a la función sólo una función
+
+131
+00:13:26,730 --> 00:13:34,350
+de Calvache que es la siguiente a Mavé return.
+
+132
+00:13:34,590 --> 00:13:40,470
+A menos de acuerdo podría hacer esto y de esta manera
+
+133
+00:13:49,210 --> 00:13:51,490
+me lo ordena de manera numérica.
+
+134
+00:13:51,490 --> 00:13:52,270
+Vale.
+
+135
+00:13:52,270 --> 00:13:57,640
+Simplemente poniéndole esta función en orden ascendente si yo quisiera ponerlo en orden descendente
+
+136
+00:13:57,670 --> 00:14:00,980
+tendría que cambiarla por la simplemente hacerlo así.
+
+137
+00:14:00,980 --> 00:14:03,220
+O sea esto realmente funciona así.
+
+138
+00:14:03,250 --> 00:14:08,350
+Estaría bien que existiera un método que ya lo hiciera que se llamara sort number o lo que sea pero
+
+139
+00:14:08,350 --> 00:14:09,010
+realmente.
+
+140
+00:14:09,310 --> 00:14:15,550
+Pues esto es lo que si no todos ya tenemos la función y ya nos muestra el número ordenado.
+
+141
+00:14:15,670 --> 00:14:20,140
+Bien vamos a lo siguiente los siguientes invertir su orden y mostrarlo.
+
+142
+00:14:20,160 --> 00:14:25,680
+Pues muy fácil invertir y mostrar.
+
+143
+00:14:26,020 --> 00:14:28,270
+Para eso hago números reverse
+
+144
+00:14:31,610 --> 00:14:38,920
+y lo muestro con la invocación a la función mostrarã y aquí pongo revertidos
+
+145
+00:14:41,830 --> 00:14:45,210
+guardo actualizo la pantalla meto los número
+
+146
+00:14:49,340 --> 00:14:54,550
+y efectivamente aquí nos aparece también tenemos que mostrar cuanto elemento tiene una raíz.
+
+147
+00:14:55,110 --> 00:14:58,920
+Eso es sencillo.
+
+148
+00:14:59,940 --> 00:15:01,320
+Cuántos elementos tiene una raíz
+
+149
+00:15:05,010 --> 00:15:16,140
+contar elementos o contar índices para eso simplemente tengo que hacer un números Lent y puedo hacer
+
+150
+00:15:16,140 --> 00:15:20,610
+un documento right para mostrarlo como en punto
+
+151
+00:15:23,040 --> 00:15:26,050
+grids y lo muestro
+
+152
+00:15:31,650 --> 00:15:34,410
+en un H1B que la RAE tiene
+
+153
+00:15:37,440 --> 00:15:41,520
+elementos mal así lo podría hacer y la pantalla
+
+154
+00:15:46,410 --> 00:15:53,170
+la RAE tiene seis elementos que aparece bien y por último nos queda la búsqueda de un valor introducido
+
+155
+00:15:53,170 --> 00:15:57,610
+por el usuario y que nos diga si lo encuentra y su índice.
+
+156
+00:15:57,700 --> 00:16:03,720
+Eso es sencillo también simplemente tenemos que pedir al usuario.
+
+157
+00:16:03,800 --> 00:16:09,980
+Aquí vamos a hacer una búsqueda simplemente le tenemos que pedir al usuario un prompt como éste
+
+158
+00:16:16,230 --> 00:16:18,290
+y lo vamos a meter dentro de una variable.
+
+159
+00:16:18,470 --> 00:16:20,210
+Búsqueda.
+
+160
+00:16:20,550 --> 00:16:21,410
+Busco un número.
+
+161
+00:16:21,410 --> 00:16:23,440
+Vamos a poner como texto al Blom.
+
+162
+00:16:23,450 --> 00:16:30,160
+Busca un número y simplemente para saber en qué posición está.
+
+163
+00:16:30,200 --> 00:16:39,890
+Vamos a hacer un documento con toroide que ponga posición de la búsqueda
+
+164
+00:16:45,530 --> 00:16:49,010
+y le concatenar la posición.
+
+165
+00:16:49,010 --> 00:16:52,190
+Eso lo haremos ahora y luego vamos hacia otro document right.
+
+166
+00:16:52,190 --> 00:16:58,940
+Esto lo vamos a meter en h1 y luego le vamos a concatenan también un os vamos a ponerle aquí un encontrado
+
+167
+00:17:00,470 --> 00:17:01,280
+encontrado
+
+168
+00:17:04,290 --> 00:17:08,530
+vale y para esto vamos a hacer un filme de nuestro Rey y nuestras raíces.
+
+169
+00:17:08,540 --> 00:17:09,650
+Números.
+
+170
+00:17:09,650 --> 00:17:18,130
+Punto fin índex porque necesitamos sacar el índice y lo vamos a pasar la búsqueda.
+
+171
+00:17:18,170 --> 00:17:19,380
+Simplemente no.
+
+172
+00:17:19,640 --> 00:17:24,350
+Con esto ya tenemos si existe o no esto lo vamos a meter aquí vamos a ponerle el nombre de la variable
+
+173
+00:17:24,350 --> 00:17:36,750
+se va a llamar buscado buscado y buscado es diferente a menos uno.
+
+174
+00:17:36,800 --> 00:17:49,850
+O simplemente da Tru sí buscado y buscado es diferente a menos uno diferente utilizando este operador
+
+175
+00:17:49,880 --> 00:17:52,790
+exclamación igual diferente a menos uno.
+
+176
+00:17:52,790 --> 00:17:54,710
+Pues entonces que nos muestre encontrado
+
+177
+00:17:58,100 --> 00:18:02,990
+la posición de la búsqueda es la posición que sea de acuerdo en este caso si la posición la variable
+
+178
+00:18:03,320 --> 00:18:05,390
+lo que me interesa posición
+
+179
+00:18:07,890 --> 00:18:16,400
+y utiliza esta variable aquí y aquí aquí y en el caso de que no nos diga que no no lo he encontrado
+
+180
+00:18:18,890 --> 00:18:23,520
+no he encontrado vale o guardamos volvemos.
+
+181
+00:18:23,570 --> 00:18:26,150
+Volvemos a probar metemos los número
+
+182
+00:18:31,400 --> 00:18:34,790
+me dice Busco un número le meto el 1 y me dice
+
+183
+00:18:38,070 --> 00:18:40,320
+que tengo un error.
+
+184
+00:18:40,790 --> 00:18:49,000
+Mide uno y se nota función y es por qué estoy utilizando mal el Fain Index irrealmente.
+
+185
+00:18:50,200 --> 00:18:53,310
+Claro el finde lo tengo que utilizar como una función de Calvache.
+
+186
+00:18:53,510 --> 00:18:58,310
+Vale tengo que hacerlo así como lo estaba haciendo yo antes aquí simplemente hago esto
+
+187
+00:19:02,000 --> 00:19:02,510
+número
+
+188
+00:19:06,060 --> 00:19:09,680
+número igual a Búsqueda.
+
+189
+00:19:10,000 --> 00:19:18,330
+Vale si lo hago así si que me va a funcionar actualizo la pantalla uno dos tres cuatro cinco seis y
+
+190
+00:19:18,330 --> 00:19:25,950
+me dice Busco un número el 1 y me dice exactamente como lo hice aquí encontrado posición de la búsqueda
+
+191
+00:19:25,980 --> 00:19:26,590
+5.
+
+192
+00:19:26,680 --> 00:19:38,800
+Vale si yo meto otro número del 1 2 3 4 5 6 7 me dice No he encontrado.
+
+193
+00:19:38,860 --> 00:19:45,810
+Efectivamente puedo ponerle también un H.R a esto para separarlo de todo y verlo visualmente bien.
+
+194
+00:19:49,400 --> 00:19:53,820
+Voy a poner un H.R bien vamos a volver a hacerlo.
+
+195
+00:19:53,840 --> 00:20:03,090
+Meto el 1 el 2 el 3 4 5 6 ahora me dice búscame un elemento buscando el número busco el 2 y me dice
+
+196
+00:20:03,290 --> 00:20:05,570
+He encontrado posición de la búsqueda.
+
+197
+00:20:05,600 --> 00:20:06,300
+4.
+
+198
+00:20:06,310 --> 00:20:12,680
+Vale por qué la posición 4 porque yo he ordenado la raíz de manera inversa vale he hecho un Reverse
+
+199
+00:20:12,680 --> 00:20:18,620
+por aquí por aquí arriba entonces me modificó el orden de la raíz por eso me hice la posición y no corresponde
+
+200
+00:20:18,620 --> 00:20:21,080
+con la que tenemos aquí.
+
+201
+00:20:22,980 --> 00:20:30,300
+Aunque realmente se corresponde con la posición 4 porque ya tiene un Reverse hecho vale entonces funciona.
+
+202
+00:20:30,330 --> 00:20:32,890
+Si yo le metiera un número que no existiera
+
+203
+00:20:37,120 --> 00:20:41,530
+me dice Busco un nuevo elemento un número que yo no lo he introducido me dice No he encontrado con lo
+
+204
+00:20:41,530 --> 00:20:44,600
+cual el buscador también funciona y lo hemos hecho de manera óptima.
+
+205
+00:20:44,620 --> 00:20:50,410
+Así que de momento ya sabemos utilizar bastantes cosas acerca de los arrays.

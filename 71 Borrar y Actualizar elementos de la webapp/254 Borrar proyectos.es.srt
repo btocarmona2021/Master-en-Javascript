@@ -1,0 +1,119 @@
+1
+00:00:01,110 --> 00:00:05,310
+Ahora vamos a hacer que este botón de Borrar funcione cuando le haremos clic.
+
+2
+00:00:05,310 --> 00:00:09,540
+Para eso vamos a estar trabajando en nuestro componente detail componen.
+
+3
+00:00:09,540 --> 00:00:17,250
+Aquí vamos a tener que cargar el tema de las rutas como el servicio ya lo tenemos por aquí también y
+
+4
+00:00:17,820 --> 00:00:24,330
+vamos a tener que hacer un método en nuestro servicio de proyectos para poder borrar elementos lo que
+
+5
+00:00:24,330 --> 00:00:33,240
+vamos a crear se va a llamar delete proyectes y le vamos a pasar pues élide del proyecto que queramos
+
+6
+00:00:33,240 --> 00:00:40,600
+borrar y le vamos a decir que va a devolver un observable de cualquier tipo y ahora aquí dentro.
+
+7
+00:00:40,860 --> 00:00:45,690
+Básicamente tenemos que pasar de las cabeceras de la misma forma en que hemos hecho antes la variable
+
+8
+00:00:45,810 --> 00:00:55,650
+Gers y ya podemos hacer un RETURN disputo y un bajo HTTP punto delete porque es el método HTTP que nos
+
+9
+00:00:55,650 --> 00:00:56,940
+permite borrar.
+
+10
+00:00:56,970 --> 00:01:03,360
+Vamos a utilizar la web R.L del API de vamos a concatenada el segmento o la ruta exacta en este caso
+
+11
+00:01:03,930 --> 00:01:12,420
+Projet y vamos a concatenar el IDE te preguntará pero si está en la misma web revelé que aquí es la
+
+12
+00:01:12,420 --> 00:01:20,270
+misma ya pero es que el método HTTP diferente el delete que carga otro método del API raramente y le
+
+13
+00:01:20,310 --> 00:01:30,270
+pasamos ya por fin las cabeceras Geddes y cierro por aquí y ya pude utilizar este método en mi componente.
+
+14
+00:01:30,480 --> 00:01:39,840
+Para ello voy a crearme un método por aquí en mi componente que se va a llamar delete Proyect que luego
+
+15
+00:01:39,840 --> 00:01:47,670
+lo llamaremos desde la vista y lo vamos a pasar un IDE vale y aquí vamos a invocar a nuestro método
+
+16
+00:01:47,670 --> 00:01:54,180
+del servicio Poyet Service punto delete Projet y le vamos a pasar como un parámetro de Lire del proyecto
+
+17
+00:01:54,180 --> 00:02:01,350
+que queremos borrar o utilizamos el método suscribes y esto tiene dos funciones del Calvache una Response
+
+18
+00:02:01,830 --> 00:02:04,390
+que puede llegar y otra
+
+19
+00:02:10,170 --> 00:02:10,800
+el error
+
+20
+00:02:15,730 --> 00:02:20,040
+entonces se añade el error pues simplemente lo muestro por la consola
+
+21
+00:02:24,120 --> 00:02:34,760
+Cierco un punto y coma y si me viene la Response en el caso de que me venga Response punto Projet pues
+
+22
+00:02:34,870 --> 00:02:45,380
+voy a hacer una redirección punto guion bajo Rutter punto navigate y crea una redirección a la ruta
+
+23
+00:02:47,710 --> 00:02:53,860
+proyectos de Cerro con punto y coma y listo.
+
+24
+00:02:53,950 --> 00:03:01,420
+Entonces este método lo voy a llamar desde mi componente vale aquí mismo tengo el botón de borrar pues
+
+25
+00:03:01,420 --> 00:03:02,950
+ahora le voy a poner el evento click
+
+26
+00:03:06,370 --> 00:03:19,450
+vale y simplemente llamo a mi método delete delete Prayuth y le paso élide de el proyecto en este caso
+
+27
+00:03:19,450 --> 00:03:26,330
+Projet punto guión bajo y de esta manera si yo hizo la pantalla y quiero borrar este proyecto la idea
+
+28
+00:03:26,340 --> 00:03:31,930
+del clip pam me redirige y se da cuenta me acaba de eliminar el proyecto porque no aparece si quiero
+
+29
+00:03:31,930 --> 00:03:35,060
+borrar este otro lo voy a borrar.
+
+30
+00:03:35,060 --> 00:03:40,410
+Pam me lo borra sin ningún tipo de problema y me redirige vale así de sencillo.

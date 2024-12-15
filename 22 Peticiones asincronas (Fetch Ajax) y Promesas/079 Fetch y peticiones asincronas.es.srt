@@ -1,0 +1,695 @@
+1
+00:00:00,990 --> 00:00:03,940
+Ahora vamos a aprender a trabajar con Fetch fets.
+
+2
+00:00:03,960 --> 00:00:09,600
+Es un método que no permite hacer peticiones Ayax de una manera mucho más simple que como se hacían
+
+3
+00:00:09,600 --> 00:00:18,900
+en JavaScript clásico en JavaScript antiguo una petición Ayax es simplemente una llamada a un servicio
+
+4
+00:00:18,960 --> 00:00:25,710
+Rest o a una Pírez o a un Bakken que nos devuelve un resultado y lo podemos hacer con ese resultado
+
+5
+00:00:25,710 --> 00:00:33,000
+lo que queramos entonces vamos a utilizar ese método fets para hacer parecer peticiones Ayax y conseguir
+
+6
+00:00:33,000 --> 00:00:41,250
+resultados desde un servicio externo o desde una API externa o desde un Baquet de acuerdo ya veremos
+
+7
+00:00:41,250 --> 00:00:48,590
+más adelante con quién y cómo hacer peticiones ayas clásicas que con la libertad que se llegasen normalmente
+
+8
+00:00:49,890 --> 00:00:52,020
+y ahora con los nuevos estándares de JavaScript.
+
+9
+00:00:52,020 --> 00:00:57,960
+Tenemos este nuevo método Fetch bien voy a buscar en Google un servicio que vamos a estro utilizando
+
+10
+00:00:57,960 --> 00:01:01,830
+de prueba que se llama Jayson Pleiss fólder.
+
+11
+00:01:02,160 --> 00:01:11,220
+De acuerdo con este servicio Raudez es una facón API es decir una Pierres full Faig falsa con un lado
+
+12
+00:01:11,220 --> 00:01:20,350
+de prueba vamos a poder Míralos aquí nos pone ejemplos del Fetch nos pone varios ejemplos.
+
+13
+00:01:20,490 --> 00:01:26,830
+Vamos a poder sacar resultado que he guardado en una base de datos de prueba aquí en este servicio.
+
+14
+00:01:26,830 --> 00:01:32,080
+Si yo le doy Arran esto por ejemplo es un objeto Jayson que me está devolviendo un Baque.
+
+15
+00:01:32,080 --> 00:01:37,510
+Vale entonces dejaba el clip yo puedo consultar esos datos y traérselo a mi frontend con JavaScript
+
+16
+00:01:37,510 --> 00:01:42,300
+de acuerdo puedo consumir un servicio que está en la nube una API que está en la nube o que está en
+
+17
+00:01:42,300 --> 00:01:44,800
+la parte de Bakken de un programa.
+
+18
+00:01:45,110 --> 00:01:50,250
+Y luego más adelante también veremos cómo crear uno propio y tal pero de momento vamos a ver cómo utilizar
+
+19
+00:01:50,250 --> 00:01:55,740
+este método Fetch vale para hacer estas pruebas me voy a crear un nuevo archivo aquí en el proyecto
+
+20
+00:01:55,760 --> 00:02:05,880
+ete Hola mundo y me voy a crear un nuevo archivo para hacer la prueba que se va a llamar externo punto
+
+21
+00:02:06,000 --> 00:02:14,050
+HTML o datos externos punto HTML datos guión externo punto HTML.
+
+22
+00:02:14,220 --> 00:02:28,350
+Y aquí voy a cargar una estructura básica de HTML loctite HTML HTML es Cigarrón HTML.
+
+23
+00:02:29,700 --> 00:02:30,690
+Abro el zip
+
+24
+00:02:33,480 --> 00:02:36,990
+cierro Orci y pongo su meta echárselo
+
+25
+00:02:39,570 --> 00:02:41,520
+VF guión 8
+
+26
+00:02:44,980 --> 00:02:48,330
+cierra el meta abro el Twitter
+
+27
+00:02:52,990 --> 00:03:07,790
+y le pongo el título en este caso sería con sumo servicio Rest con Fetch y voy a abrir el body.
+
+28
+00:03:08,740 --> 00:03:19,360
+Voy a abrir la etiqueta Body cierro la etiqueta Body Balet y aquí vamos a poner un anche uno que diga
+
+29
+00:03:19,360 --> 00:03:29,050
+Fetch Fetch que es una manera de hacer peticiones a un Baquet te voy a abrir esa vagina datos guión
+
+30
+00:03:29,050 --> 00:03:36,980
+externos junto a HTML y aquí la tenemos las imágenes que acaban de crear.
+
+31
+00:03:37,180 --> 00:03:47,410
+Ahora voy a crear un nuevo archivo de JavaScript no fichero controlase que se va a llamar XXXVI guión
+
+32
+00:03:47,890 --> 00:03:59,650
+Fetch punto JS guardo y vamos a programar algo que no es lo primero que voy a hacer es indicarle el
+
+33
+00:03:59,650 --> 00:04:00,300
+uso Street
+
+34
+00:04:03,120 --> 00:04:09,320
+y ahora me voy a cargar este archivo en el datos externo de HTML.
+
+35
+00:04:09,450 --> 00:04:20,640
+No voy a cargar al final aquí me hace un script tipo text barra JavaScript indicarle LSC que en este
+
+36
+00:04:20,640 --> 00:04:24,600
+caso es tan J.S. barra 36 y On Fetch
+
+37
+00:04:28,170 --> 00:04:30,130
+JS cierro el script
+
+38
+00:04:34,270 --> 00:04:36,640
+y ya vale ya lo tenemos cargado.
+
+39
+00:04:40,940 --> 00:04:42,390
+Entonces voy a poner una alerta
+
+40
+00:04:45,580 --> 00:04:48,020
+para ver que nos carga correctamente.
+
+41
+00:04:48,050 --> 00:04:54,800
+Entonces Collison y oler que ya te digo que es una birretes con datos de prueba una Pierres ya sabes
+
+42
+00:04:54,800 --> 00:05:00,470
+que es un servicio o un backend que nos devuelve datos en Jayson de acuerdo puedes recibir peticiones
+
+43
+00:05:01,340 --> 00:05:09,910
+peticiones por post put@ Get delete por esos tipos de método HTTP que luego veremos en profundidad y
+
+44
+00:05:09,920 --> 00:05:15,530
+es un servicio que va a recibir un ya no va a recibir una información y nos va a devolver otra información
+
+45
+00:05:15,740 --> 00:05:21,560
+en Jayson de acuerdo y mediante esa birretes Wyse Bakken se van a estar guardando datos en la base de
+
+46
+00:05:21,560 --> 00:05:26,240
+datos y van a estar sacando datos de la base de datos y para eso normalmente se hace una API entonces
+
+47
+00:05:26,240 --> 00:05:28,920
+aquí tenemos una API con un montón de datos de prueba.
+
+48
+00:05:29,060 --> 00:05:37,340
+Por ejemplo aquí fijate que tenemos varios métodos a ver todos los que hoy tenemos métodos para sacar
+
+49
+00:05:37,340 --> 00:05:43,820
+post para sacar el comentario algún foto tarea usuario todos tenemos métodos para todo.
+
+50
+00:05:43,820 --> 00:05:45,720
+En este caso vamos a utilizar de users.
+
+51
+00:05:45,770 --> 00:05:53,150
+Fíjate que si yo le doy click a eso porque me saca una ley de objetos Jayson como hemos visto antes
+
+52
+00:05:53,450 --> 00:05:59,390
+con un montón de propiedades y es una red con un montón de objetos Jayson e incluso con dentro de su
+
+53
+00:05:59,390 --> 00:06:09,470
+propio objeto más objeto de acuerdo como esto y nosotros con esta colección de objetos Jayson podemos
+
+54
+00:06:10,550 --> 00:06:12,050
+hacer lo que queramos de acuerdo.
+
+55
+00:06:12,050 --> 00:06:17,510
+Podemos hacer una petición que nos llega a nuestro Florentín y lista no imitarlo en nuestra página web
+
+56
+00:06:17,510 --> 00:06:18,560
+de manera sencilla.
+
+57
+00:06:18,560 --> 00:06:23,750
+De acuerdo eso lo podemos hacer ahora y es lo que vamos a hacer si te interesa que en tu navegador también
+
+58
+00:06:23,750 --> 00:06:29,000
+se vea los Jayson formateado de esta manera hay una extensión que se llama Jayson View que la puedes
+
+59
+00:06:29,000 --> 00:06:34,490
+instalar en tu navegador y ya se te van a ver los Jayson cuando habrá un Jayson o una wereables que
+
+60
+00:06:34,490 --> 00:06:37,390
+te escupo Yeison ya se te va a formatear de esta manera.
+
+61
+00:06:37,600 --> 00:06:43,070
+Vale pues vamos a utilizar esta R.L para hacer una prueba con el Frech lo que vamos a hacer va a ser
+
+62
+00:06:43,070 --> 00:06:49,520
+un listado de post o un listado de usuario en este caso listado de usuario entonces nuestro HTML vamos
+
+63
+00:06:49,520 --> 00:06:58,280
+a poner aquí listado de usuarios ok y vamos a tener un dip
+
+64
+00:07:01,190 --> 00:07:08,620
+con el ID de usuarios donde se van a cargar todos esos elementos.
+
+65
+00:07:08,720 --> 00:07:17,930
+Aquí dentro de Tedy en el código de JavaScript hemos estado practicando con FETs y peticiones a servicios
+
+66
+00:07:18,910 --> 00:07:22,420
+barra APIs refulge o restã.
+
+67
+00:07:22,430 --> 00:07:31,070
+En este caso esto podría fets es un sustituto del Ayax o básicamente es un método que hace peticiones
+
+68
+00:07:31,160 --> 00:07:37,070
+Ayax peticiones asíncrona a un servidor entonces simplemente lo que vamos a hacer va a ser que nada
+
+69
+00:07:37,070 --> 00:07:43,460
+más cargar la página nadábamos que se cargue esto vamos a hacer una petición Ayax utilizando Fetch a
+
+70
+00:07:43,470 --> 00:07:46,460
+la web R.L de los usuarios para que no lo Liste.
+
+71
+00:07:46,490 --> 00:07:54,920
+Para eso vamos a utilizar el método fetch y este método Fetch recibe una u R.L tal cual está por ejemplo
+
+72
+00:07:55,340 --> 00:08:02,270
+una wereables que ocupa un Jayson le bajamos la web por aquí como primer parámetro y esto es una promesa.
+
+73
+00:08:02,270 --> 00:08:09,120
+Con lo cual en la promesa tenemos el método del vale y en el método de lo que hacemos es recoger datos.
+
+74
+00:08:09,120 --> 00:08:16,190
+Vale tenemos un primer método del que tiene una función de Calvache que se va a llamar data y esta función
+
+75
+00:08:16,190 --> 00:08:24,380
+de Calvache va a recibir ese parámetro data y lo va a convertir Allyson vale tenemos un método para
+
+76
+00:08:24,380 --> 00:08:31,550
+convertir un objeto que nos llega Allyson directamente a un javascript usa un objeto de JavaScript usable.
+
+77
+00:08:31,760 --> 00:08:39,620
+Luego podemos volver a ejecutarle y recoger la data de nuevo y tenemos una función de Calvache.
+
+78
+00:08:39,620 --> 00:08:46,660
+De igual forma y aquí vamos a recoger data que dentro de Data están los usuarios.
+
+79
+00:08:46,850 --> 00:08:55,520
+Aquí podríamos crear una variable usuarios que va a venir vacía o podríamos inicializar la que fuera
+
+80
+00:08:55,530 --> 00:08:59,010
+un array y aquí simplemente vamos a recoger los datos.
+
+81
+00:08:59,060 --> 00:09:08,510
+En este caso usuarios base de Iguala data que más de la raíz de todos los usuarios del objeto vale.
+
+82
+00:09:08,510 --> 00:09:18,320
+Y si hiciéramos un consuelo con su punto lo de los usuarios vamos a ver lo que nos devuelve y vamos
+
+83
+00:09:18,320 --> 00:09:23,800
+a analizar esto en la consola donde hicimos la pantalla y me dice failed no se que no se cuanta cuánta
+
+84
+00:09:24,080 --> 00:09:27,670
+no tienes permiso para acceder a esta cuenta.
+
+85
+00:09:28,010 --> 00:09:38,450
+Si nos vamos a network vemos que tenemos una petición de tipo Fetch por aquí vale que si nos damos cuenta
+
+86
+00:09:38,600 --> 00:09:50,410
+vamos a hacer esto un poco más grande si podemos bueno si nos damos cuenta esta petición lo que tenemos
+
+87
+00:09:51,100 --> 00:09:56,750
+es una raíz de objetos completo con todos los elementos fíjate aquí lo tenemos.
+
+88
+00:09:56,800 --> 00:10:05,700
+Qué pasa que por aquí no nos deja mostrarlo pero realmente en la petición ya que estamos haciendo sí
+
+89
+00:10:05,710 --> 00:10:08,050
+que tenemos todo ese Arráiz de objetos de usuarios
+
+90
+00:10:11,910 --> 00:10:16,320
+entonces este problema del coche es algo que hay que solucionar a nivel de Baquet casi siempre vamos
+
+91
+00:10:16,320 --> 00:10:25,440
+a buscar otras birretes online hay una que se llama RedQ res in exactamente y con esto también podemos
+
+92
+00:10:25,440 --> 00:10:34,050
+hacer lo mismo es decir yo puedo copiar la la pega por aquí y esto nos va a devolver un Jayson vale.
+
+93
+00:10:34,570 --> 00:10:38,850
+Si yo utilizo por ejemplo para sacar los usuarios esto este método
+
+94
+00:10:41,670 --> 00:10:42,710
+yo lo utilizo por aquí
+
+95
+00:10:49,060 --> 00:10:57,250
+efectivamente aquí me saca los datos los datos del Jayson y de los usuarios en donde yo podría utilizar
+
+96
+00:10:59,220 --> 00:10:59,720
+esto.
+
+97
+00:10:59,740 --> 00:11:00,400
+Incluso
+
+98
+00:11:03,270 --> 00:11:09,560
+el método podría utilizarlo tal cual está u R.L y esto RLM devuelve Huneeus o no entonces lo que hay
+
+99
+00:11:09,560 --> 00:11:14,160
+que hacer es capturar Jayson igual que lo estoy haciendo aquí y quiero ver que hay dentro de usuarios
+
+100
+00:11:14,220 --> 00:11:19,740
+voy a actualizarlo pantalla y efectivamente aquí si que me deja porque va a estar correctamente configurado
+
+101
+00:11:19,740 --> 00:11:27,450
+para dejar permiso hacer peticiones a origen desconocido de acuerdo a eso se configura a nivel de Bakken
+
+102
+00:11:27,480 --> 00:11:29,430
+y eso lo vamos a ver luego posteriormente
+
+103
+00:11:32,010 --> 00:11:37,710
+para permitir el acceso a todos que todo el mundo pueda hacer peticiones al API o solamente desde un
+
+104
+00:11:37,710 --> 00:11:43,980
+origen desde una wereables concreta se pueden hacer peticiones entonces en el otro en el otro servicio
+
+105
+00:11:44,340 --> 00:11:50,430
+online que hemos visto en el Jayson Play Holder no dejaba porque realmente no tenía configurado para
+
+106
+00:11:50,430 --> 00:11:56,100
+que cualquiera pudiera hacer peticiones Ayax pero con este si con este si que nos deja asi que ya tenemos
+
+107
+00:11:56,100 --> 00:11:56,800
+aquí los datos.
+
+108
+00:11:56,820 --> 00:12:04,450
+No es decir lo primero que hacemos la promesa es capturar los datos el dato vale lo convertimos Allyson
+
+109
+00:12:04,450 --> 00:12:10,920
+a un objeto de JavaScript y después en la segunda ya tenemos la variable data todos esos datos recogidos
+
+110
+00:12:11,120 --> 00:12:13,510
+y ya dentro de la variable usuario lo guardamos.
+
+111
+00:12:13,620 --> 00:12:15,300
+Qué quiero guardar dentro de usuario.
+
+112
+00:12:15,310 --> 00:12:19,920
+Pues no me interesa guardar el tema de las páginas simplemente me interesa guardar data que es una raíz
+
+113
+00:12:19,950 --> 00:12:20,770
+de usuarios.
+
+114
+00:12:20,780 --> 00:12:28,080
+Entonces voy a guardar data e incluso esto lo podríamos decir le podemos decir que sería users y esto
+
+115
+00:12:28,080 --> 00:12:31,410
+sería users punto data.
+
+116
+00:12:31,500 --> 00:12:37,590
+De esta manera yo voy a tener una radio jeto con los usuarios efectivamente ya lo que nos quedaría sería
+
+117
+00:12:37,590 --> 00:12:43,560
+listar esos usuarios aquí de acuerdo que se lo vamos a hacer ahora utilizando el Idom como ya hemos
+
+118
+00:12:43,560 --> 00:12:49,890
+visto en otras ocasiones entonces este método Fetch lo que hace es acceder a unos datos remotos de acuerdo
+
+119
+00:12:49,890 --> 00:12:52,840
+a un servicio remoto hace la petición.
+
+120
+00:12:53,060 --> 00:13:00,510
+Entonces se queda a la espera de que cuando recibamos esos datos de acuerdo cuando recibamos esos datos
+
+121
+00:13:00,540 --> 00:13:06,090
+los convirtamos a Jayson lo forma tenemos Allyson esta función de flecha automáticamente ya te hace
+
+122
+00:13:06,090 --> 00:13:06,660
+el return.
+
+123
+00:13:06,690 --> 00:13:09,260
+Pero esto sería lo mismo que hacerla.
+
+124
+00:13:09,300 --> 00:13:10,020
+De esta manera
+
+125
+00:13:17,260 --> 00:13:20,130
+returned sería exactamente lo mismo.
+
+126
+00:13:20,350 --> 00:13:25,860
+Vale incluso sería lo mismo que hacer function data Itá.
+
+127
+00:13:25,930 --> 00:13:30,890
+No sería exactamente lo mismo que hacer una función de carga normal.
+
+128
+00:13:30,940 --> 00:13:38,500
+De igual forma me devuelve los datos pero de esta manera es mucho más rápido porque ya no te vuelvo
+
+129
+00:13:38,500 --> 00:13:44,290
+automáticamente esta información y escribo escribo un menú y una vez que ya tenemos esto formateado
+
+130
+00:13:44,500 --> 00:13:47,670
+al hacer Return esto se queda a la espera de otro hotel.
+
+131
+00:13:47,830 --> 00:13:52,540
+La promesa se queda a la espera de otro de cuando ya tengamos esa información formateada la capturamos
+
+132
+00:13:52,540 --> 00:13:57,560
+por aquí y ya hacemos lo que queramos con ella la mostramos o hacemos lo que queramos.
+
+133
+00:13:57,560 --> 00:14:03,760
+Vale entonces para mostrar esta información de los usuarios en la página aparte del consolón lo que
+
+134
+00:14:03,760 --> 00:14:06,320
+podemos hacer es utilizar la función.
+
+135
+00:14:06,580 --> 00:14:10,560
+For its o utiliza la función Map que es lo mismo que el.
+
+136
+00:14:10,660 --> 00:14:14,230
+De acuerdo podemos hacer lo siguiente usuarios punto Map
+
+137
+00:14:16,990 --> 00:14:27,880
+recogemos en una función de Calvache como parámetro le pasamos los users y le pasamos el índice de acuerdo
+
+138
+00:14:27,880 --> 00:14:32,940
+el índice del usuario o el índice del elemento de la red.
+
+139
+00:14:33,080 --> 00:14:43,330
+Vale entonces ahora lo que podemos hacer sería mostrar todos los datos del usuario en este caso el avatar
+
+140
+00:14:44,570 --> 00:14:52,270
+nombre y los apellidos no nombre que se iguala.
+
+141
+00:14:52,280 --> 00:14:54,280
+Document to create Element
+
+142
+00:14:57,430 --> 00:15:11,350
+H2 Valente puedo hacer nombre Taine HTML HTML y le clavo dentro el índice y luego un Cantellano también
+
+143
+00:15:11,860 --> 00:15:14,920
+el nombre.
+
+144
+00:15:14,920 --> 00:15:17,530
+En este caso el users
+
+145
+00:15:19,990 --> 00:15:20,710
+punto
+
+146
+00:15:23,930 --> 00:15:25,600
+Name y Suriname.
+
+147
+00:15:25,690 --> 00:15:33,170
+En este caso Fresnel y las Nein en este caso como en cada iteración tendremos una variable individual
+
+148
+00:15:33,170 --> 00:15:38,120
+que sería Ussher con cada Hin con cada elemento del array pues simplemente le vamos a cambiar el nombre
+
+149
+00:15:38,120 --> 00:15:38,500
+a.
+
+150
+00:15:38,540 --> 00:15:43,190
+No sería plural sería singular aquí puede encadenamos también nuevo apellido.
+
+151
+00:15:43,580 --> 00:15:53,300
+Este sería el First Nein y luego tenemos el last night last night cierro con puntico guardo actualizo
+
+152
+00:15:53,300 --> 00:16:03,890
+la pantalla y ahora simplemente podríamos acceder a nuestro Dev de usuarios que desde aquí voy a capturarlo
+
+153
+00:16:03,900 --> 00:16:12,420
+por aquí fuera a seleccionarlo bar de usuarios
+
+154
+00:16:14,960 --> 00:16:19,230
+que utiliza el cual hice lectorado con el punto quali selector
+
+155
+00:16:21,740 --> 00:16:31,890
+vale utilizo el almohadilla usuarios y aquí dentro de algún APEN del H2S con el nombre hago de usuarios
+
+156
+00:16:31,910 --> 00:16:35,360
+junto a APEN Child
+
+157
+00:16:38,070 --> 00:16:43,230
+nombre Orgón punto y com guardo actualizo la pantalla.
+
+158
+00:16:43,240 --> 00:16:49,950
+Y aquí me aparecen mis usuarios listados de acuerdo podría incluso hacer que esto fuera un H 3 y aquí
+
+159
+00:16:49,950 --> 00:17:00,390
+concatenar también un espacio o un punto incluso vale actualizo la pantalla y aquí me aparecen mis usuario
+
+160
+00:17:00,480 --> 00:17:04,240
+listados de donde salen estos usuarios de un servicio.
+
+161
+00:17:04,560 --> 00:17:14,790
+Si te das cuenta tarda en hacer la petición Ayax un milisegundo de acuerdo fíjate que tarda el tiempo
+
+162
+00:17:14,850 --> 00:17:22,260
+247 milisegundos tarda en hacer la medición Ayax al backend de acuerdo al servicio.
+
+163
+00:17:22,290 --> 00:17:28,800
+Entonces ese tiempo se queda como la pantalla en blanco vale mientras tanto ahí podríamos poner un cargando
+
+164
+00:17:28,800 --> 00:17:36,660
+en el dip cargando vale podríamos poner esto Qué pasa que se actualiza la pantalla me aparece el cargando
+
+165
+00:17:36,660 --> 00:17:40,230
+siempre entonces el cargándolo podrían meter dentro de un ASPAN
+
+166
+00:17:44,570 --> 00:17:45,680
+con una clase
+
+167
+00:17:49,200 --> 00:17:57,720
+que fuera lo Adil y luego puedo seleccionar esa clase y ocultarla de acuerdo una vez que tenga ya los
+
+168
+00:17:57,720 --> 00:17:59,480
+datos y lo tenga todo cargado.
+
+169
+00:17:59,520 --> 00:18:06,090
+Una vez que yo llegue aquí podré hacer Documet punto Cury selector seleccionar esa clase
+
+170
+00:18:09,070 --> 00:18:21,560
+la clase punto loading y hacerle un display de acuerdo podré hacer esta elpunto display igual no de
+
+171
+00:18:21,560 --> 00:18:31,820
+esa manera pues una vez que se cargan los datos ves desaparece el cargando vale con lo cual ya tenemos
+
+172
+00:18:32,420 --> 00:18:38,540
+nuestro ejemplo de cómo utilizar el fets cómo hacer peticiones allá utilizando el método a un Bakken
+
+173
+00:18:38,810 --> 00:18:44,420
+y luego ya veremos estas cosas desarrolladas en profundidad tanto cuando veamos Kairi como cuando veamos
+
+174
+00:18:44,510 --> 00:18:44,960
+angular.

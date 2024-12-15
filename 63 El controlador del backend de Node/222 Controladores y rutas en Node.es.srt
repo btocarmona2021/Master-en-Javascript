@@ -1,0 +1,351 @@
+1
+00:00:00,440 --> 00:00:06,930
+Me voy a cerrar algunos archivos que tengo por aquí que no vamos a usar el PJ ese sí que lo vamos a
+
+2
+00:00:06,930 --> 00:00:08,580
+usar próximamente.
+
+3
+00:00:08,580 --> 00:00:16,140
+Y ahora vamos a crear los controladores vamos a crear una carpeta folder llamada controllers y aquí
+
+4
+00:00:16,140 --> 00:00:23,600
+dentro voy a crearme un nuevo controlador ni un fail controles se va a llamar Projet apuntó J.S.
+
+5
+00:00:23,640 --> 00:00:27,450
+Vale que va a ser el controlador de los proyectos.
+
+6
+00:00:27,660 --> 00:00:33,060
+Simplemente un controlador va a ser una especie de clase que va a tener una serie de métodos o de acciones
+
+7
+00:00:33,210 --> 00:00:38,520
+que va a poder hacer relacionados con la entidad de proyectos así que lo primero que voy a poner va
+
+8
+00:00:38,520 --> 00:00:47,100
+a ser Street para activar el modo estricto y tenemos varias formas de hacer el código podríamos hacerlo
+
+9
+00:00:47,190 --> 00:00:53,690
+en un objeto Jayson directamente o podríamos crear funciones separadas y luego devolver un objeto Jayson
+
+10
+00:00:53,850 --> 00:00:56,110
+como tú quieras vale.
+
+11
+00:00:56,490 --> 00:01:03,130
+Cuando me refiero a devolver un objeto Yeison me refiero a crear una variable que se llama controles
+
+12
+00:01:03,210 --> 00:01:13,830
+por ejemplo y aquí hacer un objeto Yeison vale y crear propiedades por cada por cada método que yo vaya
+
+13
+00:01:13,830 --> 00:01:14,130
+a tener.
+
+14
+00:01:14,130 --> 00:01:25,680
+Por ejemplo el método Jonh que será una función y aquí yo hago una lógica vale y luego tener otro método
+
+15
+00:01:25,680 --> 00:01:35,070
+que sea test que yo hago otra lógica y devuelvo algún tipo de información y luego simplemente para devolver
+
+16
+00:01:35,070 --> 00:01:45,510
+esos métodos pues algún Module punto Export pide vuelvo controlar simplemente esto se puede hacer perfectamente
+
+17
+00:01:45,510 --> 00:01:52,480
+así vale y está muy bien y está muy limpio hacemos una especie de clase con un objeto Yeison y funciona
+
+18
+00:01:52,480 --> 00:01:55,290
+perfectamente.
+
+19
+00:01:55,380 --> 00:02:00,990
+También podrían utilizar las clases de la matriz 6 pero realmente dentro de DJs pues no es tan necesario
+
+20
+00:02:00,990 --> 00:02:06,150
+porque ya tenemos el requires ya tenemos el tema de los módulos y de esta manera se hace se hace bastante
+
+21
+00:02:06,150 --> 00:02:14,700
+bien y es suficiente bien entonces vamos a quitar estas rutas que hemos creado aquí vamos a quitar estas
+
+22
+00:02:14,700 --> 00:02:20,010
+rutas porque ya no nos van a hacer falta y vamos a crear un método de prueba vamos a tener un método
+
+23
+00:02:20,340 --> 00:02:28,760
+que va a recibir una red y una red Baley simplemente va a responder va a hacer returned resultó estátus
+
+24
+00:02:30,640 --> 00:02:37,530
+200 puntos y voy a enviar la respuesta.
+
+25
+00:02:37,530 --> 00:02:38,760
+Voy a hacer Message
+
+26
+00:02:43,040 --> 00:02:55,570
+y voy a devolver pues soy la John vale y lo mismo voy a hacer con el otro método de RedQ redes reciben
+
+27
+00:02:55,640 --> 00:03:00,560
+un parámetro récord para recibir los datos que enviemos por correo o lo que sea y redes para hacer la
+
+28
+00:03:00,560 --> 00:03:11,860
+respuesta return res punto estátus devuelve un código 200 agudicen para hacer la respuesta finalmente
+
+29
+00:03:12,790 --> 00:03:28,670
+y también envió un mensaje que diga Soy el método o acción texto del controlador de proyecto perfecto
+
+30
+00:03:28,680 --> 00:03:34,490
+ya tengo mi método yo hago lo que tengo que hacer es devolver el objeto controller por aquí hago un
+
+31
+00:03:34,490 --> 00:03:39,410
+módulo Esport y ya puedo utilizar este controlador ya puedo utilizarlo un método de este controlador
+
+32
+00:03:39,530 --> 00:03:45,350
+fuera de este archivo es decir que ahora si yo lo importo con un requires en otra parte me va a funcionar
+
+33
+00:03:45,920 --> 00:03:47,290
+bien hasta aquí todo correcto.
+
+34
+00:03:47,300 --> 00:03:53,330
+Yo tengo esto pero ahora cómo creó una ruta directamente como había hecho yo anteriormente en mi archivo
+
+35
+00:03:53,950 --> 00:03:56,200
+Apep cómo creo yo esta ruta.
+
+36
+00:03:56,300 --> 00:04:00,550
+Lo más recomendable es crear un fichero de rutas por cada uno de los controladores.
+
+37
+00:04:00,560 --> 00:04:08,840
+Para eso me creó una nueva carpeta que se llame Routes y ahí dentro voy a crearme un fichero que se
+
+38
+00:04:08,840 --> 00:04:10,210
+va a llamar también Projet
+
+39
+00:04:13,400 --> 00:04:20,300
+Projet apuntó J.S. Y este fichero va a ser el fichero de configuración de las rutas del controlador
+
+40
+00:04:20,340 --> 00:04:27,710
+Projet vale así que pongo Street para activar el modo de triturar nuevas características de JavaScript
+
+41
+00:04:27,710 --> 00:04:28,790
+etcétera.
+
+42
+00:04:28,890 --> 00:04:36,600
+Crearme una variable expres donde voy a cargar el módulo de expres el objeto de expres quiere expres.
+
+43
+00:04:36,680 --> 00:04:39,880
+Ahora ya puedo crear mi ruta mis propias rutas con expres.
+
+44
+00:04:39,920 --> 00:04:45,830
+Ahora voy a crear una variable que se va a llamar Proyect controller donde voy a cargar mi controlador.
+
+45
+00:04:45,830 --> 00:04:51,890
+Para eso hago requires y como le he hecho un módulo Esport yo puedo utilizarlo aquí puedo hacer punto
+
+46
+00:04:51,890 --> 00:04:54,320
+a punto para salir del directorio routes.
+
+47
+00:04:54,390 --> 00:05:02,000
+Vale ahora pongo controles para acceder a la carpeta de controladores y utilizo el fichero proyecto
+
+48
+00:05:03,320 --> 00:05:08,780
+de esa manera la variable que estoy exportando que es controlo y que todo el objeto con todos los métodos
+
+49
+00:05:08,780 --> 00:05:12,040
+que tiene lo voy a importar y utilizar.
+
+50
+00:05:12,080 --> 00:05:17,930
+Y ahora voy a crear una variable llamada API donde voy a cargar el router o directamente le voy a llamar
+
+51
+00:05:18,020 --> 00:05:28,490
+router a mi variable y aquí voy a cargar el router expres punto router cargo ese objeto o ese servicio
+
+52
+00:05:28,490 --> 00:05:31,980
+de la ruta que tiene un montón de métodos para acceder a ellas.
+
+53
+00:05:32,780 --> 00:05:40,160
+Ahora utilizo Rutter punto G.T y voy a crear una ruta porque en este caso va a ser la madre.
+
+54
+00:05:40,220 --> 00:05:46,880
+Y aquí vuelve a decir user de aquí le voy a decir el Controller que utilice el objeto del controlador
+
+55
+00:05:47,270 --> 00:05:54,330
+que utilice el objeto de control y accedo al método John que es el método que yo he creado por aquí.
+
+56
+00:05:55,100 --> 00:06:03,500
+Directamente accedo a ese método y ahora me voy a crear otra ruta Rutter untó también Outpost en este
+
+57
+00:06:03,500 --> 00:06:14,260
+caso que va a ser la ruta text vale y va a ser una ruta que va a cargar el método del controlador Poyet
+
+58
+00:06:14,430 --> 00:06:17,820
+controller llamado test cierre con punto y coma.
+
+59
+00:06:18,100 --> 00:06:27,410
+Y ahora simplemente un Module punto Esport acabado en S y le doy el valor del router.
+
+60
+00:06:27,410 --> 00:06:33,110
+Vale ya puedo utilizar la variable Rutter con toda la configuración de rutas fuera de aquí vale y ahora
+
+61
+00:06:33,170 --> 00:06:37,070
+importantisimo cargar esta configuración de ruta en el Abbe pjs.
+
+62
+00:06:37,220 --> 00:06:47,390
+Vale aquí voy a cargar el archivo de rutas Baur proyecto Brutes y cargo mi archivo de rutas que está
+
+63
+00:06:47,450 --> 00:06:52,620
+en el directorio actual en la carpeta Brutes y el archivo explayar.
+
+64
+00:06:53,060 --> 00:07:01,970
+Vale de esta manera yo cargo mi archivo de rutas y ya tengo disponible el objeto y ahora voy a cargar
+
+65
+00:07:01,970 --> 00:07:08,390
+lo que viene siendo la ruta del Wer o voy a sobreescribir esa ruta para que realmente me la cargue dentro
+
+66
+00:07:08,390 --> 00:07:17,060
+de Pepe a Pepe punto use vale para quedar en mi web y ahora le voy a añadir a esas rutas que he creado
+
+67
+00:07:17,060 --> 00:07:21,620
+ya un trozo delante un segmento grande que va a ser happy.
+
+68
+00:07:21,660 --> 00:07:30,830
+Vale entonces todas las rutas van a ser barra Happy barra va Rajon barra Happy Barrantes no voy a cargar
+
+69
+00:07:30,950 --> 00:07:39,110
+las rutas que yo le estoy indicando por aquí que son Poyet rutas si yo simplemente quisiera cargar las
+
+70
+00:07:39,110 --> 00:07:44,120
+rutas y no quisiera añadirle nada ni sobrescribir esa RL pues simplemente lo dejo así.
+
+71
+00:07:44,330 --> 00:07:44,630
+Vale.
+
+72
+00:07:44,920 --> 00:07:52,430
+Y si lo dejo así y lo pruebo en mi Postman yo puedo hacer una petición al test vale y me dice que no
+
+73
+00:07:52,430 --> 00:08:01,040
+existe pero si hago una petición simple ahora sí me devuelve y el método de acción del controlador vale
+
+74
+00:08:01,250 --> 00:08:05,380
+pero si yo quiero sobreescribir esa ruta para que tenga un segmento delante.
+
+75
+00:08:05,390 --> 00:08:10,830
+Vale no simplemente cargar la ruta la ruta que ya tengo configurada aquí y quiero ponerle delante a
+
+76
+00:08:10,830 --> 00:08:13,880
+pie o ante cualquier cosa lo hago de esta manera.
+
+77
+00:08:13,880 --> 00:08:19,520
+Y ahora esta ruta no va a existir pero sí que va a existir el método barra Capi barra test.
+
+78
+00:08:19,520 --> 00:08:25,400
+Vale que lo tengo en mi controlador de Prayuth vale y luego también existirá el método
+
+79
+00:08:28,650 --> 00:08:37,350
+que en este caso no es por pods es por Goeth y también me saca soy Lajous con lo cual ya tengo mi controlador
+
+80
+00:08:37,350 --> 00:08:44,310
+hecho de una manera muy elegante y ya tengo mi configuración de rutas hecha y ya tengo la configuración
+
+81
+00:08:44,700 --> 00:08:52,500
+de las rutas cargada en mi aplicación principal en AVE p.ej. ese y ya no funciona en la siguiente clase
+
+82
+00:08:52,500 --> 00:08:57,660
+vamos a empezar a hacer los diferentes métodos que va a tener nuestro controlador de proyecto vamos
+
+83
+00:08:57,660 --> 00:09:00,040
+a tener un método para añadir proyectos.
+
+84
+00:09:00,210 --> 00:09:02,060
+Otro método para listar proyectos.
+
+85
+00:09:02,070 --> 00:09:06,050
+Otro método para sacar el detalle de un proyecto.
+
+86
+00:09:06,090 --> 00:09:10,780
+Otro método para actualizar proyectos y otro método para eliminar proyectos.
+
+87
+00:09:11,280 --> 00:09:17,190
+Y también veremos como subir archivos y todo ese tipo de cosa y lo iremos viendo poco a poco a lo largo
+
+88
+00:09:17,190 --> 00:09:18,330
+de esta sección del curso.

@@ -1,0 +1,251 @@
+1
+00:00:01,140 --> 00:00:07,140
+Vamos a hacer otro ejemplo con otro tipo de parámetros pero para eso vamos a hacer un ejemplo en otro
+
+2
+00:00:07,140 --> 00:00:20,790
+archivo vamos a crear un nuevo archivo controlase el archivo va a ser el 20 parãmetros 2.La ese bien.
+
+3
+00:00:22,660 --> 00:00:30,360
+Bueno en este caso se parametro dos bien pues lo vamos a importar cualquier archivo.
+
+4
+00:00:30,630 --> 00:00:31,790
+Vamos a cargar el script
+
+5
+00:00:35,920 --> 00:00:39,230
+aquí número 20 parámetros dos
+
+6
+00:00:42,920 --> 00:00:44,890
+bien vamos a hacer un street
+
+7
+00:00:48,190 --> 00:00:58,580
+y vamos a trabajar con los parámetros del resto los parámetros de resto y Esprit.
+
+8
+00:00:59,870 --> 00:01:02,780
+Vale vamos a trabajar con este tipo de parámetros.
+
+9
+00:01:02,800 --> 00:01:12,700
+Vamos a ver cómo funciona vale imagínate que tenemos una función función que se va a llamar listado
+
+10
+00:01:13,840 --> 00:01:26,680
+frutas por ejemplo y va a recibir un parámetro 1 fruta 1 frutados va a recibir 2 parámetros y simplemente
+
+11
+00:01:26,680 --> 00:01:31,420
+lo que va a hacer esta función es devolver un consolé log
+
+12
+00:01:34,300 --> 00:01:37,950
+con la primera fruta.
+
+13
+00:01:38,410 --> 00:01:39,660
+Vamos a poner Fruta 1
+
+14
+00:01:42,960 --> 00:01:54,270
+que va a ser fruta uno y luego pues el segundo parámetro también lo vamos a estar mostrando frutados
+
+15
+00:01:55,010 --> 00:01:59,910
+y por aquí también vale vamos a estar mostrando lo que le pasemos a la función de forma que si le invocamos
+
+16
+00:02:01,710 --> 00:02:08,040
+listado de frutas y le pasamos los dos valores los dos parámetros en este caso la naranja esto sería
+
+17
+00:02:08,130 --> 00:02:16,800
+una estrella así que pasarselo entrecomillas naranja y otro parámetro que sería Manzano no haber ningún
+
+18
+00:02:16,800 --> 00:02:17,690
+tipo de problema.
+
+19
+00:02:17,730 --> 00:02:22,290
+Y si yo actualizo la pantalla me muestra la fruta la naranja y la fruta con la manzana.
+
+20
+00:02:22,830 --> 00:02:30,060
+Pero qué pasa si yo le quiero pasar una serie de parámetros que son indefinidos por ejemplo sandía
+
+21
+00:02:33,120 --> 00:02:33,690
+pera
+
+22
+00:02:37,410 --> 00:02:45,480
+o cualquier otra cosa melón coco por ejemplo quiero hacer esto.
+
+23
+00:02:45,510 --> 00:02:47,970
+Pues si autoriza la pantalla no va a pasar nada.
+
+24
+00:02:48,010 --> 00:02:54,990
+Realmente me debería escupir un error porque realmente parametro no van a ninguna parte porque yo no
+
+25
+00:02:54,990 --> 00:03:00,600
+lo estoy recogiendo pero imagínate que este número de parámetro indefinido y yo no sé cuánto me van
+
+26
+00:03:00,600 --> 00:03:02,490
+a llegar cuantos parámetros me van a llegar.
+
+27
+00:03:02,490 --> 00:03:05,730
+No se suele dar el caso de que eso sea así pero puede pasar.
+
+28
+00:03:05,740 --> 00:03:14,220
+Pues para eso existen los parámetros red que poniendole 3 puntos delante a este parámetro de acuerdo
+
+29
+00:03:16,410 --> 00:03:24,030
+a este parámetro que se va a llamar todas las frutas o el resto de frutas.
+
+30
+00:03:24,030 --> 00:03:26,700
+Resto de frutas.
+
+31
+00:03:26,700 --> 00:03:28,840
+Este parámetro se vuelve más resto de frutas.
+
+32
+00:03:29,130 --> 00:03:38,460
+Pues sí yo lo utilizo así si lo utilizo normal simplemente consolé punto lo resto de frutas lo que va
+
+33
+00:03:38,460 --> 00:03:42,960
+a llevar dentro va a ser sandía si lo utilizo normal va a llevar dentro sandía.
+
+34
+00:03:42,960 --> 00:03:51,030
+Efectivamente pero si yo lo utilizo contra el punto delante me va a meter todos los valores de acuerdo
+
+35
+00:03:51,030 --> 00:03:56,280
+todos los valores que yo lo estoy pasando dentro de una raíz que una raya es una colección de valores
+
+36
+00:03:56,700 --> 00:04:01,990
+de acuerdo ordenado en un índice de cero cero hacia arriba.
+
+37
+00:04:02,220 --> 00:04:06,270
+Entonces el resto de esos parámetros me lo guarda en una raíz que yo puedo hacer con ese arreglo que
+
+38
+00:04:06,270 --> 00:04:08,200
+me dé la gana.
+
+39
+00:04:08,280 --> 00:04:15,150
+De esta manera se pueden capturar un número indefinido de parámetros sin yo saber cuánto me van a llegar
+
+40
+00:04:15,150 --> 00:04:19,200
+ni nada simplemente cuando se le pasan.
+
+41
+00:04:19,200 --> 00:04:26,710
+Pues en esta en este parámetro de tipo res se capturan todo eso y se guarda cada uno de esos valores
+
+42
+00:04:27,010 --> 00:04:35,140
+dentro de una raíz o un arreglo o una lista una colección de valores no perfecto.
+
+43
+00:04:35,160 --> 00:04:41,290
+Estos serían los parámetros de tipo reset y luego tendríamos otro de otra serie de parámetros que yo
+
+44
+00:04:41,290 --> 00:04:48,190
+puedo pasar que al igual que estoy haciendo el listado de fruta voy a hacer la misma llamada
+
+45
+00:04:51,160 --> 00:04:53,040
+pero voy a crearme una raíz.
+
+46
+00:04:53,050 --> 00:05:00,040
+Esto lo veremos luego lo que es una raya en profundidad ya que en algunas frutas la raíz se queda con
+
+47
+00:05:00,040 --> 00:05:08,740
+los corchetes y yo voy metiendo valores y simplemente en una colección de valores malevos por ejemplo
+
+48
+00:05:08,740 --> 00:05:15,700
+Wooten en la naranja vamos a copiar esto de naranja y manzanas que van a ser los dos parámetros iniciales
+
+49
+00:05:16,000 --> 00:05:26,680
+yo puedo hacer esto vale y puedo pasarle fruta vale y si le pongo los tres puntos delante así lo dejo
+
+50
+00:05:26,680 --> 00:05:27,730
+normal.
+
+51
+00:05:27,730 --> 00:05:31,430
+Esto no va a hacer realmente no va a hacer nada si le paso frutas.
+
+52
+00:05:31,420 --> 00:05:38,470
+La variable Flute frutas lo que va a hacer es coger frutas y lo va a interpretar como que el parámetro
+
+53
+00:05:38,470 --> 00:05:48,490
+1 me lo va a devolver por aquí vamos a verlo efectivamente en Fruta 1 yo tengo una raï con dos elementos
+
+54
+00:05:48,940 --> 00:05:51,090
+una colección de un par de elemento.
+
+55
+00:05:51,280 --> 00:05:56,860
+Vale pero si yo quiero que esto lo interprete como que esto es el parámetro 1 y es el parámetro 2 es
+
+56
+00:05:56,860 --> 00:06:01,860
+decir que haga un esprit de parámetro pues yo tengo que poner delante los tres puntos.
+
+57
+00:06:02,020 --> 00:06:08,470
+Si hago esto autorizo la pantalla y efectivamente la fruta 1 la naranja la fruta 2 en la manzana y el
+
+58
+00:06:08,470 --> 00:06:14,560
+resto en el resto al igual que hemos hecho en la primera invocación es decir hacer esto y hacer esto
+
+59
+00:06:14,650 --> 00:06:16,650
+es exactamente lo mismo.
+
+60
+00:06:16,690 --> 00:06:22,150
+Yo puedo tener una colección de elementos una colección de un listado de elementos dentro de un array
+
+61
+00:06:22,270 --> 00:06:29,050
+y suelo como parámetro de tipo Esprit y esto ya lo va a interpretar el método como que son cada uno
+
+62
+00:06:29,050 --> 00:06:35,010
+de estos índice en el orden que sigue pues sigue el orden que tienen los parámetros de la función definida.
+
+63
+00:06:35,020 --> 00:06:38,200
+Así que esto es otra cosa interesante acerca de las funciones.

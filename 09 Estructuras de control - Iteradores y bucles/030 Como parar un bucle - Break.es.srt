@@ -1,0 +1,35 @@
+1
+00:00:01,130 --> 00:00:05,850
+Bien ahora vamos a aprender a utilizar el break el break dentro de un bucle nos permite salir de la
+
+2
+00:00:05,850 --> 00:00:11,280
+estructura de control y dejar de ejecutar el bucle y que no se hagan más iteraciones de forma que si
+
+3
+00:00:11,510 --> 00:00:23,340
+que unir y quiero comprobar o quiero que en el año 2000 cuando el año sea igual 2000 a 2000 el bucle
+
+4
+00:00:23,340 --> 00:00:24,520
+ya deje de ejecutarse.
+
+5
+00:00:24,520 --> 00:00:30,420
+Pues podría hacer aquí un break y de esa manera se van a mostrar hasta el año 2000 de 2018 2000 los
+
+6
+00:00:30,430 --> 00:00:33,810
+números vamos a abrir la herramienta de desarrolladores.
+
+7
+00:00:34,610 --> 00:00:42,990
+Entonces si actualizo la página efectivamente me muestra hasta el 2000 porque en el valor 2000 cuando
+
+8
+00:00:43,010 --> 00:00:50,220
+ya tiene valor de 2000 aquí estamos haciendo un break vale con que te quedes con el Black cortá la ejecución
+
+9
+00:00:50,220 --> 00:00:51,920
+del bucle ya no sirve.

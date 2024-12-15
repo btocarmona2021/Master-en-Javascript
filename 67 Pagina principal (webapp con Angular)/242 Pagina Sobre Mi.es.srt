@@ -1,0 +1,347 @@
+1
+00:00:01,530 --> 00:00:07,070
+Ahora vamos a maquetar la página sobre mí que en la página principal en la cual vamos a tener esto y
+
+2
+00:00:07,070 --> 00:00:09,400
+vamos a tener sobre mí aquí.
+
+3
+00:00:09,420 --> 00:00:12,630
+Vale entonces vamos con ello.
+
+4
+00:00:12,630 --> 00:00:17,370
+Eso lo vamos a hacer a nivel de HTML dentro de nuestro componente de Avast.
+
+5
+00:00:17,370 --> 00:00:24,630
+Vale vamos a abrir el HTML que tenemos por aquí vale y vamos a modificar eso y también vamos a modificar
+
+6
+00:00:24,630 --> 00:00:26,620
+el componente en el componente.
+
+7
+00:00:26,610 --> 00:00:33,420
+Yo me voy a poner una propiedad del Public aitites que va a ser un string y le voy a dar un valor que
+
+8
+00:00:33,420 --> 00:00:38,850
+va a ser pues el título que estamos viendo aquí que sería mi nombre y luego voy a tener otra copia otra
+
+9
+00:00:38,850 --> 00:00:45,480
+propiedad que va a ser el subtítulo y otra para él y me vale tener esas tres propiedades.
+
+10
+00:00:45,480 --> 00:00:54,960
+Vale voy a tener otro subtítulo que también será un string y otra que sea el e-mail que también será
+
+11
+00:00:55,080 --> 00:01:04,530
+un estre y le voy a dar un valor a cada una de ellas disputo títol va a ser igual a Víctor Robles que
+
+12
+00:01:04,530 --> 00:01:08,770
+es como yo voy a hacer mi portafolio así que le voy a poner mi nombre.
+
+13
+00:01:09,000 --> 00:01:15,810
+Luego el subtítulo disputo sustito el sería desarrollador web
+
+14
+00:01:18,770 --> 00:01:30,140
+y formador y luego el e-mail pues será un e-mail falso de prueba que va a ser Víctor arroba.
+
+15
+00:01:30,140 --> 00:01:35,780
+Víctor juntocon okey perfecto.
+
+16
+00:01:36,290 --> 00:01:44,250
+O incluso podría poner la dirección de mi web va a cambiar este atributo por web y va a ser Víctor Robles
+
+17
+00:01:45,500 --> 00:01:53,340
+buen punto es perfecto pues yo tengo mis propiedades aquí con su valor asignado y ahora podría maquetar
+
+18
+00:01:53,340 --> 00:01:54,190
+mi HTML.
+
+19
+00:01:54,200 --> 00:01:55,550
+Qué voy a tener aquí.
+
+20
+00:01:55,900 --> 00:02:00,400
+Pues voy a tener un DIV con el ideé Bitel
+
+21
+00:02:03,750 --> 00:02:15,260
+y aquí dentro voy a tener un h 1 en el cual yo muestra el título con la interpolación mostrar la propiedad
+
+22
+00:02:15,260 --> 00:02:24,400
+de Intel y luego voy a tener un H2 que será el subtítulo en el que muestre la propiedad sustito el que
+
+23
+00:02:24,400 --> 00:02:35,110
+tengo en mi componente y luego voy a tener un párrafo que será la web vale pues voy a imprimir la propiedad
+
+24
+00:02:35,260 --> 00:02:38,600
+web de mi componente ok.
+
+25
+00:02:38,770 --> 00:02:48,180
+Y ahora lo siguiente sería hacer la parte de él sobre mí que lo tengo por aquí aparte de sobre mí lo
+
+26
+00:02:48,190 --> 00:02:56,890
+tengo por aquí que sería simplemente otro DIV o un artículo o algo así en el cual yo tuviera un encabezado
+
+27
+00:02:57,460 --> 00:03:04,420
+y tuviera ese texto así que vamos a hacer otro DIV o incluso podríamos hacerlo dentro de un artículo
+
+28
+00:03:04,600 --> 00:03:16,660
+porque sería el artículo de esta sección digamos al teckel y le voy a poner una clase que va a ser Abat
+
+29
+00:03:17,040 --> 00:03:22,300
+y entonces aquí lo que voy a hacer va a ser ponerle el H2 que diga sobre mi
+
+30
+00:03:27,470 --> 00:03:33,980
+y luego voy a ponerle pues el párrafo con todo el texto que yo quiera en este caso a mí me interesa
+
+31
+00:03:33,980 --> 00:03:39,500
+tener un Lorent Ipsum vale porque no quiero estar rellenado todo esto con un texto real así que voy
+
+32
+00:03:39,500 --> 00:03:45,290
+a buscar en Google Loreen Ipsum buscamos esto y entramos a la primera web que es un generador del orden
+
+33
+00:03:45,290 --> 00:03:52,570
+Ipsum vamos a generar 5 párrafos y vamos a copiar uno de ellos lo copiamos y lo pegamos en nuestro HTML
+
+34
+00:03:52,850 --> 00:04:02,090
+aquí ok perfecto entonces actualizamos la pantalla ya tengo mi elemento HTML aquí dentro de ahora lo
+
+35
+00:04:02,090 --> 00:04:08,150
+que voy a hacer va a ser darle uno de estilo a cada uno de estos elementos para maquetar la página de
+
+36
+00:04:08,150 --> 00:04:13,010
+una forma parecida a está perfecto entonces y aquí abajo vamos a maquetar
+
+37
+00:04:17,730 --> 00:04:20,960
+vamos a maquetar la parte de mi
+
+38
+00:04:25,040 --> 00:04:25,510
+ok.
+
+39
+00:04:26,890 --> 00:04:33,370
+Entonces vamos a darle uno de estilo a la caja que contiene el tema del título de qué es esta caja de
+
+40
+00:04:33,370 --> 00:04:45,430
+aquí Bitel de los selecciono y le voy a dar unos estilos que voy a poner un width 70 por ciento le voy
+
+41
+00:04:45,430 --> 00:04:47,170
+a poner un margin cero auto
+
+42
+00:04:51,030 --> 00:04:59,160
+le voy a poner un Texas. La inocente para que se centre en el texto Damen le voy a poner un PADI Padín
+
+43
+00:04:59,160 --> 00:05:02,100
+no sé si le voy a poner o no a poner un margen.
+
+44
+00:05:02,240 --> 00:05:07,280
+Botón para que se separe de lo de abajo de 100 píxeles y ya está.
+
+45
+00:05:07,290 --> 00:05:09,660
+Vamos a ver cómo queda.
+
+46
+00:05:09,660 --> 00:05:12,420
+Vale ahí está ya va tomando forma.
+
+47
+00:05:12,450 --> 00:05:20,340
+Vale incluso podría poner un margen superior de 20 PX perfecto.
+
+48
+00:05:20,600 --> 00:05:31,470
+Bien ahora que nos queda pues nos queda cambiar la fuente al H1 así que lo vamos a hacer titled H1 y
+
+49
+00:05:31,470 --> 00:05:34,340
+le voy a dar uno estilo.
+
+50
+00:05:34,350 --> 00:05:42,870
+Le voy a decir que el Font Family va a ser un finde Thinker que es la fuente personalizada que hemos
+
+51
+00:05:42,870 --> 00:05:43,760
+importado.
+
+52
+00:05:43,930 --> 00:05:48,020
+Vamos a poner un iPhone 6 de 60 píxeles para que sea una fuente grande.
+
+53
+00:05:48,090 --> 00:06:01,590
+Le vamos a poner un borde el botón de un PX Solid CCCP para que haga este efecto de aquí y le vamos
+
+54
+00:06:01,590 --> 00:06:10,970
+a poner un botón de 5 PX más o menos guardo actualiza la pantalla y aquí vemos ya el titular.
+
+55
+00:06:11,000 --> 00:06:16,770
+Vale ya vemos el título en grande y ya vemos esto que ha tomado mucha más forma y ya está mucho más
+
+56
+00:06:16,770 --> 00:06:24,690
+parecido a esto de aquí bien ahora lo siguiente sería darle estilo a el subtítulo ya el email o en este
+
+57
+00:06:24,690 --> 00:06:26,400
+caso la web revelé de la web.
+
+58
+00:06:26,450 --> 00:06:34,570
+Vale para eso voy a darle un estilo a Twitter H2 maleado elemento que había dentro del DIP con idea
+
+59
+00:06:34,600 --> 00:06:39,160
+Twitter o el elemento con idea títere.
+
+60
+00:06:39,770 --> 00:06:52,380
+Debo decir que el bonsais va a ser de 25 píxeles el color va a ser Gray y el margin top será de 5 px
+
+61
+00:06:52,860 --> 00:07:04,680
+y el Maurín botón pues también de 5 PX guardo actualizo y así se va quedando y por mi parte yo creo
+
+62
+00:07:04,680 --> 00:07:05,890
+que está bastante bien.
+
+63
+00:07:05,890 --> 00:07:11,220
+Yo creo que no habría que darle mucha más vuelta se queda bastante parecido a como estaba el diseño
+
+64
+00:07:11,220 --> 00:07:16,720
+original y ya tenemos la parte del título la parte del encabezado en la parte sobre mí.
+
+65
+00:07:17,220 --> 00:07:24,060
+Vale ahora vamos a darle estilo a esta parte de aquí a lo que es el contenido real de la página de esta
+
+66
+00:07:24,060 --> 00:07:39,300
+sección entonces al artículo cuyo cuya clase de Shabbat le voy a poner un Wiz de lo mismo que le hemos
+
+67
+00:07:39,300 --> 00:07:44,230
+puesto antes del 70 por ciento.
+
+68
+00:07:44,770 --> 00:07:57,060
+Un marinero auto cero BX auto un mar y un botón de 20 x y un Ford sabeís
+
+69
+00:08:01,560 --> 00:08:09,280
+de 23 x guardo actualizo la pantalla.
+
+70
+00:08:09,460 --> 00:08:17,230
+Vale y así se va quedando se va quedando bastante bien y bastante parecido además al diseño original.
+
+71
+00:08:17,280 --> 00:08:23,790
+Ahora vamos a darle un estilo a esta parte de aquí al encabezado y sobre mi y a esto que tenemos que
+
+72
+00:08:23,790 --> 00:08:25,610
+ponerle alguna separación o algo.
+
+73
+00:08:25,710 --> 00:08:41,190
+Entonces Abat H2 le voy a poner un border bottom de un PX Solid CCF para que ponga una línea justo debajo
+
+74
+00:08:41,190 --> 00:08:42,820
+del encabezado.
+
+75
+00:08:43,290 --> 00:08:53,070
+Al igual que hemos hecho aquí arriba ya además debe poner un margin botón o un botón Badín botón de
+
+76
+00:08:53,280 --> 00:09:03,840
+5p X y le puedo poner también un Padín o un margine botón de 5p X muerdo actualizo vale y aquí lo vemos.
+
+77
+00:09:03,870 --> 00:09:05,250
+Vamos que no se para un poquito
+
+78
+00:09:08,540 --> 00:09:16,340
+y luego el párrafo en sí punto about P Le voy a poner un
+
+79
+00:09:19,880 --> 00:09:31,670
+Padín top de 20 píxeles y un Padín botón de 30 píxeles para que lo se de abajo.
+
+80
+00:09:31,670 --> 00:09:36,210
+Vale ya si se queda la página sobre mí y la verdad es que ha quedado bastante bien.
+
+81
+00:09:36,240 --> 00:09:43,750
+Otra mejora que podríamos hacer sería justificar este texto vale para que se viera más alineado.
+
+82
+00:09:43,830 --> 00:09:51,910
+Vale podríamos hacer un Tesa Laing Justified guardo y aquí se queda pues bastante mejor.
+
+83
+00:09:52,280 --> 00:09:52,690
+Ok.
+
+84
+00:09:52,740 --> 00:10:04,910
+También podríamos juntar más dos TIB porque tienen mucha separación el link de arriba tienen más de
+
+85
+00:10:04,910 --> 00:10:11,490
+un botón de 100 píxeles se lo reduciría a 70.
+
+86
+00:10:11,490 --> 00:10:15,340
+Vale se lo vamos a poner a 70
+
+87
+00:10:19,780 --> 00:10:22,380
+y ya tenemos nuestra página sobre mí hecha.

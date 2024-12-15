@@ -1,0 +1,283 @@
+1
+00:00:01,070 --> 00:00:07,280
+Ahora vamos a ir a los diferentes paquetes que vamos a necesitar para desarrollar nuestro baking con
+
+2
+00:00:07,370 --> 00:00:08,400
+DJs.
+
+3
+00:00:08,510 --> 00:00:12,590
+Vamos a abrir el símbolo del sistema la consola que utilice da igual la que sea.
+
+4
+00:00:12,590 --> 00:00:16,820
+Nos dirigimos a la carpeta del proyecto y aquí vamos a lanzar una serie de comandos para instalar esos
+
+5
+00:00:16,820 --> 00:00:17,560
+paquetes.
+
+6
+00:00:18,190 --> 00:00:25,700
+Acá vamos a lanzar el comando LPM y estal con el DPM instalado en el paquete y vería mi proyecto.
+
+7
+00:00:25,880 --> 00:00:31,070
+En este caso Uvita la Haruna que se llama expres vale esto lo puede ir buscando en Google.
+
+8
+00:00:31,070 --> 00:00:36,560
+Los diferentes paquetes librerias que hay en la web MPM también la web de r.p.m tienen un buscador de
+
+9
+00:00:36,560 --> 00:00:38,990
+todos los paquetes librería y que hace cada una.
+
+10
+00:00:39,290 --> 00:00:45,440
+En este caso vamos a instalar expres expreses un framework para trabajar con el protocolo HTTP de acuerdo
+
+11
+00:00:45,710 --> 00:00:51,920
+nos permite definir rutas tener un sistema de rutas recibir peticiones HTTP crear acciones crear método
+
+12
+00:00:52,280 --> 00:00:58,760
+y muchas cosas que son fundamentales en cualquier desarrollo web así que vamos a ejecutar el comando
+
+13
+00:00:58,760 --> 00:01:03,680
+r.p.m install express y vamos a poner la opción importante menos menos.
+
+14
+00:01:03,930 --> 00:01:10,280
+Esto es lo que va a hacer guardar esa dependencia en mi proyecto actual de acuerdo en este caso en el
+
+15
+00:01:10,280 --> 00:01:11,980
+proyecto del Bakken que vamos a hacer.
+
+16
+00:01:11,980 --> 00:01:15,350
+Quería dar a Enter y esto es lo que va a hacer es descargarse
+
+17
+00:01:17,740 --> 00:01:21,550
+MPM se va a descargar todos los paquetes necesarios todas las dependencias.
+
+18
+00:01:21,550 --> 00:01:25,990
+Si te das cuenta me acaba de generar una carpeta de módulos que es donde se guardan todos los módulos
+
+19
+00:01:26,020 --> 00:01:33,650
+de no de que yo voy a ir guardando y aquí sí aquí se puede ver que se han añadido 50 paquetes y añadido
+
+20
+00:01:33,670 --> 00:01:39,580
+la librería o el módulo expres y aquí si me abro el paquete punto Yeison se me ha añadido una propiedad
+
+21
+00:01:39,580 --> 00:01:45,820
+de dependencias y yo tengo aquí un objeto en esta propiedad con el nombre de la dependencia y la versión
+
+22
+00:01:45,820 --> 00:01:47,380
+de la dependencia.
+
+23
+00:01:47,640 --> 00:01:54,250
+Bien pues expres ya te digo que es un framework para trabajar con http para hacer rutas recibir y manejar
+
+24
+00:01:54,250 --> 00:02:01,690
+peticiones y tal importantisimo el siguiente paquete que vamos a instalar es el bodhi parser el body
+
+25
+00:02:01,690 --> 00:02:07,480
+parser es un paquete o una librería que nos sirve para convertir las peticiones que yo hago al Bakken
+
+26
+00:02:07,930 --> 00:02:14,470
+a un objeto Jayson usable por JavaScript de acuerdo de forma que yo le envío unos datos pulpos y eso
+
+27
+00:02:14,680 --> 00:02:20,390
+automáticamente cuando recibió la petición me lo convierte Allyson y yo tengo mi objeto en mi Bakken
+
+28
+00:02:20,420 --> 00:02:26,410
+pues directamente para utilizarlo sin ningún tipo de problema así que voy a instalar Body parser MPM
+
+29
+00:02:26,500 --> 00:02:35,560
+install body y On parser menus menos 6 para que me guarde esa dependencia en mi proyecto local.
+
+30
+00:02:36,100 --> 00:02:42,160
+Ya lo tengo si reviso mi arraigo y dependencia o mi objeto de dependencia o mi propiedad de dependencia
+
+31
+00:02:42,160 --> 00:02:49,330
+aqui tengo ese nuevo elemento esa nueva dependencia un nuevo paquete o nueva librería.
+
+32
+00:02:49,330 --> 00:02:56,200
+Otra cosa que vamos a instalar es el CONEP multipartito con el multipartes y me permite subir archivos
+
+33
+00:02:56,330 --> 00:02:57,050
+a mi Baque.
+
+34
+00:02:57,070 --> 00:03:01,860
+De acuerdo y poder trabajar con el protocolo.
+
+35
+00:03:01,870 --> 00:03:07,090
+De acuerdo con la variable Fish puede recoger fichero y guardarlo en una carpeta de mi servidor.
+
+36
+00:03:07,090 --> 00:03:12,010
+Esto es muy importante si queremos subir imágenes si queremos subir cualquier tipo de cosa.
+
+37
+00:03:12,130 --> 00:03:18,430
+Hay un montón de dependencias que nos permiten subir archivos pero yo elijo esto porque la he utilizado
+
+38
+00:03:18,430 --> 00:03:19,020
+varias veces.
+
+39
+00:03:19,020 --> 00:03:31,150
+Ya entonces voy a hacer LPM install con el guión multipartito vale y le digo mi nombre no sé.
+
+40
+00:03:31,470 --> 00:03:36,010
+Y de esta manera voy a guardar esta dependencia en mi proyecto.
+
+41
+00:03:36,350 --> 00:03:37,240
+Vale ya la tengo.
+
+42
+00:03:37,250 --> 00:03:44,680
+Si reviso mi archivo Bacas punto y aquí me aparece otra dependencia que instalar que también es muy
+
+43
+00:03:44,680 --> 00:03:45,570
+importante.
+
+44
+00:03:45,610 --> 00:03:54,450
+La dependencia MongoDB Mingus es una librería que es uno R.M. Para trabajar como modem de acuerdo como
+
+45
+00:03:54,450 --> 00:04:00,240
+un gusto en una serie de métodos que me hacen la vida muy fácil a la hora de trabajar como debe.
+
+46
+00:04:00,310 --> 00:04:08,080
+Me permite crear mis modelos me permite crear mi sentidode y me permite hacer y trabajar con Mongo utilizando
+
+47
+00:04:08,290 --> 00:04:13,740
+métodos que ya vienen hechos y son muy fáciles de utilizar y bien optimizado.
+
+48
+00:04:13,750 --> 00:04:21,130
+Así que vamos a instalar mongolos con el comando MPM install mongolos mongoloide menos menu menos 6.
+
+49
+00:04:21,270 --> 00:04:27,910
+Esto va a ser fundamental para conectarnos a Mungo DB también desde DJ es de acuerdo y ya tenemos la
+
+50
+00:04:27,910 --> 00:04:31,770
+dependencia añadida la tenemos por aquí.
+
+51
+00:04:31,780 --> 00:04:38,240
+Por el momento estos van a ser las dependencias que vamos a instalar en nuestro proyecto de DJ es nuestro
+
+52
+00:04:38,230 --> 00:04:44,170
+Bakken y aparte de esto también vamos a instalar uno que es el Neutron que es fundamental.
+
+53
+00:04:44,470 --> 00:04:52,330
+Y de momento va a ser la última que vamos a instalar en MPM install no De-mon esto me va a permitir
+
+54
+00:04:52,660 --> 00:04:59,920
+que cuando yo ejecute mi servidor de DJs cada vez que yo un cambio en el código automáticamente se refresque
+
+55
+00:05:00,190 --> 00:05:05,110
+y se vuelva a reiniciar el servidor vale para no tener que hacerlo manualmente.
+
+56
+00:05:05,320 --> 00:05:09,610
+Entonces voy a indicarle menús menos SAIC guión de acuerdo.
+
+57
+00:05:09,610 --> 00:05:15,160
+Esta es una dependencia que solo va a funcionar en desarrollo es decir en local cuando lo subamos a
+
+58
+00:05:15,160 --> 00:05:15,820
+un servidor.
+
+59
+00:05:15,820 --> 00:05:22,480
+Esta dependencia no tienen que tomarse en cuenta cicloide antes para que la instale la acaba de instalar
+
+60
+00:05:22,910 --> 00:05:25,550
+aquí no parece dependencias.
+
+61
+00:05:25,720 --> 00:05:31,300
+Es una dependencia solamente de desarrollo y solamente va a funcionar el local y ya que estamos pues
+
+62
+00:05:31,300 --> 00:05:35,340
+vamos a crear el archivo índex JS ni.
+
+63
+00:05:35,470 --> 00:05:42,090
+Lo guardamos índex junto que es que es el fichero donde vamos a configurar el proyecto de DJs.
+
+64
+00:05:42,640 --> 00:05:47,380
+La parte principal es la creación del servidor la conexión a la base de datos y sobre este archivo vamos
+
+65
+00:05:47,380 --> 00:05:54,260
+a estar importando otro tanto archivo y ya que estamos tendremos que configura un scrip estar de acuerdo.
+
+66
+00:05:54,280 --> 00:06:01,690
+Aquí vamos a añadir un scrip que se vaya malestar y cuando yo lance este script voy a hacer no Demon
+
+67
+00:06:03,050 --> 00:06:12,360
+índex punto J.S. vale y de esta manera cada vez que cada vez que yo lance MPM Stark vale se va lanza
+
+68
+00:06:12,390 --> 00:06:13,280
+el Neutron.
+
+69
+00:06:13,390 --> 00:06:15,540
+Cargando el archivo índex.
+
+70
+00:06:15,850 --> 00:06:22,580
+JS vale así que en la siguiente clase lo que vamos a ver ya va a ser la creación de la base de datos.
+
+71
+00:06:22,900 --> 00:06:30,640
+Después la conexión a la base de datos de DJs y después la creación del servidor web.

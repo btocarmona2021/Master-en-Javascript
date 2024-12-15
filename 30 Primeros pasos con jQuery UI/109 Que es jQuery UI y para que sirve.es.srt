@@ -1,0 +1,191 @@
+1
+00:00:00,300 --> 00:00:06,180
+Como ya hemos visto y Kouichi es una librería súper súper interesante que nos facilita muchísimo la
+
+2
+00:00:06,180 --> 00:00:08,350
+vida a la hora de trabajar con JavaScript.
+
+3
+00:00:08,580 --> 00:00:13,770
+Es difícil que un proyecto web no lleve algo de cuerda en alguna parte del código de acuerdo.
+
+4
+00:00:13,770 --> 00:00:20,250
+Así que es una librería súper potente y como buena librería o como buen Fring por decirlo de alguna
+
+5
+00:00:20,250 --> 00:00:27,840
+manera sencilla tiene un montón de plugins y librerías que nosotros podemos también incluirle al propio
+
+6
+00:00:27,930 --> 00:00:29,130
+frenemos de acuerdo.
+
+7
+00:00:29,630 --> 00:00:37,000
+Y tenemos un montón de librerías sobre QR que podemos estar utilizando una librería o una.
+
+8
+00:00:37,050 --> 00:00:41,950
+Uno de esos kits de plugins más conocido es Kairi Highway.
+
+9
+00:00:42,090 --> 00:00:50,160
+Esta librería nos permite tener un montón de método más nuevo sobre Cury y además tienen varios plugins
+
+10
+00:00:50,280 --> 00:00:56,220
+que pueden ser interesantes a la hora de trabajar con Güiri hacer diferentes efectos dentro de una web.
+
+11
+00:00:56,230 --> 00:01:03,780
+Entonces vamos a buscar en Google y vamos a entrar a la web oficial que el usuario y punto com que es
+
+12
+00:01:03,780 --> 00:01:05,100
+un plugin oficial de cuero.
+
+13
+00:01:05,100 --> 00:01:12,090
+De acuerdo tenemos chiquillería aquí como ya hemos visto vale que es una librería de JavaScript como
+
+14
+00:01:12,090 --> 00:01:20,290
+ya hemos explicado y luego tenemos contribuí que nos sirve para hacer más efecto para hacer más cosas
+
+15
+00:01:20,290 --> 00:01:21,650
+de la interfaz del usuario.
+
+16
+00:01:23,880 --> 00:01:29,820
+Y funciona sobre la propia librería bellaquería y añadimos varios métodos más para hacer un montón de
+
+17
+00:01:29,820 --> 00:01:32,910
+cosas interesantes sobre.
+
+18
+00:01:33,000 --> 00:01:34,770
+Podemos hacer acordeones.
+
+19
+00:01:34,770 --> 00:01:39,070
+De acuerdo a esto hay plugins para hacerlo.
+
+20
+00:01:39,180 --> 00:01:47,370
+Hay un montonazo de plugins para hacer esto pero ya de por sí injury UI ya tiene uno de autocompletado.
+
+21
+00:01:47,670 --> 00:01:49,290
+Vale vale.
+
+22
+00:01:49,290 --> 00:01:59,610
+Por ejemplo si buscamos algo que no autocompletar botones Rádio buttons de acuerdo taps ventana de diálogo
+
+23
+00:02:03,640 --> 00:02:04,450
+botones.
+
+24
+00:02:04,450 --> 00:02:11,800
+También tenemos muchos para poner sliders el típico calendario que hay en toda la web pero que Bar en
+
+25
+00:02:11,850 --> 00:02:15,020
+menú de acuerdo es Pinheiros.
+
+26
+00:02:15,040 --> 00:02:20,710
+Podemos modificar muchos elementos de la interfaz del usuario y además podemos tenemos una galería de
+
+27
+00:02:20,710 --> 00:02:25,140
+tema para escoger los colores que más nos gusten.
+
+28
+00:02:25,210 --> 00:02:33,790
+En este caso el color base luego tenemos este color que también está bien y aparte de eso tenemos varias
+
+29
+00:02:33,790 --> 00:02:36,320
+demos de varias cosas que podemos hacer de varios métodos.
+
+30
+00:02:36,320 --> 00:02:44,380
+Mira tenemos el método de pagable acuerdo que nos permite mover una caja por la pantalla.
+
+31
+00:02:44,380 --> 00:02:48,090
+El método de intragable nos permite hacer un montonazo de cosas.
+
+32
+00:02:48,580 --> 00:02:56,860
+El método papable que nos permite arrastrar cosas dentro y entonces lanzar un evento de acuerdo al resist
+
+33
+00:02:57,340 --> 00:03:03,580
+realizable nos permite cambiar el tamaño de un DIV o de lo que sea estable.
+
+34
+00:03:03,580 --> 00:03:12,710
+También nos permite elegir elementos portable nos permite ordenar cosas o sea tenemos un montón de funcionalidad
+
+35
+00:03:12,710 --> 00:03:14,210
+nueva y de efectos nuevos.
+
+36
+00:03:14,210 --> 00:03:21,090
+Vale Willet como ya ha enseñado que son los pequeños plugins y luego tenemos efectos más efectos.
+
+37
+00:03:21,160 --> 00:03:30,280
+Vale fíjate la cantidad de efecto por default viene el Feith en Kairi y viene bueno vienen algunos males
+
+38
+00:03:30,590 --> 00:03:31,830
+y también viene por defecto.
+
+39
+00:03:31,840 --> 00:03:35,140
+Pero además no añade un montón de efectos más vale.
+
+40
+00:03:35,230 --> 00:03:46,010
+Por ejemplo el puf tiene ese efecto el puff también explote para que explote el libro es decir viene
+
+41
+00:03:46,010 --> 00:03:52,290
+un montonazo de efectos para hacer esas transiciones de cuando le damos clic a una cosa que pase que
+
+42
+00:03:52,630 --> 00:03:55,560
+algún efecto o que haga cualquier tipo de animación.
+
+43
+00:03:55,750 --> 00:04:01,030
+Como estamos viendo pues tenemos un montonazo de efectos y todo esto es lo que vamos a ver dentro de
+
+44
+00:04:01,400 --> 00:04:02,080
+Highway.
+
+45
+00:04:02,170 --> 00:04:06,710
+Cómo integrar esta nueva librería para la interfaz de usuario dentro de QWERTY.
+
+46
+00:04:06,850 --> 00:04:12,400
+Cómo utilizar esos pequeños plugins esos pequeños efectos nuevos que nos da ese nuevo método.
+
+47
+00:04:12,410 --> 00:04:19,750
+Y eso es lo que vamos a estar viendo para introducirnos al tema este de Wii y de la utilización de plugins
+
+48
+00:04:19,870 --> 00:04:22,630
+dentro de dentro de fuera y dentro de JavaScript.

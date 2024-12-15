@@ -1,0 +1,195 @@
+1
+00:00:00,900 --> 00:00:07,680
+Vamos a aprender a desarrollar una aplicación web tipo chat usando no Gillies y socket Allo lo que nos
+
+2
+00:00:07,680 --> 00:00:13,260
+va a permitir esta aplicación que vamos a crear va a ser tener una especie de sala hecha en el cual
+
+3
+00:00:13,320 --> 00:00:19,710
+vamos a poder entrar y enviar mensajes de acuerdo y vamos a poder interactuar con varios clientes a
+
+4
+00:00:19,710 --> 00:00:26,240
+la vez y en tiempo real es decir yo tengo mi teléfono móvil en el chat metido y estoy enviando mensaje
+
+5
+00:00:26,290 --> 00:00:31,230
+y a la vez le están apareciendo a otro cliente que tengo en mi ordenador en un navegador o tengo otro
+
+6
+00:00:31,230 --> 00:00:34,400
+navegador o tengo dos ordenadores en la red o tengo lo que sea.
+
+7
+00:00:35,160 --> 00:00:42,620
+Entonces vamos a ver cómo hacemos esto es muy sencillo ya verás que la potencia que nos brinda Suquet
+
+8
+00:00:42,630 --> 00:00:48,140
+dio para hacer aplicaciones en tiempo real es muy grande y la sencillez también es muy grande.
+
+9
+00:00:48,360 --> 00:00:53,340
+Entonces lo primero que vamos a hacer va a ser crear nuestro proyecto así que yo me voy a abrir mi terminal
+
+10
+00:00:53,920 --> 00:00:55,510
+que en mi caso pues uso ésta.
+
+11
+00:00:55,520 --> 00:01:00,510
+Tú puedes usar la consola de Windows o lo que sea y me voy a ir a un directorio donde yo normalmente
+
+12
+00:01:00,510 --> 00:01:07,170
+tengo un proyecto que es el doble de acuerdo esto es un alias te Cygwin me acuerdo investigo por ahí
+
+13
+00:01:07,170 --> 00:01:15,750
+cómo crear un alias en esta consola no vale entonces me meto al directorio donde yo suelo trabajar con
+
+14
+00:01:15,750 --> 00:01:24,240
+los proyectos y aquí me voy a crear una carpeta nueva con el comando y me Qadir que va a ser curso sockets
+
+15
+00:01:26,250 --> 00:01:38,490
+curso sockets y ahí dentro es donde yo voy a trabajar con node y con Soke tío bertan para hacer la aplicación
+
+16
+00:01:38,490 --> 00:01:46,290
+de chat lo primero que tenemos que hacer al iniciar un proyecto no es el comando MPM init este comando
+
+17
+00:01:46,300 --> 00:01:51,570
+lo que va a hacer es generar el famoso fichero packages punto Yeison el cual nos va a permitir definir
+
+18
+00:01:51,570 --> 00:01:59,520
+dentro de las dependencias del proyecto una serie de scripts también para trabajar con el proyecto cuál
+
+19
+00:01:59,520 --> 00:02:04,380
+va a ser el nombre del proyecto la versión una serie de cosas que son importantes verdad y además nos
+
+20
+00:02:04,380 --> 00:02:09,210
+va a permitir también indicarle ahí qué dependencias tenemos que dependencias se tienen que gestionar
+
+21
+00:02:09,270 --> 00:02:09,770
+etcétera.
+
+22
+00:02:09,780 --> 00:02:16,080
+Entonces lanzamos el comando r.p.m INIT y nos va a asaltar un asistente que nos va a pedir diferentes
+
+23
+00:02:16,080 --> 00:02:22,410
+cosas cómo se va a llamar el proyecto cursos sockets verdad pues le damos a gente la versión la 1.0
+
+24
+00:02:22,860 --> 00:02:38,540
+le damos la descripción del proyecto de chat con node y socket junto yo el empeine pues será el índex
+
+25
+00:02:38,600 --> 00:02:46,930
+punto J.S. normalmente así que lo vamos a definir como punto J.S. tres coma nada y repositorio y nada
+
+26
+00:02:47,080 --> 00:02:49,140
+keywords nada autor.
+
+27
+00:02:49,180 --> 00:02:50,100
+En este caso yo
+
+28
+00:02:57,040 --> 00:03:04,970
+vale la licencia MIT por ejemplo y todo está OK les decimos que sí vale ahora esto no ha generado un
+
+29
+00:03:04,970 --> 00:03:12,020
+fichero aquí que es el paquete punto Allyson que si hacemos un CAD el paquete punto y eso podemos ver
+
+30
+00:03:12,080 --> 00:03:16,370
+el contenido que tiene que es lo que nosotros le hemos indicado de acuerdo le hemos indicado un nombre
+
+31
+00:03:16,370 --> 00:03:23,630
+le hemos indicado una versión el autor etc. Vale hasta aquí perfecto ahora vamos a crearnos el proyecto
+
+32
+00:03:23,720 --> 00:03:31,490
+dentro de su Blain que es el editor que yo voy a usar de acuerdo que voy a abrir un folder que en este
+
+33
+00:03:31,490 --> 00:03:38,610
+caso sería el curso sockets así que elijo mi directorio le doy a aceptar.
+
+34
+00:03:38,710 --> 00:03:48,120
+Se me abre el fólder y ahora yo voy a guardar el proyecto soy así y lo voy a guardar dentro de cursos
+
+35
+00:03:48,130 --> 00:03:58,610
+sockets y hoy guardo yo mi fichero del proyecto lo abro y aquí guardo y el proyecto curso sockets.
+
+36
+00:03:58,900 --> 00:04:05,710
+Por ejemplo guardo estupendo hasta aquí perfecto tengo mi punto Allyson tengo mis ficheros del proyecto
+
+37
+00:04:05,710 --> 00:04:08,530
+que lo puedes crear aquí o en otro sitio.
+
+38
+00:04:08,530 --> 00:04:14,530
+De momento los tenemos aquí sea para que no afecte al proyecto y hasta cuando vaya a copiar en otro
+
+39
+00:04:14,530 --> 00:04:15,840
+sitio por lo pueden borrar.
+
+40
+00:04:16,270 --> 00:04:19,220
+Pero esto no tiene nada que ver con el proyecto que vamos a hacer.
+
+41
+00:04:19,860 --> 00:04:28,330
+Entonces qué vamos a hacer pues vamos a primero a definir nuestra aplicaciones de servidor de acuerdo
+
+42
+00:04:28,330 --> 00:04:35,890
+así que voy a crear una carpeta que a ser Server de acuerdo y aquí es donde vamos a programar la parte
+
+43
+00:04:35,890 --> 00:04:43,630
+del servidor es decir la parte que va a recibir un mensaje y va a tener el choque funcionando va a tener
+
+44
+00:04:43,630 --> 00:04:49,840
+el servidor funcionando va a tener este Express también funcionando y todo eso vale lo básico de un
+
+45
+00:04:49,840 --> 00:04:56,530
+proyecto de Node y luego también vamos a tener otra carpeta que va a ser cliente que es donde va a estar
+
+46
+00:04:56,530 --> 00:05:02,170
+el HTML final donde van a donde vamos a tener el HTML que se le va a mostrar al usuario donde vamos
+
+47
+00:05:02,170 --> 00:05:09,010
+a tener un script que va a emitir un socket o que va a conectarse al socket que tengamos programado
+
+48
+00:05:09,070 --> 00:05:11,470
+etcétera.
+
+49
+00:05:11,590 --> 00:05:13,720
+Esto de momento lo dejamos así.

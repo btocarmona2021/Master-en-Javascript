@@ -1,0 +1,187 @@
+1
+00:00:00,510 --> 00:00:06,420
+Ahora lo que vamos a hacer va a ser crear los estilos CSS crear una hoja de estilo CSS para el proyecto
+
+2
+00:00:06,560 --> 00:00:12,480
+y además vamos a incluir una fuentes en el proyecto para posteriormente usarla en los estilos vale para
+
+3
+00:00:12,570 --> 00:00:19,810
+utilizar los estilos CSS lo que vamos a hacer va a ser crear un archivo de estilos en la carpeta assets.
+
+4
+00:00:19,820 --> 00:00:28,200
+Vale me voy a crear una nueva carpeta que va a ser CSS y aquí dentro voy a crear un fichero que va a
+
+5
+00:00:28,200 --> 00:00:38,310
+ser Stairs junto CSS vale este archivo para que funcione me lo tengo que llevar a mi archivo angular
+
+6
+00:00:38,310 --> 00:00:43,540
+apuntó Jayson y en mi Array estáis aquí tengo una hoja de estilo vinculada.
+
+7
+00:00:43,580 --> 00:00:50,760
+Esta ya la puedo quitar que es la que está en SRC esta hoja hoja de estilo no me interesa vale y voy
+
+8
+00:00:50,760 --> 00:00:59,010
+a añadir la que yo he creado que la tengo en assets vale la tengo en ese Reece SRC assets
+
+9
+00:01:01,800 --> 00:01:11,910
+barra CSS barra estaís punto CSS OK y ahora simplemente con esto ya lo tendría disponible ya tenía disponible
+
+10
+00:01:11,990 --> 00:01:20,180
+este CSS en mi proyecto de hecho si pongo Bodhi y le pongo aquí una regla una propiedad CSS que se llama
+
+11
+00:01:20,190 --> 00:01:33,760
+Gran Pink por ejemplo vale un guardo y reinicia mi proyecto ok Control C y vuelvo a compilar.
+
+12
+00:01:33,930 --> 00:01:39,420
+Vamos a ver que nos compila correctamente y realmente me aplica lo de estilo CSS que yo le he dicho
+
+13
+00:01:40,580 --> 00:01:40,920
+vale.
+
+14
+00:01:40,920 --> 00:01:44,020
+Así que podemos quitar el bagre un pin.
+
+15
+00:01:45,540 --> 00:01:52,580
+Y ahora vamos a abrir esta carpeta a la carpeta de assets a ver si podemos acceder a nuestro proyecto.
+
+16
+00:01:52,770 --> 00:02:00,360
+Accedo a la carpeta proyecto angular accedo a SRC assets y aquí me voy a traer las fuentes tengo una
+
+17
+00:02:00,360 --> 00:02:05,610
+carpeta con tres fuentes que vamos a estar utilizando en el proyecto así que voy a copiar esa carpeta
+
+18
+00:02:05,610 --> 00:02:09,600
+y no voy a pegar por aquí para tenerla disponible en este proyecto.
+
+19
+00:02:10,190 --> 00:02:16,920
+Y ahora vamos a usar esa fuente en nuestro archivo de estilos vale para qué son estas fuentes para poner
+
+20
+00:02:17,280 --> 00:02:20,010
+fuentes personalizadas como la que estamos viendo en esta imagen.
+
+21
+00:02:20,010 --> 00:02:23,920
+Esto es una fuente personalizada esto también seguramente está también.
+
+22
+00:02:24,100 --> 00:02:30,810
+Entonces vamos a importar esa fuente con el arroba Font forfaits en los estaís punto C en el archivo
+
+23
+00:02:30,810 --> 00:02:31,420
+de estilos.
+
+24
+00:02:31,420 --> 00:02:40,110
+Vale entonces voy a utilizar Robafone Feist con feis y esto es una regla de CSS que nos permite cargar
+
+25
+00:02:40,110 --> 00:02:48,750
+fuentes externas o que voy a cargar las fuentes ya None y Finger vale que son las que a mí me interesan.
+
+26
+00:02:48,810 --> 00:02:50,280
+Voy a cargar una.
+
+27
+00:02:50,280 --> 00:02:56,450
+Le voy a poner un font family y debe indicar qué fuente quiero cargar en este caso.
+
+28
+00:02:58,390 --> 00:03:06,250
+La Iannone le voy a poner este nombre se lo pongo en el customizado vale y además voy a añadirle el
+
+29
+00:03:06,270 --> 00:03:10,210
+SRC que es donde está la fuente.
+
+30
+00:03:10,240 --> 00:03:19,590
+Le pongo una R.L y le digo que esto está en punto punto barra Fonds Barra ya none
+
+31
+00:03:22,410 --> 00:03:29,130
+Caffè bueno realmente mira vamos a hacerlo más sencillo antes que poner un nombre lo vamos a hacer mucho
+
+32
+00:03:29,130 --> 00:03:30,390
+más sencillo.
+
+33
+00:03:30,390 --> 00:03:34,180
+Voy a entrar al set y en lugar de meterlo.
+
+34
+00:03:34,500 --> 00:03:39,510
+Las fuentes aquí fuera obviamente dentro de la carpeta CSS para el momento y dentro y aparte le voy
+
+35
+00:03:39,510 --> 00:03:44,740
+a cambiar el nombre al archivo se lo voy a simplificar voy a ponerle ya no me
+
+36
+00:03:48,830 --> 00:03:57,680
+titila aún y Finger vale simplemente para tener un nombre sencillo de la Fuente y utiliza esos nombres
+
+37
+00:03:57,690 --> 00:04:02,600
+vale entonces ahora para cargar una fuente simplemente
+
+38
+00:04:05,810 --> 00:04:13,110
+le pongo la ruta tal cual Fonds Barra ya pone punto TTF.
+
+39
+00:04:13,190 --> 00:04:21,410
+Vale que es un archivo de fuente y luego voy a importar también la otra fuente con el arroba forfaits
+
+40
+00:04:23,750 --> 00:04:35,460
+que va a ser Comfamiliar se va a llamar Finger y llega a decirles R.C. dónde está la fuente.
+
+41
+00:04:35,480 --> 00:04:39,470
+La web R.L va a ser Fonds barra
+
+42
+00:04:42,020 --> 00:04:53,520
+finger punto TTF mal y ahora si yo por ejemplo al Woody le dijera que el Font Family es ya None Y si
+
+43
+00:04:53,520 --> 00:05:05,840
+no que sea Arial y si no helvéticas pues cuando yo cargué mi proyecto en el navegador Guala se me ha
+
+44
+00:05:05,840 --> 00:05:12,670
+cambiado la fuente de acuerdo y ahora tengo la fuente que yo le he dicho en este caso es la fuente anónima.
+
+45
+00:05:13,120 --> 00:05:21,080
+Si te das cuenta pues es esta fuente aquí la que aparece aquí vale entonces ya tenemos nuestra fuente
+
+46
+00:05:21,080 --> 00:05:26,030
+importada ya no hay ningún tipo de problema y en la siguiente clase lo que vamos a hacer va a ser maquetar
+
+47
+00:05:26,300 --> 00:05:31,700
+maquetar la parte del contenido principal OK y luego la cabecera.

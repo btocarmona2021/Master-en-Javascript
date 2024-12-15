@@ -1,0 +1,79 @@
+1
+00:00:00,930 --> 00:00:09,310
+Otro eventos que hemos visto también son el evento clik y también vamos a ver el doble clic.
+
+2
+00:00:09,330 --> 00:00:13,440
+Vale esto ya lo hemos visto a lo largo del curso en la parte de JavaScript y también lo hemos visto
+
+3
+00:00:13,440 --> 00:00:20,980
+como hacerlo en Kourí anteriormente y simplemente sobre caja sobre el elemento caja yo puedo decir o
+
+4
+00:00:21,090 --> 00:00:27,450
+puedo ejecutar el evento click y esto tiene una función de Calvache aquí dentro de Hokuto lo que quiera.
+
+5
+00:00:27,540 --> 00:00:35,160
+Por ejemplo al propio elemento caja con caja yo puedo seleccionarlo Dicks y puedo cambiarle simplemente
+
+6
+00:00:35,250 --> 00:00:44,740
+el background Valeta puedo hacer un CSS y puedo ponerle el background a Blu.
+
+7
+00:00:44,960 --> 00:00:49,350
+Vale incluso le puedo encadenar otro.
+
+8
+00:00:49,920 --> 00:00:59,230
+Otra llamada a otro método CSS y puedo ponerle el color de las letras a UIT-T blanco.
+
+9
+00:00:59,400 --> 00:01:03,120
+Si hago esto como ya sabemos va a funcionar perfectamente.
+
+10
+00:01:03,210 --> 00:01:09,140
+Si doy clic fijate lo que pasa es algo bueno vuelve a cambiarle el color.
+
+11
+00:01:09,250 --> 00:01:11,340
+Vale lo estamos viendo que funciona.
+
+12
+00:01:12,080 --> 00:01:18,420
+Y ahora vamos a probar el doble click el doble click es casi igual que este evento de click pero el
+
+13
+00:01:18,420 --> 00:01:25,410
+nombre de la función o del método es diferente en este caso el nombre sería de l click Vale y le voy
+
+14
+00:01:25,410 --> 00:01:34,050
+a cambiar el color a Pink por ejemplo vale y el color de letra a Oyelowo.
+
+15
+00:01:34,170 --> 00:01:40,950
+De esta manera si yo actualizo la pantalla y le doy doble clic fíjate lo que pasa me cambia el color
+
+16
+00:01:41,070 --> 00:01:47,010
+cuando le das doble click y si le doy un click me lo cambia a verde si te doy un clic me lo cambia a
+
+17
+00:01:47,010 --> 00:01:52,640
+azul que es lo que le he dicho yo no le he dicho que me lo cambio de blog le doy un click no cambia
+
+18
+00:01:52,680 --> 00:01:55,790
+Brulé doble click me lo cambié a verde ok.
+
+19
+00:01:55,800 --> 00:01:59,430
+Con lo cual esto está funcionando perfectamente bien el doble click.
+
+20
+00:01:59,430 --> 00:02:03,770
+Así que ya hemos visto cómo trabajar con estos dos eventos en cuestión.

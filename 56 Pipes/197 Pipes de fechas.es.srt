@@ -1,0 +1,135 @@
+1
+00:00:00,990 --> 00:00:07,170
+La primera parte que vamos a aprender a utilizar el lápiz para procesar fechas o para formatear fecha.
+
+2
+00:00:07,170 --> 00:00:13,410
+Para eso en nuestro componente de este componente mismo en externo apuntó component.
+
+3
+00:00:13,590 --> 00:00:19,410
+Vamos a crear una propiedad que va a ser la propiedad fecha públic fecha madre también va a ser del
+
+4
+00:00:19,410 --> 00:00:27,270
+tipo Genny y vamos a darle un valor en el Ninet vamos a hacer lo siguiente disputó fecha y le vamos
+
+5
+00:00:27,270 --> 00:00:30,750
+a dar simplemente el valor de una fecha de JavaScript.
+
+6
+00:00:30,750 --> 00:00:39,260
+Vamos a hacer nio Date y al objeto de que nos permite generar una fecha.
+
+7
+00:00:39,360 --> 00:00:45,870
+Ahora mismo si lo utilizamos tal cual está y mostramos la fecha no mostramos por aquí arriba vamos a
+
+8
+00:00:45,870 --> 00:00:54,510
+poner un H.R aquí vamos a mostrar en la fecha fecha si la mostramos vamos a ver que nos imprime toda
+
+9
+00:00:54,510 --> 00:00:59,100
+la fecha de hoy en un formato completo el formato que vienen por default.
+
+10
+00:01:01,030 --> 00:01:07,080
+Ok entonces yo puedo meterle una fecha por defecto que a mi me interese forzar que cargue una fecha
+
+11
+00:01:07,090 --> 00:01:22,150
+por ejemplo 2019 0 5 o 5 para indicarle el mes y día 20 por ejemplo yo estoy la fecha me cambia al día
+
+12
+00:01:22,150 --> 00:01:23,280
+que yo le indico.
+
+13
+00:01:23,320 --> 00:01:29,500
+Entonces si yo quiero formatear esta fecha existe una PIP que se llama Droit que me permite modificar
+
+14
+00:01:29,500 --> 00:01:36,490
+mucho esta información entonces cómo puedo utilizar una Pip pues en la vista yo tengo mi variable que
+
+15
+00:01:36,490 --> 00:01:42,040
+estoy imprimiendo para utilizar una Pip o un filtro de utilizar la tubería utilizo la tubería que se
+
+16
+00:01:42,040 --> 00:01:49,420
+consigue dándole al GR y a la tecla 1 del teclado para poner la tubería pongo la tubería y aquí utilizo
+
+17
+00:01:49,420 --> 00:01:57,410
+la PIP date vale y esta Paik tiene varias opciones le puedo poner un parámetro que sea full Daguet.
+
+18
+00:01:57,430 --> 00:02:05,350
+De esta manera si yo guardo y actualizo me pone la fecha en un formato más legible me pone el día me
+
+19
+00:02:05,350 --> 00:02:13,780
+pone al mes me pone el día del mes y me pone el año en un formato bastante más legible ok pero también
+
+20
+00:02:13,780 --> 00:02:19,600
+puedo formatear esta fecha como me dé la real gana yo puedo poner aquí desde para indicar el día.
+
+21
+00:02:19,600 --> 00:02:20,150
+Luego aquí.
+
+22
+00:02:20,170 --> 00:02:26,230
+MM para indicar el mes y y griega agrega para indicar el año entonces puedo formatear la ficha de esa
+
+23
+00:02:26,230 --> 00:02:31,630
+manera y se me muestra de esta manera que también está muy bien vale puedo formatear la fecha como yo
+
+24
+00:02:31,630 --> 00:02:37,870
+quiera utilizar esta y o también utiliza librerías como la que hemos visto anteriormente en el curso
+
+25
+00:02:37,870 --> 00:02:40,690
+como momento J de acuerdo.
+
+26
+00:02:40,690 --> 00:02:46,750
+De hecho hay incluso paquetes que podemos instalar en angular por ejemplo el paquete angular 2 Moment
+
+27
+00:02:47,050 --> 00:02:50,950
+que ya nos traen un montón de países utilizando el mejorã es vale.
+
+28
+00:02:51,060 --> 00:02:56,440
+Entonces evitamos el trabajo de tener que hacer una propia API para utilizar Mommsen etcétera ahí viene
+
+29
+00:02:56,440 --> 00:03:00,870
+muy cómodo y ya te digo hay un montón de paquetes con Payless que podemos utilizar.
+
+30
+00:03:00,900 --> 00:03:06,790
+Utilizar esta PEIT por defecto que bienen angular para formatear la fecha así que ya hemos visto cómo
+
+31
+00:03:06,790 --> 00:03:11,950
+utilizar esta peuple podríamos reutilizar este trozo de código tan tantas veces como quisiéramos y llamar
+
+32
+00:03:11,950 --> 00:03:14,180
+a la PIP de diferente forma
+
+33
+00:03:18,250 --> 00:03:22,670
+que sin ningún tipo de problema.
+
+34
+00:03:22,840 --> 00:03:25,900
+Vale ya hemos visto lo que es una BOIB y cómo utilizarla.

@@ -1,0 +1,95 @@
+1
+00:00:00,810 --> 00:00:05,970
+Vamos a ver qué es un constructor y cómo funciona un constructor es un método especial dentro de una
+
+2
+00:00:05,970 --> 00:00:13,870
+clase y se suele utilizar para darle un valor inicial a los atributos o propiedades del objeto al crearlo.
+
+3
+00:00:13,950 --> 00:00:18,900
+Es el primer método que se ejecuta el objeto y se llama automáticamente nada más crearlo.
+
+4
+00:00:18,900 --> 00:00:25,590
+Este método puede recibir parámetros como cualquier otro método y para pasarselo tenemos que pasar de
+
+5
+00:00:25,590 --> 00:00:26,990
+los parámetros al objeto en sí.
+
+6
+00:00:27,000 --> 00:00:32,560
+Cuando los distanciamos valen y el constructor nunca devuelve ningún dato.
+
+7
+00:00:32,610 --> 00:00:35,030
+Así que vamos a crear el constructor.
+
+8
+00:00:35,040 --> 00:00:37,780
+Eso simplemente lo podemos hacer con la palabra constructor.
+
+9
+00:00:39,320 --> 00:00:42,850
+Y hasta aquí llegamos a dar un valor inicial a las propiedades.
+
+10
+00:00:42,930 --> 00:00:52,320
+Por ejemplo disputo color va a ser el valor que yo le pase por parametro yo puedo definir varios parámetros
+
+11
+00:00:52,380 --> 00:01:02,310
+color modelo marca talla y precio vale y voy a dar a todas las propiedades su valor correspondiente
+
+12
+00:01:02,310 --> 00:01:14,340
+que yo le pase a distancia del objeto modelo que es igual a modelo disputo marca es a la marca.
+
+13
+00:01:14,400 --> 00:01:26,040
+Un total ya es igual a talla y disputo precio es igual a precio okey entonces yo tengo ya mi constructor
+
+14
+00:01:26,070 --> 00:01:33,210
+y cuando yo distancié mi clase cuando creé el objeto pues yo le tendría que pasar los valores no rojo
+
+15
+00:01:35,940 --> 00:01:37,380
+el modelo manga larga
+
+16
+00:01:41,850 --> 00:01:54,550
+la marca Nike la talla L y el precio pues 14 por ejemplo.
+
+17
+00:01:55,650 --> 00:02:03,070
+Y ahora sí con su reloj de El objeto camiseta voy a ver que tengo todos esos datos veteado ahora mismo
+
+18
+00:02:03,070 --> 00:02:09,420
+me dice que tengo un error en la línea 34 y es porque me falta la comilla vale siempre es bueno revisar
+
+19
+00:02:09,450 --> 00:02:14,610
+la compilación en la consola para ver si no Kuper algún error si actualizamos la pantalla ahora pues
+
+20
+00:02:14,610 --> 00:02:20,660
+tengo efectivamente mi objeto con todos los valores que yo le he indicado al instancias la clase o el
+
+21
+00:02:20,820 --> 00:02:25,620
+objeto y además como he utilizado este método que también hemos creado antes le ha cambiado el valor
+
+22
+00:02:25,620 --> 00:02:32,160
+rojo por el rojo empezando por mayúscula y aquí se ve reflejado así que eso es el constructor es el
+
+23
+00:02:32,160 --> 00:02:39,030
+primer método que se ejecuta siempre cuando creamos un objeto y normalmente se suele usar para darle
+
+24
+00:02:39,030 --> 00:02:41,730
+un valor a las propiedades de la clase.

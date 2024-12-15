@@ -1,0 +1,587 @@
+1
+00:00:00,950 --> 00:00:05,970
+Bien ya hemos visto lo más básico acerca del DOM acerca de cómo seleccionar un DIV y ahora vamos a ver
+
+2
+00:00:05,970 --> 00:00:09,970
+cómo seleccionar clases y etiquetas en general de acuerdo.
+
+3
+00:00:10,410 --> 00:00:13,220
+Vamos a crear varios tips en nuestro HTML.
+
+4
+00:00:13,320 --> 00:00:21,160
+Vale vamos a crear varios tips que tengan diferentes textos.
+
+5
+00:00:21,160 --> 00:00:24,900
+No soy el primer Dip
+
+6
+00:00:28,190 --> 00:00:29,340
+yo el segundo
+
+7
+00:00:33,890 --> 00:00:35,120
+y el tercero soy yo
+
+8
+00:00:39,120 --> 00:00:46,090
+y por el momento le vamos a quitar todas las ideas que tengan y todas lo atributo HTML que puedan tener.
+
+9
+00:00:47,900 --> 00:00:54,170
+Simplemente con esto entonces imagínate que yo quiero buscar todos los días que tengo en mi HTML cómo
+
+10
+00:00:54,170 --> 00:00:55,130
+podría hacer eso.
+
+11
+00:00:55,130 --> 00:01:00,980
+Cómo podría encontrar todos los días que tengo yo en mi HTML pues mira lo vamos a poner por aquí esto
+
+12
+00:01:01,340 --> 00:01:09,140
+esta explicación que aquí sería para conseguir elementos con un IDE concreto
+
+13
+00:01:11,690 --> 00:01:13,700
+como el IDE es único.
+
+14
+00:01:13,700 --> 00:01:17,180
+Por lo tanto solamente puede haber un elemento con S de una etiqueta.
+
+15
+00:01:17,180 --> 00:01:27,290
+Ahora vamos a ver cómo conseguir elemento por Swett por sus etiquetas por su etiqueta y cómo conseguir
+
+16
+00:01:27,290 --> 00:01:28,580
+elementos por su clase.
+
+17
+00:01:28,670 --> 00:01:34,000
+Conseguir elementos por su clase CSS.
+
+18
+00:01:34,130 --> 00:01:42,110
+Entonces si yo quiero conseguir todos los tips yo que crear una variable todos los tips vale entonces
+
+19
+00:01:42,140 --> 00:01:46,120
+puedo utilizar el objeto document Documet.
+
+20
+00:01:46,460 --> 00:01:56,860
+El método GET Element Boy Tag vale consígueme los elementos Porta y yo puedo buscar la TAG Dib.
+
+21
+00:01:56,870 --> 00:02:02,560
+De acuerdo con esto si yo hago un consuelo voy a quitar esto.
+
+22
+00:02:03,350 --> 00:02:11,110
+Si hago un Consol log consolé un blog de todos los días vamos a ver que tengo una raíz de elemento si
+
+23
+00:02:11,120 --> 00:02:17,870
+actualizo la pantalla me dice que tengo un error porque Grethel en Enbeita Jis NeoGAF is not a fungían
+
+24
+00:02:20,740 --> 00:02:25,800
+efectivamente es Beitar ni gaitas ni vale esto.
+
+25
+00:02:25,810 --> 00:02:32,300
+Cuidado con esto Televen Beitar ni un solo elemento por eso es Element pero aquí sería Quiet element.
+
+26
+00:02:32,350 --> 00:02:37,710
+De acuerdo yo te muestro todas estas cosas para que tú luego no tengas el fallo tampoco.
+
+27
+00:02:37,700 --> 00:02:39,640
+Entonces qué Televen Boitano.
+
+28
+00:02:39,710 --> 00:02:45,400
+Entonces si actualizamos la pantalla ahora me saca una Ray HTML Collection es decir una colección de
+
+29
+00:02:45,400 --> 00:02:52,050
+elementos HTML me sacó una raíz con los cuatro elementos que hay el DIB de mi caja el siguiente Dip
+
+30
+00:02:52,180 --> 00:02:58,190
+el siguiente y el siguiente decirmelo selecciona los cuatro DIV que hay.
+
+31
+00:02:58,220 --> 00:03:04,240
+Vale entonces si yo quiero por ejemplo modificar uno de esos elementos pues simplemente lo que tengo
+
+32
+00:03:04,240 --> 00:03:11,110
+que hacer es acceder a la raíz de todos los días y como ya he enseñado en clases anteriores a donde
+
+33
+00:03:11,110 --> 00:03:16,390
+quiero acceder a qué elemento del Live quiero hacer lo que quiero hacer quiero acceder al segundo que
+
+34
+00:03:16,390 --> 00:03:21,090
+es este aquí no estoy aquí el índice 2.
+
+35
+00:03:21,870 --> 00:03:28,390
+Pues si yo quiero acceder a ese Kojo selecciona el índice 2 y con el punto ya puedo utilizar cualquiera
+
+36
+00:03:28,390 --> 00:03:30,450
+de las propiedades que he enseñado antes.
+
+37
+00:03:30,460 --> 00:03:30,790
+Vale
+
+38
+00:03:34,070 --> 00:03:40,990
+utilizar el elemento text content para sacar el contenido que tiene el DIV.
+
+39
+00:03:41,000 --> 00:03:52,010
+Entonces si aún con solo de esto cierto lo meto en una variable contenido en texto se va a llamar la
+
+40
+00:03:52,010 --> 00:03:52,510
+variable.
+
+41
+00:03:52,520 --> 00:04:00,290
+Si yo cojo esta variable y la muestra en el consuelo me debe mostrar el texto efectivamente me devuelve
+
+42
+00:04:00,290 --> 00:04:01,580
+el texto que hay aquí.
+
+43
+00:04:01,970 --> 00:04:09,770
+Ok perfecto también utiliza el INER HTML que es lo mismo lo que pasa es que viene el HTML me permite
+
+44
+00:04:10,610 --> 00:04:20,150
+asignarle un valor nuevo a ese contenido de forma que si yo hago contenido en texto punto y en HTML
+
+45
+00:04:21,240 --> 00:04:22,460
+y sin otro valor
+
+46
+00:04:25,700 --> 00:04:30,010
+otro texto para el segundo elemento.
+
+47
+00:04:31,040 --> 00:04:37,790
+Si hago esto efectivamente se actualiza la pantalla me cambia ese texto decir que yo estoy manipulando
+
+48
+00:04:38,510 --> 00:04:43,070
+el link como me da la gana de acuerdo entiendo el contenido que yo quiero podría incluso cambiarle los
+
+49
+00:04:43,070 --> 00:04:45,170
+estilos como ya enseñó por aquí vale.
+
+50
+00:04:45,300 --> 00:04:53,000
+Copiando esto por ejemplo podría ponerlo en rojo solamente el elemento que yo he elegido que es el elemento
+
+51
+00:04:53,000 --> 00:05:00,100
+número dos del array de dips vale porque todos los elementos del DOM son una raya al final.
+
+52
+00:05:00,200 --> 00:05:05,610
+Entonces yo le cambio el color que yo quiera incluso podría recorrer todos los días que hay.
+
+53
+00:05:05,720 --> 00:05:14,390
+Vale podría hacer un podría hacer un Frits todos los días.
+
+54
+00:05:14,390 --> 00:05:15,010
+Punto.
+
+55
+00:05:15,020 --> 00:05:21,950
+For It Esto tiene una función de Calvache con el valor y el índice
+
+56
+00:05:25,530 --> 00:05:30,230
+hago esto voy a crear una lista y la voy a meter dentro del body vale.
+
+57
+00:05:30,450 --> 00:05:31,970
+Por ejemplo podría hacer eso.
+
+58
+00:05:32,070 --> 00:05:33,280
+Entonces cómo hago eso.
+
+59
+00:05:33,300 --> 00:05:40,770
+Puedo utilizar el create Element para crear un elemento HTML JavaScript o simplemente incrustar esos
+
+60
+00:05:40,770 --> 00:05:47,150
+valores dentro de un dip o de una etiqueta cualquiera de acuerdo muy sencillo.
+
+61
+00:05:47,160 --> 00:05:56,370
+Utilizar el documento punto create Element create Element y voy a crear un párrafo.
+
+62
+00:05:56,370 --> 00:06:01,290
+Vamos a crear párrafos venga simplemente le pongo el nombre la etiqueta.
+
+63
+00:06:01,380 --> 00:06:13,860
+Voy a crear un p y le voy a meter document punto create text no es decir Cojo el valor que me hiere
+
+64
+00:06:14,370 --> 00:06:21,560
+el valor que me hiele en el bucle de cada uno de esos dips y hago lo siguiente.
+
+65
+00:06:21,720 --> 00:06:22,990
+Esto no me lo creo.
+
+66
+00:06:22,990 --> 00:06:27,390
+Dentro de una variable que se va a llamar párrafo
+
+67
+00:06:31,540 --> 00:06:37,960
+y esto lo creó dentro de una variable que se va a llamar texto en cada una de las iteración entonces
+
+68
+00:06:38,350 --> 00:06:45,980
+meto el texto dentro del párrafo párrafo punto APEN Chilet
+
+69
+00:06:50,700 --> 00:06:53,030
+texto vale simplemente
+
+70
+00:06:55,620 --> 00:06:59,810
+y ahora lo que puedo hacer es meter este párrafo.
+
+71
+00:06:59,820 --> 00:07:03,450
+Cada uno de estos párrafo dentro de otra etiqueta vale.
+
+72
+00:07:03,450 --> 00:07:04,310
+Cómo puedo hacer esto.
+
+73
+00:07:04,310 --> 00:07:06,990
+Pues simplemente si yo me creo que una etiqueta
+
+74
+00:07:09,860 --> 00:07:11,670
+como va creando una etiqueta justo aquí
+
+75
+00:07:15,030 --> 00:07:19,760
+que va a ser una etiqueta sections con ideé mi sección
+
+76
+00:07:22,500 --> 00:07:22,680
+vale
+
+77
+00:07:25,450 --> 00:07:28,550
+sección y le voy a meter un H.R dentro
+
+78
+00:07:31,880 --> 00:07:38,840
+y dentro de esa etiqueta yo lo puedo seleccionar con el selector por ejemplo puedo hacer documento
+
+79
+00:07:42,530 --> 00:07:46,010
+punto Cuadri selectos y voy a seleccionar esa etiqueta.
+
+80
+00:07:46,010 --> 00:07:57,070
+En este caso mi sección almohadilla mi sección y entonces puedo hacer un Appen.
+
+81
+00:07:57,800 --> 00:08:02,930
+Vale simplemente hago eso y añado el párrafo ya está.
+
+82
+00:08:03,170 --> 00:08:04,030
+Así de sencillo.
+
+83
+00:08:04,040 --> 00:08:10,760
+Vale si lo probamos vamos a actualizar la pantalla y vamos a comprobar que tengo un error todos los
+
+84
+00:08:10,760 --> 00:08:11,110
+días.
+
+85
+00:08:11,120 --> 00:08:20,180
+Foolish no nos da Función y este error pasa porque Follies realmente solo sirve para recorrer Arráiz
+
+86
+00:08:20,270 --> 00:08:25,460
+que nosotros hayamos creado con valores con objeto o con estribe o con cosas así.
+
+87
+00:08:25,700 --> 00:08:31,460
+Pero esto realmente es una HTML Collection entonces no podemos utilizar el Follies tendríamos que utilizar
+
+88
+00:08:31,550 --> 00:08:34,310
+otro bucle.
+
+89
+00:08:34,310 --> 00:08:43,160
+Vale por ejemplo podríamos utilizar el florín vamos a comentar esta línea y esta otra Iván utiliza el
+
+90
+00:08:43,180 --> 00:08:47,730
+for in Math que es lo mejor y más recomendable para esto.
+
+91
+00:08:49,240 --> 00:08:50,360
+Vamos a recorrer
+
+92
+00:08:56,380 --> 00:09:02,690
+los elementos que hay adentro de todos los dips valor y todos los dips
+
+93
+00:09:07,800 --> 00:09:13,050
+y cierra Alford para capturar el valor tendría que coger todos los detalles
+
+94
+00:09:15,680 --> 00:09:19,540
+valor y coger el text content.
+
+95
+00:09:19,550 --> 00:09:22,790
+De esta manera sí que podría hacerlo y actualizo la pantalla.
+
+96
+00:09:22,790 --> 00:09:29,490
+Me dice que tengo un error valor y Not defined porque esta variable la tengo que definir antes Malet
+
+97
+00:09:29,540 --> 00:09:43,540
+lo que define la variable VaR valor vale simplemente con esto me dice contenía un texto tampoco es tampoco
+
+98
+00:09:43,540 --> 00:09:51,830
+está definido efectivamente esto ya no está definido voy a comentarlo o incluso voy a borrar estos comentarios
+
+99
+00:09:52,560 --> 00:09:57,810
+y ahora si que me va a funcionar porque esta variable tiene que estar previamente definida.
+
+100
+00:09:57,990 --> 00:10:05,500
+Se hizo la pantalla efectivamente aquí me aparece miralo mi primer Dip ni si el contenido de mi segundo
+
+101
+00:10:05,800 --> 00:10:13,720
+el tercero y el cuarto de acuerdo después de varios son definite porque realmente estará pasando o estar
+
+102
+00:10:13,720 --> 00:10:19,260
+haciendo varios varios varias iteraciones más.
+
+103
+00:10:19,510 --> 00:10:27,410
+No sé por qué exactamente podemos hacer un consuelo de todos los días primero con solo Autolog
+
+104
+00:10:30,130 --> 00:10:30,970
+todos los tips
+
+105
+00:10:34,640 --> 00:10:36,200
+me saca los cuadros.
+
+106
+00:10:36,380 --> 00:10:47,470
+Hasta ahí estamos bien y lo vamos a hacer un consuelo de valor en cada iteración o incluso de valor
+
+107
+00:10:47,690 --> 00:10:49,250
+para ver que me devuelve
+
+108
+00:10:52,100 --> 00:10:53,270
+aquí me devuelve
+
+109
+00:10:57,570 --> 00:11:02,060
+me devuelve aquí varios elementos que no son realmente un elemento del DOM.
+
+110
+00:11:02,670 --> 00:11:07,130
+Entonces cómo puedo comprobar si esto es un elemento del DOM.
+
+111
+00:11:07,320 --> 00:11:12,580
+Simplemente tendría que hacer UNIV tendría que hacer Univ.
+
+112
+00:11:12,660 --> 00:11:18,750
+Es muy sencillo simplemente tengo que comprobar si esto es un texto o no. Si yo cojo esto y compruebo
+
+113
+00:11:18,810 --> 00:11:21,800
+si todos los Dib valor .3 contén.
+
+114
+00:11:22,920 --> 00:11:35,400
+Si esto es un texto es decir cierto punto Lent es mayor o igual a uno entonces que me deje meter el
+
+115
+00:11:35,400 --> 00:11:40,920
+elemento dentro de la sección y nos pinte el elemento en la lista que estamos haciendo.
+
+116
+00:11:40,930 --> 00:11:49,890
+Esto hizo la pantalla me dice que tengo un error en GH es un defined pero aun así me lo está haciendo
+
+117
+00:11:49,890 --> 00:11:50,240
+bien.
+
+118
+00:11:50,240 --> 00:11:53,280
+Ya ya me lo está haciendo bien aunque aquí me marque el error.
+
+119
+00:11:53,280 --> 00:12:02,130
+Podría utilizar Elen que no está mal pero nos marca una advertencia y también puede utilizar el tipo
+
+120
+00:12:02,220 --> 00:12:12,260
+de acuerdos y utilizo Taipe off y realmente me devuelve un elemento cuyo tipo es string.
+
+121
+00:12:12,510 --> 00:12:18,270
+Si esto pasa entonces sí que me lo va añadir y no marca ningún error y efectivamente aquí me muestra
+
+122
+00:12:18,510 --> 00:12:20,160
+el listado completo.
+
+123
+00:12:20,160 --> 00:12:29,880
+Vale incluso esto me lo añade loprimero fíjate si inspeccionamos aquí la sección vamos a revisar la
+
+124
+00:12:29,880 --> 00:12:36,720
+sección como esta vemos que el H.R lo mete lo primero que es lo que ya había y nos hacía un APEN de
+
+125
+00:12:36,810 --> 00:12:43,530
+cada uno de esos párrafos con el contenido de texto que tienen los que yo tengo aquí abajo no y puedo
+
+126
+00:12:43,530 --> 00:12:51,720
+hacer un APEN como estoy viendo aquí puedo hacer un APEN o puedo hacer un prevendrá.
+
+127
+00:12:53,220 --> 00:12:58,710
+Efectivamente utilizo el PP solamente si que no funciona y si utilizo el Append
+
+128
+00:13:03,680 --> 00:13:08,820
+pues también me funciona simplemente el chip no hace falta realmente si utilizo el PP en
+
+129
+00:13:13,590 --> 00:13:15,620
+pues de igual forma el HD Ready.
+
+130
+00:13:15,670 --> 00:13:19,440
+Entonces qué puedo hacer para solventar eso cuando acabábamos de hacer el bucle.
+
+131
+00:13:19,440 --> 00:13:28,020
+Añadir otro H.R y hasta simplemente incluso aquí podría poner preven.
+
+132
+00:13:28,140 --> 00:13:34,010
+Efectivamente ahí sí cambio la Pensil por Pepe me funciona y aquí simplemente le pongo APEN y Append
+
+133
+00:13:34,020 --> 00:13:41,540
+significa añade después y añade antes esto lo voy a cambiar a APEN
+
+134
+00:13:44,540 --> 00:13:48,600
+y aquí dentro voy a crear el menú H1 que diga
+
+135
+00:13:51,120 --> 00:13:56,870
+listado de textos de los tips.
+
+136
+00:13:56,960 --> 00:14:05,100
+Vale actualizo la pantalla y efectivamente me lo añade aquí de acuerdo genial y luego yo puedo hacer
+
+137
+00:14:05,100 --> 00:14:13,470
+lo que yo quiera decirle puedo añadir puedo añadir cualquier cosa podría añadir un H.R justo con él
+
+138
+00:14:13,590 --> 00:14:25,680
+utilizando el DOM simplemente podría coger sección hacer una variable HR-V y hacer documento punto create
+
+139
+00:14:25,740 --> 00:14:36,290
+Element H.R y podría simplemente hacer un sección Punto Appen HDR.
+
+140
+00:14:36,360 --> 00:14:42,660
+Simplemente con esto ya me haría una separación abajo hacia arriba si le pongo trepen
+
+141
+00:14:46,800 --> 00:14:49,500
+también me hacia arriba todavía antes del.
+
+142
+00:14:51,150 --> 00:14:57,180
+Pero yo quiero añadirla al final del todo así que le añado al final del todo APEN.
+
+143
+00:14:57,180 --> 00:15:03,810
+De esta manera efectivamente Haime hacia la separación añade ese elemento con lo cual ya hemos visto
+
+144
+00:15:03,810 --> 00:15:10,110
+más cositas acerca de cómo trabajar con el don cómo manipularlo cómo crear el elemento HTML JavaScript
+
+145
+00:15:10,140 --> 00:15:19,410
+cómo meter contenido dentro de otro DIV utilizando APEN y preven o dentro de otro elemento HTML utilizando
+
+146
+00:15:19,740 --> 00:15:26,520
+estos medios que estamos viendo y entonces pues ya hemos visto muchas cositas más acerca de cómo manipular
+
+147
+00:15:26,580 --> 00:15:32,970
+el DOM y cómo trabajar con los diferentes métodos y propiedades que ofrece JavaScript para manipularlo.

@@ -1,0 +1,87 @@
+1
+00:00:00,480 --> 00:00:07,500
+Uno de los elementos también muy importante dentro de una web es un pitcher o un calendario con fecha
+
+2
+00:00:07,500 --> 00:00:08,430
+seleccionable.
+
+3
+00:00:08,460 --> 00:00:17,190
+Vale pues uno de los más conocido en el mundo del desarrollo web es el que incluye contribuí y hay muchísimos
+
+4
+00:00:17,190 --> 00:00:17,400
+más.
+
+5
+00:00:17,400 --> 00:00:20,510
+Como ya sabe porque estos son plugins que vamos añadiendo.
+
+6
+00:00:20,760 --> 00:00:30,250
+Pero este funcionó muy bien y lo usamos muchísimo en mucho desarrollo no así que vamos a ver cómo incluir
+
+7
+00:00:30,250 --> 00:00:33,080
+un dato Piquer dentro de nuestra web.
+
+8
+00:00:33,190 --> 00:00:39,670
+Esto es más fácil de lo que imagina o sea la dinámica es igual de sencilla que esto simplemente vamos
+
+9
+00:00:39,670 --> 00:00:42,280
+a crear una sección igual que ésta
+
+10
+00:00:47,550 --> 00:01:00,070
+pero vamos por aquí y vamos a ver un calendario y lo único que vamos a tener es un input de tipo de
+
+11
+00:01:00,070 --> 00:01:08,670
+texto y va a tener una idea de que va a ser calendario por ejemplo y simplemente voy a mi código JavaScript.
+
+12
+00:01:08,670 --> 00:01:10,350
+Aquí vamos a ver El dato Pinker
+
+13
+00:01:14,410 --> 00:01:22,810
+y simplemente aquí utilizo el elemento que acabo de crear que tiene como IDE calendario y utilizo el
+
+14
+00:01:22,810 --> 00:01:26,380
+método date picas.
+
+15
+00:01:26,380 --> 00:01:35,590
+Así de sencillo guardo actualizo la pantalla me planto encima y ya me aparece aquí mi calendario perfectamente
+
+16
+00:01:35,950 --> 00:01:36,300
+hecho.
+
+17
+00:01:36,310 --> 00:01:41,300
+Si yo le doy clic a alguna fecha pues me la cambia la fecha de input.
+
+18
+00:01:41,600 --> 00:01:45,010
+Aquí yo podría seleccionar por la fecha que yo quisiera o lo que sea.
+
+19
+00:01:45,010 --> 00:01:45,940
+Así de sencillo.
+
+20
+00:01:45,940 --> 00:01:51,190
+De igual forma por Internet hay un montón de Date piques de un montón de calendario un montón de plugins
+
+21
+00:01:51,550 --> 00:01:55,650
+para metérselo a nuestro Cury y hacer cosas como esta tan increíble.
+
+22
+00:01:55,660 --> 00:01:59,930
+Así que con esto ya hemos visto cómo crear un calendario en serio.

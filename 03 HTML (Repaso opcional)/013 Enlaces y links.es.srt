@@ -1,0 +1,171 @@
+1
+00:00:00,240 --> 00:00:05,220
+Ahora vamos a aprender a crear enlaces dentro de HTML para poder enlazar las diferentes páginas que
+
+2
+00:00:05,220 --> 00:00:12,210
+hemos creado en nuestro en nuestra primera página web y además vamos a ver cómo enlazar y cómo hacer
+
+3
+00:00:12,210 --> 00:00:14,600
+links a diferentes redes.
+
+4
+00:00:15,150 --> 00:00:21,840
+En este caso nosotros tenemos aquí un menú que hay tres elementos de inicio contenidos y contactos para
+
+5
+00:00:21,840 --> 00:00:22,790
+crear un enlace.
+
+6
+00:00:22,800 --> 00:00:32,070
+Existe la etiqueta a HR-V con ese atributo que nos va a permitir poner un link que nos dirija a cualquier
+
+7
+00:00:32,360 --> 00:00:37,870
+releyó que pueda poner una web R.L que me lleve a Google Web.com por ejemplo.
+
+8
+00:00:37,960 --> 00:00:44,760
+Y eso sería un link que me llevaría a esa web Relay en el navegador pero también puedo coger y decirle
+
+9
+00:00:45,000 --> 00:00:50,780
+que me lleve a un fichero concreto que haya dentro de mi proyecto Web con HTML.
+
+10
+00:00:50,850 --> 00:00:58,520
+En este caso este elemento del menú me debe llevar a índex punto HTML vale porque es el fichero que
+
+11
+00:00:58,620 --> 00:01:06,960
+tengo aquí y también le puede indicar un atributo títol para indicarle el título de la página a la que
+
+12
+00:01:06,960 --> 00:01:12,980
+voy pues la página de inicio y voy a hacer enlaces por cada uno de los elementos del menú.
+
+13
+00:01:13,000 --> 00:01:18,910
+Voy a hacer otro enlace con el atributo HR-V para que me lleve a otra página.
+
+14
+00:01:18,930 --> 00:01:28,230
+En este caso contenidos junto a HTML le puedo poner un Ditaires si quiere y si no no pasa nada y lo
+
+15
+00:01:28,230 --> 00:01:34,770
+mismo con un contacto creó la etiqueta le pongo el atributo HR-V y le pongo el nombre de el fichero
+
+16
+00:01:34,860 --> 00:01:39,640
+la ruta del fichero al que quiero redirigir con el que quiero enlazar.
+
+17
+00:01:39,640 --> 00:01:50,100
+En este caso contacto junto al HTML Bárez cierro la etiqueta guardo y se actualizó la pantalla me aparecen
+
+18
+00:01:50,220 --> 00:01:50,880
+links.
+
+19
+00:01:50,930 --> 00:01:57,480
+Vale si doy a uno de ellos he cambiado de contenidos lo que pasa es que aquí no tengo ese menú de la
+
+20
+00:01:57,480 --> 00:02:02,970
+misma forma que tengo en el Index así que voy a copiar el menú y lo voy a pegar en el resto de páginas
+
+21
+00:02:03,570 --> 00:02:07,260
+de mi página web de mi proyecto web.
+
+22
+00:02:07,830 --> 00:02:11,330
+Guardo en todas actualizo la pantalla y ya pude ir navegando.
+
+23
+00:02:11,350 --> 00:02:18,810
+Vale voy a contactos contenidos a inicio a contenidos de nuevo a contacto a Inicio y para ver lo que
+
+24
+00:02:18,810 --> 00:02:26,790
+hemos hecho antes de que me lleve a Google voy a crear un nuevo elemento y por ejemplo voy a crear un
+
+25
+00:02:26,790 --> 00:02:39,300
+link a HR-V que me lleve a HTTPS dos puntos barra barra Víctor Robles web punto es barra Academy y aquí
+
+26
+00:02:39,300 --> 00:02:45,660
+podría ponerle cursos online y voy a cerrar el link y además voy a ponerle un atributo nuevo que es
+
+27
+00:02:45,660 --> 00:02:48,080
+el target con el target.
+
+28
+00:02:48,090 --> 00:02:53,790
+Yo puedo indicarle que me lo abra en una nueva pestaña o no vale normalmente si le pongo el target es
+
+29
+00:02:53,790 --> 00:02:59,120
+por utilizar Target y un bajo Blanck para que me abra este nuevo enlace.
+
+30
+00:02:59,130 --> 00:03:06,600
+Cuando yo de clic en una pestaña del navegador se actualiza la pantalla y me voy a inicio o en este
+
+31
+00:03:06,600 --> 00:03:13,170
+caso a contacto aquí me aparece cursos online de click me abre una nueva pestaña en el navegador y me
+
+32
+00:03:13,170 --> 00:03:17,160
+abre la página que yo le he indicado con el target Blank.
+
+33
+00:03:17,160 --> 00:03:25,890
+Conseguimos eso con esta propiedad este atributo Target y luego indicándole el guión bajo Blanc me abre
+
+34
+00:03:25,890 --> 00:03:32,650
+una nueva pestaña en el navegador y si no si no lo pusiera me la abrirían el mismo en la misma pista
+
+35
+00:03:32,700 --> 00:03:33,870
+en la que estamos navegando
+
+36
+00:03:37,540 --> 00:03:42,500
+dar ahora me lo carga en la misma pestaña en la que estamos navegando pues conecto y ya hemos aprendido
+
+37
+00:03:42,590 --> 00:03:46,550
+HTML básico y ya tenemos las bases para empezar a crear páginas web.
+
+38
+00:03:46,580 --> 00:03:51,740
+Ya tenemos lo más fundamental aprendido a partir de aquí podríamos seguir avanzando aprender más cosas
+
+39
+00:03:51,740 --> 00:04:00,380
+acerca de HTML HTML5 aprender CSS seguir aprendiendo directamente cosas como PHP o seguir aprendiendo
+
+40
+00:04:00,380 --> 00:04:08,480
+JavaScript o seguir aprendiendo más cosas pero lo que es la base de lo que es la web es decir los conceptos
+
+41
+00:04:08,480 --> 00:04:13,940
+más básicos de creación de páginas web lo que todo el mundo debería saber acerca de cómo crear una página
+
+42
+00:04:13,940 --> 00:04:14,540
+web vital.
+
+43
+00:04:14,570 --> 00:04:15,550
+Ya lo sabemos.

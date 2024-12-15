@@ -1,0 +1,219 @@
+1
+00:00:00,960 --> 00:00:05,540
+Vamos a instalar Cygwin que es un emulador de la consola de Linux de acuerdo para Windows.
+
+2
+00:00:05,790 --> 00:00:12,630
+Este emulador nos va a permitir tener una terminal como si fuera la de Linux prácticamente al 95 por
+
+3
+00:00:12,630 --> 00:00:18,390
+ciento de acuerdo noventa y tanto que nos facilitará muchísimo la vida a la hora de trabajar con la
+
+4
+00:00:18,390 --> 00:00:24,750
+consola de acuerdo le vamos a dar a instalar la madera que queremos esta ruta decimos que el directorio
+
+5
+00:00:24,750 --> 00:00:31,380
+donde va a guardar los paquetes va a ser otro de acuerdo así que voy a crearlo por aquí en mi CDOs punto
+
+6
+00:00:32,220 --> 00:00:41,620
+de acuerdo busco el directorio donde queremos instalarlo lo que vista en el equipo ni se 2.La aceptar
+
+7
+00:00:42,490 --> 00:00:49,040
+y aquí quiero crear una nueva carpeta donde vayan todos esos paquetes que se va a descargar Cygwin de
+
+8
+00:00:49,040 --> 00:00:49,830
+acuerdo.
+
+9
+00:00:49,830 --> 00:01:00,280
+Aparte de eso este Cygwin nos va a permitir tener el Guidi instalado e instalar también el SSH aplicaciones
+
+10
+00:01:00,290 --> 00:01:07,040
+de consola que típicamente están en el Linux de acuerdo y nos va a facilitar mucho el trabajo vale muchísimo
+
+11
+00:01:07,070 --> 00:01:12,440
+porque para la gente que nos gusta Linux estamos acostumbrados a esa consola pues nos va a venir muy
+
+12
+00:01:12,440 --> 00:01:18,350
+bien de acuerdo a la carpeta se van a llamar Cygwin Packages y ahí van a ir todas las dependencias que
+
+13
+00:01:18,350 --> 00:01:20,410
+descargue esta aplicación.
+
+14
+00:01:20,660 --> 00:01:23,250
+A ver si podemos seleccionar bien.
+
+15
+00:01:23,750 --> 00:01:34,700
+Tenemos equipo y con buscamos la carpeta donde está Cygwin packages afectar damos a siguiente le decimos
+
+16
+00:01:34,700 --> 00:01:41,000
+que descarga directa y ahora elige un servidor donde va a descargar todos esos paquetes de acuerdo le
+
+17
+00:01:41,000 --> 00:01:48,610
+vamos a dar a ese mismo siguiente y bueno pues a elegir lo que queremos instalar en el programa.
+
+18
+00:01:48,710 --> 00:01:56,850
+Por ejemplo a mí me gustaría instalar GIT así que voy a buscar Git en este buscador donde como podemos
+
+19
+00:01:56,850 --> 00:02:03,860
+ver tenemos una serie de paquetes que podríamos instalar como tendríamos en Linux no sería una especie
+
+20
+00:02:04,370 --> 00:02:05,950
+de aptitudes.
+
+21
+00:02:07,080 --> 00:02:15,950
+Así que voy a instalar ghi a deber y ahí tengo GIT que es un control de versiones de acuerdo nos va
+
+22
+00:02:15,950 --> 00:02:18,890
+a permitir hacer controles de versiones etcétera.
+
+23
+00:02:18,890 --> 00:02:26,690
+Esto es muy muy muy muy muy cómodo de acuerdo bien y te eso vamos a instalar también el SSH de acuerdo
+
+24
+00:02:26,690 --> 00:02:33,080
+así que vamos a buscarlo aparte de Podemos revisar qué paquete hay Maltez de Guitá etcétera.
+
+25
+00:02:33,080 --> 00:02:38,060
+Pero bueno no es necesario vamos a instalar también el SSH
+
+26
+00:02:42,030 --> 00:02:47,940
+de acuerdo que nos va a permitir hacer conexiones a servidores etcétera y lo vamos a tener ya instalado
+
+27
+00:02:47,940 --> 00:02:56,250
+el Open SH de acuerdo le damos el KiB instalamos una versión y podríamos instalar también un editor
+
+28
+00:02:56,250 --> 00:03:03,630
+de código como es el Nano vale que nos va a permitir dentro de nuestra consola modificar fichero y en
+
+29
+00:03:03,630 --> 00:03:08,860
+principio creo que ya no vamos a estar en nada bueno si el WCT porque eso nos va a permitir descargar
+
+30
+00:03:08,860 --> 00:03:12,420
+el fichero desde la web haciendo un comando Wg y la UE Relais.
+
+31
+00:03:12,570 --> 00:03:22,080
+Y si los descarga de acuerdo van a marcar este y en principio creo que queda más porque no DJs como
+
+32
+00:03:22,080 --> 00:03:24,060
+puedes comprobar no está en la lista.
+
+33
+00:03:25,500 --> 00:03:32,380
+Entonces vamos a darle a siguiente enseguida podemos instalar también más herramientas por ejemplo la
+
+34
+00:03:32,430 --> 00:03:39,240
+herramienta típica de Genome hay este herramienta para bases de datos audio es como si fuera la tienda
+
+35
+00:03:39,240 --> 00:03:45,330
+de aplicaciones está aquí en Ubuntu o el gestor de paquetes actitude que hay en Ubuntu y Debian pues
+
+36
+00:03:45,450 --> 00:03:51,540
+muy parecido tendríamos miles de millones de paquetes para instalar de acuerdo solamente que tenemos
+
+37
+00:03:51,720 --> 00:03:58,050
+el emulador de la consola Linux en Windows pero no le damos a Siguiente ahora tiene todas las dependencias
+
+38
+00:03:58,050 --> 00:04:06,290
+que va a instalar le vamos a dar la siguiente Balay puedes revisar todas las que quieras dependencias
+
+39
+00:04:06,370 --> 00:04:07,160
+todo lo que va a estar.
+
+40
+00:04:07,170 --> 00:04:12,700
+Siguiente y no esperamos a que se las descargue.
+
+41
+00:04:12,700 --> 00:04:17,280
+Esto va a tardar un ratito bueno vale así que esperamos lo que tarde
+
+42
+00:04:20,560 --> 00:04:27,720
+y al final crean un único en el escritorio y añadimos al menú de inicio ya le podemos dar a finish y
+
+43
+00:04:27,730 --> 00:04:31,660
+ya tendríamos nuestro programa instalado de acuerdo le vamos a dar a finish
+
+44
+00:04:35,250 --> 00:04:38,810
+y ahora podemos probarlo de acuerdo vamos a abrirlo desde el acceso directo
+
+45
+00:04:42,030 --> 00:04:46,250
+lo vamos a abrir y ya tenemos nuestra consola de comandos.
+
+46
+00:04:46,260 --> 00:04:49,130
+Vale ha creado un directorio home como si fuera el de Linux.
+
+47
+00:04:49,140 --> 00:04:55,440
+Le damos CD y vamos a la Jonh podemos hacer L.S podemos entrar a donde queramos por ejemplo el disco
+
+48
+00:04:55,440 --> 00:05:05,860
+duro C está dentro de C Ingeborg centro de punto Barrapunto punto y aquí tenemos una carpeta C y G Drive
+
+49
+00:05:06,030 --> 00:05:13,120
+y ahí tenemos la unidad de disco de Windows acurdo podemos hacer un R.S. Tenemos todo y podríamos hacer
+
+50
+00:05:13,120 --> 00:05:13,960
+por lo que quisiéramos.
+
+51
+00:05:13,990 --> 00:05:15,280
+A partir de aquí con la consola
+
+52
+00:05:18,650 --> 00:05:24,890
+vale podemos probar también que tenemos Guidi instalado y sube de acuerdo que lo tenemos en verdad pero
+
+53
+00:05:25,120 --> 00:05:31,840
+guitarreros menos versión ahí nos pone la versión de IT podemos ver qué versión de SSH tenemos también
+
+54
+00:05:34,550 --> 00:05:40,700
+y podríamos hacer lo que te pasa por la cabeza a partir de aquí y esta consola va a ser la que voy a
+
+55
+00:05:40,700 --> 00:05:42,410
+estar utilizando en el curso.

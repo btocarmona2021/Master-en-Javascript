@@ -1,0 +1,155 @@
+1
+00:00:00,270 --> 00:00:07,020
+Ahora vamos a ver cómo utilizar los importes y los eSports vale para eso voy a crearme un archivo nuevo
+
+2
+00:00:08,070 --> 00:00:18,810
+que se va a llamar minipunto ts y esto lo tengo que crear dentro de la carpeta J.S. minipunto TSE que
+
+3
+00:00:18,810 --> 00:00:21,760
+va a ser el archivo principal de mi aplicación.
+
+4
+00:00:21,780 --> 00:00:26,220
+Vale y este archivo lo que va a tener va a ser una clase simplemente
+
+5
+00:00:28,770 --> 00:00:29,250
+Mayne
+
+6
+00:00:33,270 --> 00:00:37,110
+va a tener un constructor en el cual voy a lanzar un consolé log
+
+7
+00:00:40,630 --> 00:00:52,760
+aplicación J.S. cargada fichero con Kunti como Vale y simplemente aquí abajo hago la instancia new machine
+
+8
+00:00:53,410 --> 00:00:57,490
+y listo y esto va a hacer la funcionalidad porque nosotros le indiquemos
+
+9
+00:01:01,110 --> 00:01:07,360
+o vamos a llamar a partir de aquí vamos a crear una variable Moine a los métodos que necesitemos.
+
+10
+00:01:07,350 --> 00:01:14,710
+Vale ahora este va a ser la clase que se va a cargar principalmente aquí en nuestro HTML en nuestro
+
+11
+00:01:14,710 --> 00:01:21,680
+indexan HTML ese va a ser el script principal que va a ser la aplicación completa minipunto JS vale.
+
+12
+00:01:21,940 --> 00:01:27,670
+Si trabajo con cualquier Frink Word como angular vamos a ver que la estructura es parecida y vamos a
+
+13
+00:01:27,670 --> 00:01:33,640
+tener un fichero principal sobre el que se va a cargar todo y todo eso vamos a volver a ejecutar la
+
+14
+00:01:33,640 --> 00:01:41,470
+compilación vale y si actualizamos la pantalla vamos a ver qué aplicación J.S. cargada nos lanza el
+
+15
+00:01:41,550 --> 00:01:44,540
+consuelo del constructor de la clase principal.
+
+16
+00:01:44,760 --> 00:01:50,890
+Vale entonces imagínate que yo aquí quiero acceder a los métodos que tengo en la clase camiseta quiero
+
+17
+00:01:50,890 --> 00:01:58,060
+crear nuevos objetos de camiseta aquí en mi programa principal porque camiseta es un modelo es una entidad
+
+18
+00:01:58,150 --> 00:02:00,240
+vale para crear otro objeto.
+
+19
+00:02:00,520 --> 00:02:06,960
+Entonces aquí voy a quitar esta parte de código porque no me hace falta.
+
+20
+00:02:07,410 --> 00:02:14,820
+Y para poder utilizar este archivo o esta clase dentro de otro tendré que hacer una exporto vale como
+
+21
+00:02:14,840 --> 00:02:16,410
+en el Esport class para qué.
+
+22
+00:02:16,420 --> 00:02:23,390
+Para poder importar esta clase en cualquier otro archivo y ahora como me lo traigo a punto de S pues
+
+23
+00:02:23,460 --> 00:02:30,340
+hay un punto de ese tengo que utilizar la regla import para importar cualquier clase que yo haya exportado
+
+24
+00:02:30,340 --> 00:02:31,390
+previamente.
+
+25
+00:02:31,390 --> 00:02:40,540
+En este caso voy a importar camiseta la clase camiseta from y le voy a indicar la ruta de mi archivo
+
+26
+00:02:40,600 --> 00:02:46,180
+para importar en este caso apuntó barra para indicarle que estoy en el directorio actual y el archivo
+
+27
+00:02:46,180 --> 00:02:47,290
+sería camiseta.
+
+28
+00:02:48,340 --> 00:02:53,340
+Esa clase va a ser la que yo voy a importar en este momento si reviso la consola no hay ningún fallo
+
+29
+00:02:53,350 --> 00:02:58,510
+si yo actualizo la pantalla si que me dice que tengo un fallo entonces simplemente quería explicar que
+
+30
+00:02:58,510 --> 00:03:04,360
+este tipo de cosas existen y que las veremos en profundidad en la parte angular veremos cómo funciona
+
+31
+00:03:05,610 --> 00:03:12,460
+porque en la parte de ángulos ya tenemos web configurado que es un compilado y un optimizador del proyecto
+
+32
+00:03:12,490 --> 00:03:19,690
+angular y todo el tema de los Import Export ya vienen configurado y funcionan perfectamente así que
+
+33
+00:03:19,720 --> 00:03:21,390
+eso es lo que veremos más adelante.
+
+34
+00:03:21,400 --> 00:03:26,860
+Simplemente aquí quería decirte que esto existía que esto es lo que vamos a estar viendo y por el momento
+
+35
+00:03:26,860 --> 00:03:34,490
+pues ya hemos hecho la explicación de esto así que por el momento podemos quitar la parte del eSport
+
+36
+00:03:36,680 --> 00:03:41,110
+vale y dejar el scrip
+
+37
+00:03:43,560 --> 00:03:47,380
+camiseta puntos JS cargado en el índex.
+
+38
+00:03:47,430 --> 00:03:54,840
+Ahora no nos da ningún error y ya podemos seguir trabajando con Taipe scrip y con las nuevas cosas que
+
+39
+00:03:54,840 --> 00:03:55,890
+vamos a estar viendo ahora.

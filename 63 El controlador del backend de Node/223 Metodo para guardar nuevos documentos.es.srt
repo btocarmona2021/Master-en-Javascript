@@ -1,0 +1,423 @@
+1
+00:00:00,810 --> 00:00:07,110
+Ya tenemos preparado el controlador y las rutas así que ya vamos a empezar a crear métodos que funcionen
+
+2
+00:00:08,190 --> 00:00:09,500
+para nuestro proyecto.
+
+3
+00:00:09,570 --> 00:00:15,330
+En este caso vamos a crear el primer método de nuestra API que va a ser el método Soib proyecto de acuerdo
+
+4
+00:00:15,330 --> 00:00:20,040
+vamos a crear un método que nos permitan guardar un nuevo proyecto en base de datos.
+
+5
+00:00:20,430 --> 00:00:26,460
+Así que voy a crearme el método Soib proyecto
+
+6
+00:00:29,670 --> 00:00:40,170
+y esto va a tener una función anónima que va a recibir una recuesto y una res Okkhoy y para poder crear
+
+7
+00:00:40,170 --> 00:00:47,910
+un nuevo proyecto antes de nada tengo que importar mi modelo para eso voy a crear aquí arriba una variable
+
+8
+00:00:48,480 --> 00:00:49,560
+que se llama el proyecto
+
+9
+00:00:52,260 --> 00:00:58,680
+y voy a requerir hacer un require de mi modelo punto a punto para salir de directorio Proyect barra
+
+10
+00:00:58,970 --> 00:01:06,870
+accedo al directorio Models y cargo del archivo proyecto Fierro con Punto y Coma ya tengo disponible
+
+11
+00:01:06,960 --> 00:01:12,570
+mi modelo vale para hacer instancias de él tantas veces como yo quiera.
+
+12
+00:01:12,840 --> 00:01:20,130
+Para crear un nuevo proyecto tendré que hacer una variable dentro de mi proyecto seis proyectos y tendré
+
+13
+00:01:20,130 --> 00:01:28,500
+que ponerle un nombre que sea proyecto y aquí voy a hacer un nuevo proyecto vale creó un objeto de proyecto
+
+14
+00:01:28,980 --> 00:01:32,210
+yo puedo darle un valor a cada una de las propiedades de mi modelo.
+
+15
+00:01:32,250 --> 00:01:38,700
+Si reviso el modelo nombre descripción categoría años lenguajes y tal no vale todo yo puedo acceder
+
+16
+00:01:38,700 --> 00:01:44,050
+a las propiedades de ese objeto y puedo darle un valor a cada una de las propiedades del nuevo objeto
+
+17
+00:01:44,050 --> 00:01:45,440
+que voy a guardar en la base de datos.
+
+18
+00:01:45,840 --> 00:01:53,730
+Pero antes quiero probar que este método funciona y voy a hacer una respuesta return respecto estatus
+
+19
+00:01:54,660 --> 00:01:59,310
+200 puntos y voy a devolver un mensaje
+
+20
+00:02:03,260 --> 00:02:08,490
+método Saif.
+
+21
+00:02:09,410 --> 00:02:18,270
+Vale vamos a probarlo porque vamos a crear una ruta dentro del fichero de proyecto Punto JS Rutter untó
+
+22
+00:02:18,300 --> 00:02:19,530
+post.
+
+23
+00:02:19,530 --> 00:02:30,780
+La ruta se va a llamar barra Saif Nión Projet va a cargar el objeto Prayuth control y el método Saif
+
+24
+00:02:31,080 --> 00:02:40,090
+proyecto Malen guardamos nos vamos al Postman y aquí vamos a hacer una petición por vos a la ruta SOIB
+
+25
+00:02:40,470 --> 00:02:47,950
+y un proyecto ha decidido hacen me devuelve método 6 proyecto lo cual el método funciona bien.
+
+26
+00:02:48,240 --> 00:02:51,650
+Ahora nos queda hacer las diferentes acciones.
+
+27
+00:02:51,670 --> 00:02:58,200
+Vale yo puedo darle un valor a esas propiedades que tiene el modelo el nuevo objeto que acabo de crear.
+
+28
+00:02:58,530 --> 00:03:03,860
+Entonces para eso voy a recoger los parámetros que me llevan por el body de la petición.
+
+29
+00:03:03,860 --> 00:03:09,830
+Vale voy a crear una variable llamada parámetro de aquí voy a hacer REC punto body.
+
+30
+00:03:10,050 --> 00:03:21,540
+Si yo un consuelo de esto o directamente devuelvo aquí paramos vas a ver lo que hay y si le hacen me
+
+31
+00:03:21,540 --> 00:03:28,720
+devuelve nombre y apellidos efectivamente en el body yo tengo esos parámetros que tengo ese objeto Yeison
+
+32
+00:03:29,010 --> 00:03:33,970
+porque ya el body parser actúa y cuando yo envío algo por el body me lo convierte en objeto Yeison vale
+
+33
+00:03:34,710 --> 00:03:39,370
+entonces tengo ese objeto ahí vale.
+
+34
+00:03:39,460 --> 00:03:47,790
+Entonces yo a cada una de las propiedades de mi objeto Projet por ejemplo acopiada Nein le puedo dar
+
+35
+00:03:47,880 --> 00:03:59,490
+el valor Parham Spuntone y que se lo voy a enviar por post a la propiedad description.
+
+36
+00:04:00,300 --> 00:04:01,890
+También le voy a dar un valor
+
+37
+00:04:06,880 --> 00:04:15,030
+a la propiedad category le voy a dar otro valor a la propiedad.
+
+38
+00:04:15,110 --> 00:04:16,720
+Guier le voy a dar otro valor
+
+39
+00:04:19,790 --> 00:04:28,700
+que se lo voy a enviar por vos a la propiedad Lans le voy a dar otro valor que me va a llegar por vos
+
+40
+00:04:28,750 --> 00:04:36,070
+también y a la propiedad imagen que la vamos a añadir ahora también le vamos a dar un valor nulo porque
+
+41
+00:04:36,070 --> 00:04:37,870
+eso lo haremos luego.
+
+42
+00:04:38,080 --> 00:04:38,980
+Ya tenemos esto.
+
+43
+00:04:38,980 --> 00:04:44,110
+Ahora vamos a hacer unos cambios en el modelo en lugar de que lance a una rey de strip para no hacerlo
+
+44
+00:04:44,110 --> 00:04:46,180
+muy difícil muy complicado.
+
+45
+00:04:46,390 --> 00:04:52,660
+Vamos a decir que sea un string simplemente aviento yo le pase un string con los lenguajes separados
+
+46
+00:04:52,660 --> 00:04:59,440
+por coma o lo que sea vale o la tecnología realmente que he utilizado para eso y luego voy a añadir
+
+47
+00:04:59,440 --> 00:05:01,120
+la propiedad Image.
+
+48
+00:05:02,150 --> 00:05:10,810
+Vale que va a ser un string también y ahí lo guardaría una imagen posteriormente porque haremos un método
+
+49
+00:05:10,810 --> 00:05:17,110
+para eso ya lo tenemos ya tenemos aquí nuestro objeto preparado.
+
+50
+00:05:17,110 --> 00:05:20,940
+Vale entonces vamos a devolver el objeto Projet para ver qué va llevando dentro.
+
+51
+00:05:23,780 --> 00:05:30,110
+Proyecto Ok voy a devolver ese objeto que le reseteado le ha asignado una información a cada una de
+
+52
+00:05:30,110 --> 00:05:30,920
+sus propiedades.
+
+53
+00:05:30,920 --> 00:05:36,650
+Entonces yo me voy al Postman aquí voy a rellenar el nombre la descripción
+
+54
+00:05:41,150 --> 00:05:57,010
+Geer la category los Langen y hasta entonces voy a pasarle el año 2019 la categoría de HP.
+
+55
+00:05:57,800 --> 00:06:06,650
+Desarrollo Web los lenguajes Php valentón si le doy Hazen me devuelve a mi objeto y fijate lo que tiene
+
+56
+00:06:06,650 --> 00:06:08,220
+el objeto vale.
+
+57
+00:06:08,840 --> 00:06:14,780
+Tiene una idea de que eso es lo Hasina automáticamente cuando yo hago un niño cuando Yonny un proyecto
+
+58
+00:06:14,780 --> 00:06:21,800
+automáticamente le asigna una idea y un bajo IDE para guardarlo en la base de datos y que tenga un IDE
+
+59
+00:06:22,370 --> 00:06:28,760
+un identificador un código de identificación de ese objeto el nombre la descripción la categoría el
+
+60
+00:06:28,760 --> 00:06:35,090
+año los links y la imagen que yo le he puesto y que yo lo estoy pasando todo por post de acuerdo recogemos
+
+61
+00:06:35,090 --> 00:06:42,610
+esos parámetros y se temamos esa información y asignamos esos valores a mi objeto de proyecto.
+
+62
+00:06:42,950 --> 00:06:45,320
+Vale ahora cómo puedo guardar este objeto.
+
+63
+00:06:45,320 --> 00:06:51,020
+Finalmente la base de datos pues como ya tenemos el R.M Dmonk Gusen muy sencillo utilizo Projet que
+
+64
+00:06:51,020 --> 00:06:54,430
+es el objeto que acabo de crear y Hasina de todos los valores.
+
+65
+00:06:54,470 --> 00:07:00,710
+Utilizo el metodo Soib de acuerdo al método Soib tiene una función de Calvar dentro que recibe un error
+
+66
+00:07:00,830 --> 00:07:04,470
+o un projet 6.
+
+67
+00:07:05,720 --> 00:07:11,740
+Un proyecto es Toret vale es una función de Calvache normal y corriente.
+
+68
+00:07:12,950 --> 00:07:20,870
+Entonces una vez que se guarde el objeto y la base de datos yo tengo acceso a se va a ejecutar la función
+
+69
+00:07:20,870 --> 00:07:23,980
+de Calvache vale entonces si se produce algún error.
+
+70
+00:07:24,120 --> 00:07:32,370
+R Yo puedo utilizando las cláusulas de guarda hacer un RETURN directamente aquí y haciendo una respuesta
+
+71
+00:07:32,410 --> 00:07:48,050
+redes punto status 500 punto Shen y envió un mensaje que diga error en la petición o error al guardar
+
+72
+00:07:57,560 --> 00:07:58,680
+ok.
+
+73
+00:07:58,860 --> 00:08:05,300
+En el caso de que no se guarde proyectores si no se guarda proyectores pues yo voy a hacer un RETURN
+
+74
+00:08:05,430 --> 00:08:15,270
+si no existe esa variable correctamente si me da false voy a hacer Return 3.El status 4 0 4 porque realmente
+
+75
+00:08:15,270 --> 00:08:21,600
+no va a existir y voy a hacer un SEND y enviar un mensaje que diga
+
+76
+00:08:26,970 --> 00:08:32,760
+no se ha podido guardar la moneda el proyecto
+
+77
+00:08:35,230 --> 00:08:43,170
+cerró con puntico Guim y en el caso de que todo vaya bien y no haya saltado ninguna de las condiciones
+
+78
+00:08:43,170 --> 00:08:53,970
+anteriores pues ya podríamos hacer un returned general res punto estátus 200 punto que hacemos un sen
+
+79
+00:08:54,670 --> 00:09:01,890
+y devolvemos el proyectores dentro de una propiedad Proyect Proyect estores que será el objeto que finalmente
+
+80
+00:09:01,890 --> 00:09:02,800
+se ha guardado.
+
+81
+00:09:02,880 --> 00:09:08,040
+Si yo no le pusiera la propiedad y simplemente le pasara proyectores me crearía una propiedad llamada
+
+82
+00:09:08,070 --> 00:09:10,240
+proyectores así que lo dejo de esta manera.
+
+83
+00:09:10,680 --> 00:09:17,480
+Y esto ya pues me guarda en la base de datos mi mi nuevo proyecto vale ya tengo el método.
+
+84
+00:09:17,520 --> 00:09:20,290
+Así de sencillo puedo hacer.
+
+85
+00:09:20,970 --> 00:09:27,270
+Puedo hacer este tipo de cosas puedo guardar datos en la base de datos vale vamos a comprobar que esto
+
+86
+00:09:27,270 --> 00:09:27,780
+funciona.
+
+87
+00:09:27,780 --> 00:09:30,660
+Yo guardo esto voy a intentar guardarlo.
+
+88
+00:09:30,660 --> 00:09:38,340
+Voy a poner el nombre del proyecto Víctor Robles web o poner directamente la web revela Víctor Robles
+
+89
+00:09:38,340 --> 00:09:39,290
+web.
+
+90
+00:09:39,540 --> 00:09:47,060
+Punto es vale la descripción pues lo de Víctor Robles vale.
+
+91
+00:09:47,490 --> 00:09:53,820
+Le voy a dar asen y me dice okay Projet.
+
+92
+00:09:54,370 --> 00:09:58,210
+No sé cuántas ha guardado guardado.
+
+93
+00:09:58,320 --> 00:10:04,770
+Lo vuelvo a probar me hacen bien y me dice ya que el proyecto es objeto del proyecto sistema añade el
+
+94
+00:10:04,770 --> 00:10:12,440
+campo IDE con el IDE del objeto en la base de datos y medio del campo menos menos sube un bajo bien
+
+95
+00:10:12,450 --> 00:10:17,820
+bajo uve que esto es para hacer diferentes versiones de un documento esto se puede hacer en MongoDB
+
+96
+00:10:17,850 --> 00:10:23,460
+pero realmente no se suele utilizar mucho y simplemente por lo genera automáticamente este campo y ya
+
+97
+00:10:23,460 --> 00:10:27,050
+tenemos todos estos campo y todo este documento guardado en la base de datos.
+
+98
+00:10:27,060 --> 00:10:33,630
+Si yo me voy a robo 3T y aquí hago un refresh vale según refresh
+
+99
+00:10:36,520 --> 00:10:44,800
+documentos vale aquí puedo ver que me ha guardado mis objetos voy a borrar porque he guardado de manera
+
+100
+00:10:44,800 --> 00:10:55,090
+duplicada algún objeto voy a borrarlo donde suprimir borrar todos y vuelvo a enviar esto y vuelvo a
+
+101
+00:10:55,090 --> 00:11:01,210
+hacer un refresh como Documents y aquí tengo mi objeto guardado en la base de datos con toda la información
+
+102
+00:11:01,210 --> 00:11:02,770
+que yo le he dicho.
+
+103
+00:11:02,770 --> 00:11:08,980
+Si veo el documento aquí tengo toda la información que yo he guardado utilizando un método de mi API
+
+104
+00:11:09,220 --> 00:11:10,360
+de acuerdo.
+
+105
+00:11:10,360 --> 00:11:18,010
+Así que de esta manera hemos creado el primer método de la API que nos permite guardar ya un objeto
+
+106
+00:11:18,010 --> 00:11:20,520
+de tipo proyecto en nuestra base de datos.

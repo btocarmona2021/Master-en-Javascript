@@ -1,0 +1,507 @@
+1
+00:00:01,050 --> 00:00:04,160
+Para entender cómo funciona la programación orientada a objetos.
+
+2
+00:00:04,320 --> 00:00:10,930
+En este caso con Taipe scrip vamos a ver qué es una clase etcétera.
+
+3
+00:00:11,020 --> 00:00:16,920
+Entonces hemos dicho que la programación orientada a objetos nos permite concebir la programación como
+
+4
+00:00:16,920 --> 00:00:23,800
+si cualquier cosa fuera un objeto y definiendo pues entidades y objetos concretos para hacer cada cosa.
+
+5
+00:00:24,300 --> 00:00:29,690
+Entonces para definir un objeto lo que tenemos que hacer es utilizar una clase y una clase.
+
+6
+00:00:29,700 --> 00:00:35,660
+Podríamos decir que es un molde con el cual podemos crear infinidad de objetos con características parecidas
+
+7
+00:00:35,670 --> 00:00:36,380
+de acuerdo.
+
+8
+00:00:36,480 --> 00:00:44,250
+Por ejemplo podríamos tener un molde que sea coche y a partir de ese molde crear varios objetos de coche
+
+9
+00:00:44,370 --> 00:00:51,610
+vale crear varios coches diferentes simplemente utilizando el molde de los del objeto que en este caso
+
+10
+00:00:51,610 --> 00:00:53,280
+sería la clase no vale.
+
+11
+00:00:53,300 --> 00:01:00,280
+Entonces podríamos definir objetos de coche diferentes de coche no pero con características diferentes.
+
+12
+00:01:00,330 --> 00:01:07,610
+Por ejemplo un nombre diferente un color diferente un caballo diferente una velocidad diferente etcétera.
+
+13
+00:01:08,220 --> 00:01:14,560
+Vale entonces esta clase la clase sería la plantilla o molde para crear por ejemplo nuevos coches.
+
+14
+00:01:14,550 --> 00:01:23,490
+Vale vamos a ver el ejemplo del coche porque un ejemplo clásico ilustrativo y luego pues esta clase
+
+15
+00:01:23,580 --> 00:01:30,480
+tendrá atributo o propiedad de acuerdo lo que podríamos conocer como variable en la programación funcional
+
+16
+00:01:30,540 --> 00:01:31,690
+o procedimental.
+
+17
+00:01:32,130 --> 00:01:36,780
+Digamos que éstas serán cada una de las piezas o características del coche.
+
+18
+00:01:36,780 --> 00:01:44,130
+Por ejemplo podríamos tener una propiedad que sea nombre otra color otra modelo plazas caballas G velocidad
+
+19
+00:01:44,420 --> 00:01:51,960
+etcétera infinidad de propiedades o atributos que tendrá esa entidad o ese objeto y luego tendremos
+
+20
+00:01:51,960 --> 00:01:53,720
+un método también en una clase.
+
+21
+00:01:53,730 --> 00:01:58,440
+Podemos tener método lo que se podría conocer en la programación normal.
+
+22
+00:01:58,440 --> 00:02:04,880
+Cómo funciona y esto es básicamente estos métodos sean las acciones que es capaz de hacer el coche.
+
+23
+00:02:04,880 --> 00:02:10,350
+Por ejemplo podríamos tener método un método que sea arrancar otro y sea acelerar otro que sea frenar
+
+24
+00:02:10,740 --> 00:02:14,200
+otro que sea encender luces cambiar colores etcétera.
+
+25
+00:02:14,520 --> 00:02:20,280
+Y con los métodos pues básicamente interactuamos con los atributos y propiedades y si es necesario cambiar
+
+26
+00:02:20,520 --> 00:02:27,150
+el valor que esto estas propiedades tienen de acuerdo por ejemplo si tenemos un método acelerar cuando
+
+27
+00:02:27,270 --> 00:02:33,850
+lancemos ese método lo que va a hacer sería aumentar la velocidad del coche por ejemplo.
+
+28
+00:02:34,080 --> 00:02:39,510
+Entonces básicamente pues es la programación orientada a objetos se encarga de que nuestra entidad a
+
+29
+00:02:39,510 --> 00:02:47,040
+la hora de trabajar en una aplicación cada una de cada una de las cosas y de las partes que nosotros
+
+30
+00:02:47,040 --> 00:02:51,740
+hacemos en una aplicación esté todo módulo erizado y esté todo concebido como un objeto.
+
+31
+00:02:51,750 --> 00:02:58,530
+De esa forma nosotros podemos concebir la programación como algo más natural y más real de acuerdo concibiendo
+
+32
+00:02:58,530 --> 00:03:04,800
+cada cosa como si fuera un objeto con propiedades y con método de acuerdo.
+
+33
+00:03:04,800 --> 00:03:12,000
+Y todo ello envuelto en un molde que sería la clase y dentro de la clase ya sabe que tenemos los atributos
+
+34
+00:03:12,210 --> 00:03:18,480
+que serían las características o las variables principales que tendría el objeto y luego por los métodos
+
+35
+00:03:18,570 --> 00:03:25,020
+que se encargarían de interactuar con esos atributos y propiedades y hacer acciones o funciones con
+
+36
+00:03:25,080 --> 00:03:28,390
+funcionalidad y funciones con el objeto en sí.
+
+37
+00:03:28,650 --> 00:03:35,280
+Entonces vamos a ver realmente cómo se trabaja y cómo se crea una clase en donde ya por el momento este
+
+38
+00:03:35,280 --> 00:03:41,070
+fichero prueba apunta TSO podemos cerrar el punto J.S. Y también entonces lo que vamos a hacer va a
+
+39
+00:03:41,070 --> 00:03:49,540
+ser crear un nuevo fichero de escriba aquí que se va a llamar 8.3 no lo vamos a guardar.
+
+40
+00:03:49,540 --> 00:03:57,300
+Vayamos al coche de me acuerdo y aquí lo que vamos a hacer es tener una clase no vamos a definir una
+
+41
+00:03:57,300 --> 00:04:07,500
+clase clase coche vale la forma de definir una clase en JavaScript es mucho más sucia o farragosa que
+
+42
+00:04:07,680 --> 00:04:13,130
+como nos permite hacerlo Taipe scrip utilizando los nuevos estándares de JavaScript etcétera.
+
+43
+00:04:13,170 --> 00:04:18,780
+Esto es muy parecido de una clase así es muy parecido a definirla en cualquier otro lenguaje.
+
+44
+00:04:18,780 --> 00:04:26,210
+Es decir no permite básicamente programar orientado a objetos de una forma mucho más limpia que en JavaScript.
+
+45
+00:04:26,220 --> 00:04:33,900
+Entonces tenemos la clase que acabamos de definir la clase coche madre y le vamos a definir una serie
+
+46
+00:04:33,900 --> 00:04:35,570
+de atributos o propiedades.
+
+47
+00:04:35,640 --> 00:04:42,770
+Por ejemplo vamos a elegir una propiedad pública que luego veremos lo que es la visibilidad de las propiedades
+
+48
+00:04:43,140 --> 00:04:49,320
+y de las variables y todo eso vale una propiedad que va a ser color no vale esto sería una variable
+
+49
+00:04:51,840 --> 00:04:53,700
+que va a tener la clase.
+
+50
+00:04:53,790 --> 00:05:03,320
+Esto va a ser una propiedad el coche va a tener un color luego puede tener también un modelo que también
+
+51
+00:05:03,950 --> 00:05:12,980
+va a ser un esprín y puede también tener velocidad una velocidad que tenga el coche vale que puede ser
+
+52
+00:05:12,980 --> 00:05:14,340
+un Ambel.
+
+53
+00:05:15,380 --> 00:05:20,390
+Vale pues ya tendríamos las características del coche en este caso las propiedades de la clase coche
+
+54
+00:05:20,390 --> 00:05:22,140
+que sería color modelo y velocidad.
+
+55
+00:05:22,150 --> 00:05:29,390
+Vale y pues normalmente con la programación orientada a objetos solemos tener una serie de métodos de
+
+56
+00:05:29,410 --> 00:05:35,080
+Lisset vale esto no tiene por qué cumplirse evidentemente pero es recomendable.
+
+57
+00:05:35,120 --> 00:05:40,670
+Básicamente lo que dicen las buenas prácticas de esto es que tengan una serie de método que sea útil
+
+58
+00:05:40,670 --> 00:05:43,030
+para cada una de las propiedades etc..
+
+59
+00:05:43,250 --> 00:05:48,030
+Un método sería el método que nos consigue el valor que tiene una propiedad.
+
+60
+00:05:48,080 --> 00:05:56,720
+Por ejemplo podemos tener un método Public Guest color que nos va a sacar el color nos va a devolver
+
+61
+00:05:56,840 --> 00:06:05,330
+returned disputo con esto lo que va a hacer va a ser devolvernos el valor que tiene la propiedad color
+
+62
+00:06:05,420 --> 00:06:11,570
+vale con la palabra reservada dice lo que hacemos es acceder al valor de o a una propiedad en concreto
+
+63
+00:06:11,570 --> 00:06:13,330
+de la clase vale Condis.
+
+64
+00:06:13,370 --> 00:06:19,670
+Accedemos a las propiedades que nosotros necesitemos valer disputo con lo que hace acceder al valor
+
+65
+00:06:19,670 --> 00:06:26,690
+que tiene la propiedad color dentro y luego el método set el color
+
+66
+00:06:30,020 --> 00:06:32,660
+que nos va a permitir darle un valor a esa propiedad.
+
+67
+00:06:32,720 --> 00:06:41,520
+Por ejemplo ese color le podríamos pasar un atributo un parámetro que sea un string Vale y le vamos
+
+68
+00:06:41,520 --> 00:06:46,340
+a pasar este parámetro y guardarlo dentro de la propiedad color vale.
+
+69
+00:06:46,880 --> 00:06:54,500
+Accedemos a la propiedad color y le damos el valor color de acuerdo básicamente así tendríamos que hacer
+
+70
+00:06:54,500 --> 00:06:59,480
+con todas nuestras propiedades que tengamos en nuestra clase.
+
+71
+00:06:59,480 --> 00:07:02,980
+Vale podríamos hacerlo así.
+
+72
+00:07:03,050 --> 00:07:08,330
+Ahora vamos a crear un objeto con esta clase de aquí vamos a utilizar estos dos método de forma básica
+
+73
+00:07:08,450 --> 00:07:11,360
+para utilizar o para crear un objeto vale.
+
+74
+00:07:11,370 --> 00:07:18,770
+Esto es simplemente el molde en la clase el molde para hacerlo para hacer coches no. Entonces para crear
+
+75
+00:07:18,770 --> 00:07:23,830
+un coche tenemos que instancia de esta clase o también conocido como crear el objeto.
+
+76
+00:07:23,960 --> 00:07:27,060
+Cómo creamos el objeto a quién Taipe escribo en JavaScript.
+
+77
+00:07:27,080 --> 00:07:33,290
+Pues primero vamos a crear una variable coche y para crear el objeto para llamar a la clase tenemos
+
+78
+00:07:33,290 --> 00:07:35,420
+que utilizar la palabra COCHE.
+
+79
+00:07:35,740 --> 00:07:44,430
+Vale de esta forma ya tenemos un objeto creado y ahora podemos utilizar uno de sus métodos.
+
+80
+00:07:44,580 --> 00:07:52,730
+Vale por ejemplo podemos usar un método de coche que va a ser el set cool podemos poner un color rojo
+
+81
+00:07:54,230 --> 00:07:58,830
+Vale y ahora podemos hacer un consolero
+
+82
+00:08:02,140 --> 00:08:06,710
+punto lo vale que diga el color del coche
+
+83
+00:08:10,040 --> 00:08:18,880
+uno es alguien que nos concatena el color del coche con utilizando el método coche junto con el color.
+
+84
+00:08:18,920 --> 00:08:19,280
+Vale
+
+85
+00:08:22,010 --> 00:08:29,570
+vale pues tenemos ya un coche creado para nada vamos a lanzar el Comandante Chávez para que nos compile
+
+86
+00:08:29,570 --> 00:08:33,020
+el coche punto de ese mal.
+
+87
+00:08:33,020 --> 00:08:37,970
+Parece que no reconocía cuando hemos creado un nuevo fichero así que volvemos a lanzar este comando.
+
+88
+00:08:38,000 --> 00:08:45,080
+Por ejemplo si ahora miramos cómo ha compilado esto a JavaScript te das cuenta que el definir una clase
+
+89
+00:08:45,680 --> 00:08:49,550
+en JavaScript es mucho más sucio que hacerlo con TPE script.
+
+90
+00:08:49,580 --> 00:08:56,020
+Recuerdo esto a mí no me parece nada amigable o por lo menos porque no estoy acostumbrado a trabajar
+
+91
+00:08:56,090 --> 00:08:56,730
+así.
+
+92
+00:08:56,740 --> 00:09:03,080
+Entonces para mí hacerlo así es prácticamente igual que hacerlo en otros lenguajes que yo normalmente
+
+93
+00:09:03,080 --> 00:09:04,110
+suele utilizar.
+
+94
+00:09:04,310 --> 00:09:09,750
+Por ejemplo en PHP que suele trabajar orientada a objetos por ejemplo es muy parecido hacerlo con they've
+
+95
+00:09:09,760 --> 00:09:17,270
+escribe sin embargo pues en JavaScript es menos común trabajar orientado a objetos a no ser que esté
+
+96
+00:09:17,270 --> 00:09:23,450
+utilizando un Framework un freeware como angulado por ejemplo el cual tenga un curso que te recomiendo
+
+97
+00:09:24,200 --> 00:09:26,940
+por ejemplo el angular 2 trabajamos completamente orientado a objetos.
+
+98
+00:09:26,960 --> 00:09:33,450
+Pero por ejemplo en Kuerten normal hacer espagueti Code entre comillas muy normal muchas veces que te
+
+99
+00:09:33,470 --> 00:09:37,620
+hagas o 5 escrit para hacer el cuadro cosa y no programación orientada a objetos.
+
+100
+00:09:38,330 --> 00:09:43,180
+Pero bueno de esta forma es mucho más limpio.
+
+101
+00:09:43,490 --> 00:09:49,460
+Entonces vamos a incluir el JavaScript de la clase coche aquí por ejemplo este JavaScript ya lo voy
+
+102
+00:09:49,460 --> 00:09:54,260
+a comentar para no para que no moleste.
+
+103
+00:09:54,330 --> 00:10:06,090
+Vale entonces por ejemplo vamos a ver los a esto no vamos a meter una escrit también para la clase o
+
+104
+00:10:06,090 --> 00:10:09,750
+para el coche p.ej. eso vale.
+
+105
+00:10:09,930 --> 00:10:16,740
+Ahora actualizamos la página Badie nos dice mira el color del coche uno es rojo pero nosotros podemos
+
+106
+00:10:16,740 --> 00:10:18,110
+tener muchos más coches creados.
+
+107
+00:10:18,120 --> 00:10:23,370
+Vale podemos como ya tenemos nuestro móvil podemos sacar más coches tenemos no estafa nuestra fábrica
+
+108
+00:10:23,370 --> 00:10:27,630
+de coche y podemos sacar más coches por ejemplo.
+
+109
+00:10:27,650 --> 00:10:30,540
+Vale vamos a crear tres coches por ejemplo.
+
+110
+00:10:30,540 --> 00:10:42,300
+Por ejemplo el coche dos coches tres vale por ejemplo le vamos a dar un color a cada uno de los coches
+
+111
+00:10:42,300 --> 00:10:44,750
+por ejemplo el coche dos.
+
+112
+00:10:45,000 --> 00:10:53,050
+Le vamos a dar un color azul y el coche tiene un color verde.
+
+113
+00:10:54,290 --> 00:11:03,000
+Vale si ahora hacemos con su reloj por cada uno de los coches o del objeto de coche por ejemplo el 2
+
+114
+00:11:03,480 --> 00:11:04,070
+y el 3.
+
+115
+00:11:04,380 --> 00:11:06,750
+Y hacemos aquí coches jet.
+
+116
+00:11:07,050 --> 00:11:12,240
+Se ha conseguido un bajón dos color y conseguí un bajo tres color.
+
+117
+00:11:12,270 --> 00:11:19,140
+Vamos a ver que tenemos un consuelo por cada uno y nos dice que el coche uno es rojo el coche azul y
+
+118
+00:11:19,140 --> 00:11:21,040
+el coche 3 en verde vale.
+
+119
+00:11:21,640 --> 00:11:28,500
+Entonces yo creo que con esto ya más o menos hemos entendido cómo se trabaja o cómo funciona esto de
+
+120
+00:11:28,500 --> 00:11:31,210
+la programación orientada a objetos.
+
+121
+00:11:32,100 --> 00:11:38,060
+También hemos visto cómo crear una clase con Tevez scrip y propiedades y método para esa clase.
+
+122
+00:11:38,900 --> 00:11:44,670
+Entonces pues eso simplemente creamos jeto y le damos un valor a esas propiedades de esta forma con
+
+123
+00:11:44,670 --> 00:11:51,440
+una clase podemos reutilizarla todas las veces que queramos y es una cosa súper útil y súper funcional
+
+124
+00:11:51,450 --> 00:12:01,560
+vale con lo cual está genial pues en el siguiente video seguiremos trabajando con el tema de la programación
+
+125
+00:12:01,560 --> 00:12:05,210
+orientada a objetos y con las clases y todo esto debe escrit.
+
+126
+00:12:05,220 --> 00:12:10,940
+Veremos como se usan los constructores y cómo se usan más característica que nos permite utilizar Taipe
+
+127
+00:12:10,940 --> 00:12:14,490
+script para nuestro proyecto ya sea de JavaScript o de angular 2.

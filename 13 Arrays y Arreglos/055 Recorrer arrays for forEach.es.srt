@@ -1,0 +1,115 @@
+1
+00:00:01,120 --> 00:00:06,130
+Esta es la manera clásica de recorrer una Array pero hay una manera que a mí me parece más elegante
+
+2
+00:00:06,250 --> 00:00:12,210
+utilizando funcionalidades más interesantes de JavaScript que es la siguiente.
+
+3
+00:00:12,700 --> 00:00:18,940
+Nosotros podemos utilizar un método que se llama Fortich valen ese método es el siguiente yo cojo mi
+
+4
+00:00:18,940 --> 00:00:19,760
+array.
+
+5
+00:00:19,980 --> 00:00:28,120
+En este caso el de lenguajes y tengo el método disponible for each para los saharauis y dentro de este
+
+6
+00:00:28,120 --> 00:00:34,390
+método yo tengo una función de callback que utiliza utilizar una función de flecha para definirla de
+
+7
+00:00:34,390 --> 00:00:37,180
+acuerdo tengo mi función de Kalho aquieta función de calva.
+
+8
+00:00:37,180 --> 00:00:39,520
+Va a recibir varios parámetros.
+
+9
+00:00:40,000 --> 00:00:50,290
+Va a recibir un valor o un elemento elemento va a recibir el índice el Index el número de índice que
+
+10
+00:00:50,290 --> 00:00:57,430
+está recorriendo y un valor que se va a llamar Array o como tú quieras o data a ponerle.
+
+11
+00:00:57,940 --> 00:01:03,730
+Y entonces yo aquí dentro puedo hacer un document right al igual que he estado haciendo por aquí de
+
+12
+00:01:03,730 --> 00:01:13,960
+forma que yo puedo hacer lo siguiente elemento elemento que estoy recorriendo el elemento el y es el
+
+13
+00:01:13,960 --> 00:01:17,380
+índice vale ni siquiera necesito indicarle ni el índice.
+
+14
+00:01:17,380 --> 00:01:21,170
+Con esto ya me vale pero aquí tengo el índice y aquí tengo más datos vale.
+
+15
+00:01:21,190 --> 00:01:26,860
+De momento vamos a hacerlo así para ver si funciona efectivamente funciona exactamente de la misma manera
+
+16
+00:01:26,920 --> 00:01:32,290
+lo estamos viendo aquí que nos recorre todo de una manera incluso mucho más simple simplemente haciendo
+
+17
+00:01:32,290 --> 00:01:41,190
+un foril del elemento estos datos incluso podrían ser opcionales si Huguito esos parámetros.
+
+18
+00:01:41,500 --> 00:01:47,620
+Yo puedo recorrer mi a raíz de manera ultra mega sencilla que yo necesito sacar los datos del índice
+
+19
+00:01:47,860 --> 00:01:54,410
+es decir en qué índice estoy accediendo a ese elemento qué posición de la radio estoy recorriendo pues
+
+20
+00:01:54,950 --> 00:02:03,340
+índice lo meto el segundo parámetro y se lo puede indicar por aquí vale el índice y le concatenar un
+
+21
+00:02:03,340 --> 00:02:09,680
+espacio o un guión o algo para ver qué índice estamos recorriendo y extruido la pantalla.
+
+22
+00:02:09,700 --> 00:02:16,150
+Efectivamente veo el índice y luego tengo un tercer parámetro que es el arreglo que si hago un consolón
+
+23
+00:02:17,770 --> 00:02:19,300
+vamos a ver qué tiene dentro
+
+24
+00:02:23,660 --> 00:02:24,740
+efectivamente.
+
+25
+00:02:24,750 --> 00:02:31,330
+Pues simplemente ese parámetro lo que tiene es el rayo original que lo estamos pasando o que está cogiendo
+
+26
+00:02:31,420 --> 00:02:39,230
+el método frizz de la variable original de acuerdo pero simplemente eso sería por si necesitamos tener
+
+27
+00:02:39,250 --> 00:02:46,120
+la raíz limpio dentro del bucle pero realmente no hace falta entonces el Fortich no iterar nos Citera
+
+28
+00:02:47,020 --> 00:02:52,810
+todo el array y no lo muestra no lo recorre y nos lo muestra con lo cual esta opción parece mucho más
+
+29
+00:02:52,810 --> 00:02:54,160
+limpia que está aquí.

@@ -1,0 +1,363 @@
+1
+00:00:01,560 --> 00:00:04,240
+Vamos a hacer esta sección de la página.
+
+2
+00:00:04,380 --> 00:00:07,750
+Ahora lo que vamos a hacer va a ser crear el formulario.
+
+3
+00:00:07,770 --> 00:00:10,100
+Vale también en el PP Module.
+
+4
+00:00:10,150 --> 00:00:15,240
+Aquí hemos importado estos módulos pero no lo hemos cargado así que en el importe vamos a añadir el
+
+5
+00:00:15,330 --> 00:00:21,160
+HTTP bien Module y el Fonts Module para poder empezar a trabajar.
+
+6
+00:00:21,180 --> 00:00:23,890
+Vale hacemos eso antes de nada.
+
+7
+00:00:23,890 --> 00:00:33,660
+Entonces ya podemos cerrar el PPE Module y vamos a abrir nuestro componente de Create y aquí es donde
+
+8
+00:00:33,660 --> 00:00:36,810
+vamos a estar trabajando dentro de mi componente.
+
+9
+00:00:36,840 --> 00:00:42,630
+Lo que voy a hacer va a ser importar mi modelo y mi servicio para poder estar usándolo importo mi modelo
+
+10
+00:00:43,710 --> 00:00:50,820
+Projet y aquí le digo que esta from y le tengo que decir que está apunto apuntó barra.
+
+11
+00:00:50,830 --> 00:00:56,790
+Para salir del directorio create punto punto barra para salir del directorio components y ahora ya puede
+
+12
+00:00:56,790 --> 00:01:04,520
+entrar al directorio de modelos Models barra Projet y listo.
+
+13
+00:01:04,520 --> 00:01:06,720
+Cierra con Puntí como también voy a importar
+
+14
+00:01:09,420 --> 00:01:13,490
+el servicio Proyect servis
+
+15
+00:01:17,970 --> 00:01:28,680
+from punto.com Barrapunto junto Tobarra vices barra Proyect un servicio que Orgón punto y coma.
+
+16
+00:01:28,710 --> 00:01:39,540
+Ahora voy a cargar mi servicio dentro de la propiedad providers de mi decorador lo cargo aquí dentro
+
+17
+00:01:40,050 --> 00:01:50,290
+es decir que cargue el objeto Proyect servis Male guardo y voy a crear las propiedades necesarias.
+
+18
+00:01:50,520 --> 00:01:58,070
+Lo primero que voy a hacer va a ser crear una propiedad Public Bitel para el título del componente.
+
+19
+00:01:58,080 --> 00:02:08,520
+El título de esta sección que será un estreno luego voy a crear una propiedad para mi proyecto que va
+
+20
+00:02:08,520 --> 00:02:15,570
+a ser un objeto de tipo Projet que esto será el objeto que modificará el formulario Okkhoy y luego dentro
+
+21
+00:02:15,570 --> 00:02:28,740
+del propio constructor tengo que crearme las propiedades del servicio digamos Private proyecto y un
+
+22
+00:02:28,740 --> 00:02:35,420
+bajo proyecto servis que va a ser un objeto de tipo servis vale listo.
+
+23
+00:02:35,550 --> 00:02:40,920
+Yo tengo mis propiedades creadas ahora dentro del constructor le tengo que dar un valor a esas propiedades
+
+24
+00:02:41,330 --> 00:02:51,060
+disputo Twitter va a ser por crear el proyecto disputo Proyect pues será una instancia de mi objeto
+
+25
+00:02:51,150 --> 00:02:57,480
+de proyecto de mi modelo New Project y aquí tengo que pasar los datos que tiene mi modelo en este caso
+
+26
+00:02:57,480 --> 00:03:03,420
+tiene todos estos campos que yo tengo que pasarle vacío para rellenar el formulario pegarlos por aquí
+
+27
+00:03:03,420 --> 00:03:05,240
+como referencia.
+
+28
+00:03:05,260 --> 00:03:06,660
+Vamos a meter en un comentario
+
+29
+00:03:09,820 --> 00:03:18,300
+vale y vamos a darle un valor vacío cada uno élide por vacío el Nain vacío que lo vaya a rellenar el
+
+30
+00:03:18,300 --> 00:03:20,160
+formulario la descripción también
+
+31
+00:03:22,980 --> 00:03:32,010
+la categoría también el año también en este caso podríamos ponerle el año actual de acuerdo sacando
+
+32
+00:03:32,010 --> 00:03:42,570
+la fecha o podemos ponérselo fijo simplemente poniendo aquí el año 2019 vamos a dejarlo y luego los
+
+33
+00:03:42,570 --> 00:03:46,140
+lenguajes y la imagen vale.
+
+34
+00:03:46,150 --> 00:03:52,320
+Yo tengo mi objeto creado ya puedo borrar esta referencia ya tengo mi objeto para modificarlo con el
+
+35
+00:03:52,320 --> 00:03:55,630
+formulario si reviso mi compilador todo sigue yendo bien.
+
+36
+00:03:55,650 --> 00:03:57,930
+Aquí no ha habido ningún tipo de cambio.
+
+37
+00:03:57,970 --> 00:04:02,310
+Bien pues ahora lo que vamos a hacer va a ser crear nuestro formulario para eso abrimos nuestra vista
+
+38
+00:04:02,750 --> 00:04:07,380
+y aquí vamos a crear el formulario lo primero que voy a hacer va a ser poner una Cheetos y mostrar el
+
+39
+00:04:07,380 --> 00:04:18,320
+título aquí hago lo siguiente Twitter vale muestro mi título con la interpolación con las doble llaves.
+
+40
+00:04:18,330 --> 00:04:32,430
+Vale esto pues yo no me entere en un DIP con una clase que va a ser container y aquí dentro dentro del
+
+41
+00:04:32,430 --> 00:04:34,410
+container pues luego le daré uno al estilo
+
+42
+00:04:37,660 --> 00:04:43,070
+de algunos estilos cuando tenga mi formulario definido entonces le damos estilo a la página en general.
+
+43
+00:04:43,070 --> 00:04:52,840
+Entonces vamos a crear nuestro formulario lo que tenemos que hacer es definir la etiqueta FOM y cierra
+
+44
+00:04:52,850 --> 00:04:54,060
+la etiqueta form.
+
+45
+00:04:54,210 --> 00:04:59,340
+Ahora le vamos a decir que esto es un formulario de angulas le vamos a poner un nombre con la almohadilla
+
+46
+00:04:59,370 --> 00:05:07,730
+y vamos a decir que esto se va a llamar Blodget form vale y iba a ser un NG Phone.
+
+47
+00:05:09,210 --> 00:05:16,770
+Además con el evento NG Summit lo que voy a hacer es recoger lo que el formulario reciba de acuerdo
+
+48
+00:05:16,770 --> 00:05:22,080
+a lo que envié desde el formulario en el on Summit voy crearme un método que se va a llamar un submit
+
+49
+00:05:23,760 --> 00:05:31,650
+en mi componente en mi clase además de basar el proyecto Forum como parámetro para luego resetearlo
+
+50
+00:05:31,650 --> 00:05:32,320
+y tal.
+
+51
+00:05:32,410 --> 00:05:34,290
+Vale decir que voy a crearme este método un summit
+
+52
+00:05:37,450 --> 00:05:45,320
+quedármelo Summit por aquí y va a recibir el formulario y aquí simplemente hacemos un consolé puntos
+
+53
+00:05:45,470 --> 00:05:49,970
+de proyecto para ver cuando rellena los datos y los está rellenando correctamente.
+
+54
+00:05:49,980 --> 00:05:53,790
+Nuestro objeto ahora voy a quedarme cada uno de los campos.
+
+55
+00:05:53,800 --> 00:05:59,940
+Vale lo voy a meter todo dentro de un párrafo cada bloque de campos voy a quedar en el primer campo
+
+56
+00:06:00,350 --> 00:06:07,510
+que va a ser el campo de nombre Label for Men.
+
+57
+00:06:07,770 --> 00:06:22,020
+Vale va a ser el campo de nombre y esto va a tener un input de tipo texto cuyo nivel va a ser Nein y
+
+58
+00:06:22,020 --> 00:06:30,180
+cuyo nombre del formulario de angulos se anime y será un NG Model y además voy a utilizar el Chubby
+
+59
+00:06:30,180 --> 00:06:32,130
+data mining.
+
+60
+00:06:32,130 --> 00:06:42,410
+La directiva de Chubby data binding para modificar la propiedad del objeto proyecta la propiedad Nein
+
+61
+00:06:42,680 --> 00:06:45,170
+esa es la que voy a estar modificando.
+
+62
+00:06:45,200 --> 00:06:49,090
+Vale ya tengo mi primer campo si guardo y actualizo la pantalla.
+
+63
+00:06:49,350 --> 00:06:52,850
+Aquí me aparece mi campo luego esto le daremos 1 estilo no te preocupes.
+
+64
+00:06:53,200 --> 00:07:00,030
+Vale así que voy a copiar y pegar este bloque de código para hacer los siguientes campos.
+
+65
+00:07:00,600 --> 00:07:06,540
+El resto de campo que va a tener el formulario luego vamos a tener uno que va a ser la descripción.
+
+66
+00:07:06,730 --> 00:07:13,080
+Vale si miramos nuestro nuestro modelo aquí tenemos la descripción que también vamos a tener un campo
+
+67
+00:07:14,520 --> 00:07:22,040
+de descripción y esto va a ser Nain por description y esta vez no hace un imput de texto sino que va
+
+68
+00:07:22,040 --> 00:07:27,000
+a ser una TechStars cuyo Nain va a ser description
+
+69
+00:07:30,270 --> 00:07:36,900
+cuyo nombre en el campo del formulario de angulas será descripciãn y cuya propiedad va a modificar el
+
+70
+00:07:36,900 --> 00:07:45,650
+objeto será description y cerrábamos LaTeX tarea Tex tarea y ahí tengo mi campo.
+
+71
+00:07:45,720 --> 00:07:51,480
+Vamos con los siguientes campos el siguiente campo sería el de categoría que será un campo tipo texto
+
+72
+00:07:53,220 --> 00:08:04,410
+categoría que será un label for category el nombre del campo será category el nombre del campo del formulario
+
+73
+00:08:04,410 --> 00:08:10,860
+de angular también será category y la propiedad que vamos a modificar va a ser category vale el siguiente
+
+74
+00:08:10,860 --> 00:08:17,020
+campo sería year's que será un campo de tipo number.
+
+75
+00:08:17,100 --> 00:08:19,640
+Esto será el for year.
+
+76
+00:08:20,460 --> 00:08:22,410
+Esto sería año de lanzamiento
+
+77
+00:08:25,740 --> 00:08:33,370
+y el nombre del campo de ãngulo sería Guier y la propiedad que vamos a modificar va a ser year's vale.
+
+78
+00:08:33,390 --> 00:08:38,250
+Qué más nos queda pues nos queda lags y la imagen que será un campo de tipo FEIL que eso lo haremos
+
+79
+00:08:38,250 --> 00:08:41,680
+después vale.
+
+80
+00:08:41,730 --> 00:08:53,580
+Ponemos esto por aquí el siguiente campo que va a ser el de la links lenguajes Alford links Namm links.
+
+81
+00:08:53,940 --> 00:09:00,920
+El nombre del campo sería Alange y la propiedad modificada sería Alange y esto sería lenguajes utilizados
+
+82
+00:09:03,470 --> 00:09:14,560
+y ahora podemos añadir el botón de enviar input type Summit que va a ser cuyo valor va a ser envíar
+
+83
+00:09:14,560 --> 00:09:24,160
+value enviar cierro el input guardo o actualizo la pantalla y aquí me aparece vale perfectamente el
+
+84
+00:09:24,160 --> 00:09:28,930
+formulario y ya que estamos vamos a añadir el campo de subir la imagen
+
+85
+00:09:32,980 --> 00:09:40,360
+vale va a tener un label for Image va a ser imagen del proyecto
+
+86
+00:09:43,300 --> 00:09:56,750
+cierro el label y vamos a tener un input de tipo texto cuyo NAICM va a ser Image y no va a ser el tipo
+
+87
+00:09:56,760 --> 00:10:03,760
+de texto sino que va a ser de tipo Feil y vamos a tener un Pleiss fólder placed Wolder que va a poner
+
+88
+00:10:03,970 --> 00:10:11,770
+subir imagen y esto luego haremos que funcione tranquilamente vale pero de momento simplemente vamos
+
+89
+00:10:11,770 --> 00:10:13,690
+a tenerlo ahí como referencia.
+
+90
+00:10:14,170 --> 00:10:18,940
+Vale ya tenemos nuestro formulario montado y lo que vamos a hacer ahora en la siguiente clase va a ser
+
+91
+00:10:18,940 --> 00:10:23,770
+maquetar toda esta página maquetar el formulario para que se quede bien y quede atractivo.

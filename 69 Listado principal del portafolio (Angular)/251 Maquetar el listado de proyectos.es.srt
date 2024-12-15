@@ -1,0 +1,251 @@
+1
+00:00:01,170 --> 00:00:07,220
+Bien ahora vamos a mostrar la imagen en nuestra página web en la parte angular.
+
+2
+00:00:07,500 --> 00:00:12,240
+Vamos a cerrar el resto de archivos que no nos interesan y el resto de cosas que no vamos a estar tocando
+
+3
+00:00:12,340 --> 00:00:15,360
+y nos centramos aquí en la parte del frontend con angular
+
+4
+00:00:18,550 --> 00:00:24,150
+entonces vamos a mostrar la imagen como lo hacemos con la etiqueta emergente ese Reece vamos a utilizar
+
+5
+00:00:24,190 --> 00:00:29,500
+la web R.L que tenemos en nuestro componente que es la wereables que hemos sacado del archivo global
+
+6
+00:00:29,740 --> 00:00:31,590
+o R.L.
+
+7
+00:00:32,000 --> 00:00:41,920
+Vale vamos a imprimir la variable y vamos a utilizar el método guetto Image y lo vamos a concatenan
+
+8
+00:00:41,930 --> 00:00:48,490
+también el nombre de la imagen en este caso Projet punto Image.
+
+9
+00:00:48,750 --> 00:00:55,930
+Vez cerramos esto por aquí y solamente quiero que se muestre la imagen en el caso de que esté 7 NG Geir
+
+10
+00:00:59,130 --> 00:01:05,800
+vamos a mostrar la imagen Proyect puntuó Image cuando evidentemente exista.
+
+11
+00:01:06,020 --> 00:01:11,840
+Analizamos la pantalla y aquí se muestra nuestra imagen vale ahora lo siguiente Vamos a hacer va a ser
+
+12
+00:01:11,840 --> 00:01:15,800
+maquetar este listado para ponerlo en formato de cuadrícula.
+
+13
+00:01:15,800 --> 00:01:25,900
+Vale entonces le voy a dar una clase a cada Li que va a ser Projet y vamos a nuestro archivo CSS 6.0
+
+14
+00:01:25,910 --> 00:01:37,180
+CC y le vamos a dar uno de estilo a la página de proyectos página de proyectos a la clase proyecto
+
+15
+00:01:40,410 --> 00:01:46,400
+ya la imagen en concreto le vamos a dar un width de 120 píxeles
+
+16
+00:01:49,830 --> 00:01:56,570
+por ejemplo y ahora ahora le damos una mejor maquetación a lo que es cada proyecto.
+
+17
+00:01:56,630 --> 00:02:04,250
+Le vamos a quitar el is still none liceísta ignoré para que no nos muestre hundido de la lista.
+
+18
+00:02:04,410 --> 00:02:11,340
+Le vamos a poner un display Block le vamos a poner un float Leff
+
+19
+00:02:15,350 --> 00:02:22,340
+vale ya lo vamos organizando según queremos el resto de proyectos que no tienen imagen lo vamos a estar
+
+20
+00:02:22,340 --> 00:02:23,210
+borrando.
+
+21
+00:02:23,230 --> 00:02:33,230
+Vale vamos a borrar los que no tengan imagen utilizando nuestro robot triste vamos a borrar todos los
+
+22
+00:02:33,230 --> 00:02:42,260
+documentos que no tengan imagen para que solamente salgan los que tengan imagen vale entonces le vamos
+
+23
+00:02:42,260 --> 00:02:54,300
+a dar un tamaño a lo que es Projet le vamos a poner un Wiz del 20 por ciento el 25 por ciento.
+
+24
+00:02:54,830 --> 00:02:57,130
+A ver qué hace.
+
+25
+00:02:57,170 --> 00:03:02,370
+Vale yo lo que quiero que la cuadrícula sea de tres en tres más o menos o de cuatro en cuatro.
+
+26
+00:03:03,310 --> 00:03:09,500
+Entonces también al Wiz éste en lugar de ponerle 120 países le voy a poner 100 por ciento
+
+27
+00:03:13,670 --> 00:03:16,730
+vale y luego le vamos a poner un texto al inocentes
+
+28
+00:03:19,510 --> 00:03:31,700
+y le vamos a poner un margin left de 20 píxeles y un margin Riet de 20 pixel muerto vuelvo a probar
+
+29
+00:03:33,680 --> 00:03:35,630
+vale y aquí aparece mi proyecto.
+
+30
+00:03:35,630 --> 00:03:41,420
+Voy a añadir algún proyecto más aunque también voy a hacerle una máscara a lo que es la imagen a la
+
+31
+00:03:41,420 --> 00:03:51,260
+imagen si en la vista le voy a hacer un Dib que va a ser una máscara de Flash a poner el ID de Image
+
+32
+00:03:51,390 --> 00:03:52,550
+a la clase Image.
+
+33
+00:03:52,640 --> 00:03:59,050
+Obviamente la imagen dentro de ese chip entonces lo que voy a hacer va a ser una máscara una máscara
+
+34
+00:03:59,390 --> 00:04:02,670
+un Dib el cual recorta lo que sobresalga de él.
+
+35
+00:04:02,690 --> 00:04:13,940
+Vale entonces hacer lo siguiente proyecto Punto Image va a tener un win 100 por ciento y un Jaitt de
+
+36
+00:04:13,940 --> 00:04:24,650
+100 pixeles máximo y voy a poner un overflow Gide vale de forma que lo que sobresalga de ahí se va a
+
+37
+00:04:24,650 --> 00:04:26,000
+recortar evidentemente.
+
+38
+00:04:26,480 --> 00:04:33,610
+Vale vamos a ponerle 150 de alto Marella si se queda mucho mucho mejor.
+
+39
+00:04:33,710 --> 00:04:37,480
+De esta manera quiero que se muestre la información vamos a añadir algunos proyectos más.
+
+40
+00:04:38,630 --> 00:04:45,980
+Por ejemplo veterinaria descripción la categoría sería desarrollo web
+
+41
+00:04:49,850 --> 00:05:02,560
+lenguaje PHP y Arabel y la imagen esta misma subimos el archivo.
+
+42
+00:05:02,810 --> 00:05:09,200
+Volvemos a proyectos aquí la tengo ahora yo ya puedo ver que si quiero organizar la información en formato
+
+43
+00:05:09,200 --> 00:05:16,460
+de cuadrícula está bien pero tendremos que darle algún poco ante tamaño 30 por ciento.
+
+44
+00:05:19,150 --> 00:05:25,930
+Y así se va ya se va demasiado así que tendríamos que quitar margen que vamos a poner 15 o realmente
+
+45
+00:05:26,530 --> 00:05:34,120
+reducirle un poco el este vamos a poner 27 el Witz así se quedaría bien vamos a estar modificándolo
+
+46
+00:05:34,130 --> 00:05:40,900
+con el Facebook con el inspector de elementos para ver cuál sería el tamaño idóneo
+
+47
+00:05:44,210 --> 00:05:50,000
+el tamaño idóneo sería 28 por ciento así que se lo vamos a dejar en 28 por ciento.
+
+48
+00:05:50,230 --> 00:05:53,840
+Vale y ahora vamos a añadir algunos proyectos más para ver cómo quedaría por abajo.
+
+49
+00:05:53,870 --> 00:05:57,520
+Vale en este caso Web Médica
+
+50
+00:06:05,950 --> 00:06:20,840
+lenguaje utilizado pues PHP angular y o no DJs amolar DJs y angular y debía subir una imagen que va
+
+51
+00:06:20,890 --> 00:06:24,600
+a ser ésta proyectos.
+
+52
+00:06:24,680 --> 00:06:25,930
+Y aquí aparece.
+
+53
+00:06:26,240 --> 00:06:32,710
+Me gusta como estamos invitados la verdad pero hay que darle un espacio por debajo un margen por abajo
+
+54
+00:06:32,870 --> 00:06:39,550
+de cada proyecto y poner un margin botón de 30 px.
+
+55
+00:06:40,120 --> 00:06:45,160
+Cuando actualizo y ahí queda bastante bastante mejor.
+
+56
+00:06:45,210 --> 00:06:47,630
+Y aparte pues también me tengo que poner un
+
+57
+00:06:51,320 --> 00:07:02,540
+un mi Jaitt mayor al content en este momento en mi feed de 500 así que voy a poner un Jaitt auto para
+
+58
+00:07:02,540 --> 00:07:13,130
+que cuando sea automático el tamaño se adapte de acuerdo inclusive aumentaría el Midget a 600 píxeles
+
+59
+00:07:13,550 --> 00:07:17,930
+para que sea más grande y quedaría mejor.
+
+60
+00:07:17,930 --> 00:07:22,760
+Y ahora lo que vamos a hacer va a ser hacer una nueva sección que va a ser la del detalle de cada uno
+
+61
+00:07:22,760 --> 00:07:28,670
+de estos proyectos y dentro y dentro de esa página nueva tendremos toda la información del proyecto.
+
+62
+00:07:28,730 --> 00:07:31,710
+Tendremos un botón de Editar y un botón también de eliminar.
+
+63
+00:07:31,730 --> 00:07:34,060
+Y eso ya lo vamos a hacer en la siguiente clase.

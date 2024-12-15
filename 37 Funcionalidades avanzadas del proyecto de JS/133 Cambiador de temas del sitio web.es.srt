@@ -1,0 +1,591 @@
+1
+00:00:00,600 --> 00:00:06,130
+Lo siguiente que vamos a hacer en el proyecto es el punto número cuatro que es el cambiador de temas.
+
+2
+00:00:06,300 --> 00:00:08,140
+Es decir que vamos a tener unos botones.
+
+3
+00:00:08,160 --> 00:00:15,540
+Esto que estamos viendo por aquí que nos van a permitir cambiar los colores de la página web Balet así
+
+4
+00:00:15,540 --> 00:00:21,450
+que eso es lo que vamos a estar haciendo ahora esto tenemos varias formas de hacerlo podríamos hacerlo
+
+5
+00:00:21,960 --> 00:00:31,410
+con JavaScript tal cual cambiando el color del elemento que tengan ese color correspondiente simplemente
+
+6
+00:00:31,470 --> 00:00:37,440
+cambiando el background cambiando el color de fondo del logo y cambiando el color de los botones que
+
+7
+00:00:37,440 --> 00:00:39,310
+se vean por pantalla.
+
+8
+00:00:39,450 --> 00:00:46,380
+También se podría hacer alternando la hoja estilo que está cargada en este momento entonces para hacer
+
+9
+00:00:46,380 --> 00:00:52,620
+esto lo que vamos a hacer va a ser lo siguiente Vamos a coger y vamos a crear una hoja de estilos para
+
+10
+00:00:52,620 --> 00:00:56,190
+cada tema vale controles.
+
+11
+00:00:56,220 --> 00:01:07,400
+Vamos a crear una hoja que se va a llamar Grin CSS otra que se va a llamar Red controlase Red junto
+
+12
+00:01:07,470 --> 00:01:08,400
+CSS
+
+13
+00:01:11,280 --> 00:01:18,480
+y vamos a crear otra hoja de estilo que se va a llamar Blu punto CSS.
+
+14
+00:01:19,110 --> 00:01:23,980
+Hasta aquí todo correcto entonces en el Indec punto HTML lo que vamos a hacer va a ser cargar los estilos
+
+15
+00:01:24,000 --> 00:01:26,730
+CSS por defecto Link
+
+16
+00:01:29,330 --> 00:01:42,150
+rel esta es GIT Taipe text barra CSS y lo vamos a poner el HR-V CSS barra Grin que va a ser el tema
+
+17
+00:01:42,150 --> 00:01:51,150
+por defecto que viene Krim CSS y además le vamos a añadir un identificador a este link que va a ser
+
+18
+00:01:51,430 --> 00:01:52,060
+theme.
+
+19
+00:01:52,270 --> 00:01:58,440
+Vale ese va a ser el IDE que le vamos a poner a nuestra hoja de estilo y luego lo que vamos a hacer
+
+20
+00:01:58,440 --> 00:02:03,740
+simplemente por JavaScript es cuando vayamos dando click a los diferentes botones para cambiar de tema
+
+21
+00:02:03,750 --> 00:02:09,070
+simplemente lo que vamos a hacer va a ser cambiar el HR-V de aquí para cambiar al otro tema.
+
+22
+00:02:09,090 --> 00:02:18,900
+Vale ahora el siguiente paso sería llevarnos la parte de los colores a cada tema Balet por defecto el
+
+23
+00:02:18,900 --> 00:02:26,270
+tema que viene o sea los colores que vienen los background vienen en el logo vienen los botones y tal
+
+24
+00:02:26,310 --> 00:02:27,590
+entonces el background.
+
+25
+00:02:27,630 --> 00:02:34,800
+Realmente yo me lo voy a llevar a los temas es decir voy a copiarme esta regla CSS y los colores el
+
+26
+00:02:34,800 --> 00:02:41,100
+tema de los colores me debe a llevar a lo que es el tema y voy a dejar aquí el background nada más.
+
+27
+00:02:41,280 --> 00:02:48,300
+En esta regla del logo no. Cuando yo selecciono el logo simplemente le pongo esa propiedad del color
+
+28
+00:02:48,990 --> 00:02:52,500
+del fondo y aquí se la puedo quitar.
+
+29
+00:02:52,710 --> 00:02:57,260
+Lo mismo voy a hacer con los botones o en donde aparezca un elemento Bagram.
+
+30
+00:02:57,300 --> 00:03:02,820
+Aquí por ejemplo aparece este elemento baqueano pues esta regla como solamente tiene esto me la voy
+
+31
+00:03:02,820 --> 00:03:07,920
+a llevar a mi hoja de estilos vale.
+
+32
+00:03:08,190 --> 00:03:09,820
+En este caso sería verde.
+
+33
+00:03:10,110 --> 00:03:14,210
+Lo mismo con los siguientes elementos que utilicen un background.
+
+34
+00:03:14,270 --> 00:03:16,830
+Aquí el botón More.
+
+35
+00:03:16,830 --> 00:03:17,790
+Esto también
+
+36
+00:03:20,500 --> 00:03:27,660
+vale le quitamos el resto de Regla o propiedades y dejamos solamente esta regla CSS y aquí le podemos
+
+37
+00:03:27,660 --> 00:03:30,360
+quitar el tema del Paquera.
+
+38
+00:03:30,720 --> 00:03:36,180
+En principio ya estaría y otra cosa que tendríamos que llevar no es el body body.
+
+39
+00:03:36,210 --> 00:03:39,270
+Esta regla entera no la vamos a llevar al tema
+
+40
+00:03:42,820 --> 00:03:43,470
+perfecto.
+
+41
+00:03:43,500 --> 00:03:47,970
+Si utilizáramos es esto lo podríamos tener guardado en una variable y simplemente utilizar esa variable
+
+42
+00:03:47,970 --> 00:03:48,690
+en todas partes.
+
+43
+00:03:48,990 --> 00:03:52,670
+Pero aquí simplemente tenemos el código del color.
+
+44
+00:03:52,670 --> 00:04:00,750
+Bien entonces esto sería el tema verde por defecto si yo ahora mismo actualizo la pantalla todo va a
+
+45
+00:04:00,750 --> 00:04:07,830
+seguir exactamente igual osea los mismos colores el mismo fondo todo igual y ahora voy a crear los diferentes
+
+46
+00:04:07,830 --> 00:04:15,240
+temas el tema rojo y el tema azul me voy a copiar este trozo del código a los otros dos temas y voy
+
+47
+00:04:15,240 --> 00:04:16,500
+a cambiar los colores.
+
+48
+00:04:16,500 --> 00:04:27,760
+Vale el código de color azul por ejemplo sería en lugar de éste sería 1 f 8 7 C4.
+
+49
+00:04:27,780 --> 00:04:29,490
+Vale esto ya me lo sé de memoria
+
+50
+00:04:32,600 --> 00:04:34,400
+por eso lo pongo aquí.
+
+51
+00:04:34,400 --> 00:04:38,230
+Ese es el código de color azul que nos interesa.
+
+52
+00:04:38,570 --> 00:04:47,090
+Vale y luego la imagen de fondo sería la imagen que tenemos aquí que es el cielo punto JPG y luego para
+
+53
+00:04:47,090 --> 00:04:58,410
+el tema rojo la imagen sería rojo puntos JPG y el color rojo en sí el código hexadecimal sería C a 34
+
+54
+00:05:00,120 --> 00:05:08,280
+13 Balestra este color yo ya me lo sé de memoria que es un color como rojo copio y lo vi pegando por
+
+55
+00:05:08,280 --> 00:05:09,340
+aquí vale.
+
+56
+00:05:09,370 --> 00:05:12,000
+Yo tengo mis 3 tema de CSS hechos.
+
+57
+00:05:12,000 --> 00:05:14,910
+Vale de momento esto como no lo hemos incluido no pasa nada.
+
+58
+00:05:14,910 --> 00:05:23,640
+Si yo incluyera el tema rojo el punto CSS y actualizará la pantalla fíjate que cambia completamente
+
+59
+00:05:23,640 --> 00:05:24,180
+de acuerdo.
+
+60
+00:05:24,180 --> 00:05:27,220
+Ahora todo es de color rojo ok.
+
+61
+00:05:27,510 --> 00:05:31,820
+Y si yo cambiara al tema azul al blog.
+
+62
+00:05:31,980 --> 00:05:37,810
+De igual forma me va a cambiar la apariencia radicalmente y me pone los colores en azul.
+
+63
+00:05:37,830 --> 00:05:41,620
+Vale los botones en el fondo todo bien.
+
+64
+00:05:41,650 --> 00:05:47,100
+Pues ahora vamos a hacer la botonera esa para cambiar de color verde por defecto va a estar en verde
+
+65
+00:05:50,010 --> 00:05:57,930
+y la botonera esa yo la quiero por aquí entonces la vamos a hacer fuera de la sección global vamos a
+
+66
+00:05:57,930 --> 00:06:01,230
+crear un dip con Hide
+
+67
+00:06:04,340 --> 00:06:06,110
+Change Zim.
+
+68
+00:06:06,330 --> 00:06:16,890
+Vale y aquí voy a tener tres botones D.E.P realmente puedo tener también un dip con Hide Grin
+
+69
+00:06:20,520 --> 00:06:31,810
+tu Greim le vamos a poner para que sea más ilustrativo el video de lo que va a hacer tu Vril otro tu
+
+70
+00:06:32,020 --> 00:06:34,610
+red cierra el link
+
+71
+00:06:37,330 --> 00:06:43,830
+otro tu blog y cierra el tipo.
+
+72
+00:06:43,960 --> 00:06:45,460
+Vale hasta aquí todo correcto.
+
+73
+00:06:45,460 --> 00:06:55,230
+Ahora vamos a darle uno de estilo a este a este de acuerdo incluso le podríamos poner selector Zim para
+
+74
+00:06:55,230 --> 00:07:03,270
+que quede más claro que esto es un selector de tema entonces le vamos a dar unos estilos vamos a estaís
+
+75
+00:07:03,270 --> 00:07:13,600
+punto CSS y nos vamos al final y lo vamos a añadir por aquí abajo seleccionamos selector FIM el elemento
+
+76
+00:07:13,600 --> 00:07:14,320
+con ese idem
+
+77
+00:07:18,410 --> 00:07:19,820
+le vamos a poner un positivo.
+
+78
+00:07:19,820 --> 00:07:21,530
+Fixed.
+
+79
+00:07:22,220 --> 00:07:30,400
+Le vamos a poner que esté al top o sea que esté a un 40 por ciento del top.
+
+80
+00:07:30,680 --> 00:07:32,300
+Vale que esté a esa altura.
+
+81
+00:07:32,510 --> 00:07:33,770
+Le vamos a poner un Bagram
+
+82
+00:07:37,460 --> 00:07:38,270
+RGB a
+
+83
+00:07:41,000 --> 00:07:47,810
+cincuenta y uno coma cincuenta y uno coma cincuenta y uno coma 0.7 que es igual que el Führer que es
+
+84
+00:07:47,810 --> 00:07:57,000
+como un negro pero con una transparencia y una transparencia le vamos a poner un Wiz de 50 pixeles.
+
+85
+00:07:57,070 --> 00:08:00,460
+Vale si vamos actualizando la pantalla vamos a ver como va quedando
+
+86
+00:08:03,140 --> 00:08:09,820
+realmente no lo veo no veo donde están pero
+
+87
+00:08:12,630 --> 00:08:15,040
+pero ahí está realmente ahí estará.
+
+88
+00:08:15,190 --> 00:08:23,640
+Voy a poner un Jaitt de 100 pixeles si voy actualizando la pantalla voy viendo que aquí tengo ese elemento
+
+89
+00:08:23,970 --> 00:08:24,950
+incluso la opacidad.
+
+90
+00:08:24,960 --> 00:08:30,390
+No voy a bajar a 0,5 para que quede más transparente.
+
+91
+00:08:30,390 --> 00:08:36,440
+Vale lo tengo y vemos que se queda fijado más o menos a la mitad o el 40 por ciento desde arriba parecía
+
+92
+00:08:36,490 --> 00:08:39,530
+que iba a tener por los diferentes electores y ya está.
+
+93
+00:08:39,570 --> 00:08:40,750
+De momento ya hasta.
+
+94
+00:08:41,070 --> 00:08:49,430
+Ahora le voy a dar un uno de estilos a las cajitas o a los pequeños DIV que me he creado dentro del
+
+95
+00:08:49,440 --> 00:08:52,730
+sector 1 es Grin.
+
+96
+00:08:53,820 --> 00:09:00,440
+Otro es tu red otro es tu
+
+97
+00:09:06,160 --> 00:09:08,610
+y esto tiene un background.
+
+98
+00:09:09,940 --> 00:09:18,510
+Bueno vamos a ponerle el tamaño un huid de 30 PX un Jaitt de 30 PX
+
+99
+00:09:21,080 --> 00:09:32,840
+un border with PX sólito with vale y de momento vamos a ver como va quedando ahí va quedando le vamos
+
+100
+00:09:32,840 --> 00:09:34,700
+a poner incluso menos 25
+
+101
+00:09:40,840 --> 00:09:47,350
+vale y le vamos a dar margenes margin LED de
+
+102
+00:09:51,690 --> 00:09:58,860
+Bueno de hecho le vamos a poner un display Blok y le vamos a poner un margin 0 auto para que se centre
+
+103
+00:09:59,910 --> 00:10:02,700
+si es posible.
+
+104
+00:10:02,700 --> 00:10:16,080
+Efectivamente y ahora le voy a dar un margen superior de 5 5x y un margen inferior de 5 PX guardo actualizo
+
+105
+00:10:16,080 --> 00:10:19,680
+la pantalla y aquí tengo mis tres cajitas.
+
+106
+00:10:19,710 --> 00:10:24,870
+Vale ahora le voy a dar un fondo a cada una realmente en lo que venía haciendo el ejercicio yo tenía
+
+107
+00:10:24,870 --> 00:10:34,710
+aquí una pequeña imagen de D. de una foto me acuerdo un pequeño logotipo de una foto o de una fotografía
+
+108
+00:10:34,720 --> 00:10:41,220
+al típico logo de fotografía que se lo metía ahí vale pero realmente nosotros le vamos a poner un color
+
+109
+00:10:41,250 --> 00:10:42,340
+sólido y ya está.
+
+110
+00:10:43,110 --> 00:10:48,680
+Vale entonces esos son los estilos comunes para estas tres clases.
+
+111
+00:10:48,700 --> 00:10:54,410
+Vale ahora cada uno tendrá un estilo concreto.
+
+112
+00:10:56,670 --> 00:11:08,280
+Tú Grin tendrá de fondo el color que hay en GRIN copio y pego.
+
+113
+00:11:08,450 --> 00:11:11,840
+Vale tu red tendrá su color correspondiente
+
+114
+00:11:18,400 --> 00:11:19,950
+tener el color correspondiente
+
+115
+00:11:23,840 --> 00:11:39,570
+por aquí y tu blog tendrá también su color correspondiente que tenemos en el fichero del tema.
+
+116
+00:11:40,080 --> 00:11:44,650
+Pues ya lo tenemos por aquí ya podemos cerrar los archivos de los temas porque ya no lo van a utilizar
+
+117
+00:11:44,650 --> 00:11:47,110
+más y de momento utilizamos la pantalla.
+
+118
+00:11:47,110 --> 00:11:50,030
+Aquí no aparece nuestro selector de tema vale
+
+119
+00:11:53,800 --> 00:12:01,120
+entonces ahora simplemente tenemos que capturar el evento para cambiar los colores del tema.
+
+120
+00:12:01,150 --> 00:12:12,280
+Esto sería selector de tema vamos a seleccionar Grin y vamos a capturar el evento click cuando le demos
+
+121
+00:12:12,280 --> 00:12:17,230
+click vamos a ejecutar esta función de Carbap y lo que vamos a hacer va a ser seleccionar también la
+
+122
+00:12:17,230 --> 00:12:29,360
+hoja de estilos vale como que es una variable Stiles que lo que vamos a hacer es seleccionar realmente
+
+123
+00:12:29,400 --> 00:12:38,560
+sería el tema theme vamos a seleccionar el tema theme que es la hoja de estilo que hemos incluido en
+
+124
+00:12:38,560 --> 00:12:44,270
+nuestro CSS aquí con este IDE y simplemente vamos a cambiar el HR-V.
+
+125
+00:12:44,320 --> 00:12:54,400
+Vale entonces cuando yo le dé clic a Turín lo que vamos a hacer va a ser que a Theme le va a cambiar
+
+126
+00:12:54,400 --> 00:13:06,930
+el atributo antes de HR-V y le voy a poner la otra hoja de estilo en este caso CSS barra Grin junto
+
+127
+00:13:07,120 --> 00:13:15,760
+CSS vale y así voy a hacer lo mismo con el resto de botones vale con tu Blu ya con tu red lo vamos a
+
+128
+00:13:15,760 --> 00:13:23,110
+hacer también vamos a cambiar la hoja CSS y tu blog vamos a cuando le demos click vamos a cambiar la
+
+129
+00:13:23,110 --> 00:13:31,810
+hoja de estilo a blog .6 si guardo y actualizo la pantalla si doy clic a cada una vemos cómo nos cambia
+
+130
+00:13:31,810 --> 00:13:39,730
+el estilo de manera completamente dinámica y funciona perfectamente Malet por default siempre se va
+
+131
+00:13:39,730 --> 00:13:44,260
+a cargar este decisivo actualizo la pantalla ahora siempre se va a cargar el verde porque en ninguna
+
+132
+00:13:44,260 --> 00:13:50,890
+parte tengo guardado yo esto de que se mantenga el color que hay guardado no realmente esa lógica no
+
+133
+00:13:50,890 --> 00:13:58,690
+la tengo implementada aunque se podría hacer con el local de storage y tal pero en realidad tenemos
+
+134
+00:13:58,690 --> 00:14:00,440
+el ejercicio hecho.
+
+135
+00:14:00,880 --> 00:14:08,750
+Simplemente voy a añadirle también un cursor Painter a todo esto cursor Painter
+
+136
+00:14:13,770 --> 00:14:22,150
+y ya tengo aquí el cambiador de temas perfectamente hecho ok y nada más.
+
+137
+00:14:22,170 --> 00:14:28,150
+Como plus como ejercicio plus te puedo decir que para esto para que lo práctico y lo hagas tú si te
+
+138
+00:14:28,150 --> 00:14:35,320
+interesa profundizar más en el tema de lo que sea o practicar un poco más lo que puedes hacer es coger
+
+139
+00:14:35,320 --> 00:14:39,220
+el Local Storage y guardar el color que haya en este momento.
+
+140
+00:14:39,220 --> 00:14:41,950
+Vale guardar qué color hay o qué.
+
+141
+00:14:42,040 --> 00:14:49,400
+Y luego cuando se actualice la pantalla aquí hacer una condición que saque ese valor del local electoral
+
+142
+00:14:50,290 --> 00:14:55,990
+y en función del valor que ponga un tema u otro en función de ese valor guardado en el local estolas.
+
+143
+00:14:56,260 --> 00:15:00,460
+Pero ya te digo que esto sería para perfeccionar un poco el ejercicio y si quieres profundizar un poco
+
+144
+00:15:00,460 --> 00:15:03,450
+más o practicar un poco más pues te dejo que lo hagas tú.
+
+145
+00:15:03,760 --> 00:15:04,110
+Vale.
+
+146
+00:15:04,120 --> 00:15:11,980
+Así que de momento pues este punto número 4 también lo tenemos en el cambiador de temas y ahora vamos
+
+147
+00:15:11,980 --> 00:15:17,170
+a pasar al siguiente ejercicio que será hacer el scroll automático hacia arriba cuando estemos abajo
+
+148
+00:15:17,170 --> 00:15:18,310
+y demos clic a un botón.

@@ -1,0 +1,503 @@
+1
+00:00:00,450 --> 00:00:06,690
+En esta clase vamos a aprender acerca de las bases de datos SQL y las no SQL la diferencia entre unas
+
+2
+00:00:06,780 --> 00:00:07,620
+y otras.
+
+3
+00:00:07,740 --> 00:00:12,720
+El cambio de terminología entre una base de datos relacional y una base de datos no relacional de acuerdo
+
+4
+00:00:12,720 --> 00:00:15,680
+entre Maye SQL y Mongo por ejemplo.
+
+5
+00:00:15,730 --> 00:00:21,150
+Bueno vamos a hacer una pequeña comparativa para ponernos en contexto de qué es lo que vamos a estar
+
+6
+00:00:21,150 --> 00:00:25,530
+haciendo en el curso Cómo vamos a estar trabajando como modem etcétera.
+
+7
+00:00:25,620 --> 00:00:33,300
+Hay dos tipos de bases de datos principalmente las bases de datos SQL y las bases de datos no SQL como
+
+8
+00:00:33,420 --> 00:00:40,980
+ya conocerá algún tipo de base de datos SQL como por ejemplo Maye SQL post SQL Oracle o cualquier otro
+
+9
+00:00:40,980 --> 00:00:42,950
+tipo de base de datos SQL.
+
+10
+00:00:43,050 --> 00:00:50,550
+Como sabrás son bases de datos relacionales con tablas y que tienen un esquema claro son bases de datos
+
+11
+00:00:50,550 --> 00:00:56,730
+relacionales porque nosotros tenemos un conjunto de tablas un conjunto de cápsulas de información las
+
+12
+00:00:56,730 --> 00:01:04,770
+cuales se relacionan mediante índices de acuerdo y en cada una de esas tablas de la base de datos se
+
+13
+00:01:05,070 --> 00:01:12,000
+guarda la información de manera separada y luego se relaciona de alguna forma y luego se consulta mediante
+
+14
+00:01:12,030 --> 00:01:16,740
+geis mediante sus consultas o mediante consulta multi tablas.
+
+15
+00:01:17,010 --> 00:01:24,000
+Entonces tenemos un esquema claro en el cual podríamos tener una tabla de artículos y una tabla de usuarios
+
+16
+00:01:24,000 --> 00:01:26,910
+y tener las dos tablas relacionales relacionadas.
+
+17
+00:01:26,910 --> 00:01:34,500
+Esta tabla de usuarios ha creado este artículo y se relacionan mediante un IDE y mediante relaciones
+
+18
+00:01:34,500 --> 00:01:41,250
+de acuerdo mediante claves primarias y claves ajenas o claves foráneas y están orientada a tablas porque
+
+19
+00:01:41,250 --> 00:01:47,430
+la información se guarda en una tabla de manera ordenada y con un esquema claro es decir yo todas mis
+
+20
+00:01:47,430 --> 00:01:56,310
+tablas tienen los mismos campos tienen la misma información almacenada entre comillas aunque con las
+
+21
+00:01:56,310 --> 00:02:02,310
+diferencias de los datos que yo le haya guardado pero tienen siempre las mismas filas y las mismas columnas.
+
+22
+00:02:02,400 --> 00:02:03,380
+Eso no es variable.
+
+23
+00:02:03,390 --> 00:02:10,890
+Por lo tanto el esquema es claro y el esquema está presente de acuerdo el esquema es fijo por decirlo
+
+24
+00:02:10,890 --> 00:02:12,000
+de alguna manera.
+
+25
+00:02:12,210 --> 00:02:19,980
+Entonces tenemos que la base de datos SQL las relacionales y SQL tenemos tablas esquemas de tablas y
+
+26
+00:02:20,040 --> 00:02:25,950
+relaciones entre todas esas tablas vale pues la base de datos no SQL.
+
+27
+00:02:26,220 --> 00:02:32,640
+Lo primero no tenemos un lenguaje SQL sino que utilizamos JavaScript utilizamos JavaScript para hacerlo
+
+28
+00:02:32,640 --> 00:02:39,150
+todo de acuerdo son bases de datos no relacionales es decir que no tienen porqué existir ningún tipo
+
+29
+00:02:39,150 --> 00:02:44,730
+de relación entre los datos o entre una colección y otra.
+
+30
+00:02:45,390 --> 00:02:53,880
+Aunque podemos simular a ese funcionamiento y hacer especies de GEIs utilizando el código usando no
+
+31
+00:02:53,880 --> 00:02:57,210
+DJs usando Mingus etcétera pero bueno.
+
+32
+00:02:57,510 --> 00:03:04,110
+Otra característica es que en la base de datos no SQL no tenemos tablas lo que tenemos son colecciones
+
+33
+00:03:04,110 --> 00:03:11,460
+de documentos de acuerdo y dentro de esas colecciones tenemos documentos y los documentos son objetos
+
+34
+00:03:11,730 --> 00:03:19,380
+Jayson pero dentro del mundo de Ben se conocen como objetos Bison Binary Jayson de acuerdo un Jayson
+
+35
+00:03:19,380 --> 00:03:20,390
+binario.
+
+36
+00:03:20,700 --> 00:03:28,320
+Entonces lo que hacemos es tener una base de datos Balet en la cual ya no existe un esquema sino que
+
+37
+00:03:28,320 --> 00:03:35,850
+es una base de datos en general una cápsula entera todo es la base de datos y dentro de la base de datos
+
+38
+00:03:35,850 --> 00:03:42,060
+tenemos colecciones en las cuales dentro de ella tenemos documentos guardados y esos documentos pueden
+
+39
+00:03:42,060 --> 00:03:43,450
+tener dentro.
+
+40
+00:03:43,530 --> 00:03:50,670
+Información pueden tener más un documento más objetos dentro y tener mucha información embebida y estos
+
+41
+00:03:50,670 --> 00:03:56,610
+documentos son son Jayson de algunos objetos Jayson de JavaScript y vamos a estar trabajando con ellos.
+
+42
+00:03:56,610 --> 00:04:02,330
+De esa manera como si fuera un objeto Jayson y utilizando el lenguaje JavaScript para todo y a Mungo
+
+43
+00:04:02,810 --> 00:04:09,180
+de Velho se almacena como hizo binario porque es mucho más rápido a la hora de hacer operaciones con
+
+44
+00:04:09,180 --> 00:04:11,270
+los datos.
+
+45
+00:04:11,280 --> 00:04:17,190
+Otra característica a diferencia de las bases de datos SQL es que esto es muy sencillo de trabajar con
+
+46
+00:04:17,190 --> 00:04:23,010
+ellos es decir no hay que complicarse mucho con esto lo relaciono con esto con tal simplemente simplemente
+
+47
+00:04:23,010 --> 00:04:31,680
+puedes montarte una colección que sea por ejemplo artículos y dentro que pueda tener todos los datos
+
+48
+00:04:31,680 --> 00:04:38,160
+del artículo y luego pueda tener un sub documento dentro de esa misma ese mismo documento que sea comentarios
+
+49
+00:04:38,160 --> 00:04:45,560
+y ahí añadir los comentarios otro que sea etiquetas y añadir las etiquetas otro que sea artículos relacionados
+
+50
+00:04:45,660 --> 00:04:54,870
+y añadir más cosas y podríamos hacer de manera sencilla meter datos dentro de otros y organizar la base
+
+51
+00:04:54,870 --> 00:05:02,310
+de datos de una manera sencilla aunque si tienen la mente con SQL como en mi caso y como es el caso
+
+52
+00:05:02,310 --> 00:05:09,090
+de casi todo el mundo pues al principio esto choca un poco pero luego se puede trabajar con un web de
+
+53
+00:05:09,090 --> 00:05:17,190
+manera también semi relacional de manera con documentos embebidos y de varias formas.
+
+54
+00:05:17,220 --> 00:05:22,530
+Otra característica que tiene la base de la bases de datos SQL y en este caso MongoDB es la velocidad
+
+55
+00:05:22,530 --> 00:05:28,890
+es decir almacenar documentos en Jayson prácticamente es muy rápida la velocidad de consulta es muy
+
+56
+00:05:28,890 --> 00:05:36,910
+rápida la velocidad y el rendimiento a la hora de trabajar con cantidades inmensas de datos es muy rápido.
+
+57
+00:05:36,930 --> 00:05:43,530
+Este sistema gestor de bases de datos es una característica biciclo difiere de la base de datos más
+
+58
+00:05:43,560 --> 00:05:51,390
+SQL o la base de datos SQL que la velocidad de consulta es abismalmente más rápida en una base de datos
+
+59
+00:05:51,390 --> 00:05:55,890
+MongoDB y luego otra característica que tiene es que tiene un esquema libre.
+
+60
+00:05:55,920 --> 00:06:04,050
+Esto significa que en cada uno de mis documentos no tengo porqué tener la misma cantidad de campos o
+
+61
+00:06:04,050 --> 00:06:11,130
+de columnas como si tuvieran una tabla SQL es decir yo puedo tener en un documento un campo que sea
+
+62
+00:06:11,130 --> 00:06:18,870
+nombre y en otro segundo documento puedo tener nombre apellidos y e-mail de acuerdo y no no tengo ningún
+
+63
+00:06:18,870 --> 00:06:24,340
+tipo de restricción a la hora de tener una serie de campos o no de un documento a otro.
+
+64
+00:06:24,990 --> 00:06:31,890
+Entonces son características que tienen este tipo de bases de datos.
+
+65
+00:06:31,890 --> 00:06:36,780
+Otra cosa que tenemos que tener en cuenta antes de comenzar a programar o a trabajar con una base de
+
+66
+00:06:36,780 --> 00:06:42,630
+datos de este tipo es que el vocabulario o la forma en la que llamamos a las cosas es diferente de acuerdo
+
+67
+00:06:42,630 --> 00:06:50,480
+por qué no el concepto de tabla y el concepto de colección y documentos no es el mismo de acuerdo entonces
+
+68
+00:06:50,480 --> 00:06:57,290
+vamos a hacer una comparativa de cómo sería o cómo se pensaría en una base de datos SQL y en una nube
+
+69
+00:06:57,320 --> 00:07:04,890
+SQL en una base de datos SQL tendríamos un esquema de una tabla y estaría formado por columnas de acuerdo
+
+70
+00:07:05,220 --> 00:07:07,540
+por filas y por registros.
+
+71
+00:07:07,590 --> 00:07:13,740
+Es decir la tabla tendría su columna y tendría su registro.
+
+72
+00:07:13,740 --> 00:07:20,560
+La fila sería cada uno de los registros en los cuales nosotros tenemos una serie de información.
+
+73
+00:07:20,910 --> 00:07:27,570
+Dentro de esa fila tendríamos los registros guardados en cada columna en cada campo de la columna vamos
+
+74
+00:07:27,570 --> 00:07:30,070
+a ver un ejemplo.
+
+75
+00:07:30,300 --> 00:07:37,470
+Yo tengo aquí una base de datos SQL y podemos ver las bases de datos que tengo yo en este caso tengo
+
+76
+00:07:37,470 --> 00:07:39,740
+una que se llama Curcio Social Network.
+
+77
+00:07:39,750 --> 00:07:43,620
+Para hacer un pequeño ejemplo y ver las cosas de aquí entonces voy a usarla
+
+78
+00:07:51,570 --> 00:07:56,640
+y yo tengo una serie de tablas.
+
+79
+00:07:56,640 --> 00:08:03,410
+De acuerdo tengo estas tablas aquí yo puedo describir o puedo visualizar cómo son esas tablas.
+
+80
+00:08:03,850 --> 00:08:11,430
+Hace falta una freaky vale entonces fíjate lo que tengo en mí en mi tabla tengo el campo que sería la
+
+81
+00:08:11,430 --> 00:08:16,170
+columna y tengo el tipo de dato y tal pero si yo hago Céret
+
+82
+00:08:19,040 --> 00:08:24,850
+asterisco from users.
+
+83
+00:08:24,850 --> 00:08:32,000
+Yo tengo una tabla aquí perfectamente dibujada pero vamos a hacerlo vamos a mostrarme los datos Nein
+
+84
+00:08:33,200 --> 00:08:36,870
+y chutney y el email.
+
+85
+00:08:37,130 --> 00:08:44,930
+Fíjate tengo una tabla perfectamente vista perfectamente montada tengo una columna que se llama nombre
+
+86
+00:08:45,260 --> 00:08:51,200
+una columna que se llama Asurmendi y otra columna que se llama mi mail esto esta línea primera sería
+
+87
+00:08:51,200 --> 00:08:55,880
+una fila y esto sería un registro estadístico otro registro y esto sería otro registro.
+
+88
+00:08:56,170 --> 00:09:03,440
+Entonces este comando me está sacando un listado de todas las filas con todos los registros que tienen
+
+89
+00:09:03,440 --> 00:09:05,930
+esas filas dentro de la tabla de acuerdo.
+
+90
+00:09:05,940 --> 00:09:13,190
+Entonces me está mostrando la columna Nombre Apellido Email y me están mostrando una serie de filas
+
+91
+00:09:13,190 --> 00:09:17,480
+con todos esos registros que hay dentro de las columnas y dentro de las filas.
+
+92
+00:09:17,870 --> 00:09:21,260
+Entonces esa sería la manera de guardar la información en una base de datos
+
+93
+00:09:23,780 --> 00:09:30,270
+SQL como SQL pero esto es completamente diferente.
+
+94
+00:09:30,340 --> 00:09:31,540
+Vale como debe.
+
+95
+00:09:31,580 --> 00:09:42,200
+No tenemos un esquema de tablas de esta manera con una fila con una columna ni nada si lo que tenemos
+
+96
+00:09:42,200 --> 00:09:47,570
+es una base de datos ya no tenemos un esquema tenemos una base de datos y tenemos colecciones en las
+
+97
+00:09:47,570 --> 00:09:53,990
+colecciones lo que tenemos en lugar de tablas tenemos documento en lugar de filas tenemos documentos
+
+98
+00:09:54,140 --> 00:09:59,870
+en lugar de registro tenemos los datos del documento y en lugar de columnas tenemos campos es decir
+
+99
+00:09:59,870 --> 00:10:06,920
+que nosotros cuando tenemos un objeto Yeison tendríamos una información del tipo que te voy a enseñar
+
+100
+00:10:07,010 --> 00:10:16,290
+ahora por ejemplo voy a abrirme un bloc de notas y te lo enseño en un documento Yeison vamos a tener
+
+101
+00:10:16,350 --> 00:10:22,320
+una cosa así vamos a tener información vamos a tener un Jayson guardado y va a tener un campo que puede
+
+102
+00:10:22,320 --> 00:10:36,960
+ser el nombre y va a tener un dato un dato ese campo guardado dentro del documento va a tener otro campo
+
+103
+00:10:36,960 --> 00:10:47,640
+que va a ser el apellido y va a tener pues otro dato dentro y podríamos tener dentro del objeto y donde
+
+104
+00:10:47,630 --> 00:11:00,490
+del documento un email también que estaría guardado dentro de esa de ese documento.
+
+105
+00:11:00,510 --> 00:11:06,310
+Entonces Fíjate nosotros tendríamos Campos que serían estas cosas.
+
+106
+00:11:06,480 --> 00:11:13,200
+Campo 1 Campos Campo 3 nombre apellido email es el campo.
+
+107
+00:11:13,200 --> 00:11:19,230
+El documento sería todo esto y los datos del documento sería esta información de aquí entonces el lugar
+
+108
+00:11:19,230 --> 00:11:25,050
+de tabla vamos a tener todo organizado y vamos a tener colecciones que las colecciones son un conjunto
+
+109
+00:11:25,050 --> 00:11:31,500
+de documentos de acuerdo por ejemplo yo puedo tener una colección usuarios y dentro de esta colección
+
+110
+00:11:31,500 --> 00:11:40,170
+usuarios yo voy a tener un montón de objetos como éste vale una colección lo que viene siendo una raíz
+
+111
+00:11:41,250 --> 00:11:49,200
+de objetos es Red documento en lugar de una tabla como teníamos en mi SQL vale en lugar de en lugar
+
+112
+00:11:49,200 --> 00:11:50,210
+de esto.
+
+113
+00:11:50,490 --> 00:11:57,600
+De esta tabla de aquí vamos a tener algo así de acuerdo de forma que las columnas pasen a ser campos
+
+114
+00:11:59,440 --> 00:12:07,060
+los registros pasan a ser datos de los Documet del documento y la fila pasa a ser un documento en sí
+
+115
+00:12:07,630 --> 00:12:13,990
+con lo cual yo creo que ha quedado claro la diferencia de terminología y la diferencia de funcionamiento.
+
+116
+00:12:13,990 --> 00:12:22,090
+A grandes rasgos entonces para que para dar un último repaso lo que quiero que quede claro es que esta
+
+117
+00:12:22,090 --> 00:12:29,710
+vez ya no vamos a tener tablas sino que vamos a tener documentos esta vez ya no vamos a tener esquema
+
+118
+00:12:29,770 --> 00:12:35,170
+un esquema de la base de datos ni nada simplemente vamos a la base de datos en general y dentro en lugar
+
+119
+00:12:35,170 --> 00:12:40,770
+de tablas vamos a tener colecciones y vamos a tener documentos dentro de esas colecciones.
+
+120
+00:12:40,990 --> 00:12:45,200
+Ya no vamos a tener filas sino que vamos a tener documentos dentro de una colección.
+
+121
+00:12:45,400 --> 00:12:51,370
+Ya no vamos a tener columnas sino que vamos a tener campos y ya no vamos a tener registros sino que
+
+122
+00:12:51,370 --> 00:12:58,510
+vamos a tener datos del documento y en lugar de tablas ya te digo que vamos a tener colecciones una
+
+123
+00:12:58,510 --> 00:13:04,510
+colección que podría representarse como una tabla o podría entenderse como una tabla y dentro pues en
+
+124
+00:13:04,510 --> 00:13:13,630
+lugar de tener filas tendríamos documentos con Campos y datos del documento en lugar de registro como
+
+125
+00:13:13,630 --> 00:13:19,930
+tal pues esa es la diferencia entre una base de datos SQL y una base de datos no SQL y a partir de ahora
+
+126
+00:13:19,930 --> 00:13:24,460
+en el curso vamos a empezar a trabajar con Mungo deve y vamos a ver cosas prácticas.

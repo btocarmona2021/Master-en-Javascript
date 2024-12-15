@@ -1,0 +1,219 @@
+1
+00:00:00,660 --> 00:00:06,220
+Hasta ahora ya sabemos lo que es una etiqueta y cómo funciona en alguna de las etiquetas más básicas.
+
+2
+00:00:06,600 --> 00:00:14,640
+Pero claro esto no se debe hacer así porque un documento HTML o una página web HTML debe tener una estructura
+
+3
+00:00:14,640 --> 00:00:17,400
+marcada y una estructura estándar.
+
+4
+00:00:17,460 --> 00:00:22,830
+Por ejemplo cuando nosotros vayamos a hacer una página web esta página tiene que tener una cabecera
+
+5
+00:00:23,040 --> 00:00:29,760
+y un cuerpo de acuerdo y todo debe ir englobado dentro de una etiqueta HTML de acuerdo entonces vamos
+
+6
+00:00:29,760 --> 00:00:33,870
+a definir lo primero el Doctrine Doctrine HTML.
+
+7
+00:00:33,990 --> 00:00:39,480
+Esto lo que hace es establecer la versión de HTML que estamos utilizando de acuerdo y si estamos utilizando
+
+8
+00:00:39,480 --> 00:00:46,560
+XHTML HTML 5 como es el caso o cualquier otra versión de HTML en este caso la versión más actual es
+
+9
+00:00:46,560 --> 00:00:47,100
+ésta.
+
+10
+00:00:47,100 --> 00:00:49,910
+Así que le indicamos el doc html.
+
+11
+00:00:49,950 --> 00:00:53,860
+Vamos a estar utilizando la última versión que es HTML5.
+
+12
+00:00:54,310 --> 00:01:03,630
+Vale después una página web de HTML tiene que tener la estructura siguiente debe tener un HTML y cerrar
+
+13
+00:01:03,630 --> 00:01:08,200
+la etiqueta HTML dentro de aquí va a ir toda la página web.
+
+14
+00:01:08,400 --> 00:01:14,160
+Incluso podríamos poner un atributo común como podría ser el link el lenguaje y le podríamos indicar
+
+15
+00:01:14,160 --> 00:01:22,110
+que el lenguaje que vamos a estar utilizando es el castellano o el español de una página web HTML debe
+
+16
+00:01:22,110 --> 00:01:30,180
+tener una cabecera el GH de acuerdo en la cual dentro de esta etiqueta van a ir metadatos o van a ir
+
+17
+00:01:30,180 --> 00:01:37,530
+informaciones que no van a ser visibles dentro de la página web en sí dentro del cuerpo visual de la
+
+18
+00:01:37,530 --> 00:01:42,750
+página web es decir la información que yo pongo en el Jehan no se va a mostrar en esta parte de aquí
+
+19
+00:01:43,140 --> 00:01:47,910
+sino que puede añadir metadatos debe poder añadir un título a la página.
+
+20
+00:01:47,910 --> 00:01:57,500
+Por ejemplo yo puedo utilizar la etiqueta del y puedo cerrar el Twitter y aquí puedo indicarle el título
+
+21
+00:01:57,500 --> 00:02:07,010
+de mi página web por ejemplo mi primera web vale mientras yo guardo y si ahora actualizo la pantalla
+
+22
+00:02:07,220 --> 00:02:09,220
+aquí me aparece el título vale.
+
+23
+00:02:09,290 --> 00:02:11,060
+Mi primera web es la pestañita
+
+24
+00:02:14,310 --> 00:02:14,700
+de acuerdo.
+
+25
+00:02:14,700 --> 00:02:20,370
+También puedo indicarle varias cosas más como por ejemplo la codificación de caracteres que va a tener
+
+26
+00:02:21,210 --> 00:02:28,020
+estilos un montón de cosas que iremos viendo y luego la estructura de una página web siempre debe tener
+
+27
+00:02:28,020 --> 00:02:30,720
+un body El body es lo que se va a mostrar
+
+28
+00:02:33,720 --> 00:02:39,150
+en la página web Cenci de acuerdo al Bodies el cuerpo de la página web que es lo que se va a mostrar
+
+29
+00:02:39,210 --> 00:02:39,830
+aquí.
+
+30
+00:02:39,960 --> 00:02:44,590
+De acuerdo siempre el contenido en sí de la web Devir dentro de la etiqueta body.
+
+31
+00:02:44,850 --> 00:02:51,660
+Entonces yo puedo añadir un H1 que es una cabecera o un encabezado H1 lo cierro siempre acuérdate de
+
+32
+00:02:51,660 --> 00:02:58,260
+abrir y cerrar la etiqueta aunque hay algunas que no Impy no necesitan abrir y cerrar la etiqueta porque
+
+33
+00:02:58,260 --> 00:02:59,670
+no tienen un contenido dentro.
+
+34
+00:02:59,730 --> 00:03:07,920
+Pero bueno imagínate que en este caso queremos poner un encabezado por ejemplo título de mi web y puedo
+
+35
+00:03:07,920 --> 00:03:10,740
+poner también un encabezado de nivel 2 H2
+
+36
+00:03:14,950 --> 00:03:19,260
+Bienvenidos a mi web.
+
+37
+00:03:19,310 --> 00:03:27,640
+Vale entonces por ejemplo yo tengo dos etiqueta 1 que es el encabezado más grande y otro que es un encabezado
+
+38
+00:03:27,640 --> 00:03:34,750
+más pequeñito como subtítulo de la web tengo etiquetas h hasta la número 6 me parece de acuerdo.
+
+39
+00:03:34,850 --> 00:03:42,280
+Entonces este tipo de etiquetas se deben utilizar cuando queremos darle una prioridad una relevancia
+
+40
+00:03:42,300 --> 00:03:44,120
+a cierto a ciertos textos.
+
+41
+00:03:44,140 --> 00:03:50,020
+Por ejemplo el H1 siempre solamente debe haber 1 en cada página de nuestra web H2.
+
+42
+00:03:50,080 --> 00:03:56,860
+Puede haber más de acuerdo puede haber más su apartado dentro de la página web en donde puedo añadir
+
+43
+00:03:56,860 --> 00:03:58,470
+más y H3 por lo mismo.
+
+44
+00:03:58,690 --> 00:04:04,720
+Pero por ejemplo el H1 siempre debe haber 1 porque a nivel de SEO el buscador siempre va a buscar el
+
+45
+00:04:04,720 --> 00:04:05,760
+título de la página.
+
+46
+00:04:05,810 --> 00:04:08,610
+Entonces siempre poner un solo encabezado.
+
+47
+00:04:08,830 --> 00:04:13,870
+Vale pues voy a actualizar la pantalla y aquí tengo el título de mi web y el subtítulo.
+
+48
+00:04:13,870 --> 00:04:18,270
+Vale que está dentro del buey que es el cuerpo de la página.
+
+49
+00:04:18,370 --> 00:04:24,410
+Si yo le doy click derecho a inspeccionar veo que el código que yo he añadido o mejor dicho si de click
+
+50
+00:04:24,460 --> 00:04:31,450
+derecho en el código fuente de la página veo que el código que yo tengo aquí es el mismo que he añadido
+
+51
+00:04:31,510 --> 00:04:33,250
+en mi editor de código.
+
+52
+00:04:33,250 --> 00:04:40,030
+Exactamente el mismo el H1 se está pintando como un encabezado y el H2 está pintando como un encabezado
+
+53
+00:04:40,030 --> 00:04:42,460
+más pequeño de acuerdo.
+
+54
+00:04:42,490 --> 00:04:45,850
+Ya hemos visto cuál es la estructura básica de nuestra página web.
+
+55
+00:04:45,850 --> 00:04:50,380
+Cuando queramos añadir más cosas lo vamos a seguir añadiendo dentro del BEI.

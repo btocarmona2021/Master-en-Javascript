@@ -1,0 +1,199 @@
+1
+00:00:00,720 --> 00:00:07,050
+Bien voy a comentar este trozo de código yo ahora voy a explicar los parametros opcionales.
+
+2
+00:00:07,080 --> 00:00:12,810
+Mira cuando yo llamo a la calculadora cuando yo llamo a la función llamada calculadora
+
+3
+00:00:15,630 --> 00:00:21,400
+es obligatorio que le pase los dos parámetros que tengo el parámetro número 1 y el parámetro número
+
+4
+00:00:21,400 --> 00:00:21,550
+2.
+
+5
+00:00:21,570 --> 00:00:29,670
+Si no me falla de acuerdo me falla el resultado y realmente debería escupirle un error cuando yo no
+
+6
+00:00:29,670 --> 00:00:34,920
+le paso los parámetros porque estos dos parámetros son obligatorios pero tenemos una funcionalidad muy
+
+7
+00:00:34,920 --> 00:00:40,260
+interesante que es que puede pasar un parámetro y otro segundo parámetro.
+
+8
+00:00:40,320 --> 00:00:45,930
+Y todo está correcto pero además tenemos la funcionalidad de los parámetros opcionales que son parámetros
+
+9
+00:00:45,930 --> 00:00:52,230
+que no son obligatorios para darle un resultado sino que vienen inicializar algo por defecto.
+
+10
+00:00:52,230 --> 00:00:59,850
+Por ejemplo vamos a crear un parámetro que se va a llamar mostrar Balet que por defecto va a venir a
+
+11
+00:00:59,850 --> 00:01:07,550
+false ok entonces ese está este parámetro yo no tengo porqué pasárselo por aquí.
+
+12
+00:01:07,620 --> 00:01:15,660
+Realmente vale porque realmente ya va a tener un resultado dentro de sí un consuelo y punto lo de mostrar
+
+13
+00:01:16,930 --> 00:01:21,640
+esta variable que es un parámetro del tipo usando la función.
+
+14
+00:01:21,660 --> 00:01:24,320
+Si actualizo ya veo que trae false.
+
+15
+00:01:24,330 --> 00:01:28,760
+Yo no le he tenido que pasar nada por aquí para que este valor ya esté inicializar.
+
+16
+00:01:29,370 --> 00:01:37,440
+Entonces podemos hacer funcionalidades muy interesantes de decir que si mostrar es false vale si mostrar
+
+17
+00:01:37,440 --> 00:01:38,100
+es false
+
+18
+00:01:41,080 --> 00:01:46,320
+me muestre todo por la consola demuestra el resultado por la consola de acuerdo
+
+19
+00:01:49,250 --> 00:01:53,350
+me muestra el resultado por la consola en el caso de que sea false.
+
+20
+00:01:54,380 --> 00:02:00,330
+Si mostrar es igual igual a false es un vulcanos falso vale.
+
+21
+00:02:00,410 --> 00:02:04,820
+Y si no cita cualquier otra cosa yo quiero que me muestre esto.
+
+22
+00:02:06,820 --> 00:02:12,960
+Vale quiero que me lo muestre en el cuerpo de la página con un documento punto Gurlitt.
+
+23
+00:02:14,830 --> 00:02:16,860
+Vale quiero que me lo muestre en el cuerpo de la página.
+
+24
+00:02:23,810 --> 00:02:25,360
+Lo vamos a hacer así.
+
+25
+00:02:25,390 --> 00:02:27,360
+A ver si funciona correctamente.
+
+26
+00:02:27,370 --> 00:02:27,820
+Cuidado
+
+27
+00:02:30,880 --> 00:02:35,120
+vale entonces ahora mismo yo estoy haciendo la operación.
+
+28
+00:02:35,150 --> 00:02:40,640
+Esto me lo va a mostrar la consola vale porque es false pero si yo llamo otra vez a la calculadora y
+
+29
+00:02:41,180 --> 00:02:45,070
+le voy a pasar otro parámetro otros parámetros.
+
+30
+00:02:45,070 --> 00:02:50,510
+De hecho el 2 y el 5 y además le iba a pasar un Truc como tercer parámetro para que me lo muestre en
+
+31
+00:02:50,510 --> 00:02:53,840
+el cuerpo de la página y yo autorizo la pantalla.
+
+32
+00:02:54,380 --> 00:02:56,340
+Efectivamente aquí me lo muestra.
+
+33
+00:02:56,360 --> 00:02:58,010
+Que pasa que me equivoco en algún punto.
+
+34
+00:02:58,010 --> 00:02:58,770
+Efectivamente.
+
+35
+00:02:58,790 --> 00:03:07,140
+Y aquí he puesto mal esto vale incluso aquí podría yo con Kate darle un berrean para que se muestre
+
+36
+00:03:07,140 --> 00:03:08,600
+mejor en la pantalla.
+
+37
+00:03:08,640 --> 00:03:10,500
+En el body del HTML
+
+38
+00:03:15,220 --> 00:03:19,710
+autorizó la pantalla y efectivamente ahora me lo muestra por pantalla.
+
+39
+00:03:19,720 --> 00:03:24,090
+Resultado completamente diferente porque yo le he pasado parámetros diferentes.
+
+40
+00:03:24,100 --> 00:03:29,140
+De esta manera yo puedo estar reutilizando la función tantas veces como quiera porque en función de
+
+41
+00:03:29,140 --> 00:03:36,760
+los parámetros que yo lo estoy pasando y de este parámetro opcional que además actúa como flag Fages
+
+42
+00:03:37,240 --> 00:03:40,600
+una variable queda Truphone sin función si da True o full.
+
+43
+00:03:40,620 --> 00:03:46,690
+Pues me hace una cosa me hace otra entonces en función de los parámetros que le pase le paso el resultado
+
+44
+00:03:46,720 --> 00:03:50,610
+y la funcionalidad que haga esa función es completamente diferente.
+
+45
+00:03:52,800 --> 00:04:01,480
+Y efectivamente aquí aquí se ve reflejado que yo puedo estar llamando a la función pasándole datos diferente
+
+46
+00:04:01,480 --> 00:04:01,960
+y todo
+
+47
+00:04:05,380 --> 00:04:10,780
+y me va escupiendo el resultado y me va haciendo la funcionalidad y ejecutando las instrucciones en
+
+48
+00:04:10,780 --> 00:04:13,400
+función de la lógica que yo tenga dentro de la función.
+
+49
+00:04:13,580 --> 00:04:18,720
+Y estos son los parámetros opcionales parámetros que se los pasamos pero que ya vienen inicializar y
+
+50
+00:04:18,730 --> 00:04:22,240
+que no es obligatorio pasárselo cuando invocamos la función.

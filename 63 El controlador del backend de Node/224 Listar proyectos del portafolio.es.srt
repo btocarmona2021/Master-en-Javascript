@@ -1,0 +1,243 @@
+1
+00:00:00,500 --> 00:00:06,240
+Ya tenemos un método que no guarda un nuevo documento de tipo proyecto en nuestra colección de proyectos
+
+2
+00:00:06,240 --> 00:00:07,940
+de la base de datos de Mongo.
+
+3
+00:00:07,980 --> 00:00:14,430
+Ahora vamos a utilizar un método que nos devuelva un documento de la base de datos vale que nos devuelva
+
+4
+00:00:14,430 --> 00:00:17,730
+el objeto que nosotros le solicitemos por la web de L.
+
+5
+00:00:17,790 --> 00:00:32,940
+Para eso vamos a crear el método G.T Proyect vale y este método va a recibir una recuesto y una response.
+
+6
+00:00:33,160 --> 00:00:41,730
+Vale entonces lo que vamos a hacer aquí simplemente es recoger un balón lo que nos lleva por la web
+
+7
+00:00:41,730 --> 00:00:51,480
+real en este caso el proyecto de proyecto y lo vamos a recoger de la recuas toparás del parámetro por
+
+8
+00:00:51,480 --> 00:00:56,790
+la web de la que le vamos a añadir a la ruta ahora posteriormente y se va a llamar el parámetro ideal
+
+9
+00:00:57,330 --> 00:00:59,620
+ahora tenemos que utilizar nuestro modelo Projet
+
+10
+00:01:02,830 --> 00:01:10,890
+Project para hacer un fine fine Bay y de un fin común Google simplemente buscar una cosa de la base
+
+11
+00:01:10,890 --> 00:01:11,370
+de datos.
+
+12
+00:01:11,370 --> 00:01:18,390
+En este caso se Hoffa invalide significa búscame un objeto cuyo IDE sea el que le pasen por aquí hay
+
+13
+00:01:18,390 --> 00:01:23,430
+muchos métodos de este tipo y lo puedes buscar en la documentación de mongolos y hay infinidad de métodos
+
+14
+00:01:23,460 --> 00:01:27,640
+pero vamos para hacer cualquier tipo de cosa tienen millones de opciones cada uno.
+
+15
+00:01:27,900 --> 00:01:34,020
+En este caso el Feinman recibe dos parámetros recibe dos parámetros el ideé del documento a buscar.
+
+16
+00:01:34,020 --> 00:01:44,340
+En este caso el Projet IDE y luego una función de Calvache que recibe un posible error como parámetro
+
+17
+00:01:44,430 --> 00:01:51,670
+y el proyecto para hacer lo que sea el objeto del documento que yo he sacado.
+
+18
+00:01:53,620 --> 00:01:59,500
+OK Computer como por aquí Gaber bien entonces.
+
+19
+00:02:00,140 --> 00:02:04,230
+En el caso de que me llegue un error pues voy a hacer lo mismo que he hecho anteriormente en el caso
+
+20
+00:02:04,230 --> 00:02:17,010
+de que error de Dru pues entonces yo voy a hacer un RETURN respondió estátus 500 junto sen envió un
+
+21
+00:02:17,010 --> 00:02:30,980
+mensaje que diga error al devolver los datos por ejemplo no quiero confundir como
+
+22
+00:02:34,490 --> 00:02:41,030
+luego a ONIF en el caso de que no me llegó el proyecto de que no me llegue el objeto del proyecto correctamente
+
+23
+00:02:41,030 --> 00:02:42,000
+de que me dé Falset.
+
+24
+00:02:42,320 --> 00:02:50,040
+Pues entonces voy a hacer un returned respondo estátus 4 0 4 y que me diga el mensaje que yo envíe con
+
+25
+00:02:50,060 --> 00:02:58,480
+el método el que me diga que el documento no existe o el proyecto no existe.
+
+26
+00:03:01,840 --> 00:03:02,180
+Vale.
+
+27
+00:03:02,240 --> 00:03:06,830
+Y en el caso de que no haya entrado a ninguna de estas condiciones ya podría hacer un RETURN normal
+
+28
+00:03:07,740 --> 00:03:19,420
+resulto estátus no ciento una respuesta de éxito Senn y envío mi objeto con mi propiedad proyecto vale.
+
+29
+00:03:20,480 --> 00:03:27,710
+Así de simple si guardo ya podría probarlo pero antes tendría que crear mi ruta para eso me voy al archivo
+
+30
+00:03:27,720 --> 00:03:35,120
+Prayuth punto J.V de la carpeta Routes y aquí me creo mi ruta Rutter punto esta va a ser una ruta por
+
+31
+00:03:35,130 --> 00:03:44,240
+Goeth vale la ruta va a ser barra Projet barra y le voy a pasar el parámetro y luego va a ser un parámetro
+
+32
+00:03:44,960 --> 00:03:51,230
+por la web R.L que sea obligatorio que es en este caso vale y también le puedo decir que sea opcional
+
+33
+00:03:51,310 --> 00:03:59,810
+que es poniéndole una interrogación aquí en ese caso tendría que comprobar si si ese parámetro fuera
+
+34
+00:04:00,290 --> 00:04:01,780
+Null es decir si proyectode
+
+35
+00:04:04,490 --> 00:04:13,870
+es igual igual a NULL vale pues que me haga un retumbe como el que estoy haciendo aquí por ejemplo
+
+36
+00:04:17,120 --> 00:04:18,960
+o que podría hacerlo así.
+
+37
+00:04:18,970 --> 00:04:26,230
+Incluso me puedo ahorrar la llave y está en línea poniéndolo en paralelo al lado de él y de esa manera
+
+38
+00:04:26,280 --> 00:04:31,260
+entrar a la condición de la misma manera genial.
+
+39
+00:04:31,350 --> 00:04:36,470
+Entonces le pongo ese parámetro opcional o obligatorio como tú quieras.
+
+40
+00:04:36,550 --> 00:04:39,120
+Si se lo pone opcional tiene que hacer esta condición.
+
+41
+00:04:39,120 --> 00:04:44,710
+Vale y le voy a indicar que cuando yo cargué esta ruta se va a cargar el objeto pero el control y el
+
+42
+00:04:44,710 --> 00:04:52,330
+método GET proyecto Valencia con Punto y Coma guardo y vamos a probar esta nueva ruta.
+
+43
+00:04:52,330 --> 00:05:01,000
+Me voy a abrir una nueva pestaña aquí y vamos a hacer una petición a la web de nuestra API local 3700
+
+44
+00:05:01,080 --> 00:05:03,370
+barra API barra Get
+
+45
+00:05:06,070 --> 00:05:06,770
+Projet.
+
+46
+00:05:06,770 --> 00:05:10,860
+En este caso en este caso el proyecto simplemente proyecto.
+
+47
+00:05:11,570 --> 00:05:20,000
+Y de paso por la R.L y le paso por la web R.L el IDE que yo quiera si le paso você a decir que el objeto
+
+48
+00:05:20,000 --> 00:05:28,200
+no existe error al devolver los datos me da si no le pasó nada me dice el proyecto no existe.
+
+49
+00:05:28,200 --> 00:05:31,600
+Entra a esta primera condición.
+
+50
+00:05:31,600 --> 00:05:36,350
+Vale y si yo le pasara una idea de un objeto que si que existe voy a ver este documento en la base de
+
+51
+00:05:36,350 --> 00:05:46,600
+datos Copetti y se lo paso por la R.L como parámetro envío y me devuelve efectivamente mi objeto que
+
+52
+00:05:47,010 --> 00:05:48,870
+perfectamente vale.
+
+53
+00:05:48,950 --> 00:05:54,680
+Si yo le cambiara esta idea y se lo pusiera erroneo llegasen a decir que el proyecto no existe.
+
+54
+00:05:54,710 --> 00:06:03,810
+Ya entra al zen que yo estoy haciendo ya entra alfin en esta condición como realmente el error no se
+
+55
+00:06:03,810 --> 00:06:09,210
+ha producido porque le parece una idea bien formada y tal pero sí que entro aquí a decir que no existe
+
+56
+00:06:09,210 --> 00:06:14,250
+el objeto Poyet esto me devuelve falso porque no lo he encontrado y ya el proyecto no existe y en el
+
+57
+00:06:14,250 --> 00:06:16,790
+caso de que élide sí que sea correcto.
+
+58
+00:06:17,070 --> 00:06:23,190
+Pues si que ya me devuelve mi objeto para luego en el frontend mostrarlo y hacer lo que quiera con esta
+
+59
+00:06:23,190 --> 00:06:24,050
+información.
+
+60
+00:06:24,060 --> 00:06:30,300
+Vale pues ya tenemos un nuevo método nuestra API que nos permite sacar un único proyecto de la base
+
+61
+00:06:30,360 --> 00:06:30,960
+de datos.

@@ -1,0 +1,67 @@
+1
+00:00:00,390 --> 00:00:05,490
+Si quisiera personalizar más o dar más detalles de los errores y mejorar la forma en la que se fueron
+
+2
+00:00:05,700 --> 00:00:10,470
+la que se muestran los errores en la página podría utilizar varias propiedades que tiene este plugin
+
+3
+00:00:10,530 --> 00:00:12,770
+para manipular el tema de los errores.
+
+4
+00:00:12,810 --> 00:00:21,150
+Podría utilizar la propiedad error Message position y podría decirle que se fuera al top que se fuera
+
+5
+00:00:21,150 --> 00:00:32,750
+arriba y también podría indicarle otra que es Krol top o un error y debe decir Troop.
+
+6
+00:00:32,750 --> 00:00:38,450
+De esta manera cuando yo haga submit si hay algún error en el formulario me va a llevar arriba y me
+
+7
+00:00:38,450 --> 00:00:40,550
+va a mostrar todos los errores de manera detallada.
+
+8
+00:00:40,560 --> 00:00:44,630
+Vale vamos a probarlo si yo le voy a enviar spam me muestro aquí todos los errores.
+
+9
+00:00:44,630 --> 00:00:50,870
+Qué pasa que como yo le he añadido una clase a ese elemento de los errores pues se muestra con esos
+
+10
+00:00:50,900 --> 00:00:52,000
+estilo vale.
+
+11
+00:00:52,310 --> 00:00:56,630
+Así que yo le puedo quitar por ejemplo el float Right se lo puedo comentar
+
+12
+00:01:00,620 --> 00:01:07,890
+y le puedo poner un Witz 100 por ciento para comprobar qué pasa vamos a actualizar la pantalla.
+
+13
+00:01:08,160 --> 00:01:11,240
+De momento los errores se van mostrando abajo.
+
+14
+00:01:11,770 --> 00:01:18,150
+Ok pero si yo le voy a enviar spam se me muestran todos los errores aquí arriba con todos los detalles
+
+15
+00:01:18,240 --> 00:01:23,860
+necesarios es cuestión de ir maquetado esto como te guste o de ir dándole un estilo como a ti te guste
+
+16
+00:01:23,860 --> 00:01:29,190
+o no pero de momento ya tenemos la validación hecha y hemos visto un utilizar este plugin que es bastante
+
+17
+00:01:29,190 --> 00:01:29,690
+potente.

@@ -1,0 +1,295 @@
+1
+00:00:00,480 --> 00:00:05,670
+Para validar un formulario en angular de manera sencilla simplemente tenemos que utilizar las reglas
+
+2
+00:00:05,670 --> 00:00:14,070
+de validación de HTML 5 es decir que si yo le pongo un campo que es Reckitt me va a cumplir esa regla
+
+3
+00:00:14,070 --> 00:00:19,650
+de decir yo voy a ponerle required y a nivel de HTML 5 y a nivel de Javascript con angular no lo va
+
+4
+00:00:19,740 --> 00:00:28,700
+a validar vale vamos a ponerle requiere a todos los campos ok y entonces vamos a hacer la validación
+
+5
+00:00:30,200 --> 00:00:37,910
+la validación la voy a hacer por aquí voy a añadir una España cierro el pan y dentro del PAN voy a hacer
+
+6
+00:00:37,910 --> 00:00:40,660
+la validación voy a hacer una MGI.
+
+7
+00:00:40,850 --> 00:00:46,880
+Es decir que cuando se cumpla Geir y cuando se cumpla que nombre
+
+8
+00:00:49,740 --> 00:00:52,920
+es válido cuando el nombre no sea válido
+
+9
+00:00:55,720 --> 00:01:01,480
+cuando el nombre no sea válido es decir que no hayamos rellenado los datos aquí me muestra un mensaje
+
+10
+00:01:02,140 --> 00:01:08,720
+el nombre es obligatorio muerto actualizo la pantalla.
+
+11
+00:01:08,740 --> 00:01:15,340
+Y si yo me veo esto como está me dice que el nombre es obligatorio una vez que yo rellena el campo ya
+
+12
+00:01:15,430 --> 00:01:19,510
+no me muestra ese error ok.
+
+13
+00:01:19,540 --> 00:01:26,050
+Claro esto está bien pero es un poco arcaico un poco feo que esté este mensaje de error nada más cargar
+
+14
+00:01:26,130 --> 00:01:33,150
+pues para eso podemos hacer lo siguiente cuando el campo nombre haya sido touched haya sido tocado apuntó
+
+15
+00:01:33,180 --> 00:01:34,120
+Touched.
+
+16
+00:01:34,340 --> 00:01:39,400
+Y además no sea válido entonces que me ponga que el nombre es obligatorio es decir que si yo entro y
+
+17
+00:01:39,400 --> 00:01:44,670
+luego salgo ahora como relleno del campus y que me pone que el nombre es obligatorio.
+
+18
+00:01:44,950 --> 00:01:51,400
+Ok con lo cual ya tengo este campo validado también podría meterle todas las reglas de HTML 5 que yo
+
+19
+00:01:51,400 --> 00:01:57,940
+quisiera y añadirle por ejemplo un patearme vale un pateen en una expresión regular que yo quiero que
+
+20
+00:01:57,940 --> 00:01:58,580
+cumpla.
+
+21
+00:01:58,600 --> 00:02:05,110
+Entonces por ejemplo si quiero que sean solamente letras de la A a la Z en minúscula y de la A a la
+
+22
+00:02:05,110 --> 00:02:10,540
+Z en mayúscula que solamente sea un número y que solamente sea letra y que se pueda repetir un número
+
+23
+00:02:10,540 --> 00:02:14,460
+indefinido de veces hago esta expresión regular de acuerdo.
+
+24
+00:02:14,460 --> 00:02:19,480
+Y entonces ahora solamente voy a poder meter letra yo lo meto todo bien meto un número.
+
+25
+00:02:19,620 --> 00:02:20,660
+Ya tenemos un error.
+
+26
+00:02:20,670 --> 00:02:27,190
+Vale entonces eso también es interesante validarlo De esta manera voy a poner la misma validación en
+
+27
+00:02:27,190 --> 00:02:35,960
+el resto de campos en el campo de apellido voy a poner la misma validación en el campo de email voy
+
+28
+00:02:35,960 --> 00:02:44,080
+a decirle que es un campo de Tipo I mail en lugar de un campo tipo texto para que me lo valide y tal.
+
+29
+00:02:44,420 --> 00:02:51,190
+Y luego también en el mensaje voy a ponerle ese tipo de validación del mensaje simplemente que sea requerido
+
+30
+00:02:51,400 --> 00:02:56,600
+y el campo que sea libre Vale pues entonces voy a añadirle el mismo spam al resto de campos
+
+31
+00:03:00,210 --> 00:03:06,780
+lo añado por aquí digo que sí apellidos ha sido tocado y además no es válido.
+
+32
+00:03:11,050 --> 00:03:13,570
+Pues que ponga que los apellidos
+
+33
+00:03:17,700 --> 00:03:25,080
+son obligatorias y en el email pues lo mismo pues a pegarle el span
+
+34
+00:03:28,300 --> 00:03:36,380
+que diga que si el e-mail a la condición que se elimine así haya sido tocado y además no es válido porque
+
+35
+00:03:36,390 --> 00:03:39,750
+me ponga que el email no es válido.
+
+36
+00:03:46,590 --> 00:04:02,460
+Ahora también por aquí vamos a pegar el spam y vamos a comprobar que si el mensaje ha sido tocado y
+
+37
+00:04:02,460 --> 00:04:03,180
+no es válido
+
+38
+00:04:06,360 --> 00:04:10,920
+pues quería que el mensaje es obligatorio.
+
+39
+00:04:10,920 --> 00:04:13,850
+De esta manera ya voy a estar validando la información.
+
+40
+00:04:13,880 --> 00:04:19,520
+Vale si yo entro y no lamento bien pues me falla nuevamente en el quieto aquí estoy esto ya no me deja
+
+41
+00:04:19,530 --> 00:04:25,440
+meter el número me meten en un email aunque realmente me deja meter el email.
+
+42
+00:04:25,440 --> 00:04:30,720
+Si yo hiciera una expresión regular de emails lo comprobaría y me fallaría en el caso de que no tuviera
+
+43
+00:04:31,230 --> 00:04:32,830
+la forma correcta.
+
+44
+00:04:32,830 --> 00:04:36,450
+Y esto también es de información y hasta puedo enviar estos datos
+
+45
+00:04:39,190 --> 00:04:42,090
+y mostrarlos por la consola como ya teníamos hecho.
+
+46
+00:04:42,310 --> 00:04:43,100
+Aquí se me.
+
+47
+00:04:43,590 --> 00:04:48,870
+Pero qué pasa que si yo borro uno de estos datos y no es válido el formulario le voy a enviar y aún
+
+48
+00:04:48,880 --> 00:04:50,320
+así me deja enviarlo.
+
+49
+00:04:50,350 --> 00:04:52,240
+Entonces qué puedo hacer para solucionar esto.
+
+50
+00:04:52,390 --> 00:05:03,400
+Pues muy fácil yo en mi imput de tipo submit yo puedo poner el atributo disabled vale y estos atributos
+
+51
+00:05:03,500 --> 00:05:08,650
+estas directivas de atributo tienen una condición es decir pomme disabled cuando se cumpla una condición
+
+52
+00:05:08,750 --> 00:05:18,630
+que condición cuando no sea válido form contacto punto form punto vale cuando no sea válido el formulario
+
+53
+00:05:18,630 --> 00:05:25,110
+de contacto pues entonces que eso sea disabled evidentemente ahora mismo está vacío y en disabled meto
+
+54
+00:05:25,110 --> 00:05:29,840
+todos los datos y se vuelve enable.
+
+55
+00:05:29,880 --> 00:05:34,620
+Si metodólogo mal están disabled vale entonces solamente cuando el formulario sea válido a nivel de
+
+56
+00:05:34,620 --> 00:05:37,980
+JavaScript entonces me va a dejar enviar esa información.
+
+57
+00:05:38,070 --> 00:05:40,970
+Ok perfecto.
+
+58
+00:05:41,280 --> 00:05:44,420
+Otra cosa que podría hacer es vaciar el formulario.
+
+59
+00:05:44,460 --> 00:05:50,280
+Vale una vez que envié los datos cómo puedo vaciarlo pues enviándole la variable del formulario por
+
+60
+00:05:50,280 --> 00:05:56,800
+aquí vale haciendo lo siguiente pasándole la variable en contacto.
+
+61
+00:05:57,870 --> 00:06:05,340
+Vale esto automáticamente le va a llegar a mi componente a mi a mi función o a mi método del componente
+
+62
+00:06:05,340 --> 00:06:12,420
+por aquí le va a llegar FOM y entonces lo que tengo que hacer es vaciarlo hacer un reset hacer un form
+
+63
+00:06:12,420 --> 00:06:18,150
+punto reset llamar a ese método y así de simple puedo vaciar los datos del formulario entonces vamos
+
+64
+00:06:18,150 --> 00:06:19,470
+a rellenar la información
+
+65
+00:06:22,860 --> 00:06:28,360
+enviar spam me lo vacía y yo tengo mi objeto vacío por qué lo tengo vacío porque estoy haciendo el reset
+
+66
+00:06:28,660 --> 00:06:33,290
+antes de guardar esa información o de mostrarla.
+
+67
+00:06:33,430 --> 00:06:38,020
+Evidentemente hay situaciones en las que a veces sí que necesitamos resetear el formulario cuando enviamos
+
+68
+00:06:38,020 --> 00:06:43,400
+datos a un API y ya se han guardado en la base de datos o lo que sea pero en este caso concreto el fondo
+
+69
+00:06:43,630 --> 00:06:52,450
+lo que hace es resetear y poner a NULL el objeto o los objetos vinculados a Al formulario con lo cual
+
+70
+00:06:52,540 --> 00:06:58,530
+no merece ni la pena resetear el formulario porque son datos que están dinámicamente vinculados.
+
+71
+00:06:58,530 --> 00:07:04,000
+Entonces aquí podríamos estar mostrando todos esos valores pero bueno ya hemos visto cómo crear el formulario
+
+72
+00:07:04,000 --> 00:07:09,600
+como validarlo como recoger esa información como poner un botón a disabled etcétera.
+
+73
+00:07:09,610 --> 00:07:16,120
+Así que ya en la siguiente clase haremos un ejercicio en el tema de los formularios y con el tema de
+
+74
+00:07:16,120 --> 00:07:17,860
+las peticiones HTTP.

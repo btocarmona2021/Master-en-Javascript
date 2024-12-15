@@ -1,0 +1,171 @@
+1
+00:00:00,750 --> 00:00:06,900
+De acuerdo pues ahora vamos a empezar con lo más básico a la hora de crear una página web con HTML que
+
+2
+00:00:06,960 --> 00:00:10,870
+en este caso sería crear una carpeta para nuestra página web.
+
+3
+00:00:10,910 --> 00:00:17,850
+Vamos a quedarnos una carpeta que se va a llamar web de acuerdo por ejemplo y aquí dentro vamos a crear
+
+4
+00:00:17,850 --> 00:00:19,140
+nuestra página web.
+
+5
+00:00:19,380 --> 00:00:25,200
+Las páginas web en HTML se definen de la siguiente manera creamos un nuevo archivo documento de texto
+
+6
+00:00:25,830 --> 00:00:33,600
+y por ejemplo podemos poner índex punto HTML y le quitamos el punto txt les decimos que sí y esto ya
+
+7
+00:00:33,600 --> 00:00:40,110
+es una página web que la va a abrir un navegador y yo doy clic derecho abrí con Google Chrome se me
+
+8
+00:00:40,110 --> 00:00:45,540
+va a abrir una página web en mi navegador web que va a ser ésta.
+
+9
+00:00:45,540 --> 00:00:51,120
+Vale pues todas las páginas HTML tienen que ir acaba de punto HTML.
+
+10
+00:00:51,580 --> 00:00:58,770
+Vale ya ahora la podemos abrir un editor de código para ver qué estructura va a tener una página web
+
+11
+00:00:58,860 --> 00:01:03,160
+en HTML y para ver que es una etiqueta que es un atributo etcétera.
+
+12
+00:01:03,510 --> 00:01:08,670
+Ahora vamos a abrir nuestros suplentes simplemente ya lo debes tener instalado simplemente te lo descargas
+
+13
+00:01:08,670 --> 00:01:12,140
+y lo instalas y ya lo tendrías preparado entonces.
+
+14
+00:01:12,150 --> 00:01:19,240
+Aquí podemos cargar nuestro archivo HTML simplemente arrastrándolo se nos abre nuestro editor de código.
+
+15
+00:01:19,290 --> 00:01:25,050
+Entonces todo el código HTML está formado por etiquetas una etiqueta simplemente es algo que va entre
+
+16
+00:01:25,050 --> 00:01:38,010
+un menor que el nombre y la etiqueta y se cierra la etiqueta de esta manera menor que barra etiqueta.
+
+17
+00:01:38,010 --> 00:01:47,010
+De esta manera yo abro una etiqueta menor que no me la etiqueta mayor que y luego menor que barra o
+
+18
+00:01:47,010 --> 00:01:51,980
+diagonal nombre la etiqueta y mayor que de acuerdo.
+
+19
+00:01:52,560 --> 00:01:58,800
+De esta manera yo tengo una etiqueta entonces cada etiqueta de las que hay en HTML puede significar
+
+20
+00:01:59,400 --> 00:02:01,610
+algo diferente puede hacer algo diferente.
+
+21
+00:02:01,620 --> 00:02:09,540
+Hay etiquetas para hacer párrafos y etiquetas para imágenes etiquetas para video etiquetas Parham encabezados
+
+22
+00:02:09,550 --> 00:02:15,360
+etiquetas para textos para negritas etiquetas para hacer una tabla para hacer un listado etcétera.
+
+23
+00:02:15,360 --> 00:02:21,510
+Cada etiqueta cumple una función y la iremos viendo a lo largo del curso y hay un montón de información
+
+24
+00:02:21,810 --> 00:02:25,500
+en Internet acerca de todas las etiquetas que hay dentro del HTML.
+
+25
+00:02:25,500 --> 00:02:30,600
+Vale pues esto sería una etiqueta un elemento en el cual yo puedo tener una información dentro y que
+
+26
+00:02:30,600 --> 00:02:32,140
+se haga algo con ella.
+
+27
+00:02:32,160 --> 00:02:40,920
+Por ejemplo esto puede tener un texto o datos por ejemplo y esta etiqueta también puede tener unos atributos
+
+28
+00:02:41,340 --> 00:02:50,460
+por ejemplo un atributo sería algo así atributo y aquí dentro tener el valor del atributo cada atributo
+
+29
+00:02:51,300 --> 00:02:57,390
+actúa de una manera para modificar algo de la etiqueta de acuerdo por ejemplo si le pongo un atributo
+
+30
+00:02:57,390 --> 00:03:04,350
+class y le pongo aquí algo pues le estoy añadiendo una clase al elemento que puede actuar como selector.
+
+31
+00:03:04,440 --> 00:03:10,950
+Si le pongo un atributo estaís yo le puedo añadir unos estilo CSS aquí en línea es decir hay varios
+
+32
+00:03:10,950 --> 00:03:17,140
+atributos diferente que lo que van a hacer es modificar el comportamiento de la etiqueta principal.
+
+33
+00:03:17,180 --> 00:03:23,610
+Vale entonces por ejemplo ahora mismo tenemos esa etiqueta pero yo puedo etiquetar era una etiqueta
+
+34
+00:03:23,610 --> 00:03:25,650
+de prueba para explicarte lo que era una etiqueta.
+
+35
+00:03:25,840 --> 00:03:29,100
+Pero por ejemplo yo puedo definirme una etiqueta que sea Strong
+
+36
+00:03:32,700 --> 00:03:40,370
+vale y aquí poner un texto Hola Mundo desde HTML.
+
+37
+00:03:40,650 --> 00:03:47,940
+Si yo guardo y actualizo mi pantalla ahora me va a aparecer Hola Mundo desde HTML en negrita porque
+
+38
+00:03:48,210 --> 00:03:55,670
+lo que hace la etiqueta Strom es que su contenido lo convierte en un texto en negrita.
+
+39
+00:03:55,680 --> 00:04:02,730
+De igual forma yo puedo definirme una etiqueta H4 o H3 para que me haga un encabezado de nivel 3
+
+40
+00:04:05,610 --> 00:04:06,940
+Hola Mundo.
+
+41
+00:04:06,970 --> 00:04:14,240
+2 Vale guardo actualizó la pantalla y ahora me pone un encabezado de nivel 3 me acuerdo que incluye
+
+42
+00:04:14,370 --> 00:04:16,540
+un salto de línea etcétera.
+
+43
+00:04:16,680 --> 00:04:20,510
+Ok pues esto es una etiqueta y así es como se comporta.

@@ -1,0 +1,219 @@
+1
+00:00:00,960 --> 00:00:04,040
+Ahora vamos al estilo a la barra de navegación.
+
+2
+00:00:04,320 --> 00:00:06,840
+Lo primero que tenemos que hacer es cambiar la etiqueta.
+
+3
+00:00:06,840 --> 00:00:14,070
+Hemos puesto en ámbar y realmente la etiqueta HTML 5 es no Nachbar así que hacemos ese cambio y vamos
+
+4
+00:00:14,070 --> 00:00:15,680
+a quitarlo.
+
+5
+00:00:15,780 --> 00:00:22,140
+Lo primero que vamos a hacer va a ser darle uno de estilo a la propia Anna vale incluso vamos a cambiar
+
+6
+00:00:22,140 --> 00:00:29,670
+el IDE de tenerlo aquí a tenerlo en la etiqueta NAB para partir sobre esa etiqueta.
+
+7
+00:00:29,670 --> 00:00:37,170
+Vamos a crear la regla CSS en este caso vamos a seleccionar Menú que es el de donde va a actuar esto
+
+8
+00:00:38,820 --> 00:00:53,040
+vamos a ponerle un font family que va a ser helvética y si no Arial vamos a ponerle un background que
+
+9
+00:00:53,040 --> 00:01:02,190
+va a ser tres tres tres que va a ser como un gris y oscuro un Wiz cien por cien para ocupe todo el ancho
+
+10
+00:01:02,190 --> 00:01:05,060
+del chip que lo contiene.
+
+11
+00:01:05,190 --> 00:01:13,550
+Podemos incluso hacer un text Transform o percas para transformar el texto que aparece aquí a mayúsculas.
+
+12
+00:01:13,860 --> 00:01:19,350
+Aquí lo estamos viendo que ya sale en mayúsculas incluso el té Transform se lo podríamos poner también
+
+13
+00:01:20,130 --> 00:01:24,870
+al propio logo para que se vea también en mayúscula
+
+14
+00:01:27,960 --> 00:01:34,190
+pero si le ponemos eso ya tenemos que hacer un poco más pequeña la letra para que quepa
+
+15
+00:01:37,540 --> 00:01:38,050
+ahora.
+
+16
+00:01:38,090 --> 00:01:46,960
+Si bien entonces al menú le estamos dando unos estilos y le vamos a poner también un margin botón de
+
+17
+00:01:46,960 --> 00:01:50,240
+20 píxeles perfecto.
+
+18
+00:01:50,390 --> 00:01:59,860
+Ahora a lo que es la abuela que dentro del menú es decir menú suele decir todo lo elemento Wyle que
+
+19
+00:01:59,870 --> 00:02:02,980
+haya dentro de los elementos cuyo idea sea menú.
+
+20
+00:02:03,390 --> 00:02:16,570
+Pues a estos elementos suele poner un Lyne Jaitt de 46 píxeles Maglev porque a lo elemento leí que dentro
+
+21
+00:02:16,580 --> 00:02:22,890
+del menú menú huele a esos elementos que hay dentro.
+
+22
+00:02:23,250 --> 00:02:26,790
+Les voy a poner un Jaitt de 46 píxeles.
+
+23
+00:02:27,910 --> 00:02:31,860
+Ok si lo vemos ahora aquí no aparece el menú.
+
+24
+00:02:32,010 --> 00:02:38,340
+Vale voy a cerrar esto por el momento y vamos maquetado otra cosa que le vamos a poner al elemento lí
+
+25
+00:02:38,430 --> 00:02:45,430
+es un display inline blog que esto va a servir para ponerlo elemento 1 al lado de otro.
+
+26
+00:02:45,450 --> 00:02:47,290
+Efectivamente ahí lo vemos.
+
+27
+00:02:47,480 --> 00:02:55,920
+Le vamos a poner también un algo que es la lista en sí al huele un liceísta y List está ignoré para
+
+28
+00:02:55,920 --> 00:03:02,880
+que no nos muestren ningún caso los puntos esos de las listas y además le vamos a poner un Transition
+
+29
+00:03:05,340 --> 00:03:15,120
+Transition hay 300 milisegundos para cuando yo haga o ver sobre esto que haya una transición que vamos
+
+30
+00:03:15,120 --> 00:03:22,100
+a ver ahora cómo hacerla bien a lo que viene siendo los elementos a las etiquetas a los enlaces menú
+
+31
+00:03:22,690 --> 00:03:24,180
+suele leer.
+
+32
+00:03:24,300 --> 00:03:29,810
+De acuerdo esto me lo puedo saltar y no escribir tanto y hacer lo menos específico puedo hacer así directamente.
+
+33
+00:03:29,850 --> 00:03:30,710
+Ah.
+
+34
+00:03:31,320 --> 00:03:32,100
+Le voy a dar
+
+35
+00:03:34,840 --> 00:03:44,320
+un display blog le voy a quitar el color y le voy a poner un color wait wait que voy a poner un tweet
+
+36
+00:03:44,320 --> 00:03:54,400
+Declaration no para que no tenga ese subrayado por debajo el link te va a poner un teléfono de 30 píxeles
+
+37
+00:03:55,390 --> 00:04:01,530
+para que haya una separación entre enlace y enlace y un Padín Radiguet de 30 píxeles también.
+
+38
+00:04:01,620 --> 00:04:06,880
+Si guardo y actualizo vamos a ver que el menú ha cambiado bastante efectivamente y ya no aparece bien
+
+39
+00:04:06,880 --> 00:04:10,850
+formateado igual que estamos viendo en la imagen prácticamente.
+
+40
+00:04:11,220 --> 00:04:15,700
+Vale entonces cuando yo haga over cuando yo pase por encima de este elemento yo quiero que haga algún
+
+41
+00:04:15,700 --> 00:04:23,850
+efecto quiero que cuando yo haga over sobre el elemento Link.
+
+42
+00:04:23,890 --> 00:04:29,350
+Vale vamos a intentar hacer el CSS lo más ordenado posible de arriba abajo en la web de acuerdo todos
+
+43
+00:04:29,350 --> 00:04:35,140
+los estilos que va mostrando en cascada se van leyendo desde arriba hasta abajo y si abajo escribimos
+
+44
+00:04:35,140 --> 00:04:39,500
+algo que machaca lo de arriba pues lo de abajo es lo que mas prioridad tiene.
+
+45
+00:04:39,520 --> 00:04:44,620
+Entonces vamos a escribir lo CSS siempre con un orden lógico y llamando a los elementos de la forma
+
+46
+00:04:44,620 --> 00:04:49,450
+más lógica y que más se corresponda con lo que hay en la web.
+
+47
+00:04:49,630 --> 00:04:58,510
+En este caso el menú huele Li dos puntos over es decir cuando pasemos por encima con el ratón de cualquier
+
+48
+00:04:58,510 --> 00:05:05,020
+elemento y vamos a cambiar el background y se lo vamos a poner a verde de acuerdo que es el mismo verde
+
+49
+00:05:05,020 --> 00:05:16,100
+que tenemos en el fondo del logo a este verde aquí ok se lo cambiamos guardo y actualizo la pantalla.
+
+50
+00:05:16,420 --> 00:05:16,830
+Y ahora.
+
+51
+00:05:16,840 --> 00:05:23,220
+Pues efectivamente Bueno yo paso por encima me hace un efecto muy interesante con su transición.
+
+52
+00:05:24,030 --> 00:05:28,240
+Ok perfecto bien pues ya tengo mi menú hecho.
+
+53
+00:05:28,240 --> 00:05:32,620
+Vale lo siguiente Vamos a hacer valer la maquetación de los artículos.
+
+54
+00:05:32,620 --> 00:05:38,380
+A grandes rasgos vamos a intentar empaquetar los artículos para que se vean más o menos parecido a lo
+
+55
+00:05:38,380 --> 00:05:39,750
+que tenemos en la imagen de aquí.

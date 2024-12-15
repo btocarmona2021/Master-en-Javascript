@@ -1,0 +1,263 @@
+1
+00:00:01,020 --> 00:00:07,710
+Una función aparte de ejecutar instrucciones también puede recibir parámetros que son variables que
+
+2
+00:00:07,710 --> 00:00:11,760
+van a alterar la lógica o el resultado que nos va a devolver la función.
+
+3
+00:00:11,760 --> 00:00:17,550
+De esta manera abstraigo mucha de la lógica y hago mucho más reutilizable una función.
+
+4
+00:00:17,550 --> 00:00:22,860
+Por ejemplo si yo quiero hacer una calculadora y quiero que mi función de la calculadora haga cálculos
+
+5
+00:00:22,860 --> 00:00:28,610
+diferentes en función de diferentes números y no quiero que sea algo fijo.
+
+6
+00:00:28,610 --> 00:00:40,350
+Por ejemplo si yo aquí quiero hacer una suma quiero hacer una suma y no quiero estar haciendo 20 funciones
+
+7
+00:00:40,740 --> 00:00:44,490
+que me hagan la suma que me haga el 10 más 15.
+
+8
+00:00:44,520 --> 00:00:51,780
+Por ejemplo si yo quiero que esto sea dinámico vale tendré que utilizar parámetros primero vamos a hacer
+
+9
+00:00:52,220 --> 00:00:55,080
+que se hagan varias operaciones y que nos devuelva eso
+
+10
+00:00:59,880 --> 00:01:00,600
+arrestã
+
+11
+00:01:03,540 --> 00:01:13,290
+la multiplicación y la división cada vez que yo llame a la calculadora vale en este caso aquí estoy
+
+12
+00:01:13,290 --> 00:01:16,040
+llamando aquí voy a quitar esto.
+
+13
+00:01:16,580 --> 00:01:19,830
+Estoy invocando a la función calculadora.
+
+14
+00:01:19,830 --> 00:01:24,190
+Yo autorizo la pantalla me hace las operaciones sin ningún tipo de problema.
+
+15
+00:01:24,220 --> 00:01:31,020
+Vale me hace las operaciones y yo lo vuelvo a llamar pues me hace esas operaciones que son fijas no
+
+16
+00:01:31,020 --> 00:01:32,290
+son variable.
+
+17
+00:01:32,310 --> 00:01:41,520
+Si yo quiero que esos datos varíen tendría que hacer un prompt aquí para que eso varíe y tal y cual
+
+18
+00:01:41,550 --> 00:01:46,740
+pero yo lo que quiero es utilizar los parámetros es decir yo quiero tener una función que sea completamente
+
+19
+00:01:46,740 --> 00:01:52,820
+limpia que haga una funcionalidad clara que en la calculadora y quiero recibir estos valores como parámetro
+
+20
+00:01:52,840 --> 00:01:58,230
+estos valores que sean dinámicos y que en cada invocación que yo haga se lo pueda pasar por aquí.
+
+21
+00:01:58,260 --> 00:02:04,140
+Entonces cómo utilice un parámetro pues es muy simple en los paréntesis voy a pasar un parámetro que
+
+22
+00:02:04,140 --> 00:02:08,550
+se va a llamar número uno y otro parámetro que se llama que se va a llamar número dos.
+
+23
+00:02:08,580 --> 00:02:14,340
+De esta manera estoy recibiendo dos parámetros el 1 y el 2 vale ahora.
+
+24
+00:02:14,380 --> 00:02:19,660
+Estos números ya no van a ser fijos ya no tengo que definir varias funciones para hacer la operación
+
+25
+00:02:19,720 --> 00:02:20,870
+que yo quiera.
+
+26
+00:02:20,980 --> 00:02:30,520
+Entonces yo puedo utilizar estas dos cifras para hacer la operación el número 1 y número 2 Número 1
+
+27
+00:02:31,720 --> 00:02:32,950
+y número 2.
+
+28
+00:02:32,950 --> 00:02:35,310
+Vale yo ya estoy utilizando esta variable.
+
+29
+00:02:35,350 --> 00:02:41,970
+Estos dos parámetros que me van a llegar en función de lo que quieran cuando invoke la función No si
+
+30
+00:02:42,010 --> 00:02:47,200
+ahora mismo estoy invocando calculadora tenemos aquí dos parámetros y esto nos va a dar un error porque
+
+31
+00:02:47,200 --> 00:02:51,420
+efectivamente no le hemos pasado ningún parámetro no le hemos pasado ningún valor tenemos que pasarle
+
+32
+00:02:51,450 --> 00:02:56,530
+valores cómo le pasamos un valor pues simplemente tenemos el primer parámetro que el número 1 le vamos
+
+33
+00:02:56,530 --> 00:03:03,820
+a pasar a un número 12 como el segundo parámetro cuál es el número le vamos a pagar otro valor el 8
+
+34
+00:03:04,390 --> 00:03:10,900
+y cuando vuelva a invocar a la calculadora a la función por lo mismo le paso el 98 y le paso el 2 por
+
+35
+00:03:10,900 --> 00:03:15,970
+ejemplo que son los dos parámetros entonces de esta manera yo estoy llamando dos veces a la función
+
+36
+00:03:16,030 --> 00:03:24,020
+y me saca resultado completamente distinto vale voy a poner un consolé log para separar los resultados
+
+37
+00:03:25,590 --> 00:03:35,450
+si bien entonces me devuelve la primera invocación me devuelve un resultado la segunda me devuelve su
+
+38
+00:03:35,450 --> 00:03:36,190
+resultado.
+
+39
+00:03:36,190 --> 00:03:43,690
+Si yo quisiera llamar a la función calculadora calculadora lo puedo hacer si la ejecuto así me da error
+
+40
+00:03:43,720 --> 00:03:50,050
+simplemente me devuelve Nan y me devuelve lo que es el Return que hace que hace la función pero si yo
+
+41
+00:03:50,050 --> 00:03:58,840
+la llamo correctamente calculadora y le paso dos parámetros quiero el 2 y el 2 lo que son esos dos parámetros
+
+42
+00:03:58,840 --> 00:04:03,070
+lo que le voy a pasar y quiero que me haga la operación en la suma resta multiplicación la división
+
+43
+00:04:03,160 --> 00:04:11,680
+le doy y efectivamente me hace lo que yo quiero vale la suma la resta la multiplicación y la división
+
+44
+00:04:11,680 --> 00:04:18,180
+de manera completamente abstraída y de manera que yo puedo reutilizar esta función tantísimas veces
+
+45
+00:04:18,190 --> 00:04:22,120
+como quiera para hacer las operaciones que a mi me dé la real gana.
+
+46
+00:04:22,120 --> 00:04:29,770
+Por ejemplo si quisiera no va a poner no le voy a poner ningún returned si yo quisiera utilizar la función
+
+47
+00:04:29,770 --> 00:04:32,320
+calculadora dentro de un bucle en todo un bucle for.
+
+48
+00:04:32,320 --> 00:04:34,930
+Por ejemplo vale
+
+49
+00:04:39,020 --> 00:04:48,620
+y entonces yo quiero hacer que mientras que el ahí sea menor o igual a 10 que hay más más y entonces
+
+50
+00:04:48,860 --> 00:04:54,890
+yo voy invocando a la calculadora le voy a quitar estas dos invocaciones que he hecho aquí y voy a llamar
+
+51
+00:04:54,890 --> 00:05:02,990
+a la función calculadora y le voy a pasar el parámetro ya como primer parámetro lo voy a pasar ahí mal
+
+52
+00:05:03,130 --> 00:05:12,770
+y yo voy a hacer la operación en los diferentes cálculos con Y y otro número que yo quiera y ocho le
+
+53
+00:05:13,250 --> 00:05:21,140
+quiero sacar las operaciones que haya del 1 al 10 sumado restado todo por 8 vale actualizo la pantalla
+
+54
+00:05:21,170 --> 00:05:28,400
+pues se ejecuta tantas veces como el bucle quiere vale e incluso puedo poner un consuelo que también
+
+55
+00:05:28,400 --> 00:05:37,660
+es una función por cierto le pasó el ahí para ver por qué iteración voy vale y aquí lo vemos.
+
+56
+00:05:37,680 --> 00:05:44,200
+La primera la primera iteración el primer la primera llamada a la función calculadora suma uno más ocho
+
+57
+00:05:44,220 --> 00:05:52,590
+nueve lo resta multiplica todo hace todas las operaciones de manera completamente abstraída de lo que
+
+58
+00:05:52,590 --> 00:05:58,590
+yo le pase de acuerdo si yo le quiero pasar cualquier número se lo Huapaya y aquí se ejecuta la lógica
+
+59
+00:05:58,590 --> 00:06:05,000
+y esto para mí ya es una caja negra que yo no sé que no tengo por qué saber qué tiene dentro vale.
+
+60
+00:06:05,430 --> 00:06:09,930
+Ahora si lo tengo que saber porque la he programado y la estoy programando pero por ejemplo esta función
+
+61
+00:06:09,930 --> 00:06:10,870
+Consol log.
+
+62
+00:06:10,950 --> 00:06:16,560
+Yo no sé que tienen por dentro simplemente una caja negra que yo sé que le mando un parámetro yo le
+
+63
+00:06:16,560 --> 00:06:22,530
+envío un dato y eso me lo procesa me lo convierte y hace la función que yo necesito que es que me devuelva
+
+64
+00:06:22,530 --> 00:06:23,930
+algo por la consola.
+
+65
+00:06:23,930 --> 00:06:29,790
+Y lo mismo esta función yo le paso dos parametro me los procesa me hace la operación y me muestro la
+
+66
+00:06:29,790 --> 00:06:34,500
+consola lo que a mi me interesa con lo cual estos son los parámetros y así se utiliza.

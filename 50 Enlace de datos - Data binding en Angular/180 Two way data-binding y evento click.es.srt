@@ -1,0 +1,387 @@
+1
+00:00:00,570 --> 00:00:05,100
+Ya hemos visto varias directivas para hacer estructuras de control en las vistas y ahora vamos a hablar
+
+2
+00:00:05,100 --> 00:00:12,870
+del winding y del Chui data mining también que nos dan varias directivas más para trabajar con las vistas
+
+3
+00:00:12,870 --> 00:00:13,980
+en angular.
+
+4
+00:00:13,980 --> 00:00:19,380
+Anteriormente habíamos visto como utiliza el Benning por interpolación que es éste que simplemente no
+
+5
+00:00:19,380 --> 00:00:23,350
+muestra un dato que tenemos guardado en nuestra clase de nuestro componente.
+
+6
+00:00:23,710 --> 00:00:29,340
+Y ahora lo que vamos a ver va a ser el Chu guey data binding es decir vamos a hacer un ejercicio que
+
+7
+00:00:29,520 --> 00:00:38,150
+nos va a permitir añadir nuevas marcas a nuestra aplicación de acuerdo por el momento de manera instantánea.
+
+8
+00:00:38,160 --> 00:00:44,640
+Vamos a hacer un pequeño campo aquí que nos permita añadir un nuevo elemento a nuestro listado de marcas
+
+9
+00:00:44,640 --> 00:00:45,490
+que tenemos aquí.
+
+10
+00:00:46,560 --> 00:00:52,140
+Entonces para poder utilizar el Chubby David Ni-Ni para poder utilizar estas directivas que vamos a
+
+11
+00:00:52,140 --> 00:01:01,080
+estar usando el NG Model tenemos que cargar en nuestro a PP Module punto de S. un módulo para trabajar
+
+12
+00:01:01,080 --> 00:01:03,600
+con los formularios pero eso lo vamos a ver ahora.
+
+13
+00:01:03,600 --> 00:01:06,220
+Así que de momento vamos a empezar a trabajar.
+
+14
+00:01:06,510 --> 00:01:08,540
+Lo primero que vamos a hacer va a ser crear un input
+
+15
+00:01:11,200 --> 00:01:23,790
+vale por aquí vamos a crear un párrafo pequeño que diga añadir marca y vamos a crear un input de tipo
+
+16
+00:01:25,940 --> 00:01:34,910
+texto que va a tener un atributo NG Mode modelo de acuerdo este atributo es una directiva para poder
+
+17
+00:01:34,910 --> 00:01:42,150
+utilizarlo tenemos que utilizar los corchetes y los paréntesis para utilizarlo y el Chuvi data mining
+
+18
+00:01:42,170 --> 00:01:47,180
+nos va a permitir modificar una propiedad que vamos a tener en nuestro modelo de datos que en este caso
+
+19
+00:01:47,360 --> 00:01:52,310
+es la clase de nuestro componente nos va a permitir modificar una propiedad que tengamos en nuestra
+
+20
+00:01:52,310 --> 00:01:59,000
+clase modificarla de manera instantánea y reactiva y que los cambios se vean reflejados de manera automática
+
+21
+00:01:59,390 --> 00:02:05,240
+e instantánea tanto en la vista como en la parte de los datos en la clase de nuestro componente de forma
+
+22
+00:02:05,240 --> 00:02:10,100
+que si quiero modificar una propiedad que yo tenga aquí por ejemplo una propiedad que se va a llamar
+
+23
+00:02:10,970 --> 00:02:11,780
+mi marca
+
+24
+00:02:15,050 --> 00:02:22,610
+mi marca que va a ser un string si yo quiero modificar esa propiedad vale pues simplemente la voy a
+
+25
+00:02:22,610 --> 00:02:27,700
+utilizar aquí en el eje de mi marca OK.
+
+26
+00:02:28,160 --> 00:02:36,710
+Así de sencillo vale y si yo quiero mostrar ahora mi marca por aquí abajo mi marca lo podría hacer sin
+
+27
+00:02:36,710 --> 00:02:37,770
+ningún tipo de problema.
+
+28
+00:02:37,790 --> 00:02:39,140
+Obviamente dentro de un párrafo
+
+29
+00:02:42,120 --> 00:02:48,560
+y el imput también lo voy a meter dentro de un párrafo para que veas como funciona.
+
+30
+00:02:48,650 --> 00:02:55,640
+Vale entonces a priori ya tenemos nuestro Chui minibus preparado tenemos nuestra directiva la estamos
+
+31
+00:02:55,640 --> 00:03:03,680
+usando este atributo con los corchetes y con los paréntesis la directiva NG Model vamos a modificar
+
+32
+00:03:03,680 --> 00:03:08,460
+la propiedad de nuestra clase de nuestro componente que se llama mi marca que la tenemos por aquí que
+
+33
+00:03:08,480 --> 00:03:12,530
+de momento está vacía y la vamos a mostrar por aquí abajo.
+
+34
+00:03:12,530 --> 00:03:17,300
+Vale si actualizamos la pantalla en nuestro navegador y abrimos la consola vamos a ver que tenemos un
+
+35
+00:03:17,300 --> 00:03:24,190
+error y esto es lo que te he comentado al principio dice que no se puede utilizar NG Model porque no
+
+36
+00:03:24,200 --> 00:03:26,560
+es una propiedad conocida para los imput.
+
+37
+00:03:26,690 --> 00:03:34,280
+Esto es porque no hemos importado y cargado nuestro módulo de formularios en angular así que esto así
+
+38
+00:03:34,280 --> 00:03:40,100
+que esto es súper importante vea la p.p. Module puntos de S. y aquí tienes que cargar tienes que importar
+
+39
+00:03:40,310 --> 00:03:49,020
+el módulo forms Module y esto está from en el paquete arroba angular barra forms.
+
+40
+00:03:49,380 --> 00:03:54,980
+Y una vez que tenemos el módulo importado lo tenemos que cargar en los importes que es el array dentro
+
+41
+00:03:54,980 --> 00:04:02,090
+de NG Module que nos permite cargar módulos internos de angular módulos externos que hayamos creado
+
+42
+00:04:02,090 --> 00:04:07,610
+nosotros o módulos externos que hayamos instalado en nuestro proyecto entonces aquí se cargan los módulos
+
+43
+00:04:07,640 --> 00:04:14,630
+por lo tanto voy a cargar el forms Module vale esto lo hice al módulo que existe un módulo que estoy
+
+44
+00:04:14,630 --> 00:04:20,420
+cargando dentro para poder utilizarlo vale ahora ya tengo disponible dentro de mi aplicación el Form
+
+45
+00:04:20,420 --> 00:04:23,240
+Module con lo cual ya me funcionará el data Bindi.
+
+46
+00:04:23,240 --> 00:04:30,200
+Aquí vemos que realmente no aparece el input pero hemos imprimido el valor de nuestra propiedad mi marca
+
+47
+00:04:30,260 --> 00:04:35,900
+que realmente está vacía o vale si le damos y le dieran un valor fila sí veremos si le diéramos este
+
+48
+00:04:35,900 --> 00:04:40,970
+valor y actualizamos la pantalla me va a parecer tanto en el input como mostrado por aquí de acuerdo
+
+49
+00:04:40,970 --> 00:04:49,400
+porque estamos trabajando con chupiguay data binding es decir estamos trabajando a nivel bidireccional
+
+50
+00:04:49,400 --> 00:04:55,670
+tanto en la clase del componente como en la vista es decir que si yo muestro ese valor o si le agrego
+
+51
+00:04:55,670 --> 00:05:00,920
+un valor a esa propiedad se va a mostrar en mi input y en mi vista porque lo estoy imprimiendo pero
+
+52
+00:05:00,920 --> 00:05:06,020
+es que además si yo modificara este campo yo le añadiera le pusiera lo que fuera.
+
+53
+00:05:06,290 --> 00:05:07,420
+Hola qué tal.
+
+54
+00:05:07,430 --> 00:05:11,880
+Vemos que de manera reactiva instantánea se está mostrando los cambios Badel lo estamos viendo aquí
+
+55
+00:05:11,930 --> 00:05:20,210
+súper claramente se están modificando los datos de manera instantánea vale y esta información yo la
+
+56
+00:05:20,210 --> 00:05:25,590
+tengo guardada en mi propiedad de mi componente en la propiedad mi marca en esta propiedad de aquí yo
+
+57
+00:05:25,610 --> 00:05:31,790
+tengo ese valor ahora mismo y también lo tengo en la parte del frontend porque estoy actualizando esa
+
+58
+00:05:31,790 --> 00:05:39,620
+información se me va cambiando de manera reactiva así que de esta manera funciona el Chuvi data binding
+
+59
+00:05:39,980 --> 00:05:48,220
+podría poner otro botón por aquí Button y podríamos utilizar el evento click para llamar un método vale
+
+60
+00:05:48,830 --> 00:05:55,970
+que sea que marca y de esta manera yo podría hacer un Alert de la marca que hay guardado en mi propiedad.
+
+61
+00:05:55,970 --> 00:06:05,310
+Vale voy a crearme un método que se llama Kit marca y voy a hacer un Alert de disputo marca.
+
+62
+00:06:05,930 --> 00:06:13,250
+Si esto lo hago de esta manera y actualizo la pantalla me da un error voy a revisar que puede ser me
+
+63
+00:06:13,250 --> 00:06:18,400
+dice que el botón está mal cerrado.
+
+64
+00:06:18,400 --> 00:06:31,230
+A ver en Marca aclaró encerramos en el botón efectivamente mostrar marca como ponerle cierro el botón
+
+65
+00:06:32,820 --> 00:06:38,980
+guardo actualizo la pantalla y si le doy a mostrar marca Pam me saca aun de Fanny.
+
+66
+00:06:38,980 --> 00:06:47,450
+Por qué si yo realmente estoy mostrando marca porque no es marca es mi marca vale entonces voy a mostrar
+
+67
+00:06:47,450 --> 00:06:53,780
+mis puntos mi marca repito estos errores te lo muestro para que tú veas dónde están y cómo se solucionan.
+
+68
+00:06:53,880 --> 00:07:00,070
+Vale actualizó la pantalla ahora y si le doy a mostrar marca esa cáfila.
+
+69
+00:07:00,180 --> 00:07:07,770
+Si yo modifico esto estamos viendo que se está mostrando en esta parte del código se está mostrando
+
+70
+00:07:07,770 --> 00:07:09,210
+en esta parte de la página.
+
+71
+00:07:09,390 --> 00:07:12,410
+Vale incluso para resaltar lo más podría meterlo dentro de un Strogg
+
+72
+00:07:16,940 --> 00:07:17,750
+ok.
+
+73
+00:07:20,090 --> 00:07:26,180
+Ahí se muestra vale y si yo le diera a mostrar marca me están mostrando el valor que tiene la propiedad
+
+74
+00:07:26,180 --> 00:07:28,870
+del componente con lo cual de manera bidireccional.
+
+75
+00:07:28,940 --> 00:07:34,240
+Cuando yo modifico un valor en mi modelo de datos en mi clase el componente se va a mostrar en la vista
+
+76
+00:07:34,510 --> 00:07:39,080
+y cuando yo modifico algo la vista se me va a mostrar también o va a estar el cambio reflejado de manera
+
+77
+00:07:39,440 --> 00:07:45,080
+de manera inmediata en mi clase del componente y en mis propiedades con lo cual esto está funcionando
+
+78
+00:07:45,080 --> 00:07:51,560
+perfectamente bien ahora una vez que hemos entendido cómo funciona el Chui data binding podemos añadir
+
+79
+00:07:51,560 --> 00:07:52,580
+un botón por aquí
+
+80
+00:07:56,130 --> 00:08:03,750
+vale que va a ser el botón de Añadir marca añadir marca y vamos a utilizar el evento click como ya estamos
+
+81
+00:08:03,750 --> 00:08:09,930
+viendo y vamos a utilizar un método que se va a llamar de marca que vamos a crear simplemente para utilizar
+
+82
+00:08:09,930 --> 00:08:14,910
+un evento con los paréntesis y ponemos el nombre del evento y de esa manera lo utilizamos.
+
+83
+00:08:14,910 --> 00:08:20,400
+Vamos a ver más adelante cómo utilizar más eventos también entonces vamos a crear el método de marca
+
+84
+00:08:22,140 --> 00:08:31,050
+de marca y lo que quiero hacer es añadir un nuevo elemento a mi array de marcas para ver qué se actualiza
+
+85
+00:08:31,050 --> 00:08:34,300
+realmente el listado de manera reactiva e instantánea.
+
+86
+00:08:34,360 --> 00:08:42,630
+Entonces voy a hacer un disputo marcas que es mi array de todas las marcas okey y voy a hacer un push
+
+87
+00:08:42,690 --> 00:08:50,770
+de disputó mi marca que es la marca que actualmente hay dentro de mi campo de mi formulario o que si
+
+88
+00:08:50,800 --> 00:08:58,650
+actualizo la pantalla Vale y le doy a añadir marca Pam se me añade de manera instantánea reactivas y
+
+89
+00:08:58,650 --> 00:09:03,380
+sin tener que escribir miles de líneas de código como tendría que hacer en JavaScript en JavaScript.
+
+90
+00:09:03,380 --> 00:09:10,830
+Pelo tendría que Caturla el evento añadir a la RAI ese nuevo elemento y luego llamar a un método que
+
+91
+00:09:10,830 --> 00:09:12,750
+me vuelva a pintar.
+
+92
+00:09:12,840 --> 00:09:21,940
+Toda esta información sin embargo Gran Angular es todo reactivo si yo añado otra marca Puma Adair marca.
+
+93
+00:09:22,080 --> 00:09:23,740
+Pero añade de manera inmediata.
+
+94
+00:09:23,820 --> 00:09:31,260
+Vale y además sacándome el inicio de la Reigosa perfecto y es mágico es increíble lo rápido que funciona
+
+95
+00:09:31,260 --> 00:09:33,170
+esto y lo bien que va.
+
+96
+00:09:33,270 --> 00:09:40,270
+Puedo añadir otra Tommy y así podría estar infinitamente mal.
+
+97
+00:09:40,470 --> 00:09:46,740
+Así que ya hemos visto cómo funciona el evento click y cómo funciona el Chubby data mining en angular.

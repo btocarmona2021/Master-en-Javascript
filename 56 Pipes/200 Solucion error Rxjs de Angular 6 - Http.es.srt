@@ -1,0 +1,55 @@
+1
+00:00:00,880 --> 00:00:05,260
+Antes de continuar vamos a solucionar un pequeño error que hay en la nueva versión de angular con el
+
+2
+00:00:05,260 --> 00:00:08,320
+tema de los observables y RX JSE.
+
+3
+00:00:08,440 --> 00:00:13,660
+Si abrimos la consola vemos que el compilador no escupe un error no dice que no puede encontrar el módulo
+
+4
+00:00:13,960 --> 00:00:22,270
+RX Compact observable vale esto es un fallo porque estamos usando la última versión angular 6 etcétera.
+
+5
+00:00:22,390 --> 00:00:27,930
+En algunas versiones puede que no pase pero para solucionarlo simplemente cortamos la ejecución del
+
+6
+00:00:28,930 --> 00:00:42,910
+programa con Control C y ejecutamos el comando MPM install menos Soib RX JS menos Compact lo instalamos
+
+7
+00:00:44,620 --> 00:00:47,530
+para instalar esa dependencia que nos está faltando.
+
+8
+00:00:47,770 --> 00:00:52,870
+Ya lo tenemos instalado así que ya podemos lanzar de nuevo el Inegi deserve a ver si no exculpe algún
+
+9
+00:00:52,870 --> 00:00:54,180
+otro error.
+
+10
+00:00:54,220 --> 00:00:58,350
+Ok ya no me lo preocupe vamos a revisar que todo funciona bien.
+
+11
+00:00:58,510 --> 00:01:03,550
+Vale me carga me sigue haciendo las peticiones diarias correctamente con lo cual todo está solucionado
+
+12
+00:01:03,670 --> 00:01:08,770
+todo queda solucionado siempre va invitando esta nueva dependencia que hay que tener para que el tema
+
+13
+00:01:08,770 --> 00:01:13,030
+del HTTP client lo observable etcétera no funcione.
+
+14
+00:01:13,030 --> 00:01:16,300
+Al hacer las peticiones AJAX y que no nos escupa ningún fallo.

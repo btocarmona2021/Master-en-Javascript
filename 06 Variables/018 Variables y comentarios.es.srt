@@ -1,0 +1,559 @@
+1
+00:00:00,750 --> 00:00:04,170
+Ahora vamos a aprender acerca de las variables y cómo funcionan.
+
+2
+00:00:04,470 --> 00:00:12,240
+Vamos a abrir nuestro código y voy a borrar por ejemplo el Document Rights y incluso todo esto lo puedo
+
+3
+00:00:12,240 --> 00:00:17,870
+comentar de acuerdo antes de hacer la variable o de ver cómo trabajar con las variables.
+
+4
+00:00:17,910 --> 00:00:19,430
+Vamos a comentar el código.
+
+5
+00:00:19,530 --> 00:00:24,420
+Un comentario de código es un trozo de código que no se va a ejecutar porque lo hemos comentado hemos
+
+6
+00:00:24,420 --> 00:00:30,880
+hecho que la ejecución del programa evite esa línea para hacer comentarios de código dentro de JavaScript.
+
+7
+00:00:30,900 --> 00:00:36,720
+Podemos hacerlo como en tantos lenguajes de programación utilizando la barra asterisco la diagonal asterisco
+
+8
+00:00:36,720 --> 00:00:42,270
+y luego cerrando con asterisco diagonal de esa manera hacemos un comentario multi línea y un comentario
+
+9
+00:00:42,270 --> 00:00:47,100
+de una sola línea lo podemos hacer con la barra barra y la barra barra.
+
+10
+00:00:47,100 --> 00:00:51,990
+De esta manera si yo guardo y actualizo la pantalla aquí no se va a ejecutar nada de JavaScript porque
+
+11
+00:00:51,990 --> 00:00:55,420
+realmente esto lo tenemos comentado.
+
+12
+00:00:55,440 --> 00:01:01,800
+Incluso podríamos borrar y tal pero bueno lo vamos a dejar ahí como como referencia o incluso esto lo
+
+13
+00:01:01,800 --> 00:01:08,670
+podríamos dejar como el Hola Mundo este archivo el archivo Hola mundo y lo vamos a meter dentro de una
+
+14
+00:01:08,670 --> 00:01:14,890
+carpeta ni un fail ni un folder mejor dicho ni folder que se va a llamar JS.
+
+15
+00:01:14,920 --> 00:01:19,160
+Y aquí dentro vamos a tener todos los archivos de JavaScript de las pruebas que vayamos haciendo el
+
+16
+00:01:19,290 --> 00:01:22,350
+mundo punto JS Lo vamos a meter aquí vale.
+
+17
+00:01:22,410 --> 00:01:28,520
+Incluso le voy a cambiar el nombre y le voy a poner 0 1
+
+18
+00:01:31,200 --> 00:01:34,400
+guión Hola Mundo punto JS vale.
+
+19
+00:01:34,640 --> 00:01:41,580
+Y este archivo ahora mismo no va a funcionar nada porque realmente si nosotros hacemos abrimos las herramientas
+
+20
+00:01:41,580 --> 00:01:47,370
+de desarrollador vemos que aquí tenemos un fallo al cargar un recurso y si le damos a elementos y desplegamos
+
+21
+00:01:47,370 --> 00:01:51,380
+el GIF y le damos clic a este archivo vamos que no hay nada.
+
+22
+00:01:51,390 --> 00:01:52,710
+O sea realmente no hay nada.
+
+23
+00:01:52,710 --> 00:01:57,250
+Incluso si hiciéramos controles y diéramos clic a este archivo vemos que nos va a llevar a una ruta
+
+24
+00:01:57,420 --> 00:02:05,680
+la cual no existe porque realmente la ruta que nosotros hemos indicado aquí es una ruta incorrecta porque
+
+25
+00:02:05,680 --> 00:02:13,630
+ahora el Archivo HOLA MUNDO mundo J.S se debe encontrar aquí dentro en lugar de aquí esto lo podemos
+
+26
+00:02:13,630 --> 00:02:14,810
+borrar.
+
+27
+00:02:14,940 --> 00:02:20,720
+Vale ese archivo ahora está en la carpeta J.S. barra 0 1.
+
+28
+00:02:20,770 --> 00:02:22,210
+Guión Hola Mundo.
+
+29
+00:02:22,210 --> 00:02:25,550
+De esta manera el sitio guarda y actualiza la pantalla.
+
+30
+00:02:25,720 --> 00:02:27,460
+Esto no es todo un poco sí.
+
+31
+00:02:27,500 --> 00:02:33,640
+Ahora mismo a través de la pantalla sí que me saca lo que yo quiero o lo que se ejecuta dentro de este
+
+32
+00:02:34,030 --> 00:02:35,550
+código de JavaScript.
+
+33
+00:02:35,550 --> 00:02:37,640
+Aquí lo estamos viendo esto.
+
+34
+00:02:37,690 --> 00:02:38,720
+Este archivo no lo verá.
+
+35
+00:02:38,730 --> 00:02:41,340
+Esto lo quiero borrar delete file.
+
+36
+00:02:42,070 --> 00:02:45,780
+Entonces si ahora mismo hiciera controlo pues si que tengo este archivo aquí.
+
+37
+00:02:45,970 --> 00:02:50,590
+Y de esa manera vamos a estar haciendo las diferentes prácticas voy a estar creando diferentes archivos
+
+38
+00:02:50,590 --> 00:02:57,160
+para cada ejercicio y así cuando tú quieras volver a repasar esto lo vas a poder ver muy claramente
+
+39
+00:02:57,160 --> 00:02:58,160
+yendo a los archivos.
+
+40
+00:02:58,630 --> 00:03:03,390
+Entonces vale pues esto lo voy a meter dentro del comentario.
+
+41
+00:03:03,670 --> 00:03:09,630
+Esto es momento dentro de un comentario y ahora vamos a crear otro archivo para trabajar con las variables.
+
+42
+00:03:09,640 --> 00:03:16,300
+O sea ya te he enseñado cómo hacer un comentario dentro de JavaScript que es haciendo esta línea haciendo
+
+43
+00:03:16,300 --> 00:03:24,670
+esto o haciendo un comentario multi línea utilizando el asterisco barra asterisco y el asterisco barra
+
+44
+00:03:25,330 --> 00:03:28,280
+o diagonal de esa forma.
+
+45
+00:03:28,340 --> 00:03:32,770
+Si yo ahora mismo estoy hizo la pantalla se muestran lo Alerts pero la consola no tengo nada porque
+
+46
+00:03:32,770 --> 00:03:34,200
+lo tengo comentado.
+
+47
+00:03:34,390 --> 00:03:36,940
+Entonces ahora voy a quedarme en otro archivo.
+
+48
+00:03:37,270 --> 00:03:49,540
+Ni un fail controles que se va a llamar 02 guión variables punto JS vale y ahora lo importo o lo cargo
+
+49
+00:03:49,540 --> 00:03:57,130
+dentro de la etiqueta escribe en este caso hacer dos variables que está dentro de la carpeta JSE vale
+
+50
+00:03:57,820 --> 00:04:02,800
+y entonces aquí vamos a poner un comentario de código con lo que vamos a hacer vamos a trabajar con
+
+51
+00:04:02,800 --> 00:04:10,360
+variables vale una variable te lo voy a explicar aquí es un contenedor de información de acuerdo una
+
+52
+00:04:10,360 --> 00:04:21,400
+variable es un contenedor de información es como si tu tuviera una caja de cartón y dentro guardara
+
+53
+00:04:21,460 --> 00:04:28,510
+un dato guardará cualquier cosa un string un entero una raíz cualquier cosa cualquier tipo de dato lo
+
+54
+00:04:28,510 --> 00:04:32,120
+puedes guardar dentro de una variable de acuerdo.
+
+55
+00:04:32,120 --> 00:04:38,400
+Entonces nosotros podemos definir variables en JavaScript de esta manera con la palabra reservada Bahr
+
+56
+00:04:38,760 --> 00:04:43,930
+y el nombre de la variable en este caso podríamos decir que el nombre de la variable va a ser país.
+
+57
+00:04:43,930 --> 00:04:49,660
+Vale ya tengo mi variable ya tengo mi caja de cartón hecha la tengo abierta y ahora voy a asignarle
+
+58
+00:04:49,660 --> 00:04:51,060
+un valor a esta variable.
+
+59
+00:04:51,190 --> 00:04:53,530
+Voy a meterle un dato dentro a la caja de cartón.
+
+60
+00:04:53,530 --> 00:04:59,160
+Entonces le voy a poner que mi país se va a llamar España vale.
+
+61
+00:04:59,530 --> 00:05:05,310
+Pero ojo tú no puedes poner un dato así pues si tú lo pones así cuando tú actualizas la pantalla si
+
+62
+00:05:05,310 --> 00:05:08,230
+te a la consola te va a decir Oye tienes un error.
+
+63
+00:05:08,230 --> 00:05:14,650
+España no está definido o sea España no es esto lo entendería como si fuera una variable y esto no es
+
+64
+00:05:14,650 --> 00:05:20,830
+un tipo de dato válido es decir que debería ir entre comillas porque un string siempre va entre comillas
+
+65
+00:05:20,840 --> 00:05:26,440
+una cadena de texto o simplemente comillas dobles o simple vale de esta manera si yo ya tengo mi variable
+
+66
+00:05:26,830 --> 00:05:33,580
+que se llama País cuyo contenido es España es decir tengo mi caja de cartón y tengo un libro de la historia
+
+67
+00:05:33,580 --> 00:05:36,290
+de España por decirlo de alguna manera sencilla.
+
+68
+00:05:37,180 --> 00:05:44,140
+Entonces si ahora mismo me voy al navegador actualizo la pantalla no tengo nada pero si se me ocurre
+
+69
+00:05:44,200 --> 00:05:53,320
+hacer un console punto log de la variable país lo hago por aquí abajo en la consola del navegador le
+
+70
+00:05:53,320 --> 00:05:56,530
+doy a Enter y fíjate lo que me devuelve España.
+
+71
+00:05:56,530 --> 00:06:03,020
+Vale entonces de esa manera yo almacena información aquí puedo crear más variables como por ejemplo
+
+72
+00:06:03,200 --> 00:06:12,850
+que se llame continente continente que se va a llamar Europa cierro con punto y coma y puedo hacer aquí
+
+73
+00:06:12,850 --> 00:06:18,490
+abajo un console punto log perfectamente de
+
+74
+00:06:21,060 --> 00:06:30,810
+país país el nombre de mi variable y de continente de esas dos variables y estos yo guardo y actualizo
+
+75
+00:06:30,810 --> 00:06:35,640
+la pantalla se me va a ejecutar aquí y efectivamente me devuelve España y Europa que es lo que hay dentro
+
+76
+00:06:36,000 --> 00:06:39,980
+de mis variables porque son cadenas de texto.
+
+77
+00:06:40,170 --> 00:06:51,310
+Incluso podría crear otra variable que fuera antigüedad antigüedad y les voy a indicar un número dos
+
+78
+00:06:51,360 --> 00:06:54,570
+mil diecinueve mil diecinueve.
+
+79
+00:06:54,600 --> 00:06:55,320
+Vamos a poner.
+
+80
+00:06:55,860 --> 00:06:59,290
+Vale y entonces también lo puedo mostrar con el console log
+
+81
+00:07:01,950 --> 00:07:07,170
+antigüedad guardo y actualizo la pantalla y me lo va a mostrar por la consola efectivamente y esto lo
+
+82
+00:07:07,170 --> 00:07:09,790
+resalta de otra manera porque es un número.
+
+83
+00:07:10,020 --> 00:07:11,820
+Incluso me dice dónde está el consuelo.
+
+84
+00:07:11,850 --> 00:07:15,450
+Aquí me hice el fichero en el que está la línea en la que está el consolero.
+
+85
+00:07:16,020 --> 00:07:21,150
+Ok siempre cuando nosotros definimos una variable cuando definimos un contenedor de información tenemos
+
+86
+00:07:21,150 --> 00:07:27,120
+que indicarle un nombre pues siempre hay que procurar que ese nombre sea lo más claro y lo más descriptivo
+
+87
+00:07:27,180 --> 00:07:27,740
+posible.
+
+88
+00:07:27,750 --> 00:07:34,560
+Es decir si mi variable va a almacenar un país pues yo quiero que mi variable se llame país no ya que
+
+89
+00:07:34,560 --> 00:07:40,140
+no se llame P ni se llame nada nada que no describa lo que hay dentro de acuerdo porque si no sería
+
+90
+00:07:40,140 --> 00:07:45,420
+una mala práctica de programación y no entenderíamos bien el código cuando a largo plazo queramos leerlo
+
+91
+00:07:45,670 --> 00:07:46,330
+entonces.
+
+92
+00:07:46,380 --> 00:07:49,540
+Eso es importante definir bien el nombre.
+
+93
+00:07:49,590 --> 00:07:59,220
+Luego también podríamos hacer una variable país y continente continente por ejemplo y yo puedo aquí
+
+94
+00:07:59,220 --> 00:08:01,220
+concatenar dos strings.
+
+95
+00:08:01,230 --> 00:08:02,320
+Cómo puedo hacer eso.
+
+96
+00:08:02,360 --> 00:08:08,640
+Cómo puedo hacer una concatenación es decir una unión de dos cadenas de texto en una sola puedo coger
+
+97
+00:08:08,640 --> 00:08:16,950
+la variable país puede utilizar el símbolo más puedo meterle unas comillas y separarlo con un espacio
+
+98
+00:08:16,950 --> 00:08:21,870
+y luego puedo coger y concatenar también la variable continente.
+
+99
+00:08:22,260 --> 00:08:28,560
+Es decir que con el operador más aparte de ser un operador de suma también es un operador de concatenación.
+
+100
+00:08:28,560 --> 00:08:33,360
+En otros lenguajes de programación se utiliza el punto de acuerdo pero alguien JavaScript el punto para
+
+101
+00:08:33,360 --> 00:08:39,210
+acceder a una propiedad de un objeto que sólo veremos luego entonces de esta manera puedo concatenar
+
+102
+00:08:39,330 --> 00:08:45,990
+de forma que si yo ahora mismo justo aquí abajo después de que se ejecute todo esto alguna alerta y
+
+103
+00:08:45,990 --> 00:08:50,580
+le paso la variable país y continente guardo y actualizo la pantalla.
+
+104
+00:08:50,580 --> 00:08:55,230
+Vamos a ver que primero se va a mostrar el consuelo y después se va a mostrar el contenido de la variable
+
+105
+00:08:55,230 --> 00:09:01,440
+país y continente que es una concatenación de dos cadenas de texto actualizo la pantalla y efectivamente
+
+106
+00:09:01,440 --> 00:09:06,990
+se muestra la concatenación de eso y aquí en la consola pues de igual forma bien.
+
+107
+00:09:07,080 --> 00:09:15,090
+Otra cosa interesante que podemos hacer si nosotros hacemos por ejemplo un consolarlos aquí de antigüedad
+
+108
+00:09:16,770 --> 00:09:17,610
+antigüedad
+
+109
+00:09:20,160 --> 00:09:26,430
+sacado 1019 efectivamente pero si a mí por un casual se me ocurriera cambiarle el valor a esa antigüedad
+
+110
+00:09:26,460 --> 00:09:37,920
+por ejemplo hacer antigüedad antigüedad es igual a 2000 30 pero con un punto y como LDA entero actualmente
+
+111
+00:09:37,920 --> 00:09:41,730
+antigüedad ya no vale 2019 porque le acabo de asignar otro valor.
+
+112
+00:09:41,760 --> 00:09:49,850
+Ahora vale 2030 si yo hago un consolé loggia antigüedad me sale 2030 ya el valor anterior ha sido sustituido
+
+113
+00:09:49,860 --> 00:09:53,300
+sigo machacado por lo nuevo lo he vuelto sin dar un valor diferente.
+
+114
+00:09:53,400 --> 00:10:02,010
+Ahora en mi caja de cartón no tengo 2019 como dato guardado sino que tengo dos mil treinta y de igual
+
+115
+00:10:02,010 --> 00:10:03,830
+forma lo puedo hacer en el código.
+
+116
+00:10:03,900 --> 00:10:10,380
+Si yo por ejemplo más abajo ya no quiero que mi país sea España de acuerdo ya no hace falta que vuelva
+
+117
+00:10:10,380 --> 00:10:15,330
+a poner el bar porque esto es para definir la variable para volver a asignar el valor a una variable
+
+118
+00:10:15,330 --> 00:10:22,670
+simplemente puedo con el país simplemente el nombre de la variable y luego le cambio el contenido.
+
+119
+00:10:22,670 --> 00:10:25,940
+En este caso quiero que mi país ahora sea México México.
+
+120
+00:10:26,560 --> 00:10:31,890
+Cierro con puntico Coma y quiero que mi continente sea
+
+121
+00:10:34,640 --> 00:10:36,410
+Latinoamérica.
+
+122
+00:10:36,840 --> 00:10:46,500
+Latinoamérica vale por ejemplo entonces ahora adivina qué va a salir del Consuelo en el consuelo para
+
+123
+00:10:46,500 --> 00:10:53,810
+salir país México continente Latinoamérica antigüedad 2019 vale.
+
+124
+00:10:54,690 --> 00:10:59,580
+Y adivina que va a salir en el Aulet pues general va a salir España y Europa.
+
+125
+00:10:59,580 --> 00:11:00,330
+Por qué.
+
+126
+00:11:00,330 --> 00:11:07,350
+Porque la variable vaís y la variable continente han sido definidas lo primero y luego estas dos variables
+
+127
+00:11:07,350 --> 00:11:14,160
+se han utilizado aquí país y continente es decir que aquí cuando yo utilizo estas variable no se ha
+
+128
+00:11:14,220 --> 00:11:18,250
+sustituido el valor de estas dos variables que se hace después de acuerdo.
+
+129
+00:11:18,300 --> 00:11:23,220
+Es decir que cuando yo he llegado aquí realmente los datos que yo tengo para guardar en esta nueva variable
+
+130
+00:11:23,250 --> 00:11:30,060
+son España y Europa no tengo México y Latinoamérica sino que cuando yo vuelvo a utilizar más abajo la
+
+131
+00:11:30,060 --> 00:11:34,680
+variable país y continente ya va a tener un nuevo dato asignado con lo cual sí que me va a aparecer
+
+132
+00:11:34,920 --> 00:11:41,310
+México y Latinoamérica en el consolon y en el Alert como yo estoy utilizando la variable país y continente
+
+133
+00:11:41,370 --> 00:11:47,610
+pues si que me va a sacar España y Europa vamos a comprobarlo si actualizamos la pantalla me aparece
+
+134
+00:11:47,610 --> 00:11:54,300
+el panel y Europa efectivamente y si miro con solo me aparece México y Latinoamérica y el año si yo
+
+135
+00:11:54,330 --> 00:12:01,200
+me llevara esto país y continente lo cortara y lo pusiera justo abajo de la actualización de las variables
+
+136
+00:12:01,770 --> 00:12:05,250
+de acuerdo del nuevo dato que le estoy asignando a estas dos variables.
+
+137
+00:12:05,640 --> 00:12:06,600
+Actualizo la pantalla.
+
+138
+00:12:06,630 --> 00:12:12,600
+Me va a salir México y Latinoamérica vale porque en el momento de crear esta variable estas dos variables
+
+139
+00:12:12,630 --> 00:12:20,010
+ya tienen el nuevo dato no tienen el dato original con lo cual pues así funcionan las variables y espero
+
+140
+00:12:20,010 --> 00:12:21,120
+que haya quedado claro.

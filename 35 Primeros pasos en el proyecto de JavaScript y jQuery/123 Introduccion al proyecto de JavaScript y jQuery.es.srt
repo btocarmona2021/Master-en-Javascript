@@ -1,0 +1,127 @@
+1
+00:00:01,100 --> 00:00:07,890
+Ya hemos aprendido todo lo más importante acerca de JavaScript y de Cuadri así que llega el momento
+
+2
+00:00:07,890 --> 00:00:14,160
+de hacer un pequeño proyecto para practicar con todo esto de acuerdo lo que vamos a hacer va a ser una
+
+3
+00:00:14,160 --> 00:00:19,440
+web parecida a esta de acuerdo no tienen que ser la apariencia exactamente igual pero algo así es lo
+
+4
+00:00:19,440 --> 00:00:20,670
+que vamos a hacer.
+
+5
+00:00:20,790 --> 00:00:24,670
+Vale entonces lo primero que vamos a hacer va a ser maquetar una web parecida a esta.
+
+6
+00:00:24,690 --> 00:00:31,760
+Vamos a crear el HTML CSS de esta web y la vamos a maquetar más o menos parecida a esta.
+
+7
+00:00:31,780 --> 00:00:37,130
+El segundo punto va a ser buscar un plugin para hacer el líder de acuerdo aquí vamos a tener un líder
+
+8
+00:00:37,230 --> 00:00:43,130
+que vamos a poder automatizar el paso de las imágenes vamos a poder darle para pasar esas imágenes.
+
+9
+00:00:43,140 --> 00:00:47,040
+Un típico es Leider de imágenes que hay en todas las webs.
+
+10
+00:00:47,160 --> 00:00:54,060
+Luego vamos a tener un listado de voz que van a ser estos artículos que van a apareciendo aquí pero
+
+11
+00:00:54,060 --> 00:01:01,080
+van a estar guardado en un Jayson y van a ser mostrados dinámicamente dinámicamente me refiero a recorrer
+
+12
+00:01:01,080 --> 00:01:04,290
+esa colección de objetos Jayson y los vamos a mostrar aquí.
+
+13
+00:01:07,150 --> 00:01:12,190
+Otra cosa que vamos a hacer va a ser un cambiador de temas es decir la web.
+
+14
+00:01:12,190 --> 00:01:14,110
+Ahora mismo está en color verde.
+
+15
+00:01:14,200 --> 00:01:22,540
+Pues aquí si te das cuenta en la parte izquierda no aparece en diferentes botones con diferentes colores.
+
+16
+00:01:22,540 --> 00:01:29,230
+Si yo le doy al color rojo la web me va a cambiar la imagen de fondo y me va a cambiar el color principal
+
+17
+00:01:29,320 --> 00:01:30,290
+de la página.
+
+18
+00:01:30,490 --> 00:01:36,370
+Igualmente lo vamos a hacer con el azul vamos a hacer esta botonera de aquí que cuando nosotros le demos
+
+19
+00:01:36,370 --> 00:01:46,440
+clic va cambiando el tema y los estilos de la web de acuerdo dinámicamente y de manera instantánea.
+
+20
+00:01:46,600 --> 00:01:52,030
+Al final de la web cuando hagamos scroll vale va a haber un botón abajo que nos va a permitir subir
+
+21
+00:01:52,150 --> 00:01:59,050
+de manera suavizada hacia arriba en la web de acuerdo al típico botón de subir también lo vamos a hacer.
+
+22
+00:01:59,050 --> 00:02:08,050
+Vamos a tener un formulario falso en el cual simplemente vamos a meter un email y una contraseña o un
+
+23
+00:02:08,050 --> 00:02:13,480
+nombre un email y una contraseña y al darle al hogar simplemente lo que va a hacer es ocultar ese trozo
+
+24
+00:02:13,480 --> 00:02:19,270
+de formulario y mostrar el nombre del usuario logueado que va a estar almacenado en locales torax y
+
+25
+00:02:19,270 --> 00:02:21,870
+eso siempre va a haber que mostrarlo en la página.
+
+26
+00:02:22,210 --> 00:02:29,200
+Luego vamos a tener una sección sobre mí en la que habrá un acordeón de QWERTY Huay con diferente texto
+
+27
+00:02:29,200 --> 00:02:35,470
+y diferente cosa luego vamos a hacer un reloj dinámico con JavaScript de acuerdo que va a estar cambiando
+
+28
+00:02:35,470 --> 00:02:40,600
+de colores va a estar cambiando dinámicamente los segundos los minutos y la hora y todo eso y luego
+
+29
+00:02:40,600 --> 00:02:47,290
+vamos a tener una sección de contacto con un formulario de contacto y vamos a meterle la misma validación
+
+30
+00:02:47,410 --> 00:02:53,620
+a ese formulario para que los datos se inviertan correctamente y esto es lo que vamos a hacer por ahora.
+
+31
+00:02:53,980 --> 00:02:58,450
+Así que la siguiente clase lo que vamos a ver ya va a ser la maquetación de esta página haciendo el
+
+32
+00:02:58,480 --> 00:03:03,340
+HTML principal y luego va quedando la estructura principal de la página web.

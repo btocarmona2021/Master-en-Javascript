@@ -1,0 +1,183 @@
+1
+00:00:00,240 --> 00:00:04,830
+Dentro de una clase en cualquier lenguaje de programación orientada a objetos podemos definir nuestro
+
+2
+00:00:04,830 --> 00:00:11,220
+atributo y método como públicos protegido o privado en función de la visibilidad que queremos que tengan
+
+3
+00:00:11,230 --> 00:00:13,430
+el resto del código.
+
+4
+00:00:13,990 --> 00:00:14,260
+Vale.
+
+5
+00:00:14,280 --> 00:00:19,850
+Hasta ahora estaban utilizando atributos de tipo público y métodos de tipo público.
+
+6
+00:00:19,860 --> 00:00:24,840
+Esto significa que podemos llamar a estos métodos desde cualquier desde cualquier sitio desde dentro
+
+7
+00:00:24,840 --> 00:00:32,550
+de esta clase desde una clase que extienda ésta o que herede de ésta incluso desde fuera de la clase
+
+8
+00:00:32,550 --> 00:00:38,620
+una vez que hemos creado ya el objeto de acuerdo esto serían los métodos y atributos público que lo
+
+9
+00:00:38,640 --> 00:00:43,470
+podemos usar desde cualquier sitio en donde podríamos acceder a esta propiedad y método desde cualquier
+
+10
+00:00:43,470 --> 00:00:50,430
+lugar desde la clase actual desde la clase desde las clases que heredan la clase actual y desde otra
+
+11
+00:00:50,430 --> 00:00:55,490
+clase o incluso desde fuera de la clase llamando al método invocando al método.
+
+12
+00:00:55,500 --> 00:01:01,860
+Una vez que mosquero el objeto luego tenemos otro tipo de propiedades y de métodos que son la de tipo
+
+13
+00:01:01,860 --> 00:01:02,780
+protected.
+
+14
+00:01:02,880 --> 00:01:11,280
+Por ejemplo si le cambiamos el tipo a acelerar le ponemos protected de acuerdo y guardamos vale.
+
+15
+00:01:11,280 --> 00:01:18,150
+Ahora estamos intentando acceder a una a un método protected desde fuera de la clase con lo cual no
+
+16
+00:01:18,150 --> 00:01:24,840
+nos va a dejar porque los protected solamente OShea los atributos y métodos protected solo se pueden
+
+17
+00:01:24,840 --> 00:01:30,840
+acceder desde la clase que los define o desde cualquier clase que herede de ésta con lo cual nosotros
+
+18
+00:01:30,840 --> 00:01:39,630
+abrimos el compilador nos pone que la propiedad acelerar o en este caso el método acelerã está en protected
+
+19
+00:01:39,840 --> 00:01:47,030
+con lo cual no es accesible desde una subclase o desde fuera de la clase Ensino es decir cuando nosotros
+
+20
+00:01:47,030 --> 00:01:53,610
+creamos un objeto no podríamos utilizarlo fuera de esa clase vale porque solamente podemos utilizarlo
+
+21
+00:01:53,610 --> 00:01:56,990
+dentro de la propia clase o de una clase que ya herede de ésta.
+
+22
+00:01:57,030 --> 00:02:01,650
+De acuerdo con lo cual cuando nosotros llamamos al método aquí nos dice que no está permitido vale porque
+
+23
+00:02:01,650 --> 00:02:08,940
+es un método protegido con lo cual desde fuera de la clase solamente se podrían acceder una vez que
+
+24
+00:02:08,960 --> 00:02:15,000
+nocreo el objeto a métodos público y lo mismo pasa con el tipo Private de acuerdo.
+
+25
+00:02:15,000 --> 00:02:22,350
+Cuando nosotros le ponemos Private a una propiedad o un método vale estamos restringiendo el uso de
+
+26
+00:02:22,350 --> 00:02:26,890
+ese método o atributo a la clase que lo define de acuerdo.
+
+27
+00:02:26,910 --> 00:02:33,620
+Una vez que definimos un método como privado o una propiedad privada no podemos acceder a ella niet
+
+28
+00:02:33,640 --> 00:02:39,480
+de clases que la hereden ni de otra clase ni de ni de su clase ni de fuera de la clase.
+
+29
+00:02:39,480 --> 00:02:44,070
+Una vez que hemos creado el objeto ni nada parecido de acuerdo sino que son solamente accesibles desde
+
+30
+00:02:44,070 --> 00:02:48,810
+la clase que los define de acuerdo así que si le ponemos este método Private pues nos va a decir lo
+
+31
+00:02:48,810 --> 00:02:55,140
+mismo que no se puede acceder al método a acelerar porque es de tipo privado vale entonces para que
+
+32
+00:02:55,140 --> 00:03:03,800
+funcione tendríamos que utilizar el públic en nuestro caso para acceder a este método desde fuera vale
+
+33
+00:03:03,930 --> 00:03:09,870
+si quisiéramos acceder al método acelerar desde dentro de la clase pues teniendo un private nos funcionaría
+
+34
+00:03:09,870 --> 00:03:15,480
+también porque el privado ya sabes que simplemente nos permite usar ese método dentro de la clase que
+
+35
+00:03:15,480 --> 00:03:23,070
+lo define de acuerdo pues nada simplemente quería comentar que eran este tipo de cosa cómo funcionaba
+
+36
+00:03:23,070 --> 00:03:30,390
+la visibilidad de propiedades y método y simplemente pues ya lo sabemos y cuando trabajamos más profundamente
+
+37
+00:03:30,390 --> 00:03:35,730
+con la orientación objeto pues ya sabemos qué clase de método definir por ejemplo un método privado
+
+38
+00:03:36,030 --> 00:03:44,040
+sería útil definirlo en una clase concreta y ese método concretamente serviría solamente para usarse
+
+39
+00:03:44,040 --> 00:03:48,050
+dentro de la clase para hacer cualquier tipo de operación concreta etcétera.
+
+40
+00:03:48,120 --> 00:03:53,160
+Vale incluso para que no sea accesible de forma pública porque es un método interno no
+
+41
+00:03:56,320 --> 00:04:05,040
+y un atributo o sea un atributo o método protegido solamente podríamos utilizarlo dentro de esta clase
+
+42
+00:04:05,400 --> 00:04:08,130
+o de la clase que herede de acuerdo.
+
+43
+00:04:08,130 --> 00:04:14,130
+De esa forma tendríamos un método compartido con las clases pero no sería tampoco público y no sería
+
+44
+00:04:14,160 --> 00:04:19,400
+un método para que se usen el código final más de más alto nivel.
+
+45
+00:04:20,030 --> 00:04:23,730
+En fin con esto ya sabemos utilizar la visibilidad.
+
+46
+00:04:23,820 --> 00:04:26,270
+De momento no vamos a cambiar esto públic y hasta.

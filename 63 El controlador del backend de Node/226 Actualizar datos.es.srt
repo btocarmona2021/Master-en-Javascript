@@ -1,0 +1,298 @@
+1
+00:00:00,780 --> 00:00:08,280
+Ya tenemos varios métodos y rutas en nuestra Pierres tenemos un método para guardar un proyecto otro
+
+2
+00:00:08,280 --> 00:00:12,200
+para conseguir un proyecto y otro para listar todos los proyectos.
+
+3
+00:00:12,210 --> 00:00:19,980
+Ahora vamos a crear otro para actualizar uno de esos proyectos base muy sencillo y vas a ver que muy
+
+4
+00:00:19,980 --> 00:00:26,010
+poco código vamos a poder generar esa lógica para actualizar un proyecto de la base de datos o un documento
+
+5
+00:00:26,010 --> 00:00:27,440
+de la base de datos.
+
+6
+00:00:27,600 --> 00:00:34,470
+Vamos a crear un método llamado unidad de proyecto y esto va a tener una función que va a recibir una
+
+7
+00:00:34,470 --> 00:00:45,240
+red y una res que dentro de lo que tenemos que hacer es recoger un parámetro por la UE R.L para indicarle
+
+8
+00:00:45,840 --> 00:00:48,720
+qué objeto quiero editar.
+
+9
+00:00:48,750 --> 00:00:54,780
+Al igual que hemos hecho antes una ruta que nos permitía pasándole una idea por la web es sacar un proyecto
+
+10
+00:00:54,780 --> 00:01:01,050
+en la base de datos pues ahora tenemos que pasar también una idea por la web real para saber qué proyecto
+
+11
+00:01:01,050 --> 00:01:02,040
+tenemos que actualizar.
+
+12
+00:01:02,050 --> 00:01:11,400
+Entonces vamos a crear una variable llamada Proyecto idea y aquí vamos vamos a hacer REC apuntó Parham
+
+13
+00:01:11,570 --> 00:01:16,290
+puntuales para capturar ese valor que nos llega por la.
+
+14
+00:01:16,410 --> 00:01:25,100
+De acuerdo ahora vamos a hacer Baur update y aquí vamos a recoger todo el body de la petición.
+
+15
+00:01:25,110 --> 00:01:31,380
+Vamos a hacer REC punto Bodhi y esto simplemente es el objeto completo con los datos ya actualizados
+
+16
+00:01:33,510 --> 00:01:35,470
+de nuestro proyecto de acuerdo.
+
+17
+00:01:35,580 --> 00:01:44,340
+Es decir que si yo voy a modificar este objeto de Facebook pues yo le paso por aquí lo que yo quiera.
+
+18
+00:01:44,640 --> 00:01:45,030
+Vale
+
+19
+00:01:51,310 --> 00:01:59,280
+yo le paso lo que yo quiera y entonces cuando yo utilicé ese método que estamos creando ahora el de
+
+20
+00:01:59,290 --> 00:02:04,630
+enviar va a coger todo este objeto y lo va a sustituir por el que hay en la base de datos va a actualizar
+
+21
+00:02:04,630 --> 00:02:06,610
+los campos correspondientes.
+
+22
+00:02:06,610 --> 00:02:09,970
+Vale entonces ahora voy a utilizar el modelo Projet
+
+23
+00:02:12,640 --> 00:02:18,930
+y voy a usar el método Fain voy Hide and obtained.
+
+24
+00:02:19,270 --> 00:02:22,170
+Hay varios métodos de este tipo dentro de mongolos.
+
+25
+00:02:22,260 --> 00:02:30,370
+Este en concreto si yo le paso un IDE y un objeto pues me actualiza el me actualiza el documento que
+
+26
+00:02:30,370 --> 00:02:34,960
+yo tengo en la base de datos con el objeto que le haya pasado mal esto es la documentación de mongolos
+
+27
+00:02:35,050 --> 00:02:42,790
+está especificado todos los métodos que existen pues tenemos este método fue invalide Anup y yo le voy
+
+28
+00:02:42,790 --> 00:02:48,790
+a pasar el Proyect IDE como primer parámetro para que este método sepa qué documento de base de datos
+
+29
+00:02:48,790 --> 00:02:52,390
+tiene que actualizar y luego le voy a pasar el objeto.
+
+30
+00:02:52,490 --> 00:03:01,730
+UPDATE vale para sustituir los datos que vayan a este objeto que estén en la base de datos por lo nuevo
+
+31
+00:03:01,730 --> 00:03:07,060
+que vayan en este objeto realmente no es decir si yo tengo en la base de datos un documento cuyo nombre
+
+32
+00:03:07,120 --> 00:03:14,830
+es Facebook.com y yo le paso en este nuevo objeto un documento con un nombre cuyo nombre es otro pues
+
+33
+00:03:14,830 --> 00:03:17,060
+como yo le he pasado la misma clave.
+
+34
+00:03:17,080 --> 00:03:22,720
+Vale pues me va a actualizar el objeto lo vamos a ver y ahora como tercer parámetro que tengo que pasar
+
+35
+00:03:22,840 --> 00:03:33,220
+una función de carga R y en este caso Projet update Update vale y en esta función de Calvache pues tengo
+
+36
+00:03:33,220 --> 00:03:37,690
+que comprobar lo mismo si el momento esta función es porque ya se ha ejecutado el método.
+
+37
+00:03:37,690 --> 00:03:43,660
+Entonces tendremos que comprobar si nos devuelve un error R En el caso de que esto sea así hacemos un
+
+38
+00:03:43,660 --> 00:03:46,060
+RETURN resultó estátus
+
+39
+00:03:49,300 --> 00:03:50,080
+
+40
+00:03:54,010 --> 00:04:04,990
+puntos en y que me envió un mensaje que me diga error al actualizar
+
+41
+00:04:07,490 --> 00:04:15,580
+cierro con punto y coma a otro y en el caso de que proyecto update me venga false pues voy a hacer un
+
+42
+00:04:15,580 --> 00:04:23,280
+RETURN y podemos devolver un 4 0 4 estátus 4 04.
+
+43
+00:04:23,710 --> 00:04:40,210
+Puedo hacer un CEN y enviar un mensaje que diga no se ha podido actualizar el proyecto o no existe el
+
+44
+00:04:40,210 --> 00:04:49,440
+proyecto o directamente no existe el proyecto para actualizar.
+
+45
+00:04:49,470 --> 00:04:55,240
+Quiero confundir como Vale y ahora si no ha pasado por ninguna de estas condiciones yo puedo hacer un
+
+46
+00:04:55,240 --> 00:04:58,030
+RETURN con una respuesta exitosa.
+
+47
+00:04:58,050 --> 00:05:06,850
+Vale reduced respondo estátus 200 aquí cuidado reescribirlo bien
+
+48
+00:05:10,700 --> 00:05:23,130
+utilizo el método osen y envío una propiedad llamada Proyect y le paso el objeto que acabo de actualizar.
+
+49
+00:05:23,150 --> 00:05:32,960
+Projet ocultarte Vale vale perfecto ahora tengo que crearme una ruta nueva para este nuevo método hacer
+
+50
+00:05:32,960 --> 00:05:44,060
+una ruta Rutter apuntó put@ vale hacer una ruta por put@ porque este método HTTP funciona para la actualización
+
+51
+00:05:44,060 --> 00:05:46,420
+de recursos en una Piebalgs.
+
+52
+00:05:46,700 --> 00:05:48,830
+La ruta se va a llamar Projet
+
+53
+00:05:51,560 --> 00:05:58,370
+la ruta va a ser Projet Barra dos puntos y de paso el parámetro y en este caso si que es obligatorio.
+
+54
+00:05:58,380 --> 00:06:03,970
+Entonces cuando yo ya me rebelé porque me voy a cargar el objeto controles y el método update proyecto
+
+55
+00:06:05,930 --> 00:06:07,240
+cierro con punto y coma.
+
+56
+00:06:07,230 --> 00:06:09,040
+Vale y vamos a ejecutarlo.
+
+57
+00:06:09,080 --> 00:06:16,520
+Venimos aquí vamos a cambiar el método a put@ vamos a utilizar el la ruta
+
+58
+00:06:19,840 --> 00:06:20,820
+proyecto update.
+
+59
+00:06:20,830 --> 00:06:28,930
+Dicho proyecto prohíbe directamente proyecto y le paso el IDE del documento que yo quiera actualizar.
+
+60
+00:06:28,930 --> 00:06:37,360
+Vamos a actualizar este último el de Facebook así que voy a ver el documento copio el IRE del documento
+
+61
+00:06:38,140 --> 00:06:44,500
+lo pego por aquí vale y ya esto se me va a actualizar le voy a dar hacen Pam y me devuelve mi objeto
+
+62
+00:06:44,560 --> 00:06:45,810
+antiguo vale.
+
+63
+00:06:45,970 --> 00:06:49,850
+Esto significa que me ha actualizado correctamente los datos pero si yo vuelvo a ver el documento en
+
+64
+00:06:49,870 --> 00:06:55,110
+la base de datos me saca los datos nuevo.
+
+65
+00:06:55,450 --> 00:07:02,850
+Es decir que el método fanboy de update por default me devuelve datos antiguos.
+
+66
+00:07:02,870 --> 00:07:07,540
+Entonces tengo que hacerle un cambio si yo quiero que me devuelva el último objeto que yo acabo de guardar
+
+67
+00:07:07,960 --> 00:07:09,550
+el objeto que acabo de guardar yo.
+
+68
+00:07:09,700 --> 00:07:11,090
+Cómo puedo hacer esto.
+
+69
+00:07:11,120 --> 00:07:19,200
+Pasandolo un tercer parámetro vale que en este parámetro se le pasan opciones y diciendoles New Truc
+
+70
+00:07:19,600 --> 00:07:22,270
+vale para que me devuelva el objeto nuevo.
+
+71
+00:07:22,270 --> 00:07:27,290
+De paso ese tercer parámetro y ahora voy a cambiar los datos.
+
+72
+00:07:27,490 --> 00:07:32,160
+Facebook es Red Social 2 2050 vale.
+
+73
+00:07:32,410 --> 00:07:40,320
+Le doy a Sen y me devuelve efectivamente mi objeto nuevo utilizando esa opción que te he dicho.
+
+74
+00:07:40,940 --> 00:07:46,960
+Neutro perfecto pues conecto ya tenemos un nuevo método que nos permite actualizar los documentos de
+
+75
+00:07:46,960 --> 00:07:49,930
+nuestra colección de proyectos de la base de datos de MongoDB.

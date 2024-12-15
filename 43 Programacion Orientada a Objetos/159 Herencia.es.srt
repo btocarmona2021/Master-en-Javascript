@@ -1,0 +1,215 @@
+1
+00:00:00,600 --> 00:00:06,690
+La herencia es un mecanismo muy básico en el cual una clase hija puede heredar las características que
+
+2
+00:00:06,690 --> 00:00:15,420
+tiene una clase padre de forma que si yo tuviera una clase que es un subtipo de camiseta por ejemplo
+
+3
+00:00:15,720 --> 00:00:21,840
+algo que sea similar como por ejemplo una sudadera yo puedo tener esa clase de sudadera y heredar todas
+
+4
+00:00:21,840 --> 00:00:24,650
+las características que tiene la clase camiseta.
+
+5
+00:00:24,660 --> 00:00:29,850
+De esa forma yo tendría disponible estas propiedades dentro de esa otra clase y estos métodos dentro
+
+6
+00:00:29,850 --> 00:00:35,730
+de esa otra clase entonces para ver el ejemplo lo vamos a hacer de manera muy sencilla por aquí abajo
+
+7
+00:00:36,060 --> 00:00:41,960
+vamos a crear una clase hija y vamos a ver cómo vamos a heredar todo lo que tiene la clase padre.
+
+8
+00:00:42,240 --> 00:00:51,390
+Entonces me voy a crear una clase que va a ser sudadera hockey y para heredar de una clase padre o para
+
+9
+00:00:51,630 --> 00:00:54,940
+heredar otra clase tendría que utilizar la palabra extensión.
+
+10
+00:00:55,110 --> 00:01:02,350
+De esa manera heredo y me trago todo lo que tengo en la otra clase que en este caso sería camiseta vale.
+
+11
+00:01:02,400 --> 00:01:08,820
+De esa manera me estoy trayendo todo lo que tengo en la otra clase y dentro de esta clase yo puedo añadir
+
+12
+00:01:09,810 --> 00:01:21,000
+más características por ejemplo públic capucha que sea un string que sea un vulcano más bien bullían
+
+13
+00:01:21,660 --> 00:01:26,070
+y puedo tener un método que sea hace capucha
+
+14
+00:01:29,120 --> 00:01:35,160
+que recibe un parámetro capucha que sea vulnerada.
+
+15
+00:01:35,180 --> 00:01:44,850
+También le voy a asignar a la propiedad capucha el valor que tengo en este caso pues capucha será Tru
+
+16
+00:01:44,910 --> 00:01:55,980
+o Fool's y luego voy a tener también un método que va a ser ket capucha Coquí y por lo mismo simplemente
+
+17
+00:01:55,980 --> 00:02:03,780
+voy a volver a hacer un Returned de disputo capucha y le voy a indicar que va a devolver obligatoriamente
+
+18
+00:02:03,780 --> 00:02:10,290
+un volante vale yo tengo mi clase hasta aquí todo correcto y yo hablo herramientas de desarrolladores
+
+19
+00:02:10,670 --> 00:02:13,630
+y actualizo la pantalla no debe tener ningún tipo de error.
+
+20
+00:02:13,790 --> 00:02:21,570
+Vale entonces ahora si yo hago una instancia o un objeto de sudadera vale vamos a crear por aquí abajo
+
+21
+00:02:21,600 --> 00:02:32,510
+un objeto de sudadera creo una variable llamada sudadera sudadera Nike le vamos a poner y si algo ni
+
+22
+00:02:32,510 --> 00:02:43,080
+en sudadera vale yo ahora mismo tengo un objeto perfectamente usable si hago con su reloj de sudadera
+
+23
+00:02:43,080 --> 00:02:45,720
+Nike esto me va a sacar por la consola
+
+24
+00:02:49,590 --> 00:02:55,500
+nada porque no lo he compilado y ahora tendría que poner los archivos de Tepes a compilar así que voy
+
+25
+00:02:55,500 --> 00:02:56,550
+a abrir la consola
+
+26
+00:02:59,520 --> 00:03:03,620
+entro al directorio donde yo tengo mi proyecto
+
+27
+00:03:09,320 --> 00:03:16,220
+dentro de la carpeta J.S y aquí lanzo el comando TSC menos W asterisco punto.
+
+28
+00:03:16,250 --> 00:03:22,230
+De esta manera pongo compilar los archivo de Tepes que de esta manera se actualizó la pantalla.
+
+29
+00:03:22,430 --> 00:03:33,240
+Ahora me saca mi objeto de sudadera y fíjate lo que tiene este objeto tiene color marca modelo predecido
+
+30
+00:03:33,240 --> 00:03:39,430
+y talla que son las propiedades que tenía ya el objeto de camiseta de acuerdo tiene todas esas propiedades
+
+31
+00:03:39,440 --> 00:03:44,990
+por default o key y además tiene el objeto de sudadera
+
+32
+00:03:47,550 --> 00:03:54,710
+tiene los métodos de capucha vale y todo eso ok.
+
+33
+00:03:54,840 --> 00:03:59,880
+De forma que esto está funcionando perfectamente y además se trae lo que tengo en el constructor es
+
+34
+00:03:59,880 --> 00:04:04,980
+decir que si yo le paso a sudadera ciertos valores por ejemplo rojo
+
+35
+00:04:07,600 --> 00:04:08,530
+manga larga
+
+36
+00:04:11,910 --> 00:04:18,670
+y actualizo la pantalla veo que se le asignan esos valores porque el constructor también le viene a
+
+37
+00:04:18,830 --> 00:04:24,850
+el objeto de sudadera y le voy a añadir todas las propiedades que tiene modelo marca
+
+38
+00:04:31,860 --> 00:04:33,390
+vale perfecto.
+
+39
+00:04:33,450 --> 00:04:38,820
+Ahora mismo el objeto de sudadera ya tienen todas las propiedades heredadas de camiseta pero es que
+
+40
+00:04:38,820 --> 00:04:40,970
+además tienen una propiedad que es capucha.
+
+41
+00:04:41,130 --> 00:04:48,720
+Entonces para darle un valor a Capucha yo puedo hacer lo siguiente sudadera Nike punto capucha vale
+
+42
+00:04:49,140 --> 00:04:55,480
+o utilizar el método capucha Vale y le voy a pasar un valor que va a ser truc.
+
+43
+00:04:56,520 --> 00:05:00,810
+Además le puedo cambiar de un valor a cualquiera de las propiedades en este caso puedo cambiar el color
+
+44
+00:05:01,500 --> 00:05:07,410
+sudadera punto y punto y utilizar el método que no está en esta clase sino que está en la anterior que
+
+45
+00:05:07,500 --> 00:05:14,610
+hereda el método el color lo utilizo color y le paso el valor que yo quiera
+
+46
+00:05:18,650 --> 00:05:26,640
+guardo actualizo la pantalla y efectivamente el método que he utilizado que es el heredado de la clase
+
+47
+00:05:26,640 --> 00:05:32,610
+anterior que es el color efectivamente está funcionando llamándolo desde la clase o desde el objeto
+
+48
+00:05:32,610 --> 00:05:39,420
+Capp sudadera era propiedad capucha también se le ha dado correctamente y ya hemos visto cómo se heredan
+
+49
+00:05:39,510 --> 00:05:45,020
+todas las propiedades y métodos que tenemos en una clase de padre y en este caso en este caso la clase
+
+50
+00:05:45,020 --> 00:05:50,820
+e hija pues es la sudadera y esto puede ser muy útil en muchos casos que estemos programando ciertas
+
+51
+00:05:50,820 --> 00:05:53,170
+cosas y tengamos clases parecida.
+
+52
+00:05:53,170 --> 00:06:00,720
+Vale pero no queremos que pero no queremos duplicar código o simplemente tenemos entidades que son similares
+
+53
+00:06:00,750 --> 00:06:05,910
+pero necesitamos heredar ciertas características de una clase padre pues ya hemos visto cómo hacerlo
+
+54
+00:06:06,000 --> 00:06:08,790
+y ya sabemos un poquito acerca de la herencia.

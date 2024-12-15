@@ -1,0 +1,155 @@
+1
+00:00:00,990 --> 00:00:03,300
+Ahora vamos a añadirle un plus a este ejercicio.
+
+2
+00:00:03,300 --> 00:00:11,890
+Es decir si yo quisiera introducir un número que fuera menor que cero o incluso que fuera una letra.
+
+3
+00:00:11,970 --> 00:00:15,090
+Si yo pudiera meter esto vamos a ver lo que pasa.
+
+4
+00:00:15,120 --> 00:00:17,820
+Nos dice que introduce números correctos.
+
+5
+00:00:17,810 --> 00:00:24,030
+Vale y entonces pasa eso que no te vuelve un N A en x significa Not a Number no es un número entonces
+
+6
+00:00:24,240 --> 00:00:24,850
+como plus.
+
+7
+00:00:24,870 --> 00:00:38,130
+Podríamos hacer lo siguiente que si los números si los números no son un número o son menores o iguales
+
+8
+00:00:39,360 --> 00:00:46,310
+a cero nos vuelva a pedir que introduzcamos los datos nos los vuelva a pedir.
+
+9
+00:00:47,250 --> 00:00:49,050
+Entonces vamos a hacer este plus.
+
+10
+00:00:49,050 --> 00:00:55,380
+Si los números no son un número o los números son menores o iguales a cero que nos vuelva a pedir los
+
+11
+00:00:55,380 --> 00:01:01,480
+números cómo se te ocurre poder hacer esto con las cosas que ya sabemos de JavaScript y de programación.
+
+12
+00:01:01,480 --> 00:01:08,250
+Pues a mí lo que se me ocurre sería que en el caso de que el número uno o número dos no fueran correctos
+
+13
+00:01:08,400 --> 00:01:13,900
+que nos hiciera un Weyl y nos volviera a pedir las variables hasta que esas variables estuvieran correctas.
+
+14
+00:01:13,920 --> 00:01:16,430
+Vamos a hacerlo vamos a borrar el consuelo.
+
+15
+00:01:16,500 --> 00:01:18,870
+Y aquí vamos a hacer un Wyle para qué.
+
+16
+00:01:18,870 --> 00:01:24,690
+Para evaluar una condición y ejecutar un bloque de código en este caso tendríamos que volver a pedir
+
+17
+00:01:24,690 --> 00:01:26,190
+los números.
+
+18
+00:01:26,200 --> 00:01:32,490
+Vale tendremos que hacer otra vez el blog pero quitándole ya la palabra bar porque ya sería una asignación
+
+19
+00:01:32,500 --> 00:01:33,910
+una variable ya definida.
+
+20
+00:01:33,930 --> 00:01:39,060
+Vale entonces esto se quedaría igual pero aquí viene el truco el truco está en la condición de decir
+
+21
+00:01:39,390 --> 00:01:47,970
+que si el número 1 es menor a cero ya es menor o igual a cero vamos a ponerle el menor o igual a cero
+
+22
+00:01:49,800 --> 00:02:01,540
+o el número dos es menor o igual a cero o es un no tan Ambel es decir son letras es un string.
+
+23
+00:02:01,540 --> 00:02:10,150
+Pues para eso existe una función y Nan Krishnan que simplemente como parámetro le paso el número 1 cuando
+
+24
+00:02:10,170 --> 00:02:11,760
+paso la variable que yo quiera.
+
+25
+00:02:11,760 --> 00:02:17,240
+Esto es lo que hace es devolverme un Tru o un Fool's depende de lo que lleve dentro número vale.
+
+26
+00:02:17,340 --> 00:02:24,570
+Sí número 1 fuera un no tan Amber si no fuera un número esto me devolvería Truc con lo cual si esta
+
+27
+00:02:24,570 --> 00:02:30,390
+función me devuelve true es que eso no es un número con lo cual va a seguir ejecutando el contenido
+
+28
+00:02:30,390 --> 00:02:31,390
+del bucle.
+
+29
+00:02:31,770 --> 00:02:34,590
+O también.
+
+30
+00:02:34,800 --> 00:02:39,140
+No es un número ya no es un número.
+
+31
+00:02:39,210 --> 00:02:44,070
+Número 2 pues de igual forma va a tener que volver a pedirme los valores.
+
+32
+00:02:44,100 --> 00:02:49,910
+Entonces vamos a comprobarlo introduzco el número cero cero me lo vuelvo a pedir.
+
+33
+00:02:49,920 --> 00:02:55,230
+Introduzco un número menor a cero o menor a lo que sea.
+
+34
+00:02:55,230 --> 00:02:57,860
+Vale ya esto lo volvería a pedir.
+
+35
+00:02:57,990 --> 00:03:03,180
+De igual forma introduzco una letra luego introduzco un número me lo vuelve a pedir vale hasta que yo
+
+36
+00:03:03,180 --> 00:03:07,380
+no meta números correctos mayores que cero y que sean número
+
+37
+00:03:10,140 --> 00:03:10,500
+vale.
+
+38
+00:03:10,520 --> 00:03:16,250
+Ahora sí pero hasta que yo no meto el números correcto a seguir pidiendo que introduzca los datos correctamente
+
+39
+00:03:16,340 --> 00:03:19,190
+con lo cual ya hemos hecho el plus para este ejercicio.

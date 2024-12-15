@@ -1,0 +1,135 @@
+1
+00:00:00,960 --> 00:00:03,120
+Vamos a empezar a practicar con tepes scrip.
+
+2
+00:00:03,470 --> 00:00:03,890
+Vale.
+
+3
+00:00:03,930 --> 00:00:12,500
+En la web que hemos creado antes voy a comentar el escrit que he incluido antes para que no nos moleste
+
+4
+00:00:13,850 --> 00:00:18,570
+y ahora voy a crear mi primer archivo de Taipe scrip dentro de la carpeta J.S.
+
+5
+00:00:18,570 --> 00:00:29,650
+Me voy a crear mi primer archivo UNIFIL que se va a llamar controlase 02 Hola Mundo punto.
+
+6
+00:00:29,780 --> 00:00:38,970
+Se vale y este archivo va a ser un archivo de Taipe scrip que luego cuando lo compile se va a convertir
+
+7
+00:00:38,970 --> 00:00:39,630
+a JavaScript.
+
+8
+00:00:39,630 --> 00:00:45,060
+Entonces vamos a hacer un Hola mundo con Type script Kriya saber que el 90 por ciento es JavaScript
+
+9
+00:00:45,080 --> 00:00:50,410
+así que yo puedo hacer un blog de lo que yo quiera.
+
+10
+00:00:50,520 --> 00:00:54,030
+Hola mundo con Taipe scrip
+
+11
+00:00:57,510 --> 00:00:58,430
+a un consuelo.
+
+12
+00:00:58,440 --> 00:01:08,220
+Incluso puedo hacer cualquier otra cosa un Alert que diga Hola Mundo Contesse cielo con punto y coma
+
+13
+00:01:08,500 --> 00:01:11,970
+y en la consola tengo que dirigirme a la ruta donde yo tengo mi proyecto.
+
+14
+00:01:11,970 --> 00:01:22,130
+En mi caso la tengo aquí simplemente he hecho el comando CDC 2.El puntos WAM barra RW barra W barracudas
+
+15
+00:01:22,260 --> 00:01:26,880
+JavaScript rapó y script que en la carpeta donde tengo el proyecto.
+
+16
+00:01:26,880 --> 00:01:34,960
+Luego he entrado a la carpeta J.S y ahora vamos a lanzar el comando TSC y ya el nombre de mi fichero.
+
+17
+00:01:34,960 --> 00:01:37,910
+02 Bion Hola Mundo punto.
+
+18
+00:01:38,320 --> 00:01:43,980
+Le doy a Enter y esto lo que va a hacer es generarme un archivo JavaScript acuerdo que lo podemos ver
+
+19
+00:01:44,610 --> 00:01:51,480
+que es compatible con todos los navegadores posibles y aquí tenemos el código JavaScript que lo ha pasado
+
+20
+00:01:51,480 --> 00:01:52,950
+de Taipe script a JavaScript.
+
+21
+00:01:52,950 --> 00:01:58,410
+Evidentemente es el mismo código porque el código que estamos escribiendo en la parte de dives no es
+
+22
+00:01:58,410 --> 00:02:04,060
+nada especial ni ninguna versión del makeup ni ninguna funcionalidad exclusiva de tipo clip simplemente
+
+23
+00:02:04,060 --> 00:02:07,180
+es código JavaScript normal y el transpirando se queda igual.
+
+24
+00:02:07,550 --> 00:02:11,550
+Entonces no ha generado este fichero y este fichero del que tenemos que incluir en nuestra página web
+
+25
+00:02:11,580 --> 00:02:18,240
+para que funcione y para que lo cargue vamos a utilizar la etiqueta de script SRC y cargamos el fichero
+
+26
+00:02:18,250 --> 00:02:20,340
+J.S. barra 02.
+
+27
+00:02:20,490 --> 00:02:31,920
+Hola Mundo .3 se cierra el script y aquí en lugar de TSI tendría que poner el JX x el archivo ya transpirado
+
+28
+00:02:31,920 --> 00:02:32,280
+vale.
+
+29
+00:02:32,370 --> 00:02:36,750
+Entonces si actualizo mi pantalla me aparece mi Hola Mundo.
+
+30
+00:02:37,500 --> 00:02:39,810
+Si hiciera algún cambio en el fichero de escribe
+
+31
+00:02:45,690 --> 00:02:51,660
+pues no se vería reflejado en la página porque antes tengo que compilar otra vez el código transpirables
+
+32
+00:02:52,500 --> 00:02:59,500
+lo hago una vez que lo compile ya puedo racanear la pantalla y me aparecen los cambios del fichero Ometepec
+
+33
+00:02:59,500 --> 00:03:00,100
+scrip.
+
+34
+00:03:00,330 --> 00:03:03,360
+Así que ya hemos hecho un Hola mundo con este lenguaje.

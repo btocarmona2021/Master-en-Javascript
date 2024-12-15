@@ -1,0 +1,131 @@
+1
+00:00:01,270 --> 00:00:06,030
+Bien vamos a maquetar el logo el logo va a tener una fuente diferente.
+
+2
+00:00:06,030 --> 00:00:11,310
+Si te das cuenta en nuestro diseño inicial tenemos lo que tiene una fuente distinta.
+
+3
+00:00:11,310 --> 00:00:19,800
+Así que vamos a hacer Gelder logo o directamente ni siquiera entrando al Geddes simplemente utilizando
+
+4
+00:00:21,810 --> 00:00:29,940
+el ideólogo simplemente así le vamos a poner uno de estilo vamos a poner un forfaits vamos a poner esta
+
+5
+00:00:29,940 --> 00:00:35,340
+propiedad CCS y le vamos a poner la fuente que muy importado que se llama finger.
+
+6
+00:00:35,400 --> 00:00:45,670
+Vale vamos a ponerle esa fuente Finger y además le vamos a poner un 6 de 30 píxeles.
+
+7
+00:00:45,780 --> 00:00:50,440
+Guardo actualizo la pantalla y aquí me aparece mi logotipo.
+
+8
+00:00:50,460 --> 00:00:55,230
+Evidentemente ahora el menú se ha hecho más grande y entonces tendremos que ajustarlo para que se quede
+
+9
+00:00:55,230 --> 00:00:56,260
+bien.
+
+10
+00:00:57,010 --> 00:01:03,900
+Ok si lo seleccionamos con el inspector de elementos vamos a ver que si le ponemos un 39 por ciento
+
+11
+00:01:04,290 --> 00:01:05,220
+se queda bien.
+
+12
+00:01:05,400 --> 00:01:15,690
+Vamos a cambiar eso le vamos a poner al vuelo un 39 por ciento y además le vamos a poner un lineage
+
+13
+00:01:15,840 --> 00:01:20,130
+de 88 para ver qué pasa.
+
+14
+00:01:22,080 --> 00:01:28,040
+Entonces como vemos se coloca bien ya pero aparece un poco se ha ido por abajo valen todo.
+
+15
+00:01:28,060 --> 00:01:31,270
+Yo le voy a poner a lo que se le huele un marino
+
+16
+00:01:34,170 --> 00:01:39,510
+negativo de tres PX aproximadamente para que se quede ajustado.
+
+17
+00:01:39,630 --> 00:01:41,320
+Vale ahora se queda perfecto.
+
+18
+00:01:41,650 --> 00:01:46,800
+Bien pues ya tenemos el menú tenemos nuestro menú montado.
+
+19
+00:01:46,800 --> 00:01:51,300
+También podríamos hacer una transición en el logo que cuando pasemos por encima como que se haga más
+
+20
+00:01:51,300 --> 00:01:52,820
+grande.
+
+21
+00:01:53,310 --> 00:01:58,200
+Vale para eso lo podríamos hacer con CSS con las animaciones.
+
+22
+00:02:00,000 --> 00:02:06,150
+Vamos a poner al logo y a su enlace.
+
+23
+00:02:06,210 --> 00:02:07,560
+Vamos a poner una Transition
+
+24
+00:02:11,100 --> 00:02:23,220
+de del color solamente y de la Transform de la transformación que los dos hagamos va a ser una transición
+
+25
+00:02:23,220 --> 00:02:31,980
+de 400 milisegundos o de 500 milisegundos de medio de medio segundo cada una vale solamente la transición
+
+26
+00:02:31,980 --> 00:02:36,670
+solamente va a afectar a esas dos propiedades CSS vale.
+
+27
+00:02:36,720 --> 00:02:49,650
+Entonces cuando yo haga over aquí en el Hover el back era más transparente el color va a ser Black y
+
+28
+00:02:49,650 --> 00:02:59,550
+la transformación Transform lo voy a escalar voy a escalar el tamaño de el logo voy a hacer una escalera
+
+29
+00:03:00,480 --> 00:03:12,990
+y le voy a pasar unos 50 1.50 mejor dicho coma 1.50 para que veas lo que va a pasar vale Fíjate que
+
+30
+00:03:12,990 --> 00:03:19,540
+cuando paso por encima Mezcala el tamaño no me lo modificó como tal sino que me hace un Scale y le aumenta
+
+31
+00:03:19,540 --> 00:03:24,610
+el tamaño el logotipo y cambia de color también vale con una transición muy agradable.
+
+32
+00:03:24,780 --> 00:03:25,280
+Perfecto.
+
+33
+00:03:25,320 --> 00:03:29,550
+Ya tenemos nuestra barra de navegación nuestro Jaider y nuestro logotipo hechos.

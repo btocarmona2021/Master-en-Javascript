@@ -1,0 +1,107 @@
+1
+00:00:01,110 --> 00:00:03,150
+Una función no tiene por qué ser enorme.
+
+2
+00:00:03,150 --> 00:00:08,580
+Es decir que yo puedo tener muchas funciones y esas funciones que se estén llamando dentro de otras
+
+3
+00:00:08,580 --> 00:00:09,390
+funciones.
+
+4
+00:00:09,390 --> 00:00:14,700
+Por ejemplo yo voy a quitar los comentarios esto porque ya no hace falta
+
+5
+00:00:17,810 --> 00:00:19,050
+quitar comentarios.
+
+6
+00:00:19,850 --> 00:00:24,870
+Entonces yo tengo aquí un trozo de código que nos muestra las cosas en un consulado y otro que nos muestra
+
+7
+00:00:24,870 --> 00:00:27,360
+las cosas en un documento.
+
+8
+00:00:27,810 --> 00:00:32,700
+Esto es mucho código para tenerlo en una sola función entonces por ejemplo puedo tener una función que
+
+9
+00:00:32,700 --> 00:00:40,510
+sea por consola que reciba un parámetro número 1 y número 2.
+
+10
+00:00:40,530 --> 00:00:54,120
+De igual forma vale y luego tiene otra función que se llame por pantalla que sea número 1 y número 2
+
+11
+00:00:54,120 --> 00:00:56,020
+también como parámetro pasamos.
+
+12
+00:00:56,040 --> 00:01:05,880
+De igual forma vale entonces yo aquí en consola puedo coger este trozo de código y cortarlo y pegarlo
+
+13
+00:01:05,880 --> 00:01:13,170
+aquí y que esto escupa esto vale que escupa esta operación y de mí y de la misma forma por pantalla
+
+14
+00:01:13,450 --> 00:01:20,040
+pues también Puedo cortar esto y que esta función escupa esto de forma que la función principal que
+
+15
+00:01:20,040 --> 00:01:26,850
+es la que hace la lógica más gorda o que tiene esta condición yo pueda invocar al método por consola
+
+16
+00:01:27,690 --> 00:01:33,150
+y pasarle los parámetros número uno y número dos que son los números realmente con los que tienen que
+
+17
+00:01:33,150 --> 00:01:34,370
+hacer las operaciones.
+
+18
+00:01:34,990 --> 00:01:44,460
+Vale y de igual forma en la otra parte en el s también coger invocar al método por pantalla y pasarle
+
+19
+00:01:44,460 --> 00:01:46,110
+también el número 1 y número 2.
+
+20
+00:01:46,230 --> 00:01:51,440
+Vale de aquí hacer un return true y ya vale.
+
+21
+00:01:51,510 --> 00:01:56,610
+Entonces simplemente con esto yo puedo actualizar la pantalla y el resultado sigue siendo exactamente
+
+22
+00:01:56,610 --> 00:02:01,590
+el mismo estoy llamando a la función principal que a cierta lógica que Finnish por aquí y que comprueba
+
+23
+00:02:01,590 --> 00:02:03,980
+ciertas cosas y que invoca a otras funciones.
+
+24
+00:02:04,080 --> 00:02:09,060
+Vale no tenemos por qué tenerlo todo dentro de la misma función y de igual forma pues yo puedo seguir
+
+25
+00:02:09,060 --> 00:02:09,660
+llamando
+
+26
+00:02:13,170 --> 00:02:20,430
+a mi función perfectamente y esto no es copiar el resultado por donde escupirlo así que ya hemos visto
+
+27
+00:02:20,550 --> 00:02:23,130
+otra cosita interesante acerca de las funciones.

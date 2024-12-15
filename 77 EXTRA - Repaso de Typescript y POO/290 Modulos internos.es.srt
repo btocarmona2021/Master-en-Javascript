@@ -1,0 +1,207 @@
+1
+00:00:00,420 --> 00:00:06,810
+Otra cosa interesante que tienen de scrip y los nuevos estándares de JavaScript como lema 6 y además
+
+2
+00:00:06,810 --> 00:00:14,520
+se hace un uso bastante intensivo dentro de angular 2 y dentro de otro tanto Frings es el tema de los
+
+3
+00:00:14,520 --> 00:00:19,020
+módulos no los módulos Esport y el import.
+
+4
+00:00:19,050 --> 00:00:25,380
+Todo esto se utiliza mucho dentro de angular 2 y esto es porque nos permite modular izar la aplicación
+
+5
+00:00:25,380 --> 00:00:32,040
+de tal forma que organizamos muchísimo mejor el código y todo tuvo un funcionamiento de un Fring como
+
+6
+00:00:32,040 --> 00:00:35,140
+en el caso de angular 2 pues se basa en eso.
+
+7
+00:00:35,490 --> 00:00:42,330
+Entonces vamos a aprender qué es un módulo que básicamente sirve para organizar la funcionalidad de
+
+8
+00:00:42,330 --> 00:00:47,220
+nuestro programa y organizar el código en diferentes ficheros en diferentes funcionalidades y en diferentes
+
+9
+00:00:47,220 --> 00:00:48,880
+clases.
+
+10
+00:00:49,410 --> 00:00:56,430
+Sirve para eso luego para optimizar mucho el código para organizar tener mayor abstracción mayor modularidad
+
+11
+00:00:57,360 --> 00:01:03,690
+y luego vamos a ver también cómo utilizar el Esport para exportar las clases de ese módulo de impor
+
+12
+00:01:03,720 --> 00:01:08,010
+para importarla dentro de otro fichero y poder utilizar esas clases y funciones.
+
+13
+00:01:08,850 --> 00:01:09,510
+Y ya está.
+
+14
+00:01:09,510 --> 00:01:18,690
+Simplemente vamos a ver eso cómo utilizar esa forma de trabajar para utilizar los módulos y para poder
+
+15
+00:01:18,690 --> 00:01:24,660
+trabajar de una forma más interesante en el caso de que quisiera Müntzer de script independientemente
+
+16
+00:01:24,660 --> 00:01:33,030
+o para cuando lo veamos dentro de angulado puede tener más o menos un conocimiento básico de lo que
+
+17
+00:01:33,030 --> 00:01:33,500
+es.
+
+18
+00:01:33,960 --> 00:01:40,860
+Entonces vamos a ver cómo hacer un módulo interno para hacer un módulo simplemente tenemos que utilizar
+
+19
+00:01:40,860 --> 00:01:45,450
+la palabra Module y entonces yo le pongo un nombre ese módulo vale por ejemplo
+
+20
+00:01:48,270 --> 00:01:56,280
+tienda del módulo malentienda y entonces yo lo que quiero hacer con este módulo es dentro de File clases.
+
+21
+00:01:56,280 --> 00:02:06,450
+No voy a definir una clase de ropa define mi clase de ropa que dentro tiene un constructor por ejemplo
+
+22
+00:02:06,750 --> 00:02:11,000
+o tiene mil millones de funciones lo que yo quiera constructor
+
+23
+00:02:13,680 --> 00:02:23,430
+tengo un constructor al cual le puedo pasar un nombre o lo que sea el título de la tienda título que
+
+24
+00:02:23,430 --> 00:02:31,270
+fue trim y puedo hacer un alerta con el nombre de la tienda
+
+25
+00:02:33,920 --> 00:02:35,840
+título.
+
+26
+00:02:36,660 --> 00:02:41,380
+Luego a tener otra clase para otro tipo de tienda que sea
+
+27
+00:02:44,230 --> 00:02:54,720
+informática que también le pasa un título y también me lo escupe o me pone otra cosa para que lo diferenciemos.
+
+28
+00:03:00,240 --> 00:03:06,300
+Vale entonces tengo un módulo con dos clases qué tengo que hacer para poder utilizar estas clases fuera
+
+29
+00:03:06,300 --> 00:03:10,620
+del módulo pues se la palabra reservada export.
+
+30
+00:03:10,620 --> 00:03:16,180
+De acuerdo le pongo Esport a las clases que yo quiera que se puedan utilizar dentro o fuera del módulo.
+
+31
+00:03:16,860 --> 00:03:23,880
+Entonces para yo poder utilizar esta este módulo o estas clases del módulo fuera del módulo lo que tengo
+
+32
+00:03:23,880 --> 00:03:28,290
+que hacer es utilizar la palabra import.
+
+33
+00:03:28,440 --> 00:03:36,480
+Utilizar la palabra Import y importo con un nombre concreto lo que yo quiero.
+
+34
+00:03:36,480 --> 00:03:45,550
+Vale por ejemplo yo quiero importar informática e importar la clase informática.
+
+35
+00:03:45,660 --> 00:03:52,970
+Entonces lo que tengo que hacer es llamar al módulo tienda Punto informática.
+
+36
+00:03:53,040 --> 00:03:58,940
+De esta forma lo que hago es poder usar esa clase que está organizada dentro de un módulo.
+
+37
+00:03:59,310 --> 00:04:06,120
+Entonces para yo poder lanzar la clase o instancia de la clase lo que tengo que hacer es meterla en
+
+38
+00:04:06,120 --> 00:04:07,500
+una variable por ejemplo
+
+39
+00:04:15,940 --> 00:04:26,260
+voy a poner cargar informática por ejemplo y entonces lo que hay que hacer es un New y le pongo el nombre
+
+40
+00:04:26,260 --> 00:04:34,060
+que yo haya puesto aquí vale siguió puesto informática pues informática verdad ni informática y de paso
+
+41
+00:04:34,150 --> 00:04:39,220
+como estamos diciendo un constructor le va a pasar el título de la tienda que en este caso sería subvirtiendo
+
+42
+00:04:41,470 --> 00:04:42,230
+por ejemplo.
+
+43
+00:04:42,560 --> 00:04:49,870
+Entonces guardo actualizo la página y ahora me saca este Aulet del decorador que hemos hecho antes y
+
+44
+00:04:50,050 --> 00:04:55,950
+me dice hola ta ta ta tal pero no me muestro el Aulet o sea lo que estamos haciendo es que me devuelva
+
+45
+00:04:55,950 --> 00:04:57,350
+una alerta.
+
+46
+00:04:57,550 --> 00:05:03,460
+Aquí tenemos un error y es que nos hemos puesto bien constructor hemos puesto constructor y constructor
+
+47
+00:05:04,240 --> 00:05:08,440
+constructor guardamos ahora actualizamos la página y me tienen que sacar un Alier.
+
+48
+00:05:08,440 --> 00:05:14,560
+Efectivamente tiendas de tecnología vertiendo aceptar y aceptar vaudeville tengo un módulo Bareyo puedo
+
+49
+00:05:14,800 --> 00:05:20,530
+definirme tantas clases como quiera tanto método dentro de cada una de esas clases como yo quiera y
+
+50
+00:05:20,530 --> 00:05:26,830
+luego puedo utilizar cada uno de ellos de esas clases objetos fuera del módulo y de esa forma poder
+
+51
+00:05:26,830 --> 00:05:32,680
+organizar la aplicación y modular izarla y abstraer un poco la lógica que tenga.
+
+52
+00:05:33,250 --> 00:05:39,510
+Pero yo también puedo crear módulos externos y eso es lo que vamos a ver ahora en la siguiente clase.

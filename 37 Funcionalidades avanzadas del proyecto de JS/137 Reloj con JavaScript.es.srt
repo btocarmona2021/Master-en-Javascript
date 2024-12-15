@@ -1,0 +1,263 @@
+1
+00:00:01,230 --> 00:00:07,590
+Ahora vamos a hacer el punto ocho que es hacer un reloj dinámico que esté cambiando la hora en cada
+
+2
+00:00:07,590 --> 00:00:08,850
+segundo que va pasando.
+
+3
+00:00:08,890 --> 00:00:16,050
+Vale esto lo podríamos hacer con el objeto de JavaScript pero ahí tendríamos que hacer bastante lógica
+
+4
+00:00:16,310 --> 00:00:24,210
+y realmente estaría bien pero no merecería la pena existiendo librerías y plugins como Momsen J.S de
+
+5
+00:00:24,210 --> 00:00:25,980
+acuerdo así que vamos a utilizarlo.
+
+6
+00:00:25,980 --> 00:00:34,110
+Si buscamos en Google moment J.S vamos a ver que la librería nos permite mostrar
+
+7
+00:00:38,190 --> 00:00:46,650
+mostrarlo todo mostrar el día todo o sea las horas los segundos todo absolutamente todo y nosotros lo
+
+8
+00:00:46,650 --> 00:00:51,590
+que vamos a tener que hacer es un reloj como lo que está sucediendo aquí.
+
+9
+00:00:51,600 --> 00:00:55,920
+Me acuerdo que va actualizando lo segundo cada vez que van pasando.
+
+10
+00:00:56,010 --> 00:01:03,640
+Para eso tendremos que utilizar el set Interval para cada segundo que vaya actualizando la hora.
+
+11
+00:01:04,020 --> 00:01:10,890
+Así que vamos a crear una sección nueva que va a ser igual que la de Abat prácticamente vamos a hacer
+
+12
+00:01:10,920 --> 00:01:17,100
+Nightfall controles se se va a llamar reloj junto a HTML
+
+13
+00:01:20,190 --> 00:01:22,140
+y vamos a copiar lo que tenemos en Abat
+
+14
+00:01:27,430 --> 00:01:35,710
+lo copio y pego por aquí y aquí en esta página vamos a quitar algunas de las cosas que tenemos que tenemos
+
+15
+00:01:35,710 --> 00:01:36,730
+ahora.
+
+16
+00:01:36,730 --> 00:01:44,500
+En este caso la sección Box vamos a quitar esto vale y lo que vamos a hacer aquí va a ser cargar un
+
+17
+00:01:44,620 --> 00:01:45,100
+reloj
+
+18
+00:01:48,740 --> 00:01:55,110
+okey y en la parte de los archivos que estamos importando.
+
+19
+00:01:55,150 --> 00:02:01,390
+Realmente no no haría falta Yoweri Higüey porque no lo vamos a estar usando pero sí que nos va a hacer
+
+20
+00:02:01,390 --> 00:02:11,020
+falta el JBS que lo tenemos en el índex así que lo copiamos de Gelder copiamos la librería Moment y
+
+21
+00:02:11,050 --> 00:02:18,870
+la pegamos por aquí vale genial.
+
+22
+00:02:18,870 --> 00:02:29,160
+Ahora tenemos que hacer aquí un chip para el reloj diff y de reloj y aquí dentro de donde vamos a pintar
+
+23
+00:02:29,580 --> 00:02:35,520
+el reloj bien ahora vamos a abrir nuestro muy unpunto J.V y vamos a utilizar la misma condición que
+
+24
+00:02:35,610 --> 00:02:38,780
+utilizó antes pero esta vez para el reloj
+
+25
+00:02:41,570 --> 00:02:47,010
+vale aquí hemos hecho el acordeón acordeón.
+
+26
+00:02:47,110 --> 00:02:50,720
+Ahora vamos a hacer el reloj.
+
+27
+00:02:52,570 --> 00:03:02,170
+Vale vamos a hacer una condición para comprobar si existe en la ruta o en la web R.L la palabra RELOJ.
+
+28
+00:03:02,410 --> 00:03:08,530
+En el caso de que exista vamos a utilizar moment vamos a crear una variable que se va a llamar reloj
+
+29
+00:03:09,710 --> 00:03:18,130
+y a modelizar Moment y van a utilizar formatos para mostrar la hora y todo eso cómo lo podemos hacer
+
+30
+00:03:18,310 --> 00:03:26,210
+si nos fijamos en la documentación tenemos horas minutos y segundos así que podemos copiar este código.
+
+31
+00:03:26,440 --> 00:03:36,430
+Vale este formato nos metemos entrecomillas hora minuto segundo mayo podemos poner así y si hacemos
+
+32
+00:03:36,430 --> 00:03:37,750
+un Consol log de eso
+
+33
+00:03:41,440 --> 00:03:53,500
+o directamente hacemos un seleccionamos lo que es el DIV con idea reloj y hacemos un HTML de reloj.
+
+34
+00:03:53,500 --> 00:04:03,490
+Vamos a directamente imprimir eso dentro okey y ahora pues también vamos a enlazar en el menú la página
+
+35
+00:04:03,490 --> 00:04:13,770
+de reloj el punto HTML y también contacto contacto punto HTML.
+
+36
+00:04:13,770 --> 00:04:16,930
+Vamos a copiar el menú en todas las páginas
+
+37
+00:04:27,630 --> 00:04:30,440
+vale generar.
+
+38
+00:04:30,520 --> 00:04:36,930
+Pues sí ahora yo me voy a reloj aquí tengo la hora la está mostrando perfectamente se actualizo la pantalla
+
+39
+00:04:37,050 --> 00:04:41,440
+me saca lo segundo actualizado y la hora actualizada.
+
+40
+00:04:41,550 --> 00:04:47,640
+Ahora vamos a cambiarle el estilo a esto para que tenga un tamaño mayor y tenga un estilo mejor vale
+
+41
+00:04:47,690 --> 00:05:03,360
+al reloj le vamos a dar uno estilo un iPhone 6 de 30 píxeles un fondo Boll un Font Family
+
+42
+00:05:05,700 --> 00:05:14,260
+Helvética Arial y de momento ya está vamos a actualizar la pantalla.
+
+43
+00:05:14,380 --> 00:05:18,200
+Lo tenemos vamos a darle incluso más tamaño.
+
+44
+00:05:18,210 --> 00:05:23,100
+Le vamos a poner un color tres tres tres
+
+45
+00:05:26,530 --> 00:05:26,990
+vale.
+
+46
+00:05:27,350 --> 00:05:28,840
+Y lo vamos a centrar.
+
+47
+00:05:28,970 --> 00:05:37,150
+Vamos a ponerle también un borde Border un p 5p X Sol
+
+48
+00:05:41,270 --> 00:05:42,320
+R3 tamen
+
+49
+00:05:45,510 --> 00:05:52,980
+solo y no le vamos a poner un ballet y le vamos a poner un Wiz Delfín cuenta.
+
+50
+00:05:53,500 --> 00:05:57,120
+O el 30 por ciento el 30 por ciento.
+
+51
+00:05:57,120 --> 00:05:59,380
+Actualizamos la pantalla.
+
+52
+00:05:59,490 --> 00:06:05,550
+Así queda bien le vamos a poner Padín de 30 píxeles
+
+53
+00:06:08,550 --> 00:06:12,310
+y lo vamos a poner en el centro Manicero cero auto
+
+54
+00:06:15,340 --> 00:06:23,980
+actualizo la pantalla me aparece y ahora simplemente tengo que utilizar el sistema Oud para este valor
+
+55
+00:06:24,040 --> 00:06:27,340
+actualizarlo continuamente cómo puedo hacerlo
+
+56
+00:06:30,740 --> 00:06:32,440
+pues voy a meter todo esto.
+
+57
+00:06:32,440 --> 00:06:33,460
+Todo este contenido
+
+58
+00:06:37,280 --> 00:06:44,720
+dentro del Calvar del séptimo set Interval set Interval set Interval.
+
+59
+00:06:45,310 --> 00:06:53,170
+Esta función no permite ejecutar en bucle cada segundo o cada cierto tiempo que lo indique un trozo
+
+60
+00:06:53,170 --> 00:06:54,670
+de instrucciones.
+
+61
+00:06:55,020 --> 00:07:02,500
+Función y como segundo parámetro de paso que cada segundo cada 1000 milisegundos que eso es un segundo
+
+62
+00:07:03,060 --> 00:07:04,610
+a ejecutar.
+
+63
+00:07:05,290 --> 00:07:16,070
+Todo esto corto pego lo tábula o bien guardo aturdido la pantalla y vuela.
+
+64
+00:07:16,090 --> 00:07:25,600
+Ya tenemos nuestro reloj completamente dinámico así que ya tenemos nuestro ejercicio 8 hecho o nuestra
+
+65
+00:07:25,600 --> 00:07:31,600
+parte 8 de este proyecto echã lo último que nos queda ya sería hacer una sección de contacto con un
+
+66
+00:07:31,600 --> 00:07:38,680
+formulario y con una validación de ese formulario para que para que se metan datos correctos.

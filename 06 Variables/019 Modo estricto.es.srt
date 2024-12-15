@@ -1,0 +1,119 @@
+1
+00:00:00,930 --> 00:00:05,460
+Dentro de JavaScript hay un modo que se llama modo estricto.
+
+2
+00:00:05,460 --> 00:00:11,430
+Me acuerdo que ese módulo que nos permite es que nuestra programación de JavaScript programados con
+
+3
+00:00:11,430 --> 00:00:17,070
+mejores práctica y digamos que la programación que nosotros hagamos sea mucho más estricta sea mucho
+
+4
+00:00:17,070 --> 00:00:22,270
+más restrictiva con respecto a ciertas cosas que se pueden o no se pueden hacer.
+
+5
+00:00:22,410 --> 00:00:27,930
+Y aparte lo que haces en modo estricto es activarnos funcionalidades nuevas de JavaScript que nos van
+
+6
+00:00:27,930 --> 00:00:29,350
+a servir mucho.
+
+7
+00:00:29,540 --> 00:00:33,840
+Entonces por ejemplo si yo activo el modo estricto para esto simplemente lo que tengo que hacer es un
+
+8
+00:00:34,140 --> 00:00:40,970
+user Street user Street en todos los ficheros de JavaScript que yo quiero utilizar.
+
+9
+00:00:41,070 --> 00:00:46,980
+El modo estricto o activar esta nueva funcionalidad de JavaScript y estas funcionalidades que nos hacen
+
+10
+00:00:46,980 --> 00:00:49,750
+que nuestra programación deba ser más correcta.
+
+11
+00:00:49,800 --> 00:00:52,620
+Lo que tengo que hacer es simplemente poner el Streeck.
+
+12
+00:00:52,680 --> 00:00:56,700
+Si yo guardo y ahora mismo estoy solo a pantalla no voy a tener ningún tipo de fallo.
+
+13
+00:00:56,700 --> 00:00:57,860
+Todo sigue correcto.
+
+14
+00:00:57,870 --> 00:00:59,650
+Todo está bien.
+
+15
+00:00:59,670 --> 00:01:02,660
+Una cosa que vamos a ver para ver qué sentido tiene esto.
+
+16
+00:01:02,730 --> 00:01:09,900
+Si yo comento el uso de Street yo podría definirme una variable así país sin ponerle la palabra bar.
+
+17
+00:01:10,140 --> 00:01:19,860
+Automáticamente el código interpreta que esto es una variable y ya la he definido e inicié de una forma
+
+18
+00:01:19,860 --> 00:01:25,110
+que si yo utilizo la pantalla esto funciona y no me escupe ningún error la consola pero si el activo
+
+19
+00:01:25,110 --> 00:01:31,720
+es muy estricto me va a decir oye me debe decir Oye efectivamente país no está definido.
+
+20
+00:01:31,800 --> 00:01:38,760
+Es decir la variable país no está definida de forma que si yo la defino bar país y luego le asigna un
+
+21
+00:01:38,760 --> 00:01:44,490
+valor después esto sí que me va a funcionar porque el modo estricto está funcionando y no me deja crear
+
+22
+00:01:44,490 --> 00:01:51,520
+una variable si no hago una buena práctica y le pongo la palabra bar delante para definirla.
+
+23
+00:01:51,650 --> 00:01:58,390
+De la misma forma iremos viendo cosas más crise que sólo podrán funcionar si yo le pongo el Strait vale
+
+24
+00:01:58,430 --> 00:02:02,080
+y eso lo iremos viendo a lo largo del curso y iremos viendo diferentes cosas.
+
+25
+00:02:02,180 --> 00:02:06,860
+Simplemente lo único que quiero que tenga en cuenta es que si quieres que tu código de JavaScript se
+
+26
+00:02:06,860 --> 00:02:12,740
+adecúe más a los últimos estándares y sea un poquito más estricto con respecto a las cosas que podemos
+
+27
+00:02:12,740 --> 00:02:17,810
+hacer y qué no. Como por ejemplo una mala práctica que sería definir una variable sin ponerle el bar
+
+28
+00:02:17,810 --> 00:02:18,760
+delante.
+
+29
+00:02:18,990 --> 00:02:24,500
+Pues yo recomendaría poner el usa Street en todos los ficheros para eso para activar nuevas funcionalidades
+
+30
+00:02:24,590 --> 00:02:26,860
+y para intentar programar lo mejor posible.

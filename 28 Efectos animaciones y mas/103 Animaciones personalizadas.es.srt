@@ -1,0 +1,287 @@
+1
+00:00:01,050 --> 00:00:05,960
+Otra de las cosas que podemos hacer que esto realmente se pueda hacer con CSS.
+
+2
+00:00:06,030 --> 00:00:08,610
+También el tema de la animación.
+
+3
+00:00:09,870 --> 00:00:17,070
+Otra de las cosas que podemos hacer con Cury es animaciones pero animaciones más customizadas y que
+
+4
+00:00:17,130 --> 00:00:18,990
+sean más complejas que solamente
+
+5
+00:00:24,790 --> 00:00:30,450
+ocultar o mostrar un elemento con un efecto extraño o con un efecto con un efecto llamativo.
+
+6
+00:00:30,460 --> 00:00:33,130
+Podemos hacer una animación mucho más compleja que esa.
+
+7
+00:00:33,160 --> 00:00:47,740
+Por ejemplo si añadimos un botón que se anima me decía me anima me vale yo voy a poder hacer efecto
+
+8
+00:00:47,740 --> 00:00:50,500
+mucho más increíble.
+
+9
+00:00:50,500 --> 00:01:00,940
+Voy a seleccionar ese elemento ese botón animarme a animar y cuando yo le dé clic me llamó a una función
+
+10
+00:01:00,940 --> 00:01:07,270
+de Calvache que voy a definir por aquí y entonces vamos a trabajar sobre la caja
+
+11
+00:01:11,620 --> 00:01:14,380
+caja como la estamos seleccionando millones de veces.
+
+12
+00:01:14,380 --> 00:01:22,300
+Lo más recomendable sería crear una variable por aquí que fuera caja y hacer aquí el dólar caja para
+
+13
+00:01:22,420 --> 00:01:25,180
+no tener que estar buscando en el DOM 100 mil veces.
+
+14
+00:01:25,670 --> 00:01:33,760
+Esto aquí lo vamos sustituyendo por la llamada Aldón que estamos haciendo de esta manera mucho más óptimo
+
+15
+00:01:33,760 --> 00:01:34,280
+el código.
+
+16
+00:01:35,120 --> 00:01:38,390
+Entonces sobre Caja voy a utilizar el método animate.
+
+17
+00:01:38,500 --> 00:01:46,030
+Este método me permite hacer animaciones CSS como me de la real gana de acuerdo por ejemplo puedo indicarle
+
+18
+00:01:47,470 --> 00:01:52,950
+que cuando yo le dé click al botón de animar la caja haga cualquier cosa por ejemplo.
+
+19
+00:01:52,960 --> 00:01:59,380
+Esto se indica dentro de un Jayson vale dentro de un Jayson yo lo voy a indicar que va a tener un margin
+
+20
+00:02:02,050 --> 00:02:10,440
+left de 500 pixeles vale y esta animación va a ser FASTA.
+
+21
+00:02:10,540 --> 00:02:16,560
+Por ejemplo estoy seleccionando mal el elemento fíjate que aquí no le he puesto la almohadilla.
+
+22
+00:02:16,560 --> 00:02:24,080
+Así se seleccionó bien el elemento ahora se autorizó la pantalla puede animar efectivamente la propiedad
+
+23
+00:02:24,090 --> 00:02:29,330
+Alef pero la propiedad sólo funciona para elementos que sean de posición absoluta.
+
+24
+00:02:29,330 --> 00:02:30,760
+Donde tendría que ponerle un margin
+
+25
+00:02:33,560 --> 00:02:34,380
+left.
+
+26
+00:02:34,410 --> 00:02:40,050
+De esta manera si le pongo esto y actualizo la pantalla le doy al botón fíjate lo que me mueve el elemento
+
+27
+00:02:40,050 --> 00:02:47,160
+de una manera flou y me lo mueve de una manera increíble hacia un lado este tipo de animaciones también
+
+28
+00:02:47,160 --> 00:02:53,130
+se pueden hacer en CSS y también se podían disparar desde javascript de alguna manera de acuerdo pero
+
+29
+00:02:53,490 --> 00:03:01,620
+realmente coñi y se hacen de una manera muy muy muy sencilla y increíble en verdad vale pues también
+
+30
+00:03:01,620 --> 00:03:07,890
+podría hacer más más animaciones podría encadenar más animaciones como ésta o incluso meterle a que
+
+31
+00:03:07,890 --> 00:03:17,850
+uno coma y meter más información en el Jayson Vale podría codificar y el Jayson como a mi me diera la
+
+32
+00:03:17,850 --> 00:03:24,420
+gana podría meterle mucha más información podrían meterle
+
+33
+00:03:28,470 --> 00:03:40,580
+que en esta misma animación el iPhone 6 iPhone 6 fuera de 40 píxeles y esto lo va a animar de manera
+
+34
+00:03:41,100 --> 00:03:42,980
+muy muy óptima.
+
+35
+00:03:43,220 --> 00:03:48,590
+Fíjate lo que está pasando le aumenta el tamaño y además le voy a poner un Jaitt
+
+36
+00:03:53,570 --> 00:03:59,010
+auto vale para que se adapte al contenido que hay dentro del chip.
+
+37
+00:03:59,030 --> 00:04:07,100
+Si le doy ahora efectivamente me la baranda le debería poner un Jaitt automático aunque realmente no
+
+38
+00:04:07,100 --> 00:04:08,010
+se lo pone.
+
+39
+00:04:08,090 --> 00:04:11,020
+Parece ser que esa propiedad no la no la elije bien.
+
+40
+00:04:11,630 --> 00:04:16,530
+Entonces le podría poner un Jaitt de 200 pixeles a ver si lo acepta
+
+41
+00:04:19,380 --> 00:04:25,620
+efectivamente si se lo pongo manual si lo acepta o no acepta que le ponga nada automático entonces le
+
+42
+00:04:25,620 --> 00:04:28,350
+voy a poner 60 pixeles a ver si así se adapta bien
+
+43
+00:04:32,180 --> 00:04:38,850
+no vamos a ponerle más a ver cuánto le podríamos poner 70 u 80
+
+44
+00:04:42,700 --> 00:04:52,480
+le vamos a poner 110 de altura 110 vale y esta moneda.
+
+45
+00:04:52,540 --> 00:04:59,660
+Hago esta animación vale pues ya he hecho un paso de la animación si quiero que haga otra cosa vale.
+
+46
+00:04:59,710 --> 00:05:01,480
+Le puedo encadenar más animación.
+
+47
+00:05:01,470 --> 00:05:07,260
+ésta es una animación de golpe uno de los pasos de la animación pero yo puedo encadenar más métodos.
+
+48
+00:05:09,460 --> 00:05:15,310
+Vale yo puedo poner aquí otro método punto anímate y puedo meterle otro montón de instrucciones en el
+
+49
+00:05:15,310 --> 00:05:16,890
+Jayson que yo le paso aquí.
+
+50
+00:05:16,930 --> 00:05:23,500
+El primer parámetro que es un objeto vale y el segundo elemento sería la velocidad fast.
+
+51
+00:05:23,860 --> 00:05:34,150
+Yo le voy a indicar un borde Radius borde Radius de 900 píxeles.
+
+52
+00:05:34,210 --> 00:05:36,670
+A ver si lo acepta.
+
+53
+00:05:37,210 --> 00:05:40,900
+Efectivamente me lo acepta y me lo hace de manera rápida.
+
+54
+00:05:40,960 --> 00:05:50,050
+Quizá lo mejor sería que lo hiciera Slow para que se viera claramente lo hace vale sin ningún tipo de
+
+55
+00:05:50,050 --> 00:05:50,580
+problema.
+
+56
+00:05:52,920 --> 00:06:00,100
+Hoy lo hace y luego también quiero que me mueva otra vez el link hacia abajo que me meta un margen top
+
+57
+00:06:00,620 --> 00:06:04,600
+de 300 px
+
+58
+00:06:09,500 --> 00:06:14,450
+y efectivamente me lo ha bajado hacia abajo o que legalmente al menos 50
+
+59
+00:06:19,420 --> 00:06:20,550
+me lo ha bajado un poco.
+
+60
+00:06:20,590 --> 00:06:28,630
+Lo vamos a poner a 80 y luego le vamos a meter otra animación más otro bloque de instrucciones que me
+
+61
+00:06:28,630 --> 00:06:33,380
+lo lleve que le quite el mal Guinle.
+
+62
+00:06:33,570 --> 00:06:36,100
+Allí Leap se lo vamos a poner a cero px
+
+63
+00:06:38,740 --> 00:06:45,460
+y le vamos a poner un borde Rádio también de cero y luego le vamos a poner un último paso que sea quitarle
+
+64
+00:06:45,650 --> 00:06:49,010
+el el Mario InTouch.
+
+65
+00:06:49,030 --> 00:06:55,560
+De acuerdo al Mario InTouch se lo pondríamos a cero y el borde Radius se lo pondríamos de nuevo a 900
+
+66
+00:06:56,240 --> 00:06:59,200
+o haciendo píxeles.
+
+67
+00:06:59,210 --> 00:07:00,450
+Vale vamos a probar ahora
+
+68
+00:07:02,850 --> 00:07:06,360
+efectivamente funciona perfecto perfecto.
+
+69
+00:07:06,700 --> 00:07:08,190
+Vale y le podríamos poner otro.
+
+70
+00:07:08,190 --> 00:07:09,990
+Siguiente paso que fuera.
+
+71
+00:07:09,990 --> 00:07:15,150
+La primera regla para que volviera y se cerrara el círculo y volviera al principio
+
+72
+00:07:19,510 --> 00:07:24,530
+efectivamente y así funcionan las animaciones personalizada coñi QWERTY.

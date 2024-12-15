@@ -1,0 +1,235 @@
+1
+00:00:00,510 --> 00:00:05,610
+Ahora vamos a hablar sobre los decoradores los decoradores una nueva funcionalidad que podemos utilizar
+
+2
+00:00:05,610 --> 00:00:11,790
+tanto dentro de angular 2 como dentro de Taipe scrip como también en un futuro próximo dentro del nuevo
+
+3
+00:00:11,790 --> 00:00:14,600
+Javascript con lo nuevo están decreten más Creep.
+
+4
+00:00:15,270 --> 00:00:20,980
+Entonces lo que nos permite básicamente un decorador es mediante.
+
+5
+00:00:21,090 --> 00:00:27,570
+Como ya habrán visto a lo mejor en angular 2 puedes definir antes de una clase una instrucción que es
+
+6
+00:00:27,580 --> 00:00:31,060
+arroba lo que sea no utilizamos un decorador en una clase.
+
+7
+00:00:31,080 --> 00:00:37,650
+Lo que hacemos es añadirle unos metadatos a esa clase no hacer una copia de la clase a la que le estamos
+
+8
+00:00:37,650 --> 00:00:43,170
+aplicando el decorador y mediante unos metadatos que son unos argumentos que le pasamos no son unos
+
+9
+00:00:43,170 --> 00:00:45,360
+parámetros que le pasamos al decorador.
+
+10
+00:00:45,360 --> 00:00:51,570
+Lo que hacemos es modificar la clase que tenemos nosotros originalmente añadirle más información o al
+
+11
+00:00:51,570 --> 00:00:57,410
+menos meterle cosas quitarle lo que sea añadirle una funcionalidad y que luego ese decorador nos devuelva
+
+12
+00:00:57,420 --> 00:01:04,050
+la clase que nosotros le estamos decorando o no nos la devuelva con la nueva información que añadido
+
+13
+00:01:04,080 --> 00:01:10,140
+ese decorador o con la nueva funcionalidad que ha tenido ese decorador básicamente es eso implementar
+
+14
+00:01:10,140 --> 00:01:16,320
+este patrón de diseño y entonces nos podemos extender una función o una clase mediante otra función
+
+15
+00:01:16,320 --> 00:01:20,210
+u otra clase pero sin tocar la original que se está extendiendo.
+
+16
+00:01:20,730 --> 00:01:27,330
+Entonces vamos a ver un pequeño ejemplo de un decorador básico dentro de por ejemplo la clase programa
+
+17
+00:01:27,330 --> 00:01:38,900
+no vamos a crear una función por aquí arriba que se va a llamar vostra por ejemplo o arranque arranque
+
+18
+00:01:38,990 --> 00:01:45,750
+se va a llamar arranca la función y va a recibir un parámetro que a ser que se va a llamar por ejemplo
+
+19
+00:01:46,110 --> 00:01:56,130
+lanzar de acuerdo y base una string y entonces nosotros lo que podemos hacer es devolver una función
+
+20
+00:01:58,260 --> 00:02:03,260
+de acuerdo una función que aquí perfectamente podríamos utilizar una función de flecha.
+
+21
+00:02:03,270 --> 00:02:08,910
+Pero bueno vamos a devolver una función indicándole el target
+
+22
+00:02:13,950 --> 00:02:16,200
+que en este caso va a ser función
+
+23
+00:02:19,650 --> 00:02:25,040
+y entonces lo que tenemos que hacer ahora es ejecutar lo que nosotros queramos.
+
+24
+00:02:25,070 --> 00:02:28,460
+Por ejemplo Tarque punto Prototype
+
+25
+00:02:30,800 --> 00:02:42,640
+punto saludo y sigo a la función bait porque no va a devolver nada.
+
+26
+00:02:43,100 --> 00:02:45,230
+He aquí un consolé ojo por ejemplo
+
+27
+00:02:48,780 --> 00:02:50,210
+consuelo de lanzar
+
+28
+00:02:53,170 --> 00:02:55,130
+qué estamos haciendo aquí.
+
+29
+00:02:55,730 --> 00:03:00,510
+Pues le estamos añadiendo a la clase.
+
+30
+00:03:00,560 --> 00:03:07,530
+Nosotros utilicemos este decorador le estamos añadiendo un nuevo método que se va a llamar saludo un
+
+31
+00:03:07,570 --> 00:03:19,490
+nuevo método que se va a llamar lanzamiento en lugar de saludo porque es mejor vale quedamos claro.
+
+32
+00:03:19,810 --> 00:03:24,590
+Qué estamos haciendo aquí pues donde nosotros utilicemos el decorador arranque que es una función normal
+
+33
+00:03:25,550 --> 00:03:32,660
+le vamos a añadir a esa clase o a esa función o lo que sea le vamos a añadir a la clase donde utilizamos
+
+34
+00:03:32,750 --> 00:03:38,540
+este decorador arranque le vamos a añadir un nuevo método vale un nuevo método una nueva función que
+
+35
+00:03:38,630 --> 00:03:44,660
+se va a llamar lanzamiento y esa función lo que va a hacer pues simplemente va a ser una función normal
+
+36
+00:03:44,990 --> 00:03:45,890
+que va a devolver
+
+37
+00:03:48,740 --> 00:03:53,800
+un consuelo bueno va a devolver nada simplemente un consuelo lo va a ejecutar y punto.
+
+38
+00:03:53,960 --> 00:03:59,700
+Vale entonces vamos a aplicarle el decorador a una clase a la que ese programa.
+
+39
+00:03:59,840 --> 00:04:09,830
+Entonces si yo hago arroba arranque arroba Ranke y le paso como parámetro lo que está pidiendo que lanzar
+
+40
+00:04:12,560 --> 00:04:13,730
+lanzamiento
+
+41
+00:04:15,830 --> 00:04:23,170
+del curso de DJs y acumular dos vale por ejemplo.
+
+42
+00:04:23,170 --> 00:04:31,610
+De paso este texto como parámetro de la función vale ahora mismo yo ya tengo dentro del programa dentro
+
+43
+00:04:31,610 --> 00:04:37,420
+de el objeto y el programa dentro de ese programa Tengo una nueva función que se llama lanzamiento.
+
+44
+00:04:37,420 --> 00:04:43,260
+Entonces cuando yo distancié programa vaya a ver si tengo una estancia por aquí.
+
+45
+00:04:46,490 --> 00:04:49,730
+Si aquí tengo una pero bueno esta no la quiero usar.
+
+46
+00:04:49,760 --> 00:04:58,190
+Mira vamos a hacer una nueva copio y por aquí lo usamos cuando he visto el programa Yo tengo disponible
+
+47
+00:04:58,190 --> 00:05:08,180
+un método que se llama que se llama lanzamiento que es el que tenemos aquí definido vale y entonces
+
+48
+00:05:08,180 --> 00:05:17,150
+yo ahora mismo puedo coger y decirle Mira ejecuta esta función y lo que va a hacer va a ser hacerme
+
+49
+00:05:17,150 --> 00:05:17,900
+un consuelo.
+
+50
+00:05:17,900 --> 00:05:25,550
+O antes que un consuelo me va a hacer una alerta para que nos enteremos bien vale entonces yo cuando
+
+51
+00:05:25,820 --> 00:05:33,900
+lance este método que como os podemos estar comprobando es un método que está dentro del programa.
+
+52
+00:05:33,940 --> 00:05:34,300
+Por qué.
+
+53
+00:05:34,310 --> 00:05:40,080
+Porque lo hemos decorado con arranque y eso es lo que ha hecho ha sido añadirle una nueva función.
+
+54
+00:05:40,220 --> 00:05:46,940
+Vamos a comprobarlo actualizó la página me hice el lanzamiento del curso de DJs y angular 2 Aceptar
+
+55
+00:05:47,450 --> 00:05:52,340
+con lo cual ya he decorado correctamente.
+
+56
+00:05:52,340 --> 00:05:56,340
+Para ello he colado correctamente mi clase de programa.
+
+57
+00:05:56,390 --> 00:06:02,510
+Esto lo vamos a utilizar infinidad de veces dentro del angulado no y dentro en el futuro dentro de JavaScript
+
+58
+00:06:02,510 --> 00:06:03,370
+pues también.
+
+59
+00:06:03,620 --> 00:06:08,700
+Así que esta será la forma básica de utilizar un decorador y ya sabemos para lo que sirve.

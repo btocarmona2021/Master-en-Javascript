@@ -1,0 +1,399 @@
+1
+00:00:00,600 --> 00:00:03,260
+Ahora vamos a maquetar la parte de los artículos.
+
+2
+00:00:03,290 --> 00:00:04,430
+Vale.
+
+3
+00:00:04,440 --> 00:00:09,300
+Así que vamos a ver cómo tenemos el código en este caso tenemos una sección con un IDE que se llama
+
+4
+00:00:09,300 --> 00:00:13,010
+Content y luego tenemos la parte de los post.
+
+5
+00:00:13,230 --> 00:00:17,000
+Vale hasta aquí todo correcto.
+
+6
+00:00:17,580 --> 00:00:20,730
+Así que vamos a maquetar esos post.
+
+7
+00:00:21,610 --> 00:00:28,650
+Ok fíjate que tenemos este Dib y este le tenemos que dar un tamaño concreto para que no ocupe el 100
+
+8
+00:00:28,650 --> 00:00:35,160
+por ciento de la columna porque aquí vamos a tener una columna que va a ser el listado de post y otra
+
+9
+00:00:35,160 --> 00:00:36,650
+columna que va a ser el Seidman.
+
+10
+00:00:36,810 --> 00:00:38,820
+Así que a lo que viene siendo
+
+11
+00:00:41,700 --> 00:00:53,060
+post me acuerdo al IPC con ese IDE le vamos a poner un tamaño del 60 por ciento de la columna Widder
+
+12
+00:00:53,070 --> 00:00:54,330
+60 por ciento.
+
+13
+00:00:54,480 --> 00:01:06,240
+Vamos a poner un flash LED le vamos a poner un font family también helvética Family helvética y si no
+
+14
+00:01:06,660 --> 00:01:18,000
+Arial y le vamos a poner un CLEAR voz pero eso es mejor ponerle un Dib justo debajo del Sidebar aquí
+
+15
+00:01:18,060 --> 00:01:26,770
+yo pondría un DIV con una clase Clear fix para que limpie esos flotadores.
+
+16
+00:01:27,270 --> 00:01:33,160
+Lo hacemos así actualizamos la pantalla y aquí no aparece correctamente nuestro artículo y aquí era
+
+17
+00:01:33,360 --> 00:01:35,620
+donde irá el Zoidberg vale.
+
+18
+00:01:35,760 --> 00:01:42,030
+Bien pues continuando el artículo le han metido dentro una etiqueta llamada Artica el Artic y le hemos
+
+19
+00:01:42,030 --> 00:01:46,180
+puesto en una clase post así que vamos a trabajar sobre los post.
+
+20
+00:01:46,230 --> 00:01:46,590
+Vale
+
+21
+00:01:49,500 --> 00:02:01,830
+vale sobre esa clase le vamos a poner que al post H2 le vamos a poner un fondo de 40 píxeles por ejemplo.
+
+22
+00:02:02,190 --> 00:02:03,890
+A ver qué pasa.
+
+23
+00:02:04,710 --> 00:02:06,650
+No aparece así bastante bastante grande.
+
+24
+00:02:06,660 --> 00:02:09,270
+Yo le pondría menos le pondría 20.
+
+25
+00:02:09,360 --> 00:02:11,960
+A ver qué tal.
+
+26
+00:02:12,090 --> 00:02:14,030
+30.
+
+27
+00:02:15,390 --> 00:02:24,540
+Vale con 30 queda bastante bien y le vamos a poner un color almohadilla 3 3 3 para que sea el mismo
+
+28
+00:02:24,540 --> 00:02:28,220
+gris que tenemos en la barra del menú.
+
+29
+00:02:28,530 --> 00:02:29,220
+Así queda bien
+
+30
+00:02:32,730 --> 00:02:39,190
+bien ahora al panel que le hemos puesto aquí le vamos a poner una clase que va a ser fecha o en este
+
+31
+00:02:39,190 --> 00:02:39,980
+caso.
+
+32
+00:02:40,490 --> 00:02:47,890
+Vale entonces le vamos a poner uno de estilo a lo elemento cuya clase se adapte dentro del post
+
+33
+00:02:53,040 --> 00:03:05,190
+le vamos a poner un color Gray y le vamos a poner un float left aunque realmente al ser una expand pues
+
+34
+00:03:05,190 --> 00:03:11,450
+tampoco no va a actuar mucho así que realmente el flash LEPP se lo vamos a quitar.
+
+35
+00:03:11,520 --> 00:03:18,510
+Quizá le pondré un margen superior margin top de 10 píxeles
+
+36
+00:03:21,930 --> 00:03:25,800
+pero no va a funcionar porque tendría que ponerle un display vlog al elemento de
+
+37
+00:03:32,010 --> 00:03:35,680
+Y ahora sí quizá le pondría cinco pisaré nada más.
+
+38
+00:03:36,560 --> 00:03:45,470
+Y ahora lo que es el artículo al párrafo del artículo post P Le vamos a poner uno destiló vamos a poner
+
+39
+00:03:45,470 --> 00:03:52,480
+un marinero de diez píxeles o 30 para que se separe un poco más.
+
+40
+00:03:52,700 --> 00:04:05,760
+Le vamos a poner un margen un botón de 20 le vamos a poner un Jaitt de 25 píxeles y nada más.
+
+41
+00:04:05,760 --> 00:04:06,610
+Vale.
+
+42
+00:04:06,990 --> 00:04:09,580
+Actualizamos la pantalla y aquí se ve.
+
+43
+00:04:09,610 --> 00:04:16,240
+Vale fíjate que realmente la separación es demasiada la que hay aquí y la separación entre líneas.
+
+44
+00:04:16,250 --> 00:04:19,680
+Pues a mí me chirría un poco que sea tanta.
+
+45
+00:04:19,720 --> 00:04:31,580
+Entonces le vamos a poner diez y siete para que no haya tantísima separación quizá con 20 quedaría mejor
+
+46
+00:04:32,890 --> 00:04:41,570
+así como quedaba bien a mi parecer incluso 22 si así queda bien y luego la separación que hay entre
+
+47
+00:04:41,570 --> 00:04:50,660
+lo que es el título del artículo y la fecha que realmente lo veo de desalineado aunque realmente lo
+
+48
+00:04:50,660 --> 00:04:58,970
+está realmente sí que está alineado en que yo la veo demasiada separación así que le voy a poner un
+
+49
+00:04:58,970 --> 00:05:02,180
+margen de 20 también
+
+50
+00:05:05,360 --> 00:05:07,340
+y así es como se ve el artículo.
+
+51
+00:05:07,340 --> 00:05:13,690
+Luego además podemos añadirle un botón Vale aquí en la imagen vemos que tiene aquí un TAC de 90 documentario
+
+52
+00:05:14,220 --> 00:05:18,600
+vale quitarle un poco de Mario top también rebajar en 10.
+
+53
+00:05:19,340 --> 00:05:23,020
+Vale así se queda bien.
+
+54
+00:05:23,540 --> 00:05:28,190
+Vemos que si yo pongo otro título
+
+55
+00:05:34,270 --> 00:05:36,230
+así si que va perfecto.
+
+56
+00:05:36,230 --> 00:05:41,390
+Vemos que está todo bien pero yo añadiría aquí abajo un botón de leer más vale.
+
+57
+00:05:41,450 --> 00:05:48,110
+Incluso le añadiría un Padín a lo que viene siendo la sección para que entre un poco más adentro y se
+
+58
+00:05:48,110 --> 00:05:50,510
+quede más más elegante.
+
+59
+00:05:50,600 --> 00:05:59,030
+Por ejemplo a los párrafos de los post al propio elemento post le pondría un PADI un margen interior
+
+60
+00:05:59,540 --> 00:06:11,560
+Badín de 5 píxeles para que se me da un poco más adentro incluso de 7 píxeles.
+
+61
+00:06:11,600 --> 00:06:17,420
+Efectivamente si yo lo veo bastante mejor que como estaba tan pegado a este lado y ahora yo le añadiría
+
+62
+00:06:17,420 --> 00:06:24,620
+también un botón de leer más vale que va a tener el mismo color principal de la página vale
+
+63
+00:06:28,070 --> 00:06:30,410
+vamos a añadirle un botón que va a ser un link
+
+64
+00:06:34,520 --> 00:06:47,060
+que va a ser un link vacío con la clase botón o botón Button Mort le vamos a poner que va a hacer leer
+
+65
+00:06:47,570 --> 00:06:58,460
+más cierra el link y le vamos a dar uno de estilos simplemente a los elementos cuyo cuya clase sea Bouton
+
+66
+00:06:59,240 --> 00:07:13,640
+Mort le vamos a poner un Padín de 15 píxeles un background como el que hemos dicho por aquí en el logo
+
+67
+00:07:14,990 --> 00:07:15,830
+con este color
+
+68
+00:07:27,200 --> 00:07:36,340
+vale y ahí se va viendo bien y le vamos a poner un text decoracion None y además le vamos a poner un
+
+69
+00:07:36,340 --> 00:07:37,180
+margin top
+
+70
+00:07:39,910 --> 00:07:50,230
+de 10 píxeles ok y así se queda bien e incluso le tendría que poner un display bloc para que actúe como
+
+71
+00:07:50,320 --> 00:07:53,320
+si fuera un bloque ok.
+
+72
+00:07:53,410 --> 00:07:56,380
+Qué pasa que ahora tendré que darle un tamaño relativo
+
+73
+00:07:59,420 --> 00:08:05,530
+al Dib que lo contiene en este caso le he pedido un tamaño fijo de 65 píxeles
+
+74
+00:08:08,880 --> 00:08:10,440
+incluso un poco más 70
+
+75
+00:08:13,930 --> 00:08:16,620
+males y queda bien y lo voy a flotar al otro lado.
+
+76
+00:08:16,630 --> 00:08:17,680
+Le voy a poner un float
+
+77
+00:08:21,240 --> 00:08:21,760
+Right
+
+78
+00:08:25,090 --> 00:08:27,550
+y ahí se queda.
+
+79
+00:08:27,740 --> 00:08:30,590
+O realmente no me gusta no me acaba de gustar que se quede ahí.
+
+80
+00:08:30,610 --> 00:08:33,300
+Le voy a poner un float normal.
+
+81
+00:08:33,340 --> 00:08:43,010
+Voy a dejar en auto y le voy a quitar un poco de tamaño a la letra con 6 14 pixeles
+
+82
+00:08:45,520 --> 00:08:49,290
+vale le voy a poner un texto al encender
+
+83
+00:08:52,170 --> 00:08:56,470
+Okkhoy y así se queda mejor.
+
+84
+00:08:56,470 --> 00:08:59,200
+Perfecto.
+
+85
+00:08:59,200 --> 00:09:03,330
+Otra cosa que podemos hacer sobre el texto que aparece aquí es justificarlo.
+
+86
+00:09:03,330 --> 00:09:03,990
+Vale.
+
+87
+00:09:04,030 --> 00:09:12,540
+Cómo podemos justificarlo pues poniéndole al post un texto Alain Justified.
+
+88
+00:09:12,550 --> 00:09:19,420
+O al párrafo en si se lo pongo poner por aquí Tex Alain Justified.
+
+89
+00:09:19,750 --> 00:09:26,410
+Si guardo y actualizo la pantalla me aparece justificado y la verdad es que se queda bastante mejor
+
+90
+00:09:27,240 --> 00:09:33,130
+porque aparece bien alineado y tal así que ya tenemos nuestro artículo hecho la maquetación de nuestro
+
+91
+00:09:33,130 --> 00:09:39,420
+artículo vale ya simplemente quedaría por crear más artículos y yo quisiera crear más artículo.
+
+92
+00:09:39,730 --> 00:09:43,510
+Simplemente tendría que copiar este trozo de código este artículo
+
+93
+00:09:46,750 --> 00:09:51,070
+y pegar otro por aquí me aparecería más o menos así.
+
+94
+00:09:51,160 --> 00:09:59,680
+Por este motivo yo separaría un poco el título le daría un Padín tal o incluso al botón le daría un
+
+95
+00:09:59,680 --> 00:10:12,550
+margen superior y un margen Bouton más grande margin botón 20x guardo actualizo y así se ve bastante
+
+96
+00:10:12,640 --> 00:10:13,500
+bastante mejor.
+
+97
+00:10:13,500 --> 00:10:13,750
+Vale
+
+98
+00:10:16,750 --> 00:10:25,750
+pues esto sería todo de la maquetación de los artículos o que en la siguiente clase lo que vamos a ver
+
+99
+00:10:25,750 --> 00:10:28,240
+va a ser la maquetación del Zoidberg que va a ir aquí.
+
+100
+00:10:28,750 --> 00:10:32,830
+Y por último veremos la maquetación de el futuro.

@@ -1,0 +1,363 @@
+1
+00:00:00,450 --> 00:00:07,350
+Vale vamos a hacer que el cliente se pueda conectar a nuestro Soke de acuerdo y nos llegue el consuelo
+
+2
+00:00:07,560 --> 00:00:15,400
+a nuestra consola de Node de acuerdo como diciendo que alguien se ha conectado a nuestro servidor y
+
+3
+00:00:15,390 --> 00:00:21,380
+a nuestro chat de acuerdo y por tanto el socket detecte que alguien se ha metido a nuestro nuestra aplicación.
+
+4
+00:00:21,450 --> 00:00:28,830
+Entonces vamos a crear una variable zoques dentro del mismo punto J.S. del cliente socket va a ser igual
+
+5
+00:00:28,830 --> 00:00:38,890
+a I O punto con él de acuerdo y aquí le vamos a decir la UE donde está el shockeada alojado donde está
+
+6
+00:00:38,880 --> 00:00:44,760
+la aplicación y le vamos a indicar también algunos parámetros aquí Porceyo
+
+7
+00:00:51,020 --> 00:00:57,990
+Troop todo lo que hace indicar que la conexión se esfuerce entonces le vamos a decir la web de nuestro
+
+8
+00:00:57,990 --> 00:01:02,940
+socket si queremos que el SO no funcione a nivel de la red local en la que estamos podemos ver nuestra
+
+9
+00:01:02,940 --> 00:01:10,620
+dirección IP usando el CMD por ejemplo hacemos el comando IPEC confit y en mi caso mi dirección IP sería
+
+10
+00:01:10,680 --> 00:01:25,130
+esta aquí vale la 192 1 6 8 1 punto 153 entonces la RL de mi SoC sería HTTP 2 PUNTOS BARRA BARRA 1 9
+
+11
+00:01:25,270 --> 00:01:28,630
+1 6 8 punto 1 punto 1 53.
+
+12
+00:01:29,600 --> 00:01:35,940
+Barra 1 punto 6 6 7 7 eso sería.
+
+13
+00:01:36,440 --> 00:01:44,330
+Es decir el agua RL de mi socket vale en principio aquí se puede poner también local igual que lo estamos
+
+14
+00:01:44,330 --> 00:01:52,010
+usando pero limitaría el uso a lo que viene siendo el el local Lajos de nuestro equipo no podríamos
+
+15
+00:01:52,010 --> 00:01:57,160
+utilizarlo en un teléfono de fuera o lo que sea o que esté conectado a nuestra red local.
+
+16
+00:01:57,160 --> 00:02:04,250
+Vale ahora estoy hasta vale entonces cuando nosotros accedamos aquí actualizamos la página en teoría.
+
+17
+00:02:04,310 --> 00:02:05,540
+A mi me tienen que llegar.
+
+18
+00:02:05,570 --> 00:02:12,640
+Efectivamente me dice que el cliente con IP se ha conectado.
+
+19
+00:02:12,710 --> 00:02:17,700
+Si yo abro esa aplicación que estamos creando está R.L.
+
+20
+00:02:17,830 --> 00:02:22,150
+Si ahora está en mi móvil de acuerdo lo voy a hacer.
+
+21
+00:02:22,740 --> 00:02:28,680
+Me acuerdo me conecto y aquí aparece que yo me he conectado desde el teléfono móvil.
+
+22
+00:02:28,670 --> 00:02:34,620
+Vale hoy se ve estupendo estupendo.
+
+23
+00:02:34,700 --> 00:02:43,760
+Entonces ahora vamos a enviar un mensaje por defecto desde nuestro socket al cliente de acuerdo que
+
+24
+00:02:43,760 --> 00:02:45,870
+por defecto nos llegue un mensaje.
+
+25
+00:02:46,700 --> 00:02:53,840
+Entonces no vamos a crear una variable aquí porque esto lo estamos haciendo sin base de datos ni nada
+
+26
+00:02:53,840 --> 00:03:00,170
+simplemente estamos utilizando lo que viene siendo un chat en tiempo real pero cuando apagamos el servidor
+
+27
+00:03:00,170 --> 00:03:01,850
+todo desaparece.
+
+28
+00:03:01,850 --> 00:03:06,860
+Entonces vamos a definir una raíz donde se van a dar Marcenaro los mensajes.
+
+29
+00:03:06,860 --> 00:03:11,050
+Aquí tenemos una raíz de mensaje esos mensajes van a ir en objetos Jayson.
+
+30
+00:03:11,120 --> 00:03:17,330
+Vale entonces voy a decirme un primer objeto por defecto con un IDE por ejemplo le voy a poner también
+
+31
+00:03:17,330 --> 00:03:36,710
+un texto por defecto en este caso sería bienvenido al chat privado de socket junto yo y no de J.S. de
+
+32
+00:03:38,720 --> 00:03:40,410
+Víctor Robles.
+
+33
+00:03:40,710 --> 00:03:46,160
+Vale y entonces también le voy a pasar un nickname el nick Main va a ser el nombre del usuario en este
+
+34
+00:03:46,160 --> 00:03:47,970
+caso sería bot
+
+35
+00:03:50,370 --> 00:04:01,160
+para eso sería mi nickname estupendo ya tengo en mi array de mensaje y posteriormente cuando yo vaya
+
+36
+00:04:01,160 --> 00:04:03,960
+enviando mensajes se van a ir añadiendo ahí.
+
+37
+00:04:04,100 --> 00:04:10,890
+Entonces qué hago yo con este mensaje cojo y lo emito lo remito al cliente yo qué punto en mi
+
+38
+00:04:15,350 --> 00:04:23,110
+bueno si lo emito a todos los clientes Badel ese mensaje cuando se conecte el cliente le emito el mensaje.
+
+39
+00:04:23,110 --> 00:04:30,970
+Mensajes Mensajes me acuerdo se lo paso el cliente y le llega.
+
+40
+00:04:31,020 --> 00:04:31,530
+Vale.
+
+41
+00:04:32,250 --> 00:04:39,260
+Entonces qué va a hacer el cliente pues lo va a recibir va a recoger ese mensaje vale para eso vamos
+
+42
+00:04:39,260 --> 00:04:46,630
+a utilizar el objeto socket que acabamos de crear en esta variable utilizamos socket junto con el método
+
+43
+00:04:46,720 --> 00:04:57,370
+ón y recibimos mensajes de acuerdo lo que ha emitido el elemento que hemos emitido desde el servidor
+
+44
+00:04:57,550 --> 00:04:58,250
+que esté aquí.
+
+45
+00:04:58,270 --> 00:05:08,620
+Mensajes s esa emisión de acuerdo ese evento lo recoge el cliente y entonces tiene una función de Calvache
+
+46
+00:05:09,670 --> 00:05:16,810
+que tiene un parámetro recibe un parámetro de data que son los datos creían del servidor vale y yo puedo
+
+47
+00:05:16,810 --> 00:05:23,020
+hacer un consuelo para ver los datos que tiene por defecto.
+
+48
+00:05:23,020 --> 00:05:33,050
+Vale entonces por defecto si dice la pagina y me abre también la consola del navegador.
+
+49
+00:05:33,180 --> 00:05:41,320
+Vengo a consola vemos que tengo una RAI de acuerdo tengo un objeto con mi con y de una red GT una colección
+
+50
+00:05:41,320 --> 00:05:48,320
+de objetos y el primer objeto es el ideé 1 VoT y el texto que yo he puesto el mensaje de bienvenida.
+
+51
+00:05:49,500 --> 00:05:58,270
+Vale entonces me voy a crear una función render para poder pintar eso y se ha reído G.T ese array de
+
+52
+00:05:58,270 --> 00:06:03,760
+objetos si ese mensaje que me llega desde el servidor poder pintarlo en el html.
+
+53
+00:06:03,930 --> 00:06:10,210
+Cómo hago eso me creo esta función render le voy a pasar los datos unos datos y voy a creerme una variable
+
+54
+00:06:10,300 --> 00:06:18,070
+HTML Bahr HTML y de utilizar un método que se llama AMAP que me permite recorrer lo que hay contenido
+
+55
+00:06:18,130 --> 00:06:25,810
+en este objeto data y poder recorrer esa información y poder mostrarla o hacer lo que quiera yo con
+
+56
+00:06:25,810 --> 00:06:26,230
+ella.
+
+57
+00:06:26,230 --> 00:06:34,060
+También podríamos utilizar un Ford podríamos utilizar varios tipos de bucle que por ahí ese método recibe
+
+58
+00:06:34,060 --> 00:06:42,640
+una función de calva que tiene dos parámetros uno sería el dato que contiene un índice de una red y
+
+59
+00:06:42,640 --> 00:06:45,520
+en este caso cuál sería el mensaje.
+
+60
+00:06:45,730 --> 00:06:54,010
+Vale y luego recibe también el índice es decir que el método más lo que hace es iterar en lo objeto
+
+61
+00:06:54,280 --> 00:07:02,140
+o en los elementos del array data entonces el contenido de cada índice lo guarda en la variable mensaje
+
+62
+00:07:02,530 --> 00:07:09,370
+y el índice lo guarda en Index de forma que tenemos acceso al índice en sí al nudo del índice y al contenido
+
+63
+00:07:09,520 --> 00:07:17,920
+de ese índice y ya podemos hacer lo que queramos esto lo va recorriendo esto reiterando y podemos devolver
+
+64
+00:07:18,010 --> 00:07:23,560
+esculpir el HTML que nosotros queramos.
+
+65
+00:07:23,750 --> 00:07:28,690
+En este caso vamos a utilizar las comillas invertida vale que es una nueva característica del makeup
+
+66
+00:07:29,190 --> 00:07:34,780
+6 pero que ya funciona en todos los navegadores que nos permite hacer una interpolación de datos nos
+
+67
+00:07:34,780 --> 00:07:44,140
+permite escribir código en varias línea interpolar es decir imprimir dentro de esa cadena variable.
+
+68
+00:07:44,140 --> 00:07:50,720
+Vale entonces ahora utilizar Dib y vamos a ponerle como clase Message
+
+69
+00:07:55,400 --> 00:08:02,320
+y que cada vez en cada iteración que vaya haciendo vaya quedando el mensaje va a crear un mensaje le
+
+70
+00:08:02,320 --> 00:08:12,210
+vamos a poner un estro para imprimir el nombre de la persona o el nombre del nickname.
+
+71
+00:08:12,400 --> 00:08:20,440
+En este caso conecto con el dólar y la llave interpolar es decir metemos ahí el valor de una variable.
+
+72
+00:08:20,470 --> 00:08:24,400
+Esto va a imprimir el contenido de la propiedad Nick Nain que hay en el objeto que está recorriendo
+
+73
+00:08:24,400 --> 00:08:28,910
+en este momento y vamos a meter dentro de un Span
+
+74
+00:08:32,300 --> 00:08:41,480
+lo que contiene el mensaje en sí ya ves Message punto texto.
+
+75
+00:08:41,620 --> 00:08:49,350
+Vale y aquí vamos a ver por ejemplo un dice y aquí podemos utilizar un párrafo en lugar de una espada
+
+76
+00:08:51,390 --> 00:08:59,680
+vale y esto ya lo está devolviendo y además le vamos a concatenar le vamos a poner un joi para meter
+
+77
+00:08:59,690 --> 00:09:02,210
+un espacio entre el evento y el evento.
+
+78
+00:09:02,340 --> 00:09:10,540
+Vale ahora como metemos este HTML dentro de la etiqueta Messages que tenemos aquí es muy fácil utilizando
+
+79
+00:09:10,540 --> 00:09:19,940
+como no estamos usando ni Kourí ni nada vamos a utilizar el punto que eleven Boyden document punto de
+
+80
+00:09:20,090 --> 00:09:29,690
+elemento IDE y conecto seleccionamos un elemento del DOM un elemento con un IDE que indiquemos que esté
+
+81
+00:09:29,690 --> 00:09:39,140
+dentro del DOM en este caso el elemento con Hide Messages y ahí utilizando la propiedad INER HTML le
+
+82
+00:09:39,200 --> 00:09:45,670
+introducimos dentro le zampado el contenido que es la variable HTML de acuerdo.
+
+83
+00:09:45,750 --> 00:09:47,330
+Yo ahora actualizo la página
+
+84
+00:09:50,220 --> 00:09:57,360
+me devuelve un objeto pero no me devuelve nada en el html porque no estoy usando este método.
+
+85
+00:09:57,460 --> 00:10:03,280
+Entonces voy a utilizar la función que acabo de crear render y de paso los datos.
+
+86
+00:10:03,400 --> 00:10:12,610
+Es decir cuando yo reciba el evento de mensajes es decir cuando el socket me envíe un mensaje y yo reciba
+
+87
+00:10:12,700 --> 00:10:22,360
+el evento pues cuando el evento se llegue voy a lanzar una función y me va a renderizar los datos autorizo
+
+88
+00:10:22,360 --> 00:10:29,260
+la página y efectivamente aquí me muestra que el bot me dice Bienvenido al chat privado patatín patatán
+
+89
+00:10:29,440 --> 00:10:36,160
+vale bien pues en principio ya tendríamos lo básico es decir un mensaje de bienvenida como recorrer
+
+90
+00:10:36,250 --> 00:10:43,820
+esos mensajes que nos llegan desde el choque del servidor y lo siguiente que vamos a hacer va a ser
+
+91
+00:10:43,910 --> 00:10:50,390
+enviar y añadir nuevo mensaje al chat y además vamos a maquetar eso y vamos a hacer algunas pruebas.

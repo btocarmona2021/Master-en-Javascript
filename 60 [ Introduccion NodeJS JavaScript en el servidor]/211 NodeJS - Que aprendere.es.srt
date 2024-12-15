@@ -1,0 +1,203 @@
+1
+00:00:00,690 --> 00:00:07,110
+A partir de ahora en el curso vamos a aprender no DJs que básicamente es una plataforma que nos permite
+
+2
+00:00:07,410 --> 00:00:10,240
+desarrollar con JavaScript en el servidor.
+
+3
+00:00:10,320 --> 00:00:13,690
+Entonces vamos a estar aprendiendo DJs y vamos a ver varias cosas.
+
+4
+00:00:13,770 --> 00:00:17,280
+Vamos a empezar con los primeros pasos con DJs.
+
+5
+00:00:17,280 --> 00:00:19,860
+Vamos a ver una introducción a DJs.
+
+6
+00:00:19,860 --> 00:00:24,240
+Vamos a ver cómo hacen una aplicación de consola con DJs.
+
+7
+00:00:24,240 --> 00:00:31,430
+Después pasaremos a empezar a desarrollar un Bakken DJs para una aplicación web que vamos a hacer valer.
+
+8
+00:00:31,470 --> 00:00:37,580
+Entonces vamos a empezar a crear el Bakken empezaremos creando el proyecto Encode viendo como están
+
+9
+00:00:37,590 --> 00:00:44,250
+las dependencia viendo cómo crear la base de datos de Mongo y viendo también la conexión a la base de
+
+10
+00:00:44,250 --> 00:00:48,220
+datos a la base de datos de Mungo desde DJs.
+
+11
+00:00:48,270 --> 00:00:54,780
+Después veremos cómo crear un servidor con DJs que escuche peticiones que nosotros hagamos.
+
+12
+00:00:54,780 --> 00:01:01,820
+También estaremos hablando de Postman y de el cliente que es un cliente Red Bull que nos permite manipular
+
+13
+00:01:01,820 --> 00:01:08,360
+las peticiones que hacemos a nuestro servidor y de esa forma puede estar testeando y divulgando nuestra
+
+14
+00:01:08,360 --> 00:01:10,520
+aplicación del banquen.
+
+15
+00:01:10,520 --> 00:01:14,200
+Después crearemos los modelos de datos de nuestra aplicación.
+
+16
+00:01:14,360 --> 00:01:21,290
+El modelo principal del objeto que vamos a estar utilizando y también hablaremos del modelo vista controlador
+
+17
+00:01:21,320 --> 00:01:24,520
+que es un patrón de diseño que nos va a ayudar mucho.
+
+18
+00:01:24,770 --> 00:01:30,230
+Después hablaremos de los controladores y ruta veremos cómo crear controladores y ruta.
+
+19
+00:01:30,920 --> 00:01:34,930
+Crearemos un método para guardar nuevos documentos en la base de datos.
+
+20
+00:01:35,030 --> 00:01:41,880
+Veremos como listar los documentos en este caso lo que vamos a hacer va a ser un Bakken para una aplicación
+
+21
+00:01:41,880 --> 00:01:44,370
+web que va a ser un portafolio de una persona.
+
+22
+00:01:44,370 --> 00:01:51,420
+Entonces veremos cómo tener un método para guardar nuevos documentos nuevos proyectos en nuestra aplicación.
+
+23
+00:01:51,420 --> 00:01:57,570
+Otro paralizar los proyectos del portafolio otro para devolver un listado de proyectos del portafolio
+
+24
+00:01:57,660 --> 00:02:00,330
+o ver uno también de manera individual.
+
+25
+00:02:00,330 --> 00:02:04,860
+Otro también para actualizar los datos de un proyecto que tengamos guardado en la base de datos y otro
+
+26
+00:02:04,860 --> 00:02:07,170
+para borrar un proyecto.
+
+27
+00:02:07,170 --> 00:02:13,830
+Después pasaremos también a aprender cómo subir imágenes a nuestro servidor utilizando DJs.
+
+28
+00:02:13,950 --> 00:02:20,000
+Haremos varias prácticas con esto veremos cómo hacer varias mejoras en el proceso de subida de archivos
+
+29
+00:02:20,010 --> 00:02:26,100
+podremos utilizar utiliza una librería también y también pasaremos a configurar las cabeceras y el corte
+
+30
+00:02:26,190 --> 00:02:28,430
+de nuestro Bakken.
+
+31
+00:02:28,680 --> 00:02:34,260
+Una vez que acabemos de desarrollar nuestro servicio pasaremos a crear el frontend con angular de acuerdo
+
+32
+00:02:34,260 --> 00:02:39,880
+a crear la aplicación tangible y real que los usuarios van a poder estar interactuando con ella.
+
+33
+00:02:39,870 --> 00:02:45,600
+Entonces veremos cómo crear un frontend con angular que consuma este Bakken que hemos desarrollado con
+
+34
+00:02:45,720 --> 00:02:52,260
+DJs y veremos muchas cosas dentro de ese proyecto que veremos más adelante.
+
+35
+00:02:54,260 --> 00:03:01,800
+Y crearemos una web completa con mi está utilizando como Bakken DJs y desde el Bakken consumiremos todos
+
+36
+00:03:01,800 --> 00:03:04,410
+los métodos y todas las rutas que hemos creado.
+
+37
+00:03:04,410 --> 00:03:07,640
+Así que de esto vamos a estar hablando en las siguientes clases.
+
+38
+00:03:07,890 --> 00:03:10,460
+Vamos a empezar a aprender no DJs.
+
+39
+00:03:10,560 --> 00:03:14,650
+Espero que les saques bastante partido a esta sección porque es muy interesante y ya está.
+
+40
+00:03:14,660 --> 00:03:21,150
+Siguientes clases que vamos a estar viendo si tienes cualquier duda o lo que sea o cualquier problema
+
+41
+00:03:21,150 --> 00:03:27,060
+que te surja mientras que estás codificando algo no funciona o lo que sea me lo puede decir por la parte
+
+42
+00:03:27,060 --> 00:03:32,580
+de preguntas y respuestas del curso y yo te voy a estar ayudando en lo que necesites y vamos a empezar
+
+43
+00:03:32,580 --> 00:03:39,870
+a aprender DJs y a desarrollar nuestra API resulta nuestro Bakken con DJs ya sabes que una Pierres full
+
+44
+00:03:39,900 --> 00:03:46,980
+para el que no lo sepa es un servicio un Bakken que nos permite recibir peticiones HTTP y devolver un
+
+45
+00:03:46,980 --> 00:03:49,530
+resultado en Jayson de acuerdo.
+
+46
+00:03:49,530 --> 00:03:56,310
+Este tipo de servicios lo puede consumir cualquier dispositivo o aplicación que entienda el protocolo
+
+47
+00:03:56,400 --> 00:03:57,210
+HTTP.
+
+48
+00:03:57,210 --> 00:04:02,490
+Podemos consumirla desde un dispositivo móvil con una aplicación móvil que hagamos desde una web desde
+
+49
+00:04:02,490 --> 00:04:08,250
+una cafetera desde lo que sea que entienda el protocolo HTTP podríamos hacerle peticiones al baking
+
+50
+00:04:08,250 --> 00:04:14,550
+que vamos a crear ahora así que vamos a empezar a aprender no DJs vamos con los primeros pasos en la
+
+51
+00:04:14,550 --> 00:04:15,290
+siguiente clase.

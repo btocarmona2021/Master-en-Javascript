@@ -1,0 +1,39 @@
+1
+00:00:00,900 --> 00:00:08,850
+Angular también trae países para modificar el texto de acuerdo para transformar el texto A mayúscula
+
+2
+00:00:08,850 --> 00:00:09,750
+o minúscula.
+
+3
+00:00:09,750 --> 00:00:16,250
+Por ejemplo yo podría encadenar una parte de esta manera que fuera la pay per caites.
+
+4
+00:00:16,590 --> 00:00:20,040
+Con esto yo voy a convertir el texto a mayúsculas.
+
+5
+00:00:20,130 --> 00:00:23,220
+Efectivamente y si imprimiera cualquier otro texto
+
+6
+00:00:26,040 --> 00:00:36,010
+por ejemplo imprime un texto en mayúsculas Hola mundo usando pipes decidor imprimo.
+
+7
+00:00:36,050 --> 00:00:45,120
+No hay problema se me va a mostrar efectivamente pero yo con una Papp lo puedo convertira Lower Keys
+
+8
+00:00:46,590 --> 00:00:52,770
+lo puedo convertir a minúsculas actualizo la pantalla y me aparece el texto que yo he puesto originalmente
+
+9
+00:00:52,770 --> 00:00:59,570
+en mayúsculas en minúsculas con lo cual está pipes pues también nos pueden servir en algún momento del
+
+10
+00:00:59,610 --> 00:01:02,520
+desarrollo de las aplicaciones que vayamos a hacer con angular.

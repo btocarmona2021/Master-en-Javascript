@@ -1,0 +1,67 @@
+1
+00:00:00,510 --> 00:00:06,270
+Para hacer el proyecto vamos a crear una nueva carpeta dentro de nuestra carpeta del curso y aquí me
+
+2
+00:00:06,270 --> 00:00:06,960
+voy a crear
+
+3
+00:00:09,810 --> 00:00:20,970
+una carpeta que se vayan al proyecto y J.S y ahí voy a crear mi proyecto vale para hacer este proyecto.
+
+4
+00:00:20,970 --> 00:00:27,660
+Tengo preparado una carpeta de imágenes que tengo aquí en la cual vamos a tener diferentes imágenes
+
+5
+00:00:27,660 --> 00:00:30,560
+que vamos a estar usando en el proyecto vale.
+
+6
+00:00:30,930 --> 00:00:34,770
+Algunas de estas imágenes la muestro utilizando como fondos de la web o lo que sea.
+
+7
+00:00:34,830 --> 00:00:37,230
+Así que voy a copiar esta carpeta de MG
+
+8
+00:00:41,470 --> 00:00:44,440
+al proyecto.
+
+9
+00:00:44,650 --> 00:00:52,180
+Aquí la dejo y también ya de paso voy a crear una carpeta de CSS para meter ahí los estilos CSS y otra
+
+10
+00:00:52,180 --> 00:01:00,220
+carpeta para J.S. para meter aquí los archivos de JavaScript y todo eso y aparte voy a crear mi archivo
+
+11
+00:01:00,280 --> 00:01:03,430
+índex punto HTML
+
+12
+00:01:06,220 --> 00:01:08,770
+y además voy a crear el archivo
+
+13
+00:01:12,580 --> 00:01:22,060
+Stiles CSS donde voy a tener los estilos y además voy a crearme un archivo de JavaScript
+
+14
+00:01:25,390 --> 00:01:27,580
+que se va a llamar minipunto J.S.
+
+15
+00:01:27,640 --> 00:01:34,360
+Voy a tener el JavaScript principal Okkhoy así que ya podemos irnos a nuestro suplentes y aquí tenemos
+
+16
+00:01:34,360 --> 00:01:39,080
+nuestro proyecto J.S y aquí vamos a empezar a codificar nuestro proyecto.
+
+17
+00:01:39,130 --> 00:01:41,430
+Pero eso ya lo vamos a hacer ya en la siguiente clase.

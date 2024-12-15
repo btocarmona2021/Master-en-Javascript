@@ -1,0 +1,363 @@
+1
+00:00:00,870 --> 00:00:04,340
+Vamos a hacer el código Html básico que va a tener la página.
+
+2
+00:00:04,380 --> 00:00:09,850
+Vamos a hacer lo primero es Doctrine HTML.
+
+3
+00:00:09,960 --> 00:00:18,660
+Abrimos la etiqueta HTML le ponemos el atributo blanco es para que indicarle que es una página en castellano
+
+4
+00:00:18,780 --> 00:00:20,640
+HTML.
+
+5
+00:00:20,640 --> 00:00:29,700
+Abrimos el CEAT cerramos el Gerhardt abrimos la etiqueta de Twitter y vamos a poner aquí proyecto con
+
+6
+00:00:29,760 --> 00:00:30,390
+JavaScript
+
+7
+00:00:33,150 --> 00:00:40,010
+vamos a cerrar el Twitter Vamos a poner la etiqueta meta charged un F8
+
+8
+00:00:42,650 --> 00:00:48,710
+para que la web tenga una codificación de carácter occidental digamos.
+
+9
+00:00:49,600 --> 00:00:51,410
+Vamos a poner la etiqueta Body
+
+10
+00:00:56,620 --> 00:01:02,080
+que será el cuerpo de la página y aparte vamos a cargar el archivo tanto de CSS como de JavaScript que
+
+11
+00:01:02,080 --> 00:01:06,610
+vamos a estar modificando ahora después aunque luego también incluiremos más cosas.
+
+12
+00:01:06,610 --> 00:01:13,120
+De momento simplemente con cargar los estilos lo vamos a hacer por aquí vamos a poner un comentario
+
+13
+00:01:13,960 --> 00:01:26,500
+estilos CSS y aquí vamos a cargar la etiqueta o el archivo de estilo Link rel estaís cit.
+
+14
+00:01:29,020 --> 00:01:37,290
+type text barra CSS y vamos a poner una Chérrez que va a ser la ruta donde se encuentra ese archivo
+
+15
+00:01:37,300 --> 00:01:42,320
+en este caso en la carpeta CSS y el archivo es estaís CSS.
+
+16
+00:01:42,640 --> 00:01:47,870
+Cierro la etiqueta Link y yo tendría los estilos cargados.
+
+17
+00:01:47,980 --> 00:01:57,880
+De hecho si nos metemos al fichero y le pongo el Body una gran red pues evidentemente si yo entro el
+
+18
+00:01:57,880 --> 00:02:04,790
+proyecto que se llama Proyecto guión J.S barra índex HTML.
+
+19
+00:02:05,020 --> 00:02:12,150
+Efectivamente me aparece en rojo con lo cual los estilos estarían cargando correctamente.
+
+20
+00:02:12,310 --> 00:02:18,400
+Entonces vamos a empezar a hacer la estructura HTML que tiene la web pues tiene una cabecera Baade que
+
+21
+00:02:18,400 --> 00:02:25,330
+es simplemente esto luego Tinaquillo de buscar que realmente se lo podemos poner como decoración o no
+
+22
+00:02:25,420 --> 00:02:26,450
+como tú quieras.
+
+23
+00:02:26,650 --> 00:02:27,700
+Luego tenemos el menú.
+
+24
+00:02:27,700 --> 00:02:32,800
+Luego tenemos un Leider luego tenemos la parte de artículo y luego tenemos un Chaib bar vale así que
+
+25
+00:02:32,950 --> 00:02:35,050
+principalmente lo que vamos a hacer.
+
+26
+00:02:35,050 --> 00:02:43,420
+Ahora bien vamos a crear un contenedor global que lo vamos a meter en una etiqueta section y le vamos
+
+27
+00:02:43,420 --> 00:02:46,750
+a poner un IDE que va a ser global
+
+28
+00:02:50,320 --> 00:02:54,340
+y cerramos la etiqueta sección de este contenedor global.
+
+29
+00:02:54,340 --> 00:02:59,450
+Va a ser esta caja blanca que lo contiene todo vale.
+
+30
+00:03:00,220 --> 00:03:08,980
+Ahora vamos a utilizar la etiqueta Gelder para hacer la parte superior de la página es decir esta parte
+
+31
+00:03:09,070 --> 00:03:13,830
+de aquí bueno la parte que incluye tanto practicando JBS como el menú.
+
+32
+00:03:13,910 --> 00:03:21,640
+Vale todo eso va a ir ahí entonces vamos a crear un dip para el logo que vamos a poner el logo
+
+33
+00:03:24,760 --> 00:03:34,210
+del Lib y aquí lo vamos a poner el proyecto JS y vamos a crear la barra de navegación con etiquetas
+
+34
+00:03:34,250 --> 00:03:34,760
+ãmbar.
+
+35
+00:03:34,930 --> 00:03:43,090
+Vale vamos a utilizar la semántica de HTML lo mejor posible porque lo más recomendable y la vamos a
+
+36
+00:03:43,090 --> 00:03:43,900
+tener un muelle
+
+37
+00:03:47,550 --> 00:03:53,870
+le vamos a poner un IDE que va a ser el menú y le vamos a meter varios varios elementos
+
+38
+00:04:00,300 --> 00:04:06,520
+luego aquí en cada enlace pondremos la dirección correcta al archivo que tenga que llevar.
+
+39
+00:04:06,690 --> 00:04:11,630
+En este caso tendremos un link que será inicio vale vamos a hacerlo como lo estamos haciendo aquí
+
+40
+00:04:15,100 --> 00:04:17,080
+inicio tendremos otro link
+
+41
+00:04:21,010 --> 00:04:27,640
+tendremos varios links a las diferentes secciones uno será para inicio otros nada para sobre mí y otro
+
+42
+00:04:27,640 --> 00:04:29,230
+para reloj.
+
+43
+00:04:33,110 --> 00:04:34,160
+Vale tomar
+
+44
+00:04:37,730 --> 00:04:43,490
+otro para reloj otro para contacto vale vamos a tener uno para el reloj
+
+45
+00:04:47,780 --> 00:04:49,100
+otro para el contacto
+
+46
+00:04:55,180 --> 00:05:01,060
+otro para sobre mí y otro para contacto.
+
+47
+00:05:01,060 --> 00:05:06,550
+Vale esto que estamos poniendo en mayusculas porque realmente en la maquetación aparece así pero lo
+
+48
+00:05:06,550 --> 00:05:10,710
+podríamos poner en minúscula y luego hacerle un una percas.
+
+49
+00:05:10,930 --> 00:05:18,620
+De acuerdo con mediante JavaScript pero realmente da lo mismo lo podemos escribir correctamente.
+
+50
+00:05:19,360 --> 00:05:27,180
+Por ejemplo esto lo podemos escribir así proyecto J.S y esto lo escribimos correctamente en minúscula
+
+51
+00:05:43,850 --> 00:05:48,430
+y luego le hacemos una perdéis para que se muestre todo en mayúscula.
+
+52
+00:05:48,440 --> 00:05:49,710
+Eso lo veremos luego.
+
+53
+00:05:49,710 --> 00:05:54,260
+Vale pero de momento lo vamos haciendo así.
+
+54
+00:05:54,570 --> 00:05:57,450
+Bien entonces qué más nos quedaría.
+
+55
+00:05:57,590 --> 00:06:03,890
+Podríamos añadirle lo de buscar en mi caso pues aquí tampoco lo veo necesario como para estar parando
+
+56
+00:06:03,980 --> 00:06:15,710
+en maquetar eso y luego vamos a añadir un Seid bar y una parte de artículos y la parte del sliders no
+
+57
+00:06:17,260 --> 00:06:22,590
+vale pero ya tenemos el joder aquí podemos poner comentarios de código.
+
+58
+00:06:22,590 --> 00:06:31,610
+Esto sería la cabecera o la parte superior de la cabecera.
+
+59
+00:06:31,610 --> 00:06:34,190
+Ahora vamos a hacer la parte Leider
+
+60
+00:06:37,220 --> 00:06:41,510
+que aquí vamos a abrir simplemente un dip con una idea que es Leider
+
+61
+00:06:45,580 --> 00:06:47,450
+lo vamos a hacer la parte
+
+62
+00:06:50,870 --> 00:06:57,910
+del contenido que va a tener una sección con Hide Content
+
+63
+00:07:00,710 --> 00:07:13,340
+y aquí dentro vamos a tener dos partes la parte un dip o una sección como tú quieras para los artículos
+
+64
+00:07:13,370 --> 00:07:14,180
+para los post
+
+65
+00:07:17,900 --> 00:07:26,450
+y un Seidman que esta etiqueta HTML5 son igual que un dip pero ya vienen con una semántica concreta
+
+66
+00:07:28,900 --> 00:07:33,680
+y lo vamos a poner una idea que va a ser Sidebar también.
+
+67
+00:07:33,730 --> 00:07:35,530
+Bien entonces pues
+
+68
+00:07:38,450 --> 00:07:44,720
+con eso si actualizamos la pantalla nos van apareciendo cosas aunque realmente no hay contenido no hay
+
+69
+00:07:44,720 --> 00:07:46,080
+mucho contenido.
+
+70
+00:07:46,610 --> 00:07:54,620
+Un post que va a tener pues va a tener simplemente un título una línea de una línea con la fecha de
+
+71
+00:07:54,620 --> 00:07:59,240
+publicación Ital y luego el contenido así que vamos a hacer un post de ejemplo.
+
+72
+00:08:00,220 --> 00:08:08,210
+Ok eso va a ser un dip o un Artic el artículo vale semánticamente lo mejor es usar el artículo
+
+73
+00:08:11,750 --> 00:08:20,390
+y le vamos a poner una clase porque va a haber muchos elementos de esos que va a ser post que va a tener
+
+74
+00:08:20,390 --> 00:08:31,550
+esto va a tener un H3 o incluso un H2 H2 con el título del artículo vale en este caso luego vamos con
+
+75
+00:08:31,580 --> 00:08:41,090
+el título del artículo lo vamos a tener otra línea que va a ser un Spahn o un párrafo como tú quieras
+
+76
+00:08:41,660 --> 00:08:50,570
+pero voy a poner un Spahn que va a ser la fecha de publicación y todo eso vale.
+
+77
+00:08:50,570 --> 00:08:51,790
+Fecha de publicación a
+
+78
+00:08:58,570 --> 00:09:02,290
+y luego vamos a poner el párrafo principal con todo el texto
+
+79
+00:09:05,710 --> 00:09:11,590
+para eso podemos utilizar texto del orden Ipsum para metérselo de prueba así que buscamos en Google
+
+80
+00:09:11,680 --> 00:09:16,660
+Lorent Ipsum que esto es texto de prueba.
+
+81
+00:09:16,720 --> 00:09:25,000
+Si entro aquí y genero unos párrafos puedo copiar un poco de texto de prueba para utilizarlo en el ejemplo
+
+82
+00:09:25,460 --> 00:09:32,860
+Baudoin un momento dentro del párrafo ok ya lo tenemos ahora ya tenemos un artículo vale simplemente
+
+83
+00:09:33,220 --> 00:09:38,830
+habría que replicar esto tantas veces como quisiera con tanto artículos como yo quisiera tener.
+
+84
+00:09:39,100 --> 00:09:45,900
+Y por último vamos a hacer de momento el 6 no le vamos no le vamos a meter nada lo haremos luego Malet
+
+85
+00:09:46,120 --> 00:09:52,450
+y por último vamos a hacer la sección del Führer que eso irá fuera de la sección principal porque será
+
+86
+00:09:52,450 --> 00:09:55,450
+diferente se irá fuera de la sección global
+
+87
+00:09:58,690 --> 00:10:01,070
+fuera de la sección global vamos a hacer la etiqueta Fuhrer
+
+88
+00:10:05,000 --> 00:10:07,670
+y aquí yo puedo poner lo que yo quiera.
+
+89
+00:10:19,230 --> 00:10:26,130
+Ok y eso ya me parecería a que la página efectivamente ya tendría el Führer también así que esta la
+
+90
+00:10:26,130 --> 00:10:28,050
+estructura básica de la página.
+
+91
+00:10:28,260 --> 00:10:32,760
+Vamos a maquetar en la siguiente clase un poco y ya luego le vamos añadiendo más cositas.

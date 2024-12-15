@@ -1,0 +1,183 @@
+1
+00:00:01,290 --> 00:00:03,680
+Ahora vamos a aprender a usar el bucle guay.
+
+2
+00:00:03,690 --> 00:00:10,590
+De momento vamos a comentar lo del debugger y vamos a crear un nuevo archivo de JavaScript que se va
+
+3
+00:00:10,590 --> 00:00:14,100
+a llamar 09 guión guay.
+
+4
+00:00:14,390 --> 00:00:20,310
+Punto J.S. vale y lo vamos a cargar en nuestro índex junto HTML
+
+5
+00:00:23,800 --> 00:00:25,970
+09 Wyle
+
+6
+00:00:28,610 --> 00:00:37,590
+bien el bucle de Weyl es parecido al bucle for simplemente que es menos estricto de forma que yo puedo
+
+7
+00:00:37,590 --> 00:00:44,250
+hacer un bucle infinito y es un bucle que es indefinido de acuerdo pero básicamente va a constar de
+
+8
+00:00:44,250 --> 00:00:51,040
+una condición y cuando se cumpla esa condición se va a ejecutar un bloque de instrucciones infinitamente.
+
+9
+00:00:51,990 --> 00:00:58,350
+Lo que pasa es que si en esa condición yo meto un contador o meto algo para que luego en algún momento
+
+10
+00:00:58,350 --> 00:01:04,470
+no se cumpla esa condición mientras que se va ejecutando reiterando el bucle pues entonces si que va
+
+11
+00:01:04,470 --> 00:01:11,770
+a salir del bucle en algún momento no vamos a explicarlo con un ejemplo voy a poner el bus de Street
+
+12
+00:01:12,860 --> 00:01:13,760
+Street.
+
+13
+00:01:13,900 --> 00:01:18,900
+Vamos a explicar el bucle igual bucle igual.
+
+14
+00:01:18,900 --> 00:01:25,900
+Y entonces vamos a tener una variable que se va a llamar que se va a llamar año que en este caso sería
+
+15
+00:01:25,900 --> 00:01:28,180
+2018.
+
+16
+00:01:28,180 --> 00:01:29,180
+Cierro con puntico.
+
+17
+00:01:29,230 --> 00:01:36,050
+Entonces voy a utilizar la instrucción Weyl que se hace así es como si fuera un IHF pero guay significa
+
+18
+00:01:36,070 --> 00:01:41,920
+mientras mientras que pase la condición que yo voy a indicarle aquí pues el que se ejecute este bloque
+
+19
+00:01:41,920 --> 00:01:43,190
+de código.
+
+20
+00:01:43,400 --> 00:02:02,290
+Entonces mientras que Gear sea menor o igual a 2 mil 51 que se ejecute este contenido de aquí ejecuta
+
+21
+00:02:02,300 --> 00:02:02,710
+esto
+
+22
+00:02:05,370 --> 00:02:09,710
+entonces qué va qué vamos a hacer si yo le pongo aquí un consolé punto lo
+
+23
+00:02:12,860 --> 00:02:21,190
+de guíes vamos a por aquí estamos en el año y entonces aquí le concatenan el hierro.
+
+24
+00:02:21,250 --> 00:02:27,480
+Vale si yo pongo esto y luego si esto es infinito esto se va a estar ejecutando infinitamente y la.
+
+25
+00:02:27,890 --> 00:02:34,580
+Mira fíjate lo que pasa infinito ya se está ejecutando de manera infinita la página se va a quedar colgada.
+
+26
+00:02:34,610 --> 00:02:38,420
+Estas son las iteraciones que está haciendo el bucle o sea Baktun e imposible cortarlo.
+
+27
+00:02:38,420 --> 00:02:41,810
+Entonces cómo podemos solucionar esto para que la página no se quede colgada.
+
+28
+00:02:41,840 --> 00:02:48,470
+Pues lo que tenemos que hacer es un operador de incremento en este caso para llegar yermas más para
+
+29
+00:02:48,470 --> 00:02:57,710
+ir sumandole ayer un año más una cifra un número 1 1 1 y así ir incrementando IER 1 en 1 para que cuando
+
+30
+00:02:57,710 --> 00:03:01,290
+llega a 2051 ya no entre al bucle.
+
+31
+00:03:01,520 --> 00:03:08,690
+Se ha entendido es decir yo tengo la variable IER mientras que IER sea menor o igual a 2051 se va a
+
+32
+00:03:08,690 --> 00:03:15,800
+ejecutar esto vale y en cada iteración del bucle se le va a sumar 1 Allier de forma que en la siguiente
+
+33
+00:03:15,800 --> 00:03:21,800
+iteración Geer va a ser 2019 y se va a volver a ejecutar de forma que en la siguiente iteración será
+
+34
+00:03:21,800 --> 00:03:27,620
+2020 y se va a volver a ejecutar así hasta que llegue al 2000 y 51 vamos a probarlo ahora actualizamos
+
+35
+00:03:27,620 --> 00:03:28,920
+la pantalla y podemos.
+
+36
+00:03:29,000 --> 00:03:35,870
+Entonces si consigo abrir una nueva pestaña aquí me aparece que estamos en el 2018 y me ha avanzado
+
+37
+00:03:35,870 --> 00:03:43,330
+hasta el año 2051 con lo cual el bucle está funcionando correctamente porque yo le he puesto el integrador
+
+38
+00:03:43,340 --> 00:03:44,880
+de incremento.
+
+39
+00:03:45,080 --> 00:03:52,870
+Pero qué pasa si yo quiero retroceder en el tiempo y quiero que vaya del 2018 hacia abajo.
+
+40
+00:03:53,050 --> 00:03:56,990
+Pues para eso utiliza el operador de decremento al menos menos.
+
+41
+00:03:57,050 --> 00:04:04,750
+Entonces puedo cambiar aquí la condición y decirle mira mientras que IER sea diferente a 1900 91.
+
+42
+00:04:04,850 --> 00:04:11,180
+Pues que se ejecute el bucle en el momento que sea igual a 1991 la ejecución se va a parar.
+
+43
+00:04:11,180 --> 00:04:19,560
+Vale vamos a actualizar la pantalla y efectivamente fíjate 2018 hasta el 1990 y dos aquí.
+
+44
+00:04:19,880 --> 00:04:26,050
+Claro cuando es cuando es igual a 1991 ya no pasa aquí.
+
+45
+00:04:26,090 --> 00:04:32,540
+Por lo tanto el último año para mostrar es el 1992 con lo cual ya hemos visto como utiliza el cual ya
+
+46
+00:04:32,540 --> 00:04:36,530
+hemos visto como como dice el operador de incremento y decremento.

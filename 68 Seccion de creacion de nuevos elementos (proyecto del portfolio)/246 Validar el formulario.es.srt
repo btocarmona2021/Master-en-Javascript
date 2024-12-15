@@ -1,0 +1,299 @@
+1
+00:00:00,870 --> 00:00:05,940
+Ahora vamos a hacer la validación del formulario de acuerdo vamos a mostrar los mensajes de validación
+
+2
+00:00:07,030 --> 00:00:14,370
+como lo hacemos con HTML 5 poniendo las propiedades o los atributos de validación en este caso lo vamos
+
+3
+00:00:14,370 --> 00:00:21,750
+a poner require a todos los campos simplemente vamos a poner raquídea todos y el que no esté relleno
+
+4
+00:00:21,920 --> 00:00:25,060
+que no nos muestre un mensaje de error.
+
+5
+00:00:25,410 --> 00:00:30,380
+El lanzamiento el año de lanzamiento lo vamos a dejar igualmente vacío.
+
+6
+00:00:30,390 --> 00:00:34,090
+Esto lo ponemos en required y la imagen lo dejamos vacío.
+
+7
+00:00:34,200 --> 00:00:41,140
+Vale ahora qué vamos a hacer por mostrar los mensajes de validación en este caso con el spam con la
+
+8
+00:00:41,280 --> 00:00:42,200
+spam.
+
+9
+00:00:42,840 --> 00:00:54,870
+Voy a mostrar aquí un mensaje en el caso de que Geir en el caso de que Nein haya sido touched haya sido
+
+10
+00:00:54,870 --> 00:01:01,410
+tocado y además no sea válido ni un punto.
+
+11
+00:01:01,410 --> 00:01:10,230
+Vale vale entonces en ese caso notaríamos el mensaje de El nombre es obligatorio y así vamos a hacer
+
+12
+00:01:10,230 --> 00:01:15,650
+con el resto de campos que tengan una validación o que necesitan ser validados.
+
+13
+00:01:15,660 --> 00:01:24,330
+En este caso la descripción cuando description haya sido tocada y además no sea válida pues entonces
+
+14
+00:01:24,330 --> 00:01:25,650
+diríamos que la descripción
+
+15
+00:01:29,970 --> 00:01:32,080
+es obligatoria.
+
+16
+00:01:32,100 --> 00:01:34,890
+Luego también la categoría
+
+17
+00:01:38,240 --> 00:01:49,400
+vamos a ponerle el spam vamos a copiar lo de aquí lo pegamos entonces sí categoría si category ha sido
+
+18
+00:01:49,400 --> 00:01:53,220
+touched y no es válida.
+
+19
+00:01:53,480 --> 00:02:02,420
+Category pues digo que la categoría es obligatoria y además lo vamos a hacer también en los lenguajes
+
+20
+00:02:07,300 --> 00:02:15,340
+Silanes ha sido touched y no ha sido válido pues quería que los lenguajes
+
+21
+00:02:17,830 --> 00:02:21,630
+son obligatorios.
+
+22
+00:02:22,120 --> 00:02:31,630
+Guardo actualizo la pantalla X y yo toco algo bueno va diciendo las cosas valen me van diciendo los
+
+23
+00:02:31,630 --> 00:02:34,830
+mensajes los diferentes mensajes de error.
+
+24
+00:02:34,870 --> 00:02:36,930
+Vaya que me lo va mostrando.
+
+25
+00:02:37,050 --> 00:02:40,410
+Ok entonces qué pasa que me aparecen aquí abajo y tal.
+
+26
+00:02:40,410 --> 00:02:43,340
+O sea el tamaño del libro está saboteando un poco más.
+
+27
+00:02:43,340 --> 00:02:52,170
+Entonces vamos a ver qué tamaño tiene el formulario de 50 si lo aumento esto se puede ir.
+
+28
+00:02:52,260 --> 00:03:02,380
+Se puede ir a un lado pero yo lo puedo comentar un 80 y tanto y lo que vienen siendo los inputs vale
+
+29
+00:03:02,470 --> 00:03:03,430
+reducirlo
+
+30
+00:03:06,150 --> 00:03:11,990
+vale a un 40 por ciento o un 35 40 por ciento.
+
+31
+00:03:14,630 --> 00:03:20,240
+Ok entonces de esa manera puedo hacer que el mensaje se muestre al lado de.
+
+32
+00:03:20,570 --> 00:03:24,890
+Esto me parece una de las mejores formas de demostrar estos mensajes de error.
+
+33
+00:03:24,890 --> 00:03:30,110
+Así que vamos a modificar los estilos y vamos a ponerle que el formulario ocupa un 80 por ciento de
+
+34
+00:03:30,110 --> 00:03:34,250
+la pantalla pero que el input ocupe un 40.
+
+35
+00:03:34,250 --> 00:03:42,350
+De esta manera si actualizo ahora vale autorizó la pantalla toca un campo y me salgo me aparecen los
+
+36
+00:03:42,350 --> 00:03:46,700
+errores en los laterales con lo cual está perfecto.
+
+37
+00:03:46,700 --> 00:03:55,670
+Ahora lo que vamos a hacer va a ser darle un pequeño estilo a estos es pan para que se vean mejor entonces.
+
+38
+00:03:56,740 --> 00:04:00,530
+En nuestro HTML yo le pondría una clase a esto
+
+39
+00:04:03,440 --> 00:04:06,760
+que fuera un error.
+
+40
+00:04:06,760 --> 00:04:10,080
+De esta manera voy a poner una clase a cada uno de los españoles
+
+41
+00:04:22,120 --> 00:04:32,730
+Ok genial entonces pues ahora le voy a dar un estilo de esa clase por aquí forma error lo que voy a
+
+42
+00:04:32,730 --> 00:04:43,620
+hacer va a ser ponerle un parking de 5 PX a poner un back era un reto le voy a poner un color wait y
+
+43
+00:04:43,620 --> 00:04:44,640
+de momento ya está.
+
+44
+00:04:44,640 --> 00:04:47,540
+Vamos a actualizar la pantalla.
+
+45
+00:04:47,630 --> 00:04:52,630
+Vale y ahí me aparece de una manera bastante bastante buena.
+
+46
+00:04:52,650 --> 00:05:01,970
+Voy a reducir el tamaño del Padín a tres píxeles y el tamaño de la Fuente un 6 a 13 píxeles.
+
+47
+00:05:02,370 --> 00:05:12,570
+Actualizo la pantalla y a mi me aparece el error que cuando es un texto me parece demasiado abajo pero
+
+48
+00:05:12,600 --> 00:05:18,060
+eso no me gusta me parece que me gusta que me aparezca me parezca en el centro y además le voy a poner
+
+49
+00:05:18,060 --> 00:05:24,070
+un margen LEPP de 5 PX también
+
+50
+00:05:26,760 --> 00:05:29,420
+para que me lo separe un poco.
+
+51
+00:05:29,750 --> 00:05:35,340
+Entonces ya tenemos los errores de hecho si vamos viendo los errores pues no van apareciendo ya es cuestión
+
+52
+00:05:35,340 --> 00:05:42,400
+de que tú le des mejor estilo como a ti te convenga de acuerdo pero para mi ya ha quedado bien.
+
+53
+00:05:42,820 --> 00:05:47,340
+Entonces también vamos a hacer que este botón se queden disabled cuando esto no sea válido porque ahora
+
+54
+00:05:47,340 --> 00:05:54,480
+mismo si yo envío podemos ver en la consola que me va me va me va a recibir los datos el método del
+
+55
+00:05:54,480 --> 00:05:59,970
+componente de acuerdo le metemos los datos vació al objeto y eso no me interesa a mí me interesa que
+
+56
+00:05:59,970 --> 00:06:04,960
+solamente puede enviar el formulario cuando sea válido.
+
+57
+00:06:04,970 --> 00:06:06,490
+Cómo puedo hacer esto.
+
+58
+00:06:06,630 --> 00:06:13,650
+Pues de una manera muy simple aquí en el input de tipo Summit lo que puedo hacer es lo siguiente Puedo
+
+59
+00:06:13,650 --> 00:06:26,280
+poner un atributo disabled cuando no sea válido el formulario se llamaba Projet FOM de acuerdo así se
+
+60
+00:06:26,280 --> 00:06:27,180
+llamaba.
+
+61
+00:06:27,600 --> 00:06:38,650
+Efectivamente cuando este formulario punto valid junto con un Tobalina no sea válido cuando no sea válido.
+
+62
+00:06:38,660 --> 00:06:44,070
+Pues que me ponga disabled vale y en el caso de que yo tenga en ese botón un disabled
+
+63
+00:06:47,860 --> 00:06:48,850
+vale si yo tuviera
+
+64
+00:06:52,660 --> 00:06:53,440
+disabled
+
+65
+00:06:57,380 --> 00:07:04,990
+lo selecciono por atributo pues yo podría ponerle un background.
+
+66
+00:07:05,970 --> 00:07:15,220
+Vale cuado actualizo la banda ya vale ahora mismo evidentemente me lo pone que no puedo pulsarlo pero
+
+67
+00:07:15,220 --> 00:07:23,980
+mejor aún lo que voy a hacer es ponerle una opa City o City 0,7 ya si solamente se va a iluminar el
+
+68
+00:07:23,980 --> 00:07:31,360
+botón 100 por ciento incluso 0,4 solamente se va a iluminar el botón.
+
+69
+00:07:31,360 --> 00:07:35,560
+Cuando yo me he dado los datos correctamente vale ahora se ilumina.
+
+70
+00:07:35,620 --> 00:07:47,080
+Si yo me tire algo mal si no me deja vale incluso puedo poner un cursor cursor al Oued para que me ponga
+
+71
+00:07:47,080 --> 00:07:54,670
+lo siguiente si yo paso por encima me dice que nada que no me deja a no ser que meta todo bien.
+
+72
+00:07:55,430 --> 00:08:00,660
+OK ahora si que me deja sin metodólogo mal no me deja.
+
+73
+00:08:00,760 --> 00:08:06,010
+Entonces ya tenemos el formulario validado y perfectamente hecho y en la siguiente clase lo que vamos
+
+74
+00:08:06,010 --> 00:08:11,890
+a hacer ya es darle funcionalidad y que nos permita guardar datos en nuestro Bakken y nuestra base de
+
+75
+00:08:11,890 --> 00:08:12,310
+datos.

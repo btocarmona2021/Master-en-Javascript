@@ -1,0 +1,167 @@
+1
+00:00:01,270 --> 00:00:07,300
+Ya hemos visto cómo crear componentes de manera manual dentro de angular pero también hay una manera
+
+2
+00:00:07,330 --> 00:00:15,280
+mucho más rápida entre comillas de generar un componente y importarlo de manera automática en el módulo
+
+3
+00:00:15,280 --> 00:00:16,180
+de acuerdo.
+
+4
+00:00:16,180 --> 00:00:21,940
+Para eso vamos a hacer uso de angular Cellay porque angular CDI aparte de poder generar un proyecto
+
+5
+00:00:21,940 --> 00:00:27,840
+de angular también tiene varios comandos para generar código de acuerdo si revisa la documentación angular
+
+6
+00:00:27,850 --> 00:00:36,370
+CDI y si lo buscamos en Google y accedemos a su web y luego nos vamos a hiphop aquí abajo en la documentación
+
+7
+00:00:36,370 --> 00:00:42,550
+podemos ver que tenemos una serie de comandos para hacer CAFO de acuerdos CAFO lines generar código
+
+8
+00:00:42,550 --> 00:00:48,280
+de manera automática entonces tenemos el comando NG generate component y el nombre de mi componente
+
+9
+00:00:48,400 --> 00:00:51,360
+y eso me genera un nuevo componente en mi proyecto angular.
+
+10
+00:00:51,370 --> 00:00:55,980
+Vale entonces vamos a hacer eso para crear nuevos componentes y ver cómo funciona.
+
+11
+00:00:55,990 --> 00:01:01,350
+Una cosa importante que tienes que saber es que si utiliza una terminal de comandos emulada como en
+
+12
+00:01:01,350 --> 00:01:07,030
+mi caso es posible que angular Fellay selfie y no sea capaz de generarnos correctamente el código así
+
+13
+00:01:07,030 --> 00:01:13,810
+que para esto siempre lo más recomendable es utilizar la consola de comandos por defecto que tiene nuestro
+
+14
+00:01:13,810 --> 00:01:19,810
+sistema operativo porque ahí están los paquetes correctamente y todo lo va a generar de manera correcta.
+
+15
+00:01:19,900 --> 00:01:24,970
+Si estás en Mac pues utiliza términos de Mac si estás en alguna distribución de Linux pues utiliza la
+
+16
+00:01:24,970 --> 00:01:30,610
+terminal de Linux y si estás en Windows utiliza el CMD de acuerdo así que vamos a escribir aquí CMD
+
+17
+00:01:30,880 --> 00:01:38,440
+lo ejecutamos y tenemos que entrar a nuestra carpeta de nuestro proyecto ceder dos puntos Barragan.
+
+18
+00:01:38,490 --> 00:01:47,620
+En mi caso para Treves doble barra cursus JavaScript y aquí dentro entro dentro de aprendiendo angular
+
+19
+00:01:52,770 --> 00:02:01,480
+y aquí es donde voy a lanzar el comando el comando es ng g que es un alias de generate acobardó NG generate
+
+20
+00:02:01,600 --> 00:02:09,490
+component y el nombre de mi componente qué componente quiero crear ahora pues el componente cursos de
+
+21
+00:02:09,900 --> 00:02:15,520
+Enter y esto automáticamente efectivamente me genera todo nuestro código.
+
+22
+00:02:15,520 --> 00:02:21,640
+El fichero del componente en sí la clase y luego además me crea una hoja de estilo CSS para ese componente
+
+23
+00:02:21,640 --> 00:02:26,060
+en específico y aparte me actualiza un tweet del PP.
+
+24
+00:02:26,080 --> 00:02:33,810
+Módulo punto de S y no añade el import de ese nuevo componente y además no lo agrega a declaration para
+
+25
+00:02:33,840 --> 00:02:36,220
+tenerlo automáticamente disponible.
+
+26
+00:02:36,220 --> 00:02:43,240
+Y si abro mi carpeta cuyos componentes acabamos de crear yo tengo en mi vista esto de aquí mi componente
+
+27
+00:02:43,450 --> 00:02:44,410
+tiene lo básico.
+
+28
+00:02:44,410 --> 00:02:49,990
+El constructor tiene también un jug o Ninet de acuerdo que es un método que se ejecuta nada más cargar
+
+29
+00:02:50,230 --> 00:02:57,970
+el componente después del constructor y no nos crea el componente de manera básica no hace un escalafón
+
+30
+00:02:57,990 --> 00:03:02,710
+de un componente o de la estructura básica de un componente y ahora yo podría utilizar ese componente
+
+31
+00:03:03,490 --> 00:03:06,570
+cursos por aquí sin ningún tipo de problema.
+
+32
+00:03:06,770 --> 00:03:12,790
+Entonces si actualizo la pantalla aquí fíjate que me escupo un error vamos a revisar cuál es el error
+
+33
+00:03:12,820 --> 00:03:18,920
+que no escupe me hice cursos y tal y cual.
+
+34
+00:03:18,930 --> 00:03:27,040
+Vale aquí tenemos un error seguramente vamos a revisar el componente de cursos.
+
+35
+00:03:27,620 --> 00:03:33,060
+Fíjate que el selector que le pones a PP cursos entonces yo lo voy a cambiar para que la etiqueta sea
+
+36
+00:03:33,110 --> 00:03:40,400
+cursos directamente si hago esto ahora sí que me aparece mi componente por aquí cursos Works ok y por
+
+37
+00:03:40,480 --> 00:03:44,790
+reutilizarlo tantas veces como quiera y donde yo quisiera.
+
+38
+00:03:44,790 --> 00:03:50,180
+Vale así que ya hemos visto cómo crear un componente de manera automática como generar un componente
+
+39
+00:03:50,180 --> 00:03:57,560
+con angular y esto es muy rápido cuando queremos crear varios componentes y no queremos estar codificando
+
+40
+00:03:57,560 --> 00:04:03,740
+o estar creando los archivos de manera manual y tampoco queremos estar modificando el PP module el fichero
+
+41
+00:04:03,740 --> 00:04:10,910
+del módulo y estar añadiendo aquí más más cosas y tal sino que utilizamos el comando y lo hace de manera
+
+42
+00:04:11,030 --> 00:04:11,800
+automática.

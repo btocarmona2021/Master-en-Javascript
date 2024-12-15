@@ -1,0 +1,319 @@
+1
+00:00:00,680 --> 00:00:05,400
+En JavaScript ahora con los nuevos estándares podemos definir las variables de dos formas con la palabra
+
+2
+00:00:05,730 --> 00:00:09,450
+reservada bar y la palabra reservada.
+
+3
+00:00:09,490 --> 00:00:15,220
+Está de acuerdo que si esta palabra de aquí LED prueba Hola.
+
+4
+00:00:15,360 --> 00:00:23,970
+Por ejemplo yo podría definir una variable de esta manera vale esto esta palabra LED es muy típica de
+
+5
+00:00:23,970 --> 00:00:31,560
+Taipe scrip porque Tepes la incluyó hace ya mucho tiempo entonces se vino utilizando con los nuevos
+
+6
+00:00:31,560 --> 00:00:36,630
+estándares Telemadrid pero ahora ya se utiliza en JavaScript normal también entonces vamos a aprender
+
+7
+00:00:36,630 --> 00:00:40,590
+a definir variables también con LED y vamos a ver cuál es la diferencia.
+
+8
+00:00:42,730 --> 00:00:49,380
+Ok entonces si tu editor no te resalta la palabra LED pues no te preocupes por tampoco porque no es
+
+9
+00:00:49,380 --> 00:00:50,690
+tan tan importante.
+
+10
+00:00:50,730 --> 00:00:52,410
+Hay editores que sí que la resaltan.
+
+11
+00:00:52,410 --> 00:00:56,360
+Incluso si actualizamos el sub'23 a la versión 3 también la resalta.
+
+12
+00:00:56,370 --> 00:00:59,610
+Pero yo estoy usando las dos ahora mismo eso no tiene importancia.
+
+13
+00:00:59,600 --> 00:01:02,850
+Así esto lo detecta el navegador y lo entiende.
+
+14
+00:01:02,850 --> 00:01:10,140
+Vale si ahora mismo un alerté esto vamos a ver que esto es una variable normal como otras y esto hizo
+
+15
+00:01:10,140 --> 00:01:10,830
+la pantalla.
+
+16
+00:01:11,340 --> 00:01:11,990
+Hola.
+
+17
+00:01:12,090 --> 00:01:18,450
+Bien pues ahora vamos a ver cuál es la diferencia entre el LED y el bar de acuerdo a la diferencia entre
+
+18
+00:01:18,450 --> 00:01:24,960
+definir variables con la palabra bar y con la parábola y con la palabra Led Led permite definir variables
+
+19
+00:01:24,990 --> 00:01:31,410
+limitando su alcance al bloque declaración o expresión donde se está usando de acuerdo y bar define
+
+20
+00:01:31,410 --> 00:01:37,070
+una variable global o local en una función sin importar el ámbito del bloque.
+
+21
+00:01:37,080 --> 00:01:41,000
+Es decir eso te lo voy a explicar de manera práctica.
+
+22
+00:01:41,100 --> 00:01:45,650
+Incluso podríamos abrir otro fichero diferente para no mezclarlo con éste.
+
+23
+00:01:45,720 --> 00:01:57,530
+Vamos a crear un nuevo archivo ni Feil controles 0 3 se va a llamar LED y barra apuntó J.S.
+
+24
+00:01:57,530 --> 00:02:04,280
+Vamos a separarlo con millones y bajar el fichero que vamos a utilizar para hacer estas prácticas.
+
+25
+00:02:04,290 --> 00:02:13,370
+Esto me lo llevo en este fichero a éste y el uso estre también lo tengo que poner en el otro fichero
+
+26
+00:02:13,370 --> 00:02:23,030
+también guardo y guardo y entonces en de punto HTML yo aquí pongo el nombre de mi fichero que voy a
+
+27
+00:02:23,030 --> 00:02:31,010
+estar utilizando ahora este escrito lo copio y me lo llevo al comentario por si en algún momento quisiera
+
+28
+00:02:31,020 --> 00:02:42,110
+reutilizarlo y aquí voy a cargar el nuevo archivo Let y bar guardo actualizo la pantalla y aquí no va
+
+29
+00:02:42,110 --> 00:02:48,810
+a haber ningún cambio todo va bien y para comprobar que esto funciona voy a hacer aquí una de
+
+30
+00:02:53,870 --> 00:02:55,060
+Hola.
+
+31
+00:02:55,240 --> 00:02:59,310
+Vale si actualizo la pantalla la pantalla vemos que todo funciona perfectamente bien.
+
+32
+00:02:59,350 --> 00:03:04,040
+Viene entonces la diferencia principal entre el lay y el bar es el alcance que tienen las variable y
+
+33
+00:03:04,040 --> 00:03:07,890
+cómo actúan en función a los diferentes bloques.
+
+34
+00:03:07,970 --> 00:03:17,600
+Vale por ejemplo si yo tuviera una variable que se llama la número que el número fuera el 40 y yo tengo
+
+35
+00:03:17,610 --> 00:03:27,620
+UNIV que sea por ejemplo Troop UNIV que siempre siempre va a pasar por ahí y yo aquí tengo otra variable
+
+36
+00:03:27,620 --> 00:03:40,070
+que se llama igual número y le asignó el valor 50 y aún consolé log de número.
+
+37
+00:03:40,080 --> 00:03:44,160
+Esto debe valer 50 valor 50.
+
+38
+00:03:44,160 --> 00:03:53,060
+Si yo voy con su reloj aquí justo después de definir la variable el valor va a ser 40 y si hago el consolé
+
+39
+00:03:53,060 --> 00:04:00,040
+log punto lo hago aquí número.
+
+40
+00:04:00,080 --> 00:04:02,160
+El valor va a ser 50
+
+41
+00:04:06,020 --> 00:04:12,280
+vale porque le ha asignado otro valor a esta variable incluso haciéndolo así también podría.
+
+42
+00:04:12,320 --> 00:04:16,540
+Pero bueno si yo utilizo la pantalla me aparece 40 50 y 50.
+
+43
+00:04:16,550 --> 00:04:20,780
+Lo que yo he predicho o sea cuando acabo de definir la variable tiene ese valor.
+
+44
+00:04:20,780 --> 00:04:26,750
+Después yo le cambio el valor en este bloque de código de instrucción de acuerdo en esta declaración
+
+45
+00:04:26,750 --> 00:04:32,780
+o en esta expresión dentro de esa presión le cambio el valor y altero el valor de la variable a nivel
+
+46
+00:04:32,780 --> 00:04:37,550
+global de forma que ahora el valor es 50 siempre vale.
+
+47
+00:04:37,580 --> 00:04:46,800
+Esto sería prueba con var ya si hacemos la misma prueba con el Let.
+
+48
+00:04:47,180 --> 00:04:52,690
+Vamos a ver la diferencia claramente prueba con L.T.
+
+49
+00:04:53,060 --> 00:04:58,490
+Mira yo tengo una variable que se va a llamar texto estable se va a llamar texto.
+
+50
+00:04:58,490 --> 00:05:03,700
+Entonces yo le voy a poner aquí curso J.S.
+
+51
+00:05:03,920 --> 00:05:06,770
+Víctor Robles Web.com.
+
+52
+00:05:07,370 --> 00:05:18,590
+Le voy a dar ese valor a texto si algún consuelo de texto me va a devolver que el valor es el mismo.
+
+53
+00:05:18,600 --> 00:05:28,560
+Voy a poner una comida es el mismo que si yo hago ONIF por el cual siempre pase de igual forma un trueque
+
+54
+00:05:29,000 --> 00:05:37,580
+al cual siempre va a entrar de acuerdo y de igual forma pues me crea una variable length texto mi lógica
+
+55
+00:05:37,670 --> 00:05:44,600
+de JavaScript antiguo me diría que voy a actualizar el valor de esta variable de acuerdo al igual que
+
+56
+00:05:44,600 --> 00:05:45,380
+ha pasado aquí.
+
+57
+00:05:45,770 --> 00:05:46,900
+Entonces yo le pondría
+
+58
+00:05:49,280 --> 00:05:49,990
+curso
+
+59
+00:05:53,480 --> 00:05:57,070
+la Arabel 5 vale.
+
+60
+00:05:57,310 --> 00:06:03,810
+Entonces mi lógica me diría que el valor de texto cuando ya el consuelo
+
+61
+00:06:07,150 --> 00:06:15,790
+de valor de texto va a ser el que pone el Arabel 5 vale aquí sería el que pone J.S.
+
+62
+00:06:17,690 --> 00:06:22,640
+Entonces mi lógica es que yo actualizo esta variable con la palabra Aulet pero realmente el lerdo que
+
+63
+00:06:22,750 --> 00:06:28,190
+actuaba a nivel de bloque entonces simplemente lo que hace es crearse esta variable nueva con un nuevo
+
+64
+00:06:28,190 --> 00:06:35,750
+valor solamente dentro de este bloque de forma que si yo fuera del IB a un consolé log de texto
+
+65
+00:06:39,140 --> 00:06:46,480
+esto me va a mostrar el valor va a ser J.S va a ser el primer valor de aquí vamos a comprobarlo si actualizo
+
+66
+00:06:46,490 --> 00:06:52,050
+la pantalla en el primer ejercicio hemos visto que sacaba 40 50 50 dentro de Elif.
+
+67
+00:06:52,070 --> 00:06:57,410
+He actualizado el valor de la variable principal y aquí fíjate he creado mi variable que tenía como
+
+68
+00:06:57,410 --> 00:06:59,380
+valor cuyos J.S. tal.
+
+69
+00:06:59,500 --> 00:07:07,820
+Después le he creado dentro de Elif a nivel del bloque una variable con la palabra L.T con el mismo
+
+70
+00:07:07,820 --> 00:07:12,560
+nombre que la variable anterior que supuestamente actualizaba el valor de esa variable pero no lo que
+
+71
+00:07:12,560 --> 00:07:18,380
+hace es crearme una variable local a nivel de ese bloque de código a nivel de esa expresión de ese If.
+
+72
+00:07:18,740 --> 00:07:25,430
+Entonces cuando yo hago el consuelo me muestra la Level 5 pero si yo salgo de ese if el valor de la
+
+73
+00:07:25,430 --> 00:07:31,550
+variable texto sigue siendo el inicial porque con la palabra LED solamente actuamos a nivel de bloque
+
+74
+00:07:31,790 --> 00:07:38,960
+a nivel de aquí no a nivel global que es lo que hace las variables con barra de acuerdo así que esa
+
+75
+00:07:38,960 --> 00:07:46,280
+es la diferencia pero que te ha quedado claro que simplemente la diferencia es que con L.T limitamos
+
+76
+00:07:46,790 --> 00:07:51,980
+una variable con un alcance limitado a dentro del bloque de código en el que esté o de la declaración
+
+77
+00:07:52,030 --> 00:07:58,310
+de la expresión en la que esté y var define una variable global en la cual si cambia el valor en algún
+
+78
+00:07:58,310 --> 00:08:06,410
+punto ese valor siempre va a actualizarse globalmente y a partir de ahí va a ir arrastrándolo al que
+
+79
+00:08:06,410 --> 00:08:07,040
+yo le indique.
+
+80
+00:08:07,250 --> 00:08:11,040
+Así que espero que haya quedado claro la diferencia entre LED y var.

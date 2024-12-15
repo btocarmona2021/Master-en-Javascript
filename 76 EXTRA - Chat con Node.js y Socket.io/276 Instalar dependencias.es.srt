@@ -1,0 +1,135 @@
+1
+00:00:00,990 --> 00:00:06,750
+Ahora vamos a instalar los paquetes necesarios o los módulos de Node necesarios para poder trabajar
+
+2
+00:00:06,750 --> 00:00:08,160
+con lo que queremos hacer.
+
+3
+00:00:08,610 --> 00:00:19,200
+Vamos a instalar expres con el comando MPM instalado Express menos menos SOIB para que lo guarde en
+
+4
+00:00:19,200 --> 00:00:24,770
+el proyecto de acuerdo y además no añada una dependencia al package punto Yeison.
+
+5
+00:00:24,780 --> 00:00:25,380
+De acuerdo.
+
+6
+00:00:25,380 --> 00:00:32,940
+Así que le vamos a dar a Enter lo va a instalar expres que como sabes es un un un módulo que nos permite
+
+7
+00:00:33,510 --> 00:00:39,020
+trabajar con el protocolo HTTP tener acciones tener un sistema de ruta etcétera etcétera etcétera.
+
+8
+00:00:39,030 --> 00:00:45,450
+Tener una serie de mí del Wheres que nos van a permitir trabajar con http y muchas más cosas de acuerdo
+
+9
+00:00:45,450 --> 00:00:52,950
+como ya debes saber de el curso de DJs y angular 2 vale esto sería el primer paquete de acuerdo que
+
+10
+00:00:52,950 --> 00:00:58,930
+se ha instalado aquí en la carpeta no de móviles ahora a mano añadió la dependencia por aquí.
+
+11
+00:00:59,190 --> 00:01:08,400
+Vamos a instalar un segundo paquete que va a ser socket o socket punto de acuerdo que nos va a permitir
+
+12
+00:01:08,400 --> 00:01:16,290
+hacer las conexiones en tiempo real crearlo socket etc que como tú sabes es un paquete que nos permite
+
+13
+00:01:16,860 --> 00:01:25,590
+tener un Wallach de cuando nosotros hacemos algún tipo de cambio en el código de DJs de acuerdo y cuando
+
+14
+00:01:25,590 --> 00:01:30,260
+hacemos algún tipo de cambio en el código de DJs ese Wacho es este no Edmon.
+
+15
+00:01:30,270 --> 00:01:36,450
+Este demonio no actualiza ese servidor no lo vuelve a lanzar y por tanto tenemos disponibles los cambios
+
+16
+00:01:36,450 --> 00:01:42,620
+que hemos hecho en el código sin necesidad de volver a lanzar el comando del servidor verdad.
+
+17
+00:01:42,960 --> 00:01:51,300
+Vale pues también lo vamos a instalar el notebook no es lo único que esta vez en lugar de Soib le vamos
+
+18
+00:01:51,300 --> 00:01:57,160
+a poner menos menos y menos de acuerdo para que sea una dependencia de desarrollo es decir que esté
+
+19
+00:01:57,160 --> 00:02:05,340
+en producción o en un servidor remoto lo que sea no no lo tengamos simplemente que es una herramienta
+
+20
+00:02:05,340 --> 00:02:06,680
+de desarrollo.
+
+21
+00:02:07,080 --> 00:02:13,830
+Vale esto si quieres profundizar más pues ya sabes que esto está explicado en el curso de DJs y angular
+
+22
+00:02:13,830 --> 00:02:20,170
+2 Vale estupendo es tu bendición vale ya lo tenemos.
+
+23
+00:02:20,250 --> 00:02:27,000
+Entonces qué vamos a hacer por aquí tenemos las dependencias con gnomon eso que yo también entonces
+
+24
+00:02:27,000 --> 00:02:32,610
+vamos a crear un script aquí en la propiedad scripts aquí en el objeto este vamos a añadir una propiedad
+
+25
+00:02:32,610 --> 00:02:38,820
+nueva que va a ser restart de acuerdo nos va a permitir definir un comando cuando lancemos el comando
+
+26
+00:02:38,940 --> 00:02:43,590
+MPM estar de acuerdo que nos va a permitir lanzar una serie de órdenes.
+
+27
+00:02:43,710 --> 00:02:54,090
+En mi caso quiero que lance la orden no Demon índex punto Jota es que va a ser el fichero que va a haber
+
+28
+00:02:54,090 --> 00:03:01,280
+en el servidor vale pero como el índex no va a estar aquí sino que va a estar en el server vamos a poner
+
+29
+00:03:01,280 --> 00:03:09,870
+aquí Server barra índex Jota es vale y entonces vamos a crear ese fichero índex ese fichero vamos a
+
+30
+00:03:09,870 --> 00:03:19,470
+crear por aquí vamos a guardar índex junto JS guardo y enprincipio pues ya tendríamos lo que viene siendo
+
+31
+00:03:19,470 --> 00:03:25,230
+la dependencia en los paquetes y los módulos de Node instalado preparados para empezar a programar y
+
+32
+00:03:25,230 --> 00:03:32,760
+también tenemos la estructura básica del proyecto vale en el siguiente capítulo que vamos a ver vamos
+
+33
+00:03:32,760 --> 00:03:42,420
+a ver cómo incluir aquí expres cómo lanzar un servidor HTTP con Express cómo utilizar socket yo también
+
+34
+00:03:42,420 --> 00:03:45,140
+para crear sockets etcétera etcétera etcétera.

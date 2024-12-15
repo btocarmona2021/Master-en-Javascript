@@ -1,0 +1,367 @@
+1
+00:00:01,110 --> 00:00:03,430
+Vamos a maquetar esto para que quede bonito.
+
+2
+00:00:03,450 --> 00:00:06,650
+Aquí estoy viendo que tenemos un error en el código.
+
+3
+00:00:07,080 --> 00:00:16,530
+Vamos a revisar provienen y aquí es que le he puesto el mismo nombre al campo entonces se confunde angular
+
+4
+00:00:16,530 --> 00:00:18,510
+y aquí tengo que ponerle ya vale.
+
+5
+00:00:18,660 --> 00:00:26,040
+Aparte de esto una se corrija este fallo yo voy a revisar en mi consola que cuando yo envíe esta información
+
+6
+00:00:26,070 --> 00:00:27,480
+cuando yo rellene mi objeto
+
+7
+00:00:30,240 --> 00:00:36,540
+Balet y le doy a enviar me devuelve un objeto completamente relleno con los datos que yo le he indicado
+
+8
+00:00:36,540 --> 00:00:41,250
+en el formulario con lo cual esto está funcionando bien por el momento.
+
+9
+00:00:41,340 --> 00:00:49,980
+Vale ahora vamos a darle una maquetación CSS a esto para que se vea mejor no vamos a nuestro archivo
+
+10
+00:00:49,980 --> 00:00:58,110
+de CSS que está por aquí en assets CSS stays que al final vamos a hacer los estilos
+
+11
+00:01:00,730 --> 00:01:01,270
+para
+
+12
+00:01:04,110 --> 00:01:07,470
+una sección con un formulario sección con formulario
+
+13
+00:01:09,990 --> 00:01:15,560
+lo primero que voy a hacer es darle un un Padín al container.
+
+14
+00:01:15,580 --> 00:01:22,260
+Vale hemos puesto una clase container al día en general así que le vamos a dar uno de estilo a esa clase
+
+15
+00:01:23,210 --> 00:01:25,770
+junto container.
+
+16
+00:01:26,070 --> 00:01:37,710
+Esto va a tener un Padín de 20 píxeles aunque si Bordoy actualizo aquí lo veo bastante mejor incluso
+
+17
+00:01:37,740 --> 00:01:40,610
+le pondría más Padín de 20 pisos.
+
+18
+00:01:40,610 --> 00:01:42,210
+En realidad le pondría 50
+
+19
+00:01:44,580 --> 00:01:53,580
+50 y lo que pasa es que reduciría el top Badín top se lo reduciría a 10 píxeles.
+
+20
+00:01:53,580 --> 00:01:57,880
+Vale se lo reduzco guardo actualizo y ahí queda.
+
+21
+00:01:57,890 --> 00:01:59,640
+Más bien parece que está bastante bien.
+
+22
+00:01:59,700 --> 00:02:08,060
+Luego también al container dentro del container hay un elemento que tiene un H2 vale un punto conteiner
+
+23
+00:02:10,560 --> 00:02:11,680
+H2.
+
+24
+00:02:11,700 --> 00:02:21,810
+Le voy a poner un border bottom de un PX Solid CCC como hemos hecho en la página de sobre mí y además
+
+25
+00:02:21,810 --> 00:02:30,630
+le voy a poner un pudin botón de 5p X y le voy a poner un margin botón de 10 Mpx y además le voy a poner
+
+26
+00:02:30,630 --> 00:02:35,390
+un display Block para que todo esto funcione.
+
+27
+00:02:35,510 --> 00:02:41,080
+Guardo actualizo y efectivamente pues aquí lo estamos viendo.
+
+28
+00:02:41,080 --> 00:02:46,650
+Vale genial incluso podría aumentar los tamaños a 10 y 15 por aquí
+
+29
+00:02:50,160 --> 00:02:51,290
+bien vale.
+
+30
+00:02:51,310 --> 00:02:56,110
+Ahora vamos a maquetar nuestro formulario Maelo formulario y los vamos a maquetar de manera general
+
+31
+00:02:56,110 --> 00:03:03,240
+de manera global no solamente para esta página sino que en cualquier página que haya un formulario tendriais
+
+32
+00:03:03,300 --> 00:03:04,700
+la maquetación.
+
+33
+00:03:04,700 --> 00:03:15,880
+Voy a ponerle al form en sí el formulario un Wiz del 50 por ciento de la página Malet y a los Label
+
+34
+00:03:16,840 --> 00:03:27,700
+form Label le voy a poner un width del 100 por ciento y voy a poner un display Blok vale a los imput
+
+35
+00:03:27,930 --> 00:03:31,380
+de los formularios imput.
+
+36
+00:03:31,420 --> 00:03:36,160
+Le voy a poner también sobre todo a los imput de tipo texto
+
+37
+00:03:39,260 --> 00:03:42,130
+y a los input de tipo numérico y mail etcétera
+
+38
+00:03:46,100 --> 00:03:56,500
+vamos a poner las comas importados impostados de tipo number email incluso la Tario.
+
+39
+00:03:57,320 --> 00:03:58,260
+Les voy a poner
+
+40
+00:04:01,560 --> 00:04:07,140
+un Wiz también del 100 por cien sobre la caja que lo contiene es decir esto va a tener un win 100 por
+
+41
+00:04:07,140 --> 00:04:12,150
+cien dentro del 50 por ciento que mide el formulario dentro del Formulario.
+
+42
+00:04:12,340 --> 00:04:17,810
+Entonces ya no aparece de esta manera valen mucho más aceptable que como estaba antes.
+
+43
+00:04:17,990 --> 00:04:25,740
+Ok entonces a la Label también le voy a dar un margin bottom Mayi un botón más que Marlín botón Marien
+
+44
+00:04:25,740 --> 00:04:32,840
+top de 10 píxeles para que se separe de los de arriba.
+
+45
+00:04:32,940 --> 00:04:35,280
+Aquí lo estamos viendo se queda bastante bastante bien
+
+46
+00:04:38,070 --> 00:04:44,040
+a los inputs si quizá reducirá un poco el tamaño en lugar de al 100 por cien le pondría el 80 por ciento
+
+47
+00:04:46,320 --> 00:04:48,380
+para que no sean tan tan enormes.
+
+48
+00:04:48,410 --> 00:04:56,550
+Vale así se queda bastante mejor y además le voy a modificar también el padre que tienen y el tamaño
+
+49
+00:04:57,070 --> 00:05:01,120
+a los inputs en este caso voy a poner un pudín de 5 píxeles.
+
+50
+00:05:01,140 --> 00:05:04,230
+A ver qué resultado da.
+
+51
+00:05:04,260 --> 00:05:06,530
+Vale no queda mal.
+
+52
+00:05:06,540 --> 00:05:07,410
+No queda mal.
+
+53
+00:05:07,560 --> 00:05:17,490
+Incluso al Label le voy a poner un Padín bottom o Margin bottom mejor dicho margin botón de 5 píxeles
+
+54
+00:05:17,510 --> 00:05:20,400
+para que se separe un poquito de lo que es el input.
+
+55
+00:05:20,610 --> 00:05:26,940
+Así se queda mejor y por lo demás yo lo dejaría incluso así porque me parece que está bastante elegante
+
+56
+00:05:27,060 --> 00:05:29,500
+y ahora le vamos a dar estilo a nuestro botón.
+
+57
+00:05:29,500 --> 00:05:45,090
+Vale a lo que vienen siendo los botones form Button o form input de tipo submit input type submit le
+
+58
+00:05:45,090 --> 00:05:54,540
+vamos a dar uno de estilo Badel le vamos a dar lo primero un iPhone 6 de 20 18 píxeles.
+
+59
+00:05:54,630 --> 00:06:03,500
+Vamos a dar un par de 10 píxeles y le vamos a dar un bueno quizás le reducía el tamaño de la letra le
+
+60
+00:06:03,540 --> 00:06:05,160
+podría reducir también el Padín.
+
+61
+00:06:05,340 --> 00:06:06,990
+Le vamos a poner un display Blok
+
+62
+00:06:09,840 --> 00:06:12,480
+y le vamos a dar un margen inferior y un botón
+
+63
+00:06:15,700 --> 00:06:19,940
+o superior o mejor dicho Mayim top de 15 píxeles.
+
+64
+00:06:19,970 --> 00:06:30,870
+Guardo actualizo vale y aparece el botón y le voy a dar un color del texto que va a ser width y le voy
+
+65
+00:06:30,870 --> 00:06:38,310
+a poner un background de algún color representativo de la página web en este caso yo diría que le pondría
+
+66
+00:06:38,310 --> 00:06:47,090
+un color azul por ejemplo el mismo color que tiene la cabecera vamos a copiar ese código de color aquí
+
+67
+00:06:47,120 --> 00:06:48,090
+tenemos.
+
+68
+00:06:48,450 --> 00:07:00,300
+Bajamos hacia abajo lo pongo por aquí guardado actualizo Balay tenemos el color lo pondría sólido no
+
+69
+00:07:00,300 --> 00:07:02,640
+lo pondría con transparencia.
+
+70
+00:07:02,640 --> 00:07:11,250
+Aquí lo tenemos y además le aumentaría el Padín a 10 la verdad y le quitaría el Border y le pondría
+
+71
+00:07:11,250 --> 00:07:18,940
+uno Custom Border un PX Solid y se lo podría poner RGB a
+
+72
+00:07:22,540 --> 00:07:27,460
+Vale también pero más oscuro vale vamos a modificar la hora
+
+73
+00:07:31,950 --> 00:07:33,760
+vamos a poner su lado más oscuro.
+
+74
+00:07:36,040 --> 00:07:42,140
+En este caso el borde lo podemos poner un poco oscuro.
+
+75
+00:07:42,180 --> 00:07:46,760
+Vale con este código de color RGB a ver si lo puedo copiar.
+
+76
+00:07:49,460 --> 00:07:52,250
+Bueno sería 13 67 133
+
+77
+00:07:54,530 --> 00:08:01,150
+13 67 133.
+
+78
+00:08:01,570 --> 00:08:06,000
+Vale ya tendríamos nuestros estilos de nuestra página del formulario.
+
+79
+00:08:06,070 --> 00:08:06,420
+Ok.
+
+80
+00:08:06,450 --> 00:08:09,860
+Bastante bastante aceptable y nada más.
+
+81
+00:08:09,870 --> 00:08:14,330
+Simplemente con esto cuando yo le doy clic a este botón que además le voy a poner un cursor Painter
+
+82
+00:08:18,380 --> 00:08:26,150
+para que cuando pase por encima se me ponga esto se me ponga el cursor en formato de pinchar y además
+
+83
+00:08:26,150 --> 00:08:33,500
+se vea poner un hover para que cuando yo haga Over Me encambio un poco los estilos
+
+84
+00:08:36,970 --> 00:08:49,430
+o ver y ver y cuando yo pase por encima lo que va a pasar aquí es que me va a poner un fondo un poco
+
+85
+00:08:49,430 --> 00:08:54,040
+más aclarado digamos con más opacidad 0,8.
+
+86
+00:08:54,530 --> 00:08:59,370
+Entonces cuando yo pase por encima me sale el cursor Painters y además se me ilumina un poco más.
+
+87
+00:08:59,390 --> 00:09:04,900
+Vale entonces pues ya lo tenemos en el formulario montado el formulario pues sigue funcionando igual
+
+88
+00:09:04,910 --> 00:09:09,260
+si yo lo rellenó con información ok si le doy a enviar.
+
+89
+00:09:09,260 --> 00:09:15,230
+Pues aquí tenemos el formulario relleno con los datos y el objeto relleno como nos interesa.
+
+90
+00:09:15,240 --> 00:09:21,460
+Bien pues en la siguiente clase lo que vamos a hacer va a ser validar el formulario de acuerdo con poner
+
+91
+00:09:21,500 --> 00:09:29,060
+los típicos mensajes de validación y poner este botón en modo disabled o que no funcione el envío de
+
+92
+00:09:29,330 --> 00:09:32,750
+la creación del proyecto cuando no sea válido el formulario.

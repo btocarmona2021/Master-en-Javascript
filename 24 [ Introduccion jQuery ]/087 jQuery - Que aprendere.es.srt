@@ -1,0 +1,259 @@
+1
+00:00:00,780 --> 00:00:07,260
+A partir de ahora en el curso vamos a empezar a trabajar con Kairi Coeur y es una librería para JavaScript
+
+2
+00:00:07,290 --> 00:00:13,680
+que nos permite hacer animaciones que nos permiten hacer peticiones que nos hace la vida mucho más sencilla
+
+3
+00:00:13,980 --> 00:00:17,680
+a la hora de trabajar con JavaScript y mucha gente dice que.
+
+4
+00:00:17,850 --> 00:00:24,660
+Ya no se usa o que ya está anticuado etcétera pero esto es una mentira porque realmente se utiliza en
+
+5
+00:00:24,660 --> 00:00:31,320
+prácticamente todos los proyectos web que hay en Internet de acuerdo y en cualquier web que tiene JavaScript.
+
+6
+00:00:31,350 --> 00:00:38,550
+Es muy raro que no haya algo con algún plugin o alguna cosa coñi QWERTY y además en toda la web hay
+
+7
+00:00:38,550 --> 00:00:44,520
+JavaScript está presente Javascript con lo cual Kairi está súper súper expandido en todos los proyectos
+
+8
+00:00:45,030 --> 00:00:46,350
+y es muy muy popular.
+
+9
+00:00:46,350 --> 00:00:52,420
+Una de las librerías más populares que hay y seguirá siendo así que es fundamental aprender QWERTY y
+
+10
+00:00:52,440 --> 00:00:57,210
+es lo que vamos a aprender a partir de ahora en las siguientes clases y en las siguientes secciones
+
+11
+00:00:57,360 --> 00:00:59,530
+de este máster en JavaScript.
+
+12
+00:00:59,600 --> 00:01:05,540
+Bien vamos a empezar a aprender y qwerty viendo los primeros pasos coñi y viendo qué y para qué sirve.
+
+13
+00:01:05,580 --> 00:01:11,340
+Cómo integrar en una página web las diferencias entre las diferentes versiones de IE QWERTY las diferentes
+
+14
+00:01:11,370 --> 00:01:16,250
+y las diferencias entre la versión 1 2 y 3 de QWERTY etcétera.
+
+15
+00:01:16,260 --> 00:01:22,710
+Después pasaremos a aprender cómo trabajar con selectores en qwerty de acuerdo en cuál y se trabaja
+
+16
+00:01:22,710 --> 00:01:27,370
+con selectores de manera más sencilla todavía de lo que se hace en JavaScript puro.
+
+17
+00:01:27,660 --> 00:01:33,930
+De forma que podemos utilizar selectores CSS para seleccionar los diferentes elementos del DOM veremos
+
+18
+00:01:33,930 --> 00:01:42,390
+cómo seleccionar elementos que tengan un ideé concreto como seleccionar clases cómo seleccionar etiquetas
+
+19
+00:01:43,230 --> 00:01:49,920
+tal cual cómo seleccionar una etiqueta por SUAT por sus atributos cómo utilizar los métodos Fain y Parent
+
+20
+00:01:50,760 --> 00:01:56,970
+de Kairi y muchas cosas más que nos van a servir para seleccionar elementos del DOM.
+
+21
+00:01:57,000 --> 00:02:02,850
+Después pasaremos a aprender cómo se trabaja con los eventos dentro del QWERTY y veremos cómo trabajar
+
+22
+00:02:02,850 --> 00:02:07,180
+con los eventos del ratón el mouse y Hover.
+
+23
+00:02:07,530 --> 00:02:13,140
+De acuerdo veremos también cómo trabajar con el evento click doble click también con el Blur con el
+
+24
+00:02:13,140 --> 00:02:13,800
+focus.
+
+25
+00:02:14,310 --> 00:02:17,940
+Veremos también un ejercicio y una práctica también con el mouse move.
+
+26
+00:02:18,180 --> 00:02:23,950
+Varios ejemplos más con los eventos es decir profundizaremos bastante en este tema.
+
+27
+00:02:24,150 --> 00:02:31,220
+Después aprenderemos a trabajar con efectos y animaciones veremos cómo trabajar con el DOM y los textos
+
+28
+00:02:31,230 --> 00:02:33,500
+también para modificar textos.
+
+29
+00:02:33,510 --> 00:02:39,030
+Veremos como hacer efecto en Yahiko y cómo hacer transiciones cómo hacer animaciones personalizadas
+
+30
+00:02:39,610 --> 00:02:44,370
+y también veremos algún calvas que otro que tienen los efectos para hacer cierta acción.
+
+31
+00:02:46,280 --> 00:02:50,480
+Después pasaremos a uno de los puntos más importantes que hay dentro de cuerpo y una de las cosas que
+
+32
+00:02:50,480 --> 00:02:56,510
+más facilita que es el tema del Ayax veremos cómo hacer peticiones asíncronas peticiones Ayax veremos
+
+33
+00:02:56,510 --> 00:02:59,750
+cómo utiliza el método Lovett de Ayax centro y qwerty.
+
+34
+00:02:59,930 --> 00:03:05,480
+Veremos como utilizar el método guetto hacer peticiones porque con Ayax en QWERTY como hacer peticiones
+
+35
+00:03:05,480 --> 00:03:13,410
+por post con Ayax recovery como trabajar con el método dólar punto Ayax y también súper útil de acuerdo.
+
+36
+00:03:13,430 --> 00:03:18,960
+Esta elección es súper súper importante porque esto es de lo que más se usa dentro de mi cuerpo.
+
+37
+00:03:19,400 --> 00:03:24,660
+Una vez que hayamos aprendido todo esto ya sabremos las bases de Kairi y pasaremos a aprender un plug
+
+38
+00:03:24,660 --> 00:03:32,510
+in o una librería que funciona sobre Güiri que es qwerty o hoy QWERTY y nos permite manipular mucho
+
+39
+00:03:32,510 --> 00:03:38,390
+más la interfaz de una página web que utiliza qwerty de acuerdo y hay mucha gente que lo utiliza para
+
+40
+00:03:38,390 --> 00:03:44,420
+hacer ciertos ciertas cosas porque tiene dentro varios plugins y varios efectos más que complementan
+
+41
+00:03:44,420 --> 00:03:45,180
+a lo que.
+
+42
+00:03:45,600 --> 00:03:48,130
+Entonces veremos que es chico y para qué sirve.
+
+43
+00:03:48,140 --> 00:03:51,230
+Cómo incluye contribuí en un proyecto.
+
+44
+00:03:51,230 --> 00:03:59,090
+Veremos también cómo trabajar con animaciones e interacciones dentro de la página es decir veremos cómo
+
+45
+00:03:59,090 --> 00:04:06,320
+hacer un tragabolas un elemento redimensionar un elemento que puede seleccionarlo un elemento que lo
+
+46
+00:04:06,320 --> 00:04:11,810
+suelta dentro de un Dib y pasa algo de acuerdo y también veremos varios efectos y varias animaciones
+
+47
+00:04:11,810 --> 00:04:17,250
+nuevas que se añaden ya al fin a la librería de Kuei.
+
+48
+00:04:17,300 --> 00:04:22,550
+Aparte también veremos cómo utilizan los plugins y los widgets que tiene dentro y contribuí cómo hacer
+
+49
+00:04:22,550 --> 00:04:23,270
+Tultepec.
+
+50
+00:04:23,270 --> 00:04:29,000
+También veremos varias librerías y varios plugins más por internet que lo hacen como hacer cuadros de
+
+51
+00:04:29,000 --> 00:04:36,800
+diálogo como hacer un calendario también Pecker como hacer un hastags un típico D.E.P que tiene varias
+
+52
+00:04:36,800 --> 00:04:42,440
+Tappsi puede saltar entre una Tabi y otra de acuerdo y cosa súper interesante y además veremos cómo
+
+53
+00:04:42,440 --> 00:04:48,320
+se usan los plugin que tiene equally UI y además buscaremos en internet más plugins que sean alternativa
+
+54
+00:04:48,380 --> 00:04:50,930
+y veremos lo fácil que se pueden utilizar.
+
+55
+00:04:51,000 --> 00:04:55,940
+Vale y después una vez que hayamos aprendido todo esto uniremos todas las piezas del puzle de lo que
+
+56
+00:04:55,940 --> 00:05:01,770
+hemos aprendido en esta sección y en las anteriores y haremos un proyecto completo con JavaScript y
+
+57
+00:05:01,770 --> 00:05:07,520
+QR que va a tener muchas partes de acuerdo veremos un proyecto en el cual vamos a integrar todo lo que
+
+58
+00:05:07,520 --> 00:05:09,590
+sabíamos de HTML CSS.
+
+59
+00:05:09,650 --> 00:05:14,900
+Después todo lo que sabemos de programación todo lo que sabíamos de programación más avanzada con JavaScript
+
+60
+00:05:15,260 --> 00:05:21,800
+y todo lo que se queda y todo lo que sabemos de Kairi y Kourí y veremos cómo hacer un proyecto completo
+
+61
+00:05:22,490 --> 00:05:29,210
+que va a tener varios ejercicios y tal así que sin más vamos a empezar a aprender y qwerty vamos a empezar
+
+62
+00:05:29,210 --> 00:05:35,930
+con los primeros pasos de cuerda espero que te vaya bien en esta sección que aprendan bastante y ya
+
+63
+00:05:35,930 --> 00:05:40,370
+sabes que si tienes cualquier duda o lo que sea lo puedes poner en la parte de pregunta y respuesta
+
+64
+00:05:40,400 --> 00:05:44,060
+yo te voy a estar ayudando si algo no funciona o lo que sea.
+
+65
+00:05:44,060 --> 00:05:47,230
+Así que espero que les saque provecho a esta sección y empezamos.

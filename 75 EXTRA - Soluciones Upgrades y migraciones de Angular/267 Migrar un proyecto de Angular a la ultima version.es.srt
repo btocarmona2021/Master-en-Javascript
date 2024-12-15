@@ -1,0 +1,699 @@
+1
+00:00:00,990 --> 00:00:07,860
+Ahora vamos a ver cómo migrar a un proyecto de angular 5 a angular si esto es relativamente sencillo
+
+2
+00:00:07,890 --> 00:00:13,620
+porque en esta nueva versión de un Braceli han incluido un comando nuevo que se llama NG update y nos
+
+3
+00:00:13,620 --> 00:00:18,510
+permite actualizar la dependencia y actualizar el proyecto angular de manera sencilla.
+
+4
+00:00:18,620 --> 00:00:20,480
+Así que vamos a hacer esas pruebas.
+
+5
+00:00:20,910 --> 00:00:26,220
+Para eso voy a cargar un proyecto que yo he hecho anteriormente que es un proyecto de una red social
+
+6
+00:00:26,430 --> 00:00:33,540
+que vimos cómo desarrollarlo en el curso de desarrollar una red social con JavaScript angular DJs y
+
+7
+00:00:33,540 --> 00:00:39,090
+el My stack que está muy muy bien en un curso súper recomendable y además está ahora súper rebajado
+
+8
+00:00:39,090 --> 00:00:41,520
+de precio y lo puedes encontrar en Víctor Robles.
+
+9
+00:00:41,550 --> 00:00:47,910
+Punto es barra Academy o en un recurso de este vídeo o en la descripción de este vídeo entonces voy
+
+10
+00:00:47,910 --> 00:00:53,680
+a entrar al directorio del proyecto aquí tengo un API en este proyecto desarrollado un Bakken con un
+
+11
+00:00:53,790 --> 00:01:01,220
+DJs Mongo DB Express etc en el cual vimos cómo hacer un montón de cosas como utilizar el asíncrona wait
+
+12
+00:01:01,550 --> 00:01:06,030
+cómo hacer consultas más complejas como tener un montón de entidades por la red social tiene muchas
+
+13
+00:01:06,030 --> 00:01:12,300
+cosas ahí tal y vimos cómo crear el Bakken el API que esta con DJs y luego tenemos el frontend que es
+
+14
+00:01:12,900 --> 00:01:14,260
+un angular 5 Malet.
+
+15
+00:01:15,300 --> 00:01:20,670
+Entonces vamos a hacer una copia de este directorio para estar trabajando sobre este directorio nuevo
+
+16
+00:01:22,740 --> 00:01:24,200
+y no machacar.
+
+17
+00:01:24,450 --> 00:01:29,010
+En el caso de que no falle algo el proyecto que hemos hecho anteriormente así que simplemente copiamos
+
+18
+00:01:29,010 --> 00:01:35,070
+la carpeta del cliente de nuestro proyecto angular y vamos a trabajar sobre esa nueva copia.
+
+19
+00:01:35,070 --> 00:01:38,760
+Vale vale ya tenemos la copia.
+
+20
+00:01:38,790 --> 00:01:46,620
+Vamos a cambiarle el nombre vamos a poner el cliente 6 en referencia angular 6 Vale y ahora vamos a
+
+21
+00:01:46,620 --> 00:01:54,360
+entrar al proyecto desde la consola madre voy a salir de lo que tengo aquí ahora mismo tengo un servidor
+
+22
+00:01:54,360 --> 00:01:59,910
+corriendo voy a hacer el control C le digo que sí para cortar la ejecución voy a entrar ese proyecto
+
+23
+00:02:04,170 --> 00:02:10,170
+vale la carpeta de ese proyecto que desarrollé en ese curso y aquí voy a ejecutar el NG serve para ver
+
+24
+00:02:10,170 --> 00:02:18,390
+que arranca el proyecto que funciona y todo fíjate que ya me falla por qué me falla porque me dice Oye
+
+25
+00:02:18,480 --> 00:02:25,410
+tú tienes la versión de angular Cellay más moderna pero no encuentro el fichero angular Jayson vale
+
+26
+00:02:25,410 --> 00:02:31,950
+voy a cargar el proyecto por aquí que lo tengo ya cargado tengo ese proyecto y a mi editor de código
+
+27
+00:02:31,950 --> 00:02:40,050
+cargado vale y me dice que estoy intentando cargar esto pero realmente no existe no existe el angular
+
+28
+00:02:41,160 --> 00:02:47,110
+Jayson efectivamente que estoy cargando estoy intentando cargar el servidor dentro de curso social no.
+
+29
+00:02:47,200 --> 00:02:53,430
+No tengo ninguna instalación de angular hecha pero si entro dentro de la carpeta Client 6 y ejecuto
+
+30
+00:02:53,430 --> 00:02:55,920
+de nuevo el MGSV.
+
+31
+00:02:57,450 --> 00:03:02,640
+Ahora si me deja me dice que esté utilizando la versión 6
+
+32
+00:03:05,200 --> 00:03:12,010
+vale que realmente me va a cargar el proyecto pero me da un aviso de que esté utilizando una versión
+
+33
+00:03:12,010 --> 00:03:15,710
+más nueva que para angular 6 pues hay nuevos cambios.
+
+34
+00:03:15,730 --> 00:03:16,380
+Vale.
+
+35
+00:03:16,430 --> 00:03:22,160
+Aún así me va a cargar el proyecto y no va a haber problema y lo vamos a tener en el HTTP Barredos punto
+
+36
+00:03:22,950 --> 00:03:27,220
+4200 local 4200 y lo vamos a tener.
+
+37
+00:03:28,090 --> 00:03:33,250
+Vale aunque tenga una versión más moderna de angular Cellay retocó retrocompatible con los proyectos
+
+38
+00:03:33,250 --> 00:03:38,710
+anterior y puedo cargarlo pero me avisa de que hay una versión seit de angulas vale ahora si vuelvo
+
+39
+00:03:38,710 --> 00:03:43,930
+a mi proyecto al navegador me aparece la carpeta del cliente.
+
+40
+00:03:44,080 --> 00:03:48,340
+Mi red social perfectamente ya estoy identificado aquí con mis datos.
+
+41
+00:03:48,340 --> 00:03:53,720
+Puedo irme al Heinlein pues tengo toda mi Teyla aquí con todas las publicaciones.
+
+42
+00:03:53,740 --> 00:03:57,690
+La verdad que me quedó bastante bien esta red social.
+
+43
+00:03:58,120 --> 00:04:00,330
+Vale puedo entrar a ver a la gente que hay.
+
+44
+00:04:00,340 --> 00:04:05,240
+Puedo dejar de seguir a alguien puedo coger y seguir a otro.
+
+45
+00:04:05,380 --> 00:04:09,940
+Vale puede entrar al perfil de esa persona a ver quien seguidores tiene.
+
+46
+00:04:10,150 --> 00:04:17,590
+Vale puedo entrar a mi perfil puedo poner una publicación vale aquí lo tenemos puedo borrarla.
+
+47
+00:04:17,590 --> 00:04:24,720
+Me pregunta la borro tengo mi proyecto que es un proyecto de angular hecho un cliente de ãngulo.
+
+48
+00:04:24,800 --> 00:04:30,610
+Yo quiero actualizarlo anularse y como puedo hacerlo pues utilizando el NG update que es un nuevo comando
+
+49
+00:04:33,440 --> 00:04:38,660
+entonces voy a cortar la ejecución de esto control C le digo que si íbamos a ejecutar unos comandos
+
+50
+00:04:38,660 --> 00:04:43,370
+para actualizar nuestro angulado una nueva versión y a ver si no desocupe algún error a ver si no funciona
+
+51
+00:04:43,400 --> 00:04:44,870
+o a ver qué pasa.
+
+52
+00:04:45,070 --> 00:04:48,720
+Lo que tenemos que hacer es ejecutar el comando NG.
+
+53
+00:04:49,160 --> 00:04:54,570
+Simplemente le doy a Enter.
+
+54
+00:04:55,390 --> 00:05:00,640
+Pero claro esto no me funciona porque dentro de este proyecto hay una versión de angulas Celebi también
+
+55
+00:05:00,640 --> 00:05:05,800
+instalada en donde tengo que ejecutar el comando PDM install
+
+56
+00:05:09,190 --> 00:05:16,870
+arroba angular barra Fellay para instalar dentro del proyecto el angular Celebi Nuevo Vale y le tengo
+
+57
+00:05:16,870 --> 00:05:23,560
+que decir arroba Ladd esto voy a instalar dentro del propio proyecto la nueva versión de ãngulo Urcelay
+
+58
+00:05:23,710 --> 00:05:27,700
+y entonces ya tendré disponible el comando disfrutarde.
+
+59
+00:05:29,410 --> 00:05:36,040
+Entonces ahora vamos a lanzar el comando NG update arrobado angular barra Cellay
+
+60
+00:05:43,840 --> 00:05:49,370
+eso es lo primero para que finalmente nos actualice angular Ucelay dentro de ese proyecto en concreto
+
+61
+00:05:51,080 --> 00:05:52,480
+lo está actualizando ahora.
+
+62
+00:05:52,490 --> 00:05:59,060
+Fíjate que ha borrado el angular Cele y Jayson ya ha puesto el nuevo el angular Jayson está actualizando
+
+63
+00:05:59,060 --> 00:06:01,660
+todo lo que hay dentro del proyecto actual.
+
+64
+00:06:01,670 --> 00:06:10,460
+Lo más importante bien ya lo tenemos actualizado y ahora una vez que hemos lanzado el LG update de angular
+
+65
+00:06:10,530 --> 00:06:17,660
+CFI como hemos hecho aquí arriba en update a robándoles CL y ahora vamos a lanzar el comando simplemente
+
+66
+00:06:17,780 --> 00:06:24,260
+M.G. update y esto nos va a decir que librería necesitan actualización a escupir un listado de cosas
+
+67
+00:06:24,320 --> 00:06:27,860
+para poder actualizar con el ejecutante y poder mirarlo.
+
+68
+00:06:27,950 --> 00:06:34,940
+Vale fíjate que nos está devolviendo una tabla que me indica el nombre de El paquete que tengo que actualizar
+
+69
+00:06:34,940 --> 00:06:41,020
+que es el core de angular y luego el RX J.S que hay una nueva versión ahora que hay que actualizarlo
+
+70
+00:06:41,050 --> 00:06:48,290
+vale y luego me dice de qué versión va a pasar de la 5 a la 6 vale y luego me he ido también el comando
+
+71
+00:06:48,440 --> 00:06:54,620
+específico para actualizar solamente eso o que puedo lanzar el ejecutante en menos menos sol para actualizar
+
+72
+00:06:54,620 --> 00:06:58,580
+todo lo que sea necesario NG update menos menos.
+
+73
+00:06:58,640 --> 00:07:05,000
+Eso es lo que vamos a ejecutar nosotros le vamos a dar a gente y ahora se van a actualizar esos paquetes
+
+74
+00:07:05,000 --> 00:07:14,290
+a Liberia y se va a realizar la migración y la actualización del proyecto de angular 5 angular 6 de
+
+75
+00:07:14,770 --> 00:07:20,990
+aquí me dice que tengo varias incompatibilidades vamos a abrir el paquete punto Yeison y aquí vamos
+
+76
+00:07:20,990 --> 00:07:24,250
+a cambiar donde tenemos they've scrip.
+
+77
+00:07:24,740 --> 00:07:30,800
+Aquí vamos a poner la versión 2 de angulado moment porque me pregunta qué me dicen
+
+78
+00:07:34,170 --> 00:07:35,040
+aquí me dice
+
+79
+00:07:38,320 --> 00:07:47,440
+que angulado Moment no es compatible y necesita ser la dos así que vamos a ponerla 1 9
+
+80
+00:07:53,530 --> 00:07:55,200
+que es la más nueva.
+
+81
+00:07:55,270 --> 00:07:57,730
+Luego Taipe escribe también tenemos que actualizarlo.
+
+82
+00:07:57,730 --> 00:08:00,340
+Tenemos las dos 4 y aquí me pide la 2
+
+83
+00:08:03,530 --> 00:08:07,350
+me pide la 2 7 2.
+
+84
+00:08:08,090 --> 00:08:17,450
+Si vamos a instalar por la 2 7 2 de Tapper Creep 2 7 2 vale y ahora ejecutamos el comando en MPM update
+
+85
+00:08:17,660 --> 00:08:21,560
+para que se descargue las nuevas dependencias.
+
+86
+00:08:21,950 --> 00:08:23,840
+Ya me ha actualizado las dependencias
+
+87
+00:08:29,520 --> 00:08:32,370
+vale ya tenemos dependencias nuevas.
+
+88
+00:08:32,430 --> 00:08:37,080
+Ahora voy a ejecutar de nuevo el NG update
+
+89
+00:08:39,780 --> 00:08:42,480
+para ver qué paquete podemos actualizar y tal
+
+90
+00:08:47,110 --> 00:08:52,390
+me llega el cobre y volvemos a jugar en MPM GreenEdge update al menos sol
+
+91
+00:08:59,080 --> 00:09:03,740
+y además vamos a cortar y le vamos a poner menos.
+
+92
+00:09:03,740 --> 00:09:10,410
+Menos Force en EEUU donde menos menos menos menos Force para no tener problema y que no note alguna
+
+93
+00:09:10,410 --> 00:09:19,890
+incompatibilidad porque son cosas que todavía no están pulida en actualizador este entonces y ya lo
+
+94
+00:09:19,890 --> 00:09:26,970
+tenemos actualizado si revisamos el pacas cuando vemos que las versiones ya son las 6.
+
+95
+00:09:26,970 --> 00:09:36,090
+Vale no hay problema incluso de nos instala RX J.S. Compact para que dé compatibilidad a lo observable
+
+96
+00:09:36,180 --> 00:09:42,000
+de acuerdo a poder hacer peticiones Ayax y a la librería de RX J.S. observable para recoger los datos
+
+97
+00:09:42,000 --> 00:09:43,520
+que nos devuelve las peticiones y tal.
+
+98
+00:09:43,540 --> 00:09:50,640
+Vale entonces no hay ningún tipo de problema podemos lanzar el comando NG Serve a ver si no funciona
+
+99
+00:09:51,470 --> 00:10:01,650
+baldaquino de algún aviso y tal pero bueno eso no tiene importancia me dice que el compilador necesita
+
+100
+00:10:02,130 --> 00:10:09,480
+una versión mayor o igual a la 2 7 2 y menor a la 2 8 11 ahora sí podemos volver a lanzar el comando
+
+101
+00:10:11,790 --> 00:10:13,680
+para borrar la 2 8 3
+
+102
+00:10:18,940 --> 00:10:20,170
+horas y la desinstala
+
+103
+00:10:30,080 --> 00:10:42,680
+ya lo tenemos ahora vamos a hacer un MPM cache clean menu menos Force Vale y ahora vamos a ejecutar
+
+104
+00:10:42,770 --> 00:10:47,570
+MPM install 1 6 they've scrip
+
+105
+00:10:50,000 --> 00:10:53,290
+arroba 2 .7 punto
+
+106
+00:11:01,300 --> 00:11:13,820
+2 7 2 siguen instalar y ahora tenemos autorizamos aquí el package punto Yeison y tenemos la versión
+
+107
+00:11:13,820 --> 00:11:16,590
+de Taipe escribe 2 7 2.
+
+108
+00:11:16,610 --> 00:11:25,880
+Vale perfecto pues ya podíamos lanzar el MPM Istar aunque yo lo que haría sería instalar esta dependencia
+
+109
+00:11:25,880 --> 00:11:29,660
+como DEHP como una dependencia de desarrollo.
+
+110
+00:11:29,930 --> 00:11:39,460
+Así que voy a visitar la dependencia de scrip un Install y instalar como dependencia de desarrollo ahora
+
+111
+00:11:39,590 --> 00:11:48,410
+vale escribo porque lo suyo realmente porque realmente cuando ponemos un proyecto de en producción Taipe
+
+112
+00:11:48,410 --> 00:11:54,530
+scrip ya no es necesario porque ya no ha generado los binario y todo lo necesario así que no era necesario.
+
+113
+00:11:54,770 --> 00:11:59,540
+Vale ahora voy a ejecutar lo mismo en el menú menos 6 Beyonder
+
+114
+00:12:02,600 --> 00:12:07,400
+y voy a instalar Taipe scrip 2 7 2.
+
+115
+00:12:07,440 --> 00:12:13,850
+Ahora si si refresco mi papá chillón me parece Tepes Creep y ya voy a lanzar mi comando NG serve para
+
+116
+00:12:13,850 --> 00:12:16,130
+arrancar el servidor.
+
+117
+00:12:16,320 --> 00:12:18,020
+A mi me ha compilado todo perfectamente.
+
+118
+00:12:18,020 --> 00:12:20,300
+Voy a actualizar la pantalla de mi navegador
+
+119
+00:12:23,890 --> 00:12:26,240
+y ya tengo mi proyecto actualizado.
+
+120
+00:12:26,320 --> 00:12:34,210
+Qué pasa que esto parece ser que me ha actualizado el gustã y por eso no me funciona esta cosa vale
+
+121
+00:12:34,250 --> 00:12:36,960
+pero realmente lo que es angular está actualizado.
+
+122
+00:12:37,000 --> 00:12:42,550
+Qué pasa que me ha cambiado la versión de vostra a la 4 y la versión 4 no es estable con el proyecto
+
+123
+00:12:42,550 --> 00:12:42,850
+etc..
+
+124
+00:12:42,850 --> 00:12:45,790
+Efectivamente me ha cambiado la versión 4.
+
+125
+00:12:45,900 --> 00:12:53,860
+Que poner la 3 1 6 que era la que yo tenía o la 3:13 Y la versión que yo quería.
+
+126
+00:12:53,890 --> 00:13:02,080
+Así que por el momento voy a necesitar a la versión 4 de vostra voy a hacer el control C s en MPM un
+
+127
+00:13:02,190 --> 00:13:11,680
+install menos Soib vostra la voy a eliminar y ahora voy a instalar la versión que a me interesa concreta
+
+128
+00:13:11,740 --> 00:13:16,430
+que es la que realmente funciona con el código que yo tengo en este proyecto.
+
+129
+00:13:16,700 --> 00:13:25,750
+Vale ahora ejecuto en Install fenómenos Soib vostra y le digo la versión con él arroba
+
+130
+00:13:29,860 --> 00:13:33,850
+arroba 3.3 puntos hoy que la versión que yo quiero
+
+131
+00:13:37,180 --> 00:13:40,800
+me gusta porque el código de un proyecto estaba hecho con esta versión.
+
+132
+00:13:42,070 --> 00:13:49,700
+Vale ya lo tengo perfectamente ahora voy a actualizar la pantalla porque tengo que lanzar en ejercer
+
+133
+00:13:49,730 --> 00:13:58,190
+declaró en Geiser relanzarlo lo lanzo para que me vuelva a cargar el proyecto y acoplarlo Mades actualizo
+
+134
+00:13:58,190 --> 00:14:05,030
+la pantalla ahora ya si ya tengo mi web exactamente igual.
+
+135
+00:14:05,330 --> 00:14:09,710
+Fijate que ahora me escupe algún error en la línea 2 del following component
+
+136
+00:14:12,380 --> 00:14:22,730
+vamos a solucionarlo en la línea 2 del following component components following linea 2 me dice que
+
+137
+00:14:22,790 --> 00:14:30,620
+uses Nain no existe aquí lo que tenemos que hacer es comprobar el jefe de User vale entonces en ese
+
+138
+00:14:30,620 --> 00:14:31,070
+caso
+
+139
+00:14:35,110 --> 00:14:42,450
+si que funciona fijate que el error de Cury me lo me lo QBE por aquí pero ahora si entro aquí me deja
+
+140
+00:14:42,510 --> 00:14:50,430
+usuarios seguidos por Javier Valle y podemos depurarlo error me dice vostra necesita qwerty en su versión
+
+141
+00:14:50,490 --> 00:14:59,730
+1 9 o superior pero lo Wer a la versión 3 Vale tenemos que instalar una versión de cuero menor también
+
+142
+00:14:59,730 --> 00:15:08,580
+vale para eso tengo que cortar la ejecución de nuevo de nuestro proyecto vale para adaptar a las versiones
+
+143
+00:15:08,580 --> 00:15:16,060
+que yo tenía en angular en el proyecto de Yangüela que yo tenía para utilizar QWERTY con Busta.
+
+144
+00:15:16,070 --> 00:15:17,970
+3.
+
+145
+00:15:18,300 --> 00:15:21,180
+Necesito tener una versión 1 9.
+
+146
+00:15:21,570 --> 00:15:23,400
+Vale así que voy a desinstalar jQuery
+
+147
+00:15:25,950 --> 00:15:34,890
+MPM un install fenómeno SOIB y query lo voy a visitar y ahora Ovi instalar mi versión nueva
+
+148
+00:15:40,350 --> 00:15:49,440
+que es la 1 9 que me decía Aquí la 1 9 1 eso es evitar que realmente funcionan igual que funciona igual
+
+149
+00:15:49,440 --> 00:15:49,930
+que el Android.
+
+150
+00:15:49,950 --> 00:15:56,140
+Lo único que la versión 3D QWERTY está como minificción más reducida pero lo mismo vale ahora voy a
+
+151
+00:15:56,220 --> 00:16:05,040
+instalarla MPM install fenómenos Soib QWERTY y entonces con el arroba indicó la versión 1 punto 9 punto
+
+152
+00:16:05,090 --> 00:16:05,590
+1.
+
+153
+00:16:05,810 --> 00:16:12,990
+Instalo y qwerty y conecto quedará todo solucionado y la plataforma seguirá funcionando igual pero con
+
+154
+00:16:13,080 --> 00:16:18,020
+la nueva versión de angular instalada ok perfecto.
+
+155
+00:16:18,110 --> 00:16:25,020
+Si actualizo la pantalla ahora tengo que volver a ejecutar MGSV para compilar el proyecto y lanzarlo
+
+156
+00:16:26,900 --> 00:16:31,150
+me dice que no encuentra allí QWERTY.
+
+157
+00:16:31,510 --> 00:16:39,810
+Voy a ver si se instala la librería si la tenemos ahora vamos a ver si realmente en el módulo la tenemos
+
+158
+00:16:41,670 --> 00:16:42,330
+QWERTY
+
+159
+00:16:52,360 --> 00:16:53,720
+la tenemos aquí.
+
+160
+00:16:53,920 --> 00:17:00,370
+Lo que pasa es que los directorios son diferentes a los que yo tengo en mi angular punto Yeison entonces
+
+161
+00:17:00,460 --> 00:17:07,720
+vamos a cambiarlo porque el Kurumi lo tenemos en la raíz ahora así que voy a entrar a mi angular Yeison
+
+162
+00:17:07,780 --> 00:17:13,780
+que es el problema y aquí en la parte de scripts en lugar de estar en la carpeta vist está directamente
+
+163
+00:17:14,200 --> 00:17:17,780
+en el directorio raíz del módulo que he instalado.
+
+164
+00:17:18,130 --> 00:17:26,260
+Ahora si ahora hago Control C si y vuelvo a lanzar NG serve para compilar mi proyecto y lanzar el servidor
+
+165
+00:17:26,260 --> 00:17:29,030
+local de desarrollo de angular.
+
+166
+00:17:29,040 --> 00:17:33,070
+Ya si no tenemos bien actualizamos la pantalla
+
+167
+00:17:35,600 --> 00:17:42,220
+vemos que todo va bien los menús me funcionan que van con qwerty y todo va bien.
+
+168
+00:17:42,220 --> 00:17:47,110
+Realmente ya tenemos el proyecto completamente migrado del caso de un proyecto mío o de una red social
+
+169
+00:17:47,140 --> 00:17:53,320
+que desarrollé en un curso que se llama desarrollar una red social con JavaScript angular y DJs que
+
+170
+00:17:53,320 --> 00:17:55,320
+te lo dejaré en mi web.
+
+171
+00:17:55,360 --> 00:17:59,860
+Víctor roleo web punto desbarranca de Milo puede puedes hacerlo y puedes aprender a desarrollar esta
+
+172
+00:17:59,860 --> 00:18:08,140
+aplicación y aquí se ven muchas cosas tanto de DJs como de angular a un nivel bastante avanzado y nada
+
+173
+00:18:08,140 --> 00:18:08,350
+más.
+
+174
+00:18:08,350 --> 00:18:14,860
+Con esto ya hemos visto cómo migrar una aplicación de angular 5 o una versión anterior a la versión
+
+175
+00:18:14,980 --> 00:18:16,180
+actual 6.

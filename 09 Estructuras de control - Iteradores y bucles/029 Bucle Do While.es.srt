@@ -1,0 +1,155 @@
+1
+00:00:01,050 --> 00:00:04,320
+Hay otro bucle típico en programación que es el Duguit.
+
+2
+00:00:04,560 --> 00:00:05,560
+Es decir en el Huay.
+
+3
+00:00:05,580 --> 00:00:10,360
+Nosotros lo que hacemos es comprobar una condición y después ejecutar un bloque de código.
+
+4
+00:00:10,560 --> 00:00:12,600
+Pero en el dúo Huayra es diferente en el dúo.
+
+5
+00:00:12,630 --> 00:00:18,810
+Primero ejecutamos un bloque de código y luego comprobamos una condición para hacer de nuevo ese bloque
+
+6
+00:00:18,810 --> 00:00:22,160
+de código o simplemente ejecutarlo una sola vez.
+
+7
+00:00:22,200 --> 00:00:29,320
+Podemos hacer este mismo ejemplo que tenemos aquí pero con el dúo hoy vamos a poner aquí Dubai.
+
+8
+00:00:29,330 --> 00:00:34,150
+En un comentario vamos a hacer un ejemplo parecido.
+
+9
+00:00:34,890 --> 00:00:38,900
+En este caso tendríamos que poner la instrucción.
+
+10
+00:00:40,230 --> 00:00:43,480
+Después el bloque de introducción y después la condición guai.
+
+11
+00:00:44,180 --> 00:00:46,950
+Y entonces voy a crear también una variable por aquí nueva.
+
+12
+00:00:49,530 --> 00:00:53,260
+Que se llame year's que va a ser 20 por ejemplo.
+
+13
+00:00:53,790 --> 00:01:06,840
+Entonces aquí tendríamos que decirle Mira si year's es diferente a 20 ejecutase este Hader que voy a
+
+14
+00:01:06,840 --> 00:01:22,220
+poner aquí solo cuando sea diferente a 20 me acuerdo le podríamos asignar year's igual a 20 para que
+
+15
+00:01:22,220 --> 00:01:23,760
+no se quede en infinito.
+
+16
+00:01:23,840 --> 00:01:28,540
+Si alguno entra por aquí entonces qué va a pasar aquí que yo lo primero cuando se ejecute el programa
+
+17
+00:01:28,550 --> 00:01:33,130
+voy a entrar Aldhu voy a ejecutar este bloque instrucciones y luego se va a comprobar el WAIS se va
+
+18
+00:01:33,130 --> 00:01:41,600
+a comprobar esta condición si year's es diferente a 20 volvería a entrar aquí y ejecutar esto dos veces
+
+19
+00:01:41,690 --> 00:01:44,370
+la primera y la segunda vale.
+
+20
+00:01:44,510 --> 00:01:49,430
+Si fuera diferente a 20 pero como ya es igual a 20 sólo me voy a ejecutar esto una vez vamos a comprobarlo
+
+21
+00:01:49,820 --> 00:01:56,930
+actualizo la pantalla sólo cuando sea diferente a 20 me lo ejecuta una vez vale me lo ejecuta y la condición
+
+22
+00:01:56,930 --> 00:02:00,200
+no se cumple pero en el caso de que la condición sí que se cumpliera
+
+23
+00:02:04,280 --> 00:02:09,980
+tampoco porque lo primero que hace es ejecutar el duh y entonces en el Duqu yo lo que hago es
+
+24
+00:02:12,710 --> 00:02:20,410
+darle un valor Ayers de forma que nunca va a validar esta condición vale entonces lo que vamos a hacer
+
+25
+00:02:20,410 --> 00:02:33,660
+va a ser comprobar si es mayor o igual a 25 por ejemplo mayor igual o mayor a 25 mayor a 25 y entonces
+
+26
+00:02:33,660 --> 00:02:40,170
+simplemente year's lo que haríamos sería hacerle un operador de incremento y esto lo podríamos poner
+
+27
+00:02:40,170 --> 00:02:40,800
+a 20.
+
+28
+00:02:40,800 --> 00:02:49,970
+Entonces qué va a pasar lo primero que se va a ejecutar después le va a sumar uno y con la condición
+
+29
+00:02:49,970 --> 00:02:55,790
+me dice que mientras que yo sea mayor a 25 se va a ejecutar debería ejecutarse.
+
+30
+00:02:55,790 --> 00:03:00,530
+En el caso de que esto sea mayor igual a 25 pero como realmente esta condición no se va a cumplir sólo
+
+31
+00:03:00,530 --> 00:03:06,140
+se va a ejecutar una vez el bloque de código festivamente pero si yo pusiera aquí que esto tiene un
+
+32
+00:03:06,140 --> 00:03:11,620
+valor de 30 ya que utilizara un operador de decremento vale le iría restando.
+
+33
+00:03:11,660 --> 00:03:15,110
+Y cuando ya fuera menor que 25 ya no se volvería a ejecutar.
+
+34
+00:03:15,110 --> 00:03:23,400
+Vamos a comprobarlo se ejecuta la primera vez porque el dúo hace la segunda la tercera vale y hasta
+
+35
+00:03:23,400 --> 00:03:33,420
+que ahora year's es igual a 25 porque ya a partir de ahí como ya no es mayor a 25 ya no se ejecuta esto
+
+36
+00:03:33,720 --> 00:03:39,450
+pero por defecto lo único que quiero que sepas de esto es que el DU nos permite el Dubai y nos permite
+
+37
+00:03:39,450 --> 00:03:43,740
+ejecutar primero un bloque de instrucciones y luego evaluar la condición ya en cada caso del programa
+
+38
+00:03:43,740 --> 00:03:48,180
+que estemos haciendo pues se haría de una manera u otra el bucle.
+
+39
+00:03:48,180 --> 00:03:51,860
+Pero realmente el concepto del Uruguay ya lo tenemos y ya sabemos cómo hacerlo.

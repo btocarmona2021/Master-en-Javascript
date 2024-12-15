@@ -1,0 +1,203 @@
+1
+00:00:00,540 --> 00:00:06,000
+Durante el curso vamos a estar utilizando una herramienta súper fundamental de nuestro navegador web
+
+2
+00:00:06,470 --> 00:00:09,390
+esa herramienta en la consola que la pueden encontrar aquí.
+
+3
+00:00:09,390 --> 00:00:14,350
+Los tres puntitos vamos a Más Herramientas Herramientas para desarrolladores.
+
+4
+00:00:14,580 --> 00:00:15,430
+Eso nos va a abrir.
+
+5
+00:00:15,450 --> 00:00:19,800
+Estoy aquí abajo de acuerdo y aquí tenemos varias pestañas.
+
+6
+00:00:19,810 --> 00:00:28,560
+No tenemos la pestaña de elementos que nos permite ver el código HTML que tenemos en nuestro proyecto.
+
+7
+00:00:28,650 --> 00:00:35,790
+Incluso seleccionar cualquiera de las etiquetas cualquiera de los elementos de acuerdo y modificar su
+
+8
+00:00:35,790 --> 00:00:44,700
+estilo o incluso manipular el contenido que haya dentro de HTML de nuestra web.
+
+9
+00:00:44,700 --> 00:00:48,950
+Luego tenemos la consola que esto es lo que vamos a estar utilizando muchísimo muchísimo.
+
+10
+00:00:49,170 --> 00:00:55,920
+La consola nos permite trabajar con JavaScript de manera instantánea por decirlo de una forma de alguna
+
+11
+00:00:55,920 --> 00:01:02,330
+forma y debo agregar también nuestra aplicación y corregir errores y ver que llevan variable dentro
+
+12
+00:01:02,340 --> 00:01:07,200
+ver qué pasa en nuestro código ver por dónde va el flujo del programa etcétera.
+
+13
+00:01:07,240 --> 00:01:16,070
+Si yo por ejemplo escribiera aquí una operación matemática por ejemplo 5 por 5 me va a dar 25.
+
+14
+00:01:16,110 --> 00:01:20,970
+De acuerdo yo puedo hacer operaciones con JavaScript de manera dinámica aquí o sea lo que hago aquí
+
+15
+00:01:21,060 --> 00:01:28,590
+es añadir un javascript a la ejecución de esta página web de ahora si yo por ejemplo creara una variable
+
+16
+00:01:28,620 --> 00:01:37,920
+con la palabra bar hola y le meto un contenido que sea XLIV enter me dice al definir pero si yo ahora
+
+17
+00:01:37,920 --> 00:01:42,590
+mismo hago console punto lo pongo.
+
+18
+00:01:42,660 --> 00:01:43,120
+Hola.
+
+19
+00:01:43,140 --> 00:01:49,530
+La variable que nos muestra la variable Hola me va a decir que XLIV o que de esta manera yo puedo estar
+
+20
+00:01:49,560 --> 00:01:54,930
+ejecutando cosas puedo estar ejecutando órdenes de JavaScript de manera fácil la voy a limpiar dándole
+
+21
+00:01:55,020 --> 00:02:00,960
+aquí ya además puedo enviar cosas para que se muestren en la consola desde mi código de JavaScript.
+
+22
+00:02:00,960 --> 00:02:05,760
+Por ejemplo aquí hemos visto un alerta hemos visto otro Aulet hemos visto cómo hacer un dúo como engríe
+
+23
+00:02:05,790 --> 00:02:14,130
+para imprimir cosas dentro de la pantalla pero yo podría utilizar la función Consol punto lógico de
+
+24
+00:02:14,130 --> 00:02:17,880
+acuerdo que esto es súper común en el desarrollo con JavaScript.
+
+25
+00:02:17,940 --> 00:02:25,040
+Si yo le pongo aquí cualquier cosa muestra esto en la consola.
+
+26
+00:02:25,040 --> 00:02:31,350
+Si yo le pongo esto guardo y ejecuto mi código actualizo la pantalla me sacan los dos Alerts y además
+
+27
+00:02:31,350 --> 00:02:37,390
+me muestro aquí en la consola muestra esto en la consola que es el código que yo le he puesto aquí.
+
+28
+00:02:37,440 --> 00:02:47,190
+De igual forma se opusieron console punto Autolog y aquí puse una operación matemática 88 +4 de acuerdo.
+
+29
+00:02:47,790 --> 00:02:51,560
+Seguramente me dará algún error ok vamos a actualizar la pantalla.
+
+30
+00:02:53,220 --> 00:02:57,480
+Bueno no me da ningún error porque ya lo sabe interpretar mal.
+
+31
+00:02:57,530 --> 00:03:04,250
+Pero aquí nos muestra la suma sin ningún tipo de problema automáticamente quizá en otros casos habría
+
+32
+00:03:04,250 --> 00:03:09,770
+que utilizar alguna función intermedia para parchear estos datos o lo que sea pero normalmente suele
+
+33
+00:03:09,770 --> 00:03:17,540
+funcionar y nos va a mostrar aquí el contenido o la suma de esas dos operaciones y con el consuelo yo
+
+34
+00:03:17,540 --> 00:03:21,680
+puedo estar poniendo consuelos por el flujo de nuestro programa y puedo estar mostrando el resultado
+
+35
+00:03:21,680 --> 00:03:22,690
+aquí en la consola.
+
+36
+00:03:22,880 --> 00:03:28,510
+De esa forma vamos a divulgar muchos problemas que vayan sucediendo y vamos a corregirlo.
+
+37
+00:03:28,670 --> 00:03:33,800
+Luego en la pestaña sources aquí vamos a ver diferentes archivos que haya cargado por ejemplo en nuestro
+
+38
+00:03:33,800 --> 00:03:36,620
+proyecto tenemos estos archivos cargados no lo muestro aquí.
+
+39
+00:03:37,520 --> 00:03:41,900
+Luego en la pestaña neighbor cuando se haga alguna petición haya que sea un Bakken la vamos vamos a
+
+40
+00:03:41,900 --> 00:03:45,860
+poder inspeccionar aquí vamos a ver qué peticiones suceden.
+
+41
+00:03:46,070 --> 00:03:51,620
+Eso lo iremos viendo luego en formas nada eso no lo vamos a tocar ni tampoco en Application.
+
+42
+00:03:51,680 --> 00:03:56,360
+Tenemos cosas del local Storage session gestoras.
+
+43
+00:03:56,360 --> 00:04:03,020
+La memoria almacenada en el navegador caché Cetera Security no vamos a tocar nada normalmente y hasta
+
+44
+00:04:03,890 --> 00:04:09,410
+entonces principalmente estas herramientas son las que vamos a estar utilizando en las herramientas
+
+45
+00:04:09,410 --> 00:04:11,180
+de desarrollador de web Crom.
+
+46
+00:04:11,180 --> 00:04:15,670
+De igual forma en todos los navegadores hay herramientas de este tipo tenemos la consola Java que viven
+
+47
+00:04:15,680 --> 00:04:22,310
+todos incluso en Firefox hay una extensión muy buena que se llama Facebook que también es súper útil
+
+48
+00:04:22,310 --> 00:04:27,620
+incluso podríamos decir que tiene la misma potencia que ésta que estas herramientas de desarrollador
+
+49
+00:04:27,620 --> 00:04:31,210
+de Google Chrome o incluso más en algunos casos.
+
+50
+00:04:31,210 --> 00:04:36,200
+Y esto es lo que yo quería enseñar acerca de la consola y decir que lo vamos a estar utilizando a lo
+
+51
+00:04:36,200 --> 00:04:37,070
+largo del curso.

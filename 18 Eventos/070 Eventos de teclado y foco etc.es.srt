@@ -1,0 +1,279 @@
+1
+00:00:00,540 --> 00:00:06,870
+Bien pues vamos a ver más eventos para eso vamos a crear un nuevo elemento en nuestra página web que
+
+2
+00:00:06,870 --> 00:00:09,200
+va a ser un formulario de HTML
+
+3
+00:00:11,940 --> 00:00:15,540
+y dentro de ese formulario vamos a tener un input
+
+4
+00:00:22,140 --> 00:00:34,990
+un input de tipo texto normal con el nombre nombre y con el ideé nombre o campo nombre campo Nombre
+
+5
+00:00:36,240 --> 00:00:40,170
+y cerramos el input de esta manera nos va a aparecer un nuevo input aquí.
+
+6
+00:00:40,210 --> 00:00:44,560
+Efectivamente perfecto y también lo vamos a meter dentro de el párrafo
+
+7
+00:00:47,940 --> 00:00:55,240
+vale exactamente y aquí vamos a hacer varias pruebas vamos a probar todos los eventos que tienen que
+
+8
+00:00:55,240 --> 00:01:02,350
+ver con presionar teclas y con el foco de acuerdo hay un evento que se llama Focus.
+
+9
+00:01:02,350 --> 00:01:16,810
+Otro evento que se llama Blur otro evento que se llama Croydon otro evento que se llama Dipres y otro
+
+10
+00:01:16,820 --> 00:01:21,570
+evento que se llama quella.
+
+11
+00:01:21,730 --> 00:01:24,330
+Ahora bien vamos con el focus.
+
+12
+00:01:24,800 --> 00:01:25,280
+Pues mira
+
+13
+00:01:28,950 --> 00:01:34,770
+vamos a hacer con su Velox para probar cada uno de estos eventos console punto lo vamos a probar el
+
+14
+00:01:34,770 --> 00:01:36,030
+focus.
+
+15
+00:01:36,510 --> 00:01:43,200
+Vale cuando yo haga foco en el campo base pero primero tendremos que capturar o seleccionar ese campo
+
+16
+00:01:43,260 --> 00:01:56,160
+en este caso bar input es igual a Documet punto y selector y vamos a seleccionar el campo Ahmadía campo
+
+17
+00:01:56,250 --> 00:02:07,380
+nombre quiero con punto y coma y vamos a seleccionar ese elemento a de Beliz fue un cristal perfecto
+
+18
+00:02:07,380 --> 00:02:08,220
+entonces ahora
+
+19
+00:02:11,870 --> 00:02:16,150
+aquí voy a poner pues estás haciendo foco en el impulso.
+
+20
+00:02:16,260 --> 00:02:19,890
+Estás dentro del imput.
+
+21
+00:02:20,520 --> 00:02:35,200
+Si lo probamos ahora vale vamos a asignarle o estamos capturando el evento Focus de campo cuyo IDE tiene
+
+22
+00:02:35,380 --> 00:02:36,330
+campo Nombre.
+
+23
+00:02:36,400 --> 00:02:39,720
+Vale vamos a comprobarlo en la pantalla.
+
+24
+00:02:39,800 --> 00:02:44,500
+Mira mira lo que me dice nada más que puesto foco dentro me dice están dentro del imput.
+
+25
+00:02:44,670 --> 00:02:47,140
+Vale yo puedo escribir tal y cual y puedo salir.
+
+26
+00:02:47,400 --> 00:02:52,660
+Y hasta aquí todo correcto si vuelvo a hacer foco pues fíjate lo que dices está dentro del imput cada
+
+27
+00:02:52,660 --> 00:02:58,810
+vez que yo haga foco cada vez que yo me ponga dentro del imput me va a devolver que estoy dentro del
+
+28
+00:02:58,810 --> 00:03:04,450
+imput y se lanza este evento Focus y yo aquí puedo ejecutar cualquier funcionalidad y hacer lo que se
+
+29
+00:03:04,450 --> 00:03:07,120
+me pase por la cabeza bien.
+
+30
+00:03:07,510 --> 00:03:11,830
+El evento Blur es igual solamente cuando salimos del foco.
+
+31
+00:03:11,950 --> 00:03:21,280
+Si yo pongo Blur aquí me tendría que decir estás fuera del imput teorizaron la pantalla me toqui los
+
+32
+00:03:21,280 --> 00:03:24,680
+datos me salta el Focus si salgo me dice esta fuera.
+
+33
+00:03:24,730 --> 00:03:29,930
+Es alta el blur Focus y Blur perfecto.
+
+34
+00:03:30,250 --> 00:03:36,270
+Incluso podríamos poner aquí que evento se está lanzando aquí se está lanzando el blur y aquí se está
+
+35
+00:03:36,270 --> 00:03:37,990
+lanzando el focus.
+
+36
+00:03:40,630 --> 00:03:42,700
+Vale vamos a comprobarlo.
+
+37
+00:03:42,700 --> 00:03:52,180
+Focus Blur Focus Blur genial ahora el Croydon desaparecido es parecido al que Idom.
+
+38
+00:03:52,900 --> 00:03:59,830
+Solamente que el que Idom sucede cuando escribes a pulsar una tecla de acuerdo cuando estás pulsando
+
+39
+00:03:59,830 --> 00:04:08,080
+la tecla de hecho el Croydon es cuando estás pulsando pulsando la tecla.
+
+40
+00:04:08,110 --> 00:04:12,630
+Incluso podríamos sacar la tecla que vale Autolog.
+
+41
+00:04:13,530 --> 00:04:15,640
+Bueno de hecho lo vamos a concatenar aquí
+
+42
+00:04:19,140 --> 00:04:28,560
+pulsando tecla y aquí vamos a utilizar la string junto a un charco de que esto sirve para capturar cosas
+
+43
+00:04:28,560 --> 00:04:34,620
+del teclado y entonces capturamos lo que pase en el evento porque podemos capturar los datos del evento
+
+44
+00:04:34,980 --> 00:04:39,970
+si lo pasamos a un parámetro event event punto que Icoder.
+
+45
+00:04:39,990 --> 00:04:46,860
+De esta manera yo sé qué tecla Petti pulsando vale todo lo que hace es convertir el técnico de a un
+
+46
+00:04:46,860 --> 00:04:48,200
+carácter a una string.
+
+47
+00:04:48,200 --> 00:04:57,390
+Vale pues si lo comprobamos actualizamos entre foco algo de foco dentro y voy a escribir vale la j la
+
+48
+00:04:57,390 --> 00:05:01,470
+S y la O la Ah.
+
+49
+00:05:01,560 --> 00:05:07,140
+O sea todo funciona perfectamente y cuando pulso un blog Meiwes también me saca lo que pulsados a todas
+
+50
+00:05:07,140 --> 00:05:14,970
+las teclas que yo pulso fijate como las va capturando ok ya podemos ver qué teclas está pulsando el
+
+51
+00:05:14,970 --> 00:05:20,930
+usuario en cada momento y capturar esas teclas que se están pulsando dentro del input.
+
+52
+00:05:20,940 --> 00:05:23,770
+Genial pues ya hemos visto ese evento que Idom.
+
+53
+00:05:24,060 --> 00:05:30,540
+Luego también tenemos el evento que es que cuando presiona una tecla que es parecido a este
+
+54
+00:05:33,670 --> 00:05:41,520
+osea cuando ya la he pulsado vamos a por el Tecla presionada tecla presionada y que no diga también
+
+55
+00:05:41,520 --> 00:05:44,660
+la tecla que es en este caso si el que Ypres
+
+56
+00:05:47,710 --> 00:05:56,900
+vale cuando la presiono me va a devolver vale la tecla presionada o sea pulsando cuando justo cuando
+
+57
+00:05:56,960 --> 00:06:02,220
+cuando le doy a la tecla me salta el primer evento que es pulsando tecla y después cuando ya le han
+
+58
+00:06:02,220 --> 00:06:09,110
+presionado me salta el evento siguiente que es el que Ypres vale vamos a indicarlo aquí a cada uno.
+
+59
+00:06:09,110 --> 00:06:17,050
+Este es el que Idom y este es el que Ypres el tema de los eventos y es algo increíble porque le da una
+
+60
+00:06:17,050 --> 00:06:21,910
+funcionalidad brutal y es una de las cosas más importantes de JavaScript.
+
+61
+00:06:23,060 --> 00:06:29,320
+Yo pulso toda la tecla y primero se ejecuta el pulsando Y después la tecla presionada con lo cual funciona
+
+62
+00:06:29,320 --> 00:06:30,420
+increíble.
+
+63
+00:06:30,430 --> 00:06:36,100
+Y esta es la potencia de JavaScript yo podría hacer lo que se me pasara por la cabeza con los elementos
+
+64
+00:06:36,100 --> 00:06:38,500
+que hay en la página web.
+
+65
+00:06:38,500 --> 00:06:47,560
+Luego también tenemos el evento que yo voy a copiar este trozo de código y el que Yap que ya no permite
+
+66
+00:06:47,560 --> 00:06:56,840
+capturar el evento cuando levanto el dedo de la tecla tecla soltada.
+
+67
+00:06:56,840 --> 00:07:07,200
+Vale entonces si yo hago esto presiono la tecla F y cuando la suelto fíjate el orden primero pulsando
+
+68
+00:07:07,200 --> 00:07:10,370
+después presionada y después soltada y se van ejecutando.
+
+69
+00:07:10,370 --> 00:07:15,270
+De esta manera los eventos así que tenemos todos estos eventos para hacer lo que se nos pase por la
+
+70
+00:07:15,270 --> 00:07:16,950
+cabeza con JavaScript.

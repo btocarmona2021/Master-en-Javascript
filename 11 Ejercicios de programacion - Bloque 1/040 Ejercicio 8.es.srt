@@ -1,0 +1,263 @@
+1
+00:00:00,810 --> 00:00:05,190
+Vamos a hacer otro ejercicio que va a ser el último ejercicio que vamos a hacer de esta primera parte.
+
+2
+00:00:05,190 --> 00:00:09,990
+Luego cuando aprendamos más cosas de JavaScript vamos a ver cómo hacer más ejercicio y vamos a ver cómo
+
+3
+00:00:09,990 --> 00:00:13,800
+hacer muchas más cosas pero el último ejercicio de momento porque yo creo que han quedado claro los
+
+4
+00:00:13,800 --> 00:00:19,830
+buques los IPES todo esto ha quedado claro pues vamos a hacer el último ejercicio que va a ser una calculadora
+
+5
+00:00:19,860 --> 00:00:32,360
+así que vamos a crear un nuevo fichero controlé se va a ser el fichero número 18 ejercicio 8 puntos
+
+6
+00:00:32,400 --> 00:00:42,990
+JS vamos a guardar y vamos a importarlo por aquí vamos a cargarlo escribe nuestro índex el ejercicio
+
+7
+00:00:43,000 --> 00:00:46,610
+18 chichero 18 ejercicios 8.
+
+8
+00:00:46,780 --> 00:00:54,330
+Vale vamos a hacer el US Street y tenemos que hacer lo siguiente una calculadora
+
+9
+00:00:57,400 --> 00:01:10,280
+como hacer una calculadora que pida dos números por pantalla que si metemos mal un número nos vuelve
+
+10
+00:01:10,280 --> 00:01:13,090
+a pedir que lo introduzcamos.
+
+11
+00:01:13,440 --> 00:01:27,240
+Si metemos uno mal que nos los vuelva a pedir bien y luego que nos muestre en el body de la página en
+
+12
+00:01:27,240 --> 00:01:36,110
+el cuerpo de la página en una alerta y por la consola
+
+13
+00:01:38,730 --> 00:01:54,230
+el resultado de sumar restar multiplicar y dividir esas dos cifras que hemos pedido anteriormente vale.
+
+14
+00:01:54,370 --> 00:01:59,550
+Se va a hacer el ejercicio entonces vamos con lo primero que es pedir las dos cifras y los dos números
+
+15
+00:01:59,550 --> 00:02:05,610
+esto ya lo hemos hecho 20000 veces sí que podemos copiar estas dos variables de cualquier otro ejercicio.
+
+16
+00:02:05,610 --> 00:02:15,540
+Vale entonces también tendríamos que comprobar si esos números nos vienen con un número realmente y
+
+17
+00:02:15,550 --> 00:02:28,740
+si están correctos pues para eso vamos a hacer un Weyl mientras que el número 1 sea menor a cero o el
+
+18
+00:02:28,740 --> 00:02:32,380
+número dos sea menor a cero.
+
+19
+00:02:32,430 --> 00:02:49,410
+Sea una letra Island el número 1 o sea un no dan Amber el número 2 mientras que eso pase yo voy a volver
+
+20
+00:02:49,410 --> 00:02:53,080
+a pedirle al usuario que introduzca los números en este caso.
+
+21
+00:02:53,250 --> 00:02:57,630
+Como no estamos definiendo la variable por primera vez sino que estamos asignándole un valor pues vamos
+
+22
+00:02:57,630 --> 00:03:00,200
+a quitar la palabra reservada.
+
+23
+00:03:00,210 --> 00:03:06,810
+De esa manera nos vuelve a pedir esto en el caso de que sea incorrecto y ya finalmente pues simplemente
+
+24
+00:03:06,840 --> 00:03:13,500
+tendríamos que crear una variable resultado y aquí vamos a hacer un string que vamos a estar reutilizando
+
+25
+00:03:13,500 --> 00:03:19,050
+para crear para luego mostrarlo en el cuerpo de la página en la alerta y en la consola.
+
+26
+00:03:19,800 --> 00:03:24,960
+Vamos a crear estrechen que diga la suma es
+
+27
+00:03:27,970 --> 00:03:33,690
+que aquí tenemos la suma entre paréntesis para que haga la operación correctamente.
+
+28
+00:03:33,930 --> 00:03:37,080
+Número uno más número dos.
+
+29
+00:03:37,170 --> 00:03:44,800
+Vale le concatenando un verde para que haga el Salto de Página.
+
+30
+00:03:47,430 --> 00:04:03,420
+Ahora encadenamos la resta la resta es de tenemos la operación número 1 menos número dos y le concatenado
+
+31
+00:04:03,510 --> 00:04:05,430
+un B.R. para que haga un salto de línea
+
+32
+00:04:09,680 --> 00:04:13,070
+vale le concatenados también la multiplicación
+
+33
+00:04:19,060 --> 00:04:26,780
+y hacemos la operación número 1 por número dos y le concatenado
+
+34
+00:04:29,450 --> 00:04:32,030
+el B.R. para que haga un salto de página.
+
+35
+00:04:33,650 --> 00:04:42,200
+Y por último la división será encadenamos con el signo más la división es o el producto podría decir
+
+36
+00:04:42,200 --> 00:04:42,590
+mejor.
+
+37
+00:04:42,590 --> 00:04:48,190
+Pero bueno es y hacemos la operación número 1 entre número dos.
+
+38
+00:04:48,200 --> 00:04:56,130
+De esta manera si yo hago un vesre ahora pues aquí tengo mi resultado.
+
+39
+00:04:56,140 --> 00:04:56,630
+Vale.
+
+40
+00:04:56,630 --> 00:04:57,860
+Este sería el resultado.
+
+41
+00:04:57,920 --> 00:05:02,960
+La variable resultado lleva todo ese tren que yo puedo coger y reutilizarlo y pasárselo a todas las
+
+42
+00:05:02,960 --> 00:05:05,040
+funciones que yo quiera o hacer lo que yo quisiera.
+
+43
+00:05:05,120 --> 00:05:12,200
+Entonces yo con este resultado puedo hacer un documento punto right para pintarlo en el cuerpo de la
+
+44
+00:05:12,200 --> 00:05:14,150
+página.
+
+45
+00:05:14,150 --> 00:05:14,900
+Resultado.
+
+46
+00:05:14,900 --> 00:05:18,860
+Puedo hacer esto de esta forma si yo guardo y actualizo la pantalla
+
+47
+00:05:23,590 --> 00:05:31,110
+vale fíjate tres por cinco o sea tres y cinco la suma es ocho la restas menos dos multiplicaciones 15
+
+48
+00:05:32,080 --> 00:05:33,820
+y la división divisiones 0,6.
+
+49
+00:05:33,820 --> 00:05:36,260
+El resto de la división vale.
+
+50
+00:05:36,460 --> 00:05:42,160
+Esto tendría que mostrarlo también en una alerta que ahora veremos un problema que nos va a dar.
+
+51
+00:05:42,190 --> 00:05:46,330
+Si hacemos esto entonces cuál es el problema.
+
+52
+00:05:46,330 --> 00:05:48,430
+El problema es que yo estoy utilizando BR.
+
+53
+00:05:48,430 --> 00:05:54,040
+BR es un salto de línea en HTML pero para ello mostrar un salto de línea tanto en la consola en cualquier
+
+54
+00:05:54,040 --> 00:05:59,920
+consola en cualquier lenguaje de programación o en una alerta tendría que utilizar el barra N de forma
+
+55
+00:05:59,920 --> 00:06:06,280
+que si yo quiero que eso haga un salto de línea me voy a crear dos variables resultado y en una de ellas
+
+56
+00:06:06,280 --> 00:06:15,460
+voy a modificar el salto de línea con un barra diagonal invertida n para hacer el salto de línea dentro
+
+57
+00:06:15,460 --> 00:06:16,800
+de la consola o de la alerta.
+
+58
+00:06:16,840 --> 00:06:24,970
+Si lo hago así ahora vamos a comprobar que si utilizo el resultado CMD vamos a ponerle resultado CMD
+
+59
+00:06:26,080 --> 00:06:28,990
+si utiliza esa variable aquí actualizo la pantalla
+
+60
+00:06:33,770 --> 00:06:41,660
+fíjate que aquí me muestra correctamente el resultado con su correspondiente salto de línea y luego
+
+61
+00:06:41,750 --> 00:06:43,280
+en la página web también.
+
+62
+00:06:43,280 --> 00:06:53,680
+Incluso si hago un console Autolog y le paso como parámetro el resultado CMD a esta función.
+
+63
+00:06:53,870 --> 00:07:02,290
+Pues lo mismo vuelvo a escupir por la consola correctamente formateado vale aceptar efectivamente me
+
+64
+00:07:02,300 --> 00:07:07,100
+lo devuelve la consola y me lo devuelve también en el cuerpo de la página y en la alerta como hemos
+
+65
+00:07:07,100 --> 00:07:07,850
+visto.
+
+66
+00:07:07,850 --> 00:07:12,650
+Así que ya hemos visto como hacer la calculadora y ya hemos resuelto otro ejercicio.

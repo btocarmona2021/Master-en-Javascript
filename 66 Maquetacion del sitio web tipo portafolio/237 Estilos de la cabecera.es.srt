@@ -1,0 +1,523 @@
+1
+00:00:00,550 --> 00:00:02,720
+Bien ahora vamos a maquetar el G.
+
+2
+00:00:02,790 --> 00:00:10,010
+El Gelder ahora mismo lo tenemos no huele y a mí me interesaría meter esto dentro de una etiqueta Getter
+
+3
+00:00:10,170 --> 00:00:20,130
+de acuerdo la etiqueta GDR es una etiqueta HTML 5 así que voy a meter mi menú dentro de la etiqueta
+
+4
+00:00:20,170 --> 00:00:20,630
+jede.
+
+5
+00:00:20,640 --> 00:00:23,530
+Voy a quitar el encabezado este porque ya no me va a hacer falta.
+
+6
+00:00:24,210 --> 00:00:29,880
+Además dentro de la barra de navegación vemos que hay un elemento central que es como una especie de
+
+7
+00:00:29,880 --> 00:00:34,690
+logotipo de acuerdo que en este caso tiene mi nombre y tal porque un portafolio para mí.
+
+8
+00:00:34,740 --> 00:00:42,210
+Pues entonces aquí le vamos a poner dentro del menú un link vale que le vamos a poner también una clase
+
+9
+00:00:43,080 --> 00:00:46,950
+que sea el logo y aquí le vamos a poner un HR-V vacío
+
+10
+00:00:52,020 --> 00:00:58,860
+vale con nuestras siglas en mi caso pues su erre perfecto.
+
+11
+00:00:58,860 --> 00:01:04,230
+Ya tengo mi cabecera vale ahora voy a definir el cuerpo de la página el HTML que va a tener vamos a
+
+12
+00:01:04,230 --> 00:01:16,140
+poner una sección Koni de Content y habiendolo donde va a ir todo el contenido de la web okey y aparte
+
+13
+00:01:16,250 --> 00:01:17,760
+vamos a hacer un fútbol también
+
+14
+00:01:28,200 --> 00:01:29,190
+que diga pues
+
+15
+00:01:32,990 --> 00:01:33,710
+máster
+
+16
+00:01:35,990 --> 00:01:38,480
+máster en JavaScript
+
+17
+00:01:42,160 --> 00:01:54,310
+de Víctor Robles punto es y le puedo poner una copy y Copy ciero con Mundy como ya tengo mi estructura
+
+18
+00:01:54,310 --> 00:01:56,530
+HTML básica definida.
+
+19
+00:01:56,530 --> 00:02:02,240
+Aquí aparece todo vale e incluso puedo seguir navegando y toda la historia genial.
+
+20
+00:02:02,710 --> 00:02:08,790
+Entonces vamos a darle estilo a esta parte de la web sobre todo a la cabecera.
+
+21
+00:02:09,460 --> 00:02:14,200
+Entonces vamos a añadir un comentario por aquí en el CSS que sea barra de navegación
+
+22
+00:02:16,990 --> 00:02:23,650
+barra de navegación Hoje de cabecera
+
+23
+00:02:27,450 --> 00:02:32,530
+al GDR vencía la etiqueta Gebel porque sólo va a haber una en la web.
+
+24
+00:02:32,530 --> 00:02:39,520
+Le voy a poner un UI 100 por cien para que ocupe todo el ancho de la pantalla como estamos viendo en
+
+25
+00:02:39,520 --> 00:02:42,170
+la imagen inicial.
+
+26
+00:02:42,340 --> 00:02:48,340
+Voy a ponerle una altura de uno de unos 90 píxeles aproximadamente no sé la medida exacta pero más o
+
+27
+00:02:48,340 --> 00:02:56,190
+menos podría podría decir que son 90 píxeles y podría ponerle un Bagram que sea RGB.
+
+28
+00:02:56,320 --> 00:03:02,950
+Y le voy a poner unos valores que ya sé que es un color azul que sería 53 103
+
+29
+00:03:04,990 --> 00:03:11,250
+164 y 0.8 porque tienen cierta opacidad.
+
+30
+00:03:11,260 --> 00:03:15,370
+Vale si guardo actualizo la pantalla aquí me aparece ese color.
+
+31
+00:03:15,370 --> 00:03:24,460
+Vale que es el mismo que tenemos aquí en el proyecto este en la imagen o que ese color es ese si yo
+
+32
+00:03:24,550 --> 00:03:31,120
+inspeccione el elemento y quiero modificar ese color simplemente tengo que seleccionar el menú en si
+
+33
+00:03:31,460 --> 00:03:37,300
+el Gelder dicho y aquí tengo el color si yo le doy click al color aquienes de Google Crown puedo modificar
+
+34
+00:03:37,510 --> 00:03:47,930
+estos códigos para modificar los colores y para ponerlo a mi gusto y copiar el color RGB ah vale sin
+
+35
+00:03:47,930 --> 00:03:50,170
+ningún tipo de problema.
+
+36
+00:03:50,270 --> 00:03:58,610
+Vaya equipo customizar todo o personalizarlo puedo coger color en material puedo hacer cualquier cosa
+
+37
+00:03:58,700 --> 00:04:01,760
+que se me ocurra vale con el tema de los colores.
+
+38
+00:04:01,760 --> 00:04:07,060
+Aquí puedes coger las coordenadas ñetas o los colores en RGB.
+
+39
+00:04:07,130 --> 00:04:17,490
+Perfecto entonces lo voy a dejar así en azul que es el que más se parece a lo que tenemos aquí y además
+
+40
+00:04:17,490 --> 00:04:23,060
+le veo poner a la barra de navegación un position fixed.
+
+41
+00:04:23,540 --> 00:04:24,130
+Vale.
+
+42
+00:04:24,270 --> 00:04:31,410
+Esto es porque cuando yo haga scroll en la web vale fíjate que ya automáticamente se me agranda al 100
+
+43
+00:04:31,410 --> 00:04:38,130
+por ciento de la página y aparte si yo le pongo un positivo un filled lo que va a pasar es que cuando
+
+44
+00:04:38,130 --> 00:04:43,340
+yo haga escríbele hacia abajo se me va a quedar la barra de navegación siempre arriba con lo cual eso
+
+45
+00:04:43,350 --> 00:04:44,880
+me interesa también vale.
+
+46
+00:04:44,900 --> 00:04:52,490
+Y aparte le voy a poner un display vlog para que actúe como un bloque valéis y quitar el de un FISE.
+
+47
+00:04:52,530 --> 00:05:00,060
+En ese caso no me daría el cien por cien no me pondría la barra al cien por cien seguramente es porque
+
+48
+00:05:00,080 --> 00:05:11,160
+al al Bodhi le he puesto position fixer y realmente tengo que ponerle Bagram attachment.
+
+49
+00:05:11,160 --> 00:05:11,930
+Fixed vale.
+
+50
+00:05:11,970 --> 00:05:17,010
+Esto es un error común que la gente comente hay que poner Bakri en un Attachment fixed para que el fondo
+
+51
+00:05:17,010 --> 00:05:18,940
+se queda y se quede fijado vale.
+
+52
+00:05:18,960 --> 00:05:24,230
+De esa forma aunque yo no utilice el position fixed en mi barra de navegación simplemente componerle
+
+53
+00:05:24,270 --> 00:05:30,120
+display Block y UI cien por cien se debe adaptar a la página vale eso es una corrección que tenemos
+
+54
+00:05:30,120 --> 00:05:35,490
+que hacer y ahora si le a poner position fixed porque Réquiem y barra de navegación se quede pegada
+
+55
+00:05:35,490 --> 00:05:37,260
+siempre arriba.
+
+56
+00:05:37,650 --> 00:05:39,900
+Perfecto.
+
+57
+00:05:40,500 --> 00:05:46,740
+También voy a crearme estilo estilos generales una clase que va a ser el Clear fix que es lo que va
+
+58
+00:05:46,740 --> 00:05:56,280
+a tener un flat none y va a tener un CLEAR box para limpiar los flotado entre los diferentes elementos.
+
+59
+00:05:56,880 --> 00:06:02,760
+Otra cosa que le vamos a poner al Jaider es que todos sus textos sean en mayúscula de acuerdo le vamos
+
+60
+00:06:02,760 --> 00:06:07,770
+a poner un texto Transform super cais
+
+61
+00:06:10,440 --> 00:06:14,510
+para que todos en mayúsculas y te das cuenta.
+
+62
+00:06:14,980 --> 00:06:19,890
+Pues ahora todos los elementos son en mayúsculas todas las letras del menú.
+
+63
+00:06:19,980 --> 00:06:26,370
+Bien ahora vamos a darle uno estilo ayúdele al Jader huele de acuerdo al elemento.
+
+64
+00:06:26,520 --> 00:06:29,820
+Huele a la etiqueta huele que hay dentro del Gelder.
+
+65
+00:06:29,820 --> 00:06:35,450
+Vamos a poner un display Block para que actúe como un bloque.
+
+66
+00:06:35,790 --> 00:06:42,950
+Le vamos a poner un Wiz desde 250 píxeles aproximadamente.
+
+67
+00:06:42,950 --> 00:06:44,660
+O se lo podemos poner en porcentaje.
+
+68
+00:06:44,670 --> 00:06:49,860
+Si esto lo hacemos ahora mismo no vemos lo que pasa pero ahora modificaremos eso para que estos sean
+
+69
+00:06:49,860 --> 00:06:53,610
+porcentajes y sea más responsivo.
+
+70
+00:06:53,640 --> 00:07:02,270
+Vamos a poner un Jaitt heredado al final así que no haría falta ni ponerlo le vamos a poner un Jaitt
+
+71
+00:07:04,270 --> 00:07:08,420
+inherente que significa que está heredado del padre.
+
+72
+00:07:08,590 --> 00:07:09,740
+Le vamos a poner un margin
+
+73
+00:07:12,650 --> 00:07:20,510
+cero PX auto y le vamos a poner nada simplemente así sería suficiente.
+
+74
+00:07:20,510 --> 00:07:28,100
+Ahora los elementos lí que dentro de la cabecera Jader le tenemos que darle unos vestidos también le
+
+75
+00:07:28,100 --> 00:07:34,630
+vamos a poner un display inline Block para que se ponga a cada elemento al lado del otro acuerdo que
+
+76
+00:07:34,630 --> 00:07:35,750
+vamos a poner un margin
+
+77
+00:07:38,480 --> 00:07:39,920
+0 PX auto
+
+78
+00:07:44,300 --> 00:07:50,760
+le vamos a poner un Teves al Aine Center y le vamos a poner un link Jaitt.
+
+79
+00:07:52,090 --> 00:07:58,820
+Pues como esto es de 90 píxeles pues se lo pondremos de ochenta y pico o noventa píxeles también vale
+
+80
+00:08:00,240 --> 00:08:00,850
+perfecto.
+
+81
+00:08:00,860 --> 00:08:07,010
+Si estuviésemos en la pantalla empezamos a ver cambio y vemos que el menú me aparece aquí de acuerdo
+
+82
+00:08:07,040 --> 00:08:12,140
+fíjate un elemento puesto al lado del otro perfectamente vale
+
+83
+00:08:16,120 --> 00:08:16,550
+bien.
+
+84
+00:08:16,620 --> 00:08:29,180
+Ahora vamos a ponerle uno estilo a los enlace Jader huele a esos enlaces de la cabecera directamente
+
+85
+00:08:29,180 --> 00:08:32,290
+se lo podemos poner a todos los enlaces que hay dentro de la cabecera.
+
+86
+00:08:32,580 --> 00:08:38,660
+Le vamos a poner un estilo le vamos a decir que cada uno tiene un display Block para que tuvo un bloque
+
+87
+00:08:38,660 --> 00:08:40,170
+no como un elemento en línea.
+
+88
+00:08:40,320 --> 00:08:47,810
+Le vamos a poner un par in right de 20 PX vale para separarlos cada uno del otro como estamos viendo
+
+89
+00:08:47,810 --> 00:08:51,050
+en la imagen le vamos a poner un pin left
+
+90
+00:08:53,750 --> 00:09:03,230
+de 20 x también vamos a ponerle una altura heredada también del padre que en este caso sería Inaip que
+
+91
+00:09:03,230 --> 00:09:07,140
+sería 90 píxeles le vamos a poner un text decorativo.
+
+92
+00:09:07,250 --> 00:09:17,810
+No le vamos a poner un color waited para que sean enlaces blancos y le vamos a poner un Transition Transition
+
+93
+00:09:18,700 --> 00:09:25,770
+hay 300 milisegundos para que a una transición cada vez que haga hover en cada elemento.
+
+94
+00:09:26,060 --> 00:09:31,520
+Así que si actualizamos la pantalla fíjate que esto ya va tomando forma y ya me aparecen los elementos
+
+95
+00:09:31,970 --> 00:09:34,690
+de una manera mucho más mucho más atractiva.
+
+96
+00:09:36,440 --> 00:09:40,770
+Además al menú le voy a dar otro tamaño porque este no me convence.
+
+97
+00:09:40,820 --> 00:09:43,370
+Vale aquí te he puesto yo 750
+
+98
+00:09:45,700 --> 00:09:57,130
+al Google le he puesto 750 vale y le voy a poner menos y además en porcentaje va a poner 50 por ciento.
+
+99
+00:09:57,560 --> 00:09:59,740
+Vamos a subir un poco o bajárselo
+
+100
+00:10:02,910 --> 00:10:05,480
+40 por ciento lo podríamos poner.
+
+101
+00:10:08,730 --> 00:10:12,700
+Si le vamos a poner un 40 por ciento o quizá un poco menos.
+
+102
+00:10:13,560 --> 00:10:14,710
+38 por ciento.
+
+103
+00:10:14,710 --> 00:10:15,530
+Le vamos a poner
+
+104
+00:10:19,020 --> 00:10:20,220
+un 38 por ciento.
+
+105
+00:10:20,220 --> 00:10:26,670
+Evidentemente si el menú tuviera más entradas ya habría que cambiar esto para que cambiaran todas.
+
+106
+00:10:26,980 --> 00:10:28,820
+38 por ciento.
+
+107
+00:10:29,910 --> 00:10:30,240
+Vale.
+
+108
+00:10:30,270 --> 00:10:32,280
+Y así pues se queda más o menos bien.
+
+109
+00:10:32,280 --> 00:10:38,200
+Luego si quitamos esto y hacemos cosas más grandes y tal pues lo modificamos sin problema.
+
+110
+00:10:38,210 --> 00:10:43,530
+Vale que por ejemplo en esta imagen aquí yo tengo un montón de elementos de menú no solamente tengo
+
+111
+00:10:44,490 --> 00:10:49,890
+estos que me aparecen aquí sino que tengo más vale pues vamos a continuar.
+
+112
+00:10:49,920 --> 00:10:55,470
+Ahora nos quedaría hacer el over de los links y hacer el icono.
+
+113
+00:10:55,530 --> 00:11:07,020
+Vale vamos con los Xoves como hacer un Getter a over es decir cuando yo pase por encima de los elementos
+
+114
+00:11:07,110 --> 00:11:18,030
+a lo que va a pasar va a ser lo siguiente Vamos a cambiar el background a RGB a cero coma cero coma
+
+115
+00:11:18,060 --> 00:11:26,690
+cero coma cero uno ocho es decir como un negro transparente con un poco de transparencia.
+
+116
+00:11:26,700 --> 00:11:29,360
+Si paso fíjate lo que pasa vale
+
+117
+00:11:35,380 --> 00:11:35,720
+ok.
+
+118
+00:11:35,740 --> 00:11:42,520
+Además con la transición y queda bastante bastante elegante bien entonces también hay una cosa que no
+
+119
+00:11:42,520 --> 00:11:53,310
+quiero que tenga o ver que es el link que tiene la clase logo o el ideólogo le vamos a poner mejor y
+
+120
+00:11:53,380 --> 00:11:55,470
+del logo pues este elemento.
+
+121
+00:11:55,510 --> 00:11:59,160
+Yo no quiero que tenga hover para hacer FEADER
+
+122
+00:12:04,700 --> 00:12:07,880
+esto como es un LED pues lo vamos a modificar le vamos a poner
+
+123
+00:12:11,260 --> 00:12:11,940
+logo.
+
+124
+00:12:12,150 --> 00:12:21,960
+Ah vale este elemento yo no quiero que tenga hover así que le voy a poner un Bagram transparente para
+
+125
+00:12:21,960 --> 00:12:29,580
+que parezca que no hay un Overa y si ahora paso por encima aquí no hay ningún hover pero en otro elemento
+
+126
+00:12:30,050 --> 00:12:31,750
+sí porque son una entrada del menú.
+
+127
+00:12:31,830 --> 00:12:33,870
+Esto simplemente será un logotipo.
+
+128
+00:12:34,070 --> 00:12:38,740
+Bien pues en la siguiente clase lo que vamos a hacer ya va a ser maquetar el logo para que tenga uno
+
+129
+00:12:38,740 --> 00:12:39,120
+estilo.
+
+130
+00:12:39,120 --> 00:12:46,170
+De momento esto sería la barra de navegación y a partir de ahora vamos a estar más quitando la parte
+
+131
+00:12:46,170 --> 00:12:47,340
+del logotipo.

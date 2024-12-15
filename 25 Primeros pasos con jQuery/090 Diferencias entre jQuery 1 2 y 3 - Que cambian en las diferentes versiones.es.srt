@@ -1,0 +1,83 @@
+1
+00:00:00,870 --> 00:00:03,150
+Hay muchas versiones de y qwerty de acuerdo.
+
+2
+00:00:03,180 --> 00:00:08,850
+Como ya he dicho en el video anterior tenemos la versión 1 2 y la 3 de acuerdo la versión 1 fue la primera
+
+3
+00:00:08,850 --> 00:00:15,690
+versión estable de qwerty que había de acuerdo y era compatible con Internet Explorer 6 7 y 8 de acuerdo
+
+4
+00:00:16,240 --> 00:00:23,040
+y entonces era una librería bastante pesada porque todo el código que había dentro de la librería para
+
+5
+00:00:23,040 --> 00:00:25,930
+hacer una cosa en un navegador funcionaba y para hacer otra.
+
+6
+00:00:26,540 --> 00:00:31,200
+Y para hacer esa misma cosa en otro navegador no funcionaba entonces como que teníamos varias versiones
+
+7
+00:00:31,200 --> 00:00:37,590
+de la misma librería metida en el mismo fichero y entonces era una librería muy pesada que tardaba en
+
+8
+00:00:37,590 --> 00:00:43,140
+cargar porque había que darle soporte a todas las versiones de los navegadores antiguos que cada uno
+
+9
+00:00:43,140 --> 00:00:46,290
+funcionaba de una manera distinta.
+
+10
+00:00:46,650 --> 00:00:52,770
+Y después salió la versión 2 en esa versión se eliminó la compatibilidad con Internet Explorer 6 7 y
+
+11
+00:00:52,770 --> 00:01:00,330
+8 y además hicieron mejoras de rendimiento y se redujo muchísimo el tamaño de la librería.
+
+12
+00:01:00,330 --> 00:01:05,880
+Por tanto era más rápida cargaba antes el fichero y todo iba mucho mejor y en la versión 3 que en la
+
+13
+00:01:05,880 --> 00:01:12,270
+última que vamos a utilizar en el curso se ha añadido soporte a promesas de acuerdo.
+
+14
+00:01:12,270 --> 00:01:19,110
+Se han añadido algunos nuevos métodos y aparte es una librería mucho más compatible con HTML5.
+
+15
+00:01:19,140 --> 00:01:25,680
+De acuerdo y se han implementado cosas nuevas y aparte de la mejora en el rendimiento y todo eso simplemente
+
+16
+00:01:25,680 --> 00:01:28,320
+decirte que todas las versiones de cuerda funcionan igual.
+
+17
+00:01:28,320 --> 00:01:35,430
+Todo el código que vamos a ver es compatible con todas las versiones de qwerty de La 1 en adelante y
+
+18
+00:01:35,640 --> 00:01:37,500
+nada más simplemente eso.
+
+19
+00:01:37,500 --> 00:01:42,450
+La única diferencia ya te digo que es la compatibilidad con navegadores antiguos entonces ya a partir
+
+20
+00:01:42,450 --> 00:01:47,440
+de la siguiente clase vamos a empezar a ver ya cómo funciona y cómo trabajar con él.
+
+21
+00:01:47,490 --> 00:01:48,180
+Realmente.

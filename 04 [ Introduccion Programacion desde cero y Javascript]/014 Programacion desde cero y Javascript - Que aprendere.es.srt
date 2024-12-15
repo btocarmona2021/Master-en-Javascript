@@ -1,0 +1,351 @@
+1
+00:00:00,620 --> 00:00:05,620
+Qué vamos a aprender en las siguientes clases y en las siguientes secciones del máster.
+
+2
+00:00:05,810 --> 00:00:09,740
+Bien lo que vamos a aprender ahora es programación desde cero utilizando javascript.
+
+3
+00:00:09,750 --> 00:00:15,210
+De acuerdo utilizando el lenguaje de programación JavaScript entonces empezaremos a aprender a programar
+
+4
+00:00:15,210 --> 00:00:18,150
+y empezaremos a hacer nuestros primeros ejercicios.
+
+5
+00:00:18,150 --> 00:00:21,160
+Lo primero que veremos serán los primeros pasos con JavaScript.
+
+6
+00:00:21,420 --> 00:00:26,410
+En esta sección lo que veremos son las herramientas necesarias para programar con JavaScript.
+
+7
+00:00:26,430 --> 00:00:31,170
+Veremos también cómo hacer un Hola mundo en JavaScript ya sabes que un Hola mundo es como el primer
+
+8
+00:00:31,170 --> 00:00:32,810
+programa que se hace siempre.
+
+9
+00:00:32,880 --> 00:00:38,610
+El cual imprime por pantalla o muestra algo por pantalla al usuario y también veremos cómo trabajar
+
+10
+00:00:38,610 --> 00:00:45,160
+con la consola del navegador web para estar practicando con nuestras aplicaciones.
+
+11
+00:00:45,180 --> 00:00:50,670
+Después pasaremos a aprender las variables que como ya sabe una variable es un espacio reservado en
+
+12
+00:00:50,670 --> 00:00:56,250
+memoria en el cual podemos guardar un dato y luego utilizarlo en nuestro programa para hacer lo que
+
+13
+00:00:56,250 --> 00:00:59,420
+sea para hacer alguna operación para mostrarlo para hacer cualquier cosa.
+
+14
+00:00:59,430 --> 00:01:05,830
+Lo explicaremos en profundidad veremos como crear variables como utilizar los comentarios de código.
+
+15
+00:01:05,880 --> 00:01:08,860
+Veremos también que es el modo estricto de JavaScript.
+
+16
+00:01:08,880 --> 00:01:14,270
+Veremos también la diferencia entre definir una variable con L.T y con.
+
+17
+00:01:14,310 --> 00:01:19,140
+Veremos también cómo crear constantes y como te puede estar dando cuenta estas cosas que vamos a ver.
+
+18
+00:01:19,140 --> 00:01:23,880
+Hay muchas cosas que son nuevas porque vamos a estar utilizando los últimos estándares de JavaScript
+
+19
+00:01:23,940 --> 00:01:30,080
+como es más scrip 6 y 7 en el siguiente capítulo veremos los tipos de datos veremos qué tipos de datos
+
+20
+00:01:30,080 --> 00:01:32,360
+hay de acuerdo y cómo utilizarlo.
+
+21
+00:01:32,390 --> 00:01:36,840
+Y también aprenderemos a detectar qué tipo de dato tiene una variable dentro de JavaScript.
+
+22
+00:01:36,840 --> 00:01:42,300
+Como ya sabes es un lenguaje débilmente tipado con lo cual las variables no se le define el tipo de
+
+23
+00:01:42,300 --> 00:01:43,180
+dato en concreto.
+
+24
+00:01:43,410 --> 00:01:47,850
+Entonces aprenderemos a detectar qué tipo de dato tiene una variable y tal.
+
+25
+00:01:48,420 --> 00:01:53,610
+También estaremos aprendiendo acerca de los operadores los diferentes operadores matemáticos para hacer
+
+26
+00:01:53,610 --> 00:01:59,030
+operaciones y después también veremos los operadores lógicos en la siguiente sección.
+
+27
+00:01:59,040 --> 00:02:03,990
+Empezaremos a aprender y a trabajar con estructuras de control como ya sabe una estructura de control
+
+28
+00:02:03,990 --> 00:02:06,340
+nos permite hacer condicionales y bucles.
+
+29
+00:02:06,510 --> 00:02:13,260
+Empezaremos con los condicionales un condicional es algo que evalúa una condición y si sucede esa condición
+
+30
+00:02:13,290 --> 00:02:19,680
+va a ejecutar un trozo de código va a ejecutar algo y si no va a ejecutar otra cosa entonces veremos
+
+31
+00:02:19,680 --> 00:02:21,360
+cómo utilizar el condicional if.
+
+32
+00:02:21,930 --> 00:02:27,540
+Veremos también cómo utilizar los condicionales y los operadores lógicos para hacer condiciones más
+
+33
+00:02:27,540 --> 00:02:33,510
+complejas y también aprenderemos a trabajar con el condicional switch para evaluar diferentes casos
+
+34
+00:02:33,600 --> 00:02:34,620
+en una condición.
+
+35
+00:02:34,620 --> 00:02:39,060
+En el siguiente capítulo aprenderemos a trabajar también con la estructura de control pero esta vez
+
+36
+00:02:39,060 --> 00:02:45,450
+con los bucles o integradores un bucle como sabes es una estructura de control que se repite tantas
+
+37
+00:02:45,450 --> 00:02:49,370
+veces como sea necesario evaluando una condición si la condición se cumple.
+
+38
+00:02:49,410 --> 00:02:54,990
+El bucle va a seguir dando vueltas y tensando y haciendo algo lo veremos también en profundidad.
+
+39
+00:02:54,990 --> 00:02:57,240
+Veremos cómo utilizar el bucle for.
+
+40
+00:02:57,450 --> 00:03:03,060
+Veremos también el bucle Weyl el bucle while también veremos cómo parar un bucle con la instrucción
+
+41
+00:03:03,060 --> 00:03:05,490
+break etc..
+
+42
+00:03:05,550 --> 00:03:11,370
+En la siguiente sección aprenderemos a trabajar con alertas y ventanas dentro de JavaScript para mostrar
+
+43
+00:03:11,700 --> 00:03:12,700
+algo por pantalla.
+
+44
+00:03:12,720 --> 00:03:14,100
+Lo podemos hacer de varias formas.
+
+45
+00:03:14,130 --> 00:03:20,010
+Una sería incrustando en la página o mostrando una alerta al usuario pues eso es lo que aprenderemos.
+
+46
+00:03:20,010 --> 00:03:25,710
+Veremos como mostrar alertas también veremos cómo mostrar ventanas o prompt en los cuales el usuario
+
+47
+00:03:25,710 --> 00:03:31,260
+pueda meter información y nosotros poder procesarla o hacer algo con esa información que ha metido el
+
+48
+00:03:31,260 --> 00:03:33,410
+usuario etc..
+
+49
+00:03:33,570 --> 00:03:38,760
+Después pasaremos a hacer un bloque de ejercicios de programación básica con todo lo que hayamos aprendido
+
+50
+00:03:39,480 --> 00:03:44,130
+anteriormente y veremos cómo unir todas las piezas del puzle y hacer varios ejercicios en los cuales
+
+51
+00:03:44,340 --> 00:03:49,890
+trabajaremos con todo con variables el tipo de dato operadores condicionales bucles alerta y de todo
+
+52
+00:03:49,960 --> 00:03:50,350
+vale.
+
+53
+00:03:50,400 --> 00:03:54,510
+Una vez aprendido todo esto pasaremos ya a trabajar con las funciones.
+
+54
+00:03:54,510 --> 00:03:59,670
+Como se sabe una función es un bloque de instrucciones que podemos reutilizar tantas veces como queramos
+
+55
+00:03:59,730 --> 00:04:06,620
+y se encarga de hacer una tarea concreta y nos sirve para no tener que repetir el mismo código 100 veces
+
+56
+00:04:06,750 --> 00:04:12,480
+y nos sirve también para abstraer un poco la funcionalidad y poder pasarle diferentes parámetros para
+
+57
+00:04:12,480 --> 00:04:14,000
+que actúe de una forma u otra.
+
+58
+00:04:14,010 --> 00:04:19,740
+La función de platicaremos con eso veremos como funciona en profundidad y veremos cómo crear funciones
+
+59
+00:04:19,920 --> 00:04:25,380
+como pasarle parámetros como pasarle parámetros opcionales veremos cómo crear funciones dentro de otra
+
+60
+00:04:25,380 --> 00:04:27,950
+o como llamar funciones dentro de otras.
+
+61
+00:04:28,020 --> 00:04:31,700
+Veremos también el trabajo con parámetros Rest y Esprit.
+
+62
+00:04:31,740 --> 00:04:36,750
+También trabajaremos con funciones anónimas con Callback con funciones de flecha también que esto es
+
+63
+00:04:36,750 --> 00:04:37,380
+nuevo.
+
+64
+00:04:37,380 --> 00:04:40,600
+Aprenderemos también cuál es el ámbito de las variables.
+
+65
+00:04:40,740 --> 00:04:48,500
+Veremos también métodos para procesar textos métodos para buscar dentro de un string funciones de reemplazo
+
+66
+00:04:48,510 --> 00:04:53,940
+plantillas de texto en JavaScript y un montón de funciones también interna del lenguaje con lo cual
+
+67
+00:04:53,940 --> 00:04:56,760
+esta sección es muy muy interesante.
+
+68
+00:04:56,760 --> 00:05:03,790
+Después pasaremos a aprender a raíz y a una raíz simplemente es una colección de datos una colección
+
+69
+00:05:03,790 --> 00:05:06,010
+de varias varias variables.
+
+70
+00:05:06,010 --> 00:05:07,300
+No lo veremos en profundidad.
+
+71
+00:05:07,300 --> 00:05:13,660
+Veremos cómo crear a raíz de forma básica cómo crear arrays más avanzados como recorrer un array con
+
+72
+00:05:13,660 --> 00:05:16,360
+los bucles for Fortich etcétera.
+
+73
+00:05:16,360 --> 00:05:21,930
+Veremos también cómo crear Array multidimensionales que son Array que tienen dentro otros arrays.
+
+74
+00:05:21,940 --> 00:05:27,010
+Veremos también cómo hacer operaciones con arrays cómo convertir un estrenã una raï como ordenar un
+
+75
+00:05:27,010 --> 00:05:28,210
+arreglo o una raíz.
+
+76
+00:05:28,330 --> 00:05:33,670
+Cómo recorrer los arrays y mostrar toda esa información que tenemos dentro de una colección de datos
+
+77
+00:05:33,760 --> 00:05:38,370
+mostrarla en la página utilizando el bucle foril cómo buscar datos dentro de una raíz.
+
+78
+00:05:38,890 --> 00:05:40,910
+Y todo ese tipo de cosas.
+
+79
+00:05:41,200 --> 00:05:46,180
+Una vez que hayamos aprendido todo esto pasaremos al siguiente bloque de ejercicios de programación
+
+80
+00:05:46,180 --> 00:05:50,440
+en el cual haremos ejercicio con los Arráiz y con las funciones.
+
+81
+00:05:50,440 --> 00:05:55,930
+Y una vez que hayamos aprendido todo esto ya pasaremos a aprender JavaScript más en profundidad y veremos
+
+82
+00:05:55,930 --> 00:06:01,360
+cosas mucho más específicas de JavaScript porque todo esto que hemos visto anteriormente prácticamente
+
+83
+00:06:01,360 --> 00:06:06,340
+es aplicable a cualquier lenguaje de programación entonces a partir de aquí a partir de esta sección
+
+84
+00:06:06,690 --> 00:06:11,710
+en la siguiente aprenderemos cosas mucho más específicas de JavaScript y cómo trabajar con JavaScript
+
+85
+00:06:12,010 --> 00:06:15,330
+dentro de una página web y hacer cosas muy interesantes.
+
+86
+00:06:15,400 --> 00:06:21,310
+Así que sin más vamos a empezar esta sección vamos a empezar a aprender programación utilizando JavaScript
+
+87
+00:06:22,370 --> 00:06:28,180
+y espero que te ayude y si tienes cualquier duda ya sabes que me lo puedes poner en la parte de pregunta
+
+88
+00:06:28,180 --> 00:06:29,500
+y respuesta del curso.

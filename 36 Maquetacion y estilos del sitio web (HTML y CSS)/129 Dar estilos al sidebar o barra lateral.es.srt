@@ -1,0 +1,435 @@
+1
+00:00:00,750 --> 00:00:03,540
+Ahora vamos a maquetar el 6 bar de la web.
+
+2
+00:00:03,540 --> 00:00:09,820
+Lo primero que vamos a hacer va a ser modificar nuestro HTML porque hemos puesto etiquetas Sidebar y
+
+3
+00:00:09,870 --> 00:00:15,080
+realmente la etiqueta es aceite de acuerdo simplemente la he puesto así para que sea una referencia
+
+4
+00:00:15,600 --> 00:00:19,160
+pero realmente la etiqueta para hacer un Sidebar es así.
+
+5
+00:00:19,310 --> 00:00:21,710
+Y luego le ponemos el hide sidebar.
+
+6
+00:00:21,800 --> 00:00:29,610
+Entonces aquí vamos a meter algunos datos para mostrar no vamos a meter un dip
+
+7
+00:00:32,780 --> 00:00:34,130
+con el ID de About
+
+8
+00:00:37,420 --> 00:00:46,390
+que simplemente lo que vamos a obtener aquí es información del usuario vamos a meter un H4 H4 simplemente
+
+9
+00:00:46,420 --> 00:00:53,460
+para rellenar un poco el aceite y vamos a meter simplemente aquí el texto de quién soy
+
+10
+00:00:57,130 --> 00:00:59,170
+quién soy.
+
+11
+00:00:59,170 --> 00:01:09,220
+Vamos a cerrar bien la etiqueta y vamos a meter una imagen y MGP SRC vamos a meter una imagen que tengo
+
+12
+00:01:09,220 --> 00:01:11,160
+por aquí que es un caracol.
+
+13
+00:01:11,320 --> 00:01:22,560
+Efectivamente lo tengo y emergen barra Caracol juntos JPG y cierra la etiqueta.
+
+14
+00:01:24,940 --> 00:01:26,530
+Y por último únicamente en un párrafo
+
+15
+00:01:34,620 --> 00:01:40,630
+con un texto de prueba valéis actualizamos la pantalla.
+
+16
+00:01:40,630 --> 00:01:45,750
+Pues aquí me aparece lo que pasa es que claro me aparece muy grande y me parece que se sale y tal.
+
+17
+00:01:45,750 --> 00:01:50,990
+Eso lo formatear ahora le daremos el estilo correspondiente OK.
+
+18
+00:01:51,000 --> 00:01:59,790
+Así que vamos a darle estilo a esto antes de nada vamos a poner a Shavit a la propia etiqueta que realmente
+
+19
+00:01:59,790 --> 00:02:14,580
+hemos puesto una idea que Zoidberg Sidebar le vamos a poner un family helvética y si no àrea le vamos
+
+20
+00:02:14,580 --> 00:02:20,310
+a poner un Witz del treinta y un por ciento aproximadamente.
+
+21
+00:02:20,310 --> 00:02:23,200
+Le vamos a poner un float.
+
+22
+00:02:25,050 --> 00:02:25,350
+Vale.
+
+23
+00:02:25,350 --> 00:02:33,190
+Por el momento ahora más o menos se ajustará la información aquí en el lateral.
+
+24
+00:02:33,210 --> 00:02:41,400
+Ahora le vamos a dar uno estilo a la H4 dentro de seis bar H4 le vamos a poner un Mario top
+
+25
+00:02:44,730 --> 00:02:48,450
+de 50 píxeles un margin botón
+
+26
+00:02:55,920 --> 00:03:06,510
+de 20 píxeles vamos a poner un Tesa aligncenter le vamos a poner un líneade de 10 píxeles y le vamos
+
+27
+00:03:06,510 --> 00:03:17,780
+a poner un color de letra de tres tres tres Warden autorizó la pantalla y aquí me aparece mi texto vale.
+
+28
+00:03:17,970 --> 00:03:21,590
+Luego esto lo puedo decorar como a mi me de la gana realmente le puedo poner.
+
+29
+00:03:21,600 --> 00:03:29,500
+Fíjate que yo tengo un patrón una imagen que se llama Lins y le pego un background where RL y le puedo
+
+30
+00:03:29,500 --> 00:03:44,520
+decir con Tobarra y M.G. barra lines punto PNG y lo puedo decir repeat repeat Nión X para que me repita
+
+31
+00:03:44,550 --> 00:03:47,310
+ese patrón de forma que esto me parece.
+
+32
+00:03:47,310 --> 00:03:54,510
+De esta manera vale y luego si yo quiero que esto se vea blanco en el fondo pues simplemente lo puedo
+
+33
+00:03:54,510 --> 00:04:03,240
+meter dentro de un Spahn el texto y darle color a ese pan al fondo.
+
+34
+00:04:03,240 --> 00:04:14,130
+Vale puedo decir Sidebar H4 es pan y ese pan le doy un background UIT-T.
+
+35
+00:04:14,580 --> 00:04:15,920
+De esa manera.
+
+36
+00:04:16,290 --> 00:04:22,820
+Fijate cómo queda queda mucho mejor incluso yo puedo dar un Padín de 5 px
+
+37
+00:04:25,590 --> 00:04:27,620
+y ahí se ve mucho mejor.
+
+38
+00:04:27,630 --> 00:04:34,500
+Vale ahora le vamos a dar estilo a la imagen para que se ajuste más o menos a lo que hoy vamos a decir
+
+39
+00:04:35,010 --> 00:04:47,110
+Sidebar y MG le vamos a poner un Wiz del 90 por ciento.
+
+40
+00:04:48,080 --> 00:04:53,660
+Y ahí se va quedando bien incluso si le ponemos el 100 por ciento.
+
+41
+00:04:55,200 --> 00:05:01,020
+Pues también se ajustaría correctamente a la página.
+
+42
+00:05:01,200 --> 00:05:02,310
+Así se queda bien también.
+
+43
+00:05:03,750 --> 00:05:08,970
+Y por último pues vamos a darle unos destiló a lo que es el párrafo Sidebar
+
+44
+00:05:11,720 --> 00:05:25,830
+te vamos a poner un iPhone 6 de 15 PX o incluso de 15 PX le vamos a poner un Texas Laine justificó de
+
+45
+00:05:26,390 --> 00:05:32,110
+esta manera si actualizo la pantalla aquí no aparece ese texto perfectamente.
+
+46
+00:05:32,280 --> 00:05:36,480
+Vale pues ya tenemos un poco nuestro nuestros Aibar ya le hemos dado forma.
+
+47
+00:05:36,480 --> 00:05:42,750
+Vale tenemos todo un poco de forma incluso fíjate que si queremos un poco perfeccionar esto a lo que
+
+48
+00:05:42,750 --> 00:05:53,400
+viene siendo el contenedor la sección con de Content yo podría darle un tamaño Wiz que sea menor que
+
+49
+00:05:53,400 --> 00:05:56,560
+sea un 80 por 100 vale.
+
+50
+00:05:56,610 --> 00:06:02,190
+Y de esta manera puedo ir modificando un poco 1:27 Y lo poco Mayim
+
+51
+00:06:04,870 --> 00:06:13,590
+0 PX auto Balet y un poco ajustar eso al centro para que tenga espacio por aquí vale puedo hacer lo
+
+52
+00:06:13,590 --> 00:06:15,600
+que lo que a mí se me ocurra
+
+53
+00:06:18,760 --> 00:06:19,390
+vale.
+
+54
+00:06:19,440 --> 00:06:25,680
+Si queremos que quede completamente alineado con con lo de arriba pues lo dejamos como lo teníamos y
+
+55
+00:06:25,680 --> 00:06:33,150
+si queremos incluso le podemos dar más Padín a lo que viene siendo la caja principal por decirlo de
+
+56
+00:06:33,150 --> 00:06:36,810
+alguna forma la caja de Global vale.
+
+57
+00:06:36,810 --> 00:06:42,900
+A esa caja global le puede montar espadín podemos poner 25 píxeles de Padín se actualizó la pantalla
+
+58
+00:06:43,320 --> 00:06:45,720
+hoy se ve un poco mejor.
+
+59
+00:06:45,720 --> 00:06:50,550
+Vale ahora vamos a hacer la parte del lobby que va a ser un formulario contra el campo un formulario
+
+60
+00:06:50,550 --> 00:06:57,360
+falso simplemente para meter los datos del usuario y que se guarden en la página de alguna manera y
+
+61
+00:06:57,360 --> 00:06:58,200
+luego mostrarlo.
+
+62
+00:06:58,200 --> 00:07:08,390
+Así que vamos a añadir ese formulario aquí dentro de un DIV igual que hemos hecho con este DIV y de
+
+63
+00:07:09,030 --> 00:07:13,350
+lobby vamos a poner de igual forma a un H4 como éste
+
+64
+00:07:16,530 --> 00:07:19,350
+que diga identificaste
+
+65
+00:07:23,530 --> 00:07:30,720
+y simplemente volvamos a poner varios campos vamos a hacer un formulario y aquí vamos a poner un label
+
+66
+00:07:32,580 --> 00:07:38,280
+for Nein que va a ser nombre cierro el label
+
+67
+00:07:42,130 --> 00:07:54,790
+abro el input type text nein nein cierra el input y voy a crearme otros dos campos
+
+68
+00:07:58,560 --> 00:07:59,400
+y un botón
+
+69
+00:08:09,910 --> 00:08:22,610
+te voy a ponerle aquí el email correo del foro email Nein email y luego la contraseña
+
+70
+00:08:26,410 --> 00:08:32,900
+tipo password esto password y Nain passwords
+
+71
+00:08:35,590 --> 00:08:39,100
+guardo actualizo la pantalla y aquí aparece mi formulario.
+
+72
+00:08:39,100 --> 00:08:46,840
+Qué pasa que me aparece un poco feo digamos no me aparece con un formato bonito un formato que podríamos
+
+73
+00:08:46,840 --> 00:08:48,350
+decir que fue agradable.
+
+74
+00:08:49,210 --> 00:08:56,890
+Entonces vamos a formatearlo vamos a ponerle al form imput de Dibo texto
+
+75
+00:08:59,700 --> 00:09:02,360
+y también a los que sean de tipo password.
+
+76
+00:09:02,410 --> 00:09:06,520
+Le vamos a dar uno de estilo para la web
+
+77
+00:09:09,700 --> 00:09:19,540
+y también a los que sean de tipo I mail le vamos a dar uno de estilo para que los comparta le vamos
+
+78
+00:09:19,540 --> 00:09:32,700
+a poner un Padín de cinco píxeles le vamos a poner un border radius de un PX o de dos PX
+
+79
+00:09:36,660 --> 00:09:41,800
+le vamos a poner un border color de CCC.
+
+80
+00:09:41,820 --> 00:09:47,700
+Vamos a ver como va a ir lo vamos viendo y le vamos a quitar el borde.
+
+81
+00:09:47,700 --> 00:09:48,630
+En un principio
+
+82
+00:09:51,390 --> 00:10:00,490
+Border un PX sólito CCC a ver cómo lo dejó vaya si lo deja más o menos aceptable.
+
+83
+00:10:01,470 --> 00:10:03,600
+Vamos a ponerle un Wiz del 100 por cien
+
+84
+00:10:08,610 --> 00:10:11,720
+vale si se va quedando le vamos a poner.
+
+85
+00:10:12,060 --> 00:10:14,880
+Incluso le vamos a quitar se lo vamos a poner el 80 por ciento.
+
+86
+00:10:17,710 --> 00:10:24,390
+OK le vamos a poner un margin botón de 10 PX
+
+87
+00:10:27,380 --> 00:10:27,970
+OK.
+
+88
+00:10:28,530 --> 00:10:30,540
+Así queda más o menos bien.
+
+89
+00:10:33,060 --> 00:10:34,640
+Y le vamos a poner un bocado
+
+90
+00:10:37,280 --> 00:10:42,350
+de cero PX 0 PX 2 PX increíble.
+
+91
+00:10:42,530 --> 00:10:50,150
+Vale cero Begg y me refiero a esto si se refiere a la X esto se refiere a ley y esto se refiere a lo
+
+92
+00:10:50,150 --> 00:10:56,360
+amplio que es la sombra a la amplitud de la sombra en este caso se quedaría más o menos así aunque realmente
+
+93
+00:10:57,710 --> 00:11:04,790
+no me convence mucho así que yo se lo voy a quitar y aquí veo con el Gray para que se vea como más fuerte
+
+94
+00:11:07,240 --> 00:11:09,790
+no le voy a poner un marino
+
+95
+00:11:15,990 --> 00:11:21,750
+de 10 píxeles de píxeles no de 5 píxeles
+
+96
+00:11:25,130 --> 00:11:30,170
+vale así queda bastante bastante correcto.
+
+97
+00:11:30,170 --> 00:11:37,430
+Y por último voy a añadir el botón Voy a hacer el botón el botón para el botón simplemente vamos a hacer
+
+98
+00:11:37,430 --> 00:11:40,220
+lo siguiente for input
+
+99
+00:11:45,540 --> 00:11:55,050
+type submit y le vamos a poner unos estílo le vamos a dar un background CFCE le vamos a dar un Padín
+
+100
+00:11:55,230 --> 00:12:00,540
+de 5 px y ya está.
+
+101
+00:12:00,550 --> 00:12:02,140
+Vamos a ver como queda.
+
+102
+00:12:03,210 --> 00:12:13,660
+Así quedaría le vamos a poner un Border de un PEGI Solid Gray.
+
+103
+00:12:14,090 --> 00:12:23,990
+Así quedaría el botón quizá un poco fuerte le vamos a poner un color más suave de acuerdo le vamos a
+
+104
+00:12:23,990 --> 00:12:34,110
+poner un color de borde también más suave y le vamos a dar diez Pichette Padín y un color tres tres
+
+105
+00:12:34,100 --> 00:12:34,480
+tres.
+
+106
+00:12:34,490 --> 00:12:41,060
+Para suavizar un poco el color así se quedaría bien y además le voy a poner un curso Poynter
+
+107
+00:12:45,040 --> 00:12:51,130
+me acuerdo y ahora pues aparecerá cuando pasamos por encima la manita de púlsar vale.
+
+108
+00:12:51,250 --> 00:12:54,400
+Hasta aquí todo correcto.
+
+109
+00:12:54,400 --> 00:13:00,660
+Ya tenemos también el bar maquetado lo siguiente que nos toca es la maquetación del Führer.

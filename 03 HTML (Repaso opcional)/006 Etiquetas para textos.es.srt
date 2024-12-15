@@ -1,0 +1,283 @@
+1
+00:00:01,110 --> 00:00:06,670
+Ahora vamos a ver las etiquetas para textos prácticamente todo lo que hay dentro de una página web es
+
+2
+00:00:06,690 --> 00:00:14,100
+texto todo el contenido que hay dentro de una página web texto lo que pasa es que dentro de HTML cuando
+
+3
+00:00:14,160 --> 00:00:20,280
+tenemos una página web con HTML simplemente tenemos una maqueta básica es decir hemos construido el
+
+4
+00:00:20,280 --> 00:00:28,050
+sitio a nivel de estructura y no tienen un estilo visual pero básicamente si vamos a cualquier página
+
+5
+00:00:28,050 --> 00:00:34,500
+web por ejemplo está todo el contenido que hay aquí es texto es decir esto es texto esto es una lista
+
+6
+00:00:34,500 --> 00:00:41,130
+de texto también aquí hay un párrafo aquí hay más texto y más texto texto todo esto vale entonces vamos
+
+7
+00:00:41,130 --> 00:00:47,820
+a ver la etiqueta más importantes para texto por ejemplo ya hemos visto dos que es el H1 que sería el
+
+8
+00:00:47,820 --> 00:00:59,700
+título del documento HTML o de la web o de la página concreta que estemos en este momento H2 sería el
+
+9
+00:00:59,820 --> 00:01:05,500
+subtítulo y luego tenemos más etiquetas como por ejemplo la etiqueta de párrafo.
+
+10
+00:01:05,500 --> 00:01:10,900
+Nosotros podemos definir párrafos con la etiqueta p y cerramos la etiqueta p y dentro de la etiqueta.
+
+11
+00:01:10,900 --> 00:01:17,880
+P Yo puedo definir textos por ejemplo puedo decir hola qué tal.
+
+12
+00:01:17,880 --> 00:01:24,510
+Desde este curso de acuerdo puedo guardar y puedo actualizar la pantalla y aparecerá un texto aquí pero
+
+13
+00:01:24,510 --> 00:01:33,210
+si yo vuelvo a copiar y pegar esta etiqueta me va a aparecer otro párrafo para verlo más claro.
+
+14
+00:01:33,210 --> 00:01:42,540
+Incluso podríamos buscar en Google podríamos buscar un generador de texto de prueba como es el caso
+
+15
+00:01:42,540 --> 00:01:46,210
+del orden Ipsum Loreen ipsum.
+
+16
+00:01:46,260 --> 00:01:51,090
+Simplemente es una página que nos permite copiar un texto generado de prueba para hacer nuestras páginas
+
+17
+00:01:51,090 --> 00:01:51,290
+web.
+
+18
+00:01:51,300 --> 00:01:59,490
+Por ejemplo voy a copiar este párrafo de aquí y lo voy a pegar en mi página web.
+
+19
+00:01:59,750 --> 00:02:08,220
+En mi párrafo voy a tener varios párrafos de este tipo al tener tres párrafos y esto visualmente en
+
+20
+00:02:08,220 --> 00:02:12,840
+la página web se va a mostrar como 3 párrafo 1 2 y 3.
+
+21
+00:02:12,840 --> 00:02:15,300
+El primer y el segundo y el tercero.
+
+22
+00:02:15,480 --> 00:02:21,330
+P También puede utilizar una etiqueta que no tiene ningún contenido pero sí que va a hacer una función
+
+23
+00:02:21,450 --> 00:02:24,030
+clara que es la etiqueta del salto de línea.
+
+24
+00:02:24,030 --> 00:02:30,060
+Para eso utiliza la etiqueta B.R. y esa etiqueta no tiene ningún contenido pues se cierra directamente
+
+25
+00:02:30,090 --> 00:02:35,460
+aquí esta etiqueta lo que va a hacer es un salto de línea y me va a hacer un enter en el texto.
+
+26
+00:02:35,480 --> 00:02:42,190
+Vale fíjate que aquí me ha hecho un enter y puedo utilizarla varias veces tantas veces como quiera.
+
+27
+00:02:42,270 --> 00:02:48,920
+A veces utilizo dos veces me van a aparecer dos saltos de línea como si yo en Microsoft Word y docentes.
+
+28
+00:02:48,940 --> 00:02:51,450
+Pues lo mismo vale.
+
+29
+00:02:51,480 --> 00:02:58,650
+Luego también tenemos una etiqueta de HTML que tampoco tiene ningún contenido que nos permite hacer
+
+30
+00:02:59,100 --> 00:03:06,690
+un salto de línea pero pintando o dibujando una línea por ejemplo es la etiqueta H.R y la cierro directamente
+
+31
+00:03:06,690 --> 00:03:10,910
+aquí con una barra invertida o con una diagonal.
+
+32
+00:03:10,910 --> 00:03:17,250
+Entonces se autoriza la pantalla me aparece lo mismo un salto de línea igual un BR pero pintándose una
+
+33
+00:03:17,370 --> 00:03:18,840
+línea completa.
+
+34
+00:03:18,940 --> 00:03:27,600
+Vale entonces perfecto ya tendríamos el título de la página el subtítulo y no tres párrafos vamos a
+
+35
+00:03:27,600 --> 00:03:34,290
+quitar el H.R y lo vamos a utilizar como separador MODIS como separador y entonces vamos a hacer lo
+
+36
+00:03:34,290 --> 00:03:39,810
+siguiente Vamos a poner otro encabezado más pequeño como es un H3
+
+37
+00:03:43,020 --> 00:03:45,180
+tercer encabezado
+
+38
+00:03:47,910 --> 00:03:57,210
+de la página guardo autorizó la pantalla y allí mi aparece y entonces voy a poner otro párrafo aquí
+
+39
+00:03:57,210 --> 00:04:04,420
+abajo y en ese párrafo vamos a aprobar más etiquetas de texto vamos a autorizar la pantalla aquí me
+
+40
+00:04:04,420 --> 00:04:05,340
+aparece mi párrafo.
+
+41
+00:04:06,240 --> 00:04:10,540
+Entonces vamos a aprobar por ejemplo la etiqueta Strom estro.
+
+42
+00:04:10,920 --> 00:04:18,540
+Esta etiqueta me permite poner un texto en negrita vale guardo actualizo la pantalla y EBIT y aquí vemos
+
+43
+00:04:18,600 --> 00:04:23,250
+que lo que yo he metido dentro del estro me lo pone en negrita también.
+
+44
+00:04:23,370 --> 00:04:35,340
+Por ejemplo la etiqueta M me va a poner un texto en cursiva me actualizo la pantalla y aquí vemos un
+
+45
+00:04:35,340 --> 00:04:36,020
+texto.
+
+46
+00:04:36,050 --> 00:04:41,340
+Entonces el texto en cursiva justo el contenido que tiene la etiqueta acuérdate siempre de abrir la
+
+47
+00:04:41,340 --> 00:04:48,720
+etiqueta y luego cerrar la etiqueta con la barra o con la diagonal mejor dicho.
+
+48
+00:04:48,720 --> 00:04:56,040
+También podría utilizar la etiqueta Spahn que es una etiqueta que no hace nada no hace ninguna acción
+
+49
+00:04:56,040 --> 00:04:58,860
+sobre el texto.
+
+50
+00:04:58,860 --> 00:05:03,660
+Si esto hizo la pantalla utilizando la etiqueta ASPAN no hay ningún cambio pero sin embargo yo le puedo
+
+51
+00:05:03,660 --> 00:05:15,690
+poner un identificador de acuerdo por ejemplo resaltado y yo lo puedo poner también clases para luego
+
+52
+00:05:15,690 --> 00:05:17,770
+con CSS cambiarle los estilo.
+
+53
+00:05:17,760 --> 00:05:25,670
+Por ejemplo le puedo poner una clase que sea rojo y otro que sea amarillo vale por ejemplo y luego yo
+
+54
+00:05:25,680 --> 00:05:31,350
+a nivel de CSS podría cambiarlo estilo CSS y ya sabes que un lenguaje que nos permite cambiarle la apariencia
+
+55
+00:05:31,350 --> 00:05:34,830
+visual a la página web hecha con HTML.
+
+56
+00:05:34,840 --> 00:05:44,850
+Vale entonces simplemente con eso ya hemos visto varias etiquetas de texto los encabezados los párrafo
+
+57
+00:05:44,970 --> 00:05:50,300
+La Negrita la cursiva y en España como etiqueta para hacer maquetación.
+
+58
+00:05:50,340 --> 00:05:55,540
+Posteriormente también puede utilizar la etiqueta y etiqueta.
+
+59
+00:05:55,680 --> 00:06:02,130
+También nos permite poner el texto en cursiva de acuerdo a mi yo prefiero en este caso no pero bueno
+
+60
+00:06:02,130 --> 00:06:05,760
+también es teta y también existe la etiqueta blog quote
+
+61
+00:06:08,550 --> 00:06:18,210
+blog quote que nos permite que su contenido sea como una especie de cita para decir yo guardo y actualizo
+
+62
+00:06:18,210 --> 00:06:19,470
+la pantalla.
+
+63
+00:06:19,470 --> 00:06:25,440
+Fíjate que ese trozo de texto que yo he metido aquí dentro dentro del blog quote
+
+64
+00:06:30,630 --> 00:06:36,300
+me aparece en un formato de Città es decir me aparece con una tabulación especial y con un espaciado
+
+65
+00:06:36,360 --> 00:06:37,330
+especial.
+
+66
+00:06:38,130 --> 00:06:46,290
+Así que el blog quote se utiliza para simplemente remarcar una cita dentro del texto y con esto yo creo
+
+67
+00:06:46,290 --> 00:06:52,980
+que ya hemos visto la etiqueta más importante para hacer textos dentro de HTML ya serías capaz perfectamente
+
+68
+00:06:52,980 --> 00:07:01,020
+de hacerme un documento perfectamente utilizando HTML hacerme una página web que tenga simplemente texto
+
+69
+00:07:01,290 --> 00:07:07,710
+que tenga un título principal luego que tenga un segundo titular o un subtítulo y que tenga un contenido
+
+70
+00:07:07,710 --> 00:07:13,550
+luego que tenga otro subtítulo que tenga otro contenido resaltando textos en negrita y en cursiva.
+
+71
+00:07:13,750 --> 00:07:19,950
+Y de esta manera pues se maketa en los textos de una web con HTML.

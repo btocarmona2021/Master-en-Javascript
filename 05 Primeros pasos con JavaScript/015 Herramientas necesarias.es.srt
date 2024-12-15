@@ -1,0 +1,75 @@
+1
+00:00:01,270 --> 00:00:06,790
+Para empezar a trabajar con JavaScript vamos a necesitar tener dos herramientas básicas un editor de
+
+2
+00:00:06,790 --> 00:00:09,480
+código y un navegador web como sabes.
+
+3
+00:00:09,520 --> 00:00:15,910
+JavaScript es un lenguaje interpretado por un navegador de que un navegador es el que se encarga de
+
+4
+00:00:15,910 --> 00:00:21,700
+mostrar las páginas web y JavaScript está enfocado a eso a hacer página web hacer interacción con una
+
+5
+00:00:21,700 --> 00:00:28,210
+página web entonces para poder interpretar este lenguaje debemos tener un navegador web en mi caso utilizar
+
+6
+00:00:28,510 --> 00:00:35,620
+Google Crom pero también podríamos usar Firefox o cualquier otro y luego para la parte de edición del
+
+7
+00:00:35,620 --> 00:00:39,690
+código para crear nuestra web o para editar el código JavaScript.
+
+8
+00:00:39,700 --> 00:00:43,240
+Vamos a necesitar un entorno de desarrollo o un editor de código.
+
+9
+00:00:43,360 --> 00:00:49,420
+En mi caso voy a utilizar el editor de código subliman Tex que es el que a mí me gusta personalmente
+
+10
+00:00:49,570 --> 00:00:57,340
+pero tú puedes utilizar ya sea suplentes ya sea Visual Studio Code Atom el que tu quieras o sea me da
+
+11
+00:00:57,340 --> 00:01:02,890
+igual que utilices porque el código que nosotros vamos a desarrollar es exactamente igual en cualquier
+
+12
+00:01:02,890 --> 00:01:09,280
+editor que utilice o sea al final un editor de código es una herramienta que nosotros utilizamos para
+
+13
+00:01:09,280 --> 00:01:13,810
+programar pero al final el código que generamos va a ser el mismo tanto en un editor de código como
+
+14
+00:01:13,810 --> 00:01:22,360
+en otro así que yo prefiero utilizar su 20x porque es el que más me gusta a mí y al que estoy acostumbrado
+
+15
+00:01:22,440 --> 00:01:24,370
+me acuerdo.
+
+16
+00:01:24,370 --> 00:01:30,700
+Si tú quieres utiliza ya te digo Visual Studio Code Atom Nevins cualquier editor de código te sirve
+
+17
+00:01:30,880 --> 00:01:36,490
+de acuerdo a cualquier entorno de desarrollo pero en este caso para hacer el curso a utilizar su blindex
+
+18
+00:01:36,490 --> 00:01:42,280
+al que no le guste blindex que utilice otro de acuerdo con estas dos herramientas vamos a poder empezar
+
+19
+00:01:42,580 --> 00:01:44,050
+a trabajar con JavaScript.

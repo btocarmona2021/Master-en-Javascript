@@ -1,0 +1,327 @@
+1
+00:00:01,100 --> 00:00:06,710
+Ya sabemos lo que es el Dom que es el árbol de todos los elementos que hay en una página web a nivel
+
+2
+00:00:06,710 --> 00:00:13,260
+de HTML todas las etiquetas son un elemento del DOM y ahora vamos a ver cómo trabajar con el Bom Bom.
+
+3
+00:00:13,280 --> 00:00:20,600
+Es el browser Object Model es decir cómo pudo trabajar con los elementos que nos da el navegador web
+
+4
+00:00:20,780 --> 00:00:27,080
+es decir cosas como ver qué tamaño tiene la ventana del navegador cómo redirigir de una web a otra.
+
+5
+00:00:27,080 --> 00:00:34,580
+Ese tipo de cosas forman parte del navegador y tenemos múltiples métodos que nos permiten trabajar con
+
+6
+00:00:34,580 --> 00:00:37,970
+el Böhm y trabajar con el browser de una manera muy sencilla.
+
+7
+00:00:38,010 --> 00:00:43,820
+Y eso es lo que vamos a ver ahora así que vamos a crear un nuevo archivo de JavaScript que se va a llamar
+
+8
+00:00:44,600 --> 00:00:50,720
+29. guión bom punto JS.
+
+9
+00:00:51,200 --> 00:00:53,060
+Vamos a cargar el archivo aquí en nuestro
+
+10
+00:00:55,870 --> 00:00:57,280
+índex HTML.
+
+11
+00:00:57,280 --> 00:01:03,070
+Ahora mismo tenemos aquí el tema del DOM que lo podemos dejar y podemos cargar también el boom
+
+12
+00:01:08,650 --> 00:01:10,430
+boom.
+
+13
+00:01:10,610 --> 00:01:19,590
+Bien pues vamos a ponerle luz Street y vamos a empezar el Böhm es el browser
+
+14
+00:01:23,100 --> 00:01:25,950
+Object Model.
+
+15
+00:01:26,310 --> 00:01:32,280
+Vale vamos a tener mucha muchísima propiedades que nos van a permitir trabajar con el navegador podríamos
+
+16
+00:01:32,400 --> 00:01:41,310
+ver qué tamaño tiene la ventana con su reloj y vamos a utilizar la propiedad Windows el objeto window
+
+17
+00:01:41,670 --> 00:01:49,260
+window window con esto nosotros podemos ver o acceder al objeto del navegador web de la ventana y ver
+
+18
+00:01:49,260 --> 00:01:53,580
+el INER Jaitt INER Jaitt.
+
+19
+00:01:53,580 --> 00:02:01,290
+De esta manera yo puedo ver qué tamaño tiene la ventana en este momento si hablo la consola y subo para
+
+20
+00:02:01,290 --> 00:02:02,700
+arriba.
+
+21
+00:02:02,700 --> 00:02:04,920
+Aquí veo que tiene 162.
+
+22
+00:02:04,920 --> 00:02:12,480
+Es decir esto sería la altura y yo quiero sacar la anchura también INER with
+
+23
+00:02:18,450 --> 00:02:26,380
+me lo saca de acuerdo a Mentxaka que la anchura de la pantalla es de 1366 píxeles lo cual es correcto.
+
+24
+00:02:26,420 --> 00:02:33,830
+Esto me debería sacarse de ciento y pico aunque realmente me saca 162 porque la altura real es ésta
+
+25
+00:02:33,840 --> 00:02:35,200
+de aquí vale.
+
+26
+00:02:35,210 --> 00:02:39,470
+Si yo redujera esto y esto lo meto dentro de una función
+
+27
+00:02:42,200 --> 00:02:45,700
+una función que se llama en Ketchum vale.
+
+28
+00:02:45,700 --> 00:02:48,020
+Si otro momento dentro de una función vamos a ver
+
+29
+00:02:53,800 --> 00:03:04,360
+que si yo le invoco nadábamos cargar Edmon me va a sacar los valores que yo tengo aquí es decir el ancho
+
+30
+00:03:04,360 --> 00:03:05,290
+de la pantalla es
+
+31
+00:03:07,840 --> 00:03:10,390
+1366 y El Alto es éste.
+
+32
+00:03:10,420 --> 00:03:13,990
+Pero si actualizo de nuevo ahora el alto es 328.
+
+33
+00:03:13,990 --> 00:03:21,070
+Es decir es esto de aquí si yo llamo el método Goldblum ahora y esto lo hago más pequeñito todavía
+
+34
+00:03:23,770 --> 00:03:31,720
+me va a sacar que la altura ahora es 448 es decir de aquí hasta aquí con lo cual esto está funcionando
+
+35
+00:03:31,720 --> 00:03:36,580
+y de esa manera yo puedo acceder a estas propiedades de la pantalla de mi navegador.
+
+36
+00:03:36,640 --> 00:03:44,230
+Otra cosa que puedo hacer es por ejemplo sacar el Screen Wiz screen Witz
+
+37
+00:03:48,030 --> 00:03:52,140
+de acuerdo que esto debe ser lo mismo y el Screen Jaitt
+
+38
+00:04:02,520 --> 00:04:09,930
+ahora sí que me saca 768 porque lo que hace acceder a propiedades que hay dentro del navegador que ya
+
+39
+00:04:09,930 --> 00:04:15,930
+tienen el cálculo del tamaño de la pantalla del usuario con lo cual también puedo sacar esto.
+
+40
+00:04:16,110 --> 00:04:23,130
+Otra cosa que puedo hacer es sacar la web actual en la que estamos y pudo ver que hay ahora mismo cargada
+
+41
+00:04:23,340 --> 00:04:30,110
+simplemente haciendo window punto location.
+
+42
+00:04:30,180 --> 00:04:36,840
+De esta manera si yo estoy solo la pantalla me muestra el objeto de Location que dentro está el HR-V
+
+43
+00:04:36,840 --> 00:04:43,110
+está todo vale aquí dentro está todo todo lo que yo puedo sacar puedo sacar el HR-V vale si yo pongo
+
+44
+00:04:43,110 --> 00:04:50,490
+aquí HR-V me me va a imprimir la web reírle que hoy efectivamente está en la web revelé que aparece
+
+45
+00:04:50,490 --> 00:04:59,220
+aquí en la barra de direcciones y puedo sacar un montón de propiedades más de acuerdo sin ningún tipo
+
+46
+00:04:59,220 --> 00:05:00,050
+de problema.
+
+47
+00:05:00,180 --> 00:05:07,490
+Incluso podría hacerme una función que cuando yo la llamara me rehiciera otra parte.
+
+48
+00:05:09,000 --> 00:05:10,620
+Vale.
+
+49
+00:05:10,620 --> 00:05:18,870
+Yo le voy a pasar como un parámetro una wereables y simplemente haciendo un window punto locativo punto
+
+50
+00:05:18,870 --> 00:05:26,590
+HR-V yo indicándole aquí la UE revele que yo le pase si yo llamo este método en el navegador.
+
+51
+00:05:26,700 --> 00:05:36,300
+Vamos a ver que si lo llamo retired y le meto aquí la web real que me lleve a Google HTTP 2 PUNTOS BARRA
+
+52
+00:05:36,300 --> 00:05:36,690
+BARRA
+
+53
+00:05:39,060 --> 00:05:47,280
+Google.com ejecuto el método y fijate lo que pasa me acabo de redirigir sin ningún tipo de problema.
+
+54
+00:05:47,330 --> 00:05:47,790
+Por qué.
+
+55
+00:05:47,790 --> 00:05:50,530
+Porque hemos cambiado el HR-V de la web.
+
+56
+00:05:50,820 --> 00:05:53,370
+Si vuelvo para atrás y pongo otra web cualquiera
+
+57
+00:05:57,560 --> 00:06:06,230
+Víctor Robles apuntó es fíjate lo que está pasando me acaba de redirigir sin ningún tipo de problema
+
+58
+00:06:07,070 --> 00:06:07,850
+a mi web.
+
+59
+00:06:07,970 --> 00:06:15,350
+De esta manera podemos trabajar con el navegador más cositas que podrían hacer movernos entre el historial
+
+60
+00:06:15,350 --> 00:06:22,760
+del navegador aunque es una cosa que me parece un poco inútil ahora podemos hacer un montonazo de cosas
+
+61
+00:06:22,880 --> 00:06:23,560
+de acuerdo.
+
+62
+00:06:23,630 --> 00:06:30,380
+Hay un montón de opciones que nos da Windows y que nota el boom dentro de JavaScript.
+
+63
+00:06:30,380 --> 00:06:36,650
+Por último vamos a hacer alguna cosa interesante más que es en lugar de redirigir que nos abra una pequeña
+
+64
+00:06:36,650 --> 00:06:38,130
+ventana de navegador.
+
+65
+00:06:38,180 --> 00:06:42,980
+Si yo hago una función que se llame abrir ventana
+
+66
+00:06:45,680 --> 00:06:55,120
+y yo le pasara a una web al igual que hemos hecho en el método anterior y hago window window open y
+
+67
+00:06:55,130 --> 00:06:56,790
+le paso la Wireless.
+
+68
+00:06:57,110 --> 00:07:06,470
+De esta manera ya verán lo que va a pasar cuando yo ejecute ese método desde mi consola si pongo Abrir
+
+69
+00:07:06,590 --> 00:07:09,250
+ventana y le paso mi Wireless
+
+70
+00:07:17,220 --> 00:07:23,100
+si hago esto fíjate lo que me acaba de abrir una pestaña nueva en el navegador.
+
+71
+00:07:23,100 --> 00:07:27,640
+De acuerdo me ha abierto una pestañita nueva sin ningún tipo de problema.
+
+72
+00:07:27,950 --> 00:07:34,680
+Ello puedo pasarle una R.L como segundo parámetro no pasarle nada y como tercer parámetro pasarle propiedades
+
+73
+00:07:34,680 --> 00:07:44,640
+como el width que le vamos a poner el 400 y el Feith que también le voy a poner 300.
+
+74
+00:07:45,180 --> 00:07:52,290
+Si yo hago esto y ejecuto ese método ahora desde mi consola fíjate lo que hace me acaba de sacar una
+
+75
+00:07:52,290 --> 00:08:00,510
+ventanita nueva y aquí me aparece en un pequeño popup pues todo lo que me aparece me acaba de cargar
+
+76
+00:08:00,510 --> 00:08:02,880
+por la web que yo le he dicho.
+
+77
+00:08:02,880 --> 00:08:05,880
+La web revela que yo lo he dicho y así yo podría hacer mil cosas.
+
+78
+00:08:05,910 --> 00:08:07,860
+O sea que el boom tiene mil cosas.
+
+79
+00:08:07,860 --> 00:08:13,890
+Todo lo que pueda hacer un navegador web lo podemos hacer desde javascript sin ningún problema así que
+
+80
+00:08:14,250 --> 00:08:18,990
+simplemente quería darte estas pequeñas pautas acerca de lo que era el boom y las cosas que se pueden
+
+81
+00:08:18,990 --> 00:08:20,880
+llegar a hacer y nada más.
+
+82
+00:08:20,880 --> 00:08:24,230
+Espero que te haya gustado y en la siguiente clase sabremos más cositas.

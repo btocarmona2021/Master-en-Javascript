@@ -1,0 +1,43 @@
+1
+00:00:00,390 --> 00:00:05,640
+Taipe scrip también tiene la opción de tener múltiples tipos de dato asignado a una variable es decir
+
+2
+00:00:05,640 --> 00:00:11,500
+que si yo tengo la variable cadena que es un tipo string le puede indicar utilizando la tubería.
+
+3
+00:00:11,880 --> 00:00:18,630
+Otro tipo de dato le puedo decir que también es válido el number de forma que ahora mismo esto va a
+
+4
+00:00:18,630 --> 00:00:29,580
+compilar sin ningún tipo de problema pero si a mí se me ocurriera meterle a cadena un número sí o esto
+
+5
+00:00:29,760 --> 00:00:35,870
+tampoco me va a dar error porque lo que pasa aquí es que mira si es este tipo de dato o es este otro
+
+6
+00:00:36,090 --> 00:00:38,530
+si el valor de cadena es Eckstein o es Naum.
+
+7
+00:00:38,590 --> 00:00:43,370
+En el caso de que sea uno de esos dopo no va a dar ningún tipo de error.
+
+8
+00:00:43,530 --> 00:00:49,370
+Vale efectivamente y si a mí se me ocurriera meterle un Truc por ejemplo que ya es un Bolea.
+
+9
+00:00:49,470 --> 00:00:55,560
+Eso ya si me va a escupir un error efectivamente porque incumple todo tipo de datos que puede tener
+
+10
+00:00:55,560 --> 00:00:56,490
+esta variable.
+
+11
+00:00:56,490 --> 00:01:00,570
+Así que ya hemos visto otra cosa interesante acerca de Taipe scrip.

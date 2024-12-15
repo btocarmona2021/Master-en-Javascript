@@ -1,0 +1,63 @@
+1
+00:00:00,870 --> 00:00:07,230
+Ahora vamos a aprender a trabajar con los países o filtros un PIB o un filtro es una pequeña funcionalidad
+
+2
+00:00:07,230 --> 00:00:14,360
+que podemos utilizar en nuestra vista para hacer pequeñas funciones o pequeñas tareas en nuestra vista.
+
+3
+00:00:14,370 --> 00:00:21,330
+Por ejemplo podemos tener apps para convertir texto A mayúscula o minúscula país para formatear fecha
+
+4
+00:00:21,680 --> 00:00:28,410
+país para muchísimas cosas de hecho en la documentación de angular si buscamos angular pipes en Google
+
+5
+00:00:28,940 --> 00:00:36,390
+te va a aparecer la documentación de angular donde tenemos un montón de países que no que nos dicen
+
+6
+00:00:36,750 --> 00:00:41,640
+por ejemplo para las fechas.
+
+7
+00:00:41,660 --> 00:00:48,120
+Vale podemos encadenar países para hacer diferentes tareas lo que
+
+8
+00:00:52,340 --> 00:00:58,250
+hay un montón hay país para diferentes tipos de cosas e incluso te puedes descargar pipes módulos que
+
+9
+00:00:58,250 --> 00:00:59,810
+incluyen pipes.
+
+10
+00:00:59,810 --> 00:01:04,360
+Incluso puedes hacerlas tú mismo de acuerdo puedes tener pipes personalizada.
+
+11
+00:01:04,370 --> 00:01:10,340
+Entonces un filtro o una PEIT es eso una pequeña función que nos permite procesar información o hacer
+
+12
+00:01:10,340 --> 00:01:13,610
+algo pequeñito una pequeña funcionalidad en nuestra vista.
+
+13
+00:01:13,610 --> 00:01:18,560
+Así que en la siguiente clase lo que vamos a hacer va a ser aprender a utilizar las apps para fechas
+
+14
+00:01:18,560 --> 00:01:20,470
+para procesar una fecha.
+
+15
+00:01:20,510 --> 00:01:26,900
+Aprender a trabajar con las pymes para transformar caracteres y luego también aprenderemos a crear nuestras
+
+16
+00:01:26,900 --> 00:01:28,160
+propias apps.

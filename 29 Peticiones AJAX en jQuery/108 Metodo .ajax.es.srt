@@ -1,0 +1,163 @@
+1
+00:00:00,990 --> 00:00:06,810
+Otra forma de hacer peticiones Ayax que personalmente a mi la que más me gusta es utilizando el método
+
+2
+00:00:06,960 --> 00:00:08,190
+dólar punto hoy.
+
+3
+00:00:08,280 --> 00:00:13,290
+Ese método nos permite manipular de una manera mucho más amplia cualquier peticionaria que queramos
+
+4
+00:00:13,290 --> 00:00:14,160
+hacer.
+
+5
+00:00:14,160 --> 00:00:20,520
+El método de al punto Ayax y simplemente esto es un Jayson.
+
+6
+00:00:20,550 --> 00:00:25,810
+Como configuración de este método le puedo pasar diferentes valores o diferentes parámetros no le puedo
+
+7
+00:00:25,820 --> 00:00:31,140
+indicar mira el tipo de petición que voy a hacer le puedo decir que va a ser una petición de tipo post
+
+8
+00:00:31,930 --> 00:00:39,750
+porque le puedo indicar incluso el Data Taieb de los datos que voy a recibir o que voy a enviar.
+
+9
+00:00:39,780 --> 00:00:47,820
+Vale en este caso podría enviar un HTML o recibir un HTML de acuerdo en este caso voy a enviar un Jayson
+
+10
+00:00:47,850 --> 00:00:52,700
+y voy a recibir también un Jayson levo indicar también el contentarme.
+
+11
+00:00:52,710 --> 00:01:00,450
+También le puedo indicar contén le puedo decir en qué formato van a viajar los datos en Application
+
+12
+00:01:01,340 --> 00:01:08,960
+barra Jayson de acuerdo en este caso aunque realmente estas propiedades muchas veces ni hacen falta.
+
+13
+00:01:08,970 --> 00:01:15,500
+Le puede indicar también la l vale en este caso la web real a la cual vamos a hacer la petición.
+
+14
+00:01:15,690 --> 00:01:25,380
+ésta le puede indicar la data que es los parámetros que yo voy a estar enviando el objeto que yo voy
+
+15
+00:01:25,380 --> 00:01:25,820
+a enviar.
+
+16
+00:01:25,820 --> 00:01:33,020
+En este caso usuario vale y luego tengo varios métodos vale tengo un método que se llama before seen
+
+17
+00:01:34,650 --> 00:01:42,090
+before seen que lo que va a hacer es que antes de que se envíe haga alguna acción de acuerdo por ejemplo
+
+18
+00:01:42,090 --> 00:01:52,320
+esto es una función de Calvache y yo le puedo decir que el punto lo vamos a poner que enviando un usuario
+
+19
+00:01:53,310 --> 00:01:56,590
+por ejemplo y eso es lo que va a hacer esa propiedad de forjen.
+
+20
+00:01:57,060 --> 00:02:00,100
+Luego tengo otra que se llama Salces.
+
+21
+00:02:00,120 --> 00:02:04,940
+Luego tengo otra que se llama error y luego tengo otra también para configurar el Mouth y hay muchas
+
+22
+00:02:04,940 --> 00:02:11,820
+de acuerdo pero las más importantes son esto no es decir en el acceso en caso de que todo vaya correcto
+
+23
+00:02:13,020 --> 00:02:15,910
+lo que vamos a hacer va a ser ejecutar una función de carga.
+
+24
+00:02:16,170 --> 00:02:22,530
+Aquí puedes hacer un solo punto log de Response que es lo que vamos a recibir por este método Response
+
+25
+00:02:23,290 --> 00:02:32,340
+y también en el caso de que suceda algún error voy a ejecutar una función de Calvache que me devuelva
+
+26
+00:02:33,300 --> 00:02:35,450
+un texto que diga Ha ocurrido un error
+
+27
+00:02:38,530 --> 00:02:46,020
+y también voy a ponerle un time out a esta ejecución de esta petición Ayax Weymouth
+
+28
+00:02:49,430 --> 00:02:55,480
+Weymouth y esto tiene una función de Calvache y aquí simplemente indico cuantos segundos quiero que
+
+29
+00:02:55,480 --> 00:02:59,220
+tarde la petición en realizarse en este caso dos segundos.
+
+30
+00:02:59,260 --> 00:03:06,100
+De esta manera si yo comento este trozo de código de aquí de la petición por post normal ahora vamos
+
+31
+00:03:06,100 --> 00:03:11,920
+a utilizar el método Ayax que es la mejor forma a mi parecer porque podemos configurar y manipular mucho
+
+32
+00:03:11,920 --> 00:03:19,660
+más la petición Ayax entonces vamos a añadir aquí unos datos envío enviando usuario y aquí está de acuerdo
+
+33
+00:03:20,020 --> 00:03:27,160
+con el tema le indicó cuánto tiempo quiero que tarde como máximo la petición vale
+
+34
+00:03:29,880 --> 00:03:36,660
+efectivamente si tarda más de diez segundos pues sucedería un error vale si yo le pusiera aquí que tardara
+
+35
+00:03:36,660 --> 00:03:37,890
+100 milisegundos
+
+36
+00:03:41,550 --> 00:03:48,110
+evidentemente como ha tardado más de eso entra al error de acuerdo y me dice que ha ocurrido un error.
+
+37
+00:03:48,180 --> 00:03:54,000
+Vale si yo le pusiera que el tema fuera de un segundo entonces ya sí que me funcionaría porque tarda
+
+38
+00:03:54,000 --> 00:04:00,540
+menos de un segundo y me devuelve ya mi objeto con el usuario que yo he creado y soltado yo puedo hacer
+
+39
+00:04:00,540 --> 00:04:04,360
+lo que quiera al igual que hemos visto como mostrar esos datos aquí.
+
+40
+00:04:04,680 --> 00:04:09,360
+Así que ya hemos visto la parte de Ayax con esto ya sabemos un montón de cosas acerca de Ayax y de cómo
+
+41
+00:04:09,360 --> 00:04:13,180
+utilizarlo en una web usando Kourí.

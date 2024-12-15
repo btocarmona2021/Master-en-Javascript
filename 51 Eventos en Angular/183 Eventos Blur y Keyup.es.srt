@@ -1,0 +1,107 @@
+1
+00:00:01,020 --> 00:00:06,510
+Ahora vamos a ver varios eventos que pueden ser interesantes también vamos a ver el evento Blur el que
+
+2
+00:00:06,510 --> 00:00:08,460
+Yap etcétera.
+
+3
+00:00:08,520 --> 00:00:12,950
+Vamos a ver cómo trabajar con el evento Blur vale sobre un imput.
+
+4
+00:00:12,990 --> 00:00:16,350
+Vamos a trabajar sobre el input de mi marca.
+
+5
+00:00:16,350 --> 00:00:21,990
+Estoy aquí sobre este input de tipo texto el evento Blur es muy sencillo simplemente.
+
+6
+00:00:21,990 --> 00:00:27,420
+De esta manera lo vamos a utilizar con los paréntesis indicando el nombre del evento y esto va a ejecutar
+
+7
+00:00:27,420 --> 00:00:34,770
+un método que vamos a tener en la clase y en nuestro componente vale en este caso vamos a tener un método
+
+8
+00:00:34,770 --> 00:00:39,000
+que se va a llamar on Blur que lo vamos a crear en nuestra clase de nuestro componente.
+
+9
+00:00:39,720 --> 00:00:41,670
+Vamos a crear por aquí con Blur
+
+10
+00:00:45,330 --> 00:00:52,160
+vamos a hacer un punto a lo que diga ha salido del imput
+
+11
+00:00:55,140 --> 00:01:00,750
+por aquí y guardo por aquí autorizó la pantalla y vamos a abrir la herramienta de desarrollador en la
+
+12
+00:01:00,750 --> 00:01:01,950
+consola.
+
+13
+00:01:02,070 --> 00:01:05,570
+Si no funciona en este caso sí que no está funcionando.
+
+14
+00:01:05,570 --> 00:01:09,190
+Vale vamos a comprobarlo de nuevo el blur sería eso no.
+
+15
+00:01:09,300 --> 00:01:17,940
+Luego tenemos otro evento que sería el que ya que cada vez que levantamos una tecla de acuerdo pero
+
+16
+00:01:18,030 --> 00:01:21,970
+es más interesante por ejemplo capturar la tecla Enter.
+
+17
+00:01:22,080 --> 00:01:30,030
+Vale entonces voy a capturar ese evento que Yap enter y entonces cuando yo pulse la tecla Enter voy
+
+18
+00:01:30,030 --> 00:01:41,220
+a lanzar un evento que va a ser mostrar palabra vale y entonces voy a crear el método aquí muestro el
+
+19
+00:01:41,220 --> 00:01:41,760
+Palabra
+
+20
+00:01:45,300 --> 00:01:47,380
+y voy a hacer un console punto log.
+
+21
+00:01:47,400 --> 00:01:53,060
+Es realmente un bosón de Higgs no un Alert que muestre la palabra que hay en disputo.
+
+22
+00:01:53,160 --> 00:02:04,020
+Mi marca guardo vale voy a escribir aquí algo Hola qué tal le doy a Enter y fíjate lo que hace me saca
+
+23
+00:02:04,260 --> 00:02:06,440
+mi alias es decir capturas teclas.
+
+24
+00:02:06,480 --> 00:02:12,470
+Es muy sencillo de acuerdo capturar el interés muy sencillo y eso es muy muy común en JavaScript que
+
+25
+00:02:12,470 --> 00:02:19,890
+captura esa tecla ENTER y hay más eventos eventos para capturar el cambio en un imput etcétera.
+
+26
+00:02:19,890 --> 00:02:26,850
+Pero eso lo iremos viendo a lo largo de el curso y lo más importante es honesto el click y estos eventos
+
+27
+00:02:26,850 --> 00:02:30,420
+que acabamos de ver el blur y el acuerdo.

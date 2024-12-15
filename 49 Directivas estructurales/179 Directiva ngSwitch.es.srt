@@ -1,0 +1,235 @@
+1
+00:00:01,740 --> 00:00:08,550
+Ahora vamos a aprender a utilizar otra directiva estructural que es el NG Switch es decir el condicional
+
+2
+00:00:08,580 --> 00:00:10,310
+switch de toda la vida.
+
+3
+00:00:10,410 --> 00:00:17,490
+Para eso vamos a hacer un ejemplo por aquí y vamos a simplemente vamos a crear una propiedad que va
+
+4
+00:00:17,490 --> 00:00:25,290
+a ser color que va a ser un string y en esa propiedad pues yo le voy a dar un valor a la propiedad disputo
+
+5
+00:00:26,160 --> 00:00:30,000
+color y el color por defecto va a ser el hielo.
+
+6
+00:00:30,810 --> 00:00:37,620
+Entonces simplemente el switch lo que hace es comprobar una serie de casos es decir va a evaluar una
+
+7
+00:00:37,620 --> 00:00:46,530
+variable o una propiedad y va a hacer varios casos de lo que va a suceder cuando esa ese caso suceda
+
+8
+00:00:46,530 --> 00:00:48,720
+o esa condición suceda.
+
+9
+00:00:48,940 --> 00:00:51,530
+Entonces eso lo vamos a hacer justo por aquí abajo
+
+10
+00:00:55,820 --> 00:01:09,930
+allí vamos a poner aquí un párrafo que diga el color de la mayoría de nuestras zapatillas es bueno aquí
+
+11
+00:01:09,940 --> 00:01:15,610
+ya que se muestra el color aquí abajo entonces vamos a hacer uso del switch vale vamos a crear un mueble
+
+12
+00:01:18,110 --> 00:01:25,780
+vamos a cerrar bien la etiqueta y vamos a utilizar la directiva condicional NG switch esta se utiliza
+
+13
+00:01:25,800 --> 00:01:33,500
+y se utiliza un poco diferente y lo que va a hacer esta directiva es evaluar una propiedad qué propiedad
+
+14
+00:01:33,500 --> 00:01:37,340
+va a evaluar la propiedad color que tengo en la clase de mi componente.
+
+15
+00:01:37,340 --> 00:01:45,010
+Vale entonces ahora voy a utilizar un LED para hacer la primera condición o el primer caso en el caso
+
+16
+00:01:46,750 --> 00:01:53,200
+de que el color sea como hemos dicho hielo asterisco NG switch cais
+
+17
+00:01:56,340 --> 00:02:00,050
+vale utilizamos esta directiva también NG switch CAIS.
+
+18
+00:02:00,100 --> 00:02:07,720
+En el caso de que el color sea hielo entre comillas simples pues en ese caso lo que vamos a hacer va
+
+19
+00:02:07,720 --> 00:02:11,320
+a ser mostrar aquí que el color predominante
+
+20
+00:02:14,590 --> 00:02:16,450
+es el amarillo
+
+21
+00:02:20,840 --> 00:02:24,390
+al encierro con un punto y así voy a hacer varios casos
+
+22
+00:02:29,000 --> 00:02:29,730
+Red.
+
+23
+00:02:29,790 --> 00:02:33,410
+El Blu y el Orange también lo vamos a hacer
+
+24
+00:02:36,320 --> 00:02:36,860
+Orange
+
+25
+00:02:39,600 --> 00:02:42,250
+valentón vamos a cambiar los textos rojo
+
+26
+00:02:45,730 --> 00:02:54,070
+Blue azul y Orange naranja perfecto.
+
+27
+00:02:54,070 --> 00:02:59,860
+Y vamos a aprovechar para ponerle uno destiló al nombre del color de acuerdo en este caso podríamos
+
+28
+00:02:59,860 --> 00:03:08,280
+utilizar un NG tail para hacer una regla F6 más amplia más compleja o simplemente utilizar la propiedad
+
+29
+00:03:08,660 --> 00:03:10,240
+de HTML ponerle un background
+
+30
+00:03:16,050 --> 00:03:22,310
+el background que sea en este caso el hielo lo pongo por aquí o directamente imprimir el color aunque
+
+31
+00:03:22,310 --> 00:03:28,570
+ya con eso tendría que utilizar el elegisteis en este caso voy a poner hielo.
+
+32
+00:03:28,580 --> 00:03:34,760
+Vale lo hago de esta manera si actualizo la pantalla fíjate lo que pasa me aparece aquí amarillo.
+
+33
+00:03:34,760 --> 00:03:43,670
+Si yo quisiera imprimir aquí la propiedad color guardo actualizo la pantalla ya no funciona porque para
+
+34
+00:03:43,670 --> 00:03:51,820
+eso necesitaría utilizar el NG stick o directamente quitar esto de aquí y ver qué falla realmente.
+
+35
+00:03:52,850 --> 00:03:59,820
+Efectivamente se podría utilizar el Gestal de esta manera como ya hemos visto anteriormente NG Tail
+
+36
+00:04:00,490 --> 00:04:08,210
+y a esto y a esto simplemente hay que pasarle un objeto Jayson con la configuración de nuestro estilo
+
+37
+00:04:09,340 --> 00:04:12,260
+de un objeto o estilo.
+
+38
+00:04:12,440 --> 00:04:17,080
+Vamos a los formatea vamos como tal como si fueran un objeto Jayson.
+
+39
+00:04:17,570 --> 00:04:18,830
+Le pongo el background
+
+40
+00:04:21,890 --> 00:04:23,380
+que va a ser igual al color.
+
+41
+00:04:23,380 --> 00:04:23,990
+Vale.
+
+42
+00:04:24,320 --> 00:04:26,890
+De esta manera si que va a funcionar.
+
+43
+00:04:27,050 --> 00:04:33,750
+Fíjate que me da un fallo que puede ser que he puesto aquí Puntí como hay eso no hay que ponerlo mal
+
+44
+00:04:33,760 --> 00:04:35,010
+y guardo actualizo.
+
+45
+00:04:35,190 --> 00:04:42,320
+Y ahora si me deja y me pone el color de la propiedad color que yo tengo en mi clase de mi componente
+
+46
+00:04:42,320 --> 00:04:49,370
+vale entonces esto como poco código lo puedo reducir a una sola línea.
+
+47
+00:04:49,370 --> 00:04:58,630
+Vale y este trozo de aquí este ASPAN lo puedo reutilizar de mis casos vale y a cerrar por aquí.
+
+48
+00:04:58,660 --> 00:04:59,200
+Raspan
+
+49
+00:05:02,680 --> 00:05:04,510
+el spam lo quiero por aquí también
+
+50
+00:05:07,680 --> 00:05:13,250
+y el español lo cierro por aquí también actualizo la pantalla y ese es el color.
+
+51
+00:05:13,250 --> 00:05:18,380
+Vale si yo quisiera modificar ese color pues me voy a la clase del componente y aquí le pongo yo Blue
+
+52
+00:05:19,660 --> 00:05:21,370
+y me voy a poner el color azul.
+
+53
+00:05:21,390 --> 00:05:23,060
+Efectivamente vale.
+
+54
+00:05:23,050 --> 00:05:29,150
+Entonces de esta manera puedo utilizar el switch vale en este ejemplo lo hemos visto claramente como
+
+55
+00:05:29,150 --> 00:05:34,100
+se utiliza el switch en el caso de que el color sea igual a cualquiera de esta pues entre en su caso
+
+56
+00:05:34,160 --> 00:05:40,010
+y ejecuta o muestra lo que dentro de ese Helí en concreto de ese elemento en concreto.
+
+57
+00:05:40,010 --> 00:05:47,420
+Si yo quisiera hacer esta misma cosa realmente sin y sin hacer un switch pues si no tuviera yo que poner
+
+58
+00:05:47,420 --> 00:05:53,810
+un texto personalizado por aquí lo podría hacer muy fácil y simplemente mostrando la propiedad color
+
+59
+00:05:53,870 --> 00:05:58,310
+pero realmente yo lo que quería enseñar es el switch y ya hemos visto un ejemplo de cómo utilizarlo.

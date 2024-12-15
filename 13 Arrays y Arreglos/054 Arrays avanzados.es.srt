@@ -1,0 +1,339 @@
+1
+00:00:01,290 --> 00:00:06,300
+Bien pues vamos a hacer más pruebas cómo podemos ver la longitud que tiene una reina y cómo podemos
+
+2
+00:00:06,300 --> 00:00:08,310
+ver cuántos elementos tiene una raíz.
+
+3
+00:00:08,550 --> 00:00:12,570
+Pues para eso podemos utilizar la propiedad Lent que ya la vimos anteriormente.
+
+4
+00:00:12,570 --> 00:00:20,340
+Yo tengo mi array de nombres y puedo utilizar la propiedad punto Link acabado en H guardo actualizó
+
+5
+00:00:20,340 --> 00:00:24,950
+la pantalla y demuestra que tengo seis elementos en mi Array perfecto.
+
+6
+00:00:25,270 --> 00:00:34,170
+También por ejemplo podríamos hacer una práctica que sería poniendo el índice el número del índice del
+
+7
+00:00:34,170 --> 00:00:37,950
+elemento de mi Array sacar su valor.
+
+8
+00:00:37,950 --> 00:00:46,170
+De eso vamos a hacerlo con un prompt vale vamos a hacer lo siguiente bar elemento y vamos a capturar
+
+9
+00:00:47,580 --> 00:00:59,730
+con un prompt que elemento de la Rey kieres por defecto sería el cero que sería el primer elemento el
+
+10
+00:00:59,730 --> 00:01:00,740
+primer indice.
+
+11
+00:01:01,770 --> 00:01:09,580
+Pero vamos a convertirlo a un entero Parcent para poder utilizarlo y que no nos falle.
+
+12
+00:01:09,620 --> 00:01:14,880
+Bien pues tenemos aquí el elemento que solo capturamos al usuario y entonces una vez que lo tenemos
+
+13
+00:01:14,880 --> 00:01:23,040
+el elemento vamos a hacer un Alert de nombres y entre corchetes le pasamos la variable elemento que
+
+14
+00:01:23,040 --> 00:01:29,000
+contiene el número de la raíz o sea el índice de la raíz y queremos sacar si nos pone el usuario 7.
+
+15
+00:01:29,000 --> 00:01:35,710
+Pues como no hay no nos pasa nada pero si nos pone 5 pues si que lo va a poder sacar.
+
+16
+00:01:35,710 --> 00:01:43,680
+Vale vamos a actualizar la pantalla vamos a darle que queremos el índice 3 nos saca José Martín.
+
+17
+00:01:43,680 --> 00:01:45,090
+Perfecto.
+
+18
+00:01:45,090 --> 00:01:54,230
+Vale perfecto no funciona perfectamente si volvemos a la pantalla queremos el índice 6 no existe con
+
+19
+00:01:54,230 --> 00:02:00,110
+lo cual nos dicen defining cara corregiremos eso si ponemos el 1 nos saca el nombre del elemento es
+
+20
+00:02:00,130 --> 00:02:04,960
+el valor del elemento que en el índice número 1 empezando a contar por cero.
+
+21
+00:02:05,060 --> 00:02:11,450
+Pero qué pasa si yo no quiero que se introduzcan índices más allá de los que hay es decir que si yo
+
+22
+00:02:11,450 --> 00:02:22,310
+meto el índice número 7 que devuelva algo que donde un error para eso puedo hacer UNIV de que aún se
+
+23
+00:02:23,720 --> 00:02:29,990
+pudo comprobar si elemento es diferente.
+
+24
+00:02:30,300 --> 00:02:38,270
+O osea es mayor o igual es mayor o igual a nombres punto Lent.
+
+25
+00:02:38,270 --> 00:02:46,750
+En el caso de que ese elemento sea 6 en adelante pues aquí no debería mostrar un error.
+
+26
+00:02:46,870 --> 00:02:49,580
+Una alerta que nos diga introduce el número correcto
+
+27
+00:02:56,570 --> 00:03:06,080
+menor que ya entonces aquí podríamos poner nombres punto Lent vale para sacar la cantidad total de elementos
+
+28
+00:03:06,080 --> 00:03:10,970
+que tiene la raíz y en el caso de que todo vaya bien porque simplemente nos muestra el nombre del usuario
+
+29
+00:03:11,420 --> 00:03:22,320
+que nos diga el usuario seleccionado es el usuario seleccionado es éste.
+
+30
+00:03:22,340 --> 00:03:30,300
+Aquí no actualizamos la pantalla elegimos el 5 me dice el usuario ser seleccionado es Truc por qué me
+
+31
+00:03:30,300 --> 00:03:31,050
+devuelve true.
+
+32
+00:03:31,300 --> 00:03:39,960
+Porque efectivamente ahí tengo guardado un truco si meto otro 23 me va a decir oye introduce un número
+
+33
+00:03:40,500 --> 00:03:50,250
+menor que 6 vale aquí deberíamos meter un espacio vale y si metemos por ejemplo el índice 3 saca el
+
+34
+00:03:50,250 --> 00:03:56,400
+usuario seleccionado José Martí con lo cual esto ya está funcionando en ejercicio correctamente y hemos
+
+35
+00:03:56,400 --> 00:04:01,450
+visto cómo sacar la longitud de una rey y cómo hacer una lógica con esto.
+
+36
+00:04:01,620 --> 00:04:07,410
+Otra cosa que podemos hacer es recorrer un rey completo y mostrar todo su resultado por pantalla.
+
+37
+00:04:07,410 --> 00:04:16,380
+De momento voy a comentar la parte de la lógica para que no nos esté molestando.
+
+38
+00:04:16,830 --> 00:04:20,550
+Imagínate que yo quiero mostrar todos los elementos de una Rey por pantalla.
+
+39
+00:04:20,550 --> 00:04:32,730
+No quiero hacer un documental Punto Brith punto Gurlitt de lenguaje de programación del 2018 voy a ponerle
+
+40
+00:04:32,730 --> 00:04:33,360
+un H1B
+
+41
+00:04:37,010 --> 00:04:44,640
+lenguajes de programación del 2018.
+
+42
+00:04:45,170 --> 00:04:51,320
+Entonces yo quiero hacer esto y entonces acto seguido yo quiero mostrar todos los elementos de mi array
+
+43
+00:04:51,820 --> 00:05:01,120
+en visualmente aquí en la página web vale esto tengo que guardar y refrescar la página.
+
+44
+00:05:01,420 --> 00:05:07,500
+Vale que me parece esto y acto seguido quiero mostrar un listado de todos los elementos de mi Array
+
+45
+00:05:07,680 --> 00:05:16,130
+Rey lo que nos vendría lógicamente sería que nosotros iríamos poniendo Documet el punto REIT iríamos
+
+46
+00:05:16,140 --> 00:05:24,600
+poniendo venga pues el primer elemento nombre el primer elemento de la raíz de lenguajes lenguajes cero
+
+47
+00:05:24,810 --> 00:05:29,220
+vale y así con todo irá haciéndolo con todo.
+
+48
+00:05:29,220 --> 00:05:35,940
+Eso es lo que a un novato o alguien que no sabe de programación todavía lo suficiente pues se nos pasaría
+
+49
+00:05:35,940 --> 00:05:40,920
+por la cabeza ir repitiendo esta instrucción 20000 millones de veces hasta poner todos los elementos
+
+50
+00:05:40,920 --> 00:05:44,250
+de la RAE Valencia actualizamos la pantalla.
+
+51
+00:05:44,250 --> 00:05:48,780
+Pues aquí no irían apareciendo e incluso podríamos meterlo dentro de una lista y tal.
+
+52
+00:05:48,990 --> 00:05:54,180
+Pero esto no es práctico ir poniendo uno a uno cada uno de los índices pues no es práctico entonces
+
+53
+00:05:54,510 --> 00:06:00,000
+lo recomendable sería utilizar un bucle para recorrer el array para ir mostrando todos los elementos
+
+54
+00:06:00,000 --> 00:06:00,640
+del array.
+
+55
+00:06:00,660 --> 00:06:02,260
+Entonces cómo hacemos esto.
+
+56
+00:06:02,310 --> 00:06:12,180
+Pues simplemente utilizando el el foro simplemente el bucle for que tiene un contador o una variable
+
+57
+00:06:12,240 --> 00:06:20,590
+inicializar ahora que iría a cero mientras que y mientras que el contador sea menor a lenguajes punto
+
+58
+00:06:20,600 --> 00:06:25,400
+Lent mientras que sea menor a la cantidad de elementos que tiene mi array.
+
+59
+00:06:26,910 --> 00:06:31,550
+Y más más que el contador vaya sumando y vaya integrando continuamente.
+
+60
+00:06:31,560 --> 00:06:35,840
+Entonces cojo el Document right lo meto dentro.
+
+61
+00:06:35,880 --> 00:06:43,250
+Aquí voy a poner una lista de HTML y voy a cerrar el huele y por aquí voy a abrir el huele
+
+62
+00:06:46,480 --> 00:06:54,540
+y voy a estar mostrando cada uno de los elementos de mi Array dentro de un elemento Lide HTML una etiqueta
+
+63
+00:06:54,620 --> 00:06:57,610
+y con patearle aquí la etiqueta lí
+
+64
+00:07:00,470 --> 00:07:09,220
+lib más más Link y cierro con comillas
+
+65
+00:07:11,860 --> 00:07:14,760
+guardo actualizo la pantalla.
+
+66
+00:07:14,800 --> 00:07:18,010
+Y aquí no pasa nada.
+
+67
+00:07:18,010 --> 00:07:18,910
+No han pasado nada.
+
+68
+00:07:18,910 --> 00:07:19,470
+Por qué
+
+69
+00:07:22,720 --> 00:07:25,020
+por qué yo estoy mostrando aquí el inicio cero.
+
+70
+00:07:25,080 --> 00:07:30,000
+Realmente eso no podemos hacer lo que tenemos que hacer es poner Aquila y valentón de esta manera se
+
+71
+00:07:30,000 --> 00:07:32,610
+actualizó la pantalla.
+
+72
+00:07:32,610 --> 00:07:38,940
+Tampoco pasa nada tenemos que ver si realmente está entrando al bucle y si realmente existe ese trozo
+
+73
+00:07:38,940 --> 00:07:45,650
+de código inspeccionarlo con esto tenemos el huele pero en el bucle no está entrando.
+
+74
+00:07:45,970 --> 00:07:48,700
+Vamos a hacer un consulta con Autolog.
+
+75
+00:07:49,040 --> 00:07:54,310
+Ah claro ya veo el error el error es que he puesto aquí lenguaje punto lenguajes y lo que tengo que
+
+76
+00:07:54,310 --> 00:07:55,950
+poner el lenguaje es punto Lent.
+
+77
+00:07:56,080 --> 00:07:59,890
+Se me ha escapado el auto con el autocompletado de sub'20.
+
+78
+00:07:59,920 --> 00:08:05,410
+Entonces de esta manera el contador lo tenemos a cero mientras que el contador sea menor que el número
+
+79
+00:08:05,410 --> 00:08:11,880
+total de elementos del array que vaya alterando y vaya incrementando el contador a 1 de esa manera voy
+
+80
+00:08:11,890 --> 00:08:19,270
+recorriendo el array voy mostrando el lenguaje que se está integrando en ese momento el 0 el 1 el 2
+
+81
+00:08:19,270 --> 00:08:25,150
+el que sea y lo voy mostrando de esa manera aguardo actualizo la pantalla y me muestra todos los lenguajes
+
+82
+00:08:25,150 --> 00:08:30,040
+de programación acabo de recorrer el array de forma que si yo vuelvo a meter aquí un lenguaje nuevo
+
+83
+00:08:32,290 --> 00:08:44,970
+vale meto un lenguaje nuevo César C y Pascal meto esto el lenguaje vale se actualizo la pantalla me
+
+84
+00:08:44,980 --> 00:08:51,340
+aparecen aquí sin tener que estar manualmente poniendo cada uno de ellos así que de esta manera nosotros
+
+85
+00:08:51,340 --> 00:08:53,650
+podemos recorrer una raíz.

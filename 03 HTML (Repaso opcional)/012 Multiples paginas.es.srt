@@ -1,0 +1,531 @@
+1
+00:00:01,020 --> 00:00:06,550
+Para hacer este ejercicio voy a eliminar todo lo que tenía en la vagina índex.
+
+2
+00:00:06,930 --> 00:00:12,060
+Voy a borrarlo todo para empezar desde cero y explicarlo todo de nuevo.
+
+3
+00:00:12,420 --> 00:00:13,050
+De acuerdo.
+
+4
+00:00:13,140 --> 00:00:19,800
+Y bueno vamos a empezar por la primera página que tenía un H1 encabezado de primer nivel.
+
+5
+00:00:19,800 --> 00:00:24,300
+Luego tenía una lista que va a ser el menú con enlace.
+
+6
+00:00:24,360 --> 00:00:26,540
+Luego tendría un H2.
+
+7
+00:00:27,060 --> 00:00:30,250
+Luego tendría un párrafo y antes de ese párrafo una imagen.
+
+8
+00:00:30,280 --> 00:00:35,400
+Pues vamos con eso lo primero que tenemos que hacer es definir la estructura HTML básica le decimos
+
+9
+00:00:35,510 --> 00:00:43,310
+el Doctrine HTML para indicarle la versión de HTML utilizamos la etiqueta HTML le ponemos el atributo
+
+10
+00:00:43,310 --> 00:00:55,620
+blanco para indicar el lenguaje cerramos HTML le definimos el jean para indicarle metadatos y información
+
+11
+00:00:55,620 --> 00:00:58,700
+que no va a estar visible a primera vista en la página web.
+
+12
+00:00:58,710 --> 00:01:08,490
+En este caso el título de la página que podría ser pues mi primera web voy a cerrar el Twitter.
+
+13
+00:01:08,700 --> 00:01:15,960
+Después el body creó la etiqueta que va a ser donde se va a mostrar todo lo que va a tener la página
+
+14
+00:01:15,960 --> 00:01:21,360
+web entonces vamos a definir el encabezado principal el titular principal que se va a mostrar que en
+
+15
+00:01:21,360 --> 00:01:24,280
+este caso va a ser mi primera web.
+
+16
+00:01:24,330 --> 00:01:27,600
+Por ejemplo voy a cerrar el H1.
+
+17
+00:01:27,870 --> 00:01:36,300
+Después hemos dicho que teníamos que tener un menú huele huele y vamos a estar poniendo comentarios
+
+18
+00:01:36,300 --> 00:01:40,650
+de código para saber qué estamos escribiendo en cada momento un comentario de código se puede escribir
+
+19
+00:01:40,650 --> 00:01:46,350
+de esta manera un comentario de código nunca se va a mostrar en la página web no se muestra simplemente
+
+20
+00:01:46,350 --> 00:01:51,990
+ese es un comentario que va a indicar una pequeña explicación de algo que hay en el código.
+
+21
+00:01:51,990 --> 00:01:54,680
+En este caso íbamos a poner encabezado.
+
+22
+00:01:55,500 --> 00:02:02,790
+Luego vamos a definir otro comentario para que nos indique a nosotros como programadores que esto sería
+
+23
+00:02:02,790 --> 00:02:04,820
+el menú.
+
+24
+00:02:07,750 --> 00:02:13,740
+Vale si yo guardo y actualizo la pantalla yo aquí no veo esos comentarios de código o no se que yo controlo.
+
+25
+00:02:13,740 --> 00:02:19,380
+Y ahí sí que los veo en el código de acuerdo ese es un comentario para indicar lo que hace un trozo
+
+26
+00:02:19,380 --> 00:02:19,950
+de código
+
+27
+00:02:22,680 --> 00:02:29,250
+bien continuamos con el menú pues en el menú vamos a tener varios elementos el primer link que va a
+
+28
+00:02:29,250 --> 00:02:30,090
+ir al inicio.
+
+29
+00:02:31,470 --> 00:02:35,340
+Luego esto lo convertiremos en enlace para ir navegando entre las diferentes páginas.
+
+30
+00:02:35,340 --> 00:02:43,020
+Luego vamos a otro olí que va a ser el de la segunda página que hemos dicho en este caso sería contenidos
+
+31
+00:02:43,050 --> 00:02:43,710
+por ejemplo
+
+32
+00:02:46,650 --> 00:02:53,910
+y luego otro link para contacto que va a ser una página con un formulario perfecto.
+
+33
+00:02:53,910 --> 00:03:00,390
+Ahora vamos a poner una separación o un H.R para separar el contenido de arriba del contenido principal
+
+34
+00:03:00,390 --> 00:03:05,070
+de la página y aquí vamos a indicar el contenido
+
+35
+00:03:07,920 --> 00:03:11,250
+de índex punto HTML.
+
+36
+00:03:11,940 --> 00:03:15,390
+Entonces hemos dicho que tendríamos que tener un H2 un subtítulo
+
+37
+00:03:18,840 --> 00:03:23,740
+bienvenido a mi website.
+
+38
+00:03:23,910 --> 00:03:30,510
+Luego tendríamos que tener una imagen y M.G. con la etiqueta ahí emerge la indicaremos el SRC para indicar
+
+39
+00:03:30,510 --> 00:03:31,500
+dónde está la imagen.
+
+40
+00:03:31,500 --> 00:03:39,390
+En este caso en imágenes barra perro pinto JPG aunque podríamos utilizar cualquier otra imagen que tengamos
+
+41
+00:03:39,390 --> 00:03:39,710
+aquí.
+
+42
+00:03:39,720 --> 00:03:49,500
+Por ejemplo el oso Bear 5.ª JPG Begar 5:1 JPG.
+
+43
+00:03:49,740 --> 00:03:53,940
+Le voy a poner un texto alternativo por si la imagen no carga.
+
+44
+00:03:54,120 --> 00:03:54,790
+Oso.
+
+45
+00:03:54,790 --> 00:03:57,430
+Y le voy a poner un Twitter para cuando pasemos por encima.
+
+46
+00:03:58,020 --> 00:04:06,360
+En este caso oso pardo cierra la imagen y luego voy a defíname mi párrafo lo cierro correctamente y
+
+47
+00:04:06,360 --> 00:04:08,400
+aquí voy a pegar un texto cualquiera.
+
+48
+00:04:08,400 --> 00:04:16,080
+Por ejemplo si busco en Ipsum en Google voy a poder copiar algún trozo de texto que yo tenga por aquí
+
+49
+00:04:16,850 --> 00:04:20,020
+la copia de este trozo de texto y lo pego por aquí vale.
+
+50
+00:04:20,030 --> 00:04:30,480
+Guardo hizo la pantalla y ya tengo mi primera página con mi con mi encabezado mi menú mi titular o mi
+
+51
+00:04:31,370 --> 00:04:35,650
+mi subtítulo mi imagen y mi párrafo.
+
+52
+00:04:35,790 --> 00:04:37,020
+Ya tenemos la primera página.
+
+53
+00:04:37,020 --> 00:04:38,460
+Ahora vamos a por la segunda.
+
+54
+00:04:39,600 --> 00:04:46,380
+Así que para crear la segunda página vamos a crear un nuevo fichero HTML que se va a llamar contenidos
+
+55
+00:04:47,480 --> 00:04:48,960
+punto HTML
+
+56
+00:04:53,340 --> 00:04:58,250
+y lo voy a abrir en mi sub 20 y aquí.
+
+57
+00:04:58,320 --> 00:05:06,210
+Pues yo voy a coger y el mismo contenido de momento el mismo contenido que tiene mi índex punto HTML.
+
+58
+00:05:06,210 --> 00:05:14,210
+Copio y pego lo único que va a cambiar en la parte del contenido de contenidos punto HTML.
+
+59
+00:05:14,310 --> 00:05:21,690
+Esta parte va a cambiar de acuerdo voy a quitar este contenido y en este caso lo que hemos dicho que
+
+60
+00:05:21,690 --> 00:05:28,390
+tenían que tener era un subtítulo y luego una tabla con imágenes vale en este caso vamos a poner aquí
+
+61
+00:05:28,410 --> 00:05:33,260
+tabla de contenidos como subtítulo de la página.
+
+62
+00:05:33,270 --> 00:05:41,490
+Vale si yo me voy a la página contenidos punto HTML dentro de mi web me aparece en mi encabezado igual
+
+63
+00:05:41,730 --> 00:05:49,050
+mi menú es decir la parte de la cabecera no aparece igual pero me cambia el subtítulo y aquí voy a definirme
+
+64
+00:05:49,050 --> 00:05:58,590
+en la tabla como bien hemos dicho antes Table bordes uno para ver los bordes visualmente cierro la tabla
+
+65
+00:05:58,650 --> 00:06:02,310
+Table y me voy a definir tres filas.
+
+66
+00:06:02,350 --> 00:06:12,830
+Bueno en este caso dos filas y cuatro columnas para subir las etiquetas de erre que erre que erre y
+
+67
+00:06:12,930 --> 00:06:14,490
+barra de arranque.
+
+68
+00:06:15,450 --> 00:06:23,200
+Y entonces me defino mis columnas TD y cierro el Tedder.
+
+69
+00:06:23,850 --> 00:06:31,760
+En este caso que utilizar si te h mejor para que resalte en negrita el tipo de contenido que va a ser.
+
+70
+00:06:32,360 --> 00:06:38,920
+Ale copio y pego cuatro veces y lo voy a hacer lo mismo aquí abajo pero lo voy a cambiar porque
+
+71
+00:06:45,780 --> 00:06:51,680
+entonces ya tengo dos filas y cuatro columnas encada en cada fila 4 celdas en cada fila.
+
+72
+00:06:51,830 --> 00:07:01,120
+Entonces aquí por ejemplo vamos a pintar un perro en la segunda columna vamos a tener un oso en la tercera
+
+73
+00:07:01,120 --> 00:07:12,940
+vamos a tener un caballito y en la última vamos a tener un carro vamos a tener a ver qué imágenes tenemos
+
+74
+00:07:12,940 --> 00:07:17,590
+un gato si vamos a tener un gato.
+
+75
+00:07:18,040 --> 00:07:27,010
+Vale y aquí vamos a empezar a meter las imágenes y M.G. ese Reece y podemos meter la imagen imágenes
+
+76
+00:07:27,160 --> 00:07:41,810
+barra perro punto JPG rorro mi imagen y voy a meter imágenes para el resto de cosas y emerge ese Reece
+
+77
+00:07:42,340 --> 00:07:44,840
+imágenes barra oso.
+
+78
+00:07:44,840 --> 00:07:53,800
+Punto en este caso era Bear 5 puntos JPG ciero la imagen.
+
+79
+00:07:54,460 --> 00:07:59,780
+Voy a hacer lo mismo por aquí abajo y M.G. que se rece.
+
+80
+00:08:00,090 --> 00:08:09,400
+Imágenes barra caballito de mar que tengo por aquí una imagen que se está a cambiarle el nombre al caballito
+
+81
+00:08:11,440 --> 00:08:17,230
+y luego al gato también le va a cambiar la imagen gato punto JPG de cambio el nombre para que sea fácil
+
+82
+00:08:17,230 --> 00:08:18,550
+de recordar.
+
+83
+00:08:18,910 --> 00:08:20,470
+Caballito.
+
+84
+00:08:20,480 --> 00:08:23,650
+Punto JPG la imagen.
+
+85
+00:08:23,740 --> 00:08:25,640
+Y luego voy a definir otra imagen.
+
+86
+00:08:25,690 --> 00:08:32,170
+Voy a cargar otra imagen en la última celda y M.G. que se rece.
+
+87
+00:08:32,180 --> 00:08:38,360
+Imágenes Marra un gato con JPG.
+
+88
+00:08:38,680 --> 00:08:42,670
+Cierro la imagen guardo actualizo la pantalla y aquí me aparecen imágenes.
+
+89
+00:08:42,670 --> 00:08:46,980
+Qué pasa que son muy grande me aparece descuadrado todo.
+
+90
+00:08:46,990 --> 00:08:54,640
+Así que le vamos a poner un mimo un mimo alto a cada una de las imágenes así que vamos utiliza el atributo
+
+91
+00:08:54,670 --> 00:09:02,660
+Jaitt y le voy a poner por ejemplo una altura de 100 píxeles a cada uno.
+
+92
+00:09:02,790 --> 00:09:04,600
+Voy a copiar este atributo para todas.
+
+93
+00:09:04,600 --> 00:09:13,590
+Copio y pego pego y pego guardo actualizo la pantalla y ahí me aparecen mis mi tabla de contenido digamos
+
+94
+00:09:13,690 --> 00:09:17,850
+con el perro aquí abajo el oso el caballito y el gato.
+
+95
+00:09:17,860 --> 00:09:20,240
+Aparece mi tabla con mis imágenes.
+
+96
+00:09:20,750 --> 00:09:29,110
+Vale y la última pantalla que tenemos que definir es la del contacto con un formulario que iba a llevar
+
+97
+00:09:29,200 --> 00:09:39,700
+un subtítulo Un nombre una descripción o un nombre o una descripción y un campo L.T y un voto vale.
+
+98
+00:09:39,840 --> 00:09:44,070
+Si que vamos a definir ese formulario o esa nueva página.
+
+99
+00:09:44,110 --> 00:09:52,680
+Para eso entramos a la carpeta web y creamos un nuevo HTML en este caso contacto punto HTML.
+
+100
+00:09:52,750 --> 00:09:55,300
+Luego veremos como enlazar las páginas entre sí.
+
+101
+00:09:55,570 --> 00:10:02,830
+Ahora abro mi página en el sublime y voy a copiar el contenido de otra de mis páginas para cambiar lo
+
+102
+00:10:02,830 --> 00:10:03,820
+de dentro solamente.
+
+103
+00:10:03,820 --> 00:10:10,930
+Solamente vamos a cambiar la parte del Bodhi y esta vez va a ser contenido de contacto punto HTML.
+
+104
+00:10:10,930 --> 00:10:19,690
+Vamos a cambiar el H2 por contacto y la tabla la vamos a eliminar de momento si guardo y me voy a la
+
+105
+00:10:19,690 --> 00:10:26,380
+página de contacto punto HTML me aparece aquí la nueva página.
+
+106
+00:10:27,280 --> 00:10:30,860
+Entonces voy a añadir un formulario form
+
+107
+00:10:33,530 --> 00:10:48,510
+Forum hemos dicho que iba a tener un campo nombre Label for nombre y se va a llamar nombre y Cerro label.
+
+108
+00:10:48,560 --> 00:10:56,130
+Le voy a poner un B.R. para que haga un salto de línea y active input type text
+
+109
+00:10:59,720 --> 00:11:08,810
+con el name nombre y ya esto vale ahora lo voy a meter dentro de un párrafo para que se vayan separando
+
+110
+00:11:08,810 --> 00:11:09,920
+cada uno de los campos
+
+111
+00:11:16,570 --> 00:11:24,730
+guardo actualizo la pantalla y aquí me aparece mi primer campo voy a añadir el segundo párrafo.
+
+112
+00:11:25,190 --> 00:11:26,920
+Voy a crear el label
+
+113
+00:11:30,850 --> 00:11:38,710
+en este caso sería descripciãn aunque podríamos ponerle cualquier otra cosa realmente biografía vamos
+
+114
+00:11:38,710 --> 00:11:50,140
+a ponerle esta biografía biografía biografía tramó el label le ponemos un B.R. para que haga un salto
+
+115
+00:11:50,140 --> 00:11:54,610
+de línea y aquí vamos a poner un texto con el NAMM
+
+116
+00:11:57,270 --> 00:11:59,280
+biografía.
+
+117
+00:11:59,950 --> 00:12:00,500
+Y ya está.
+
+118
+00:12:01,510 --> 00:12:09,070
+Y por último vamos a poner un campo L.T un selector Select podemos poner esta edad
+
+119
+00:12:11,920 --> 00:12:21,610
+cerramos el Select y entonces meterlo también dentro de un párrafo.
+
+120
+00:12:21,610 --> 00:12:34,750
+Vamos a ponerle también un label que sea vamos a poner un label for que nos lleve a que corresponda
+
+121
+00:12:34,750 --> 00:12:35,820
+al campo que
+
+122
+00:12:39,760 --> 00:12:48,400
+queramos el label y lo vamos a indicar una opción que sea mayor de edad
+
+123
+00:12:52,840 --> 00:13:00,130
+otra opción que sea adulto y otra opción mayor
+
+124
+00:13:03,550 --> 00:13:12,660
+de 65 años lo podemos poner un bãlico a cada una de las opciones para cuando lo enviamos.
+
+125
+00:13:12,670 --> 00:13:15,700
+Para cuando enviamos el formulario mayor
+
+126
+00:13:18,610 --> 00:13:19,480
+adulto
+
+127
+00:13:22,810 --> 00:13:31,360
+65 Malet guardo actualizo la pantalla para ver cómo va la cosa y me muestra mi formulario perfectamente.
+
+128
+00:13:31,360 --> 00:13:37,270
+Aquí vamos a ponerle un Berres y sólo nos quedaría el botón de enviar.
+
+129
+00:13:37,270 --> 00:13:47,020
+Para eso utilizamos el input submit y le ponemos un valio al botón para que nos muestre el texto que
+
+130
+00:13:47,020 --> 00:13:55,370
+nosotros queramos enviar e-mails por ejemplo y cerramos el input guardo actualizo la pantalla y aquí
+
+131
+00:13:55,390 --> 00:14:01,060
+aparece mi botón también y ya podríamos coger y enviar el formulario.
+
+132
+00:14:01,060 --> 00:14:06,340
+Bien pues en la siguiente clase lo que vamos a hacer va a ser darle funcionalidad al menú y poder utilizar
+
+133
+00:14:06,340 --> 00:14:09,690
+enlace entre las diferentes páginas de nuestra web.

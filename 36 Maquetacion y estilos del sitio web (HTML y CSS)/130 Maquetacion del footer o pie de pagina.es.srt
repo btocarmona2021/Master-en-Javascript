@@ -1,0 +1,95 @@
+1
+00:00:01,620 --> 00:00:04,620
+Ahora vamos a maquetar el Führer.
+
+2
+00:00:04,680 --> 00:00:09,170
+Para eso vamos a añadirle unos estilos a nuestro Führer.
+
+3
+00:00:09,210 --> 00:00:19,230
+Vale vamos a utilizar simplemente la etiqueta Führer como selector y le vamos a dar unos estiro le vamos
+
+4
+00:00:19,230 --> 00:00:32,460
+a poner un FOM Family helvética y si no Arial le vamos a poner un color UIT-T le vamos a poner un Jaitt
+
+5
+00:00:33,480 --> 00:00:35,490
+de 47 píxeles
+
+6
+00:00:38,890 --> 00:00:40,320
+le vamos a poner un background
+
+7
+00:00:43,400 --> 00:00:54,540
+RGB a transparente le vamos a poner 51 51 51 que es como un gris o como si un gris muy oscuro y vamos
+
+8
+00:00:54,540 --> 00:00:59,340
+a hablar de opacidad cero coma setenta ok
+
+9
+00:01:03,020 --> 00:01:06,350
+vamos a ponerle un margin 0 PX auto
+
+10
+00:01:13,480 --> 00:01:26,530
+le vamos a poner un Wiz de sesenta y algo píxel es lo mismo que teníamos en el bloque global de 65 por
+
+11
+00:01:26,530 --> 00:01:41,420
+ciento de ancho y un par de Inlet de 20 px y un par de Henriette de 20 px.
+
+12
+00:01:41,440 --> 00:01:49,600
+De esta manera si yo guardo y actualizo la pantalla aquí abajo me aparece mi Führer pero no se han aplicado
+
+13
+00:01:49,600 --> 00:01:57,200
+alguna cosa por ejemplo los estilos del fondo no es cero coma setenta 0.70 para coger los decimales
+
+14
+00:01:57,200 --> 00:01:58,040
+CSS.
+
+15
+00:01:58,150 --> 00:02:09,640
+De esa manera si se aplica correctamente vale le vamos a dar un margen superior moviento de 50 px y
+
+16
+00:02:10,330 --> 00:02:14,360
+en principio yo creo que ya estaría ahí está.
+
+17
+00:02:14,440 --> 00:02:20,470
+Le vamos a poner un línea Jaitt de 47 píxeles
+
+18
+00:02:26,330 --> 00:02:32,750
+y ahora si tenemos el Führer justo aquí abajo vale pues con esto ya tenemos la maquetación básica de
+
+19
+00:02:32,750 --> 00:02:39,040
+nuestro sitio web y en la siguiente clase ya empezaremos a hacer el segundo punto que es buscar un plugin
+
+20
+00:02:39,080 --> 00:02:44,460
+para hacer un slider que lo vamos a colocar en esta parte justo aquí.
+
+21
+00:02:44,810 --> 00:02:51,770
+Así que de momento esta parte el punto 1 maquetar una web pues ya lo tenemos hecho lo podemos marcar
+
+22
+00:02:51,860 --> 00:02:52,630
+en verde.
+
+23
+00:02:52,670 --> 00:02:58,340
+Lo siguiente será hacer el Sneider y así progresivamente haciendo todos los ejercicios todos los puntos
+
+24
+00:02:58,340 --> 00:02:59,240
+de este proyecto.

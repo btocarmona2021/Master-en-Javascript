@@ -1,0 +1,235 @@
+1
+00:00:00,600 --> 00:00:05,880
+Ya hemos visto cómo usan los filtros por defecto así que ahora vamos a aprender a crear nuestros propios
+
+2
+00:00:06,060 --> 00:00:08,630
+filtros con nuestras propias pipes.
+
+3
+00:00:08,670 --> 00:00:16,710
+Para eso vamos a crear una carpeta que se llame pipes folder controles s pipes y aquí dentro de donde
+
+4
+00:00:16,710 --> 00:00:23,010
+vamos a estar creando nuestro PIB personalizado los pipes personalizados no son más que clases que vamos
+
+5
+00:00:23,010 --> 00:00:28,030
+a meterle una serie de decoradores y componentes de angular para convertirlo en una parte.
+
+6
+00:00:28,320 --> 00:00:35,400
+Guardamos el nuevo archivo y se va a llamar calculadora apuntó Pipe .3.
+
+7
+00:00:35,900 --> 00:00:41,480
+Ok guardo mi VIP y voy a crear lo primero que tengo que hacer es importar los componentes de la pipes
+
+8
+00:00:41,490 --> 00:00:42,870
+o los módulos de las pymes.
+
+9
+00:00:42,930 --> 00:00:43,530
+Import
+
+10
+00:00:46,230 --> 00:00:51,240
+Pipe y Pipe Transform.
+
+11
+00:00:51,300 --> 00:00:57,540
+Vale y estos fueron arrobado angular barra Kore vale.
+
+12
+00:00:57,540 --> 00:01:05,100
+Esto es lo que necesito para poder crear una PEIT y utilizar el decorador Pipe para crear mi padre a
+
+13
+00:01:05,100 --> 00:01:11,070
+este decorador le tengo que indicar en los metadatos del propio decorador el Nein qué nombre va a tener
+
+14
+00:01:11,070 --> 00:01:15,270
+la Paik en este caso le voy a poner calculadora OK.
+
+15
+00:01:15,420 --> 00:01:16,280
+Así de sencillo.
+
+16
+00:01:16,300 --> 00:01:22,400
+Y entonces voy a hacer lo siguiente Esport class para poder utilizar esta clase dentro de otro archivos.
+
+17
+00:01:22,530 --> 00:01:31,710
+Se va a llamar calculadora BOIB y voy a implementar implement Pipe Transform.
+
+18
+00:01:32,040 --> 00:01:40,140
+Vale que esto es la interfaz que me va a permitir crear la peuple entonces con implemento Transform
+
+19
+00:01:40,410 --> 00:01:47,400
+tengo que utilizar el método Transform de manera obligatoria dentro de mi Pipe vale y le voy a pasar
+
+20
+00:01:47,400 --> 00:01:55,780
+ciertos valores vale que va a pasar ciertos parámetros el primer parámetro será el valor Serval lo siguiente
+
+21
+00:01:55,780 --> 00:02:03,450
+es decir yo puedo tener un dato y utilizar la PEIT pues el primer parámetro será el dato vale y el segundo
+
+22
+00:02:03,450 --> 00:02:11,340
+parámetro será lo que yo le pase como segundo dato es decir yo llamaría calculadora y aquí le pasaría
+
+23
+00:02:11,340 --> 00:02:12,720
+el otro parámetro.
+
+24
+00:02:13,050 --> 00:02:13,770
+El otro dato
+
+25
+00:02:17,300 --> 00:02:28,200
+entonces el parámetro 1 de mi función de mi método tras ese y el parámetro 2 será este para 2 ok entonces
+
+26
+00:02:28,590 --> 00:02:37,000
+deberá pasar el primer parámetro se va a llamar Balio y el segundo parámetro se va a llamar Balio Chew.
+
+27
+00:02:37,800 --> 00:02:46,890
+Entonces vamos a tener dos valores los dos van a ser un parámetro de tipo n vale podríamos indicarle
+
+28
+00:02:47,310 --> 00:02:52,440
+un tipo de dato más fuerte pero bueno lo vamos a dejar en tipo n y entonces lo que vamos a hacer simplemente
+
+29
+00:02:52,440 --> 00:02:58,140
+es hacer unos cálculos hacer una suma o lo que sea para ver cómo funciona el pipe.
+
+30
+00:02:58,500 --> 00:03:08,460
+Entonces vamos a hacer lo siguiente Vamos a crear una variable operación operaciones vamos a poner y
+
+31
+00:03:08,970 --> 00:03:14,250
+vamos a utilizar las comillas simples y vamos a utilizar JavaScript para hacer una plantilla que va
+
+32
+00:03:14,250 --> 00:03:15,720
+a ser la que vamos a devolver.
+
+33
+00:03:15,830 --> 00:03:21,750
+Entonces aquí podría poner yo suma resta multiplicación
+
+34
+00:03:25,520 --> 00:03:33,830
+y división dentro de yo aquí podría utilizar la sintaxis de las plantillas de JavaScript para imprimir
+
+35
+00:03:33,830 --> 00:03:43,700
+aquí mis operaciones no value más value chup.
+
+36
+00:03:43,790 --> 00:03:51,430
+Vamos a ver si esto no funciona y entonces voy a devolver el resultado Return result.
+
+37
+00:03:51,740 --> 00:03:57,340
+Vale vamos a poner el resto de operaciones luego si no no funciona lo modificamos para hacer que funcione
+
+38
+00:04:00,680 --> 00:04:08,780
+vamos a ponerlo aquí la resta la multiplicación y la división y que nos imprima esos valores dentro
+
+39
+00:04:08,780 --> 00:04:14,680
+de la plantilla y devolvemos simplemente el resultado que sería operaciones vale perfecto tenemos nuestras
+
+40
+00:04:14,680 --> 00:04:22,130
+BOIB es decir le vamos a pasar un dato un primer dato y luego un segundo dato utilizando la calculadora
+
+41
+00:04:22,190 --> 00:04:25,540
+y esto nos va a tener que devolver todas estas operaciones Malet.
+
+42
+00:04:26,090 --> 00:04:31,600
+Además le vamos a poner un B.R. aquí por si acaso para que no haga el salto de línea.
+
+43
+00:04:32,200 --> 00:04:37,130
+Entonces para poder utilizar nuestras BOIB tenemos que utilizar el PPE Module y cargarlo aquí cargar
+
+44
+00:04:37,130 --> 00:04:43,790
+nuestra IP vale vamos a hacer un import de nuestro país que se llama calculadora
+
+45
+00:04:46,230 --> 00:05:02,210
+Paipa y From Tobarra pipes barra calculadora punto Pipe y esto hace una directiva también tenemos que
+
+46
+00:05:02,210 --> 00:05:06,830
+cargarlo en declarativos vale lo cargamos por aquí.
+
+47
+00:05:07,190 --> 00:05:16,430
+Calculadora BOIB guardamos actualizamos la pantalla no hay ningún fallo y vamos a utilizarla y la vamos
+
+48
+00:05:16,430 --> 00:05:24,590
+a utilizar por aquí de forma que yo puedo tener un valor que sea un número.
+
+49
+00:05:24,740 --> 00:05:31,880
+Un cuadro puede utilizar la calculadora y pasarle un parámetro que sea un 2.
+
+50
+00:05:32,270 --> 00:05:39,730
+Guardo actualizo la pantalla y aquí me aparecen las operaciones efectivamente la suma es 6 las restas
+
+51
+00:05:39,780 --> 00:05:44,130
+dos multiplicaciones 8 y la divisiones 2 ok.
+
+52
+00:05:44,240 --> 00:05:51,980
+Entonces como el terreno no lo coge si le ponemos un Barrán n vamos a ver qué pasa.
+
+53
+00:05:51,980 --> 00:05:58,580
+Tampoco lo cogen porque al final van a meter un texto como tal y no podemos estar metiendo errores aquí
+
+54
+00:05:58,580 --> 00:06:00,320
+porque tampoco sería una buena práctica.
+
+55
+00:06:00,320 --> 00:06:06,380
+Simplemente es un ejemplo para ver que esto funciona y efectivamente no hace la operación decidió cambiar
+
+56
+00:06:06,380 --> 00:06:10,290
+ese valor a otro valor.
+
+57
+00:06:10,940 --> 00:06:18,740
+88 guardía actualizo pues aquí me hace esa operación utilizando la entonces puede utilizar esa funcionalidad
+
+58
+00:06:18,980 --> 00:06:23,510
+de esta manera tan simple así que ya hemos visto cómo crear una Paik personalizada y ya hemos visto
+
+59
+00:06:23,510 --> 00:06:24,880
+cómo funciona.

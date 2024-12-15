@@ -1,0 +1,147 @@
+1
+00:00:00,780 --> 00:00:06,030
+Ya tenemos la fuente cargada en nuestro proyecto así que ahora lo que vamos a hacer va a ser la maquetación
+
+2
+00:00:06,240 --> 00:00:07,950
+general de la web.
+
+3
+00:00:07,950 --> 00:00:12,350
+Empezaremos por la cabecera luego haremos el cuerpo de la página etcétera.
+
+4
+00:00:13,770 --> 00:00:21,030
+Vamos con ello lo primero que vamos a hacer va a ser en nuestros estilos hacer los estilos generales
+
+5
+00:00:21,030 --> 00:00:28,170
+de la web por ejemplo aquí lo que estamos haciendo es importar las fuentes personalizadas de acuerdo
+
+6
+00:00:28,710 --> 00:00:33,280
+vamos a poner el comentario en cada parte del CSS para saber qué estamos haciendo.
+
+7
+00:00:33,570 --> 00:00:39,580
+Esto sería importar fuentes custom.
+
+8
+00:00:39,890 --> 00:00:49,400
+Aquí vamos a hacer unos estilos generales no vamos a poner comentarios generales Bare cosas que se van
+
+9
+00:00:49,400 --> 00:00:56,580
+a estar utilizando en general en la web por ejemplo el body va a tener esos estilo simplemente la fuente.
+
+10
+00:00:57,110 --> 00:01:01,500
+Luego vamos a poner unos estilos que van a ser para todos los elementos de la web.
+
+11
+00:01:01,540 --> 00:01:12,980
+Y es que tengan un margen cero cero px y un Padín 0 PX vale para poder controlar 100 por cien los tamaños
+
+12
+00:01:12,980 --> 00:01:17,960
+que estamos poniendo nosotros y los márgenes interiores y exteriores de los elementos.
+
+13
+00:01:19,880 --> 00:01:25,550
+Luego el body pues como ya sabemos va a tener un font family ya que es la que hemos importado nosotros
+
+14
+00:01:25,550 --> 00:01:37,280
+custom le podemos poner un fondo 6 de 20 píxeles para hacerlo un poco más grande y le podemos poner
+
+15
+00:01:37,280 --> 00:01:41,380
+también un Bagram vale.
+
+16
+00:01:41,390 --> 00:01:46,480
+Aquí lo que se denunció del proyecto vemos que es como un gris clarito.
+
+17
+00:01:46,490 --> 00:01:56,090
+Vale entonces lo suyo sería ponerle un gris así clarito igualmente no le vamos a poner una imagen u
+
+18
+00:01:56,140 --> 00:02:02,750
+R.L y aquí en nuestra carpeta de assets vamos a meter un patrón de acuerdo una imagen de patrón vale
+
+19
+00:02:02,750 --> 00:02:08,210
+porque aquí no se aprecia del todo pero esto tiene un vaquero aunque es un patearme que es una pequeña
+
+20
+00:02:08,210 --> 00:02:11,870
+imagen que se va a repetir a todo el cuerpo de la página.
+
+21
+00:02:12,360 --> 00:02:17,070
+Entonces ese patrón yo lo tengo por aquí tengo el archivo te lo voy a dejar a junto.
+
+22
+00:02:17,090 --> 00:02:19,650
+Me acuerdo de las clases del curso para que te lo descargues también.
+
+23
+00:02:21,110 --> 00:02:24,140
+Entonces voy a acceder a la carpeta de nuestro proyecto.
+
+24
+00:02:24,140 --> 00:02:31,620
+Ya estamos en ella y voy a acceder a SRC assets y aquí voy a crear una carpeta que va a ser y MGA de
+
+25
+00:02:31,670 --> 00:02:36,670
+aquí vamos a meter la imágenes de que sean assets que vamos a estar incluyendo en nuestra página.
+
+26
+00:02:36,740 --> 00:02:41,130
+Yo voy a copiarme aquí el Patten que yo tengo lo copio y pego.
+
+27
+00:02:41,330 --> 00:02:47,470
+Vale tiene este nombre se lo podemos cambiar a Patten por ejemplo.
+
+28
+00:02:47,600 --> 00:02:53,870
+Vale ya tenemos el archivo ahora tenemos que incluirlo o cargarlo en el vacunaron cómo lo hacemos poniendo
+
+29
+00:02:54,470 --> 00:03:01,760
+las comillas y diciendo que esto está en la carpeta anterior a la DFS ese punto punto barra y dentro
+
+30
+00:03:01,760 --> 00:03:08,350
+de emerge el archivo se llama Páter un punto PNG vale un punto y coma.
+
+31
+00:03:08,420 --> 00:03:16,050
+Guardo actualizo la pantalla y aquí vemos el Patten de acuerdo vemos que es como granulado mal
+
+32
+00:03:18,690 --> 00:03:21,510
+es como un granulado perfecto.
+
+33
+00:03:21,520 --> 00:03:30,760
+Además le vamos a poner un positivo en fixed para que cuando nosotros hagamos hagamos el scroll en la
+
+34
+00:03:30,760 --> 00:03:37,930
+web no sintamos que el fondo se están se está deslizando hacia abajo sino que se quede quieto y fijo
+
+35
+00:03:38,640 --> 00:03:40,810
+en esta posición que está ahora mismo.
+
+36
+00:03:41,070 --> 00:03:47,090
+Vale ya tenemos los estilos generales en la siguiente clase lo que vamos a hacer va a ser ponerle los
+
+37
+00:03:47,250 --> 00:03:50,980
+estilo a nuestra barra de navegación y a nuestro Getter.

@@ -1,0 +1,571 @@
+1
+00:00:00,600 --> 00:00:06,420
+Hace poco salió una nueva versión de angular la versión 7 de angular que como de costumbre Escada más
+
+2
+00:00:06,420 --> 00:00:08,940
+o menos seis meses sacan una nueva versión.
+
+3
+00:00:09,300 --> 00:00:13,570
+En este caso esta nueva versión no incluye cambios que rompan nuestro código.
+
+4
+00:00:13,590 --> 00:00:18,660
+Por tanto no hay que preocuparse porque quien sepa programar con angular 4 con angular 5 con angular
+
+5
+00:00:18,660 --> 00:00:20,310
+6 va a ser lo mismo.
+
+6
+00:00:20,310 --> 00:00:25,260
+De acuerdo ese programa es exactamente igual o hay ningún tipo de cambio relevante sea el primer cambio
+
+7
+00:00:25,320 --> 00:00:32,090
+es corregir bugs o fallos que tenga el framework añadirle mejoras de rendimiento para que vaya más rápido
+
+8
+00:00:32,100 --> 00:00:37,380
+mejor compresión etcétera y aparte de todo lo que teníamos en las versiones anteriores de angular que
+
+9
+00:00:37,380 --> 00:00:41,960
+ya te digo que se programa exactamente igual no hay ningún cambio relevante de código nada se va a romper.
+
+10
+00:00:41,970 --> 00:00:46,830
+No hay ningún cambio relevante que vaya a afectar a la forma en la que trabajábamos anteriormente con
+
+11
+00:00:46,830 --> 00:00:49,710
+angular 4 5 6.
+
+12
+00:00:49,710 --> 00:00:52,360
+No hay ningún tipo de cambio se programa exactamente igual.
+
+13
+00:00:52,360 --> 00:00:57,420
+Vale entonces a partir de lo que ya he dicho de las mejoras de rendimiento de la corrección de errores
+
+14
+00:00:57,540 --> 00:01:03,030
+y de las mejoras en el CDI etcétera han añadido algunas funcionalidades nuevas como por ejemplo el scroll
+
+15
+00:01:03,300 --> 00:01:11,430
+virtual para así cargar y descargar el DOM de manera automática y que eso mejore el rendimiento de la
+
+16
+00:01:11,430 --> 00:01:12,530
+página web arriano.
+
+17
+00:01:12,540 --> 00:01:19,020
+Por ejemplo si tenemos un listado de imágenes muy muy largo con este Croods virtual podríamos hacer
+
+18
+00:01:19,440 --> 00:01:24,540
+que las imágenes conforme vayamos haciendo el color se vayan cargando y descargando automáticamente
+
+19
+00:01:25,260 --> 00:01:31,530
+para no sobrecargar la página de tener por ejemplo 80 imágenes en un listado y cargar las top de golpe
+
+20
+00:01:31,530 --> 00:01:37,050
+y eso que ralentice la web simplemente conforme vamos haciendo el color se irían mostrando y ocultándola
+
+21
+00:01:37,080 --> 00:01:37,920
+anteriores.
+
+22
+00:01:37,930 --> 00:01:43,120
+Vale para eso hay un módulo nuevo que se llama scrolling módulo que nos permite hacer eso.
+
+23
+00:01:43,140 --> 00:01:48,810
+Además de esta funcionalidad nueva también han añadido otro módulo para hacer un traje un drop de acuerdo
+
+24
+00:01:48,990 --> 00:01:51,440
+para poder hacer un bloc de cosas.
+
+25
+00:01:51,600 --> 00:01:58,610
+Además también han actualizado las dependencias que había anteriormente como la de escribir RX JS No
+
+26
+00:01:58,620 --> 00:02:03,510
+de todo esto lo han ido actualizando han añadido algunos paquetes y algunas utilidades también dentro
+
+27
+00:02:03,510 --> 00:02:04,520
+del Feingold.
+
+28
+00:02:04,680 --> 00:02:10,100
+Pero nada de esto es preocupante si se trabaja exactamente igual que con las versiones anteriores así
+
+29
+00:02:10,110 --> 00:02:14,610
+que vamos a ver cómo instalar angular 7 de manera correcta.
+
+30
+00:02:14,610 --> 00:02:20,780
+Lo primero que tenemos que hacer para instalar angular 7 es actualizar o instalar desde cero no DJs.
+
+31
+00:02:20,820 --> 00:02:27,410
+Para eso vamos a entrar a DJs punto o R.G. DJs lo vamos a buscar en Google.
+
+32
+00:02:27,450 --> 00:02:30,850
+Vamos a entrar a la web y no vamos a descargar la última versión vale.
+
+33
+00:02:30,870 --> 00:02:37,110
+En mi caso me voy a descargar la versión actual la última última con la última característica que es
+
+34
+00:02:37,110 --> 00:02:38,690
+menos estable que la lts.
+
+35
+00:02:38,700 --> 00:02:44,340
+Vale ya está la altura que quieras pero yo voy a instalar la última la actual en este caso voy a guardar
+
+36
+00:02:44,340 --> 00:02:45,040
+el instalador.
+
+37
+00:02:45,040 --> 00:02:49,470
+Vale ya lo tengo por aquí y lo voy a ejecutar.
+
+38
+00:02:49,710 --> 00:02:57,400
+Afectar y esto es lo que va a hacer es instalarme desde cero node o actualizarme que ya tengo Malen
+
+39
+00:02:57,410 --> 00:03:06,080
+doblegada Annex voy a aceptar los términos y condiciones de la licencia siguiente siguiente siguiente.
+
+40
+00:03:06,170 --> 00:03:13,780
+Esto no le va a tocar nada a la siguiente y instalar le voy a decir que sí vale y esto va a tardar un
+
+41
+00:03:13,780 --> 00:03:21,040
+poquito en actualizar una versión de Node o instalar una nueva versión de Node que yo necesite vale
+
+42
+00:03:21,040 --> 00:03:27,670
+vamos a hacer todos los pasos para estrangular 7 me dice que no había citado correctamente que le voy
+
+43
+00:03:27,670 --> 00:03:32,470
+a dar a Finnish bien ahora lo que tengo que hacer para continuar con la instalación es abrir el CMD
+
+44
+00:03:32,470 --> 00:03:33,940
+de Windows.
+
+45
+00:03:34,060 --> 00:03:39,880
+Vale voy a hacer CMD abro el símbolo del sistema
+
+46
+00:03:42,590 --> 00:03:46,460
+y aquí lo que voy a hacer es lo siguiente llevanza los siguientes comandos lo primero voy a actualizar
+
+47
+00:03:46,530 --> 00:03:53,000
+en MM en MM es el gestor de paquetes y dependencia que nos permite descargar nuevas dependencias e instalar
+
+48
+00:03:53,180 --> 00:03:59,390
+paquetes en proyectos de JavaScript etcétera entonces voy a actualizarlo voy a hacer en MPM install
+
+49
+00:03:59,720 --> 00:04:11,380
+menosque MPM arroba Ladd esto vale ítalo el BM en la última versión o lo actualizo.
+
+50
+00:04:11,790 --> 00:04:13,560
+Esto se está descargando la ultima version.
+
+51
+00:04:13,570 --> 00:04:15,300
+Ya lo tenemos actualizado en MM.
+
+52
+00:04:15,310 --> 00:04:19,990
+Esto va a hacer que se baje la última versión del mulher CL y la última versión de todos los paquetes.
+
+53
+00:04:19,990 --> 00:04:26,420
+Ahora voy a lanzar el comando MPM cache Clean menos menos Force.
+
+54
+00:04:26,440 --> 00:04:33,490
+Esto lo que hace es borrar la caché de MPM para que cuando yo me he descargado algún paquete se descargue
+
+55
+00:04:33,490 --> 00:04:36,420
+la última versión vale.
+
+56
+00:04:36,430 --> 00:04:46,230
+Listo vale ahora lo siguiente que voy a hacer es desactivar la auditoría de rpm RPM genera algunos fallos
+
+57
+00:04:46,230 --> 00:04:50,940
+que no son fallos simplemente te pide que haga una auditoría de los paquetes de descarga etcétera por
+
+58
+00:04:50,940 --> 00:04:52,720
+temas de seguridad pero esto no hace falta.
+
+59
+00:04:52,790 --> 00:05:00,580
+Lo vamos a desactivar ejecutando el comando LPM set Audit false vale.
+
+60
+00:05:00,990 --> 00:05:02,250
+Listo ya lo tengo.
+
+61
+00:05:02,250 --> 00:05:07,110
+Ahora lo que vamos a hacer va a ser actualizar angular Cellay para que se descargue la última versión
+
+62
+00:05:07,430 --> 00:05:12,240
+de angulas Cellay y que esto nos permite instalar la última versión de angular la versión 7 en este
+
+63
+00:05:12,240 --> 00:05:17,880
+caso vale lo primero que tenemos que hacer es desinstalar las versiones anteriores de angulas CL y para
+
+64
+00:05:17,880 --> 00:05:27,920
+eso en enviame un install me enojé angular guión C Lehi vale esto lo que va a hacer citarme la última
+
+65
+00:05:27,920 --> 00:05:33,030
+a la versión anterior que tengo deambular Cellay vale esto es en el caso utilicemos que utilicemos angulas
+
+66
+00:05:33,030 --> 00:05:38,850
+de Lehi en la versión más antigua pero ahora hay una versión nueva que es el paquete arrobada angulas
+
+67
+00:05:38,860 --> 00:05:48,930
+barra Fellay que también lo podemos desinstalar en un install me enojé arroba angular barra Cellay o
+
+68
+00:05:48,990 --> 00:05:55,530
+diagonal CD vale enter y esto también me lo va a necesitar ahora lo que voy a hacer es borrar la caché
+
+69
+00:05:55,530 --> 00:06:06,810
+de nuevo B.M caché Clean Force listo ya lo tengo ahora siguiente cosa que tenemos que hacer pues instalar
+
+70
+00:06:06,900 --> 00:06:13,500
+el último paquete de la última versión de angular Cele y para eso tengo que hacer MPM instalar menos
+
+71
+00:06:13,500 --> 00:06:24,150
+G arroba angular barra Cellay arroba Ladd Balet enter y esto es lo que está haciendo es descargarse
+
+72
+00:06:24,300 --> 00:06:28,560
+angulas Celebi para poder generar nuevos proyectos de angular para trabajar con la consola de angular
+
+73
+00:06:28,560 --> 00:06:34,110
+todo eso y una vez que termine ya podremos generar nuestros proyectos de angulas listo y ya lo tenemos
+
+74
+00:06:34,110 --> 00:06:34,900
+instalado.
+
+75
+00:06:34,950 --> 00:06:39,510
+Y ahora si accedemos a cualquier directorio de nuestro sistema operativo yo suelo trabajar con los proyectos
+
+76
+00:06:39,510 --> 00:06:44,400
+web siempre en la misma carpeta así que voy a entrar en esa carpeta pero tú puedes utilizar cualquier
+
+77
+00:06:44,400 --> 00:06:46,890
+carpeta de tu sistema operativo.
+
+78
+00:06:46,900 --> 00:06:52,310
+Vale ok ya estoy dentro de la carpeta RW que es donde yo trabajo pero tú puedes hacer estos comandos
+
+79
+00:06:52,310 --> 00:06:56,570
+o ejecutar el comando en el escritorio o en la carpeta que tú quieras.
+
+80
+00:06:56,570 --> 00:06:58,040
+Vale de tu sistema operativo.
+
+81
+00:06:58,140 --> 00:07:02,910
+Vale pues una vez que estamos ubicados aquí ya podemos empezar a generar nuestro proyecto de angular
+
+82
+00:07:02,940 --> 00:07:08,760
+vale para eso va a utilizar el comando NG New vale y esto automáticamente me va lanza un asistente que
+
+83
+00:07:08,760 --> 00:07:13,740
+me va a preguntar el nombre del proyecto me va a preguntar diferentes cosas y además lo que va a hacer
+
+84
+00:07:13,740 --> 00:07:21,300
+es generarme un escalafón básico de la estructura de archivo y Directorio en básica y necesaria para
+
+85
+00:07:21,300 --> 00:07:26,400
+un proyecto de angular y aparte me va a descargar todas las dependencias pakete librerías que necesita
+
+86
+00:07:26,400 --> 00:07:32,280
+el franjiverde angular 7 así que le voy a dar a Enter me pregunta el nombre del proyecto le vamos a
+
+87
+00:07:32,280 --> 00:07:42,570
+poner pruebas angular 7 ligada a la gente me pregunta Quieres añadir el routine angular Ital yo le voy
+
+88
+00:07:42,570 --> 00:07:47,750
+a decir que no porque sólo lo configuramos manualmente en el caso de que lo necesitemos me pregunta
+
+89
+00:07:48,190 --> 00:07:53,000
+que cuál es la forma que yo quiero utilizar para los estilos si quiere utilizar un preprocesador CSS
+
+90
+00:07:53,000 --> 00:07:59,510
+como solés o si utilizas CSS a pelo y utilizar CSS a pelo y automáticamente ya me está generando el
+
+91
+00:07:59,510 --> 00:08:06,680
+proyecto vale fíjate que me ha generado osea me está creando todos los archivos necesario lo que se
+
+92
+00:08:06,680 --> 00:08:14,630
+le escapó ni másico de archivo y directorio ya ahora se está conectando LPM vale y está bajándose todos
+
+93
+00:08:14,630 --> 00:08:21,170
+los paquetes necesarios y toda y todo lo que realmente necesita el framework para funcionar así que
+
+94
+00:08:21,170 --> 00:08:27,890
+tenemos que esperar un ratito y ahora tendremos ya nuestro proyecto de angular básico generado y ya
+
+95
+00:08:27,890 --> 00:08:32,660
+podremos empezar a trabajar con el framework listo pues parece ser que ya ha terminado de instalar el
+
+96
+00:08:32,660 --> 00:08:33,630
+framework.
+
+97
+00:08:33,710 --> 00:08:39,830
+En general estos fallos Bárez pero todo esto todo esto fallos que me genera son porque no tengo configurado
+
+98
+00:08:39,830 --> 00:08:45,650
+en el GIT mi nombre ni nada porque este equipo es nuevo vale pero si yo ahora mismo entro en un proyecto
+
+99
+00:08:46,000 --> 00:08:53,750
+de este puedo hacer L.S. directamente puedo hacer Dir. mejor dicho estamos en Windows y puedo ver que
+
+100
+00:08:53,750 --> 00:08:57,060
+tengo mi proyecto angular generado por aquí pruebas angular 7.
+
+101
+00:08:57,080 --> 00:09:06,860
+Vale puede entrar dentro CD pruebas angular 7 y decir Vale puedo ver que tengo todas las carpetas generada
+
+102
+00:09:06,970 --> 00:09:10,000
+no de módulo en donde se ha descargado todos los paquetes etc etc..
+
+103
+00:09:10,190 --> 00:09:15,290
+Ahora aquí lo que puedo hacer es lanzar el comando NGS Erbe y esto me va a lanzar un servidor local
+
+104
+00:09:15,300 --> 00:09:20,420
+le angular vale para trabajar con el proyecto y para poder verlo en el navegador vamos a hacer eso y
+
+105
+00:09:20,420 --> 00:09:27,850
+si todo funciona se habrá instalado correctamente le decimos que permita el acceso de Vale y esto está
+
+106
+00:09:27,850 --> 00:09:31,600
+arrancando el servidor local de angular sin ningún tipo de problema.
+
+107
+00:09:31,680 --> 00:09:36,160
+La compilación se realiza correctamente y ahora me dice que tengo en esta web revelé disponible en mi
+
+108
+00:09:36,160 --> 00:09:44,570
+proyecto vale la voy a copiar las veo por aquí entro y aquí tengo mi proyecto angular instalado o sea
+
+109
+00:09:44,590 --> 00:09:46,390
+todo perfecto.
+
+110
+00:09:46,390 --> 00:09:52,120
+Lo único error es que me ha dado son por el tema de guive que no lo tengo configurado correctamente
+
+111
+00:09:52,120 --> 00:09:54,270
+y por eso me genera todo esto.
+
+112
+00:09:54,280 --> 00:09:59,640
+Todos estos problemillas vale pero no es importante si la instalación llega al final vale.
+
+113
+00:10:00,100 --> 00:10:05,110
+Si la instalación llega al final es que todo se ha realizado correctamente y si llega al final y haces
+
+114
+00:10:05,200 --> 00:10:08,350
+esto el NG sirve y te carga el proyecto.
+
+115
+00:10:08,380 --> 00:10:15,040
+Es que todo está correcto o bien si no genera algún tipo de error angular al instalar el proyecto general
+
+116
+00:10:15,040 --> 00:10:19,840
+el proyecto aunque ya hemos visto anteriormente que funcionaba vamos a ver cómo solucionan los problemas
+
+117
+00:10:19,840 --> 00:10:25,540
+y los errores que nos muestra la primera cosa es el tema de las vulnerabilidades.
+
+118
+00:10:25,630 --> 00:10:30,130
+Vale que eso es uno de los errores que también mucha gente se queja que le aparece un mensaje No sé
+
+119
+00:10:30,130 --> 00:10:39,270
+qué para eso simplemente tenemos que lanzar el comando en BM Seth Audit false vale y con eso quedaría
+
+120
+00:10:39,330 --> 00:10:45,480
+solucionado el tema de la vulnerabilidad ese error que nos muestra no de otra cosa que habría que configurar
+
+121
+00:10:45,480 --> 00:10:54,480
+sería el tema del kit el usuario y el email vale para eso tenemos que hacer GIT confit bueno menos global
+
+122
+00:10:55,490 --> 00:10:58,610
+user punto Nein y yo voy a poner aquí por mi nombre.
+
+123
+00:11:01,570 --> 00:11:02,380
+Vale.
+
+124
+00:11:02,410 --> 00:11:13,250
+Primera cosa configurada luego voy a configurar también Guild confirmó un número global el email Valdivia
+
+125
+00:11:13,360 --> 00:11:14,200
+configurarlo aquí
+
+126
+00:11:18,520 --> 00:11:24,950
+por ejemplo pongo un símil aquí ya lo tendría configurado una misma o config fenómeno list.
+
+127
+00:11:25,150 --> 00:11:33,640
+Puedo ver lo que tengo configurado aquí en mi sistema en este caso el nombre y y vemos que no se comporta
+
+128
+00:11:33,640 --> 00:11:38,650
+muy bien con el tema de las tildes así que para eso voy a ponerle otro nombre que no tenga tilde
+
+129
+00:11:41,590 --> 00:11:47,180
+vale si ahora hago el Liset pues ya está bien configurado y en principio esos serían los dos errores
+
+130
+00:11:47,180 --> 00:11:47,930
+principales.
+
+131
+00:11:47,960 --> 00:11:50,030
+Así más llamativos que podemos tener.
+
+132
+00:11:50,600 --> 00:11:56,330
+Entonces ahora si generamos un proyecto nuevo en el genio lanzamos el comando de anular Celli para generar
+
+133
+00:11:56,330 --> 00:12:05,730
+un nuevo proyecto y vamos a poner un nombre prueba angular 7 2 balet.
+
+134
+00:12:06,020 --> 00:12:15,430
+Le digo que no quiero el router vale utilizo el CSS tal cual esto me está generando el proyecto se va
+
+135
+00:12:15,430 --> 00:12:21,470
+a volver a descargar la independencia y tal vale ya está me dice el repositorio de Villa creado correctamente
+
+136
+00:12:21,740 --> 00:12:22,180
+y listo.
+
+137
+00:12:22,190 --> 00:12:25,810
+Una vez que te dice esto ya es que el proyecto está perfectamente creado.
+
+138
+00:12:26,540 --> 00:12:33,560
+Entonces entramos en ese proyecto y lanzamos el NG Serve o el bienestar lo que quiera.
+
+139
+00:12:33,590 --> 00:12:39,580
+Esto es lo que va a hacer es arrancarme lo adquirido Man Ng Server todo lo que hará será arrancarme
+
+140
+00:12:39,670 --> 00:12:45,190
+el compilador y el transpirados de angular para cuando yo escriba un archivo que me lo transpire a they've
+
+141
+00:12:45,190 --> 00:12:48,010
+escribe etcétera y me lo comprima y todo eso.
+
+142
+00:12:48,160 --> 00:12:56,910
+Y aparte me va a servir la página web local vale copiarlo la wereables y ya puedo acceder aquí vale
+
+143
+00:12:57,260 --> 00:12:59,150
+ya tengo el proyecto de angulos generado.

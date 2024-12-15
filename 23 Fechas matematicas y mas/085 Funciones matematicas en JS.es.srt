@@ -1,0 +1,115 @@
+1
+00:00:00,960 --> 00:00:05,490
+Ahora vamos a probar algunas de las funciones matemáticas que hay en JavaScript en JavaScript.
+
+2
+00:00:05,490 --> 00:00:10,560
+Hay un amplio abanico de funciones para hacer operaciones matemáticas diferente.
+
+3
+00:00:10,560 --> 00:00:17,970
+De hecho si buscamos en Google JavaScript más vamos a ver que tenemos muchas referencias.
+
+4
+00:00:17,970 --> 00:00:24,090
+Por ejemplo esta de aquí está bastante bien en la cual tenemos todas las funciones todos los métodos
+
+5
+00:00:24,090 --> 00:00:26,390
+que nos permiten hacer operaciones matemáticas.
+
+6
+00:00:26,400 --> 00:00:31,680
+Hay un montón un montón y nos ponen ejemplos con cada uno de ellos por ejemplo utilizando el objeto
+
+7
+00:00:31,690 --> 00:00:37,620
+mal y la constante o la propiedad Pi nos va a sacar el número Pi.
+
+8
+00:00:37,620 --> 00:00:42,930
+Y bueno hay muchísimos métodos por ejemplo para sacar un número elevado a otro para sacar el mínimo
+
+9
+00:00:42,930 --> 00:00:47,700
+y el máximo de una serie de número para sacar el número un número aleatorio.
+
+10
+00:00:47,700 --> 00:00:58,730
+Por ejemplo si nosotros hacemos consolé puntos lo más punto random es una función.
+
+11
+00:00:58,800 --> 00:01:04,560
+Si hacemos esto nos va a sacar un número aleatorio de acuerdo si actualizamos la pantalla efectivamente
+
+12
+00:01:04,560 --> 00:01:09,040
+nos saca un número aleatorio y este número está en base decimal.
+
+13
+00:01:09,060 --> 00:01:14,640
+Entonces si queremos que sea un número entero digamos un número mayor pues simplemente tendríamos que
+
+14
+00:01:14,640 --> 00:01:21,690
+multiplicarlo por diez o por lo que queramos para que sea un número más aceptable aleatorio.
+
+15
+00:01:21,700 --> 00:01:26,910
+9 como Avatar si quieres que sea un número aleatorio de cuatro cifras
+
+16
+00:01:30,730 --> 00:01:38,740
+o de tres cifras y queremos que se dé el cuadro lo podemos multiplicar por más vale y así de esta manera
+
+17
+00:01:38,830 --> 00:01:42,640
+si volvemos a actualizar la pantalla pues no vuelve a sacar un número aleatorio.
+
+18
+00:01:42,640 --> 00:01:46,830
+Incluso si yo pongo aquí si yo pusiera aquí esa misma operación no la sacaría.
+
+19
+00:01:46,830 --> 00:01:51,970
+Vale y luego podemos quitarle los decimales directamente utilizando
+
+20
+00:01:56,030 --> 00:02:05,640
+utilizando por ejemplo la función Feil vale podemos utilizar fail back to fail.
+
+21
+00:02:05,860 --> 00:02:15,770
+Podemos hacer esto de momento actualizamos la pantalla y nos falta por cerrar una llave efectivamente
+
+22
+00:02:18,400 --> 00:02:24,520
+un paréntesis actualizamos la pantalla y efectivamente con la función C lo que hacemos que se convierta
+
+23
+00:02:24,520 --> 00:02:30,100
+el número en un entero y le quitamos los decimales de acuerdo redondeamos eso al alza.
+
+24
+00:02:31,190 --> 00:02:37,240
+Y para sacar el coseno para sacar un montonazo de cosas que se nos pueden presentar en algún momento
+
+25
+00:02:37,600 --> 00:02:45,680
+lo más común de utilizar normalmente puede ser el Mini el Max e incluso el zait.
+
+26
+00:02:45,700 --> 00:02:49,540
+También mucho el random también el ron.
+
+27
+00:02:49,540 --> 00:02:52,030
+También se suele utilizar bastante.
+
+28
+00:02:52,030 --> 00:02:58,030
+Y bueno pues depende del desarrollo y de la situación pues si vas a usar un método u otro pero de esta
+
+29
+00:02:58,030 --> 00:03:02,380
+manera podemos utilizar diferentes funciones matemática utilizando el objeto más.

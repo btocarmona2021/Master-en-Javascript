@@ -1,0 +1,331 @@
+1
+00:00:00,890 --> 00:00:06,560
+Vale ahora vamos a ver métodos y propiedades para hacer búsquedas dentro de un Steyn dentro de una cadena
+
+2
+00:00:06,560 --> 00:00:07,440
+de texto.
+
+3
+00:00:07,550 --> 00:00:15,410
+Así que esto lo podemos incluso borrar para hacer las pruebas desde cero así que vamos a borrarlo y
+
+4
+00:00:15,470 --> 00:00:17,300
+lo hacemos desde cero.
+
+5
+00:00:17,300 --> 00:00:22,520
+Si yo quisiera buscar si existe una palabra dentro de un string yo podría hacerlo de una manera muy
+
+6
+00:00:22,520 --> 00:00:33,170
+sencilla podría hacerme una variable búsqueda y podría utilizar la variable texto uno podría utilizar
+
+7
+00:00:33,500 --> 00:00:39,520
+el método untó Index of el indexado y yo le paso por aquí una palabra.
+
+8
+00:00:39,530 --> 00:00:46,100
+Por ejemplo voy a buscar la palabra curso me va a sacar en qué posición está esta palabra y si realmente
+
+9
+00:00:46,100 --> 00:00:52,790
+existe o no si yo autorizo la pantalla aquí no sabe nada porque tendré que hacer un control log consolé
+
+10
+00:00:53,100 --> 00:00:53,690
+Autolog.
+
+11
+00:00:55,100 --> 00:01:02,120
+Si aún Consol los de búsqueda y cierro con un punto y coma y actualizo la pantalla aquí me aparece que
+
+12
+00:01:02,120 --> 00:01:11,690
+está en el carácter número 14 empieza en el carácter número 14 si contamos 1 2 3 4 5 6 7 8 9 10 11 12
+
+13
+00:01:11,750 --> 00:01:13,550
+13 14.
+
+14
+00:01:13,550 --> 00:01:19,410
+A partir del carácter 14 tengo la palabra curso con lo cual si que encuentra la palabra más dentro de
+
+15
+00:01:19,430 --> 00:01:24,470
+sí yo hago una búsqueda y quiero ver si existe esa palabra dentro de un string lo puedo hacer de esta
+
+16
+00:01:24,470 --> 00:01:29,660
+manera y esto es lo que hace es encontrar la primera coincidencia de esa palabra.
+
+17
+00:01:29,660 --> 00:01:36,530
+También tenemos otro método que es last índex off que nos permite sacar la última coincidencia en el
+
+18
+00:01:36,530 --> 00:01:41,930
+caso de que existiera en este caso no al 14 porque sólo hay una palabra curso pero si yo pongo aquí
+
+19
+00:01:41,930 --> 00:01:47,690
+de nuevo curso y actualizo la pantalla me va a sacar el 14:34.
+
+20
+00:01:47,750 --> 00:01:50,120
+La última aparición de esa palabra.
+
+21
+00:01:50,120 --> 00:01:56,270
+Con lo cual este método nos puede servir en alguna que otra situación luego para hacer búsquedas también
+
+22
+00:01:56,270 --> 00:01:58,330
+tenemos el método Search.
+
+23
+00:01:58,490 --> 00:02:06,440
+De acuerdo con el método Search básicamente puedes buscar y devuelve lo mismo en que donde aparece esa
+
+24
+00:02:06,440 --> 00:02:07,490
+palabra.
+
+25
+00:02:07,910 --> 00:02:09,870
+En qué punto aparece esa palabra.
+
+26
+00:02:09,880 --> 00:02:14,960
+Es lo mismo que utilizar Index o es un alias prácticamente así que con estos métodos yo puedo hacer
+
+27
+00:02:14,960 --> 00:02:21,710
+búsquedas dentro de textos Isacar a partir de qué carácter aparece esa palabra si yo buscar una palabra
+
+28
+00:02:22,070 --> 00:02:30,200
+que no estuviera pues me va a parecer menos uno como que realmente no aparece esa palabra no incluye
+
+29
+00:02:30,200 --> 00:02:38,060
+buscarãa yo que sé Juan pues igual me parecería menos uno como que realmente el carácter no existe y
+
+30
+00:02:38,110 --> 00:02:40,970
+en la búsqueda ha sido fallida.
+
+31
+00:02:41,150 --> 00:02:46,250
+Otra forma de hacer búsquedas es utilizando el método Mazz el método más es lo que va a hacer devolverme
+
+32
+00:02:46,340 --> 00:02:52,850
+una raíz con las palabras una raíz es una colección de elementos que van con su índice decir desde el
+
+33
+00:02:52,850 --> 00:02:54,720
+cero hasta a partir del cero.
+
+34
+00:02:54,740 --> 00:03:00,470
+Si yo tengo un texto ese texto tiene el índice cero tal sea un array lo Arraya lo explicaré en profundidad
+
+35
+00:03:00,470 --> 00:03:05,830
+más adelante pero con el match nos va a devolver una colección de los resultados que encuentre.
+
+36
+00:03:05,840 --> 00:03:15,380
+Si yo hago esto efectivamente me devuelve en una Rey en el índice cero la palabra que he encontrado
+
+37
+00:03:15,990 --> 00:03:23,000
+y el Index es decir el elemento en el cual el carácter en el cual empieza esa palabra que tiene el cartel
+
+38
+00:03:23,000 --> 00:03:27,330
+14 efectivamente y el input que es todo el texto sobre el cual se ha buscado.
+
+39
+00:03:27,350 --> 00:03:33,260
+Esto es interesante para cuando queremos hacer una búsqueda de muchas palabras para ver las coincidencias
+
+40
+00:03:33,290 --> 00:03:36,170
+para ver dónde aparecen etc..
+
+41
+00:03:36,380 --> 00:03:41,920
+Puede ser útil si yo pongo más la palabra curso me aparecerá en el array la colección de objeto
+
+42
+00:03:46,020 --> 00:03:49,420
+me aparecerá ahí qué pasa que solamente me busca la primera coincidencia.
+
+43
+00:03:49,420 --> 00:03:55,190
+Si yo quiero que me busque más coincidencia yo tendría que poner esto entre barras para hacer una expresión
+
+44
+00:03:55,190 --> 00:04:01,400
+regular y poner aquí el Rajoy global de acuerdo para que haga una búsqueda global y ya me aparecen dos
+
+45
+00:04:01,410 --> 00:04:02,220
+elementos.
+
+46
+00:04:02,570 --> 00:04:13,860
+Vale voy a quitarle el y dejar a Solange apareciendo elemento de cada uno en su posición y me encuentro
+
+47
+00:04:13,910 --> 00:04:19,400
+realmente dónde está esa palabra y me encuentra dos coincidencias.
+
+48
+00:04:20,120 --> 00:04:25,790
+Otro método que puedo utilizar para sacar un trozo de una búsqueda un trozo de una estricnina es el
+
+49
+00:04:25,790 --> 00:04:27,590
+método sub str.
+
+50
+00:04:27,650 --> 00:04:35,600
+Con este método yo puedo coger y decir mira sácame la palabra que quehaya del carácter 14 hasta el carácter
+
+51
+00:04:38,590 --> 00:04:39,540
+5.
+
+52
+00:04:39,790 --> 00:04:46,820
+O sea que me saque desde el carácter 14 cinco letras en adelante si hago esto me va a sacar el texto
+
+53
+00:04:46,820 --> 00:04:51,500
+que yo lo indicaba efectivamente la palabra curso me saca las cinco letras que hay a partir de carácter
+
+54
+00:04:51,770 --> 00:04:52,420
+14.
+
+55
+00:04:52,470 --> 00:05:01,330
+Vale esto empiezo en cero la búsqueda 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14.
+
+56
+00:05:01,340 --> 00:05:08,350
+A partir de aquí del 14 5 en adelante y me saca encuentra esa palabra y me la saca vale
+
+57
+00:05:11,770 --> 00:05:19,260
+y luego pues aparte de esta vez TRIM o su BST puede utilizar el método Char.
+
+58
+00:05:19,590 --> 00:05:25,300
+Y este método sirve para sacar una letra en concreto yo le puedo indicar en qué posición está esa letra
+
+59
+00:05:25,360 --> 00:05:31,450
+en qué número del índice de todos estos caracteres que hay aquí quiero que me saque la letra número
+
+60
+00:05:31,450 --> 00:05:39,430
+44 vale a ver qué hace el otro me saca me saca la letra y me acuerdo que será esta letra aquí con lo
+
+61
+00:05:39,430 --> 00:05:46,760
+cual De esta manera yo puedo seleccionar una letra concreta de un extremo aparte yo puedo utilizar también
+
+62
+00:05:46,760 --> 00:05:54,050
+métodos para buscar texto en específico es decir tengo un método que se llama start with starts
+
+63
+00:05:57,030 --> 00:06:01,660
+y con este método yo puedo buscar un texto es decir este método lo que va a hacer es buscar ese texto
+
+64
+00:06:01,660 --> 00:06:03,870
+y decirme Tru o fouls truc.
+
+65
+00:06:03,880 --> 00:06:11,950
+Si lo he encontrado y foll si no lo he encontrado yo busco por ejemplo la palabra Víctor me debe decir
+
+66
+00:06:11,980 --> 00:06:16,590
+Tru bueno me dice false por qué me dicen falsee.
+
+67
+00:06:16,980 --> 00:06:20,410
+Claro porque realmente no la he encontrado no la he encontrado como
+
+68
+00:06:23,220 --> 00:06:30,350
+como lo que hace este método realmente es buscar al inicio del string vale.
+
+69
+00:06:30,360 --> 00:06:37,840
+Si yo busco VI. de bienvenido si no me va a dar Tru efectivamente porque el estría empieza con eso.
+
+70
+00:06:37,890 --> 00:06:45,890
+Es decir si buscara bienvenido al curso me va a dar Truc porque todo el estribillo empieza con eso efectivamente
+
+71
+00:06:45,940 --> 00:06:48,410
+si yo busco otra cosa
+
+72
+00:06:52,400 --> 00:06:59,030
+no me va a dejar mal false me acuerdo porque realmente el string no empieza por eso pero si utilizo
+
+73
+00:06:59,030 --> 00:07:03,730
+el método ends with.
+
+74
+00:07:03,770 --> 00:07:08,200
+Entonces si que me lo va a encontrar y me va a decir que electriza acaba en eso.
+
+75
+00:07:08,330 --> 00:07:13,970
+Tengo esos dos métodos y luego el método que a mi me gusta que es el que te he dicho antes es el includes
+
+76
+00:07:14,930 --> 00:07:20,280
+includes este método lo que hace es buscar una palabra si yo busco por ejemplo JavaScript.
+
+77
+00:07:20,570 --> 00:07:23,940
+Cuidado que hay que poner la palabra exacta porque esto es sensitive.
+
+78
+00:07:23,960 --> 00:07:28,220
+Si yo pongo JavaScript esto me va a decir True porque realmente existe.
+
+79
+00:07:28,220 --> 00:07:36,080
+Si yo pongo otra cosa en la búsqueda decir fouls porque realmente no encuentra un resultado en ese string.
+
+80
+00:07:36,110 --> 00:07:41,430
+Con lo cual este método es simplemente lo que hace buscar en un extremo una palabra me dice True o foll
+
+81
+00:07:41,450 --> 00:07:44,230
+si existen bien y si no existe me devuelve false.
+
+82
+00:07:44,480 --> 00:07:50,450
+Así que estos son los métodos para hacer búsquedas en cadenas de texto para sacar trozos de texto Ital
+
+83
+00:07:50,720 --> 00:07:51,970
+más comunes.

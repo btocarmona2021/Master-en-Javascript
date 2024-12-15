@@ -1,0 +1,255 @@
+1
+00:00:00,660 --> 00:00:04,860
+Para empezar a trabajar con cuello vamos a crear una nueva carpeta en nuestro proyecto dejémosla de
+
+2
+00:00:04,860 --> 00:00:10,980
+Hola mundo que esta carpeta es en la que hemos estado trabajando con todos los ejercicios y con todo
+
+3
+00:00:10,980 --> 00:00:13,360
+el aprendizaje que hemos hecho acerca de JavaScript.
+
+4
+00:00:13,470 --> 00:00:21,900
+Pues ahora vamos a crear una carpeta que se vaya mal aprendiendo aprendiendo y el cuello vale y aquí
+
+5
+00:00:21,910 --> 00:00:25,660
+es donde vamos a estar trabajando con el tema allí Kairi aquí.
+
+6
+00:00:25,770 --> 00:00:34,980
+Lo mismo vamos a estar creando un archivo índex de punto HTML donde va a estar la estructura básica
+
+7
+00:00:34,980 --> 00:00:37,860
+de HTML Doctrine
+
+8
+00:00:41,250 --> 00:00:51,710
+HTML HTML es cigarrera HTML Avruj JIT Ranjit.
+
+9
+00:00:52,080 --> 00:00:59,880
+Vamos a poner el meta charged Qt F8 para la codificación de caracteres occidental.
+
+10
+00:00:59,910 --> 00:01:05,600
+Vamos a poner el Twitter que va a ser aprendiendo QWERTY
+
+11
+00:01:08,400 --> 00:01:14,030
+como cerrar el Twitter Vamos a abrir el body que será el cuerpo de la página lo que se va a ver en el
+
+12
+00:01:14,030 --> 00:01:16,520
+navegador cierra el body.
+
+13
+00:01:16,850 --> 00:01:33,170
+Voy a poner aquí un H1 aprendiendo y Kairi con Víctor Robles web cierro el H1 y aquí es donde vamos
+
+14
+00:01:33,170 --> 00:01:35,240
+a estar trabajando de acuerdo.
+
+15
+00:01:35,510 --> 00:01:47,280
+Incluso puedo poner un párrafo ejercicios de Qualia cierro el P Y ya lo tengo ya tengo mi índex punto
+
+16
+00:01:47,390 --> 00:01:49,730
+HTML ahora lo vamos a abrir en el navegador.
+
+17
+00:01:49,730 --> 00:01:59,860
+En este caso sería cuyo JavaScript aprendiendo guión Kairi barra índex punto HTML perfecto.
+
+18
+00:01:59,880 --> 00:02:03,590
+Pues aquí tenemos nuestro nuestra web de momento.
+
+19
+00:02:04,100 --> 00:02:12,290
+Entonces ahora tendríamos que ver como descargar e instalar Giacomelli en nuestra página web.
+
+20
+00:02:12,290 --> 00:02:16,620
+Tenemos dos maneras de acuerdo hay dos maneras básicas de hacerlo.
+
+21
+00:02:17,000 --> 00:02:25,520
+Lo primero tenemos que buscar en Google Gecko y aquí si le damos a esta página tenemos todas las versiones
+
+22
+00:02:25,730 --> 00:02:29,490
+que podemos descargar vale la 3 la 3 la 1.
+
+23
+00:02:29,510 --> 00:02:38,310
+Todas las versiones que hoy tenemos la Tré la 2 y la 1 te puedes descargar la que tu quieras.
+
+24
+00:02:38,360 --> 00:02:47,330
+En este caso vamos a descargar no en mi caso voy a descargarme la última versión de Cubelli porque ya
+
+25
+00:02:47,330 --> 00:02:52,430
+que estamos haciendo el curso va a utilizar la última pero realmente todo lo que vamos a ver el curso
+
+26
+00:02:52,490 --> 00:02:55,730
+es completamente compatible con la 3 con la docx y con la 1.
+
+27
+00:02:55,730 --> 00:03:01,820
+Ya te digo la 1 12 4 es super super super estable y también se puede utilizar sin ningún tipo de problema
+
+28
+00:03:02,220 --> 00:03:08,950
+así que en nuestro caso o en el mío en concreto me voy a descargar la versión 3 punto 3.1 mi unificada
+
+29
+00:03:09,070 --> 00:03:10,210
+de acuerdo.
+
+30
+00:03:10,210 --> 00:03:13,020
+Me la voy a descargar.
+
+31
+00:03:13,590 --> 00:03:13,920
+Mira
+
+32
+00:03:17,490 --> 00:03:24,830
+me voy a descargar y aquí me dice que yo puedo copiarme este trozo de código y lo puedo pegar mal lo
+
+33
+00:03:24,830 --> 00:03:26,590
+puedo pegar aquí en Misfit.
+
+34
+00:03:26,900 --> 00:03:33,110
+Si yo hago esto yo ya tendré allí QWERTY integrado de acuerdo integrado en mi página web sin ningún
+
+35
+00:03:33,110 --> 00:03:34,300
+tipo de problema.
+
+36
+00:03:34,340 --> 00:03:41,600
+Esta es una de las formas que te decía Vale es haciendo esto y cómo sé que tengo QWERTY integrado correctamente
+
+37
+00:03:41,630 --> 00:03:54,000
+pues si yo hago un script a quien mijito y utilizo la función dólar documento punto Redi.
+
+38
+00:03:54,980 --> 00:03:55,820
+Si yo hago esto
+
+39
+00:04:00,240 --> 00:04:15,090
+vale puedo hacer un consolé un dolor y decir oye Cuadri cargado de cuerina y la web cargados vale guardo
+
+40
+00:04:15,810 --> 00:04:24,150
+y si abro mi consola los desarrolladores del navegador actualizo la pantalla me dice Kairi y la web
+
+41
+00:04:24,240 --> 00:04:25,170
+cargados.
+
+42
+00:04:25,170 --> 00:04:26,940
+Esta es una de las formas Malet.
+
+43
+00:04:26,950 --> 00:04:33,000
+Otra de las formas es que si nosotros hacemos control y le damos clic a esta R.L se nos abre la web
+
+44
+00:04:33,000 --> 00:04:39,690
+revelé del código directamente que está en los repositorios de CDN de allí Kairi de acuerdo.
+
+45
+00:04:39,690 --> 00:04:49,380
+Entonces si yo hago Guardar como y lo guardo en mi proyecto me voy a mi ruta donde tengo el proyecto.
+
+46
+00:04:49,380 --> 00:04:50,040
+En mi caso
+
+47
+00:04:55,970 --> 00:04:59,980
+Guamá 3 W curso
+
+48
+00:05:05,970 --> 00:05:06,600
+JavaScript
+
+49
+00:05:11,490 --> 00:05:25,260
+entro aprendiendo allí QWERTY y aquí me crea una carpeta nueva que se llame J.S. Y aquí dentro lo guardo
+
+50
+00:05:27,260 --> 00:05:32,820
+pues ya tengo dentro de mi proyecto dentro de la carpeta J.S. Gecko y descargado y en lugar de integrarlo
+
+51
+00:05:32,820 --> 00:05:40,050
+de esta manera llamando a la web R.L de un CDN externo que realmente puede ser que caiga puede ser que
+
+52
+00:05:40,050 --> 00:05:46,230
+no caiga y puede ser que funcione bien que prácticamente siempre va a funcionar aunque puede haber en
+
+53
+00:05:46,230 --> 00:05:49,520
+algún momento puede pasar en algún momento que no funcione.
+
+54
+00:05:49,710 --> 00:05:55,560
+Pues lo que hacemos es bajándolo la librería a nuestro proyecto y cargarlo y cargarla a nosotros mediante
+
+55
+00:05:55,560 --> 00:05:56,160
+un script
+
+56
+00:06:02,650 --> 00:06:09,660
+y de esta manera si nuestro dominio funciona siempre nos va a funcionar la librería que estamos importando
+
+57
+00:06:09,660 --> 00:06:26,670
+no es RC En este caso estaría la librería en JS barra Kairi punto 3.3 punto 1.5 punto J.S. vale y de
+
+58
+00:06:26,670 --> 00:06:30,560
+igual forma todo va a funcionar de la misma manera.
+
+59
+00:06:30,690 --> 00:06:33,730
+Aquí me dice que no existe tal tal y tal.
+
+60
+00:06:33,730 --> 00:06:39,250
+Vale vamos a ver aclaro aquí me equivoco y por qué tengo que poner un guión en lugar de un punto.
+
+61
+00:06:39,270 --> 00:06:44,160
+Hay que asegurarse que ponemos bien la ruta y el nombre del fichero o guardamos actualizamos la pantalla
+
+62
+00:06:44,250 --> 00:06:46,920
+y todo sigue funcionando de la misma forma.
+
+63
+00:06:47,040 --> 00:06:51,860
+Vale si yo cambio yo si yo controlo y le doy click al fichero.
+
+64
+00:06:51,900 --> 00:06:58,500
+Igualmente me lo carga solamente que es una ruta local entonces de esa manera podemos cargar y vale.

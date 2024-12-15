@@ -1,0 +1,659 @@
+1
+00:00:00,390 --> 00:00:06,210
+Ahora vamos a empezar a trabajar con los servicios de igual forma pero haciendo peticiones AJAX a un
+
+2
+00:00:06,210 --> 00:00:09,420
+servicio externo a una Pierres externa.
+
+3
+00:00:09,570 --> 00:00:11,180
+Entonces cómo lo podemos hacer.
+
+4
+00:00:12,450 --> 00:00:19,820
+Pues para eso tenemos un módulo que nos permite hacer peticiones HTTP que se llama HTTP client módulo
+
+5
+00:00:19,950 --> 00:00:20,580
+de acuerdo.
+
+6
+00:00:20,580 --> 00:00:24,170
+También hay otro que se llama HTTP Module.
+
+7
+00:00:24,210 --> 00:00:31,320
+De acuerdo pero ya está empezando a dejarse de usar para usar este nuevo entonces lo que vamos a hacer
+
+8
+00:00:31,320 --> 00:00:38,590
+para esto va a ser crear un nuevo componente con una nueva página para hacer las peticiones de allá
+
+9
+00:00:38,640 --> 00:00:43,640
+y sacar el resultado de esas peticiones para hacer unas cuantas pruebas así que para eso vamos a abrir
+
+10
+00:00:43,680 --> 00:00:50,230
+nuestro CMD nuestro símbolo del sistema de nuestro equipo nuestra terminal y vamos a acceder al directorio
+
+11
+00:00:50,230 --> 00:00:51,190
+del proyecto.
+
+12
+00:00:51,380 --> 00:01:01,380
+Vale aquí yo voy a lanzar el comando ng g component y le voy a poner al componente externo por ejemplo
+
+13
+00:01:01,420 --> 00:01:08,880
+no voy a Enter y esto va a generar mi componente ya lo tengo ya lo tengo aquí en la parte del código
+
+14
+00:01:08,880 --> 00:01:13,620
+mi nuevo componente perfectamente creado y además me lo ha añadido a la p.p. Module.
+
+15
+00:01:13,620 --> 00:01:16,460
+Aquí lo tenemos y declarativos perfecto.
+
+16
+00:01:16,470 --> 00:01:28,200
+Ahora voy a añadirlo a mi routing una nueva página que va a ser mi nuevo componente import externo component
+
+17
+00:01:29,190 --> 00:01:29,670
+from
+
+18
+00:01:32,910 --> 00:01:45,410
+Tobarra externo Marra externo punto componente vale y voy a crear una nueva ruta que se va a llamar
+
+19
+00:01:45,920 --> 00:01:51,830
+cuyo pack va a ser externo y vamos a cargar el componente
+
+20
+00:01:54,370 --> 00:02:01,660
+component cuando cargamos esa ruta en el navegador se cargará el componente nuestro rutero de externo
+
+21
+00:02:02,020 --> 00:02:07,650
+componente se va a cargar ese componente le metemos una por aquí y ya podríamos acceder a esa página.
+
+22
+00:02:07,690 --> 00:02:15,220
+Vale si yo pongo aquí externo yo pongo aquí externo accedo a la página y tengo mi componente funcionando.
+
+23
+00:02:15,220 --> 00:02:23,320
+También voy a añadir al menú de la p.p. con HTML un nuevo Link para externo que es el nuevo componente
+
+24
+00:02:24,430 --> 00:02:30,460
+externo y la ruta sería externo.
+
+25
+00:02:30,460 --> 00:02:32,400
+Bien pues ya tengo mi componente.
+
+26
+00:02:32,440 --> 00:02:39,090
+Ahora voy a crearme un nuevo servicio para trabajar con el HTTP client y para hacer peticiones Ayax
+
+27
+00:02:39,100 --> 00:02:44,470
+voy a cerrarlo todo vale y voy a crearme un nuevo servicio dentro de la carpeta de servicios.
+
+28
+00:02:44,480 --> 00:02:47,870
+Ni un fail se va a llamar peticiones.
+
+29
+00:02:47,990 --> 00:02:51,770
+Punto servicio punto ts.
+
+30
+00:02:51,820 --> 00:02:57,760
+Y aquí es donde vamos a estar haciendo las peticiones AJAX y todo eso vale antes de crear el servicio
+
+31
+00:02:57,820 --> 00:03:04,690
+tenemos que irnos a la Peppe Module e importar el módulo HTTP client para poder trabajar con las peticiones
+
+32
+00:03:04,690 --> 00:03:06,610
+Ayax y sin hacer esto.
+
+33
+00:03:06,610 --> 00:03:11,410
+Si esto no lo hacemos no va a funcionar nada de lo que hagamos a continuación así que vamos a importar
+
+34
+00:03:12,910 --> 00:03:26,680
+el HTTP client Module vale from a Ruba angular Barrán común barra HTTP ok importamos nuestro módulo
+
+35
+00:03:26,740 --> 00:03:29,260
+y ahora este módulo tenemos que cargarlo en import.
+
+36
+00:03:29,290 --> 00:03:34,000
+Metemos una por aquí y cargamos el HTTP client Module para poder utilizarlo.
+
+37
+00:03:34,000 --> 00:03:41,620
+Este servicio este módulo de peticiones HTTP en todas partes de nuestro código del proyecto perfecto
+
+38
+00:03:42,310 --> 00:03:43,160
+lo tenemos por aquí.
+
+39
+00:03:43,180 --> 00:03:49,830
+Si revisamos la consola vemos que no tenemos ningún fallo salvo que dice que no encuentra en el archivo
+
+40
+00:03:49,840 --> 00:03:51,640
+peticiones Service .3.
+
+41
+00:03:52,630 --> 00:04:00,130
+Vale pero eso no es importante porque luego volveremos a lanzar la compilación y funcionará.
+
+42
+00:04:00,190 --> 00:04:01,760
+De hecho lo podemos hacer ahora mismo.
+
+43
+00:04:01,760 --> 00:04:06,980
+Control C reserve y ya no me dará este fallo.
+
+44
+00:04:07,210 --> 00:04:12,400
+Ya no me da el fallo eso pasa porque cuando estamos creando archivo puedo a veces la compilación se
+
+45
+00:04:12,400 --> 00:04:17,360
+queda atascada en nuestro servicio.
+
+46
+00:04:17,590 --> 00:04:22,630
+Vamos a tener que añadirle más cosas porque no va a ser solamente un servicio con método genérico sino
+
+47
+00:04:22,630 --> 00:04:29,740
+que va a ser un servicio con métodos que van a hacer peticiones AJAX a un servidor así que vamos a importar
+
+48
+00:04:29,800 --> 00:04:40,510
+el inyectable para poder inyectar nuestro servicio en otras clases inyectable from arrobado angular
+
+49
+00:04:40,880 --> 00:04:42,770
+Barrán core.
+
+50
+00:04:42,820 --> 00:04:51,080
+También vamos a importar el HTTP client HTTP client y el HTTP Geddes.
+
+51
+00:04:51,340 --> 00:05:00,490
+Estos dos módulos nos van a permitir hacer peticiones Ayax a un servicio externo a una web externa y
+
+52
+00:05:00,490 --> 00:05:10,960
+también modificar las cabeceras de esas peticiones from arroba angular barra común barra HTTP Cigarrón
+
+53
+00:05:10,990 --> 00:05:17,080
+puntico sigueinte import el observable vale tenemos que importar el observable porque lo observable
+
+54
+00:05:17,110 --> 00:05:23,530
+vamos a estar recogiendo la información que nos devuelve el ápices cuando hagamos una petición observable
+
+55
+00:05:25,960 --> 00:05:36,500
+from RX JBS barra observarle vale cierro con punto y coma el rey Quijote es una librería que hemos instalado
+
+56
+00:05:36,500 --> 00:05:44,180
+con el proyecto importábamos también podríamos importar algún modelo o podríamos importar algún archivo
+
+57
+00:05:44,210 --> 00:05:47,710
+pero realmente con esto sería suficiente por el momento.
+
+58
+00:05:47,780 --> 00:05:55,100
+Entonces lo que tenemos que hacer es utilizar el decorador inyectable sobre la clase que vamos a exportar
+
+59
+00:05:55,160 --> 00:06:08,560
+Export Class peticiones servis y aquí una cosa importante que tenemos que hacer es crear un constructor
+
+60
+00:06:10,430 --> 00:06:18,300
+o sea crear el constructor e inyectar nuestro servicio por aquí nuestro servicio http: ok hacemos públic
+
+61
+00:06:18,520 --> 00:06:26,860
+y un bajo HTTP es igual o dos puntos es un objeto de tipo HTTP cliente vale ya puedo utilizar mi servicio
+
+62
+00:06:27,100 --> 00:06:29,660
+de HTTP para hacer peticiones allá.
+
+63
+00:06:29,670 --> 00:06:35,500
+Si esto incluye un montón de métodos que nos van a permitir trabajar de manera asíncrona con cualquier
+
+64
+00:06:35,890 --> 00:06:41,690
+servidor vale si revisamos el compilador vemos que todo va bien y si revisamos la web pues también todavía
+
+65
+00:06:42,100 --> 00:06:47,440
+bien ahora lo que vamos a hacer va a ser hacer peticiones Ayax a un servidor o a un Bakken que está
+
+66
+00:06:47,440 --> 00:06:50,470
+en la nube a un servicio externo de acuerdo.
+
+67
+00:06:50,470 --> 00:06:59,440
+Entonces vamos a utilizar una API de pruebas que hay en Internet que se llama redes RedQ y vale esta
+
+68
+00:06:59,650 --> 00:07:01,140
+API REST de pruebas.
+
+69
+00:07:01,190 --> 00:07:09,640
+Vale es una red API preparada para hacer peticiones allá vale con datos de prueba pero con respuestas
+
+70
+00:07:09,640 --> 00:07:10,490
+reales y todo.
+
+71
+00:07:11,260 --> 00:07:17,590
+Entonces tenemos un montón de métodos en esta API Red podemos sacar listados de usuario podemos hacer
+
+72
+00:07:17,590 --> 00:07:23,290
+peticiones pulpos podemos hacer un montón de cosas entonces para hacerlo simple simplemente vamos a
+
+73
+00:07:23,290 --> 00:07:29,860
+hacer una petición a una web R.L que devuelva un usuario y poder mostrar ese usuario valientes vamos
+
+74
+00:07:29,860 --> 00:07:34,600
+a utilizar esta web R.L o en nuestro servicio.
+
+75
+00:07:34,600 --> 00:07:40,660
+Vamos a crear aquí una propiedad públicu R.L que va a ser un string le vamos a dar un valor dentro del
+
+76
+00:07:40,660 --> 00:07:49,010
+constructor eso va a ser la propiedad o la wherever en nuestra disputo wireless o modelizar está o R.L
+
+77
+00:07:49,100 --> 00:07:51,010
+entre comillas siempre.
+
+78
+00:07:51,460 --> 00:07:55,720
+Vale entonces ahora vamos a crear un método que va a ser G.T user.
+
+79
+00:07:55,720 --> 00:08:03,130
+Por ejemplo no vamos a sacar un usuario de nuestra API le vamos a sacar un usuario deduces no se va
+
+80
+00:08:03,130 --> 00:08:08,910
+a llamar el método y ahora vamos a utilizar HTTP client para hacer la petición.
+
+81
+00:08:08,950 --> 00:08:19,440
+Vamos a hacer un returned disputo y un bajo HTTP punto G.T y vamos a utilizar la web disputo Werfel
+
+82
+00:08:19,540 --> 00:08:24,190
+y le vamos a concatenar el método que yo quiero utilizar en este caso el método que quiere utilizar
+
+83
+00:08:24,190 --> 00:08:29,450
+es API barra user barra 2 para que no saque esta información.
+
+84
+00:08:29,680 --> 00:08:37,860
+Entonces voy a hacer una petición a esta o R.L a esta API REST y ya está y simplemente con esto yo ya
+
+85
+00:08:37,860 --> 00:08:41,730
+estoy haciendo una petición Ayax por http.
+
+86
+00:08:41,730 --> 00:08:47,880
+Vale entonces simplemente devuelvo esta información y esto lo tengo que utilizar en mi componente para
+
+87
+00:08:47,880 --> 00:08:49,420
+conseguir los datos.
+
+88
+00:08:49,440 --> 00:08:53,040
+Finalmente vale de momento nuestro compilador sigue funcionando.
+
+89
+00:08:53,040 --> 00:08:59,160
+Entonces voy a cargar mi servicio dentro del componente externo que hemos creado que acabamos de crear.
+
+90
+00:08:59,160 --> 00:09:10,350
+Voy a abrirlo vale y aquí voy a cargar mi servicio import peticiones Service from punto punto barra
+
+91
+00:09:10,530 --> 00:09:15,520
+servicios barra peticiones top Service.
+
+92
+00:09:15,600 --> 00:09:25,260
+Vale ahora lo cargo en mi array de providers providers lo cargo en el array se llama peticiones servis
+
+93
+00:09:26,070 --> 00:09:34,120
+y lo voy a inyectar dentro de una propiedad en mi constructor por aquí voy a hacer pública o privada
+
+94
+00:09:34,140 --> 00:09:42,780
+que en este caso Private guión bajo peticiones servis dos puntos para indicarle el tipo de dato de esta
+
+95
+00:09:42,780 --> 00:09:48,690
+propiedad en este caso el tipo de dato sería un objeto de tipo peticiones servis y ahora yo voy a utilizarlo
+
+96
+00:09:48,690 --> 00:09:57,270
+en mi NG on y vale puedo hacer lo siguiente dije punto y bajo peticiones servis punto.
+
+97
+00:09:57,330 --> 00:10:06,000
+Utilizo el método que acabo de crear se llaman ket user user vale y utilizo el método OVV y utilizo
+
+98
+00:10:06,000 --> 00:10:12,930
+el método subscribe que tiene ya el observable porque esto me va a devolver un observable.
+
+99
+00:10:12,930 --> 00:10:17,490
+Además se lo voy a indicar obligatoriamente solo indicar que esto es lo que va a hacer el devolverme
+
+100
+00:10:17,550 --> 00:10:25,230
+un observable de cualquier tipo vale y esto me devuelve un observable y unos y siempre tienen un método
+
+101
+00:10:25,230 --> 00:10:31,410
+subscribe para suscribirme y recoger el resultado que me devuelve entonces para recoger el resultado
+
+102
+00:10:31,410 --> 00:10:39,230
+de la petición Ayax utilizo el método suscribí vale y el método su tiene dos funciones de Carballa
+
+103
+00:10:42,190 --> 00:10:43,750
+una que recoge el resultado
+
+104
+00:10:46,300 --> 00:10:48,550
+yo tengo que recoge el posible error
+
+105
+00:10:54,170 --> 00:10:55,270
+en la petición.
+
+106
+00:10:55,370 --> 00:11:01,880
+En el caso de que recoja un error pues simplemente hacemos un consolé punto lo de cualquier error que
+
+107
+00:11:01,880 --> 00:11:07,370
+haga y en caso de que me lleve el resultado correctamente voy a tener una variable llamada resultado
+
+108
+00:11:07,370 --> 00:11:13,700
+que también voy a mostrarle por la consola consuelen junto lo resuelto cierro con punto y coma.
+
+109
+00:11:13,700 --> 00:11:16,900
+Guardo vale y vamos a comprobar que esto no funciona.
+
+110
+00:11:17,120 --> 00:11:18,230
+Vamos a nuestro código.
+
+111
+00:11:18,260 --> 00:11:23,600
+Voy a abrir la herramienta de desarrolladores y yo tengo que conseguir un objeto efectivamente que lo
+
+112
+00:11:23,600 --> 00:11:27,250
+tengo ya que me viene de la parte del servidor.
+
+113
+00:11:27,260 --> 00:11:35,440
+Fíjate que tengo data y tengo el objeto que yo estoy pidiendo por aquí de acuerdo.
+
+114
+00:11:37,280 --> 00:11:41,710
+Y esto lo que ha hecho al final es hacerme una petición Ayax a esta web.
+
+115
+00:11:41,900 --> 00:11:49,460
+Fíjate a recordéis en barra avivará users barra 2 y me ha sacado un objeto Jayson de acuerdo ha hecho
+
+116
+00:11:49,460 --> 00:11:54,670
+una petición haya ya conseguido esa información OK.
+
+117
+00:11:55,400 --> 00:11:56,450
+Así de sencillo.
+
+118
+00:11:56,450 --> 00:12:06,770
+Y ahora yo podría crearme una propiedad por aquí que fuera Public user que sea bueno de ningún tipo
+
+119
+00:12:06,830 --> 00:12:15,570
+a poner el tipo n y voy a darle el valor que tenga resulta disputo user que es igual a result punto
+
+120
+00:12:15,650 --> 00:12:19,180
+data porque dentro de data es donde está el objeto vale.
+
+121
+00:12:19,250 --> 00:12:20,270
+Aquí lo estamos viendo
+
+122
+00:12:23,460 --> 00:12:29,580
+y ahora yo con este valor que me llega desde el servicio es desde la red que he conseguido por Ayax
+
+123
+00:12:29,810 --> 00:12:35,600
+puedo mostrar esa información en mi parte de mi componente en la vista de mi componente vale.
+
+124
+00:12:35,610 --> 00:12:48,030
+Yo puedo poner aquí un DIV que únicamente se va a cargar cuando user tenga algo en eje y solamente se
+
+125
+00:12:48,030 --> 00:12:54,380
+va a cargar cuando la propiedad user tenga algo o sea sea Tru y tenga algún tipo de información dentro.
+
+126
+00:12:54,380 --> 00:13:07,260
+Vale entonces en ese caso yo mostraría un H2 mostrando el uso el punto first name de acuerdo a ese objeto
+
+127
+00:13:07,260 --> 00:13:10,560
+viene con esa información.
+
+128
+00:13:10,560 --> 00:13:12,170
+Vale el Nein sería ese.
+
+129
+00:13:12,190 --> 00:13:13,380
+Como estamos viendo por aquí
+
+130
+00:13:16,320 --> 00:13:20,060
+que aquí tenemos Lifes NIMH en las Nein que también lo vamos a concatenar
+
+131
+00:13:24,920 --> 00:13:29,390
+Ussher punto las NiMH ok.
+
+132
+00:13:29,510 --> 00:13:38,040
+Y también podría pintar otra otro tipo de informaciones como por ejemplo el avatar.
+
+133
+00:13:38,260 --> 00:13:51,250
+De acuerdo podría poner también una MG ni MG SRC y cargar aquí Ussher punto.
+
+134
+00:13:51,580 --> 00:14:00,960
+Avatar y cierro la MG y además le voy a poner un Wiz muy DTH de 200 px.
+
+135
+00:14:00,960 --> 00:14:07,170
+Vale guardo actualizo la pantalla y a mi me aparece el usuario que yo estoy intentando cargar.
+
+136
+00:14:07,490 --> 00:14:14,080
+Así que de esta manera tan sencilla hemos hecho una petición Ayax con angular y ya tenemos nuestro servicio
+
+137
+00:14:14,080 --> 00:14:19,210
+para seguir haciendo peticiones Hayate Matiguás peticiones de tipo post que solo veremos cuando desarrollemos
+
+138
+00:14:20,170 --> 00:14:21,590
+la aplicación que vamos a hacer.
+
+139
+00:14:21,610 --> 00:14:27,220
+O ahora o ahora después vamos a ver el ejemplo vale y así de sencillo ok.
+
+140
+00:14:27,490 --> 00:14:38,140
+Yo podría también darle un poco más de dos vueltas a este ejercicio y poner aquí un input de tipo texto
+
+141
+00:14:42,410 --> 00:14:44,260
+vale y utiliza NG Model
+
+142
+00:14:47,040 --> 00:14:50,260
+en una propiedad que sea un seriede
+
+143
+00:14:52,780 --> 00:14:59,290
+ok para en base a lo que yo pongo aquí cargar el usuario desde la API de acuerdo hacer una petición
+
+144
+00:14:59,290 --> 00:15:02,260
+a la pintes voy a crearme una propiedad por aquí.
+
+145
+00:15:02,770 --> 00:15:11,410
+Un líder que sea de tipo number aunque realmente el tipo de dato cuenta lo mismo vale si es de igual
+
+146
+00:15:11,410 --> 00:15:16,970
+forma y entonces voy a modificar esa propiedad con él yo hubiera Tarabini vale.
+
+147
+00:15:16,990 --> 00:15:28,330
+Cuando yo haga el evento Blur Balet en el blur cuando yo salga de ese campo me acuerdo cuando yo salga
+
+148
+00:15:28,330 --> 00:15:33,090
+de ese campo o mejor aún cuando haga el quella punto Enter.
+
+149
+00:15:33,190 --> 00:15:37,870
+Vale voy a llamar a un método que se va a llamar carga usuario
+
+150
+00:15:40,490 --> 00:15:49,840
+madre cargo usuario entonces lo voy a tener por aquí ese método carga usuario y voy a tener la petición
+
+151
+00:15:49,840 --> 00:15:57,010
+que hemos hecho esta petición le voy a tener por aquí vale y esto me va a cargar un usuario vale también
+
+152
+00:15:57,010 --> 00:16:02,830
+lo voy a poner por default carga usuario la llamada este método disputo Varga usuario
+
+153
+00:16:05,630 --> 00:16:06,110
+ok.
+
+154
+00:16:06,770 --> 00:16:15,440
+Y además voy a recoger el user IDE que yo tengo aquí vale por defecto lo voy a poner a 2 o a 1 punto
+
+155
+00:16:15,450 --> 00:16:21,930
+hay seriede por favor va a venir a uno entonces le voy a pasar como parámetro a mi método el servicio
+
+156
+00:16:22,770 --> 00:16:30,060
+el user IDEP vale y se lo voy a concatenar por aquí para que lo pase por parámetros de Happy user y
+
+157
+00:16:30,060 --> 00:16:35,480
+de esta manera voy a poder elegir qué usuario cargo vale y aparte se lo voy a pasar por el Parlamento
+
+158
+00:16:35,490 --> 00:16:41,400
+por aquí disputo user y de esta manera cuando yo vaya modificando mi input.
+
+159
+00:16:41,400 --> 00:16:47,970
+Vale fíjate que me carga al usuario que indique si pongo el 2 y obviamente me carga el segundo si pongo
+
+160
+00:16:47,970 --> 00:16:53,670
+el 3 y le doy a Enter me hacen una petición y me cargo al siguiente pongo el 4 día antes me encargo
+
+161
+00:16:53,670 --> 00:16:55,480
+del otro vale o sea.
+
+162
+00:16:55,580 --> 00:17:01,200
+Es muy sencillo trabajar con esto y además está muy bien además si vamos viendo las peticiones Ayax
+
+163
+00:17:01,320 --> 00:17:09,100
+que se van haciendo fíjate que si yo pongo aquí el 5 previamente para hacer la petición a la web R.L
+
+164
+00:17:09,110 --> 00:17:14,460
+con el ID 5 y me sacan información el 6 de la misma forma lo hace
+
+165
+00:17:19,620 --> 00:17:24,540
+así que ya hemos visto cómo trabajar con las peticiones Ayax y el HTTP client.

@@ -1,0 +1,339 @@
+1
+00:00:01,020 --> 00:00:05,750
+Vamos a mostrar el resto de información del proyecto en esta página.
+
+2
+00:00:05,760 --> 00:00:11,070
+Para eso voy a utilizar lo que hemos estado usando en el resto de páginas web con una clase container
+
+3
+00:00:14,020 --> 00:00:15,720
+para maquetar esto un poco mejor.
+
+4
+00:00:15,720 --> 00:00:16,290
+También
+
+5
+00:00:19,510 --> 00:00:23,100
+vale poner aquí un HD2 en lugar de un H1
+
+6
+00:00:26,850 --> 00:00:30,270
+o incluso un H1 porque esto es una página más principal.
+
+7
+00:00:30,290 --> 00:00:34,400
+Lo suyo es tener esta jerarquía siempre bien para el tema del SEO etcétera.
+
+8
+00:00:34,470 --> 00:00:37,050
+Vale entonces esto ya se posiciona un poco mejor.
+
+9
+00:00:37,080 --> 00:00:42,930
+Ahora voy a poner la imagen que esto es exactamente igual que lo que he hecho en el listado de proyectos
+
+10
+00:00:42,930 --> 00:00:45,930
+así que lo voy a copiar.
+
+11
+00:00:45,930 --> 00:00:49,560
+Esto lo voy a hacer así copio y pego por aquí
+
+12
+00:00:53,850 --> 00:00:58,770
+guardo y actualizo y aquí me aparece la imagen vale.
+
+13
+00:00:58,910 --> 00:01:05,380
+Quizá la imagen la pondría lo primero de todo y ahora le cambiamos los estilos y tal
+
+14
+00:01:08,210 --> 00:01:08,570
+vale.
+
+15
+00:01:10,780 --> 00:01:18,780
+Y voy a añadir también el resto de información por ejemplo en el H2 podría poner la descripción
+
+16
+00:01:22,130 --> 00:01:24,910
+Prayuth punto description
+
+17
+00:01:27,430 --> 00:01:30,130
+podría poner después la categoría dentro de un párrafo
+
+18
+00:01:35,910 --> 00:01:37,960
+Projet punto category
+
+19
+00:01:40,540 --> 00:01:42,670
+podría poner también dentro de un párrafo
+
+20
+00:01:46,090 --> 00:01:53,890
+los lenguajes proyecto un torax y esto sería suficiente.
+
+21
+00:01:53,890 --> 00:01:59,120
+Vale aquí tenemos la información.
+
+22
+00:01:59,120 --> 00:02:02,920
+El H2 no me gusta como queda porque le pongo una línea y vamos a poner un H3
+
+23
+00:02:06,720 --> 00:02:07,060
+vale.
+
+24
+00:02:07,460 --> 00:02:08,540
+Y aquí está la información
+
+25
+00:02:11,790 --> 00:02:18,300
+bastante bien baqueteada también podría flotar a un lado podría meterlo en la imagen en este div de
+
+26
+00:02:18,300 --> 00:02:19,850
+imagen.
+
+27
+00:02:20,730 --> 00:02:27,650
+Vale sí me voy a los estilos CSS en la parte donde yo tengo el conteiner.
+
+28
+00:02:27,660 --> 00:02:38,010
+Si yo en conteiner tengo un dip con una clase imagen lo que voy a hacer es frotarla a la izquierda y
+
+29
+00:02:38,010 --> 00:02:45,520
+le voy a poner un Widder del 50 por ciento o del 49 por ciento y luego puedo meter la información del
+
+30
+00:02:45,540 --> 00:02:52,090
+resto de información dentro de otro Dib con clase data.
+
+31
+00:02:52,200 --> 00:02:59,790
+Vale y entonces eso puedo frotarlo al otro lado y organizar un poco la información como mejor me parezca
+
+32
+00:03:01,110 --> 00:03:09,350
+mal entonces si tuviera Conteiner el punto data data también voy a hacer lo mismo.
+
+33
+00:03:09,660 --> 00:03:14,980
+Float LEP y Wiz 49 por ciento.
+
+34
+00:03:15,440 --> 00:03:21,870
+Guardo actualizo y la información me parece mal vamos a modificar esto para también que la imagen que
+
+35
+00:03:21,870 --> 00:03:25,740
+haya dentro de esto tenga un win 100 por ciento y no se sobrepase
+
+36
+00:03:28,460 --> 00:03:31,630
+de lo que debe ser.
+
+37
+00:03:31,770 --> 00:03:39,620
+Vale que tenga un 100 por ciento un tamaño que ocupe todo toda la caja que la contiene.
+
+38
+00:03:39,660 --> 00:03:49,950
+Vale aquí lo podemos ver ahora pues le voy a dar un margen a Data margin left de 25 30 pixeles.
+
+39
+00:03:50,720 --> 00:03:53,240
+Vale si le pongo eso ya se pasa.
+
+40
+00:03:53,310 --> 00:03:57,360
+Así que le vamos a poner un 48 por ciento de ancho.
+
+41
+00:03:57,780 --> 00:03:58,890
+Vamos a revisar esto.
+
+42
+00:04:03,970 --> 00:04:07,480
+Tenemos el container que tenemos en la imagen.
+
+43
+00:04:07,480 --> 00:04:11,410
+Luego tenemos esto que ya se pasan.
+
+44
+00:04:11,460 --> 00:04:15,240
+Voy a reducir el ancho de la imagen.
+
+45
+00:04:15,760 --> 00:04:18,310
+Así si se lo pongo a 47 y listo
+
+46
+00:04:21,950 --> 00:04:33,230
+47% le pongo ese tamaño el DIB que contiene la imagen vale y ya tengo maqueta de esta página más o menos
+
+47
+00:04:33,230 --> 00:04:34,340
+se queda bien la verdad
+
+48
+00:04:39,150 --> 00:04:47,040
+y ahora por lo que voy a hacer va a ser añadir unos botones justo aquí abajo para poder borrar el proyecto
+
+49
+00:04:47,380 --> 00:04:50,800
+y para poder editar el proyecto.
+
+50
+00:04:50,810 --> 00:05:00,330
+Vale para eso me voy a mi vista y aquí nada había que ver un párrafo y voy a poner un botón Button o
+
+51
+00:05:00,400 --> 00:05:12,310
+un enlace más bien con HR-V vacío de momento que me va a llevar a editar y otro que me va a llevar
+
+52
+00:05:16,210 --> 00:05:31,600
+a borrar en una clase la clase botón Button directamente o botón édith Button Edit y a la otra le voy
+
+53
+00:05:31,600 --> 00:05:40,810
+a poner una clase que serían Button delete vale y voy a darle uno estilo que van a hacer básicamente
+
+54
+00:05:40,810 --> 00:05:48,250
+igual que lo que le he puesto al botón de Summit muy parecido al que con el button.
+
+55
+00:05:48,270 --> 00:05:49,240
+Punto Button.
+
+56
+00:05:49,240 --> 00:05:55,350
+EDIT coma y punto Button delete guardo.
+
+57
+00:05:55,360 --> 00:05:56,990
+Actualizo la pantalla.
+
+58
+00:05:57,370 --> 00:06:00,580
+A mi me aparecen los dos botones evidentemente en grande.
+
+59
+00:06:00,580 --> 00:06:06,160
+Si yo quiero darle uno de estilo más específico me voy para abajo o directamente ahí mismo
+
+60
+00:06:09,640 --> 00:06:17,510
+o directamente aquí mismo le doy uno al estilo más específico en este caso un Wiz pues más reducido
+
+61
+00:06:17,510 --> 00:06:19,430
+del 40 por ciento.
+
+62
+00:06:24,480 --> 00:06:27,300
+Vale incluso podría ponerle un float a cada botón
+
+63
+00:06:31,350 --> 00:06:32,100
+y un margen
+
+64
+00:06:36,070 --> 00:06:36,580
+right
+
+65
+00:06:39,430 --> 00:06:41,440
+de pitcheres.
+
+66
+00:06:42,490 --> 00:06:52,320
+Guardo actualizo Balea y se ve mejor y luego pues voy a quitarle también el 3 decorativo no.
+
+67
+00:06:52,770 --> 00:06:59,970
+Y luego a cada clase específica por ejemplo a al édith le puedo poner un vagón diferente.
+
+68
+00:07:00,090 --> 00:07:01,150
+Puedo poner un background
+
+69
+00:07:03,640 --> 00:07:04,210
+Orange
+
+70
+00:07:10,690 --> 00:07:25,040
+vale y se ve y luego al borrar le voy a poner un background RET de delete Red guardo actualizo y ahí
+
+71
+00:07:25,040 --> 00:07:30,920
+tenemos los dos botones evidentemente esto puede mejorar tu los colores conforme te vaya gustando a
+
+72
+00:07:30,920 --> 00:07:40,280
+ti el borde se lo podemos poner de otro color el borde lo ponemos poner un PX Solid Black y al otro
+
+73
+00:07:40,280 --> 00:07:43,350
+se lo podemos poner en blanco o como quiera.
+
+74
+00:07:43,380 --> 00:07:49,030
+Vale esto ya de altura las vueltas que quieras para dejarlo como a ti te interesa a nivel de colores.
+
+75
+00:07:49,030 --> 00:07:56,450
+Vale pero de momento ya tenemos los dos botones aquí que lo queremos en la siguiente clase será hacer
+
+76
+00:07:56,450 --> 00:07:57,160
+que funcionen.
+
+77
+00:07:57,200 --> 00:08:04,760
+Vale hacer que uno borre y el otro que edite incluso también le podríamos quitar los bordes ponerle
+
+78
+00:08:04,760 --> 00:08:14,510
+un borde Hermíone porque no me convencen.
+
+79
+00:08:14,600 --> 00:08:18,020
+Cuidado que aquí tienen un fallo en el CSS evidentemente
+
+80
+00:08:25,860 --> 00:08:26,580
+mordernos.
+
+81
+00:08:31,080 --> 00:08:38,390
+Vale así me gusta más incluso quitándole tamaño a esos botones poniendo sólo el 20 por ciento.
+
+82
+00:08:39,600 --> 00:08:40,520
+Me gusta bastante.
+
+83
+00:08:40,560 --> 00:08:41,770
+Así es como se va a quedar.
+
+84
+00:08:41,770 --> 00:08:46,050
+Vale en la siguiente clase lo que vamos a hacer va a ser el botón de borrar que cuando yo le dé clic
+
+85
+00:08:46,110 --> 00:08:50,160
+me permita borrar el proyecto y además me redirecciona a la página de proyectos.

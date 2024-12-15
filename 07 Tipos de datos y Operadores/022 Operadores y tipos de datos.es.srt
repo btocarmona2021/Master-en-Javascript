@@ -1,0 +1,487 @@
+1
+00:00:01,500 --> 00:00:05,000
+Ahora vamos a trabajar con los operadores y los tipos de datos.
+
+2
+00:00:05,070 --> 00:00:13,390
+Para eso vamos a crear un nuevo archivo de JavaScript para hacer las pruebas de esto y explicarte esto.
+
+3
+00:00:13,390 --> 00:00:21,710
+05 se va a llamar tipos de datos y los operadores también lo vamos a aplicar aquí.
+
+4
+00:00:22,080 --> 00:00:31,710
+Vale pues vamos a indicarle indicar Street Street y le vamos a indicar aquí que vamos a ver los operadores.
+
+5
+00:00:31,710 --> 00:00:38,730
+En un comentario vamos a ver los tipos de datos y todo esto vale.
+
+6
+00:00:38,790 --> 00:00:47,180
+Ahora vamos a importar este archivo este script de JavaScript en nuestro índex vamos a coger este script
+
+7
+00:00:47,210 --> 00:00:48,540
+que es muy importante.
+
+8
+00:00:49,520 --> 00:00:55,080
+Lo vamos a meter dentro del comentario y ahora vamos a utilizar el archivo cero cinco tipos de datos
+
+9
+00:00:56,250 --> 00:01:02,580
+tipos de datos guardo y para probar que funciona el archivo vamos a poner una alerta por aquí
+
+10
+00:01:06,330 --> 00:01:15,110
+hola si os lo confundí como un guardo y actualizo la pantalla y ahí me aparece el Hola genial.
+
+11
+00:01:15,210 --> 00:01:21,540
+Este fichero lo hemos cargado correctamente hemos incluido nuestro Bakri correctamente y tal.
+
+12
+00:01:21,640 --> 00:01:27,700
+Bien ahora vamos a ver los operadores que son los operadores y para qué sirven los operadores dentro
+
+13
+00:01:27,700 --> 00:01:29,050
+de un lenguaje de programación.
+
+14
+00:01:29,070 --> 00:01:33,550
+Lo mismo que un operador matemático podemos hacer diferentes operaciones con ellos.
+
+15
+00:01:33,720 --> 00:01:42,780
+Por ejemplo yo puedo tener una variable que sea número uno que sea con valor 7 yo cuando le asigne un
+
+16
+00:01:42,780 --> 00:01:48,300
+valor a una variable al ponerlo sin las comillas ya lo coge como si fuera un entero.
+
+17
+00:01:48,300 --> 00:01:53,280
+En el caso de que sea un número y en el caso de que fuera un texto lo que haría sería interpretar que
+
+18
+00:01:53,280 --> 00:01:59,370
+ese texto es una variable a no ser que yo lo ponga entre comillas y entonces JavaScript interpretaría
+
+19
+00:01:59,370 --> 00:02:03,050
+que eso es un string o una cadena de texto.
+
+20
+00:02:03,150 --> 00:02:09,580
+Puede tener una variable que sea número 2 cuyo valor sea 12.
+
+21
+00:02:10,860 --> 00:02:15,510
+Y puedo tener una variable que sea operación
+
+22
+00:02:18,420 --> 00:02:27,630
+que sea la operación entre número 1 y número 2 puedo hacer lo siguiente número 1 más número 2 y esto
+
+23
+00:02:27,630 --> 00:02:31,300
+es lo que va a hacer es sumar el resultado y lo vamos a mostrar en una alerta.
+
+24
+00:02:31,560 --> 00:02:43,060
+Vamos a poner el resultado de la operación es entonces con Katina para concatenar un string texto.
+
+25
+00:02:43,060 --> 00:02:48,630
+Yo lo que voy a hacer es utilizar el operador más el operador más aparte para hacer sumas sirve para
+
+26
+00:02:49,110 --> 00:02:56,270
+hacer una concatenación cuando lo utilizamos entre dos strings o entre dos cadenas de texto.
+
+27
+00:02:56,730 --> 00:02:57,900
+Operación.
+
+28
+00:02:58,050 --> 00:03:01,000
+Qué pasa que aquí si te das cuenta hemos cometido un error.
+
+29
+00:03:01,140 --> 00:03:07,290
+Cuando nosotros programamos no podemos ponerle el nombre a las variables con signos raros con tildes
+
+30
+00:03:07,350 --> 00:03:18,090
+con caracteres latinos como la ñ sino que tenemos que utilizar texto sin tildes y símbolos raros para
+
+31
+00:03:18,090 --> 00:03:23,070
+que la variable la acepte correctamente el lenguaje de programación así que le quitamos la tilde.
+
+32
+00:03:23,070 --> 00:03:27,830
+De esta manera si guardo y actualizo la pantalla me va a mostrar el resultado de la operación.
+
+33
+00:03:27,850 --> 00:03:34,980
+El 19 de acuerdo el 7 más el 12 da 19 si yo cambio el signo más por un signo menos
+
+34
+00:03:37,830 --> 00:03:38,990
+actualizo la pantalla
+
+35
+00:03:41,800 --> 00:03:49,500
+me dice que es menos 5 el resultado porque si el resto 7 ya sea 7 el resto 12 el resultado efectivamente
+
+36
+00:03:49,520 --> 00:03:50,230
+menos 5.
+
+37
+00:03:50,230 --> 00:04:02,390
+Si pongo el signo de asterisco la multiplicación me da 84 y si pongo el signo de la división me da cero
+
+38
+00:04:02,390 --> 00:04:06,400
+coma cincuenta y ocho tres tres tres periódico.
+
+39
+00:04:06,440 --> 00:04:07,770
+Pues eso.
+
+40
+00:04:08,060 --> 00:04:14,390
+La diagonal en la división y el asterisco en la multiplicación y luego también tengo otro operador que
+
+41
+00:04:14,390 --> 00:04:18,080
+es el porcentaje y el porcentaje.
+
+42
+00:04:18,080 --> 00:04:19,060
+Vamos a ver resultado.
+
+43
+00:04:19,070 --> 00:04:26,370
+El resultado es 7 el porcentaje es el resto lo que hace es sacarte el resto de la división entre estos
+
+44
+00:04:26,370 --> 00:04:32,120
+dos números de acuerdo de forma que si yo quiero ver si un número es par o impar tendré que comprobar
+
+45
+00:04:32,510 --> 00:04:33,850
+si el resto es cero.
+
+46
+00:04:33,860 --> 00:04:37,860
+Pero ese tipo de ejercicio lo veremos luego más adelante.
+
+47
+00:04:37,850 --> 00:04:40,340
+De momento vamos a dejarlo con la multiplicación.
+
+48
+00:04:40,520 --> 00:04:46,190
+De esta manera ya hemos visto los operadores básicos pero los operadores aritméticos básicos ahora vamos
+
+49
+00:04:46,190 --> 00:04:51,150
+a ver los tipos de datos qué tipos de datos hay y más o menos como funcionan.
+
+50
+00:04:51,380 --> 00:04:59,540
+A rasgos generales bien por los tipos de datos son el entero el string o la cadena de texto o de caracteres
+
+51
+00:05:00,310 --> 00:05:11,110
+la coma flotante o el decimal el bule auno que es un truco o un fouls y luego tenemos ARRA y tenemos
+
+52
+00:05:11,120 --> 00:05:15,920
+objetos pero eso lo iremos viendo más adelante los tipos de datos básicos son eso lo que te explicado
+
+53
+00:05:16,790 --> 00:05:27,020
+por ejemplo un número entero un número entero sería por lo que hemos estado viendo el 44 por ejemplo.
+
+54
+00:05:27,990 --> 00:05:37,680
+Una cadena de texto cadena texto se guardaría ese tipo de dato indicando un texto entre comillas.
+
+55
+00:05:38,490 --> 00:05:44,680
+Hola qué tal podemos utilizar tanto comillas dobles como comilla simple.
+
+56
+00:05:44,730 --> 00:05:45,870
+Daría lo mismo.
+
+57
+00:05:45,870 --> 00:05:51,060
+Lo único es que las comillas doble son como más importantes tienen más prioridad que las comillas simple
+
+58
+00:05:51,360 --> 00:05:56,520
+de forma que si yo pongo aquí unas comillas simple va a funcionar perfectamente.
+
+59
+00:05:56,530 --> 00:05:57,070
+Vale.
+
+60
+00:05:57,240 --> 00:05:58,750
+Esto va a funcionar perfectamente.
+
+61
+00:05:58,750 --> 00:06:06,170
+Yo puedo hacer aquí un consuelo de cadena texto y no hay ningún tipo de problema.
+
+62
+00:06:06,290 --> 00:06:07,730
+Actualizo la pantalla.
+
+63
+00:06:07,890 --> 00:06:11,040
+Aquí aparece entrecomillado pero si lo hago a la inversa
+
+64
+00:06:14,540 --> 00:06:15,460
+si lo hago a la inversa.
+
+65
+00:06:15,470 --> 00:06:21,200
+Esto ya no podría hacerlo porque lo que hace es escapar o sacar del string lo que hay aquí.
+
+66
+00:06:21,470 --> 00:06:27,260
+Vale no está en una jerarquía de que todo sea cosa de que todo el código de toda la cadena de texto
+
+67
+00:06:27,470 --> 00:06:31,670
+esté dentro de las mismas comillas sino que estamos metiendo comillas por aquí.
+
+68
+00:06:31,670 --> 00:06:38,180
+Si le pongo comilla doble sin embargo vale y actualizamos la pantalla.
+
+69
+00:06:38,180 --> 00:06:46,460
+Ahí sí que me deja porque digamos que la comilla que tiene prioridad es la que utilizamos al principio
+
+70
+00:06:46,460 --> 00:06:53,400
+y al final las comillas que contenga las va a interpretar como que son parte del string de acuerdo.
+
+71
+00:06:53,450 --> 00:06:56,740
+Eso es lo que quería explicar en este caso.
+
+72
+00:06:57,170 --> 00:07:03,880
+Luego tenemos el Bolea no que es verdadero o falso.
+
+73
+00:07:04,490 --> 00:07:09,100
+Que básicamente son los valores que serían el truco.
+
+74
+00:07:09,140 --> 00:07:15,280
+Eso sería un valor Vulcano un vull sería un Tru.
+
+75
+00:07:15,470 --> 00:07:16,820
+Si yo por ejemplo pongo aquí.
+
+76
+00:07:16,820 --> 00:07:22,260
+Verdadero o falso y lo muestro por pantalla actualizándolo pantalla me aparece.
+
+77
+00:07:22,280 --> 00:07:30,500
+Es un valor Vulcano o puede ser falso que también es un valor Vulcano de acuerdo un valor Vulcano el
+
+78
+00:07:30,500 --> 00:07:38,120
+tipo de autobús no es Truc o fails puede ser un Tru o un Fool's o puede ser un cero o un uno de acuerdo
+
+79
+00:07:38,410 --> 00:07:41,600
+el truc sería el 1 y el folk sería el cero.
+
+80
+00:07:41,600 --> 00:07:45,450
+De esta manera esto luego nos va a servir para hacer condiciones etcétera.
+
+81
+00:07:45,510 --> 00:07:51,380
+Hemos visto este valor booleano luego también tenemos tipos de datos como la RAE y como los objetos
+
+82
+00:07:51,380 --> 00:07:57,620
+y todo eso pero eso lo iremos viendo tranquilamente luego también podemos aprender a utilizar ciertas
+
+83
+00:07:57,800 --> 00:08:02,300
+funciones que nos sirven para convertir un dato a otro.
+
+84
+00:08:02,300 --> 00:08:13,390
+De acuerdo tenemos la función por ejemplo number vale la función Number que es esta función de aquí
+
+85
+00:08:14,680 --> 00:08:24,700
+que a la cual si le paso si por ejemplo por un casual yo tuviera una variable que fuera número falso
+
+86
+00:08:25,900 --> 00:08:35,050
+número falso y yo le pongo un número pero que va a Comillas por ejemplo le pongo el 33.
+
+87
+00:08:35,600 --> 00:08:41,350
+Y entonces yo utiliza el número falso y mostrarlo en la consola el número falso guardo y actualizo la
+
+88
+00:08:41,350 --> 00:08:42,920
+pantalla.
+
+89
+00:08:43,140 --> 00:08:47,070
+Okey aquí me indica que 33 pero me lo muestra como si fuera texto.
+
+90
+00:08:47,140 --> 00:08:55,210
+De hecho si yo trato de sumar números falso cualquier número más el 7 me va a decir que nada como mucho
+
+91
+00:08:55,210 --> 00:08:59,390
+me lo va a concatenar y ya efectivamente 3 3 7 no me hace la operación.
+
+92
+00:08:59,390 --> 00:09:00,130
+Por qué.
+
+93
+00:09:00,140 --> 00:09:05,410
+Porque número falso es un string no es un número entero ni es un número.
+
+94
+00:09:05,410 --> 00:09:07,570
+Ningún valor que se pueda operar con él.
+
+95
+00:09:07,780 --> 00:09:14,970
+Entonces si yo utilizo la función number me va a convertir ese número falso.
+
+96
+00:09:15,120 --> 00:09:20,590
+Esa cadena de texto que dentro contiene un número me lo va a convertir en estrella de forma que si actualizo
+
+97
+00:09:20,590 --> 00:09:26,560
+la pantalla sí que me va a hacer la suma y me muestra 40 que es el resultado de 33 +7.
+
+98
+00:09:26,620 --> 00:09:33,730
+De igual forma se utilizo el la función Parcent también me lo va a convertir pero en este caso no número
+
+99
+00:09:33,730 --> 00:09:39,550
+porque con la función number se puede convertir a un número flotante o número decimal o lo que sea pero
+
+100
+00:09:39,590 --> 00:09:45,660
+con Parse yo puedo coger y convertirlo perfectamente a un número entero.
+
+101
+00:09:45,730 --> 00:09:51,610
+Incluso tengo una función que es parser float que me permite convertir un número a un número decimal
+
+102
+00:09:53,470 --> 00:09:59,850
+que también va a funcionar de acuerdo pero la diferencia es que también funcionaría si yo tuviera decimales
+
+103
+00:10:01,330 --> 00:10:03,540
+de acuerdo me mostraría el resultado decimal.
+
+104
+00:10:03,550 --> 00:10:05,170
+Sin embargo si utilizo el par Saint
+
+105
+00:10:08,470 --> 00:10:14,860
+no me muestra los decimales simplemente me muestra el número redondeado porque lo ha convertido un entero.
+
+106
+00:10:14,860 --> 00:10:21,340
+También nosotros podemos hacerlo al revés tener un número que sea un entero un número normal y convertirlo
+
+107
+00:10:21,340 --> 00:10:22,260
+a un string.
+
+108
+00:10:22,330 --> 00:10:22,770
+Para qué.
+
+109
+00:10:22,780 --> 00:10:32,080
+Para no sumar porque si yo ahora mismo cojo aquí la variable número entero y la utilizo el operador
+
+110
+00:10:32,080 --> 00:10:33,190
+más con el 7.
+
+111
+00:10:33,190 --> 00:10:35,530
+Esto es lo que va a hacer es sumarme.
+
+112
+00:10:35,530 --> 00:10:42,700
+El resultado me va a sumar y me va a dar un resultado que me lo pone 51 vale pero imagínate que simplemente
+
+113
+00:10:42,710 --> 00:10:50,440
+quiero concatenar vale porque si ahora mismo yo cogiera y le indicara que un texto texto concatenado
+
+114
+00:10:52,150 --> 00:10:59,430
+si yo hiciera esto y actualizo la pantalla me va a decir XLIV texto concatenado me lo concatena correctamente.
+
+115
+00:10:59,430 --> 00:11:06,400
+Por qué esto es un entero y esto es un texto no hay problema pero si esto es un número realmente me
+
+116
+00:11:06,400 --> 00:11:11,740
+lo suma me lo suma sin ningún problema porque ambos son de tipo entero.
+
+117
+00:11:11,860 --> 00:11:17,980
+Pero si yo quiero que esto sea un string pues utilizo el método string para convertir cualquier variable
+
+118
+00:11:19,000 --> 00:11:22,570
+a un extremo de forma que se autorizó la pantalla.
+
+119
+00:11:22,750 --> 00:11:26,170
+Ahora me concatena los números como si fuera texto.
+
+120
+00:11:26,200 --> 00:11:30,820
+Esto me lo ha convertido a texto la variable o sea el contenido de esta variable lo ha convertido a
+
+121
+00:11:30,820 --> 00:11:37,360
+texto y de esta forma hemos aprendido cuáles son los operadores básico y los tipos de datos básicos
+
+122
+00:11:37,360 --> 00:11:39,980
+en este lenguaje de programación JavaScript.

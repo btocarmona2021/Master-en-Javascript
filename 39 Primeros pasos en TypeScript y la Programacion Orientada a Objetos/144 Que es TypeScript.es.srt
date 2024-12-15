@@ -1,0 +1,127 @@
+1
+00:00:01,650 --> 00:00:05,780
+Ahora vamos a empezar a trabajar con Taipe Creep de acuerdo Taipe scrip.
+
+2
+00:00:05,910 --> 00:00:12,510
+Es un súper set de JavaScript desarrollado por Microsoft un Supercell no es más que un lenguaje de programación
+
+3
+00:00:12,540 --> 00:00:20,580
+como es el caso de JavaScript y con una serie de añadidos para mejorarlo de acuerdo Taipe scrip al 85
+
+4
+00:00:20,580 --> 00:00:25,080
+90 por ciento es JavaScript puro y normal de acuerdo.
+
+5
+00:00:25,080 --> 00:00:31,420
+Lo único es que se han añadido todas las nuevas funcionalidades de los nuevos estándares de JavaScript.
+
+6
+00:00:31,450 --> 00:00:37,590
+Macri 6 7 etcétera y podemos utilizarlas sin ningún tipo de problema y podemos utilizarlas sin ningún
+
+7
+00:00:37,590 --> 00:00:38,720
+tipo de problema.
+
+8
+00:00:38,760 --> 00:00:45,270
+Esto soluciona el problema de que cuando nosotros utilizamos funcionalidad nueva y nuevas cosas del
+
+9
+00:00:45,270 --> 00:00:51,570
+lenguaje de JavaScript que solamente están los últimos estándares el macrismo y Macri 7 cuando lo utilizamos
+
+10
+00:00:51,850 --> 00:00:57,960
+en JavaScript puro es posible que en algunos navegadores antiguos no funcione de acuerdo siempre tengamos
+
+11
+00:00:57,960 --> 00:01:01,280
+que tener el navegador actualizado a la última versión ital.
+
+12
+00:01:01,740 --> 00:01:07,230
+Entonces lo que hace Taipe scrip es transpirar o compilar ese código que nosotros desarrollamos dentro
+
+13
+00:01:07,230 --> 00:01:13,530
+de Taipe script y convertirlo a JavaScript en una versión que funcione en todos los navegadores de acuerdo
+
+14
+00:01:13,770 --> 00:01:15,890
+y eso lo hace de manera automática.
+
+15
+00:01:16,170 --> 00:01:22,680
+Entonces tenemos que Taipe escribo al 85 por ciento de JavaScript puro y normal después tenemos que
+
+16
+00:01:22,680 --> 00:01:26,750
+no añade Las nuevas características y funcionalidades de los nuevos estándares de JavaScript.
+
+17
+00:01:26,850 --> 00:01:32,340
+Después tiene tipado fuerte que nos permite definir las variables indicarle su tipo de dato que van
+
+18
+00:01:32,340 --> 00:01:37,410
+a tener de acuerdo de esa manera si nosotros creamos una variable que es un string vamos a impedir que
+
+19
+00:01:37,410 --> 00:01:43,830
+más abajo en el código más adelante le asignamos un valor que no es un string después tienen muchas
+
+20
+00:01:43,830 --> 00:01:50,010
+mejoras a nivel de programación orientada a objetos porque por lo que ya te digo por las nuevas implementaciones
+
+21
+00:01:50,010 --> 00:01:58,430
+del Magreb que sea en la que se le añaden a este lenguaje JavaScript ya la incluye Taipe scrip.
+
+22
+00:01:58,450 --> 00:02:04,980
+Después tenemos que entender también que es un lenguaje interpretado que se transpira a JavaScript.
+
+23
+00:02:04,980 --> 00:02:11,580
+De acuerdo nosotros programamos en Taipe scrip y cuando nosotros guardamos automáticamente hay un compilador
+
+24
+00:02:11,640 --> 00:02:17,850
+o un transpirados que traduce el código de Tepes scrip a código de JavaScript puro para que funcione
+
+25
+00:02:17,880 --> 00:02:18,630
+en el navegador.
+
+26
+00:02:18,630 --> 00:02:23,310
+Finalmente otra cosa también que tenemos que tener en cuenta es que los archivos de tipo de script tienen
+
+27
+00:02:23,310 --> 00:02:30,540
+la extensión punto Taipe script o punto de acuerdo o más concretamente punto de ese que son el tipo
+
+28
+00:02:30,540 --> 00:02:37,170
+de archivo que manejamos de pesque VIP y nada más simplemente es un set que vamos a estar trabajando
+
+29
+00:02:37,170 --> 00:02:39,390
+con él y ha sido desarrollado por Microsoft.
+
+30
+00:02:39,390 --> 00:02:46,770
+Además este lenguaje de programación es el que utilizamos dentro de angulas de acuerdo utilizamos este
+
+31
+00:02:46,800 --> 00:02:51,140
+SuperSU de JavaScript para programar dentro de angular y también lo estaremos viendo.
+
+32
+00:02:51,840 --> 00:02:57,360
+Así que en la siguiente clase lo que vamos a hacer va a ser instalar they've scrip en nuestro equipo.

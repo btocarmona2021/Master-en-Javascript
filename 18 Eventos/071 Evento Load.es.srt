@@ -1,0 +1,135 @@
+1
+00:00:00,750 --> 00:00:07,550
+Antes hemos visto que si nosotros poníamos nuestro scrip en el jit en la cabecera de la página en el
+
+2
+00:00:07,570 --> 00:00:09,440
+Jehan lo poníamos aquí.
+
+3
+00:00:09,540 --> 00:00:10,350
+Cómo.
+
+4
+00:00:10,430 --> 00:00:18,330
+Este clip estaba intentando seleccionar elementos del DOM está utilizando el selector y estaban utilizando
+
+5
+00:00:18,330 --> 00:00:22,460
+también el documento Cetelem en Baire BA y las Naima etcétera.
+
+6
+00:00:22,470 --> 00:00:28,290
+Cómo esto se estaba cargando antes de que todos los elementos de la página se cargaran antes de que
+
+7
+00:00:28,290 --> 00:00:34,560
+el resto del Dom se cargara pues pasaba esto que realmente no podíamos leer ninguno de esos elementos
+
+8
+00:00:34,560 --> 00:00:36,570
+y no funcionaba nada vale.
+
+9
+00:00:36,720 --> 00:00:42,390
+Y esto pasa porque todavía no está cargado el body no está encargada de esa etiqueta sin embargo sí
+
+10
+00:00:42,390 --> 00:00:47,880
+que hemos cargado antes de nada el JavaScript y todo el acceso al Dom y a los elementos de la página
+
+11
+00:00:48,000 --> 00:00:50,520
+que todavía no existen ni siquiera el botón existe.
+
+12
+00:00:50,520 --> 00:00:53,400
+Ni siquiera existe el input este que hemos creado después.
+
+13
+00:00:53,730 --> 00:00:56,220
+No existe nada entonces cómo podemos solucionar esto.
+
+14
+00:00:56,220 --> 00:00:59,980
+Para no tener este problema.
+
+15
+00:01:00,000 --> 00:01:06,750
+Para eso existe un evento que es el evento Lovett el evento lo que hace lanzarse ese evento se lanza
+
+16
+00:01:06,960 --> 00:01:13,240
+cuando todos los elementos del doctor todos los elementos y toda la etiqueta HTML están ya cargadas.
+
+17
+00:01:13,260 --> 00:01:20,580
+Esto es parecido al document de y qwerty que luego veremos más adelante podría hacer lo siguiente meterlo
+
+18
+00:01:20,580 --> 00:01:21,080
+todo
+
+19
+00:01:23,940 --> 00:01:25,650
+dentro del evento Lovett.
+
+20
+00:01:25,800 --> 00:01:37,020
+Cómo hacer esto utilizando Windows punto a bendicen y utilizo el evento local y esto tiene su función
+
+21
+00:01:37,020 --> 00:01:40,500
+de Calvache correspondiente.
+
+22
+00:01:40,660 --> 00:01:47,390
+Vale que lo puedo hacer así o la puedo hacer simplemente como si fuera una función de flecha.
+
+23
+00:01:47,670 --> 00:01:54,330
+Eso ya lo dejo a tu elección y dentro de esta función de Calvache meto todo el código que hemos hecho
+
+24
+00:01:54,360 --> 00:02:02,760
+con acceso al DOM de esa manera Arbulo pegó por aquí vamos a augurarle un poco para que se vea un poquito
+
+25
+00:02:03,180 --> 00:02:03,760
+mejor.
+
+26
+00:02:03,780 --> 00:02:07,570
+J-1 así queda mejor.
+
+27
+00:02:08,140 --> 00:02:12,370
+Esto sería el final del Oath.
+
+28
+00:02:12,670 --> 00:02:18,910
+De esta manera cuando la página esté cargada realmente es cuando se van a ejecutar todo el resto de
+
+29
+00:02:21,740 --> 00:02:26,730
+todo el resto de código JavaScript café de mi café de algún elemento HTML de esta manera.
+
+30
+00:02:26,750 --> 00:02:28,630
+Si yo ahora mismo autorizó la pantalla.
+
+31
+00:02:28,700 --> 00:02:35,570
+Todo funciona todo sigue funcionando perfectamente y no tengo que cargar mi escribe al final de El HTML
+
+32
+00:02:35,600 --> 00:02:38,010
+sino que lo puedo cargar en él.
+
+33
+00:02:38,380 --> 00:02:42,340
+En el gif que es el sitio más recomendable para cargarlo.
+
+34
+00:02:42,650 --> 00:02:47,470
+Así que eso era un detalle que quería explicar y otro de los eventos también interesante.

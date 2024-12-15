@@ -1,0 +1,79 @@
+1
+00:00:01,020 --> 00:00:07,770
+Esta forma de trabajar con el infiel está muy bien realmente realmente es una buena práctica está bien
+
+2
+00:00:07,770 --> 00:00:13,380
+hecho y no hay ningún tipo de problema pero hay otra cosita más que podemos hacer con el LG template
+
+3
+00:00:13,440 --> 00:00:21,870
+que es utilizar el dén el nos va a permitir tener una template que sea no identificado y tener otra
+
+4
+00:00:21,880 --> 00:00:29,370
+template que se ha identificado de forma que yo tengo mi mi código de las condiciones guardado siempre
+
+5
+00:00:29,460 --> 00:00:33,660
+en eje templates y no lo tengo dentro del chip como tal.
+
+6
+00:00:33,690 --> 00:00:40,830
+De acuerdo vamos a ver un ejemplo para entenderlo yo puedo tener una energía template que se llame identificado
+
+7
+00:00:42,070 --> 00:00:48,630
+o que hicieron que template y dentro puedo tener lo que tengo en este día ahora.
+
+8
+00:00:49,060 --> 00:00:56,050
+Vale entonces tengo el código separado en LG template para todas las condiciones que yo vaya haciendo.
+
+9
+00:00:56,130 --> 00:01:02,300
+Entonces cierro el Live de esta manera y puedo utilizar el es decir que cuando se cumpla que he identificado
+
+10
+00:01:02,340 --> 00:01:10,140
+realmente teatru utiliza Belden y cuando se cumpla voy a llamar a identificado.
+
+11
+00:01:10,140 --> 00:01:14,250
+Aquí podemos tener un problema porque estamos llamando igual a varias variables.
+
+12
+00:01:14,250 --> 00:01:18,240
+Entonces yo esta template le pondría otra cosa pondría
+
+13
+00:01:21,580 --> 00:01:26,180
+si identificado vale y la utilizaría por aquí.
+
+14
+00:01:26,280 --> 00:01:34,900
+Entonces si la variable identificado está Dru pasa a Halden y carga la template si identificado sino
+
+15
+00:01:35,570 --> 00:01:44,770
+pasa al Elche y me carga la template no identificado con lo cual esta manera tan sencilla yo puedo organizar
+
+16
+00:01:44,770 --> 00:01:50,910
+también mejor el código fíjate que tengo página principal no están identificados y le doy al botón pam.
+
+17
+00:01:51,160 --> 00:01:54,110
+Ahora ya sí estoy identificado si borro la identificación.
+
+18
+00:01:54,130 --> 00:02:00,730
+Vuelvo a la otra template y entonces organizo mis condiciones en template y tengo el código bastante
+
+19
+00:02:00,730 --> 00:02:01,350
+legible.
+
+20
+00:02:01,430 --> 00:02:05,620
+Baleato es otra alternativa que podemos utilizar con el LG template.

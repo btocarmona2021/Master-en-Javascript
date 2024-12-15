@@ -1,0 +1,183 @@
+1
+00:00:01,230 --> 00:00:06,750
+Vamos a hacer el siguiente ejercicio vamos a crear un nuevo archivo.
+
+2
+00:00:06,750 --> 00:00:10,960
+Se va a llamar 14.
+
+3
+00:00:11,030 --> 00:00:14,350
+Guión ejercicio.
+
+4
+00:00:15,220 --> 00:00:22,380
+4.ª JSA y vamos a cargar el script en nuestro índex punto.
+
+5
+00:00:22,380 --> 00:00:27,000
+HTML 14.
+
+6
+00:00:27,100 --> 00:00:29,860
+Ejercicio 4.
+
+7
+00:00:30,420 --> 00:00:34,290
+Vamos a hacer el uso Street.
+
+8
+00:00:34,290 --> 00:00:39,270
+Este ejercicio va a consistir en mostrar todos los números impares que estén entre dos números introducido
+
+9
+00:00:39,300 --> 00:00:43,060
+por el teclado de acuerdo que es lo que hemos hecho antes.
+
+10
+00:00:43,360 --> 00:00:55,200
+Entonces voy a poner aquí el enunciado y el enunciado sería mostrar todos los números impares que hay
+
+11
+00:00:55,410 --> 00:00:59,610
+entre dos números introducidos.
+
+12
+00:01:01,620 --> 00:01:02,460
+Por el usuario
+
+13
+00:01:05,450 --> 00:01:09,130
+vale entonces tendremos que hacer lo mismo que hemos hecho ante un bar.
+
+14
+00:01:09,240 --> 00:01:16,850
+Una variable número uno que tenga un prompt que diga introduce el primer número
+
+15
+00:01:21,730 --> 00:01:30,510
+que por defecto venga cero y además le vamos a poner un par Saint para convertir el string en un entero
+
+16
+00:01:34,720 --> 00:01:37,700
+y ahora vamos a poner también el número dos.
+
+17
+00:01:37,790 --> 00:01:43,400
+La segunda variable número 2 introduce el segundo número.
+
+18
+00:01:43,520 --> 00:01:48,370
+Esto ya nos pide los dos números introducidos por el usuario.
+
+19
+00:01:48,380 --> 00:01:53,630
+Esto ya nos consigue Sotón números ahora nos dice mostrar todos los números impares que hay entre dos
+
+20
+00:01:53,630 --> 00:01:54,680
+números.
+
+21
+00:01:54,680 --> 00:02:00,320
+Cómo haríamos para recorrer y mostrar todos los números que haya entre el número 1 y el número 2.
+
+22
+00:02:00,330 --> 00:02:12,770
+Pues Utilizaríamos un Weyl Weyl mientras que el número 1 sea menor al número dos pues ejecuta lo que
+
+23
+00:02:12,770 --> 00:02:17,900
+haya dentro del cuarto acuerdo mientras que el número 1 es el menor número dos.
+
+24
+00:02:17,910 --> 00:02:24,380
+Pues lo que hay adentro entonces aquí dentro tenemos que utilizar un operador de incremento número uno
+
+25
+00:02:24,910 --> 00:02:29,950
+más mal para que se vaya reduciendo hasta que llega un momento en el que sean iguales.
+
+26
+00:02:29,990 --> 00:02:35,190
+Número 1 y número 2 y no haya no y no entre más a iterar dentro del bucle.
+
+27
+00:02:35,810 --> 00:02:42,380
+Entonces como comprobamos nosotros si es un número impar cómo hacemos esa comprobación sin número uno
+
+28
+00:02:43,220 --> 00:02:45,350
+es impar.
+
+29
+00:02:45,350 --> 00:02:50,030
+Vale si el número por el cual estamos pasando en este momento en el bucle es impar pues tendríamos que
+
+30
+00:02:50,030 --> 00:02:53,340
+hacer UNIV y tendríamos que hacer una operación.
+
+31
+00:02:53,340 --> 00:03:05,510
+Si número 1 el resto del número 1 dividido entre dos es diferente a cero de acuerdo este operador de
+
+32
+00:03:05,510 --> 00:03:07,650
+comparación sí es diferente a cero.
+
+33
+00:03:07,760 --> 00:03:12,740
+Si el reto de dividir número uno entre dos es diferente a cero entonces es un número impar entonces
+
+34
+00:03:12,740 --> 00:03:24,260
+podríamos hacer un Consol un log que dijera que el número uno que es el que está recorriendo en este
+
+35
+00:03:24,260 --> 00:03:24,920
+momento
+
+36
+00:03:27,700 --> 00:03:29,880
+que es impar.
+
+37
+00:03:29,880 --> 00:03:35,200
+Vale pero vamos a comprobarlo a ver si hemos resuelto bien el ejercicio actualizamos la pantalla vamos
+
+38
+00:03:35,200 --> 00:03:44,920
+a hacer esto un poco más grande el primer número venga el número 44 y el segundo número el número 799
+
+39
+00:03:44,920 --> 00:03:45,880
+mil.
+
+40
+00:03:46,080 --> 00:03:50,470
+Y entonces pues fíjate lo que pasa ha tardado un poquito porque tenía que hacer el cálculo de muchos
+
+41
+00:03:50,470 --> 00:03:58,150
+números pero fíjate no muestra que el 45 es impar el 47 impar el 49 es impar el 51 y así me muestra
+
+42
+00:03:58,150 --> 00:04:05,590
+todos los números que hay impares entre las dos cifras que hemos indicado de acuerdo fíjate como no
+
+43
+00:04:05,590 --> 00:04:10,000
+ha fallado en ningún momento y todos los números que nos muestra e impares entre las cifras que hemos
+
+44
+00:04:10,000 --> 00:04:10,440
+dicho.
+
+45
+00:04:10,450 --> 00:04:19,210
+Por ejemplo si lo ponemos del 1 al 10 nos va a mostrar sólo el número impar el 3 5 y 7 y el 9 con lo
+
+46
+00:04:19,210 --> 00:04:21,520
+cual ya tenemos el ejercicio resuelto.

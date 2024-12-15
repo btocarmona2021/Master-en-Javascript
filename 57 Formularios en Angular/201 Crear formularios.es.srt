@@ -1,0 +1,603 @@
+1
+00:00:00,930 --> 00:00:03,610
+Ahora vamos a aprender a trabajar con los formularios.
+
+2
+00:00:03,690 --> 00:00:08,660
+Ya hemos estado tocando algo acerca de los formularios algunos inputs el Chubby data binding etcétera
+
+3
+00:00:09,390 --> 00:00:16,770
+pero ahora vamos a ver cómo se creó un formulario Cómo se valida un formulario y cómo recoger la información
+
+4
+00:00:16,860 --> 00:00:20,520
+o los datos que el usuario rellena ese formulario en la clase del componente.
+
+5
+00:00:21,090 --> 00:00:22,470
+Así que vamos con eso.
+
+6
+00:00:22,470 --> 00:00:28,380
+Para eso me voy a crear un nuevo componente que va a ser un componente de contacto abro mi consola y
+
+7
+00:00:28,380 --> 00:00:34,140
+ejecuto ng g component contacto.
+
+8
+00:00:34,170 --> 00:00:41,230
+Se acaba de crear mi componente por aquí y ahora voy a cargarlo en una ruta en una página nueva.
+
+9
+00:00:41,380 --> 00:00:44,660
+Vale mi abuela p.p. routing y aquí añado un nuevo paz
+
+10
+00:00:47,420 --> 00:00:48,200
+nuevo paz.
+
+11
+00:00:48,230 --> 00:00:50,960
+La nueva ruta que va a ser contacto
+
+12
+00:00:54,020 --> 00:01:01,130
+y le digo qué componente va a cargar component el componente va a ser contacto componente que también
+
+13
+00:01:01,130 --> 00:01:11,000
+lo tengo que cargar por aquí arriba no tengo que importar import contacto component from
+
+14
+00:01:13,700 --> 00:01:23,510
+Tobarra contacto barra contacto componentes.
+
+15
+00:01:24,830 --> 00:01:30,020
+Cómo estás viendo ahora mismo si que tenemos muchos componentes y además tenemos por aquí carpetas de
+
+16
+00:01:30,020 --> 00:01:32,580
+los servicios de las pipes etcétera.
+
+17
+00:01:32,610 --> 00:01:37,250
+Entonces cuando estemos haciendo una aplicación más grande y más seria lo suyo sería tener una carpeta
+
+18
+00:01:37,250 --> 00:01:42,770
+para componentes y ahí dentro de esa carpeta generar todos los componentes no tenerlo mezclado con el
+
+19
+00:01:42,770 --> 00:01:48,230
+resto de carpetas porque si no va a ser un lío bien yo ya tengo mi nueva ruta mi nueva página vamos
+
+20
+00:01:48,230 --> 00:01:50,990
+a poder verla en nuestro navegador.
+
+21
+00:01:50,990 --> 00:01:54,720
+Contacto Baley aquí carga perfectamente.
+
+22
+00:01:54,740 --> 00:02:00,110
+Ahora vamos a añadir al menú que está en el PP componer en HTML como añadir un nuevo elemento al menú
+
+23
+00:02:00,170 --> 00:02:07,290
+control C y control Lube y vamos a cargarla por aquí.
+
+24
+00:02:07,310 --> 00:02:15,410
+Contacto vamos a añadir un nuevo elemento al menú que va a ser contacto Malet.
+
+25
+00:02:15,610 --> 00:02:18,610
+Ahora ya podemos navegar hacia contacto.
+
+26
+00:02:18,890 --> 00:02:24,790
+Pues aquí vamos a crear un nuevo formulario y vamos a darle una validación también posteriormente.
+
+27
+00:02:24,940 --> 00:02:31,750
+Así que para eso abrimos contactos la carpeta y abrimos nuestra clase del componente y nuestro archivo
+
+28
+00:02:32,560 --> 00:02:34,570
+contactocon pone en HTML.
+
+29
+00:02:34,570 --> 00:02:35,410
+Nuestra vista.
+
+30
+00:02:35,420 --> 00:02:42,460
+Vale entonces lo primero también antes de hacer el formulario es crear un modelo de datos para estar
+
+31
+00:02:42,460 --> 00:02:47,650
+modificando con el formulario de acuerdo entonces vamos a crear un nuevo modelo de usuario.
+
+32
+00:02:47,680 --> 00:02:56,500
+Por ejemplo no Feil controles se va a llamar usuario punto TSP y aquí lo que vamos a hacer va a ser
+
+33
+00:02:56,500 --> 00:03:02,740
+tener un modelo tal cual como el que tenemos aquí como el de zapatilla digamos pero solamente con los
+
+34
+00:03:02,740 --> 00:03:05,180
+datos necesarios para el formulario de contacto.
+
+35
+00:03:05,590 --> 00:03:17,050
+Vamos a hacer un eSport Class usuario y esto va a tener un constructor y aquí yo voy a definir mis propiedades
+
+36
+00:03:18,570 --> 00:03:29,500
+vale públic nombre públic apellidos Public email y Public
+
+37
+00:03:32,350 --> 00:03:39,430
+mensaje Baley asunto también podríamos poner incluso aunque ni siquiera haría falta valorarle ponemos
+
+38
+00:03:39,430 --> 00:03:42,250
+el tipo de dato cada campo esto va a ser un string
+
+39
+00:03:46,270 --> 00:03:48,910
+esto también va a ser una string.
+
+40
+00:03:48,910 --> 00:03:53,900
+Esto también será un extremo y esto también será una estrella.
+
+41
+00:03:54,490 --> 00:03:59,470
+Vale pues con esto ya podríamos generar otro objeto vamos a poner aquí bien constructor.
+
+42
+00:03:59,470 --> 00:04:04,180
+Con esto ya podríamos generar objetos de usuario y modificarlos valiéndose vamos a hacer un formulario
+
+43
+00:04:04,210 --> 00:04:06,920
+que modifique un objeto de este tipo.
+
+44
+00:04:07,090 --> 00:04:20,410
+Vamos a importar nuestro modelo en nuestro nuevo componente lo importamos import usuario from Tobarra
+
+45
+00:04:20,500 --> 00:04:21,350
+Models.
+
+46
+00:04:21,400 --> 00:04:28,810
+Barra usuario Fierro con punto y coma y yo ya puedo hacer un nuevo usuario.
+
+47
+00:04:28,810 --> 00:04:30,380
+Voy a definir mi nueva propiedad.
+
+48
+00:04:30,560 --> 00:04:31,110
+Públic
+
+49
+00:04:33,630 --> 00:04:40,100
+usuario que va un objeto de tipo usuario y entonces voy a darle un valor.
+
+50
+00:04:40,240 --> 00:04:42,800
+Voy a organizar esto un poco mejor.
+
+51
+00:04:45,300 --> 00:04:48,030
+Voy a darle un valor en el constructor.
+
+52
+00:04:48,070 --> 00:04:57,050
+Vale voy a hacer un disputo usuario es igual al New usuario y esto tiene varias cosas no tienen nombre
+
+53
+00:04:58,100 --> 00:05:06,950
+tiene los apellidos tiene el e-mail y tiene el mensaje de que yo quiero enviar por ejemplo en este caso
+
+54
+00:05:08,040 --> 00:05:16,900
+soy más que usuario sería un mensaje usuario porque esto no es no es un objeto usuario como tal.
+
+55
+00:05:16,910 --> 00:05:24,360
+Entonces como un modelo para el contacto voy a hacer contacto usuario si se va a llamar el modelo más
+
+56
+00:05:24,350 --> 00:05:26,690
+que usuario como tal y lo voy a importar por aquí.
+
+57
+00:05:26,690 --> 00:05:30,020
+Contacto usuario.
+
+58
+00:05:30,030 --> 00:05:36,590
+También voy a cambiar el nombre al modelo va a hacer contacto con tu usuario y le voy a cambiar el nombre
+
+59
+00:05:36,590 --> 00:05:39,070
+a mi modelo Reni
+
+60
+00:05:41,570 --> 00:05:44,110
+contacto con tu usuario.
+
+61
+00:05:44,240 --> 00:05:46,840
+Vamos a hacer las cosas lo mejor posible.
+
+62
+00:05:46,940 --> 00:05:53,620
+Perfecto entonces aquí sería contacto usuario agonizó contacto usuario.
+
+63
+00:05:53,630 --> 00:05:59,870
+Entonces voy a dejar estos campos vacíos para luego rellenarlo con el formulario lo si revisamos el
+
+64
+00:05:59,870 --> 00:06:04,900
+compilador aquí nos da un fallo pero porque hemos estado creando fichero y no lo encuentra y donde tenemos
+
+65
+00:06:05,050 --> 00:06:13,170
+el control C y volver a lanzar el serme de esa manera ya compilar aviento nos dice que tenemos un error
+
+66
+00:06:13,170 --> 00:06:19,530
+por mi contacto de usuario no lo encuentro a claro porque aquí estoy usando usuario y aquí es contacto
+
+67
+00:06:20,370 --> 00:06:21,980
+usuario claro.
+
+68
+00:06:22,080 --> 00:06:28,710
+No puedo encontrar mi archivo de El modelo por qué tengo que hacer punto punto barras móviles no está
+
+69
+00:06:28,710 --> 00:06:32,730
+en el directorio actual sino que tenga directorio directorio anterior tengo que salir de la carpeta
+
+70
+00:06:33,150 --> 00:06:39,390
+del componente y si hago este cambio pues ya si que va a funcionar de acuerdo yo te dejo todos estos
+
+71
+00:06:39,390 --> 00:06:43,800
+fallos para que tú veas cómo se arregla de acuerdo así cuando te pasen pues sepas como solucionarlo
+
+72
+00:06:44,520 --> 00:06:46,660
+porque eso le pasa a todo el mundo.
+
+73
+00:06:46,660 --> 00:06:52,020
+Vale pues ya tenemos nuestro modelo hecho nuestro componente montado ahora vamos a hacer un formulario
+
+74
+00:06:52,020 --> 00:06:57,930
+que pueda modificar este objeto de contrato usuario entonces lo primero que vamos a hacer va a ser poner
+
+75
+00:06:57,930 --> 00:07:07,860
+aquí un H2 que sea contacto cerramos el H2 y vamos a crear un formulario normal de HTML Halfon Cerro
+
+76
+00:07:07,860 --> 00:07:17,370
+Halfon y vamos a añadir cada uno de los campos vale vamos a crear un label for nombre para el campo
+
+77
+00:07:17,370 --> 00:07:17,880
+de nombre
+
+78
+00:07:22,700 --> 00:07:28,670
+vamos a crear un imput de tipo texto con el nombre
+
+79
+00:07:33,630 --> 00:07:35,470
+vale y vamos a crear el resto del campo.
+
+80
+00:07:35,470 --> 00:07:38,400
+Voy a copiar y pegar porque van a ser muy parecidos.
+
+81
+00:07:41,530 --> 00:07:52,650
+Vamos a tener un label for apellidos para el campo de apellidos crear un input de tipo texto con apellidos.
+
+82
+00:07:52,990 --> 00:07:55,700
+Luego voy a tener el campo nombre.
+
+83
+00:07:55,960 --> 00:08:06,470
+Luego voy a tener el campo y mail para el campo y mail con el e-mail y luego voy a tener un label for
+
+84
+00:08:07,090 --> 00:08:20,860
+mensaje para el mensaje del formulario de contacto que esta vez va a ser un texto con el mensaje y cierro
+
+85
+00:08:20,860 --> 00:08:21,750
+el texto.
+
+86
+00:08:23,880 --> 00:08:30,800
+Vale si reviso mi modelo pues lo que yo que estoy modificando son los campos del objeto que voy a estar
+
+87
+00:08:30,980 --> 00:08:46,830
+rellenando vale entonces ahora también voy a añadir mi botón mi input type submit con valor value enviar
+
+88
+00:08:47,990 --> 00:08:53,750
+cierro el input y hasta aquí todo correcto si reviso esta página me voy a contacto.
+
+89
+00:08:53,750 --> 00:08:56,280
+Aquí tengo mis campos del formulario.
+
+90
+00:08:56,450 --> 00:08:59,040
+Esto evidentemente yo podría mejorarlo.
+
+91
+00:08:59,430 --> 00:09:02,300
+Pues formateando con CCSF etc..
+
+92
+00:09:02,380 --> 00:09:08,510
+Pero el momento vamos a ponerle un B.R. a cada gas a cada campo cada etiqueta para que salte de línea
+
+93
+00:09:09,650 --> 00:09:10,790
+y listo vale.
+
+94
+00:09:10,790 --> 00:09:15,230
+Luego en la aplicación que vamos a hacer si queramos quedaremos muy bien
+
+95
+00:09:19,380 --> 00:09:26,740
+vale vamos a poner un B.R. en cada etiqueta para que salte de línea y Verloc visualmente mejor.
+
+96
+00:09:26,740 --> 00:09:28,630
+Ok ya tenemos nuestro formulario.
+
+97
+00:09:28,660 --> 00:09:35,430
+Vale perfectamente aquí montado entonces lo que vamos a hacer ahora es convertir este formulario de
+
+98
+00:09:35,440 --> 00:09:39,700
+HTML normal en un formulario de angular cómo podemos hacerlo.
+
+99
+00:09:40,240 --> 00:09:44,140
+Para convertir un formulario un formulario de anularle tengo que poner un nombre.
+
+100
+00:09:44,140 --> 00:09:51,010
+Para eso utilizo la almohadilla y le pongo el nombre que yo quiera form contacto vale y le voy a decir
+
+101
+00:09:51,010 --> 00:09:58,280
+que esto es un NG form vale para convertir este formulario a un formulario de angulas.
+
+102
+00:09:58,360 --> 00:10:07,820
+Básicamente también voy a utilizar el evento NG Summit que es para capturar el evento submit del formulario
+
+103
+00:10:07,830 --> 00:10:12,850
+entonces cuando yo haga submit esto es lo que va a hacer es cargarme un método que yo tengo en mi componente
+
+104
+00:10:12,850 --> 00:10:15,980
+ejecutarle un método que yo tengo en mi clase de mi componente.
+
+105
+00:10:16,000 --> 00:10:16,970
+Voy a poner.
+
+106
+00:10:17,210 --> 00:10:24,880
+Voy a crear un método que se va a llamar on Summit valerle va a tener en mi clase de mi componente.
+
+107
+00:10:24,880 --> 00:10:27,030
+Lo voy a definir por aquí.
+
+108
+00:10:27,310 --> 00:10:42,700
+On Summit vale voy a poner un consolé punto lo que diga evento Summit lanzado vale y vamos a comprobar
+
+109
+00:10:42,700 --> 00:10:51,790
+que eso sucede a mi navegador me abro las herramientas de desarrollador y me voy a la parte de consola
+
+110
+00:10:51,880 --> 00:10:58,420
+y si ejecuto el Summit vale fíjate como el evento Summit pues está sucediendo vale enviando el formulario
+
+111
+00:10:58,420 --> 00:11:03,790
+tantas veces como me de la Habana y efectivamente se lanza ese evento es decir que el evento Summit
+
+112
+00:11:03,850 --> 00:11:06,880
+funciona bien.
+
+113
+00:11:06,940 --> 00:11:15,010
+Ahora tengo que hacer que cada uno de los campos de mi formulario sea un campo del formulario de angula.
+
+114
+00:11:15,010 --> 00:11:21,680
+Para eso tengo que ponerle a los inputs un nombre dentro del Formulario de angulas en este caso será
+
+115
+00:11:21,700 --> 00:11:22,450
+nombre.
+
+116
+00:11:22,450 --> 00:11:30,760
+Lo utilizo con esta variable y le voy a decir que esto es un ejemplo de esto luego nos va a servir para
+
+117
+00:11:30,760 --> 00:11:35,950
+hacer la validación de datos etcétera y aparte de utilizar el Chui data mining la directiva habíamos
+
+118
+00:11:35,980 --> 00:11:42,220
+visto en Model para modificar el objeto que tengo en mi modelo de datos que en este caso está en la
+
+119
+00:11:42,220 --> 00:11:44,330
+clase del componente.
+
+120
+00:11:44,350 --> 00:11:52,930
+Vale voy a poner el objeto modificã en este caso hemos dicho que el objeto se llama usuario pero realmente
+
+121
+00:11:53,110 --> 00:12:01,570
+podríamos decir contacto y un bajo usuario o c usuario o como tú quieras realmente lo podemos dejar
+
+122
+00:12:01,570 --> 00:12:02,260
+como quiera.
+
+123
+00:12:02,340 --> 00:12:08,980
+Luego lo vamos a dejar en usuario y hasta usuario punto nombre vale vamos a modificar el objeto usuario
+
+124
+00:12:09,010 --> 00:12:10,890
+y su propiedad nombre ok.
+
+125
+00:12:10,960 --> 00:12:16,420
+Si actualizamos la pantalla pues aquí nada de nada está sucediendo todo va bien.
+
+126
+00:12:16,420 --> 00:12:25,810
+De hecho si yo hago un console log en el evento on Summit el método Sumi de disputo usuario voy a ver
+
+127
+00:12:25,810 --> 00:12:32,930
+que tengo realmente ese dato que yo he puesto vale y me abro las herramientas de desarrollador valés
+
+128
+00:12:33,030 --> 00:12:36,400
+y Orellano algo aquí y le doy a Summit.
+
+129
+00:12:36,400 --> 00:12:41,650
+Fíjate que me devuelve un objeto usuario con las cosas rellenas vale en este caso nombre no tiene nada
+
+130
+00:12:41,650 --> 00:12:51,990
+está vacío vale porque no he guardado pero sí guardo envío no tiene nada le meto algo.
+
+131
+00:12:52,110 --> 00:12:55,500
+Envío y ahora tiene ese valor que yo le he puesto aquí.
+
+132
+00:12:55,510 --> 00:13:01,300
+Es decir el LG Model el Chuvi data Vinny está funcionando sobre el objeto y voy a hacer lo mismo con
+
+133
+00:13:01,300 --> 00:13:07,760
+el resto del campus es decir con el campo de apellido le voy a poner un nombre para el formulario a
+
+134
+00:13:07,760 --> 00:13:16,600
+ver le voy a poner el nombre y apellidos va a ser un campo del formulario de angulado model que utiliza
+
+135
+00:13:16,730 --> 00:13:17,790
+el Chuvi data mining
+
+136
+00:13:20,500 --> 00:13:27,600
+con el NGA Model la directiva y voy a modificar el objeto usuario inapropiado apellidos.
+
+137
+00:13:27,770 --> 00:13:35,930
+Lo mismo con el email a poner un nombre al campo del formulario de angula en este caso y mail IVA según
+
+138
+00:13:35,930 --> 00:13:45,950
+el modelo vamos a utilizar el Chui data mining el modelo para modificar la propiedad de mi clase de
+
+139
+00:13:45,950 --> 00:13:51,800
+mi componente llamada usuario y a su vez modificar la propiedad de este objeto.
+
+140
+00:13:53,000 --> 00:13:58,100
+Y lo mismo con el mensaje a ponerle un nombre al campo esfumar de angula en este caso va a ser mensaje
+
+141
+00:13:59,180 --> 00:14:05,120
+debo a decir que esto es un LG modelo y esto luego nos va a servir para la validación y voy a rellenar
+
+142
+00:14:05,330 --> 00:14:10,730
+la propiedad de mi objeto que tengo en mi clase de mi componente en este caso utilizando el Chui data
+
+143
+00:14:10,730 --> 00:14:12,250
+mining.
+
+144
+00:14:12,680 --> 00:14:20,720
+Voy a modificar la propiedad usuario o el objeto usuario y su propiedad mensaje.
+
+145
+00:14:21,380 --> 00:14:23,370
+Ya tengo mi formulario.
+
+146
+00:14:23,370 --> 00:14:31,310
+Vale sin ningún tipo de problema y ahora vamos a ver que esos datos están recogiendo realmente en mi
+
+147
+00:14:31,310 --> 00:14:45,230
+clase de mi componente porque si yo rellenó esto Antonio López Antonio arroba Antonio puntocom y meto
+
+148
+00:14:45,290 --> 00:14:51,800
+el mensaje le di a enviar me aparece mi objeto y me aparecen todas las propiedades del objeto rellenada
+
+149
+00:14:51,980 --> 00:14:57,620
+correctamente con lo que yo he puesto en mi formulario Malet así que ya hemos visto cómo crear un formulario
+
+150
+00:14:57,710 --> 00:15:02,420
+y cómo recoger en el componente los valores que yo introduzco en el formulario.
+
+151
+00:15:02,510 --> 00:15:05,670
+En la siguiente y las llevamos a ver como validarlo y alguna cosita más.

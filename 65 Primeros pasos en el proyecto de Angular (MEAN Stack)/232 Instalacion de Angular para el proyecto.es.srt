@@ -1,0 +1,87 @@
+1
+00:00:00,840 --> 00:00:03,120
+Ya hemos visto todo lo más importante angular.
+
+2
+00:00:03,120 --> 00:00:09,090
+Ya hemos estado practicando con angular así que ahora toca hacer un proyecto con angular para eso vamos
+
+3
+00:00:09,090 --> 00:00:12,190
+a hacer una nueva instalación de angular en una carpeta nueva.
+
+4
+00:00:12,240 --> 00:00:16,310
+De acuerdo porque la carpeta aprendiendo angula la tenemos llena de cosas.
+
+5
+00:00:16,320 --> 00:00:22,680
+Entonces vamos a hacer una nueva carpeta para el proyecto de angular que vamos a estar haciendo próximamente
+
+6
+00:00:22,680 --> 00:00:25,530
+de acuerdo así que vamos a abrir nuestra consola de comando.
+
+7
+00:00:25,530 --> 00:00:30,960
+Vamos a cortar la ejecución de El proyecto de las pruebas que hemos estado haciendo con angular.
+
+8
+00:00:30,960 --> 00:00:36,630
+Vamos a hacer cedé punto a punto para ir al directorio padre a la carpeta cursos JavaScript y aquí vamos
+
+9
+00:00:36,630 --> 00:00:44,970
+a lanzar el comando NG New y el nombre de nuestro proyecto nuevo se va a llamar proyecto guión angular
+
+10
+00:00:45,510 --> 00:00:48,020
+de acuerdo que va a ser un portafolio.
+
+11
+00:00:48,270 --> 00:00:53,490
+La aplicación web que vamos a hacer va a ser un portafolio y ahora explicaré que detalle va a tener
+
+12
+00:00:53,730 --> 00:01:00,000
+pero de momento vamos a instalar el framework de nuevo ahora mismo se está haciendo el café hólding
+
+13
+00:01:00,090 --> 00:01:05,460
+y se están instalando todas las dependencias necesarias para pan angular esto va a tardar un poquito
+
+14
+00:01:05,670 --> 00:01:09,620
+y una vez que lo tengamos listo ya empezaremos a desarrollar la aplicación.
+
+15
+00:01:09,810 --> 00:01:14,880
+Bien ya tenemos el proyecto instalado malayas si abrimos la carpeta proyecto angular tenemos todas las
+
+16
+00:01:14,880 --> 00:01:18,780
+dependencias descargadas y el escalafón básico de aplicación.
+
+17
+00:01:18,990 --> 00:01:29,430
+Y ahora si entramos a ese directorio de proyecto angular y lanzamos el comando NG Server y actualizamos
+
+18
+00:01:29,430 --> 00:01:35,260
+la pantalla aquí nos aparece nuestra web.
+
+19
+00:01:35,290 --> 00:01:41,910
+Nuestro proyecto recién instalado con el componente básico que ya nos instala por defecto angular cedi
+
+20
+00:01:42,030 --> 00:01:46,620
+así que sobre este proyecto acabamos de instalar vamos a empezar a trabajar en la siguiente clase y
+
+21
+00:01:46,620 --> 00:01:52,500
+vamos a empezar a crear los componentes de nuestra aplicación y vamos a empezar a maquetar nuestra web
+
+22
+00:01:52,560 --> 00:01:59,250
+y también voy a estar explicando qué va a tener el proyecto y cómo va a ser a grandes rasgos.

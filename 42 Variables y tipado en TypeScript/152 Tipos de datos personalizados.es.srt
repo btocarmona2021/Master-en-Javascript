@@ -1,0 +1,51 @@
+1
+00:00:01,050 --> 00:00:06,300
+Aparte de los tipos de dato que ya hay establecidos yo puedo crear un nuevo tipo de dato al igual que
+
+2
+00:00:06,300 --> 00:00:11,700
+yo he hecho este tipo de dato aquí le he dicho que sea un estreno o un número yo puedo crear un tipo
+
+3
+00:00:11,700 --> 00:00:17,850
+de dato utilizando la palabra reservada Taipe y puedo ponerle un nombre a ese tipo de dato por ejemplo
+
+4
+00:00:18,150 --> 00:00:21,820
+letras o números.
+
+5
+00:00:21,820 --> 00:00:27,590
+Vale yo puedo ponerle ese nombre y puedo indicarle qué tipo de datos va a permitir y va a permitir Extrem
+
+6
+00:00:28,800 --> 00:00:31,470
+o number.
+
+7
+00:00:31,500 --> 00:00:36,210
+Vale y entonces yo ahora puedo utilizar ese tipo de dato letras o números.
+
+8
+00:00:36,210 --> 00:00:43,080
+Vale vale ya tengo mi alias o puedo decir puedo cambiar el nombre a alfanumérico
+
+9
+00:00:48,560 --> 00:00:49,450
+por ejemplo.
+
+10
+00:00:51,550 --> 00:00:55,580
+Y yo tengo ese tipo de dato de forma que tengo un nuevo tipo de dato.
+
+11
+00:00:55,610 --> 00:01:01,370
+Esto no me va a fallar a no ser que elementa un truco o lo que sea un valor que no acepta este tipo
+
+12
+00:01:01,370 --> 00:01:05,820
+de dato vale alfanumérico no acepta un valor booleano OK.
+
+13
+00:01:06,200 --> 00:01:13,220
+Así que ya hemos visto algún tipo de dato customizado con que combine el tipo de dato que hoy me interese.

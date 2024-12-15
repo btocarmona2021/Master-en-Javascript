@@ -1,0 +1,59 @@
+1
+00:00:00,620 --> 00:00:06,860
+Para completar un poco el ejemplo del Chuvi data binding podríamos hacer lo siguiente y es añadir un
+
+2
+00:00:06,860 --> 00:00:13,430
+campo aquí con el Chuvi data mining para poder modificar la propiedad color y eso automáticamente se
+
+3
+00:00:13,430 --> 00:00:14,400
+modifique.
+
+4
+00:00:14,420 --> 00:00:22,220
+Vale para eso vamos a entrar a nuestro zapatillas con un punto HTML y vamos a añadir un input por aquí
+
+5
+00:00:22,220 --> 00:00:23,930
+abajo en la parte del color
+
+6
+00:00:26,900 --> 00:00:35,720
+vale aquí vamos a añadir un input de tipo texto con la propiedad de la directiva NG modelo.
+
+7
+00:00:35,790 --> 00:00:41,400
+De esta manera vamos a modificar la propiedad al color que tenemos en nuestra clase de nuestro componente.
+
+8
+00:00:41,610 --> 00:00:46,460
+De esa manera si yo ahora mismo modificó el valor fíjate que me aparece blue.
+
+9
+00:00:46,530 --> 00:00:53,650
+Pero si yo le pongo hielo pues me aparece hielo Balay solamente cuando se cumple uno de estos casos
+
+10
+00:00:53,680 --> 00:00:54,930
+va a aparecer ese color.
+
+11
+00:00:54,970 --> 00:00:59,320
+Si yo se lo quito aquí no pasa nada y no le he añadido nada.
+
+12
+00:00:59,440 --> 00:01:02,740
+Si yo le pusiera RET como lo pone en rojo.
+
+13
+00:01:02,830 --> 00:01:07,990
+Así que esto es otro pequeño ejemplo con el Chubby data mining para ver que realmente se modifica de
+
+14
+00:01:07,990 --> 00:01:14,260
+manera bidireccional una propiedad de nuestro modelo de datos o en este caso de una propiedad de nuestro
+
+15
+00:01:14,260 --> 00:01:14,890
+componente.

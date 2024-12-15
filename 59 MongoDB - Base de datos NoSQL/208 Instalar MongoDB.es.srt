@@ -1,0 +1,243 @@
+1
+00:00:00,660 --> 00:00:01,950
+Vamos a instalar mongoloide.
+
+2
+00:00:02,010 --> 00:00:07,370
+Para eso buscamos en Google MongoDB y vamos a acceder a su web oficial que es como debe.
+
+3
+00:00:07,380 --> 00:00:13,140
+Puntocom accedemos y vamos a descargar Mungo debe paristas en Windows.
+
+4
+00:00:13,140 --> 00:00:21,230
+De acuerdo nos vamos a dar parte de descarga de un Lott y bajamos para abajo y nos descargamos la versión
+
+5
+00:00:21,890 --> 00:00:27,920
+que nos marque recomendado nuestro sistema en mi caso voy a descargar la de Windows Server 2008 64 bits
+
+6
+00:00:28,180 --> 00:00:34,940
+voy a descargar y automáticamente pues se me abre descarga.
+
+7
+00:00:34,940 --> 00:00:35,570
+De acuerdo
+
+8
+00:00:39,410 --> 00:00:43,660
+se me abre en descarga y la voy a instalar de acuerdo.
+
+9
+00:00:43,660 --> 00:00:50,110
+Cuando acabe de descargarse mientras tanto te puedo contar que es mongo debe o debe.
+
+10
+00:00:50,180 --> 00:00:54,710
+Es una base de datos no relacionales de acuerdo con un sistema gestor de base de datos no relacional.
+
+11
+00:00:54,710 --> 00:00:55,680
+Qué significa esto.
+
+12
+00:00:55,680 --> 00:01:04,310
+Pues que no tenemos ni tabla ni registro ni geis ni tabla relacionada ni nada de nada ni claves primarias
+
+13
+00:01:04,310 --> 00:01:05,150
+ni nada de eso.
+
+14
+00:01:05,210 --> 00:01:15,020
+Simplemente trabajamos con o simplemente trabajamos con objetos Jayson o documentos de acuerdo que no
+
+15
+00:01:15,020 --> 00:01:22,370
+se almacenan como tal sino que se almacenan en visón de acuerdo en s o n que es una representación binaria
+
+16
+00:01:22,520 --> 00:01:23,670
+de gestión.
+
+17
+00:01:23,810 --> 00:01:29,990
+Una de las diferencias más importantes con respecto a las bases de datos relacionales es que no tenemos
+
+18
+00:01:29,990 --> 00:01:36,480
+que seguir ningún tipo de esquema sino que podemos tener documentos relacionados entre sí o documento
+
+19
+00:01:36,510 --> 00:01:41,500
+dentro de otro o lo que tú quieras pueda hacer exactamente lo que tú quieras de acuerdo.
+
+20
+00:01:41,750 --> 00:01:46,310
+Por ejemplo podrías tener un documento dentro de documento y dentro de ese documento una propiedad que
+
+21
+00:01:46,310 --> 00:01:49,600
+almacene un array que almacene cualquier cosa.
+
+22
+00:01:49,660 --> 00:01:57,350
+Esto es el concepto que tiene la base de datos relacionales sin tener documento en yeso los cuales pueden
+
+23
+00:01:57,350 --> 00:02:01,810
+almacenar cualquier información incluso pueden almacenar otros objetos dentro como quiera
+
+24
+00:02:04,780 --> 00:02:09,460
+y eso es una base de datos no relacional es decir que no estamos utilizando el sistema relacional de
+
+25
+00:02:09,460 --> 00:02:22,560
+tablas como siguiente lo dejamos todo marcado le damos al siguiente y damos a instalar vamos a esperar
+
+26
+00:02:23,280 --> 00:02:29,820
+que acabe listarse y le damos a finalizar el siguiente paso que tenemos que hacer es parece una tontería
+
+27
+00:02:29,850 --> 00:02:37,800
+pero es muy importante tenemos que crear nuestro directorio c una carpeta nueva que se va a llamar data
+
+28
+00:02:39,450 --> 00:02:46,280
+y dentro de ella tenemos que crear otra carpeta que se va a llamar debe vale.
+
+29
+00:02:46,340 --> 00:02:51,290
+Esta aquí es donde se van a almacenar las bases de datos y todo eso se van a almacenar configuraciones
+
+30
+00:02:51,290 --> 00:02:52,220
+de Mungo.
+
+31
+00:02:52,310 --> 00:02:58,520
+Ahora nos vamos a archivos de programa o debe bien y accedemos a la carpeta donde están los ejecutables.
+
+32
+00:02:58,520 --> 00:03:04,880
+Vamos a ejecutar mongo mongo de punto x de acuerdo este programa el que tenemos que tener en segundo
+
+33
+00:03:04,880 --> 00:03:09,500
+plano siempre de acuerdo para poder estar trabajando con Mungo de acuerdo.
+
+34
+00:03:09,500 --> 00:03:14,570
+Este es el demonio de Mungo DB Esto es la base de datos que tenemos que tener en segundo plano y para
+
+35
+00:03:14,570 --> 00:03:20,510
+ejecutar consultá tenemos Mungo punto ExE y aquí podemos ejecutar consultas de Alcuri y podemos crear
+
+36
+00:03:20,510 --> 00:03:26,330
+bases de datos y podemos hacer lo que queramos por ejemplo mongoloide se que el demonio que hay que
+
+37
+00:03:26,330 --> 00:03:32,420
+ejecutarlo para que esté ahí no debe cerrar la consola para poder trabajar con mungo y la otra consola
+
+38
+00:03:32,480 --> 00:03:38,900
+es la Mungo apuntó exe que sirve para eso para ejecutar comandos por ejemplo el comando Gehl y el comando
+
+39
+00:03:39,050 --> 00:03:44,300
+de comando a su vez nos permite ver la base de datos.
+
+40
+00:03:44,390 --> 00:03:51,020
+Podemos usar una nueva base de datos curso no angular 2 y aquí podemos crear por ejemplo un elemento
+
+41
+00:03:51,020 --> 00:03:56,660
+bookmarks una colección de objetos Vali podemos guardar un nuevo registro
+
+42
+00:03:59,630 --> 00:04:00,020
+de acuerdo.
+
+43
+00:04:00,020 --> 00:04:05,630
+Podemos utilizar el método Urzay para guardar un nuevo registro en la colección de objetos Bookmarks
+
+44
+00:04:05,690 --> 00:04:13,460
+que sería como la tabla en SQL donde se van a guardar una serie de documentos o registro dentro de ella.
+
+45
+00:04:13,460 --> 00:04:17,640
+Vale entonces tu base de datos de esta no relacional.
+
+46
+00:04:17,750 --> 00:04:23,000
+Puedes hacer lo que quieras con ella es decir no hay un esquema claro ni fijo de cómo va a ser la base
+
+47
+00:04:23,000 --> 00:04:30,560
+de datos sino que tú puedes hacer lo que quiera o o embeber documentos dentro de otro o crearte 20 coleccione
+
+48
+00:04:30,580 --> 00:04:33,990
+y relacionar un documento con otro como tu quieras de acuerdo.
+
+49
+00:04:33,990 --> 00:04:42,100
+Entonces ahora mismo estoy rellenando el nuevo Book que voy a crear dentro de la colección de book más
+
+50
+00:04:42,150 --> 00:04:42,480
+vale
+
+51
+00:04:46,630 --> 00:04:51,860
+un título Curso de angular 2 en español que va desde cero.
+
+52
+00:04:52,260 --> 00:04:53,170
+Le meto una coma.
+
+53
+00:04:53,180 --> 00:05:01,030
+Voy a crear también una huele mal esto es un ejemplo simple que estoy haciendo M 1 R.L http: Barrabas
+
+54
+00:05:01,080 --> 00:05:10,080
+Rabito Rólex web punto es de cursos y ahora le voy a dar a Enter momento de dar una descripción también
+
+55
+00:05:10,090 --> 00:05:11,190
+por tener otro campo
+
+56
+00:05:14,750 --> 00:05:27,290
+valéis y dar cuenta es un Jayson pero esto se va a almacenar de forma binaria con lo cual es hiper veloz.
+
+57
+00:05:27,530 --> 00:05:30,650
+Acaba de crearse el registro un tipo de problema
+
+58
+00:05:35,760 --> 00:05:43,100
+y si yo hago su vez ya tengo la base de datos creada de acuerdo y ya la veo y si hago deve punto bookmarks
+
+59
+00:05:43,280 --> 00:05:49,050
+punto fin me saca los registros que yo tengo en esa colección de objetos de acuerdo a los documentos
+
+60
+00:05:50,310 --> 00:05:56,580
+que tengo al lado en la colección de objetos bookmarks pues de esta forma se instala Mungo de esta forma
+
+61
+00:05:56,670 --> 00:05:59,730
+se crea una nueva base de datos y se crean documentos.

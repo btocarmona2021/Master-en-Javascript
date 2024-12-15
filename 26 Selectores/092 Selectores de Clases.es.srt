@@ -1,0 +1,283 @@
+1
+00:00:00,420 --> 00:00:06,900
+Ahora vamos a aprender a utilizar los electores de clases un selector de clase es un selector que lo
+
+2
+00:00:06,900 --> 00:00:14,610
+que hace es elegir los elementos del DOM en base a una clase vale yo puedo coger y seleccionar todos
+
+3
+00:00:14,610 --> 00:00:21,420
+los elementos cuya clase sea punto recuerda que el selector de de una clase se utiliza con el punto
+
+4
+00:00:21,420 --> 00:00:29,880
+tanto en CSS como QWERTY y vamos a seleccionar elemento cuyo cuya clase sea Zebra.
+
+5
+00:00:30,120 --> 00:00:38,430
+Vale entonces vamos a hacer aquí unos cuantos párrafos vamos a hacer otro párrafo incluso que no le
+
+6
+00:00:38,430 --> 00:00:42,540
+vamos a poner ninguna ídem y lo vamos a poner si hay un párrafo blanco
+
+7
+00:00:46,410 --> 00:00:49,960
+y ahora el resto de elementos pues yo les voy a poner una clase.
+
+8
+00:00:49,960 --> 00:00:52,330
+Vamos a ponerle clase a los elemento.
+
+9
+00:00:52,420 --> 00:00:57,520
+Una clase cuando necesitamos seleccionar mucho elemento de acuerdo o darle unas propiedades comunes
+
+10
+00:00:57,710 --> 00:00:59,740
+o unos estilos comunes a muchos elementos.
+
+11
+00:00:59,740 --> 00:01:05,350
+Una idea sin embargo es un identificador único de una etiqueta de acuerdo para darle un estilo concreto
+
+12
+00:01:05,350 --> 00:01:11,520
+o para hacer algo concreto únicamente con una etiqueta dentro del mismo en la misma página HTML y una
+
+13
+00:01:11,530 --> 00:01:15,050
+clase para muchas etiqueta darle propiedades comunes.
+
+14
+00:01:15,050 --> 00:01:22,750
+No vale la propiedad sería Zebra la clase seria cebra vamos a poner en todos los párrafos que a mí me
+
+15
+00:01:22,760 --> 00:01:25,390
+interese lo voy a poner en unos si y en otro no vale
+
+16
+00:01:28,220 --> 00:01:33,050
+que se lo voy a poner al amarillo ya lo último solamente la cebra.
+
+17
+00:01:35,700 --> 00:01:43,710
+Bien entonces cuando yo seleccione cebras si yo guardo esto dentro de una variable que sea mi clase
+
+18
+00:01:47,590 --> 00:02:00,310
+vale y yo aquí console punto log mi clase guardo y actualizo la pantalla me saca efectivamente los elementos
+
+19
+00:02:00,310 --> 00:02:08,950
+que tienen mi clase puesto es decir que tenemos la clase cebra puesto en el párrafo amarillo y en el
+
+20
+00:02:08,950 --> 00:02:15,040
+párrafo blanco último de acuerdo y aparte esto no aparece como si fuera una raíz de acuerdo.
+
+21
+00:02:15,040 --> 00:02:21,430
+Realmente esto no aparece en formato de array porque lo que hace es seleccionar efectivamente esos elementos.
+
+22
+00:02:21,950 --> 00:02:28,900
+Vale estoy yo podría recorrerme ese Array perfectamente y como ya hemos visto en la parte de JavaScript
+
+23
+00:02:28,960 --> 00:02:33,090
+mostrar el contenido o hacer lo que quisiera con ellos.
+
+24
+00:02:33,180 --> 00:02:38,830
+O sea esto es una radio básicamente y si yo quisiera por ejemplo seleccionar uno concreto uno de estos
+
+25
+00:02:38,830 --> 00:02:47,270
+dos elementos concretos utilizar o estos y de esta manera vale con los corchete efectivamente y me saca
+
+26
+00:02:47,570 --> 00:02:49,000
+el elemento concreto.
+
+27
+00:02:49,000 --> 00:02:52,020
+O también pudo utilizar el método punto.
+
+28
+00:02:52,170 --> 00:02:57,160
+El método punto de Cuba hace lo mismo seleccionar un elemento de una raíz vale.
+
+29
+00:02:57,440 --> 00:02:58,870
+Efectivamente lo saca.
+
+30
+00:02:58,880 --> 00:03:04,990
+Qué pasa que si lo selecciono de esa manera tengo método de Cury ya juntos y puedo hacer más cosas.
+
+31
+00:03:05,300 --> 00:03:10,070
+A la clase Zebra es decir lo que tenemos dentro de la variable en mi clase.
+
+32
+00:03:10,160 --> 00:03:22,490
+Le vamos a dar un estilo concreto CSS en este caso le vamos a poner porque tenga un Border de 5p X Solid
+
+33
+00:03:22,910 --> 00:03:27,060
+soy no Basset Dazed Black.
+
+34
+00:03:27,510 --> 00:03:39,500
+Y de esta manera solo elementos que tengan esa clase pues funcionarán y se les pondrá el borde de cebra.
+
+35
+00:03:39,580 --> 00:03:45,970
+Así que eso es lo que quería básicamente enseñar y de un golpe le estoy poniendo una funcionalidad de
+
+36
+00:03:45,970 --> 00:03:50,800
+unas propiedades específica o estoy haciendo algo con todos estos elementos vale.
+
+37
+00:03:51,040 --> 00:04:00,640
+Sin embargo si yo tuviera por ejemplo otra clase también en los otros párrafo que fuera sin borde la
+
+38
+00:04:00,640 --> 00:04:01,090
+clase.
+
+39
+00:04:01,090 --> 00:04:07,510
+Por ejemplo si uno le pusiera esta clase a otro elemento yo podría hacer cualquier cosa con ellos es
+
+40
+00:04:07,510 --> 00:04:17,980
+decir podría coger esos elementos podría seleccionarlo podría hacer punto sin borde y podría utilizar
+
+41
+00:04:17,980 --> 00:04:24,160
+evento puede utilizar métodos de vento todo vale podría el elemento clik y este evento click tiene una
+
+42
+00:04:24,160 --> 00:04:25,390
+función de Calvache.
+
+43
+00:04:25,910 --> 00:04:30,550
+Y qué va a pasar que cuando yo le dé clic a cualquiera de esos elemento a ese elemento que yo le he
+
+44
+00:04:30,550 --> 00:04:37,510
+dado clic es decir dólar dis al elemento que yo lea que yo le haya dado clic le puedo poner le puedo
+
+45
+00:04:37,510 --> 00:04:39,110
+poner lo mismo estilo CSS.
+
+46
+00:04:39,130 --> 00:04:45,730
+De esta manera vale se lo puedo poner se lo puedo clavar de esta manera o incluso más óptimo aún añadirle
+
+47
+00:04:45,730 --> 00:04:51,790
+una clase CSS hacer un A.D de clase si la abuela de de clase.
+
+48
+00:04:51,970 --> 00:04:56,530
+Y le añado la clase Zebra cuando yo le dé clic a cualquiera de esos elementos vamos a ver lo que va
+
+49
+00:04:56,530 --> 00:05:00,180
+a pasar le doy click y no pasa nada.
+
+50
+00:05:00,190 --> 00:05:07,500
+Y aparte de esto vamos a poner un consuelo con solo el punto lo que nos saque si le hemos dado clic
+
+51
+00:05:07,500 --> 00:05:08,570
+a un elemento.
+
+52
+00:05:08,670 --> 00:05:12,930
+Vale clic dado vamos a ponerle
+
+53
+00:05:16,810 --> 00:05:21,670
+guardamos actualizamos la pantalla y vamos a comprobarlo efectivamente nos captura el click lo que nos
+
+54
+00:05:21,670 --> 00:05:28,980
+hace ponernos los estilos realmente y esto pasa porque realmente en la clase de cebra no hay uno estilos
+
+55
+00:05:29,080 --> 00:05:36,280
+predefinido sino que yo estoy cargando un CSS vale para los elementos del DOM que yo he seleccionado
+
+56
+00:05:36,280 --> 00:05:39,840
+aquí pero no para la clase con lo cual si yo pongo esta clase no va a funcionar.
+
+57
+00:05:39,890 --> 00:05:47,210
+Vale sí yo quiero que esto funcione tendría que crearme una clase vale una clase una clase de CSS en
+
+58
+00:05:47,350 --> 00:05:59,320
+una etiqueta stays por ejemplo podría crear la clase punto cebra y ponerles o estilo que el borde sea
+
+59
+00:05:59,320 --> 00:06:12,550
+de 5p X Dazed Black y nada más simplemente eso entonces ahora mismo en lugar de ajustarle los estilos
+
+60
+00:06:12,820 --> 00:06:19,780
+en línea de manera forzada lo que voy a hacer es ajustarle añadirle la clase aunque realmente ya la
+
+61
+00:06:19,780 --> 00:06:25,260
+tiene ya tiene asignada entonces ni siquiera tendría que añadirle nada vale simplemente ya he seleccionado
+
+62
+00:06:25,260 --> 00:06:28,420
+otro elemento y ya tienen esa clase puesta.
+
+63
+00:06:28,420 --> 00:06:35,830
+Efectivamente vale podría darle otro otro estilo podría ponerle un packing vale a los elementos que
+
+64
+00:06:35,830 --> 00:06:45,140
+tengan la clase Zebra Badín de cinco pixeles porque porque haga algo tremendo.
+
+65
+00:06:46,080 --> 00:06:51,220
+Entonces de esta manera me Alpa de tal y cual pero si yo le doy clic cualquiera de estos elementos Pam
+
+66
+00:06:51,670 --> 00:06:55,770
+Pam le pone el borde le añade la clase.
+
+67
+00:06:55,810 --> 00:07:00,770
+Si lo miramos visualmente en el código si yo selecciono el párrafo verde vemos que tienen la clase sin
+
+68
+00:07:00,790 --> 00:07:07,330
+borde pero si yo le doy clic vemos que le acaba de añadir una clase más que la clase Zebra y lo mismo
+
+69
+00:07:07,330 --> 00:07:08,960
+conecté otro elemento.
+
+70
+00:07:09,040 --> 00:07:16,440
+Si si yo le doy clic me añade la otra clase es decir actúa el método de clase y actúa el selector dis
+
+71
+00:07:16,650 --> 00:07:16,950
+ok.

@@ -1,0 +1,39 @@
+1
+00:00:01,430 --> 00:00:06,620
+Vamos a crear una clase para que cuando estemos en una de estas secciones se nos resalte el elemento
+
+2
+00:00:06,620 --> 00:00:07,790
+del menú.
+
+3
+00:00:07,850 --> 00:00:12,060
+Para eso vamos a ir a nuestros estilos y en la parte del menú.
+
+4
+00:00:12,200 --> 00:00:18,890
+Cuando hacemos el Hover de acuerdo esto lo vamos a copiar también a una clase es decir vamos a hacerlo
+
+5
+00:00:18,890 --> 00:00:28,010
+en una clase también que va a ser active valiã activado y entonces cuando yo pase por o cuando yo esté
+
+6
+00:00:28,010 --> 00:00:37,910
+dentro de una de estas secciones vamos a utilizar el router Link active para marcar esto con la clase
+
+7
+00:00:38,150 --> 00:00:38,830
+Active.
+
+8
+00:00:40,700 --> 00:00:47,260
+Vamos a copiar el Rutten Link el ruido el linga active al resto de elementos del menú.
+
+9
+00:00:47,580 --> 00:00:55,490
+Copio y pego por aquí guardo y actualizo la pantalla y ahora pues si que me marca en cada parte de un
+
+10
+00:00:55,490 --> 00:00:56,860
+proyecto en la que yo esté.

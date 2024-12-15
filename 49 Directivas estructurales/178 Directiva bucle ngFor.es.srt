@@ -1,0 +1,559 @@
+1
+00:00:00,750 --> 00:00:06,030
+Otra directiva que ya hemos visto por encima es la directiva estructural NG effort de acuerdo que nos
+
+2
+00:00:06,030 --> 00:00:12,620
+sirve para recorrer un array y mostrarlo en nuestra vista de acuerdo.
+
+3
+00:00:12,630 --> 00:00:19,770
+Ya hemos visto cómo recorrer una colección de objetos llamada zapatillas y crear una variable deportiva
+
+4
+00:00:19,800 --> 00:00:25,770
+por cada una de esas iteraciones y acceder a las propiedades de el objeto que nos interesa de acuerdo
+
+5
+00:00:25,860 --> 00:00:27,640
+y mostrar esos valores.
+
+6
+00:00:27,690 --> 00:00:36,450
+También podría tener yo directamente aquí en la parte de la clase de mi componente podría tener un método
+
+7
+00:00:36,450 --> 00:00:46,890
+que se llamara marcas y puedo recorrer de manera clásica con un foril de JavaScript.
+
+8
+00:00:46,890 --> 00:00:54,510
+Puedo hacer disputo zapatillas punto for each.
+
+9
+00:00:56,830 --> 00:01:01,660
+Vale puedo hacer esto y esto tiene un value y un índice
+
+10
+00:01:04,390 --> 00:01:14,320
+puedo recorrer es objeto puede recorrer ese array de objeto y crearme otro Array que sea de marcas públic
+
+11
+00:01:15,100 --> 00:01:23,620
+marcas y que sea una raíz de string es decir un array de strings también lo puedo definir de esta manera
+
+12
+00:01:24,400 --> 00:01:32,770
+o más concretamente más que así podría definirlo de esta manera Stryfe y poner los corchetes para decirle
+
+13
+00:01:32,770 --> 00:01:35,290
+que va a ser una raíz de tipo String.
+
+14
+00:01:35,290 --> 00:01:40,900
+Todos los datos que va a haber dentro van a ser strings Valyria definido aquí mi nueva propiedad para
+
+15
+00:01:40,900 --> 00:01:46,930
+luego mostrarla en la vista y con un Fortich clásico de JavaScript y este método frizz de los nuevos
+
+16
+00:01:46,930 --> 00:01:50,010
+estándares de l más crise y me parece entonces.
+
+17
+00:01:50,600 --> 00:01:54,850
+Entonces utilizando el método favorito que hemos estado viendo a lo largo del curso yo voy a recorrer
+
+18
+00:01:55,180 --> 00:01:59,670
+mi colección de objetos de zapatilla.
+
+19
+00:01:59,680 --> 00:02:06,430
+Voy a hacer lo siguiente Voy a hacer un marcás punto push para guardar un nuevo elemento dentro de ese
+
+20
+00:02:06,520 --> 00:02:14,680
+Array y voy a guardar value que en este caso no es un valor simplemente es una zapatilla o zapatilla
+
+21
+00:02:16,020 --> 00:02:18,120
+es un elemento zapatilla.
+
+22
+00:02:18,520 --> 00:02:20,520
+Punto y guardar la marca.
+
+23
+00:02:20,560 --> 00:02:22,220
+En este caso la propiedad marca.
+
+24
+00:02:23,050 --> 00:02:24,590
+Vale si hago esto de esta manera.
+
+25
+00:02:24,610 --> 00:02:32,980
+Luego también tengo el índice aquí que también podría mostrarlo en un consuelo.
+
+26
+00:02:32,980 --> 00:02:40,780
+Vale si yo hago esto me hacen un consuelo también de las marcas disputo marcas para ver que todas esas
+
+27
+00:02:40,780 --> 00:02:41,590
+marcas están.
+
+28
+00:02:41,680 --> 00:02:47,050
+Si yo invoco a esta función a este método dentro de la Legión init es decir que nada más cargar el componente
+
+29
+00:02:47,050 --> 00:02:54,470
+se cargan esta función disputo marcas al cargo llamo al método lo invoco.
+
+30
+00:02:54,590 --> 00:02:57,190
+Si actualizo la pantalla como abrir nuestra consola
+
+31
+00:03:00,550 --> 00:03:02,830
+aquí tenemos errores de efectivamente marcas.
+
+32
+00:03:02,840 --> 00:03:06,760
+This is not defined disputo marcas.
+
+33
+00:03:06,810 --> 00:03:09,180
+Ah claro es que tengo dos cosas con el mismo nombre.
+
+34
+00:03:09,220 --> 00:03:12,310
+Quizá eso no sea recomendable.
+
+35
+00:03:12,430 --> 00:03:21,250
+Vale no sea no sea bueno porque realmente esto hace que el Tapestry se confunda y quejabas que se confunda
+
+36
+00:03:21,250 --> 00:03:30,490
+entonces vamos a hacer gheto marcas como aquel que se llama el método GET marcas guardo autorizó la
+
+37
+00:03:30,490 --> 00:03:38,150
+pantalla me dice que la línea 29 marca no existe claro porque marcas realmente no existe.
+
+38
+00:03:38,150 --> 00:03:43,390
+Entonces sería disputo marcas disputo marcas para acceder a esta propiedad de aquí arriba.
+
+39
+00:03:43,390 --> 00:03:43,980
+Vale.
+
+40
+00:03:44,170 --> 00:03:50,890
+Yo quiero que sepas una cosa que a lo largo del curso ya lo he dicho alguna vez me parece que todo esto
+
+41
+00:03:50,890 --> 00:03:56,920
+es real es que yo te muestro podría recortarlos perfectamente en la edición del video de acuerdo y que
+
+42
+00:03:57,040 --> 00:04:01,170
+salga un video perfecto que todo salga perfecto sin ningún tipo de error.
+
+43
+00:04:01,420 --> 00:04:05,710
+Pero es que eso realmente no es la realidad de acuerdo a la realidad en la programación es que tú te
+
+44
+00:04:05,710 --> 00:04:11,140
+vas a estar equivocando va a tener que buscar el error va a tener que ver cómo solucionarlo entonces
+
+45
+00:04:11,140 --> 00:04:17,650
+por eso te dejo estos trozos los que me equivoco o los que olvido algo para que veas cómo busco yo el
+
+46
+00:04:17,650 --> 00:04:22,750
+error cómo lo encuentro y cómo lo soluciono porque esto va a ser muy útil y muy didáctico para cuando
+
+47
+00:04:22,750 --> 00:04:28,720
+tú estés en un proyecto haciéndolo tú solo o esté trabajando en una empresa en una empresa así que por
+
+48
+00:04:28,720 --> 00:04:34,060
+eso no dejo los vídeos perfectos sino que lo dejo dejo todo lo error y dejo como solucionarlo porque
+
+49
+00:04:34,060 --> 00:04:38,310
+te puede ayudar y así en la realidad también de la programación.
+
+50
+00:04:38,310 --> 00:04:46,270
+Vale entonces hacemos hay marcas guardamos con el plus la marca y ahora me dice que no puede utilizarlo
+
+51
+00:04:46,750 --> 00:04:49,050
+en un objeto que esta aun define.
+
+52
+00:04:49,230 --> 00:04:54,820
+Vale lo que tengo que hacer aquí es hacer lo siguiente hacerle un Nioh a Rey hacer
+
+53
+00:04:57,260 --> 00:05:00,630
+disputo marcas es igual al New.
+
+54
+00:05:00,680 --> 00:05:05,510
+A Rajoy le digo que tiene una dentro.
+
+55
+00:05:06,080 --> 00:05:12,980
+Ahora efectivamente si que me deja y fíjate el consuelo del bucle Fortich que yo tengo aquí me he estado
+
+56
+00:05:12,980 --> 00:05:15,180
+mostrando lo inicial que se han ido recorriendo.
+
+57
+00:05:15,200 --> 00:05:18,260
+Hay cuatro elementos del 0 al 3 lo.
+
+58
+00:05:18,590 --> 00:05:20,100
+Ya lo puedo borrar.
+
+59
+00:05:20,610 --> 00:05:25,990
+Además tengo el array con todas las marcas que tengo yo guardadas en mi colección de objetos.
+
+60
+00:05:26,060 --> 00:05:31,400
+De acuerdo tengo esas marcas en la propiedad en la propiedad marca de cada uno de esos objetos de tipo
+
+61
+00:05:31,400 --> 00:05:32,460
+zapatilla.
+
+62
+00:05:32,480 --> 00:05:38,090
+Así que lo que voy a hacer ahora va a ser eliminar los elementos que estén repetidos que tengan el mismo
+
+63
+00:05:38,090 --> 00:05:43,230
+nombre y luego vamos a recorrer y mostrar todas esas marcas en la vista.
+
+64
+00:05:43,310 --> 00:05:49,790
+Cómo puedo hacer eso para eliminar los duplicados y para que no haya más de un elemento con el mismo
+
+65
+00:05:49,790 --> 00:05:50,470
+nombre.
+
+66
+00:05:50,570 --> 00:05:58,620
+Lo que voy a hacer va a ser un IFF aquí y voy a hacer el puzzle solamente cuando no exista ya en el
+
+67
+00:05:58,610 --> 00:05:59,140
+array.
+
+68
+00:05:59,170 --> 00:06:05,030
+Vale voy a hacer lo siguiente dis punto marcas punto
+
+69
+00:06:07,690 --> 00:06:10,070
+índex off.
+
+70
+00:06:11,480 --> 00:06:14,270
+Y de paso el valor zapatilla punto marca.
+
+71
+00:06:14,270 --> 00:06:21,500
+En el caso de que no lo encuentre le pongo la exclamación delante para que sea negacion pues que haga
+
+72
+00:06:21,500 --> 00:06:21,930
+el push.
+
+73
+00:06:21,960 --> 00:06:23,440
+Vale vamos a actualizar la pantalla
+
+74
+00:06:26,360 --> 00:06:33,760
+y no me añade nada aunque realmente lo que tendría que hacer aquí en lugar de una negación sería un
+
+75
+00:06:33,770 --> 00:06:43,730
+menor a cero en el caso de que el la búsqueda dentro de la RAI con el índex off sea menor a cero es
+
+76
+00:06:43,730 --> 00:06:51,590
+decir que no me dé ningún resultado que me diga que no existe realmente ese elemento pues entonces en
+
+77
+00:06:51,590 --> 00:06:57,800
+el caso de que no exista que me haga el push guardo actualizo la pantalla y ahora si me saca solamente
+
+78
+00:06:57,800 --> 00:07:04,190
+los tres elementos las tres marcas que estoy utilizando Yo si vuelvo a utilizar la misma marca en mi
+
+79
+00:07:04,190 --> 00:07:08,800
+componente valés y yo añado otro otra zapatilla por aquí
+
+80
+00:07:13,750 --> 00:07:17,450
+sea un archivo espartano
+
+81
+00:07:24,450 --> 00:07:32,230
+vaya yo le añado y como biodiversa la misma marca que yo tenía antes también yo ya tenía una marca Rivi
+
+82
+00:07:32,340 --> 00:07:37,740
+guardada pues solamente me va a añadir las marcas que sean únicas y que no existan generarlas perfecto.
+
+83
+00:07:37,800 --> 00:07:43,780
+Yo tengo mi a Rey montado de marcas ahora lo voy a mostrar con él en este foro en la vista.
+
+84
+00:07:43,890 --> 00:07:54,630
+Vale cómo lo puedo hacer de la siguiente manera voy a crear aquí un párrafo que diga compra las zapatillas
+
+85
+00:07:59,300 --> 00:08:02,230
+de las mejores marcas.
+
+86
+00:08:02,930 --> 00:08:08,990
+Vale cierro el hype y aquí voy a mostrar un listado también de marcas a hacer un muelle
+
+87
+00:08:12,910 --> 00:08:21,590
+Li y la honda M.G. Effort y voy a recorrer el Arráiz de marcas.
+
+88
+00:08:21,910 --> 00:08:28,800
+Vale me creánme la variable marca off en cada iteración que yo haga a marcas y aquí directamente muestro
+
+89
+00:08:28,800 --> 00:08:35,350
+la marca con las dobles llaves del Vinny por interpolación para imprimir un valor o una variable o una
+
+90
+00:08:35,350 --> 00:08:38,740
+propiedad en nuestra vista.
+
+91
+00:08:38,740 --> 00:08:42,430
+Muestro marca vale así de simple.
+
+92
+00:08:42,430 --> 00:08:48,620
+Lo hago aquí me dice que tengo un error porque no he cerrado algo bien 1 dentro de un párrafo claro.
+
+93
+00:08:48,670 --> 00:08:53,830
+Esto sería mejor cerrarlo por aquí el párrafo
+
+94
+00:08:56,470 --> 00:08:59,440
+y luego quedarme en la lista.
+
+95
+00:09:00,100 --> 00:09:03,650
+Guardo actualizo la pantalla y ahora sí que me deja.
+
+96
+00:09:03,770 --> 00:09:05,770
+A ver me dice que tengo un error
+
+97
+00:09:07,500 --> 00:09:10,220
+en 35
+
+98
+00:09:15,920 --> 00:09:20,400
+porque que me falta poner marca tengo que imprimir la marca vale.
+
+99
+00:09:20,450 --> 00:09:28,790
+Guardo actualizo la pantalla y ahora sí pues aquí me aparecen las marcas que yo tengo disponible y además
+
+100
+00:09:28,790 --> 00:09:35,310
+voy a ponerle un párrafo antes de esto que diga.
+
+101
+00:09:35,750 --> 00:09:45,650
+Las zapatillas las deportivas que tenemos disponibles son las siguientes.
+
+102
+00:09:45,680 --> 00:09:49,480
+Vale y aquí no aparecen vale.
+
+103
+00:09:49,530 --> 00:09:54,320
+Y también vamos a hacer otra cosa vamos a hacer otra condición para que solamente se muestre la zapatilla
+
+104
+00:09:54,320 --> 00:09:55,710
+que están en stock.
+
+105
+00:09:55,730 --> 00:10:04,190
+De acuerdo vale dentro de aquí yo podría crearme un chip ponerle un NG ir del stock
+
+106
+00:10:06,940 --> 00:10:07,700
+cierro el chip
+
+107
+00:10:10,550 --> 00:10:14,930
+guardo actualizo la pantalla y ahora si que me deja.
+
+108
+00:10:14,930 --> 00:10:20,630
+Y efectivamente me muestra sólo las que están en esto qué pasa que hay alguno que no está en stock entonces
+
+109
+00:10:20,630 --> 00:10:22,020
+me lo muestra en blanco.
+
+110
+00:10:22,040 --> 00:10:34,520
+Cómo podríamos mejorar esto en lugar de tener que hacer un día entero y que nos muestren solamente las
+
+111
+00:10:34,520 --> 00:10:41,330
+que están en stock y la otra no la deje en blanco realmente y no eso no esté ahí molestando lo que podríamos
+
+112
+00:10:41,330 --> 00:10:46,010
+hacer sería tachar el nombre de la que no esté en stock.
+
+113
+00:10:46,010 --> 00:10:49,580
+De acuerdo podemos hacer aquí un spam también
+
+114
+00:10:52,850 --> 00:10:55,860
+y hacerle el NG IFF.
+
+115
+00:10:56,760 --> 00:11:01,730
+En el caso de que deportiva no esté en stock lo que vamos a hacer va a ser tacharlo cómo lo vamos a
+
+116
+00:11:01,730 --> 00:11:08,600
+hacer con una propiedad está ahí para tacharlo vamos a utilizar una propiedad está el punto más bien
+
+117
+00:11:08,600 --> 00:11:16,700
+que vamos a utilizar una directiva en el Gestal directiva atributo vale y yo aquí le pongo la condición
+
+118
+00:11:16,730 --> 00:11:26,600
+pero dentro de mi objeto Jayson vale se lo voy a poner aquí voy a poner la propiedad CCS text decorativo
+
+119
+00:11:28,520 --> 00:11:29,540
+y le voy a poner
+
+120
+00:11:33,090 --> 00:11:33,540
+Lyne
+
+121
+00:11:36,890 --> 00:11:41,800
+guión cero vale para tachar
+
+122
+00:11:45,380 --> 00:11:53,380
+ese texto y solamente quiero que se tache cuando se cumpla una condición Baler y la condición se lamento
+
+123
+00:11:53,380 --> 00:12:06,050
+por aquí cuando deportiva no esté en stock pues entonces le pongo el tachado y en el caso de que no
+
+124
+00:12:06,140 --> 00:12:11,040
+le pongo relation no le vale ya.
+
+125
+00:12:14,060 --> 00:12:18,770
+Vale mostrar el valor línea cero en el caso de que no se de que se cumpla esa condición y en el caso
+
+126
+00:12:18,770 --> 00:12:21,790
+de que no muestro no si guardo y autorizo la pantalla.
+
+127
+00:12:21,800 --> 00:12:28,750
+Efectivamente las deportivas que tenemos disponibles son éstas y la que no está tachada.
+
+128
+00:12:29,350 --> 00:12:37,320
+Okey así que ya hemos visto cómo hacer otra condición y hemos visto más cositas acerca del NG y del
+
+129
+00:12:37,440 --> 00:12:44,980
+NG for y otra cosa también que es interesante de ver es que nosotros podemos acceder al índice de un
+
+130
+00:12:44,990 --> 00:12:48,290
+array al inicio del elemento de la red que estamos recorriendo.
+
+131
+00:12:48,330 --> 00:12:55,170
+Cómo podemos hacer eso poniendo aquí punto y coma en el NG for y poniendo LED índice o como quieras
+
+132
+00:12:55,230 --> 00:12:58,530
+y darle un valor indexado en el valor de índex.
+
+133
+00:12:58,800 --> 00:13:07,170
+Entonces yo ahora puedo mostrar índice donde yo quiera decir puedo mostrar aparte de marca.
+
+134
+00:13:07,170 --> 00:13:08,470
+Puedo concatenar aquí.
+
+135
+00:13:08,480 --> 00:13:09,040
+índice
+
+136
+00:13:12,020 --> 00:13:16,030
+y0 concatena como si estuviéramos en JavaScript normal.
+
+137
+00:13:16,080 --> 00:13:24,270
+Actualizo la pantalla y aquí me aparece 0 1 2 y accedo al índice que tengo en mi elemento que se está
+
+138
+00:13:24,270 --> 00:13:30,750
+recorriendo actualmente en el array de acuerdo al índice cero es Nick el índice uno es libre y el índice
+
+139
+00:13:30,750 --> 00:13:37,620
+2 es Adidas con lo cual ya hemos practicado con el NG effort con el NG IFF y con las propiedades NGS
+
+140
+00:13:37,740 --> 00:13:41,250
+Tail y con las propiedades de atributo también.

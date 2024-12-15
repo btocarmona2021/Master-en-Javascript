@@ -1,0 +1,831 @@
+1
+00:00:00,380 --> 00:00:06,210
+Hoy vamos a hablar acerca de angular 9 y te voy a explicar sus novedades cómo se instala y qué pasos
+
+2
+00:00:06,210 --> 00:00:11,190
+habría que seguir para realizar la actualización de un proyecto que ya tengamos con angular Hoch así
+
+3
+00:00:11,190 --> 00:00:16,040
+que vamos a estar hablando acerca de este fin tan interesante y sobretodo lo principal de este video
+
+4
+00:00:16,060 --> 00:00:18,230
+que vivenciar como instalarlo y sus novedades.
+
+5
+00:00:18,240 --> 00:00:22,770
+Vale bien hace un par de días salió una versión de angular 9 que la nueva versión de angular como ya
+
+6
+00:00:22,770 --> 00:00:27,630
+sabe angular es un frijol S.p.A un frijol para JavaScript súper súper interesante que nos va a permitir
+
+7
+00:00:27,630 --> 00:00:32,580
+hacer aplicaciones web S.p.A aplicación en web de una sola página que no recargan la pantalla en ningún
+
+8
+00:00:32,580 --> 00:00:38,010
+momento y que todo es asíncrono todo va por Ayax la interacción con el usuario es súper súper reactiva
+
+9
+00:00:38,010 --> 00:00:41,350
+hacia un cambio en el formulario y se cambia el modelo de dato.
+
+10
+00:00:41,450 --> 00:00:45,380
+Ir navegando por las diferentes wereables sin recargar la pantalla realmente.
+
+11
+00:00:45,450 --> 00:00:51,580
+En fin es increíble y es el frijol más poderoso que hay para aullaba parte de este tipo de aplicaciones
+
+12
+00:00:51,630 --> 00:00:56,810
+vale pues bueno acaba de salir la nueva versión de angular y como siempre la gente se empieza a alarmar.
+
+13
+00:00:56,820 --> 00:01:02,310
+Madre mía la nueva versión de angular va a romper todo el código como pasaba antes etcétera y no realmente
+
+14
+00:01:02,310 --> 00:01:07,800
+esta nueva versión de angulas no representa un cambio grande ni un cambio significativo con respecto
+
+15
+00:01:07,800 --> 00:01:08,970
+a la versión anterior.
+
+16
+00:01:09,060 --> 00:01:15,410
+Es decir todo el código que tengamos hecho con angular 8 es totalmente compatible con la versión 9 Malet.
+
+17
+00:01:15,450 --> 00:01:21,660
+No hay cambios de sintaxis por lo cual la migración de una versión a otra va a ser muy fácil y no vamos
+
+18
+00:01:21,660 --> 00:01:23,050
+a tener ningún tipo de problema.
+
+19
+00:01:23,060 --> 00:01:24,240
+Vale eso para empezar.
+
+20
+00:01:24,240 --> 00:01:30,000
+Simplemente calmate porque no va a haber nada que rompa el código ni va a haber nada que sea un cambio
+
+21
+00:01:30,000 --> 00:01:36,930
+radical básicamente si sabes programar ya con angular 8 y prácticamente de la versión 4 en adelante
+
+22
+00:01:37,140 --> 00:01:43,980
+el código es igual en angular 4 en el 5 en el 6 en el 7 y en el 8 y en el 9 también así que no te preocupes
+
+23
+00:01:43,980 --> 00:01:48,450
+si ya sabes programar con angular si ya sabes hacer desarrollo busca un angular que te lo enseñen todo
+
+24
+00:01:48,450 --> 00:01:52,520
+mi curso que te estará enlazando por aquí en la descripción de este video etcétera.
+
+25
+00:01:52,530 --> 00:01:56,700
+Pues ya sabe programar y trabajar con angular no te tienes que preocupar por nada porque simplemente
+
+26
+00:01:56,700 --> 00:02:01,290
+una nueva actualización pero que no representa cambios de sintaxis y que no va a cambiar nuestra forma
+
+27
+00:02:01,290 --> 00:02:06,110
+de trabajar ni nada vale entonces te voy a explicar cuáles son las novedades.
+
+28
+00:02:06,150 --> 00:02:11,100
+He creado un artículo aquí en mi blog en el cual especifico todas las novedades los pasos de instalación
+
+29
+00:02:11,340 --> 00:02:16,200
+actualización etcétera vale pero bueno te lo voy a comentar por encima de las novedades lo primero es
+
+30
+00:02:16,200 --> 00:02:21,900
+que no te alarmes porque si sabe angular 8 ya sabe angular 9 y tu aplicación hecha en angular 8 seguirán
+
+31
+00:02:21,900 --> 00:02:27,360
+funcionando a la perfección aunque actualizada la versión 9 eso para empezar el código es el mismo todo
+
+32
+00:02:27,360 --> 00:02:30,300
+es igual a nivel sintáctico o a nivel de sintaxis.
+
+33
+00:02:30,570 --> 00:02:36,180
+Ahora bien angula 9 3 algunas novedades que no son muy grandes no son muy radicales pero son novedades
+
+34
+00:02:36,180 --> 00:02:38,100
+que pueden ser interesantes.
+
+35
+00:02:38,130 --> 00:02:43,560
+La primera novedad como específico aquí en el artículo es que trae un nuevo compilador el compilador
+
+36
+00:02:43,670 --> 00:02:48,600
+Ivy y este compilador básicamente hace que los proyectos de angula sean menos pesados y más rápidos.
+
+37
+00:02:48,600 --> 00:02:53,550
+Vale como estoy edificando aquí el compilador ha sido mejorado muchísimo angular Celebi la herramienta
+
+38
+00:02:53,550 --> 00:02:56,840
+al final también ha sido mejorada gracias a este nuevo compilador.
+
+39
+00:02:56,940 --> 00:03:01,600
+También hay mejoras de rendimiento general y a nivel interno del framework también gracias a Ivy.
+
+40
+00:03:01,680 --> 00:03:07,680
+Es decir el fring ahora es más rápido menos pesado más optimizado vale la aplicaciones como ya he dicho
+
+41
+00:03:07,680 --> 00:03:13,510
+ahora pesan menos tienen mejor compresión y son más rápidas en general gracias también al nuevo compilador.
+
+42
+00:03:13,560 --> 00:03:17,080
+También se han hecho mejoras a la hora de empaquetar una aplicación para producción.
+
+43
+00:03:17,080 --> 00:03:22,080
+Eso no lo he puesto aquí pero también gracias a Ivia este nuevo compilador se ha incluido este tipo
+
+44
+00:03:22,080 --> 00:03:22,600
+de mejora.
+
+45
+00:03:22,600 --> 00:03:27,360
+También se han hecho mejoras en el debugging y en los errores de compilación y ahora es mucho más fácil
+
+46
+00:03:27,570 --> 00:03:32,810
+identificar en qué línea de código tiene un fallo o un error de código vale antes muchas veces.
+
+47
+00:03:32,950 --> 00:03:37,140
+Y una de las dudas que siempre tienen los alumnos es cómo identificar un fallo que me aparece en la
+
+48
+00:03:37,140 --> 00:03:40,230
+consola en el navegador o por la consola DPM etcétera.
+
+49
+00:03:40,260 --> 00:03:43,740
+Me parece hay un error y no sé identificar bien dónde está el fallo.
+
+50
+00:03:43,750 --> 00:03:48,210
+Bueno esto el equipo de angular es consciente de que esto pasa de que la gente cuesta identificar los
+
+51
+00:03:48,210 --> 00:03:53,870
+fallos etcétera y ahora cada vez en cada nueva actualización es más fácil de jugar una aplicación es
+
+52
+00:03:53,880 --> 00:03:58,980
+más fácil encontrar un error de compilación es más fácil encontrar los errores en el código y esto es
+
+53
+00:03:58,980 --> 00:04:01,460
+una pequeña mejora que se ha incluido en la nueva versión.
+
+54
+00:04:01,650 --> 00:04:06,060
+Luego también hay mejoras de rendimiento en el binding de clase y estilo vale esto lo han mejorado también
+
+55
+00:04:06,060 --> 00:04:07,330
+para que sea más rápido.
+
+56
+00:04:07,410 --> 00:04:12,690
+Este binding de clase binding destiló el trabajo y la interacción con el DOM para que sea más rápida
+
+57
+00:04:12,690 --> 00:04:16,020
+y funcione mejor también es un cambio a nivel interno por lo general.
+
+58
+00:04:16,050 --> 00:04:21,540
+También han hecho mejoras en la herramienta de internacionalización y también han hecho mejoras para
+
+59
+00:04:21,540 --> 00:04:26,460
+la migración de proyecto hechos con versiones anteriores de angular de acuerdo han mejorado la forma
+
+60
+00:04:26,460 --> 00:04:31,080
+de empaquetar nuestro proyecto para ponerlo en producción etc..
+
+61
+00:04:31,110 --> 00:04:37,140
+Vale y en general no hay cambios de sintaxis simplemente son cambios a nivel de rendimiento y de pequeños
+
+62
+00:04:37,200 --> 00:04:40,510
+detalles que han ido puliendo la corrección de Bax también etcétera.
+
+63
+00:04:40,580 --> 00:04:45,480
+Y básicamente estas son las novedades más importantes que trae angular 9 y bueno una vez que ya sabemos
+
+64
+00:04:45,480 --> 00:04:47,790
+las novedades vamos a pasar a la instalación.
+
+65
+00:04:47,790 --> 00:04:52,510
+Vale que en el artículo específico como se instale y tal pero bueno vamos a hacerlo paso a paso.
+
+66
+00:04:52,530 --> 00:04:58,470
+Aquí vale el primer paso para hacer la instalación de angular 9 y para instalar angular es lo primero
+
+67
+00:04:58,470 --> 00:05:05,560
+de todo y es que tenemos que tener no DJs instalado en nuestro equipo y debemos tenerlo lo más autorizado
+
+68
+00:05:05,560 --> 00:05:10,420
+posible para ello deberemos entrar a no DJ de ese punto R.G. que se está Witte aquí y descargarlo en
+
+69
+00:05:10,440 --> 00:05:11,760
+la versión LTS.
+
+70
+00:05:11,760 --> 00:05:12,040
+Vale.
+
+71
+00:05:12,040 --> 00:05:17,650
+Nos descargamos la versión LTS guardamos el archivo y ejecutamos el instalador le damos a aceptar le
+
+72
+00:05:17,650 --> 00:05:18,600
+damos a Siguiente.
+
+73
+00:05:18,670 --> 00:05:21,030
+Aceptamos los términos de licencia siguiente.
+
+74
+00:05:21,280 --> 00:05:22,350
+Esto lo dejamos tal cual.
+
+75
+00:05:22,350 --> 00:05:25,240
+Siguiente todo esto también lo dejamos tal cual.
+
+76
+00:05:25,240 --> 00:05:30,910
+Siguiente esto no le tocamos a nada no necesitamos nada de esto le damos a siguiente y ya sería darle
+
+77
+00:05:30,910 --> 00:05:33,540
+a instalar y esperar a que se instalara.
+
+78
+00:05:33,540 --> 00:05:39,160
+No DJs ya sabes que no hay DJs en la plataforma que nos va a permitir pues no solamente trabajar con
+
+79
+00:05:39,160 --> 00:05:45,160
+un Bakken no llegues y con JavaScript sino que también nos va a permitir tener un gestor de paquetes
+
+80
+00:05:45,160 --> 00:05:50,770
+para JavaScript que nos va a permitir gestionar paquetes y dependencias dentro de los proyectos que
+
+81
+00:05:50,860 --> 00:05:56,860
+hagamos con JavaScript o con cualquier Fring para JavaScript como el caso de angulas vale entonces simplemente
+
+82
+00:05:56,860 --> 00:06:01,480
+vamos a esperar a que nos instalen no DJs y ahora continuamos con los siguientes pasos que acaba de
+
+83
+00:06:01,480 --> 00:06:06,820
+terminar la iteración de notas así que voy a darle AFIS y ya lo tenemos instalado vale para comprobar
+
+84
+00:06:06,820 --> 00:06:12,490
+que tenemos no DJs vamos a abrir nuestro CMD nuestro símbolo del sistema simplemente si tú no lo tienes
+
+85
+00:06:12,490 --> 00:06:14,390
+claro no tiene un acceso directo.
+
+86
+00:06:14,410 --> 00:06:20,470
+Escribe cmd y abre el símbolo el sistema vale y te aparecerá una consola parecida a ésta y aquí ya podemos
+
+87
+00:06:20,470 --> 00:06:21,870
+empezar a ejecutar comando.
+
+88
+00:06:21,940 --> 00:06:27,850
+Si queremos saber la versión que tenemos de Node ejecutamos no de menos versión y me parece que tengo
+
+89
+00:06:27,850 --> 00:06:33,880
+las 12.15 .0 que es la LTS que tengo en este momento disponible para utilizar.
+
+90
+00:06:33,880 --> 00:06:39,820
+Vale bien una vez que tenemos DJs ya podemos continuar con la instalación de angulas vale el paso número
+
+91
+00:06:39,820 --> 00:06:45,820
+2 que deberíamos hacer es actualizar MPM que es el gestor de paquetes de Node para bajar las dependencias
+
+92
+00:06:45,950 --> 00:06:46,570
+actuales.
+
+93
+00:06:46,600 --> 00:06:52,790
+Vale para hacer esto vamos a ejecutar el comando en MPM Nistal menos que lo que va a hacer es que instala
+
+94
+00:06:52,790 --> 00:06:57,560
+esto de manera global en el equipo y vamos a hacer RPM arroba.
+
+95
+00:06:57,650 --> 00:07:03,670
+Este Balestra lo que hace es bajarse la última versión del gestor de paquetes y dependencia así que
+
+96
+00:07:03,670 --> 00:07:09,310
+le voy a dar a Enter y me espero que me lo actualicen bien el siguiente paso es borrar la caché de RPM
+
+97
+00:07:09,310 --> 00:07:15,960
+con el comando RPM caché Clean menos menos Force.
+
+98
+00:07:16,000 --> 00:07:21,940
+Esto es lo que va a hacer básicamente borrar la caché de RPM para así descargarse los paquetes más actualizados
+
+99
+00:07:21,940 --> 00:07:26,630
+posible es decir que cuando yo me instale angular se descargue siempre la dependencia y paquetes más
+
+100
+00:07:26,620 --> 00:07:31,270
+actualizados posible así que voy a dar a Enter y espero que me dure la caché.
+
+101
+00:07:31,270 --> 00:07:32,710
+Listo ya lo tengo borrado.
+
+102
+00:07:32,830 --> 00:07:35,770
+Ahora el siguiente paso es desactivar la auditoria de pm.
+
+103
+00:07:35,770 --> 00:07:40,980
+Para ello voy a ejecutar el comando en MPM set Audit false.
+
+104
+00:07:41,050 --> 00:07:43,540
+Le damos a enter y listo.
+
+105
+00:07:43,540 --> 00:07:48,340
+Bien ahora lo siguiente que debemos hacer el paso número 5 es de citaran los paquetes anteriores de
+
+106
+00:07:48,340 --> 00:07:53,860
+angular Celebi es decir si tú ya has estado utilizando angular en versiones anteriores y Ital pues posiblemente
+
+107
+00:07:53,860 --> 00:07:57,130
+tenga los paquetes de angular CDI ya instalados en tu equipo.
+
+108
+00:07:57,130 --> 00:08:02,700
+Por tanto cuando vayas a crear un nuevo proyecto te lo va a instalar con la versión anterior de angulas
+
+109
+00:08:02,710 --> 00:08:07,010
+si tenían la 8 en la otra y si tenía otras anteriores pues otra anterior.
+
+110
+00:08:07,060 --> 00:08:16,960
+Entonces lo que voy a hacer va a ser ejecutar MPM uniste al menos G angular guión Cellay que es una
+
+111
+00:08:16,960 --> 00:08:19,380
+de las versiones antiguas del almuerce ley.
+
+112
+00:08:19,750 --> 00:08:27,150
+Igualmente voy a ejecutar en MPM un tal menosque arroba angular barra Cellay.
+
+113
+00:08:27,520 --> 00:08:32,290
+Esto es lo que va a hacer básicamente de instalarme mi versión antigua de angular Fellay o la versión
+
+114
+00:08:32,290 --> 00:08:38,120
+de angular Cellay que tenga como vemos aquí nos dice que ha borrado 261 paquetes de angulas.
+
+115
+00:08:38,270 --> 00:08:41,890
+Vale ok en este punto vamos a ejecutar el comando CLS.
+
+116
+00:08:41,890 --> 00:08:48,660
+Si estás en Windows o Clear si estás en Mac y Linux vale para limpiar la consola una vez hecho esto
+
+117
+00:08:48,680 --> 00:08:53,080
+lo que vamos a hacer para que no se produzca ningún tipo de fallo borrar la caché de MPM de nuevo.
+
+118
+00:08:53,080 --> 00:09:03,460
+Vamos a ejecutar el comando en MPM cache clean menu menos Force para que me limpie la cache y me pueda
+
+119
+00:09:03,460 --> 00:09:05,890
+descargar los paquetes más limpios posible.
+
+120
+00:09:05,980 --> 00:09:11,910
+Entonces para instalar la última versión de angular C leí que me va a permitir instalar angular 9 en
+
+121
+00:09:11,920 --> 00:09:18,280
+mi equipo lo que tengo que hacer es ejecutar el comando LPM install menos G para que me Istar el paquete
+
+122
+00:09:18,400 --> 00:09:24,040
+de forma global y poder utilizar los comandos de angulas de forma global en mi equipo y traer el paquete
+
+123
+00:09:24,130 --> 00:09:28,220
+arroba angular barra Cellay arroba.
+
+124
+00:09:28,690 --> 00:09:30,920
+Es decir el último paquete que exista.
+
+125
+00:09:31,100 --> 00:09:36,100
+De esta manera oboísta la versión más actualizada de angular celeb le doy a Enter y me la va a instalar
+
+126
+00:09:36,670 --> 00:09:39,280
+en un momento.
+
+127
+00:09:39,280 --> 00:09:45,050
+Esto puede tardar un poco dependiendo de tu conexión a Internet y la velocidad de tu equipo listo ya
+
+128
+00:09:45,060 --> 00:09:47,880
+ha terminado de instalar angular Zelaia en su última versión.
+
+129
+00:09:47,880 --> 00:09:53,410
+Como vemos la versión de angulos elegir la 9.0 punto 1 es decir la última evidentemente se puede especificar
+
+130
+00:09:53,410 --> 00:09:57,760
+una versión exacta de angular CL y cómo podría hacer eso.
+
+131
+00:09:57,790 --> 00:10:05,120
+De esta manera podrías poner aquí 9.0 punto 1 y de esta manera me instalaría justamente angular CDI
+
+132
+00:10:05,130 --> 00:10:12,260
+para cierta versión de angular o 9 punto asterisco vale y de esa manera me instalaría la 9 punto lo
+
+133
+00:10:12,270 --> 00:10:15,950
+que fuera vale eso se podría se podría hacer sin ningún tipo de problema.
+
+134
+00:10:15,960 --> 00:10:21,300
+Vale bien ya tenemos instalado y actualizado angular Cele y por tanto ya estamos preparados para instalar
+
+135
+00:10:21,300 --> 00:10:26,320
+angular y generar un proyecto nuevo de angular vale para ello yo te recomiendo que te mueva dentro de
+
+136
+00:10:26,310 --> 00:10:30,270
+tu sistema operativo a la carpeta donde tú suras trabajar con los proyectos web.
+
+137
+00:10:30,280 --> 00:10:35,400
+Vale yo en mi caso suelo trabajar en concreto en una carpeta donde tengo todos mis proyectos web etcétera
+
+138
+00:10:35,640 --> 00:10:43,110
+así que me voy a mover a esa carpeta voy a hacer CD se 2.El barra Guasp 64 barra 3 W.
+
+139
+00:10:43,110 --> 00:10:47,820
+Yo me voy a mover aquí a este directorio pero tú puedes moverte a la carpeta que tú quieras como si
+
+140
+00:10:47,820 --> 00:10:53,010
+quieres ir al escritorio como si quieres irte a cualquier directorio carpeta de tu sistema operativo
+
+141
+00:10:53,310 --> 00:10:57,940
+donde tú estés trabajando normalmente con los proyectos web o donde quiera instalar angular.
+
+142
+00:10:57,940 --> 00:11:00,970
+Yo en mi caso quiero instalar angular en esta carpeta.
+
+143
+00:11:01,110 --> 00:11:07,050
+Por tanto aquí voy a ejecutar el comando NG News que el comando NG New es el que me permite instalar
+
+144
+00:11:07,050 --> 00:11:07,890
+angular.
+
+145
+00:11:07,890 --> 00:11:13,710
+Paso a paso vale me va a generar me va a sacar un asistente que me va a permitir ir dándole los diferentes
+
+146
+00:11:13,710 --> 00:11:19,790
+valores de configuración a mi nuevo proyecto de ãngulo entonces simplemente ejecutamos NGN un día entero
+
+147
+00:11:19,840 --> 00:11:21,570
+y seguimos los pasos del asistente.
+
+148
+00:11:21,600 --> 00:11:26,670
+Aquí me está preguntando qué nombre quiero que tenga el proyecto pues le voy a poner por ejemplo proyecto
+
+149
+00:11:26,670 --> 00:11:33,060
+guión angular 9 por ejemplo Ledia Center me pregunta que si quiero añadir el angular routing ya y le
+
+150
+00:11:33,060 --> 00:11:37,490
+voy a decir que no es la configuración más recomendable para no tener ningún tipo de problema.
+
+151
+00:11:37,500 --> 00:11:42,360
+Luego me pregunta qué tipo de formato de hoja de estilos quiere usar en este caso te da para elegir
+
+152
+00:11:42,360 --> 00:11:47,400
+varios formatos de hoja de estilo pero en mi caso te recomiendo que le dé a Enter directamente para
+
+153
+00:11:47,400 --> 00:11:54,210
+elegir CSS nativo LeBeau enter y ahora mismo ya me está generando todo lo archivo y todo el café Eldin
+
+154
+00:11:54,230 --> 00:11:58,770
+básico ya me ha creado ya me he creado todos los archivos básicos del Flamengo la estructura básica
+
+155
+00:11:58,770 --> 00:12:03,730
+de un proyecto para empezar a trabajar y ahora lo que está haciendo es instalarme todos los paquetes
+
+156
+00:12:04,140 --> 00:12:09,600
+y dependencias necesarias para que el frijol funcione librerías quetener frijol por debajo del paquete
+
+157
+00:12:09,810 --> 00:12:14,550
+que necesita el frijol para funcionar y el mismo Feingold trabajando está bajando para generar un proyecto
+
+158
+00:12:14,620 --> 00:12:19,200
+entonces bueno ya tengo mi proyecto angular instalado en una carpeta en qué carpeta lo tengo instalado
+
+159
+00:12:19,220 --> 00:12:26,820
+pues en la carpeta CD ejecutar ese comando y voy a entrar a la carpeta del proyecto guión angular 9
+
+160
+00:12:27,260 --> 00:12:33,800
+vale dentro y dentro y administrado si hago L.S. aquí no lo puedo hacer porque estoy en Windows pero
+
+161
+00:12:33,810 --> 00:12:39,320
+si hago dir voy a ver que tengo todas las carpetas y directorio de angulos vale tengo la carpeta src
+
+162
+00:12:39,330 --> 00:12:42,550
+que en la carpeta clásica donde va todo el código de angular etcétera.
+
+163
+00:12:42,570 --> 00:12:47,880
+Vale aquí tengo la carpeta del proyecto todo esto es un archivo de configuración Ital de angula de la
+
+164
+00:12:47,880 --> 00:12:53,700
+carpeta de 9 módulo donde se han descargado todos los paquetes y dependencias del Frankfort y luego
+
+165
+00:12:53,700 --> 00:12:57,540
+tengo la carpeta src que es donde mayormente vamos a estar trabajando vale.
+
+166
+00:12:57,720 --> 00:13:04,110
+Aquí tenemos Hynde HTML que es el HTML principal donde aquí se carga toda la aplicación del Vale.
+
+167
+00:13:04,170 --> 00:13:10,200
+Luego tenemos también en la carpeta Peppe tenemos un componente ya generado que es el componente a Pepe
+
+168
+00:13:10,200 --> 00:13:15,450
+con poner un punto y aparte del módulo principal y aquí en este componente sí lo hablo con cualquier
+
+169
+00:13:15,450 --> 00:13:16,320
+editor de código.
+
+170
+00:13:16,350 --> 00:13:21,330
+Tengo una vista adjunta una hoja de estilo el selector o la etiqueta que se va a utilizar el título
+
+171
+00:13:21,330 --> 00:13:21,990
+del proyecto.
+
+172
+00:13:21,990 --> 00:13:33,180
+Puedo cambiar el título por ejemplo proyecto con angular 9 y Víctor Robles por ejemplo guardo esto y
+
+173
+00:13:33,180 --> 00:13:40,680
+ahora lo vamos a ver cuando arranquemos el proyecto y tengo también la vista con la template donde tengo
+
+174
+00:13:40,680 --> 00:13:41,430
+un montón de cosas.
+
+175
+00:13:41,430 --> 00:13:46,730
+Tengo estilo CSS ya preconcebidos que me trae aquí angular 9.
+
+176
+00:13:46,770 --> 00:13:50,890
+Tengo un montón de código que va a ser la página de bienvenida que vamos a ver ahora.
+
+177
+00:13:50,910 --> 00:13:56,400
+Vale entonces una vez hecho esto y comprobado que tenemos todos estos archivos hay disponibles en la
+
+178
+00:13:56,400 --> 00:14:02,340
+carpeta había generado angular Cele pues ya voy a ejecutar un comando que es el comando NG server.
+
+179
+00:14:02,400 --> 00:14:07,650
+Ojo al dato este comando tienes que ejecutarlo dentro de la carpeta del proyecto que tú hayas generado
+
+180
+00:14:07,650 --> 00:14:14,250
+con Angulo herbales dentro de esa instalación que ha generado angular 9 donde dará enter y esto va a
+
+181
+00:14:14,400 --> 00:14:20,010
+arrancarme el compilador para que vaya compilando todos los archivos de Dib escribe todos los archivos
+
+182
+00:14:20,010 --> 00:14:26,370
+del fring y vaya generando los proyecto y además me va a arrancar el server que me va a permitir que
+
+183
+00:14:26,370 --> 00:14:31,470
+la pantalla cada vez que lleva un cambio se actualice sola etcétera vale y además me va a montar un
+
+184
+00:14:31,470 --> 00:14:33,860
+servidor web local para trabajar con angular.
+
+185
+00:14:33,860 --> 00:14:39,540
+Entonces espero un poquillo me lo acaba de comprar todo por primera vez y tengo esta wereables disponible.
+
+186
+00:14:39,570 --> 00:14:47,820
+Vale que es que el juego 4200 entonces la voy a abrir por aquí en el navegador entro y éste es mi proyecto
+
+187
+00:14:47,920 --> 00:14:48,490
+angular 9.
+
+188
+00:14:48,510 --> 00:14:54,270
+Fíjate que me pone proyecto con angular nuevito roble que es lo que habíamos puesto antes en el componente
+
+189
+00:14:54,840 --> 00:15:00,810
+Pombero lo por aquí todo esto estilo que estamos viendo son estilos que vienen el componente principal
+
+190
+00:15:00,840 --> 00:15:06,870
+que se pueden borrar y esto es el HTML que trae con diferente ayuda como generar un componente nuevo
+
+191
+00:15:07,190 --> 00:15:10,790
+angular Celebi como instalar esto o lo otro vale.
+
+192
+00:15:11,010 --> 00:15:13,780
+Así que eso sería todo para instalar el Feingold.
+
+193
+00:15:13,800 --> 00:15:18,510
+Como ve muy fácil y muy sencillo simplemente siguiendo los pasos que he explicado y a partir de aquí
+
+194
+00:15:18,510 --> 00:15:23,650
+ya estamos listos para empezar a trabajar con angular y empezar a desarrollar nuestro proyecto con algún
+
+195
+00:15:23,650 --> 00:15:24,070
+vale.
+
+196
+00:15:24,240 --> 00:15:30,210
+Eso es lo que yo enseño en los diferentes cursos que tengo de angular y también te puedes estar preguntando
+
+197
+00:15:30,210 --> 00:15:33,460
+cómo puedo actualizar un proyecto de angular 8 angular 9.
+
+198
+00:15:33,490 --> 00:15:39,210
+Vale esto es muy fácil simplemente debemos ir a la carpeta de nuestro proyecto de angular 8 C de carpeta
+
+199
+00:15:39,250 --> 00:15:45,120
+un proyecto angular debemos actualizaban Gularte leí el corte de angular a la versión 8 final.
+
+200
+00:15:45,120 --> 00:15:51,000
+En el caso de que no tengamos actualizado esa versión ejecutamos este comando NG update arrobado angular
+
+201
+00:15:51,240 --> 00:15:57,780
+Felli arroba 8 y así igualmente con el Kord y luego actualizamos angular Cellay a la versión 9 que simplemente
+
+202
+00:15:57,840 --> 00:16:05,100
+ejecutando este comando NG update arroba angular barra Cellay y arroba angular barra Core y de esa manera
+
+203
+00:16:05,550 --> 00:16:10,010
+se actualiza el proyecto angular 8 angular 9 sin necesidad de hacer mucha cosa.
+
+204
+00:16:10,890 --> 00:16:16,050
+Y luego también en el caso de que esto funcione dejaré por ahí te dejaré un enlace también que será
+
+205
+00:16:16,050 --> 00:16:21,330
+el de la guía de la migración del proyecto de angular a su última versión que es un documento un poco
+
+206
+00:16:21,330 --> 00:16:26,760
+más extenso explicando diferentes cosas para actualizar un proyecto de angular a su última versión y
+
+207
+00:16:27,030 --> 00:16:31,070
+con esto ya hemos visto las novedades la instalación y la actualización angular.
+
+208
+00:16:31,110 --> 00:16:31,470
+9.

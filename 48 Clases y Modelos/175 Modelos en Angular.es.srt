@@ -1,0 +1,527 @@
+1
+00:00:00,480 --> 00:00:05,940
+Me ha quedado decía antes que el archivo de configuración que hemos creado aquí o sea realmente se puede
+
+2
+00:00:05,940 --> 00:00:10,860
+llamar como quiera y puede estar en cualquier parte del directorio a PP para utilizarlo como y donde
+
+3
+00:00:10,860 --> 00:00:12,590
+tú quieras.
+
+4
+00:00:12,660 --> 00:00:18,160
+Ahora vamos a crear un modelo de datos de acuerdo cuando tenemos un componente por ejemplo de este componente
+
+5
+00:00:18,160 --> 00:00:23,850
+de zapatillas pues lo normal es que estemos trabajando con una entidad de tipo zapatilla de acuerdo
+
+6
+00:00:23,850 --> 00:00:30,900
+que sea pues una clase que tenga varias propiedades que sean los datos que va a tener cada uno de los
+
+7
+00:00:30,900 --> 00:00:37,550
+objetos de zapatilla un modelo de una entidad puede tener en este caso como estamos trabajando con zapatillas
+
+8
+00:00:37,760 --> 00:00:48,000
+puede tener una marca un color un nombre un precio de acuerdo puede tener esos datos de acuerdo entonces
+
+9
+00:00:48,000 --> 00:00:53,400
+vamos a crear un objeto que va ser una estructura básica con todos los campos o con todas las propiedades
+
+10
+00:00:53,400 --> 00:00:58,830
+que va a tener cada uno de los objetos de ese tipo de entidad concreta de zapatillas para qué lo vamos
+
+11
+00:00:58,830 --> 00:01:04,980
+a hacer para utilizarlo como mueble para crear nuevos objetos y estar trabajando de manera correcta
+
+12
+00:01:06,990 --> 00:01:08,940
+con los objetos y con todo esto.
+
+13
+00:01:09,390 --> 00:01:14,430
+Entonces vamos a cerrar los archivos que hemos estado utilizando antes y dentro de la carpeta Models
+
+14
+00:01:14,710 --> 00:01:23,990
+me voy a crear un nuevo archivo ni un fail controles y se va a llamar zapatilla apuntó.
+
+15
+00:01:24,360 --> 00:01:31,950
+Lo normal es que cuando creamos un modelo tenga un nombre en singular porque ese modelo va a representar
+
+16
+00:01:32,010 --> 00:01:33,330
+a un solo objeto.
+
+17
+00:01:33,330 --> 00:01:38,940
+No va a representar a muchos objetos con lo cual con lo cual si yo me creo solamente la clase o el archivo
+
+18
+00:01:38,970 --> 00:01:44,460
+con el nombre en singular va a representar correctamente a un solo objeto porque lo vamos a estar utilizando
+
+19
+00:01:44,460 --> 00:01:46,880
+como molde para crear otro objeto.
+
+20
+00:01:46,950 --> 00:01:55,770
+Entonces voy a quedarme en una clase para mi entidad de zapatilla vale voy a decir Esport para exportar
+
+21
+00:01:55,770 --> 00:02:01,410
+la clase y poder utilizarla e importarla en otros archivos de mi proyecto es por clase y le pongo un
+
+22
+00:02:01,410 --> 00:02:08,700
+nombre en este caso zapatillas lo normal que tiene una clase de un modelo de datos son una serie de
+
+23
+00:02:08,700 --> 00:02:18,060
+propiedades por ejemplo la propiedad una propiedad que sea el nombre que va a ser una string podríamos
+
+24
+00:02:18,060 --> 00:02:29,270
+tener también una propiedad pública que también sea el precio que será un Amber tendríamos otra que
+
+25
+00:02:29,270 --> 00:02:39,890
+sería la marca sería un string otra que sea el color que también sea una string y podríamos tener otra
+
+26
+00:02:39,890 --> 00:02:49,120
+propiedad que fuera stock y por ejemplo podríamos decir que es un volcán y luego ponerle Truong.
+
+27
+00:02:49,160 --> 00:02:54,800
+Entonces tenemos nuestras propiedades definidas de esta manera vale hemos definido nuestras propiedades.
+
+28
+00:02:54,800 --> 00:03:01,430
+Otra cosa que tendría un objeto de este tipo una clase de este tipo para un modelo sería un constructor
+
+29
+00:03:03,110 --> 00:03:13,820
+vale en el cual yo voy a pasarle por parametro cada uno de esas propiedades nombre marca color precio
+
+30
+00:03:14,030 --> 00:03:20,380
+estoc valen dos cuando yo creé mi objeto voy a tener que pasarle por parámetro cada una de esas propiedades.
+
+31
+00:03:20,870 --> 00:03:26,420
+Entonces luego dentro de mi constructor le tengo que asignó un valor a nombre del valor que tenga nombre
+
+32
+00:03:26,480 --> 00:03:33,290
+le tengo que asignar un valor a MARCA el valor que tenga marca que asigna un valor a la propiedad color
+
+33
+00:03:33,380 --> 00:03:41,480
+el valor que tenga color le tengo que asignar un valor a precio el valor que tenga el precio le tengo
+
+34
+00:03:41,480 --> 00:03:48,700
+que asignar un valor a stock el valor que tenga stock y así sucesivamente.
+
+35
+00:03:48,800 --> 00:03:53,950
+Ya tengo mi modelo definido o sea esto está correcto realmente pero si te das cuenta en mucho código
+
+36
+00:03:53,950 --> 00:03:57,640
+es código muy redundante repitiendo siempre lo mismo nombre etcétera.
+
+37
+00:03:57,650 --> 00:04:03,220
+Entonces para esto Taipe scrip tiene varias cosas que nos permiten hacerlo mucho más fácil y más rápido.
+
+38
+00:04:03,260 --> 00:04:11,590
+Voy a comentar esto vale entonces esto mismo que hemos hecho el definir una propiedad pasarla como un
+
+39
+00:04:11,590 --> 00:04:13,010
+parámetro y asignarle un valor.
+
+40
+00:04:13,010 --> 00:04:19,370
+No lo podemos cargar de una sola tacada poniendo lo siguiente constructor y definiendo las propiedades
+
+41
+00:04:19,370 --> 00:04:25,010
+dentro del constructor vale definiendo las propiedades dentro del constructor de la misma manera que
+
+42
+00:04:25,010 --> 00:04:32,560
+lo estamos haciendo aquí la definimos aquí como parámetro y en lugar de punto y cómo le ponemos Koma
+
+43
+00:04:32,990 --> 00:04:39,710
+porque son propiedades o parámetros de mi función o de mi método de control del constructor.
+
+44
+00:04:39,930 --> 00:04:42,780
+Entonces de esta manera es exactamente lo mismo que he hecho antes.
+
+45
+00:04:42,810 --> 00:04:49,490
+Vale esto Taipe escribo automáticamente define la propiedad de mi clase y automáticamente cuando yo
+
+46
+00:04:49,490 --> 00:04:54,860
+le pase un valor por parametro al objeto me va a asignar un valor a la propiedad con lo cual esto es
+
+47
+00:04:54,860 --> 00:05:00,980
+lo que necesitamos automáticamente Sette al valor de cada una de esas propiedades y fijate la cantidad
+
+48
+00:05:00,980 --> 00:05:08,570
+de código que me he ahorrado es decir escrito la mitad o menos bien yo ya tengo mi modelo de zapatilla
+
+49
+00:05:08,570 --> 00:05:13,310
+creado ahora voy a utilizarlo dentro de una clase de un componente.
+
+50
+00:05:13,310 --> 00:05:18,770
+Lo primero que tengo que hacer es importarlo importar mi modelo como ya hemos visto en ejemplos anteriores
+
+51
+00:05:19,280 --> 00:05:27,460
+importo mi clase zapatilla fueron le indicó donde tengo el modelo ojo.
+
+52
+00:05:27,500 --> 00:05:31,670
+Ahora mismo estoy dentro de la carpeta zapatillas así que tengo que salir de ella.
+
+53
+00:05:31,710 --> 00:05:35,180
+Punto punto para subir al directorio anterior.
+
+54
+00:05:35,180 --> 00:05:43,280
+Ahora entro a Models y ahora accedo a mi archivo o a mi clase de zapatilla puntos de ese no hace falta
+
+55
+00:05:43,280 --> 00:05:44,840
+ponerle la extensión.
+
+56
+00:05:45,040 --> 00:05:50,420
+Vale ya tengo mi objeto de zapatilla aquí ya tengo mi clase de zapatilla aquí disponible para utilizarla.
+
+57
+00:05:50,440 --> 00:05:58,430
+Entonces ahora mismo en mi vista yo tengo aquí un listado de elementos.
+
+58
+00:05:58,430 --> 00:06:06,260
+Entonces voy a crearme un constructor define el constructor y voy a crear una raíz por aquí vale voy
+
+59
+00:06:06,260 --> 00:06:20,560
+a crear una propiedad pública que va a ser zapatillas y esto va a ser un array de objetos de tipo zapatilla
+
+60
+00:06:21,570 --> 00:06:23,930
+me puedo definir de esta manera.
+
+61
+00:06:24,320 --> 00:06:33,840
+Entonces yo ahora mismo podría darle ciertos valores a ese ARRA y podría hacer dis punta zapatillas
+
+62
+00:06:36,420 --> 00:06:46,330
+es igual a una raíz y aquí yo puedo hacer New zapatilla Barilla accedo a mi objeto creo mi objeto o
+
+63
+00:06:46,330 --> 00:06:51,240
+sea utilizando mi molde utilizando mi clase y que hemos dicho que tienen pues tienen el nombre la marca
+
+64
+00:06:51,240 --> 00:06:54,150
+el color el precio y el stock al le vamos a poner el nombre
+
+65
+00:06:57,410 --> 00:07:04,080
+Reebok Classic la marca Harrisburg
+
+66
+00:07:10,570 --> 00:07:26,840
+el color sería blancas o blanco el precio a ver si el precio serían 80 esto sería un número numérico
+
+67
+00:07:26,840 --> 00:07:30,030
+80 y luego el stock lo vamos a poner truc.
+
+68
+00:07:30,510 --> 00:07:38,390
+Vale yo tengo un objeto que vale ahora voy a implementar el Ninet NG on init y justamente lo Ni-Ni por
+
+69
+00:07:38,390 --> 00:07:44,360
+aquí cargo la clase con init la interfaz y la implemento en mi clase de zapatilla.
+
+70
+00:07:44,410 --> 00:07:45,270
+El implement.
+
+71
+00:07:46,040 --> 00:07:51,140
+Y como esto es una interfaz pues la implementó por aquí y ahora ya tengo disponible y tengo que utilizar
+
+72
+00:07:51,230 --> 00:07:57,850
+obligatoriamente el método NG on init para que se cumpla el contrato de la interfaz y ahora un consolé
+
+73
+00:07:57,850 --> 00:08:05,810
+punto lo de mi objeto de mi propiedad zapatillas para ver qué objetos tiene dentro vale si autorizó
+
+74
+00:08:05,810 --> 00:08:13,240
+la pantalla y me abro las herramientas de desarrollador.
+
+75
+00:08:13,400 --> 00:08:20,820
+Fíjate que me aparece aquí una raíz y aquí tengo yo un objeto de tipo zapatilla con todos los valores
+
+76
+00:08:20,820 --> 00:08:26,950
+que yo le he puesto de acuerdo rellenado toda esa información y eso automáticamente me ha hecho un set
+
+77
+00:08:27,010 --> 00:08:31,930
+me ha aceptado el valor a cada una de las propiedades y me ha creado un objeto dentro de la RAE vale
+
+78
+00:08:32,400 --> 00:08:38,730
+para seguir trabajando voy a comentar lo que hemos hecho en videojuego me parece exactamente todos los
+
+79
+00:08:39,170 --> 00:08:45,270
+objetos los voy a comentar para que no nos molesten en la práctica que estamos haciendo
+
+80
+00:08:51,150 --> 00:08:51,560
+porque
+
+81
+00:08:57,910 --> 00:09:01,450
+seguimos con el ejemplo del modelo de los modelos.
+
+82
+00:09:01,450 --> 00:09:07,420
+Bien pues aquí me aparece mi objeto o sea mi colección de objetos de tipo zapatilla OK.
+
+83
+00:09:07,450 --> 00:09:08,600
+Así de sencillo.
+
+84
+00:09:08,620 --> 00:09:14,260
+Fíjate que el objeto se llama zapatilla y tiene todas esas propiedades con todos esos valores y así
+
+85
+00:09:14,260 --> 00:09:21,290
+podría estar creando varios objetos dentro de mi Array utilizando como molde la clase zapatilla.
+
+86
+00:09:21,290 --> 00:09:36,160
+Vale entonces podría crear más zapatillas unas Nike negras que cuesten 60 y serían unas Nike Rauner
+
+87
+00:09:39,520 --> 00:09:43,090
+MD luego podríamos crear también unas
+
+88
+00:09:46,630 --> 00:09:51,290
+Adidas jiji o como se escriba.
+
+89
+00:09:52,850 --> 00:09:57,310
+Y sí y la marca sería Adidas.
+
+90
+00:09:57,310 --> 00:10:00,170
+El color sería gris.
+
+91
+00:10:00,310 --> 00:10:05,370
+El precio sería 180 y en stock le vamos a poner falseo.
+
+92
+00:10:05,680 --> 00:10:11,640
+Vale y así yo podría estar creando objetos y objetos y objetos utilizando simplemente la clase zapatilla
+
+93
+00:10:11,650 --> 00:10:13,930
+de acuerdo y aquí tenemos todos esos objetos dentro.
+
+94
+00:10:14,050 --> 00:10:21,700
+Vale que al final son objetos Jaxon o que simplemente al final se representan como un objeto yeux.
+
+95
+00:10:22,240 --> 00:10:27,190
+Entonces yo tengo acceso a todos estos objetos y a todas estas propiedades dentro de mi vista y dentro
+
+96
+00:10:27,190 --> 00:10:32,920
+de mi clase del componente entonces ahora podemos mostrar todos estos objetos en nuestra vista en lugar
+
+97
+00:10:32,920 --> 00:10:34,520
+de hacer un listado de esta manera.
+
+98
+00:10:34,540 --> 00:10:38,220
+Yo puedo hacer un foro en la vista para mostrar esto.
+
+99
+00:10:38,260 --> 00:10:44,650
+Entonces para eso voy a utilizar una directiva que se llama NG effort es una directiva estructural que
+
+100
+00:10:44,680 --> 00:10:51,440
+permite hacer un foro y recorrer una raid de objetos o una red de cualquier tipo y mostrar sus valores
+
+101
+00:10:51,460 --> 00:10:52,720
+en el caso de que me interese.
+
+102
+00:10:53,050 --> 00:10:54,490
+Entonces voy a hacer aquí LEED
+
+103
+00:10:57,060 --> 00:11:09,150
+zapatilla o zapatillas vale incluso podría poner el otro nombre de esta variable bamba o deportiva como
+
+104
+00:11:09,150 --> 00:11:09,500
+sea.
+
+105
+00:11:09,510 --> 00:11:14,670
+De acuerdo puedo poner cualquier nombre a esta variable que estoy creando y que recorra o zapatillas
+
+106
+00:11:14,670 --> 00:11:17,370
+es decir que haya una variable por cada iteración que yo haga.
+
+107
+00:11:17,400 --> 00:11:23,100
+Zapatillas recorrerme zapatillas todo ese array de objetos y muestra aquí un valor.
+
+108
+00:11:23,250 --> 00:11:32,580
+Vale aquí vamos a mostrar el objeto deportiva y vamos a acceder al nombre de la zapatilla.
+
+109
+00:11:32,600 --> 00:11:42,780
+Vale y luego también vamos a acceder al precio Strogg dentro de una etiqueta Strogg o que lo vamos a
+
+110
+00:11:42,780 --> 00:11:49,860
+hacer de esta manera y ya estamos practicando un poquito con las directivas estructurales y las directivas
+
+111
+00:11:51,210 --> 00:11:56,040
+con estructuras de control para la vista pero que esto luego lo veremos un poquito más en profundidad
+
+112
+00:11:56,770 --> 00:12:03,970
+y aquí vamos a mostrar el precio Deportivo Punto.
+
+113
+00:12:04,140 --> 00:12:05,080
+Precio.
+
+114
+00:12:05,430 --> 00:12:10,900
+Guardo actualizo la pantalla y aquí me aparecen mis elementos.
+
+115
+00:12:10,980 --> 00:12:15,690
+Ahora que estoy utilizando solamente este componente voy a comentarlo otros componentes porque no quiero
+
+116
+00:12:15,690 --> 00:12:25,230
+verlos por el momento en esta parte de aquí voy a comentar este trozo de código y vamos a utilizar solamente
+
+117
+00:12:25,230 --> 00:12:32,790
+el componente de zapatillas que es el que estamos usando ahora mismo para verlo más claro y no Eliano
+
+118
+00:12:32,790 --> 00:12:34,960
+con nada.
+
+119
+00:12:35,190 --> 00:12:36,030
+Aquí lo tenemos.
+
+120
+00:12:36,030 --> 00:12:40,950
+Vale entonces estamos recorriendo todo nuestro objeto que tenemos en nuestra colección de objetos que
+
+121
+00:12:40,950 --> 00:12:44,910
+hemos usado en base a nuestro modelo que hemos creado en base a nuestro modelo.
+
+122
+00:12:44,940 --> 00:12:52,290
+Y aquí lo estamos visualizando y todos los objetos que añada en mi Array vale yo añado otro nuevo elemento
+
+123
+00:12:52,290 --> 00:12:53,160
+que es el principio
+
+124
+00:12:55,920 --> 00:12:58,770
+unas Nike Air Max
+
+125
+00:13:01,500 --> 00:13:02,310
+marcan Nike
+
+126
+00:13:04,970 --> 00:13:05,750
+Rojas
+
+127
+00:13:08,490 --> 00:13:16,760
+190 Tru repasamos sus propiedades y automáticamente me recorre mi objeto y me muestra también el precio
+
+128
+00:13:16,760 --> 00:13:18,690
+de lo que yo le he indicado en la vista.
+
+129
+00:13:18,690 --> 00:13:25,700
+Así que ya hemos visto cómo crear un modelo como importar ese modelo en otro archivo y crear el objeto
+
+130
+00:13:25,830 --> 00:13:32,460
+utilizando ese modelo y esa clase y luego además hemos visto como recorrer un array de objetos una colección
+
+131
+00:13:32,460 --> 00:13:38,700
+de objetos en nuestras vistas y mostrar algunas de las propiedades que hay dentro de esos objetos recorriéndolo
+
+132
+00:13:38,760 --> 00:13:39,410
+en la vista.

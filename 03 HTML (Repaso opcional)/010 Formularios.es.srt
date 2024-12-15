@@ -1,0 +1,363 @@
+1
+00:00:00,750 --> 00:00:07,650
+Ahora vamos a aprender a crear formularios los formularios dentro de HTML se pueden utilizar para enviar
+
+2
+00:00:07,650 --> 00:00:13,140
+un texto al servidor para enviar información al servidor para enviar cualquier tipo de cosa de acuerdo
+
+3
+00:00:13,140 --> 00:00:18,510
+a un formulario puede servir para cualquier cosa o para introducir una información básicamente y un
+
+4
+00:00:18,510 --> 00:00:25,170
+formulario puede servir también para que el usuario introduzca su información la envíe y la página web
+
+5
+00:00:25,260 --> 00:00:30,750
+haga algún tipo de acción de momento lo que vamos a ver es cómo crear un formulario visualmente y que
+
+6
+00:00:30,750 --> 00:00:32,210
+se vea en la página.
+
+7
+00:00:32,250 --> 00:00:38,370
+Para eso vamos a crear aquí un encabezado que sea formulario
+
+8
+00:00:41,770 --> 00:00:46,680
+y entonces voy a crear un formulario para crear un formulario en HTML tengo que utilizar la etiqueta
+
+9
+00:00:46,680 --> 00:00:47,130
+form
+
+10
+00:00:51,390 --> 00:00:51,900
+form
+
+11
+00:00:54,830 --> 00:01:00,470
+y luego en el futuro cuando vayamos a aprender algo de Bakken con PHP.
+
+12
+00:01:00,470 --> 00:01:01,890
+De acuerdo.
+
+13
+00:01:02,420 --> 00:01:10,580
+Utilizaríamos un atributo que es el Action Action para indicarle a dónde va y el formulario donde va
+
+14
+00:01:10,580 --> 00:01:16,190
+a enviar la información el formulario y luego utilizaríamos también el método para indicarle qué método
+
+15
+00:01:16,190 --> 00:01:20,400
+HTTP vamos a utilizar y utiliza el post Get u otro.
+
+16
+00:01:20,600 --> 00:01:25,960
+Por eso en este caso no lo vamos a utilizar eso ya te digo que en los cursos de PHP que yo tengo sí
+
+17
+00:01:25,980 --> 00:01:30,860
+que lo usamos mal pues de momento tenemos la etiqueta del formulario.
+
+18
+00:01:30,860 --> 00:01:35,870
+Si yo guardo ahora ya actualizo la pantalla no voy a ver absolutamente nada solamente el encabezado
+
+19
+00:01:35,870 --> 00:01:41,600
+del formulario Marentes vamos a empezar a añadir campo al formulario.
+
+20
+00:01:41,870 --> 00:01:50,420
+Vamos a añadir un campo de tipo texto el típico campo normal un input Taipe texto con el atributo Taipe
+
+21
+00:01:50,570 --> 00:01:53,210
+y le indicamos que va a ser un campo de tipo texto
+
+22
+00:01:56,190 --> 00:02:01,590
+vale y esto este tipo de etiquetas se cierra así porque no tiene ningún contenido.
+
+23
+00:02:01,640 --> 00:02:06,800
+Si yo guardo y actualizo la pantalla ahora me aparece en mi campo de tipo texto.
+
+24
+00:02:07,050 --> 00:02:14,030
+Vale también le puedo poner un labial con poner un label que va a ser el nombre que va a tener ese campo
+
+25
+00:02:14,600 --> 00:02:17,000
+indicado visualmente en la página.
+
+26
+00:02:17,060 --> 00:02:26,300
+En este caso por ejemplo este campo sería el nombre y yo voy a cerrar el label si yo guardo y actualizo
+
+27
+00:02:26,690 --> 00:02:35,000
+me aparece me aparece el nombre del campo en este caso el nombre que tendrá este campo es nombre lo
+
+28
+00:02:35,000 --> 00:02:41,630
+que va a representar este campo sería el nombre también una cosa recomendable ponerle un nein un nombre
+
+29
+00:02:41,690 --> 00:02:53,060
+al campo del formulario en este caso name o nombre ponerle nombre indicarle al label de acuerdo indicarle
+
+30
+00:02:53,180 --> 00:02:59,900
+a qué campo va este Label o a qué campo corresponde este nombre del imput o este nombre del campo del
+
+31
+00:02:59,900 --> 00:03:08,690
+formulario en este caso este Label corresponde a nombre levo el nombre representa a el campo con el
+
+32
+00:03:08,690 --> 00:03:10,460
+nombre nombre de acuerdo.
+
+33
+00:03:10,460 --> 00:03:18,830
+Eso es una buena plática y luego pues también le podría poner muchísimos atributos que tienen los campos
+
+34
+00:03:18,830 --> 00:03:25,700
+del formulario pero uno de ellos es el Place Wolder Place Holder que nos permite tener un texto que
+
+35
+00:03:25,700 --> 00:03:28,600
+cuando yo escriba algo desaparezca por ejemplo.
+
+36
+00:03:28,760 --> 00:03:30,290
+Escribe tu nombre
+
+37
+00:03:34,140 --> 00:03:40,730
+aquí no aparece ese texto pero si me pongo dentro yo puedo escribir otra cosa y me lo elimina Malet
+
+38
+00:03:41,150 --> 00:03:46,760
+simplemente simplemente es una indicación para el usuario perfecto.
+
+39
+00:03:46,760 --> 00:03:49,420
+Luego tengo más tipos de campo.
+
+40
+00:03:49,430 --> 00:03:59,210
+Por ejemplo tengo el campo tipo te gustaria que también le puedo poner un nombre descripción
+
+41
+00:04:01,910 --> 00:04:10,310
+descripción sin tilde importante no poner tilde en los nombres de las cosas y le puedo indicar usu Label
+
+42
+00:04:10,340 --> 00:04:10,790
+también
+
+43
+00:04:13,610 --> 00:04:15,740
+Label for.
+
+44
+00:04:16,130 --> 00:04:17,240
+Descripción
+
+45
+00:04:19,650 --> 00:04:24,060
+descripción y cierre de etiqueta label.
+
+46
+00:04:24,290 --> 00:04:29,390
+De esta manera va a aparecer aquí un campo de tipo descripción
+
+47
+00:04:31,840 --> 00:04:37,870
+vale vamos a meter cada uno de los inputs en un párrafo para que visualmente se quede más organizado
+
+48
+00:04:39,810 --> 00:04:44,050
+y no meta un enter entre cada uno de los bloques de campos
+
+49
+00:04:55,610 --> 00:04:57,660
+de acuerdo bien.
+
+50
+00:04:57,940 --> 00:05:03,310
+Hay multitud de campo de diferentes tipos que los puede ir buscando en Internet conforme los vayan necesitando.
+
+51
+00:05:03,310 --> 00:05:05,110
+Pero vamos a ver por ejemplo un par más.
+
+52
+00:05:05,110 --> 00:05:10,440
+Vamos a ver un selector de opciones y vamos a ver también un radio.
+
+53
+00:05:10,490 --> 00:05:18,670
+Los radio buttons no los radio buttons sería de la siguiente manera definiendo un input de tipo radio
+
+54
+00:05:21,040 --> 00:05:26,710
+y este tipo de campos nos va a servir para seleccionar una opción de X opciones que hay disponibles
+
+55
+00:05:26,710 --> 00:05:29,390
+en este caso vamos a ver un ejemplo con tres opciones.
+
+56
+00:05:29,510 --> 00:05:38,620
+Vale por ejemplo le vamos a poner un nombre a este input que va a ser género y a poner un valor porque
+
+57
+00:05:38,620 --> 00:05:44,920
+siempre deben tener un valor los inputs ya sea porque lo asigna el usuario o ya sea porque vienen por
+
+58
+00:05:44,920 --> 00:05:46,880
+defecto en este caso sería hombre.
+
+59
+00:05:48,120 --> 00:05:49,280
+Y aquí voy a poner.
+
+60
+00:05:49,290 --> 00:05:51,790
+Hombre voy a poner un BR
+
+61
+00:05:55,390 --> 00:06:02,950
+que lo debería cerrar de esta manera y voy a duplicar este elemento varias veces para poner opciones
+
+62
+00:06:02,950 --> 00:06:04,050
+diferentes.
+
+63
+00:06:04,370 --> 00:06:05,040
+Mujer
+
+64
+00:06:07,750 --> 00:06:08,170
+nada
+
+65
+00:06:13,330 --> 00:06:21,750
+mujer o nada valentón yo tendría 3 Radio buttons si autoriza la pantalla fíjate lo que me aparece.
+
+66
+00:06:21,790 --> 00:06:24,890
+Hombre mujer o nada valen.
+
+67
+00:06:24,910 --> 00:06:27,370
+Yo podría seleccionar uno de los tres elementos.
+
+68
+00:06:27,430 --> 00:06:32,340
+Por ejemplo si me estoy registrado en una página web pues yo pondría mi nombre pondría mi descripción
+
+69
+00:06:32,350 --> 00:06:36,170
+seleccionaría mi género y luego le daría al botón de enviar.
+
+70
+00:06:36,170 --> 00:06:44,320
+Vale bien pues otro tipo de elemento que puede tener un formulario es un campo Select un Select lo que
+
+71
+00:06:44,320 --> 00:06:51,880
+va a tener son diferentes opciones para seleccionar al igual que hemos visto aquí pues podemos hacer
+
+72
+00:06:52,030 --> 00:06:57,670
+varias opciones esto tiene una etiqueta option donde yo puedo meter las diferentes opciones por ejemplo
+
+73
+00:06:57,790 --> 00:07:05,440
+hombre y cierre de etiqueta option abre otra opción opción mujer
+
+74
+00:07:08,380 --> 00:07:19,330
+cierro la opción y abre otra opción opción nada vale si yo guardo pues también le debería poner un value
+
+75
+00:07:19,330 --> 00:07:21,010
+a esto.
+
+76
+00:07:21,010 --> 00:07:22,300
+En este caso ombre
+
+77
+00:07:25,180 --> 00:07:37,150
+value mujer y value nada vale y aquí le voy a poner un Nain que sea género.
+
+78
+00:07:37,290 --> 00:07:45,940
+2 guardo actualizo la pantalla y me aparece un campo seleccionable un Select en el cual yo puedo elegir
+
+79
+00:07:46,570 --> 00:07:49,640
+qué opción quiero seleccionar.
+
+80
+00:07:49,870 --> 00:07:53,870
+Y por último vamos a ver cómo pintar un botón para enviar el formulario.
+
+81
+00:07:53,980 --> 00:07:59,060
+Para eso utiliza el input de tipo submit.
+
+82
+00:07:59,380 --> 00:08:11,050
+De esta manera yo voy a pintar un botón con el valio enviar formulario cierro la etiqueta guardo actualizo
+
+83
+00:08:11,050 --> 00:08:17,500
+la pantalla y aquí aparece mi botón Enviar formulario de forma que si yo rellenó esto los selecciono
+
+84
+00:08:17,500 --> 00:08:19,630
+todo lo voy a enviar.
+
+85
+00:08:19,630 --> 00:08:24,760
+Pues me envió el formulario a donde yo indique en este caso no lo envié me lo envía a la misma página
+
+86
+00:08:24,820 --> 00:08:26,620
+y me paso por la web R.L.
+
+87
+00:08:26,830 --> 00:08:32,750
+Los diferentes parámetros que he seleccionado por qué no en este caso el nombre que yo le he puesto
+
+88
+00:08:32,770 --> 00:08:38,350
+la descripción que he puesto el género que yo he elegido y el género 2 que yo he elegido pues de esta
+
+89
+00:08:38,350 --> 00:08:44,770
+manera se crea un formulario luego es cuestión de utilizar CSS para estilizar el formulario y es cuestión
+
+90
+00:08:44,770 --> 00:08:51,250
+de utilizar PHP para recibir la información del formulario y guardarla en una base de datos o manejarla
+
+91
+00:08:51,250 --> 00:08:54,090
+de alguna forma para que realice algún tipo de acción.

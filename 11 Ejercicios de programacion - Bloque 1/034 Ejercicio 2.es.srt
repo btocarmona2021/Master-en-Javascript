@@ -1,0 +1,311 @@
+1
+00:00:00,640 --> 00:00:06,640
+Bien ahora vamos a hacer el siguiente ejercicio vamos a crear un nuevo fichero de JavaScript controlé
+
+2
+00:00:06,720 --> 00:00:17,140
+ese sería el fichero Doze sería el 12 Ejercicio 2 junto JS.
+
+3
+00:00:17,370 --> 00:00:26,280
+Entonces vamos a ponerle luz Street y vamos a cargar este scrip en nuestro índex punto HTML.
+
+4
+00:00:26,640 --> 00:00:30,110
+En este caso el ejercicio es el ejercicio 2 y es el fichero.
+
+5
+00:00:30,130 --> 00:00:32,740
+12.
+
+6
+00:00:33,090 --> 00:00:39,450
+El ejercicio va a consistir en utilizando un bucle mostrar la media y la suma de los números introducidos
+
+7
+00:00:39,450 --> 00:00:46,200
+por el usuario hasta que metamos un número negativo y en ese caso se mostraría el resultado.
+
+8
+00:00:46,320 --> 00:00:53,610
+Es decir utilizando un bucle mostrar la media y la suma de los resultados introducidos por el usuario
+
+9
+00:00:53,940 --> 00:00:56,690
+hasta que el usuario meta un número negativo.
+
+10
+00:00:56,690 --> 00:01:03,300
+Vale vamos a poner el enunciado para tenerlo aquí visualmente bien pues vamos a intentar hacerlo lo
+
+11
+00:01:03,300 --> 00:01:08,910
+primero que vamos a hacer va a ser crear dos variables la variable suma que por defecto va a estar inicializar
+
+12
+00:01:08,910 --> 00:01:14,620
+a cero y la variable Contador que por defecto es tan interiorizada a cero.
+
+13
+00:01:14,730 --> 00:01:20,400
+Entonces qué bucle podemos utilizar para ejecutar un bloque de código antes de evaluar ninguna condición
+
+14
+00:01:20,680 --> 00:01:26,070
+y que ese bloque de código nos pida una información a nosotros como usuario al usuario no nos saque
+
+15
+00:01:26,070 --> 00:01:35,400
+un problema pues para eso el bucle que debemos utilizar es el de Weyl alegamos utiliza el Duguit Duguit
+
+16
+00:01:35,980 --> 00:01:40,740
+y entonces dentro del Uruguay lo primero que vamos a hacer va a ser crear una variable una variable
+
+17
+00:01:40,740 --> 00:01:52,800
+número de aquí pedir un prompt para pedir el número al usuario introduce números hasta que metas uno
+
+18
+00:01:52,800 --> 00:01:57,440
+negativo vale y esto lo que va a hacer.
+
+19
+00:01:57,510 --> 00:02:04,050
+Ir sumando los números conforme vayamos introduciendo y hacer la media y luego finalmente lo mostraremos
+
+20
+00:02:04,230 --> 00:02:10,010
+por la consola o en un alerta y por defecto el número que vamos a tener es el cero.
+
+21
+00:02:10,050 --> 00:02:17,370
+Esto tendríamos que convertirlo a un entero Parcent para que en lugar de una string lo pase a un entero
+
+22
+00:02:17,520 --> 00:02:18,080
+a un número.
+
+23
+00:02:18,720 --> 00:02:20,370
+Entonces tendríamos que comprobar si
+
+24
+00:02:24,200 --> 00:02:32,190
+Isfahan si no es un número lo que introduce el usuario si esto realmente no es un número pues el valor
+
+25
+00:02:32,190 --> 00:02:46,650
+de número sería igual a cero vale y si no el SOIB vamos a comprobar si el número es mayor a cero es
+
+26
+00:02:46,650 --> 00:02:52,830
+decir porque lo único que tenemos que hacer es comprobar si es mayor o igual a cero porque si metemos
+
+27
+00:02:52,830 --> 00:02:59,700
+un número menor a cero entonces ya nos va a mostrar el resultado y el bucle no se va a cumplir la condición
+
+28
+00:03:00,890 --> 00:03:01,290
+vale.
+
+29
+00:03:01,290 --> 00:03:10,750
+Aquí lo que tenemos que hacer es comprobar si número es mayor o igual a cero en ese caso sí que sólo
+
+30
+00:03:10,770 --> 00:03:17,340
+en ese caso se va a seguir ejecutando el contenido del DU se va a seguir ejecutando el bucle pero en
+
+31
+00:03:17,340 --> 00:03:22,700
+el caso de que sea menor a cero vamos a salir del bucle y se va a hacer un break automático entonces
+
+32
+00:03:24,120 --> 00:03:30,510
+en el caso de que el número sea mayor igual a cero pues suma va a ser igual a el contenido que ya tuviera
+
+33
+00:03:30,510 --> 00:03:38,730
+suma dentro el valor que ya tuviera suma más número ok.
+
+34
+00:03:38,760 --> 00:03:47,310
+Esto sería lo mismo que hacer esto suma más igual número vale.
+
+35
+00:03:47,310 --> 00:03:53,880
+Eso es lo mismo porque este operador lo que hace es coger esta variable y a esa misma variable sumarle
+
+36
+00:03:54,240 --> 00:03:58,610
+lo que hay aquí y luego asignarle un volver a asignarle el valor.
+
+37
+00:03:59,150 --> 00:04:07,440
+O sea el más igual lo que hace es sumarle la suma número y el resultado volver a asignar a la variable
+
+38
+00:04:07,470 --> 00:04:13,440
+suma en lo mismo de acuerdo pero para que lo entiendan más claro todavía no lo podemos dejar así
+
+39
+00:04:16,760 --> 00:04:25,470
+bien entonces tendríamos que hacer un contador más más para sumarle 1 al contador y ver la iteraciones
+
+40
+00:04:25,470 --> 00:04:31,640
+que está haciendo el bucle y luego poder sacar la media vale porque cómo se saca una media pues con
+
+41
+00:04:31,740 --> 00:04:38,640
+el resultado de la suma entre el número de intentos no entre el número de elementos que se han sumado
+
+42
+00:04:39,330 --> 00:04:45,060
+en este caso pues si se va integrando 100 veces y el resultado es cuatro mil pues 4000 de entre 100
+
+43
+00:04:45,120 --> 00:04:51,000
+y saldría la media de cada una de esas iteraciones no vale pues ya tendríamos esto.
+
+44
+00:04:51,150 --> 00:04:57,240
+Ahora si comprobamos esto y actualizamos la pantalla me va a pedir unos números obviamente el 10 o 12
+
+45
+00:04:57,270 --> 00:05:02,850
+legamente otro método otro y esto me lo va a estar pidiendo continuamente hasta que yo meta un número
+
+46
+00:05:02,850 --> 00:05:03,700
+negativo.
+
+47
+00:05:03,810 --> 00:05:12,240
+Entonces ya pararía vale realmente si yo voy haciendo en cada iteración del bucle console punto log
+
+48
+00:05:13,800 --> 00:05:17,850
+de lo que hay en suma y lo que hay en Contador
+
+49
+00:05:22,800 --> 00:05:29,500
+vamos a estar viendo lo que está pasando valés y yo autorizo la pantalla mientras el número 12 me aparece
+
+50
+00:05:29,510 --> 00:05:36,930
+en 12 la primera iteración otra vez 12 me parece 24 porque sumado al resultado anterior y la segunda
+
+51
+00:05:36,930 --> 00:05:44,130
+iteración le vuelvo a meter 12 36 y la tercera iteración vale 11 de esa manera se va sumando todos se
+
+52
+00:05:44,140 --> 00:05:49,740
+van haciendo se van haciendo una suma global la suma como dice el ejercicio mostrar la suma y la media
+
+53
+00:05:49,740 --> 00:05:54,000
+de los números introducido la suma de todos los números introducidos y la media de los números introducidos
+
+54
+00:05:54,000 --> 00:05:59,970
+que lo vamos a ver después hasta que yo meto un número negativo y entonces ya se corta la ejecución.
+
+55
+00:05:59,970 --> 00:06:09,630
+Y aquí es donde tengo que mostrar yo una alerta vamos a mostrar una alerta con la suma de todos los
+
+56
+00:06:09,630 --> 00:06:10,200
+números
+
+57
+00:06:13,750 --> 00:06:14,170
+es
+
+58
+00:06:17,320 --> 00:06:21,390
+y voy a poner aquí la suma el resultado de la suma y luego la media.
+
+59
+00:06:21,380 --> 00:06:24,880
+Cómo hacerlo que va a ser una operación una división.
+
+60
+00:06:24,970 --> 00:06:35,210
+La media de todos los números es entonces voy a hacer la división cómo hago la división aquí dentro
+
+61
+00:06:35,680 --> 00:06:42,190
+de Trim para que me la concatena pues la meto entre paréntesis para que se centre en hacer esa operación
+
+62
+00:06:42,190 --> 00:06:49,930
+que dentro de los paréntesis pues suma la suma de todos los números el resultado total entre la cantidad
+
+63
+00:06:50,050 --> 00:06:55,660
+de números que hemos introducido o la cantidad de iteraciones que se han hecho en este caso el contador.
+
+64
+00:06:55,720 --> 00:07:01,150
+De esa manera si he metido 100 números pues vamos a dividir el resultado neto de la suma de todos esos
+
+65
+00:07:01,150 --> 00:07:05,800
+números entre los números que he introducido y de esa manera me sale la media aproximada.
+
+66
+00:07:07,010 --> 00:07:21,370
+Después vamos a comprobar lo autorizó la pantalla método el 12 el 54 el 12 el 5 el 12 el 10 el 20 el
+
+67
+00:07:21,370 --> 00:07:24,960
+1 0 y el 3 vale.
+
+68
+00:07:24,960 --> 00:07:32,100
+Mira yo he metido 10 números y el resultado de 129 en la media sale de dividir 129 entre 10.
+
+69
+00:07:32,350 --> 00:07:39,940
+Si ahora meto un número negativo me va a salir la suma de todo número 129 correcto y la media de todos
+
+70
+00:07:39,940 --> 00:07:43,710
+los números es doce coma veinti nueve por número.
+
+71
+00:07:44,050 --> 00:07:52,090
+Así que está en la media el número medio que se ha ido introduciendo más o menos así que de esta manera
+
+72
+00:07:52,840 --> 00:07:58,450
+hemos resuelto nuestro ejercicio vale hemos resuelto el ejercicio utilizando un bucle mostrar la suma
+
+73
+00:07:58,450 --> 00:08:03,370
+y la media de los números introducidos hasta que se introduzca un número negativo y mostrar el resultado.
+
+74
+00:08:03,430 --> 00:08:09,880
+Así que te ha quedado claro si no te ha quedado claro vuelve a ver el vídeo vuelve a practicarlo tú
+
+75
+00:08:09,880 --> 00:08:16,270
+por tu cuenta y también te recomiendo que antes de hacerlo ejercicio cuando yo digo el enunciado te
+
+76
+00:08:16,270 --> 00:08:23,950
+pares intente hacerlo tú para así desarrollar tú la lógica y intentar poder hacerlo por ti mismo antes
+
+77
+00:08:23,950 --> 00:08:25,410
+de ver cómo lo resuelvo yo.
+
+78
+00:08:25,450 --> 00:08:29,530
+De acuerdo es interesante para asentar mucho más los conocimientos.

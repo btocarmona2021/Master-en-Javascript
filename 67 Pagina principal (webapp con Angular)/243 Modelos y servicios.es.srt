@@ -1,0 +1,395 @@
+1
+00:00:00,930 --> 00:00:03,370
+Ahora vamos a hacer la sección de crear el proyecto.
+
+2
+00:00:03,420 --> 00:00:09,990
+Aquí lo que vamos a hacer va a ser un formulario que nos va a permitir guardar nuevos proyectos en nuestra
+
+3
+00:00:10,080 --> 00:00:11,890
+aplicación.
+
+4
+00:00:11,890 --> 00:00:18,390
+Vale utilizando el API que tenemos que arrancar por cierto utilizando el API pues hacer peticiones Ayax
+
+5
+00:00:18,610 --> 00:00:24,340
+a la API y hacer una petición Poppo para utilizando un método alguna web R.L del API.
+
+6
+00:00:24,360 --> 00:00:32,130
+Guardar un nuevo proyecto en la base de datos así que lo primero que vamos a hacer va a ser cerrar todos
+
+7
+00:00:32,130 --> 00:00:38,210
+los archivos que tenemos abiertos para empezar desde cero y abrir nuestro MongoDB y nuestra API Reyes.
+
+8
+00:00:38,220 --> 00:00:46,350
+Para eso me voy a mi equipo busco donde yo tengo un bebé en este caso en archivos de programa Mungo
+
+9
+00:00:46,350 --> 00:00:56,970
+debe ser ver 3.2 Binh y aquí ejecuto mongo di que es el demonio que me permite tener Mungo debe arrancado
+
+10
+00:00:57,050 --> 00:01:06,810
+vale Lanzhou como debe eso es lo primero y después abro una consola de comandos y me voy al directorio
+
+11
+00:01:06,810 --> 00:01:17,360
+donde yo tengo mi proyecto de Bakken que hemos hecho anteceder sé dos puntos barra OEP barra TW barra
+
+12
+00:01:17,380 --> 00:01:25,050
+pulso JavaScript que es donde yo tengo personalmente la carpeta del proyecto y voy a entrar a la carpeta
+
+13
+00:01:25,050 --> 00:01:31,610
+Bakken y aquí ejecuto el comando MPM Start y así arranco mi imagen también.
+
+14
+00:01:31,980 --> 00:01:36,960
+Primero como debe después Ibarguen para poder tener el API levantada.
+
+15
+00:01:36,980 --> 00:01:48,540
+Vale pues ya tengo el API la web relea tengo aquí si entro mal vamos que nos carga un método.
+
+16
+00:01:48,570 --> 00:01:57,660
+Vale si yo quisiera consultar un método el API que sea proyectes pues aquí me saca los proyectos que
+
+17
+00:01:57,660 --> 00:01:58,800
+yo tengo guardado.
+
+18
+00:01:59,050 --> 00:02:06,300
+Ok entonces una vez que tenemos el API corriendo vamos a empezar a programar la parte angular vale la
+
+19
+00:02:06,300 --> 00:02:13,200
+parte del frontend lo primero que vamos a hacer va a ser crear dentro del PP una carpeta para los modelos
+
+20
+00:02:13,200 --> 00:02:22,690
+y otra para los servicios en folder Models y vamos a crear otra carpeta para los servicios servicios.
+
+21
+00:02:22,700 --> 00:02:28,020
+Bien lo primero que vamos a hacer va a ser crear nuestro modelo vale el modelo va a representar a un
+
+22
+00:02:28,020 --> 00:02:33,510
+objeto o a un documento de mi base de datos va a ser una entidad qué entidad estamos utilizando pues
+
+23
+00:02:33,510 --> 00:02:38,700
+estamos utilizando la entidad de proyecto porque como estamos haciendo un portafolio en nuestra API
+
+24
+00:02:38,700 --> 00:02:45,270
+REST si te das cuenta Tenemos colecciones de objetos de proyecto entonces un modelo representa a un
+
+25
+00:02:45,270 --> 00:02:47,090
+único proyecto en específico.
+
+26
+00:02:47,100 --> 00:02:48,360
+Entonces qué va a tener un modelo.
+
+27
+00:02:48,370 --> 00:02:53,490
+Pues al igual que lo que tenemos que el modelo que hemos tenido en el Bakken va a tener los mismos campos
+
+28
+00:02:53,490 --> 00:03:01,770
+el nombre la descripción la categoría el año lags y la imagen vale entonces vamos a hacer nuestro modelo
+
+29
+00:03:01,770 --> 00:03:02,480
+controles.
+
+30
+00:03:02,550 --> 00:03:10,140
+Se va a llamar proyecto junto Teese importante siempre utilizar la extensión T.C. dentro de angular
+
+31
+00:03:10,700 --> 00:03:19,760
+y vamos a hacer una Esport Class proyecto vale para definir nuestro nuestro modelo base una clase al
+
+32
+00:03:19,760 --> 00:03:27,630
+final y ahora usamos el constructor y dentro del constructor como parámetro le vamos a definir cada
+
+33
+00:03:27,630 --> 00:03:31,010
+una de las propiedades de nuestro método de nuestro modelo.
+
+34
+00:03:31,290 --> 00:03:36,630
+Vamos a tener la propiedad de un bajo IDEP que va a representar al IDE del documento que va a ser un
+
+35
+00:03:36,660 --> 00:03:38,050
+string.
+
+36
+00:03:38,430 --> 00:03:42,190
+Luego vamos a tener otra propiedad que va a ser el nombre.
+
+37
+00:03:42,390 --> 00:03:47,160
+Fíjate que si miramos aquí el modelo podemos copiar este objeto Yeison y tenerlo de referencia aquí
+
+38
+00:03:47,160 --> 00:03:48,450
+abajo.
+
+39
+00:03:48,450 --> 00:03:59,150
+Luego lo borramos el nombre que será un string también la descripción que también será otro string.
+
+40
+00:03:59,640 --> 00:04:07,610
+El año bueno la categoría queda diseãadores string Public category Public category que se adoctrinan
+
+41
+00:04:09,570 --> 00:04:20,880
+el Guier el año en el que se creó Public Year que será un Amber y luego los links Public Lands que será
+
+42
+00:04:20,880 --> 00:04:29,520
+otro string y luego la imagen Public Image que también será un string Balet ya puedo borrar la referente
+
+43
+00:04:29,520 --> 00:04:34,300
+que hemos hecho por aquí y ya tenemos nuestro modelo definido sin ningún tipo de problema.
+
+44
+00:04:34,300 --> 00:04:40,050
+Si yo reviso mi compilador aquí no veo ningún tipo de problema tampoco lo estamos importando en ninguna
+
+45
+00:04:40,050 --> 00:04:40,400
+parte.
+
+46
+00:04:40,410 --> 00:04:48,930
+Pero bien voy yo tengo mi modelo definido ahora voy a crear mi servicio y además voy a crear un archivo
+
+47
+00:04:48,930 --> 00:04:50,220
+de configuración global.
+
+48
+00:04:50,230 --> 00:04:55,250
+Vale voy a crear un archivo primero de configuración global controles dentro de la carpeta de servicios
+
+49
+00:04:55,410 --> 00:05:03,510
+que se va a llamar global punto de aquí normalmente yo voy a una configuración variables que voy a estar
+
+50
+00:05:03,630 --> 00:05:05,690
+reutilizando en varios archivos etcétera.
+
+51
+00:05:05,700 --> 00:05:12,690
+En este caso lo que quiero tener simplemente es una variable que voy a exportar que se va a llamar global
+
+52
+00:05:13,680 --> 00:05:21,150
+y simplemente va a tener un objeto Jayson con la web R.L de el API de acuerdo en este caso la web del
+
+53
+00:05:21,180 --> 00:05:31,560
+API es esta aquí vale copiar todo este trozo y lo voy a pegar por aquí simplemente quiero tener esto
+
+54
+00:05:31,830 --> 00:05:37,530
+para estar utilizándolo tanto en los servicios como en los componentes y no tener que estar creando
+
+55
+00:05:37,530 --> 00:05:40,920
+esa variable ni repitiéndolo 100 mil veces más.
+
+56
+00:05:41,100 --> 00:05:45,530
+Y ahora voy a crear ya mi servicio vale para luego utilizarlo.
+
+57
+00:05:45,700 --> 00:05:54,780
+Ni un fail controles y el servicio se va a llamar Proyect punto servis .3 y este servicio simplemente
+
+58
+00:05:54,780 --> 00:06:01,200
+va a tener un import con todos los módulos que necesitamos para crear un servicio inyectable
+
+59
+00:06:04,080 --> 00:06:13,020
+from arrobado angular barranc Core Community y cómo vamos a importar el HTTP client para poder hacer
+
+60
+00:06:13,020 --> 00:06:16,810
+peticiones Ayax y el HTTP
+
+61
+00:06:23,310 --> 00:06:31,120
+from arroba angular barra como barra HTTP.
+
+62
+00:06:31,410 --> 00:06:36,060
+Luego vamos a importar también el observable
+
+63
+00:06:39,810 --> 00:06:40,970
+esa clase from
+
+64
+00:06:43,830 --> 00:06:51,030
+RX JSE barra observable que es una librería que ya incluye angular y vamos a importar también el modelo
+
+65
+00:06:51,090 --> 00:07:02,370
+import nuestro modelo de proyecto from punto punto barra para salir de la carpeta vices models para
+
+66
+00:07:02,370 --> 00:07:08,250
+entrar a la carpeta de modelos y ya ponemos el nombre del modelo proyecto que es el nombre del archivo
+
+67
+00:07:08,280 --> 00:07:09,300
+realmente.
+
+68
+00:07:09,870 --> 00:07:16,400
+Cierro con punto y coma y ahora voy a importar mi fichero de configuración global importó impoluto un
+
+69
+00:07:16,440 --> 00:07:22,230
+global lo voy a poner con la primera letra en mayúscula como ya es costumbre
+
+70
+00:07:24,960 --> 00:07:34,820
+global from from Tobarra porque tienen el directorio actual global y hasta ahora con y.
+
+71
+00:07:34,950 --> 00:07:41,490
+Ahora con mi decorador arroba inyectable le voy a decir que va a ser un servicio que vamos a estar inyectando
+
+72
+00:07:43,230 --> 00:07:48,420
+y define mi clase Export class se va a llamar Projet servis
+
+73
+00:07:52,220 --> 00:07:58,370
+y Wi Fi definir una propiedad que va a ser un R.L que va a ser donde voy a guardar la R.L de mi API
+
+74
+00:08:04,190 --> 00:08:06,080
+y ya está bien tener un constructor
+
+75
+00:08:09,010 --> 00:08:17,510
+que lo que voy a hacer dentro de él es cargar el HTTP client como propiedad privada private guión bajo
+
+76
+00:08:17,600 --> 00:08:27,770
+HTTP 2.2 un objeto de tipo HTTP client y voy a darle un valor Daguerre l Vishnu R.L es igual a Global
+
+77
+00:08:28,090 --> 00:08:29,640
+punto u R.L.
+
+78
+00:08:30,020 --> 00:08:38,000
+Ok ya lo tengo ya tengo el servicio definido yo ahora puedo definirme un método de prueba no por ejemplo
+
+79
+00:08:38,000 --> 00:08:45,210
+test servis y aquí simplemente que esto me devuelva de algo.
+
+80
+00:08:45,310 --> 00:08:53,740
+Ok probando el servicio de angular.
+
+81
+00:08:55,220 --> 00:09:03,260
+Genial perfecto pues ya tenemos el modelo el fichero de configuración y el servicio creado ahora importantisimo
+
+82
+00:09:03,290 --> 00:09:11,510
+antes de continuar con nada tenemos que entrar a nuestro archivo a Module punto TS y importar nuestros
+
+83
+00:09:11,510 --> 00:09:18,170
+módulos tanto de HTTP como de los formularios porque eso lo vamos a estar usando en todo momento.
+
+84
+00:09:18,170 --> 00:09:28,160
+Entonces entramos aquí a nuestro PP Module y aquí arriba importamos el HTTP client Module HTTP client
+
+85
+00:09:28,280 --> 00:09:34,220
+Module porque si no no vamos a poder hacer las peticiones de ellas con el HTTP client y le vamos a decir
+
+86
+00:09:34,220 --> 00:09:42,320
+que están arrobado angular barran Core Barraco mundo embarra HTTP y luego vamos a importar también el
+
+87
+00:09:45,720 --> 00:09:53,100
+Fonds Module porque si queremos utilizar el Chubby data binding y los formularios tenemos que importarlo
+
+88
+00:09:53,280 --> 00:10:01,830
+obligatoriamente y esto está from arroba angular barra Fornes Malet conecto ya tenemos todo preparado
+
+89
+00:10:01,860 --> 00:10:09,180
+si revisamos la consola todo sigue funcionando correctamente salvo el error o el bug que hay de esta
+
+90
+00:10:09,180 --> 00:10:19,020
+dependencia RX JS Compac porque esto es un error que trae la librería del observable en la nueva versión
+
+91
+00:10:19,020 --> 00:10:24,480
+de anularse digital entonces en algunos casos te va a saltar el terror y en otros casos no te va a saltar
+
+92
+00:10:24,480 --> 00:10:25,020
+este error.
+
+93
+00:10:25,200 --> 00:10:30,480
+Entonces como ya expliqué anteriormente para solucionarlo le damos Control C y ejecutamos el comando
+
+94
+00:10:30,570 --> 00:10:42,600
+RPM install menos Soib RX JS guion Compact Balet que es la librería que nos falta por aquí la instalamos
+
+95
+00:10:44,560 --> 00:10:51,540
+y una vez que acabe ya tendremos la configuración hecha del proyecto ya para empezar a programar tanto
+
+96
+00:10:51,540 --> 00:10:57,860
+el servicio como en los componentes ya tenemos la Divertia instalada así que como ya tenemos el dictado
+
+97
+00:10:58,080 --> 00:11:04,860
+vamos a lanzar de nuevo el comando MGSV y vamos a ver que ya no nos escupe ningún error y está todo
+
+98
+00:11:04,860 --> 00:11:11,990
+perfecto por tanto en la siguiente clase vamos a empezar a hacer ya nuestro formulario en esta pantalla.
+
+99
+00:11:11,990 --> 00:11:16,980
+Vale vamos a hacer el formulario luego lo vamos a maquetar también y vamos a hacer que funcione todo.

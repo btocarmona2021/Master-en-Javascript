@@ -1,0 +1,355 @@
+1
+00:00:01,070 --> 00:00:07,980
+Ahora vamos a ver cómo utilizar los eventos Focus y Blur con estos eventos.
+
+2
+00:00:07,990 --> 00:00:13,910
+Yo puedo hacer alguna acción cuando esté en el foco de algún elemento del HTML y puedo hacer otra acción
+
+3
+00:00:13,910 --> 00:00:20,360
+cuando esté fuera o cuando salga de ese elemento HTML lo más común es tener un campo de un formulario
+
+4
+00:00:20,390 --> 00:00:30,020
+por ejemplo vamos a hacer aquí arriba un formulario Fon form y aquí vamos a meter un input
+
+5
+00:00:32,740 --> 00:00:33,860
+de tipo texto
+
+6
+00:00:36,420 --> 00:00:38,880
+con una idea que sea nombre.
+
+7
+00:00:40,560 --> 00:00:49,430
+Entonces si actualizamos la pantalla al que me aparece vamos a poner un verde para separar lo de abajo.
+
+8
+00:00:51,260 --> 00:00:52,340
+Bien aquí lo tengo.
+
+9
+00:00:52,790 --> 00:00:57,460
+Entonces también le voy a dar unos estilos para que se vea más grande.
+
+10
+00:00:58,010 --> 00:01:08,820
+Pero si imputs la etiqueta imput que tengan un Wiz que tengamos espadín Baudoin de 20 píxeles para que
+
+11
+00:01:08,820 --> 00:01:09,710
+sea más grande.
+
+12
+00:01:11,930 --> 00:01:14,590
+Y ahí se ve más grande.
+
+13
+00:01:14,600 --> 00:01:15,590
+Le voy a poner un
+
+14
+00:01:18,360 --> 00:01:29,840
+guais de 300 píxeles y le voy a poner un iPhone 6 bonsáis de 20 píxeles.
+
+15
+00:01:29,850 --> 00:01:30,530
+A ver qué pasa.
+
+16
+00:01:32,770 --> 00:01:33,280
+Vale.
+
+17
+00:01:33,450 --> 00:01:38,600
+Aquí lo tenemos aquí tenemos nuestro imput vale bastante gordo es bastante grande para que se vea todo
+
+18
+00:01:38,600 --> 00:01:45,430
+claro que incluso le podríamos reducir esto a 10 el padre.
+
+19
+00:01:45,660 --> 00:01:48,050
+Bien así queda mejor.
+
+20
+00:01:48,180 --> 00:01:49,130
+Tenemos nuestro IMPUT.
+
+21
+00:01:49,160 --> 00:01:54,380
+Entonces cuando yo hago Focus si te das cuenta y hago el crono automáticamente me lo pinta de color
+
+22
+00:01:54,380 --> 00:01:55,470
+azul el borde.
+
+23
+00:01:55,500 --> 00:01:57,180
+Vale si me salgo ya me lo quita.
+
+24
+00:01:57,440 --> 00:02:01,130
+Pues ahí estaría actuando el evento Focus y el evento on Blur.
+
+25
+00:02:01,610 --> 00:02:04,100
+Vale vamos a ver cómo funciona esto.
+
+26
+00:02:04,820 --> 00:02:13,010
+Yo puedo tener sobre este elemento que estamos hablando sobre este input cuyo nombre vale si yo selecciono
+
+27
+00:02:13,010 --> 00:02:22,640
+ese elemento yo puedo utilizar el evento Focus y cuando yo haga Focus voy a ejecutar la función de Calvache
+
+28
+00:02:24,290 --> 00:02:30,410
+vale la cual me va a permitir ponerle a este mismo elemento que estoy seleccionando desde luego poner
+
+29
+00:02:30,530 --> 00:02:44,260
+un borde por ejemplo CSS volver a poner dos píxeles Solid Grin cierro con un punto y coma.
+
+30
+00:02:44,270 --> 00:02:51,990
+Guardo actualizo la pantalla y cuando me coloco sobre él fijate lo que pasa me pone un borde verde vale
+
+31
+00:02:52,460 --> 00:02:54,730
+sin ningún tipo de problema y ahí lo deja.
+
+32
+00:02:54,750 --> 00:03:00,470
+Vale ahí lo dejo yo puedo escribir y tal pero cuando yo haga Blur quiero que me lo quite.
+
+33
+00:03:00,540 --> 00:03:03,660
+Pues para eso utiliza el evento Blur vale.
+
+34
+00:03:03,770 --> 00:03:04,640
+Aquí lo puedo hacer.
+
+35
+00:03:04,640 --> 00:03:10,660
+Lo más recomendable es utilizar varias veces esto es meterlo dentro de una variable y así no tantisima
+
+36
+00:03:10,820 --> 00:03:21,300
+empezé Aldón así que le agregamos una variable nombre y utilizamos esa variable para no acceder tantísimo
+
+37
+00:03:21,320 --> 00:03:23,440
+empezé al Dom y JavaScript.
+
+38
+00:03:23,450 --> 00:03:25,880
+Vaya más rápido utiliza el evento
+
+39
+00:03:28,920 --> 00:03:38,980
+Blur para cuando yo salga del foco aquí pues simplemente le pondría un borde transparente transparente.
+
+40
+00:03:39,390 --> 00:03:42,300
+Guardo vale actualizo la pantalla.
+
+41
+00:03:42,330 --> 00:03:45,910
+Entro salgo y me quita absolutamente todos los bordes.
+
+42
+00:03:46,000 --> 00:03:49,320
+Pues claro lo que he hecho es modificar el borde.
+
+43
+00:03:49,350 --> 00:03:50,700
+Vale si yo comento esta línea
+
+44
+00:03:54,430 --> 00:03:57,770
+entro Pam y me deja un borde verde valentón.
+
+45
+00:03:57,790 --> 00:04:04,030
+Yo quiero que me lo ponga como estaba por default que es un borde de un píxel y me parece que Cris o
+
+46
+00:04:04,030 --> 00:04:06,370
+algo así CCF.
+
+47
+00:04:06,650 --> 00:04:10,380
+Entonces se actualizó la pantalla ahora vale.
+
+48
+00:04:10,390 --> 00:04:15,610
+Efectivamente ya me deja el borde de otro color y tal pero bueno me lo mantiene valentón.
+
+49
+00:04:15,820 --> 00:04:20,300
+Hemos visto como funciona el evento Blur también de igual forma.
+
+50
+00:04:20,500 --> 00:04:26,380
+Más cosas que podríamos hacer es que cuando por ejemplo se ejecuta el evento Blur coger el valle de
+
+51
+00:04:26,380 --> 00:04:29,490
+nombre y mostrarlo imprimirlo por pantalla.
+
+52
+00:04:29,530 --> 00:04:32,950
+Vale yo podría tener aquí al lado del formulario.
+
+53
+00:04:33,380 --> 00:04:35,110
+Podría tener un día perfectamente
+
+54
+00:04:38,730 --> 00:04:46,740
+con clase datos o con un IDE datos Badel
+
+55
+00:04:49,680 --> 00:04:52,490
+y puedo ponerle uno de estilo a ese elemento.
+
+56
+00:04:52,590 --> 00:05:06,450
+EDIT datos pero puedo poner uno de estilo que tenga un border dos PX o 4 PX Dazed Black que tenga un
+
+57
+00:05:06,450 --> 00:05:17,510
+padrino de 10 píxeles y que tenga un Wiz de 250 píxeles que tenga un Jaitt de 250 píxeles.
+
+58
+00:05:19,050 --> 00:05:21,720
+Y aquí tengo mi cajita y tal.
+
+59
+00:05:21,740 --> 00:05:28,780
+No le podía reducir el tamaño evidentemente para que se muestre solamente cuando me interese.
+
+60
+00:05:28,800 --> 00:05:37,800
+Vale meter en mi cajita por aquí le voy a poner un margen top de 10 píxeles para que me la se pone un
+
+61
+00:05:37,800 --> 00:05:42,140
+poquito y aquí ya va a mostrar el reporte de lo que yo introduzca aquí.
+
+62
+00:05:42,180 --> 00:05:42,950
+Vale.
+
+63
+00:05:43,000 --> 00:05:43,430
+Ahí.
+
+64
+00:05:43,550 --> 00:05:45,700
+Ahí se van a mostrar los datos.
+
+65
+00:05:46,160 --> 00:05:47,760
+Vale sin ningún tipo de problema.
+
+66
+00:05:49,710 --> 00:05:53,670
+Entonces esto va a estar oculto
+
+67
+00:05:56,910 --> 00:05:59,960
+hasta que se ejecute el blur.
+
+68
+00:05:59,970 --> 00:06:07,030
+Vale va a estar oculto hasta que se ejecute el blur así que le voy a poner un display no.
+
+69
+00:06:08,700 --> 00:06:17,190
+En lugar de Blok vale entonces cuando yo ejecute el blur voy a llamar voy a seleccionar a mi elemento
+
+70
+00:06:17,190 --> 00:06:17,700
+datos
+
+71
+00:06:23,280 --> 00:06:31,220
+datos y le voy a hacer un CSS sea voy a hacer directamente el método.
+
+72
+00:06:31,320 --> 00:06:36,160
+Hay un método Jaitt y un método Soult con el método eso yo puedo mostrar ese elemento.
+
+73
+00:06:36,170 --> 00:06:40,960
+Vale si entro y salgo ya me lo muestra y ya no se va.
+
+74
+00:06:41,230 --> 00:06:43,040
+Vale ya no hay problema ahí se queda.
+
+75
+00:06:43,460 --> 00:06:51,000
+Y además aparte de hacer el show voy a incrustar dentro los datos que yo saque de aquí vale con sacar
+
+76
+00:06:51,000 --> 00:06:56,150
+los datos que hay guardados dentro de él válido de un input.
+
+77
+00:06:56,160 --> 00:06:57,690
+Pues simplemente puedo hacer this
+
+78
+00:07:00,420 --> 00:07:05,700
+dish y utiliza el método valdra con el método baul.
+
+79
+00:07:05,730 --> 00:07:12,380
+Yo saco esa información de aquí sin ningún tipo de problema y entonces yo puedo seleccionar datos vale
+
+80
+00:07:12,960 --> 00:07:14,390
+otra vez.
+
+81
+00:07:14,390 --> 00:07:17,870
+O simplemente encadenando aquí la llamada al método.
+
+82
+00:07:17,880 --> 00:07:26,120
+Voy a utilizar el método Text y dentro voy a meter el valor que tenga guardado yo en mi input simplemente
+
+83
+00:07:26,120 --> 00:07:29,300
+de esta manera vamos a ver como si yo escribo aquí.
+
+84
+00:07:29,520 --> 00:07:35,850
+Hola soy Víctor Rólex web si yo salgo del foco aquí me imprime ese valor.
+
+85
+00:07:36,030 --> 00:07:42,810
+Si vuelvo a entrar salgo del foco me cambia el valor sin ningún tipo de problema OK.
+
+86
+00:07:42,880 --> 00:07:50,220
+Así que de esta manera hemos visto como utiliza el evento Blur y Focus y además hemos visto cómo manipular
+
+87
+00:07:50,220 --> 00:07:54,000
+el texto para coger un valor de un atributo.
+
+88
+00:07:54,000 --> 00:08:00,420
+En este caso el bãlico de un campo de un formulario inculcarlo con él con el método text dentro de otra
+
+89
+00:08:00,420 --> 00:08:04,300
+etiqueta y con esto ya hemos aprendido más cositas acerca de ella y Cuadri.

@@ -1,0 +1,415 @@
+1
+00:00:01,240 --> 00:00:07,510
+Vamos a aprender a instalar angular 6 angular 6 instalã de la misma manera que se instalan versiones
+
+2
+00:00:07,510 --> 00:00:12,900
+anteriores de angular como la 5 la 4 o incluso la versión 2 final.
+
+3
+00:00:13,000 --> 00:00:20,140
+Lo mismo al final de acuerdo entonces vamos a seguir los pasos para instalar nuestra versión 6 de angular.
+
+4
+00:00:20,140 --> 00:00:24,430
+Lo primero que hay que hacer siempre siempre siempre antes de instalar una nueva versión de angular
+
+5
+00:00:24,490 --> 00:00:26,490
+es actualizar nuestro no DJs.
+
+6
+00:00:26,590 --> 00:00:30,510
+Para eso vamos a entrar a DJs punto y reject.
+
+7
+00:00:30,550 --> 00:00:38,860
+La web de DJs y vamos a descargar la versión estable la versión LTS porque la actual tiene inconsistencias
+
+8
+00:00:38,900 --> 00:00:44,770
+vece etcétera puede editar la que quiera realmente yo te recomiendo la lts.
+
+9
+00:00:45,010 --> 00:00:47,760
+Yo tengo la versión actual porque siempre estoy haciendo pruebas.
+
+10
+00:00:47,760 --> 00:00:54,490
+Entonces si abro mi simulador de sistema mi Cmdte mi sistema operativo y ejecuto el comando node menos
+
+11
+00:00:54,570 --> 00:00:55,780
+versión.
+
+12
+00:00:56,020 --> 00:00:59,110
+Voy a ver que tengo la versión 9 11.
+
+13
+00:00:59,140 --> 00:01:06,540
+De acuerdo tengo la versión 9 11 con lo cual yo estoy utilizando la versión con la última característica
+
+14
+00:01:06,550 --> 00:01:09,380
+así que puedo instalar mi versión actual.
+
+15
+00:01:09,430 --> 00:01:14,800
+Yo en tu caso si no tienes no DJs o tienes ya la versión LTS te recomiendo que instales esta vale para
+
+16
+00:01:14,800 --> 00:01:16,000
+no tener ningún tipo de problema.
+
+17
+00:01:16,060 --> 00:01:22,250
+Pero yo como voy a hacer pruebas voy a descargarme esta última versión actual y voy a actualizar Minho
+
+18
+00:01:22,270 --> 00:01:23,190
+DJs.
+
+19
+00:01:23,350 --> 00:01:26,800
+Primer paso muy importante actualizar siempre no DJs
+
+20
+00:01:29,360 --> 00:01:35,810
+entonces ya podemos darle a Meiggs para instalar DJs actualizar a la nueva versión NEX esto lo dejo
+
+21
+00:01:35,810 --> 00:01:36,380
+tal cual.
+
+22
+00:01:36,410 --> 00:01:39,100
+NEX y instalar vale.
+
+23
+00:01:39,110 --> 00:01:45,110
+Ahora vamos a esperar a que DJs se instale la nueva versión que estamos instalando la última versión
+
+24
+00:01:45,110 --> 00:01:51,650
+que estamos instalando y una vez que lo tengamos instalado pues ya vamos a pasar a actualizar angular
+
+25
+00:01:51,670 --> 00:01:55,360
+C o desinstalar el que tenemos e instalar el nuevo.
+
+26
+00:01:55,430 --> 00:02:02,470
+Y después pasaremos a generar el proyecto de angular y ver cómo se instala anularse y ver la diferente
+
+27
+00:02:02,540 --> 00:02:06,040
+los diferentes cambios que ha podido tener con respecto a versiones anteriores etcétera.
+
+28
+00:02:09,220 --> 00:02:15,370
+Ya tenemos el JSA actualizado y le vamos a dar a finish y ahora abrimos nuestra consola de comandos
+
+29
+00:02:15,520 --> 00:02:23,560
+y vamos a ejecutar el comando no de o menos versión que ella debe sacar la versión 10 punto 1 que es
+
+30
+00:02:23,560 --> 00:02:25,530
+la que yo he instalado que es la más actual.
+
+31
+00:02:25,630 --> 00:02:31,570
+Ya sabes si utilizaban la lts de la L3 y si utilizaban la actual citarte la actual.
+
+32
+00:02:31,660 --> 00:02:38,330
+Perfecto ahora lo que tenemos que hacer es desinstalar nuestro angular Lehi anterior.
+
+33
+00:02:38,350 --> 00:02:46,720
+Cómo hacemos esto ejecutando el comando en MPM uniste al menos G arroba angular barra Cellay vale hacemos
+
+34
+00:02:46,720 --> 00:02:53,180
+esto ejecutamos esto y esto es lo que va a hacer es decir instalarnos angular de nuestro equipo bien
+
+35
+00:02:53,200 --> 00:02:58,920
+ya sea eliminado del paquete o los paquetes de ángulo Urcelay ahora tenemos que ejecutar dos comandos
+
+36
+00:02:58,930 --> 00:03:04,120
+para borrar la caché de acuerdo porque si no vamos a tener el problema al instalar el nuevo angular
+
+37
+00:03:04,120 --> 00:03:09,900
+Cedi y al utilizarlo así que vamos a ejecutar el comando MPM cache verifiqué
+
+38
+00:03:12,890 --> 00:03:17,800
+vale vamos a hacer primero este comando y una vez que acabe esto va a tardar un rato la verdad Bandar
+
+39
+00:03:17,860 --> 00:03:23,300
+de 5 10 minutos a lo mejor una vez que terminen de hacer este comando vamos a ejecutar otro comando
+
+40
+00:03:23,300 --> 00:03:29,410
+ya para borrar definitivamente la caché y poder hacer nuevas instalaciones de MPM sin problema.
+
+41
+00:03:29,430 --> 00:03:31,830
+Bien ya terminado de ejecutarse el comando.
+
+42
+00:03:31,940 --> 00:03:39,140
+Ahora vamos a ejecutar el comando MPM cache Clean meón menos Force vale y esto lo que va a hacer es
+
+43
+00:03:39,200 --> 00:03:48,110
+eliminarme la caché definitivamente ya lo ha ejecutado ya tenemos la cache limpia y ahora vamos a pasar
+
+44
+00:03:48,200 --> 00:03:51,370
+a instalar angular Celebi la última versión.
+
+45
+00:03:51,410 --> 00:04:01,760
+Cómo podemos hacerlo ejecutando el comando MPM install me enojé de manera global arroba angular barras
+
+46
+00:04:01,760 --> 00:04:10,390
+Cellay arroba last esta aquí le estamos indicando con el arroba qué versión queremos instalar.
+
+47
+00:04:10,390 --> 00:04:15,770
+Yo estoy instalando la última pero si tú quieres instalar una versión anterior para instalarte pues
+
+48
+00:04:15,910 --> 00:04:21,410
+angular 5 angular 4 o cualquier versión simplemente tienes que poner aquí el número de la versión de
+
+49
+00:04:21,560 --> 00:04:30,010
+CLR instalarte eso simplemente buscando en el Guija angular CL y los cambios del chinelos y ver en qué
+
+50
+00:04:30,010 --> 00:04:33,640
+versión está la versión de angula que a ti te interese instalar.
+
+51
+00:04:33,640 --> 00:04:39,490
+Pues eliges esa instalas esa pero en nuestro caso como queremos anularse vamos a instalar la última
+
+52
+00:04:39,550 --> 00:04:43,240
+versión de angular cero y le vamos a dar a Enter.
+
+53
+00:04:43,270 --> 00:04:54,620
+Aquí me he equivocado he puesto las ETT he vuelto lart esto es la text vale pongo esto a Brasil o lo
+
+54
+00:04:54,620 --> 00:05:01,130
+voy a ejecutar para indicarle que instale la última versión y vamos a esperar un poco a que se descargue
+
+55
+00:05:01,130 --> 00:05:03,860
+todos los paquetes de angulas Cellay y ital.
+
+56
+00:05:04,130 --> 00:05:09,500
+Perfecto ya tenemos angulas de ley instalado y ahora vamos a realizar la extracción de angulas voy a
+
+57
+00:05:09,500 --> 00:05:16,580
+hacer un CLS para limpiar la consola si estas en Linux Mac el comando sería Clear y ahora voy a entrar
+
+58
+00:05:16,580 --> 00:05:22,550
+al directorio donde yo suelo trabajar con mis proyectos web pero tú puedes hacer la instalación en cualquier
+
+59
+00:05:22,550 --> 00:05:24,140
+otro directorio no pasa nada.
+
+60
+00:05:24,140 --> 00:05:29,360
+Estamos trabajando con JavaScript y con angular y eso no requiere que esté en ninguna carpeta específica.
+
+61
+00:05:29,360 --> 00:05:37,310
+En mi caso yo voy a entrar a donde yo tengo todo mi proyecto que es 0.40 barra RW y aquí yo voy a hacer
+
+62
+00:05:37,310 --> 00:05:43,850
+la instalación no pero quiero que sepas que igual que elegido yo esta carpeta podría haberlo hecho en
+
+63
+00:05:43,850 --> 00:05:46,740
+el escritorio mismamente y no habría ningún tipo de problema.
+
+64
+00:05:46,750 --> 00:05:54,230
+Vale pues aquí voy a realizar la instalación de angular y cómo lo hago con el comando NG New que es
+
+65
+00:05:54,230 --> 00:06:00,830
+el comando que nos permite generar nuevos proyectos de angular y se va a llamar instalación angular
+
+66
+00:06:00,830 --> 00:06:01,180
+6.
+
+67
+00:06:01,910 --> 00:06:09,020
+Así se va a llamar el proyecto les voy a dar a Enter y fíjate que esto me genera el café hólding un
+
+68
+00:06:09,110 --> 00:06:16,310
+café simplemente es una serie de archivos ya generados automáticamente el código genera automáticamente
+
+69
+00:06:16,340 --> 00:06:22,960
+y la estructura de directorios también generada automáticamente de un proyecto esqueleto vale tenemos
+
+70
+00:06:23,060 --> 00:06:30,320
+los archivos y directorio base de un proyecto básico con un Hola mundo ya construido para que simplemente
+
+71
+00:06:30,590 --> 00:06:31,890
+empecemos a programar.
+
+72
+00:06:32,510 --> 00:06:40,310
+Fíjate que nos están saliendo warnings Security maletón no es un problema inicialmente pero en principio
+
+73
+00:06:40,310 --> 00:06:43,550
+el proyecto de angulos va a funcionar igualmente aunque no salgan estos warnings.
+
+74
+00:06:43,750 --> 00:06:50,780
+Vale pues aquí dice que la instalación ha sido acabada satisfactoriamente aunque nos ponga un warnings.
+
+75
+00:06:50,930 --> 00:06:56,720
+Esto no significa absolutamente nada vale porque realmente la instalación nos dice que los paquetes
+
+76
+00:06:56,720 --> 00:07:01,880
+se han añadido correctamente y al final nos dice que la instalación se ha realizado satisfactoriamente.
+
+77
+00:07:01,880 --> 00:07:08,450
+Realmente esos warnings que a mi me aparecían son de la última versión de DJ es la última versión experimental
+
+78
+00:07:09,560 --> 00:07:12,000
+que nos pide que hagamos algunos comandos más.
+
+79
+00:07:12,260 --> 00:07:23,570
+Pero si yo entro a la carpeta instalación angular 6 vale y aquí yo ejecuto mi comando NG Server me debe
+
+80
+00:07:23,600 --> 00:07:29,060
+funcionar y me va a arrancar mi servidor local de desarrollo de angulas que además tiene un watcher
+
+81
+00:07:29,060 --> 00:07:37,040
+para cada vez que yo cambio un archivo modifico algo me actualizo el servidor me lo vuelvo a compilar
+
+82
+00:07:37,150 --> 00:07:43,190
+y ahora mismo estoy ejecutando el NG Serve me dice que la compilación se ha realizado correctamente.
+
+83
+00:07:43,190 --> 00:07:51,650
+Vale y ahora pues tengo el proyecto de angular funcionando donde lo tengo en el local los 4200 vale.
+
+84
+00:07:51,650 --> 00:07:53,830
+Ahí es donde está el servidor arrancado.
+
+85
+00:07:53,930 --> 00:08:01,610
+Ahora mismo si yo me voy aquí y pongo local 400 200 puedo entrar y tengo mi proyecto de angular sin
+
+86
+00:08:01,610 --> 00:08:09,050
+ningún tipo de problema de acuerdo lo tengo perfecto y además si yo abro mi proyecto en un editor de
+
+87
+00:08:09,050 --> 00:08:11,980
+código como suplentes vamos a abrirlo
+
+88
+00:08:17,360 --> 00:08:18,920
+voy a crear un nuevo archivo
+
+89
+00:08:23,270 --> 00:08:30,260
+voy a abrir mi proyecto y añadir un folder y voy a añadir la instalación de angular 6 para que veamos
+
+90
+00:08:30,260 --> 00:08:31,390
+que está todo correcto
+
+91
+00:08:36,780 --> 00:08:38,700
+instalación de angular 6.
+
+92
+00:08:38,700 --> 00:08:47,510
+Vale aquí vemos que si despliega el directorio pues tengo todos los archivos y directorio The angular
+
+93
+00:08:47,510 --> 00:08:50,750
+tengo el directorio Serre donde tengo el componente que aparece aquí
+
+94
+00:08:54,360 --> 00:09:00,670
+valen los componentes y todo eso o sea no ha cambiado realmente todo lo que sabemos de angulado final
+
+95
+00:09:00,670 --> 00:09:06,480
+de angular 4 y de angular 5 nos sirve perfectamente para angular soy exactamente lo mismo solamente
+
+96
+00:09:06,480 --> 00:09:13,200
+ha habido algún micro micro micro cambio que estaremos viendo ahora pero realmente un componente es
+
+97
+00:09:13,200 --> 00:09:18,600
+un componente realmente tiene lo mismo que tenía el impor el arroba componen para definir los metadatos
+
+98
+00:09:18,600 --> 00:09:22,700
+la característica vital y luego la clase normal.
+
+99
+00:09:22,720 --> 00:09:33,330
+Vale yo puedo poner aquí aplicación angular 6 Valenbisi guardo automáticamente se me compila vale y
+
+100
+00:09:33,420 --> 00:09:36,920
+me aparece aquí aplicación anulase con lo cual tengo mis componentes.
+
+101
+00:09:36,930 --> 00:09:42,090
+Tengo el proyecto instalado perfectamente y ya tengo aquí el Hola Mundo y la estructura básica de archivos
+
+102
+00:09:42,090 --> 00:09:46,620
+y directorios para empezar a trabajar con angular con lo cual la interacción de anularse ya la hemos
+
+103
+00:09:46,620 --> 00:09:51,450
+hecho cómo sabemos que tenemos acumularse y pues si entramos al pacá Jayson y vemos que la versión de
+
+104
+00:09:51,450 --> 00:09:55,290
+angular en la 6 y ya tenemos angular 6 instalado.

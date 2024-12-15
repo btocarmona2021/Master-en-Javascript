@@ -1,0 +1,135 @@
+1
+00:00:00,810 --> 00:00:03,300
+Ahora vamos a hablar acerca de las constantes.
+
+2
+00:00:03,330 --> 00:00:10,910
+Para eso voy a cerrar este archivo y vamos a crear un nuevo archivo de JavaScript Nightfall controles.
+
+3
+00:00:11,220 --> 00:00:22,240
+Se va a llamar 0 4 guion constantes vale un punto le vamos a poner y ahora voy a incluir ese fichero
+
+4
+00:00:22,300 --> 00:00:31,900
+aquí voy a copiar el link la importación del script antigua y ahora voy a llamar al 04 constantes
+
+5
+00:00:36,990 --> 00:00:45,290
+vale aquí pues voy a utilizar el US Street Street para tener nuevas funcionalidades y activar el modo
+
+6
+00:00:45,290 --> 00:00:46,370
+estricto.
+
+7
+00:00:46,530 --> 00:00:53,000
+Aquí vamos a hablar de las constantes una constante no es más que un contenedor de datos.
+
+8
+00:00:53,120 --> 00:00:59,210
+Al igual que una variable simplemente que ese valor no va a poder ser modificable en nuestro programa
+
+9
+00:00:59,210 --> 00:01:04,790
+en el flujo de nuestro programa es decir es como una variable pero que su contenido nunca va a poder
+
+10
+00:01:04,790 --> 00:01:14,630
+variar nunca va a cambiar de acuerdo entonces una constante es como una variable pero su valor no puede
+
+11
+00:01:14,630 --> 00:01:17,190
+cambiar.
+
+12
+00:01:17,580 --> 00:01:23,840
+Pero vamos a ver un ejemplo yo te voy a hacer una variable web de acuerdo se va a llamar web esa variable
+
+13
+00:01:24,230 --> 00:01:26,240
+y aquí yo voy a poner la web R.L de una web
+
+14
+00:01:30,110 --> 00:01:32,150
+y esto es una variable que puede cambiar.
+
+15
+00:01:32,280 --> 00:01:37,990
+Eso es una variable por tanto el valor puede ser modificable y ahora voy a definir una constante cómo
+
+16
+00:01:37,990 --> 00:01:45,280
+define una constante con la palabra reservada const y aquí voy a ponerle el nombre que quiero que tenga
+
+17
+00:01:45,280 --> 00:01:46,260
+la constante.
+
+18
+00:01:46,300 --> 00:01:51,980
+Prácticamente lo mismo que una variable se define igual a poner dirección IP la IP.
+
+19
+00:01:52,030 --> 00:02:00,820
+Entonces esto va a ser otra cadena y le voy a indicar la dirección IP 1 9 2 Punto 88 punto cero punto
+
+20
+00:02:01,050 --> 00:02:01,470
+12.
+
+21
+00:02:01,510 --> 00:02:06,970
+Por ejemplo esa sería la dirección IP y como es una constante no puede cambiar de forma que si yo por
+
+22
+00:02:06,970 --> 00:02:14,350
+ejemplo cambiara el dominio de mi web utilizando simplemente la variable web y le vuelvo a asignar un
+
+23
+00:02:14,350 --> 00:02:24,550
+valor por ejemplo el dominio HTTPS dos puntos barra barra que se llame Víctor Robles cursos apuntó por
+
+24
+00:02:24,550 --> 00:02:25,870
+ejemplo.
+
+25
+00:02:25,870 --> 00:02:27,400
+Eso me lo permite el navegador.
+
+26
+00:02:27,400 --> 00:02:38,140
+Si yo hago un consolero de web y de hype esto automáticamente en la consola se autorizó la pantalla
+
+27
+00:02:38,200 --> 00:02:45,670
+me aparece la web y la IP sin ningún tipo de problema y he cambiado el valor de esa variable pero si
+
+28
+00:02:45,670 --> 00:02:57,600
+yo intento modificar el valor de IP y le pongo otra otro número y actualizo la pantalla me dice Cuidado.
+
+29
+00:02:57,610 --> 00:03:04,450
+No puedes asignarle un valor variable a la constante o ya están intentando asignarle un valor a la constante
+
+30
+00:03:04,510 --> 00:03:05,500
+y eso no puede ser.
+
+31
+00:03:05,500 --> 00:03:11,620
+Por eso no nos deja una constante no es variable entonces si quitamos esto sí que nos va a dejar de
+
+32
+00:03:11,620 --> 00:03:17,950
+forma que estamos viendo cómo podemos cambiarle perfectamente el valor a una variable pero una constante
+
+33
+00:03:18,040 --> 00:03:25,150
+no nos deja y nos da un error de código porque una constante es como una variable es un contenedor de
+
+34
+00:03:25,150 --> 00:03:28,150
+datos que su valor no puede ser modificado.

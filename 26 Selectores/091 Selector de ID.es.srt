@@ -1,0 +1,295 @@
+1
+00:00:00,420 --> 00:00:06,090
+Como ya expliqué la parte de JavaScript nativo no es recomendable en el código JavaScript aquí acuerdo
+
+2
+00:00:06,090 --> 00:00:12,660
+así que vamos a crear una dentro de la carpeta JSE vamos a crear los ficheros de JavaScript correspondiente
+
+3
+00:00:12,810 --> 00:00:20,040
+de acuerdo a cada uno un fichero el fichero 0 1 selectores junto JS.
+
+4
+00:00:20,070 --> 00:00:23,660
+Vamos a hablar acerca de los electores con Kairi de acuerdo.
+
+5
+00:00:23,910 --> 00:00:26,200
+Así que vamos a importar ese fichero.
+
+6
+00:00:26,370 --> 00:00:30,680
+Vamos a incluir en nuestro Index .8 lo añadimos.
+
+7
+00:00:30,680 --> 00:00:45,540
+Después de haber cargado el script Tibet JavaScript se y la ruta de JS barra 0 1 selectores JS Perfecto.
+
+8
+00:00:45,660 --> 00:00:48,990
+Ahora todo va bien.
+
+9
+00:00:49,530 --> 00:00:57,090
+Ahora lo primero que tenemos que hacer cuando utilizamos Qwerty es comprobar si el documento está listo
+
+10
+00:00:57,480 --> 00:01:03,770
+de acuerdo cómo hacemos eso utilizando el selector de documento cómo utilizamos el selector document.
+
+11
+00:01:03,780 --> 00:01:10,800
+Esto se refiere a toda la página web en general a que cargue todo lo escriba que esté todo bien cargado
+
+12
+00:01:11,590 --> 00:01:16,910
+y luego tenemos que utilizar el método Redi que esto realmente es un evento de acuerdo y luego esto
+
+13
+00:01:16,920 --> 00:01:18,180
+tiene una función de Calvache.
+
+14
+00:01:18,180 --> 00:01:23,100
+Como ya sabemos aquí dentro ejecutamos la funcionalidad que nosotros queramos en este caso un consuelo
+
+15
+00:01:26,850 --> 00:01:30,540
+que ponga estamos listos.
+
+16
+00:01:30,740 --> 00:01:33,980
+Vale ya era un poco más acerca de esto.
+
+17
+00:01:34,020 --> 00:01:39,960
+Si actualizo la pantalla me dice estamos listos a decir que Cory está cargado y el script también está
+
+18
+00:01:39,960 --> 00:01:40,740
+cargado.
+
+19
+00:01:40,900 --> 00:01:48,240
+Mira el dólar siempre se refiere allí al objeto y como tal porque si yo pusiera jQuery de esta manera
+
+20
+00:01:48,450 --> 00:01:50,280
+también funcionaría en principio.
+
+21
+00:01:50,280 --> 00:01:51,690
+Efectivamente también funciona.
+
+22
+00:01:51,720 --> 00:01:57,570
+Es decir el dólar y la palabra Joy Cueli es exactamente lo mismo es un objeto vale.
+
+23
+00:01:58,100 --> 00:02:04,170
+Después lo que pongamos después del dólar entre paréntesis será el selector es decir nosotros podemos
+
+24
+00:02:04,380 --> 00:02:10,010
+seleccionar cualquier cosa y después utilizar cualquier método en este caso el método Redi es un evento
+
+25
+00:02:10,010 --> 00:02:14,760
+hace referencia un evento y tiene una función de carga con una función anónima de Calvache y dentro
+
+26
+00:02:14,760 --> 00:02:17,020
+de ella ejecutamos lo que nosotros queramos.
+
+27
+00:02:17,030 --> 00:02:23,910
+Vale bien pues ahora vamos a ver los electores tenemos varios tipos de selectores como por ejemplo el
+
+28
+00:02:23,910 --> 00:02:27,920
+selector de hide selector de hide.
+
+29
+00:02:28,080 --> 00:02:32,730
+Este es muy sencillo de acuerdo es muy parecido a lo que estamos a lo que ya estamos acostumbrados a
+
+30
+00:02:32,730 --> 00:02:41,460
+hacer con JavaScript ya que hemos estado bien anteriormente es decir yo voy a crear aquí varios párrafos
+
+31
+00:02:47,100 --> 00:02:49,000
+vale y cada uno puede tener una idea.
+
+32
+00:02:49,020 --> 00:02:54,910
+En este caso el primer párrafo va a tener el hide rojo.
+
+33
+00:02:54,910 --> 00:03:06,720
+El segundo párrafo va a tener el ideal amarillo y el último párrafo va a tener de verde vale y aquí
+
+34
+00:03:06,720 --> 00:03:19,790
+vamos a ponerle un texto practicando con selectores y quiero ser un párrafo verde.
+
+35
+00:03:19,910 --> 00:03:21,250
+Hasta aquí todo correcto.
+
+36
+00:03:21,250 --> 00:03:26,850
+Hasta aquí todo sigue funcionando simplemente me añade estos tres párrafos.
+
+37
+00:03:26,890 --> 00:03:27,380
+Entonces
+
+38
+00:03:30,330 --> 00:03:36,840
+cómo puedo seleccionar yo eso parrafos cómo puedo seleccionar yo eso elementos que tienen S.I de acuerdo
+
+39
+00:03:36,850 --> 00:03:39,850
+yo le he puesto la propiedad el atributo HTML.
+
+40
+00:03:40,050 --> 00:03:46,200
+Y yo quiero seleccionar estos párrafos cómo hacerlo pues con el dólar y dentro de los paréntesis que
+
+41
+00:03:46,200 --> 00:03:52,260
+yo le ponga voy a indicarle el selector en este caso pues como ya vimos anteriormente la almohadilla
+
+42
+00:03:52,260 --> 00:03:58,710
+se refiere al IDE donde yo pongo el nombre del IDE del elemento que quiero seleccionar.
+
+43
+00:03:58,710 --> 00:04:07,300
+En este caso el rojo no hemos puesto rojo así pues rojo vale y así seleccionó mi elemento.
+
+44
+00:04:07,370 --> 00:04:14,910
+Vale incluso podría guardar en una variable Bahr rojo y vamos a ver qué tiene dentro este elemento si
+
+45
+00:04:14,910 --> 00:04:21,870
+hacemos console Autolog rojo vale y actualizamos la pantalla.
+
+46
+00:04:22,040 --> 00:04:28,050
+Aquí aparece que es un selector efectivamente del párrafo rojo de acuerdo.
+
+47
+00:04:28,500 --> 00:04:33,490
+Esto los selecciona QWERTY y estamos seleccionando el párrafo rojo.
+
+48
+00:04:34,040 --> 00:04:40,030
+Entonces yo podría cambiar cualquier propiedad de ese párrafo realmente yo podría decirle CSS puede
+
+49
+00:04:40,030 --> 00:04:46,240
+utilizar este método CSS y aquí ponerle cualquier cosa puede decirle Mira quiero que me cambie la propiedad
+
+50
+00:04:46,270 --> 00:04:51,840
+background y me lo ponga ret.
+
+51
+00:04:51,850 --> 00:04:57,730
+De acuerdo con el método CSS yo puedo modificar cualquier propiedad CSS de cualquier elemento y ponerle
+
+52
+00:04:58,810 --> 00:05:04,330
+diciéndole la clave y aquí el valor del parámetro clave y segundo parámetro valor cambiar cualquier
+
+53
+00:05:05,380 --> 00:05:08,980
+propiedad FCS que tenga ese elemento hizo la pantalla.
+
+54
+00:05:08,980 --> 00:05:15,570
+Efectivamente me cambia eso me cambia ese valor y me cambia su estilo.
+
+55
+00:05:15,580 --> 00:05:20,800
+Si yo quisiera seguir cambiándole estilo a esto no hace falta que vuelva a seleccionar este elemento
+
+56
+00:05:20,950 --> 00:05:26,020
+sino que puedo ir encadenando la llamada a los métodos que ya hacen referencia al elemento que yo he
+
+57
+00:05:26,020 --> 00:05:37,470
+seleccionado de forma que puedo hacer lo siguiente punto CSS color y le puede indicar UIT-T vale.
+
+58
+00:05:37,570 --> 00:05:43,630
+Si yo hago esto pues me va a cambiar los estilos también.
+
+59
+00:05:43,710 --> 00:05:47,970
+Incluso podría seguir perfeccionando como yo quisiera.
+
+60
+00:05:48,030 --> 00:05:50,970
+Vale cómo seleccionamos el resto de párrafo.
+
+61
+00:05:51,270 --> 00:05:52,660
+Cómo se te ocurre hacerlo.
+
+62
+00:05:52,710 --> 00:05:59,400
+Como ya hemos visto vamos a crear una variable amarillo y vamos a seleccionar con el dólar y le paso
+
+63
+00:05:59,410 --> 00:06:10,030
+como parámetro QWERTY almohadilla amarillo y utilizo el método CSS para cambiarle el background al color
+
+64
+00:06:10,300 --> 00:06:18,570
+amarillo que en este caso sería hielo y luego encadeno otro método CSS para cambiarle el color a la
+
+65
+00:06:18,570 --> 00:06:24,680
+letra que en este caso los quiero verdes.
+
+66
+00:06:25,740 --> 00:06:31,320
+Vale de esa manera se actualizó la pantalla pues efectivamente me cambian los colores.
+
+67
+00:06:31,470 --> 00:06:37,230
+No haría falta ni siquiera que creara una variable porque realmente no la vamos a usar simplemente queremos
+
+68
+00:06:37,230 --> 00:06:39,330
+que ejecute la funcionalidad que esto tiene.
+
+69
+00:06:40,710 --> 00:06:45,840
+Cómo seleccionó el siguiente IDE que en este caso sería el párrafo con el IDE verde.
+
+70
+00:06:45,880 --> 00:06:52,020
+Vale como selección este elemento para modificarlo utilizando el dólar de paso como parámetro la almohadilla
+
+71
+00:06:52,680 --> 00:07:01,980
+verde y ya yo pude ver los métodos que estamos usando CSS para cambiarle el estilo.
+
+72
+00:07:01,980 --> 00:07:12,420
+Por ejemplo en este caso el pack era un sería Grin y el color sería UIT-T actualizamos la pantalla.
+
+73
+00:07:12,420 --> 00:07:17,610
+Efectivamente también funciona así que de esta manera podemos seleccionar elementos de HTML con un de
+
+74
+00:07:17,610 --> 00:07:18,210
+concreto.

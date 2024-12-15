@@ -1,0 +1,167 @@
+1
+00:00:00,480 --> 00:00:05,940
+Ahora vamos a empezar a crear los diferentes métodos y las diferentes rutas que va a tener nuestra aplicación
+
+2
+00:00:05,940 --> 00:00:07,490
+web a nivel de Bakken.
+
+3
+00:00:07,500 --> 00:00:13,050
+Para eso vamos a utilizar el modelo vista controlador para organizar la arquitectura de nuestra aplicación.
+
+4
+00:00:13,260 --> 00:00:18,660
+El modelo vista controlador es un patrón de diseño de software que se encarga de separar la lógica de
+
+5
+00:00:18,660 --> 00:00:23,820
+negocio de la interfaz del usuario y es uno de los patrones de diseño más utilizado en la web.
+
+6
+00:00:24,000 --> 00:00:31,230
+Muchísimo felinos lo utilizan y es una muy buena manera de organizar el código de una aplicación y las
+
+7
+00:00:31,230 --> 00:00:32,740
+partes que tiene una aplicación.
+
+8
+00:00:33,290 --> 00:00:38,040
+Sobre todo facilita la mantenida el código sabe dónde está todo.
+
+9
+00:00:38,040 --> 00:00:44,880
+La escalabilidad de la web que vaya a desarrollar una aplicación que vaya a crear y además es que lo
+
+10
+00:00:44,880 --> 00:00:52,270
+hacen muy sencillo todo y de esta manera pues no mezclamos las diferentes partes que tiene la aplicación.
+
+11
+00:00:52,680 --> 00:00:58,200
+El modelo que es lo que acabamos de crear es la lógica de negocio o la parte que se conecta directamente
+
+12
+00:00:58,200 --> 00:01:00,510
+a la base de datos de acuerdo.
+
+13
+00:01:00,510 --> 00:01:07,080
+Hay dos tipos de modelo un modelo como éste que simplemente es una entidad o una referencia a un documento
+
+14
+00:01:07,410 --> 00:01:12,120
+de la base de datos el cual vamos a estar utilizando este modelo para guardar información en la base
+
+15
+00:01:12,120 --> 00:01:19,530
+de datos vale y luego también vamos a estar consultando pasando por este modelo consultando cosas de
+
+16
+00:01:19,530 --> 00:01:20,370
+la base de datos.
+
+17
+00:01:20,460 --> 00:01:22,180
+Es un tipo de modelo.
+
+18
+00:01:22,260 --> 00:01:26,790
+Luego hay otro tipo de modelos que son modelos de consulta que son simplemente clases en las cuales
+
+19
+00:01:26,790 --> 00:01:32,090
+tenemos diferentes métodos que acceden directamente a la base de datos o hacemos una lógica de negocio
+
+20
+00:01:32,110 --> 00:01:37,170
+hacemos una serie de consulta una serie de procesamiento de datos y se lo devolvemos al controlador
+
+21
+00:01:37,620 --> 00:01:38,280
+vale.
+
+22
+00:01:38,430 --> 00:01:44,010
+Luego la vista es la encargada de mostrar la información al usuario en este caso cómo es una Pierres
+
+23
+00:01:44,310 --> 00:01:50,010
+nuestra vista será simplemente los Jayson que devolveremos al usuario o al cliente que haga la petición
+
+24
+00:01:50,630 --> 00:01:56,310
+y el controlador es intermediario entre la vista y el modelo y se encarga de controlar todas las interacciones
+
+25
+00:01:56,310 --> 00:02:00,750
+del usuario y todas las peticiones que se vayan realizando mediante HTTP.
+
+26
+00:02:00,750 --> 00:02:08,580
+En este caso además pide los datos al modelo de Huelva Información a la vista o en este caso de la información
+
+27
+00:02:08,580 --> 00:02:12,820
+por Jayson y hace cierta lógica que vaya a tener nuestro programa.
+
+28
+00:02:12,840 --> 00:02:15,660
+Así que ese es el modelo vista controlador.
+
+29
+00:02:15,810 --> 00:02:20,790
+Si quieres profundizar un poco más acerca del MVC o del Modelo Vista Controlador entra a mi web Víctor
+
+30
+00:02:20,790 --> 00:02:21,110
+Robles.
+
+31
+00:02:21,110 --> 00:02:24,450
+El punto es y aquí busca MVC.
+
+32
+00:02:24,860 --> 00:02:30,990
+Busca esto aparecen varios ejemplos que he hecho yo acerca del MVC y aquí tienen una explicación completa
+
+33
+00:02:30,990 --> 00:02:39,570
+de lo que el MVC con esquemas como el flujo de funcionamiento con el MVC es decir el usuario realiza
+
+34
+00:02:39,570 --> 00:02:42,970
+una petición al controlador que actúa la petición y hace una llamada al modelo.
+
+35
+00:02:43,170 --> 00:02:44,910
+Todo esto lo puedes revisar aquí.
+
+36
+00:02:45,210 --> 00:02:51,160
+Incluso hay un ejemplo en PHP de cómo hacerlo y hay varios esquemas de cómo es el funcionamiento.
+
+37
+00:02:51,160 --> 00:02:57,330
+En un artículo de súper interesante que te recomiendo mucho si quieres leer un poco más acerca del MVC
+
+38
+00:02:57,360 --> 00:03:04,620
+no te lo estaré también enlazando en un recurso de esta clase entonces vamos a estar usando el MVC y
+
+39
+00:03:04,680 --> 00:03:09,120
+lo siguiente que vamos a crear van a ser los controladores la carpeta de controladores.
+
+40
+00:03:09,270 --> 00:03:15,990
+Vamos a crear el controlador de proyectos y vamos a crear un fichero de ruta también para crear las
+
+41
+00:03:15,990 --> 00:03:17,550
+rutas de los proyectos.
+
+42
+00:03:17,550 --> 00:03:19,670
+Eso ya lo vamos a empezar a hacer en la siguiente clase.

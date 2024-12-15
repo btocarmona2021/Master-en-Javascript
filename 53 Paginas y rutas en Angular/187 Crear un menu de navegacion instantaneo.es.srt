@@ -1,0 +1,115 @@
+1
+00:00:01,290 --> 00:00:07,620
+Ahora vamos a hacer un menú de navegación justo aquí para ir navegando las diferentes páginas de nuestra
+
+2
+00:00:07,620 --> 00:00:17,220
+web de acuerdo para eso crearme aquí un menú de acuerdo lo puedo hacer con una etiqueta Nap o utilizar
+
+3
+00:00:17,220 --> 00:00:21,750
+una huele y organizar esos elementos con CSS o como quieras.
+
+4
+00:00:21,750 --> 00:00:27,540
+De momento como luego vamos a hacer una aplicación web grande vamos a estar maquetado evitar y no va
+
+5
+00:00:27,540 --> 00:00:33,510
+a ser solamente ejercicios sino que vamos a hacer más cositas pues ahí maketa haremos todo bien pero
+
+6
+00:00:33,510 --> 00:00:38,870
+de momento vamos a ver cómo funciona y cómo podemos crear un menú de navegación.
+
+7
+00:00:38,930 --> 00:00:41,040
+Voy a crearme un enlace
+
+8
+00:00:45,380 --> 00:00:52,460
+a cada una de la página un enlace ir a la Jonh y para que esto funcione y nos lleve a otra de las páginas
+
+9
+00:00:52,460 --> 00:00:58,070
+de nuestra web tendremos que utilizar la directiva Rutter el link a una directiva atributo que nos incluye
+
+10
+00:00:58,430 --> 00:01:04,730
+el router de acuerdo y aquí tengo que pasar entre corchetes y entre comillas la ruta a la cual yo quiero
+
+11
+00:01:04,790 --> 00:01:07,550
+ir en este caso a la ruta barra o a la ruta.
+
+12
+00:01:08,090 --> 00:01:10,990
+Vale y así yo voy a creerme diferente enlace
+
+13
+00:01:15,220 --> 00:01:18,370
+el siguiente enlace será a zapatillas
+
+14
+00:01:24,640 --> 00:01:27,400
+lo pongo por aquí zapatillas.
+
+15
+00:01:27,400 --> 00:01:32,390
+El siguiente enlace será a cursos
+
+16
+00:01:36,770 --> 00:01:40,440
+y el siguiente será a vídeojuego
+
+17
+00:01:43,890 --> 00:01:48,000
+vale como tenemos aquí indicado en nuestro archivo de rutas
+
+18
+00:01:52,130 --> 00:01:56,500
+guardo actualizo la pantalla y aquí me aparecen mil links.
+
+19
+00:01:56,510 --> 00:02:08,660
+Le puedo poner una separación a los links con un y en BSP y eso me separaron links con un espacio para
+
+20
+00:02:08,750 --> 00:02:13,580
+utilizar eso para separar los enlaces del menú.
+
+21
+00:02:14,240 --> 00:02:19,120
+Entonces ya tengo mis links de esto sería mi menú de navegación.
+
+22
+00:02:19,130 --> 00:02:25,730
+No estoy yo si le doy a vídeojuego me voy a vídeojuego de manera instantánea y reactiva de curso me
+
+23
+00:02:25,730 --> 00:02:29,390
+voy a curso de trabajo me voy a Jonglei de zapatillas.
+
+24
+00:02:29,660 --> 00:02:34,810
+De esta manera voy navegando si te das cuenta en la parte inferior izquierda me aparece la wereables
+
+25
+00:02:36,260 --> 00:02:42,790
+de el link al cual voy a acceder y si te das cuenta cuando yo le doy click la web cambia dinámicamente
+
+26
+00:02:42,800 --> 00:02:47,550
+de manera instantánea y el contenido del Rutter outlet también me cambia.
+
+27
+00:02:47,750 --> 00:02:53,510
+El componente principal es el app y solamente cambia lo que hay en el router outlet de manera dinámica
+
+28
+00:02:53,570 --> 00:02:58,590
+instantánea y muy efectiva.
+
+29
+00:02:59,600 --> 00:03:03,920
+Así que ya tenemos un menú de navegación hecho utilizando el Rudin de angular.

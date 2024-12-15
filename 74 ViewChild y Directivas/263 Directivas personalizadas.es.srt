@@ -1,0 +1,323 @@
+1
+00:00:02,220 --> 00:00:07,170
+Una cosa que hemos estado viendo a lo largo del curso es cómo utilizar directivas que ya trae angular
+
+2
+00:00:07,170 --> 00:00:10,700
+por default y estibas de atributos etcétera.
+
+3
+00:00:10,710 --> 00:00:16,620
+Por ejemplo si yo quisiera ocultar este texto pues podría utilizar una directiva de atributos que fuera
+
+4
+00:00:16,620 --> 00:00:19,330
+Ginel y directamente decirle.
+
+5
+00:00:19,440 --> 00:00:21,990
+Por ejemplo si hago esto actualizo la pantalla
+
+6
+00:00:24,980 --> 00:00:27,830
+pues me ocultã ese texto porque estoy utilizando esta directiva.
+
+7
+00:00:27,830 --> 00:00:30,680
+Aquí podrían poner una condición o lo que fuera.
+
+8
+00:00:30,710 --> 00:00:36,470
+Aquí voy a comentar esto para que no nos saquen el alerta y tal.
+
+9
+00:00:36,750 --> 00:00:42,890
+Entonces ahora ya hemos visto cómo utilizar todas estas directivas por defecto a lo largo del curso
+
+10
+00:00:42,890 --> 00:00:49,880
+etcétera y ahora vamos a ver cómo crear una directiva nosotro manualmente una directiva una directiva
+
+11
+00:00:49,910 --> 00:00:50,920
+personalizada.
+
+12
+00:00:50,940 --> 00:00:57,560
+Vale para eso lo que vamos a hacer va a ser generar nuestra propia directiva con la consola de comandos
+
+13
+00:00:58,040 --> 00:01:01,050
+vamos a abrir la consola al CMD símbolo del sistema.
+
+14
+00:01:01,070 --> 00:01:02,990
+Entramos a la carpeta de nuestro proyecto
+
+15
+00:01:20,440 --> 00:01:28,680
+y aquí vamos a ejecutar el comando NG je directiva que esto es lo mismo que hacía un componente digamos
+
+16
+00:01:28,680 --> 00:01:35,670
+cuando generaba un componente utilizando el comando ng g component y ya poníamos el nombre del componente
+
+17
+00:01:35,670 --> 00:01:39,280
+y nos generaba la estructura más básica y fundamental del componente.
+
+18
+00:01:39,340 --> 00:01:45,210
+Entonces vamos a hacer lo mismo con la directiva le vamos a decir que la directiva se va a llamar resaltado
+
+19
+00:01:47,520 --> 00:01:48,180
+y ya está.
+
+20
+00:01:48,540 --> 00:01:54,240
+Vamos a dar a Enter y esta directiva lo que vamos a hacer va a ser que cuando se la pongamos algún elemento
+
+21
+00:01:54,660 --> 00:02:01,440
+le cambie el estilo o le haga le haga algún tipo de acción lo pongan a ver qué es el texto etcétera.
+
+22
+00:02:01,660 --> 00:02:12,930
+Entonces si revisamos nuestro código en la parte de Proyecto angular en ese refer al PP tenemos una
+
+23
+00:02:12,930 --> 00:02:19,350
+nueva directiva por aquí tenemos la directiva resaltado punto directiva que está aquí y esto es una
+
+24
+00:02:19,350 --> 00:02:20,520
+directiva simplemente.
+
+25
+00:02:20,550 --> 00:02:27,030
+Y fíjate como nos dice que tenemos que aplicar el selector a los elementos simplemente utilizando esto
+
+26
+00:02:28,440 --> 00:02:36,240
+y luego además si revisamos el ApB Module TS vemos que no ha agregado resaltado directiva y no le ha
+
+27
+00:02:36,240 --> 00:02:42,540
+agregado a la Declaration porque la directiva pipes y componentes van en declaraciones.
+
+28
+00:02:44,400 --> 00:02:50,460
+Entonces vamos a ver cómo aplicar esta directiva y cómo hacer y cómo hacer que modifique algo el elemento
+
+29
+00:02:50,880 --> 00:03:00,120
+el cual se le hayamos aplicado para eso puede utilizar un objeto que que se llama Element REB que lo
+
+30
+00:03:00,120 --> 00:03:05,400
+que hace es que cuando yo selecciono un elemento cuando yo le aplicó la directiva un elemento me consigue
+
+31
+00:03:05,460 --> 00:03:15,110
+el objeto nativo que yo esté tocando no voy a utilizar por aquí en red lo paso por el constructor él
+
+32
+00:03:15,220 --> 00:03:21,300
+dos puntos base en un objeto de tipo Element Reb y aquí yo puedo seleccionar el elemento que yo haya
+
+33
+00:03:21,300 --> 00:03:31,110
+seleccionado vale entonces puedo seleccionar Native Element que es la propiedad de que lleva el objeto
+
+34
+00:03:31,110 --> 00:03:38,800
+del elemento HTML que yo haya seleccionado vale y puedo hacer cualquier cosa con ella directamente voy
+
+35
+00:03:38,810 --> 00:03:46,710
+a hacer un consuelo para ver que lo estamos seleccionando realmente vale y esta directiva se la puede
+
+36
+00:03:46,710 --> 00:03:48,710
+aplicar a cualquier elemento HTML.
+
+37
+00:03:48,900 --> 00:03:55,860
+Cómo podría hacerlo pues si me abro al componer un punto HTML y le pongo aquí mi Directiva que se llama
+
+38
+00:03:56,520 --> 00:04:06,120
+resaltado Balákirev tenemos a Pepe resaltado se llama la directiva pues se la aplico por aquí simplemente
+
+39
+00:04:07,290 --> 00:04:10,640
+y si abro la consola debemos tener un consuelo.
+
+40
+00:04:12,270 --> 00:04:17,850
+Efectivamente tenemos el consuelo del elemento HTML que ha seleccionado vale esa directiva y ahora yo
+
+41
+00:04:17,850 --> 00:04:20,130
+puedo modificar ese texto y hacer lo que yo quiera.
+
+42
+00:04:20,130 --> 00:04:28,980
+A nivel de JavaScript puedo coger y también de los estilos junto a Stairs junto a Graham y yo puedo
+
+43
+00:04:28,980 --> 00:04:33,240
+poner un background blog Blog y el consuelo loquito
+
+44
+00:04:37,820 --> 00:04:39,920
+Malet puedo hacerlo perfectamente
+
+45
+00:04:42,640 --> 00:04:49,530
+a ver nos da un error que no es establish ese estilo la propiedad el atributo HTML para modificar eso
+
+46
+00:04:50,600 --> 00:04:52,090
+vale.
+
+47
+00:04:52,960 --> 00:04:54,750
+Nos vamos a contacto y aquí lo vemos.
+
+48
+00:04:54,750 --> 00:04:56,610
+La directiva se está aplicando correctamente.
+
+49
+00:04:56,610 --> 00:05:00,810
+Incluso le podríamos poner más cosas podríamos guardar el elemento
+
+50
+00:05:03,330 --> 00:05:12,270
+dentro de una propiedad de una variable y luego llamar a las propiedades llamar a Element punto ahí
+
+51
+00:05:12,290 --> 00:05:16,870
+y a ver si esto funciona sigue funcionando perfectamente.
+
+52
+00:05:16,890 --> 00:05:26,480
+Entonces puedo llamar a él de nuevo hasta el punto y le puedo poner un pudin también de 20 píxeles todo
+
+53
+00:05:26,530 --> 00:05:29,750
+entre comillas ya sabes que estos son strings.
+
+54
+00:05:29,940 --> 00:05:30,990
+Aquí lo estamos viendo.
+
+55
+00:05:30,990 --> 00:05:39,020
+Además le puedo poner un margen Element punto está el punto Maurín top Marilín top.
+
+56
+00:05:39,210 --> 00:05:50,610
+Puedo poner 15 PX Malet ahí lo vemos y además le puedo poner cualquier cosa puedo hacer cualquier cosa
+
+57
+00:05:50,610 --> 00:05:59,730
+que se me ocurra con el elemento podría incluso cambiarle el color Male Element punto está el punto
+
+58
+00:05:59,730 --> 00:06:02,470
+color y le puedo poner un color weight
+
+59
+00:06:08,570 --> 00:06:10,050
+ahí lo vemos.
+
+60
+00:06:10,140 --> 00:06:18,120
+Además de las directivas también podemos utilizar el método Bonini en Eger con init Balet y podemos
+
+61
+00:06:18,120 --> 00:06:20,210
+coger esto y meterlo dentro de los límites.
+
+62
+00:06:26,190 --> 00:06:35,850
+Vale y esto hacerlo que sea una propiedad pública y poder acceder al elemento en general vale haciendo
+
+63
+00:06:35,850 --> 00:06:38,070
+dis punto.
+
+64
+00:06:38,100 --> 00:06:45,690
+El ballet se ha visto igualmente debe funcionar efectivamente funciona y podemos probar más cosas.
+
+65
+00:06:59,340 --> 00:07:05,930
+Vale si yo pruebo aquí a sacar el texto que contiene el elemento efectivamente me lo saca sin ningún
+
+66
+00:07:05,930 --> 00:07:08,570
+tipo de problema y yo puedo procesar esa información.
+
+67
+00:07:08,570 --> 00:07:19,100
+Vale podría hacer lo siguiente podría convertir ese texto a mayúsculas usando el método tú percas.
+
+68
+00:07:20,810 --> 00:07:29,810
+Vale podría hacerlo perfectamente y entonces darle un valor a lo que es el texto ya de elemento nativo.
+
+69
+00:07:29,840 --> 00:07:39,860
+Puedo hacer Element punto y el texto es igual a inertes pero convertió mayúsculas y hago esto.
+
+70
+00:07:40,070 --> 00:07:43,370
+Efectivamente me cambio el texto y me lo pone en mayúsculas.
+
+71
+00:07:43,370 --> 00:07:48,370
+Podría procesarlo también y borrar cualquier palabra que aquí vale
+
+72
+00:08:09,470 --> 00:08:11,030
+vale podría hacer un remplace
+
+73
+00:08:17,500 --> 00:08:23,510
+puede hacer un replace y la palabra por ejemplo contacto
+
+74
+00:08:26,930 --> 00:08:28,970
+cambiarla por nada o por
+
+75
+00:08:36,010 --> 00:08:37,010
+unos símbolos.
+
+76
+00:08:37,020 --> 00:08:40,780
+Por ejemplo vale si yo hago esto igualmente
+
+77
+00:08:43,420 --> 00:08:51,720
+contacto me lo sigue dejando porque realmente ahora es contacto en mayúsculas ok.
+
+78
+00:08:52,510 --> 00:08:57,220
+Efectivamente me cambio la palabra contacto por eso y puedo hacer lo que se me pase por la cabeza porque
+
+79
+00:08:57,220 --> 00:09:02,880
+ya tengo una clase funcional que si yo se la aplico a un elemento va a hacer lo que yo le diga.
+
+80
+00:09:02,920 --> 00:09:09,160
+Como buena directiva que no así que ya hemos visto cómo crear directivas customizadas y personalizada
+
+81
+00:09:09,250 --> 00:09:10,570
+y cómo utilizarlas.

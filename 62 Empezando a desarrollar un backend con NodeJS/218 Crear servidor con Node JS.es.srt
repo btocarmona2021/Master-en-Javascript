@@ -1,0 +1,383 @@
+1
+00:00:01,050 --> 00:00:05,670
+Una vez que tenemos ya la conexión a la base de datos hecha ahora lo que vamos a hacer va a ser crear
+
+2
+00:00:05,670 --> 00:00:08,430
+un servidor con no DJs y expres.
+
+3
+00:00:08,430 --> 00:00:13,410
+Esto va a ser el motor de la aplicación a nivel de Bakken porque nos va a permitir tener un sistema
+
+4
+00:00:13,410 --> 00:00:21,340
+de ruta y recibir peticiones HTTP y trabajar con el protocolo HTTP de manera muy sencilla.
+
+5
+00:00:21,510 --> 00:00:27,030
+Entonces vamos a crear un servidor que vamos a poder levantarlo y vamos a poder estar recibiendo peticiones
+
+6
+00:00:27,150 --> 00:00:34,500
+y crear diferentes páginas que devuelvan algún tipo de contenido vale así que vamos a utilizar expres
+
+7
+00:00:34,890 --> 00:00:38,400
+y a crear su configuración para la configuración de Pres.
+
+8
+00:00:38,400 --> 00:00:46,320
+Yo recomendaría crear un archivo que se llame p.ej. s y aquí yo voy a guardar toda la configuración
+
+9
+00:00:46,680 --> 00:00:53,970
+de expres y de las peticiones Convey parser también vale simplemente en este archivo voy a definir Deluxe
+
+10
+00:00:54,030 --> 00:01:04,920
+Street voy a poner una variable expres que se va a llamar que voy a cargar el módulo de expres require
+
+11
+00:01:07,730 --> 00:01:08,510
+expres.
+
+12
+00:01:08,540 --> 00:01:13,410
+De esta manera acargo el módulo y ya tengo disponible el objeto de expres para trabajar con él.
+
+13
+00:01:13,520 --> 00:01:21,080
+Ahora voy a crear otra que se va a llamar Bodhi parser y voy a cargar también el módulo Body parser
+
+14
+00:01:21,340 --> 00:01:26,450
+vale cuando yo un require de un módulo lo que está haciendo acceder al directorio de no de módulo se
+
+15
+00:01:26,450 --> 00:01:34,540
+accede a la carpeta de expres o a la carpeta de Body parser y cargar el objeto correspondiente vale.
+
+16
+00:01:34,670 --> 00:01:40,460
+Ahora dentro de la variable expres yo tengo el objeto y dentro de baipás si tengo el otro objeto de
+
+17
+00:01:40,460 --> 00:01:41,790
+la otra librería.
+
+18
+00:01:41,870 --> 00:01:49,250
+Ahora voy a crear una variable que se llame a Pepe y aquí puedo ejecutar Express vale juto esta función
+
+19
+00:01:51,140 --> 00:01:54,280
+aquí irá a una configuración de rutas.
+
+20
+00:01:54,630 --> 00:01:56,020
+Después lo veremos después.
+
+21
+00:01:56,030 --> 00:02:04,670
+Aquí vamos a configurar los mil webs que lo del Web no es más que un una capa que se ejecuta antes o
+
+22
+00:02:04,670 --> 00:02:11,300
+un método que se ejecuta antes de ejecutar la acción de un controlador de acuerdo de ejecutar el resultado
+
+23
+00:02:11,300 --> 00:02:12,050
+de la petición.
+
+24
+00:02:12,050 --> 00:02:18,050
+Eso se ejecuta antes del web y después se ejecuta la funcionalidad principal de la ruta a la cual estemos
+
+25
+00:02:18,050 --> 00:02:18,920
+llamando.
+
+26
+00:02:18,920 --> 00:02:24,980
+En este caso vamos a crear un modelo web global utilizando Apep que es el objeto de Pres y utilizando
+
+27
+00:02:24,980 --> 00:02:33,170
+su método use vale y voy a utilizar Bodhi parser para convertir lo que me llegue cualquier tipo de dato
+
+28
+00:02:33,170 --> 00:02:41,360
+que me lleve por post o de cualquier manera convertir un objeto Jayro voy a hacer body parser que es
+
+29
+00:02:41,360 --> 00:02:52,850
+el objeto Body parser y utiliza el método R.L en coleto vale que le iba a decir que Extended dos puntos
+
+30
+00:02:52,850 --> 00:02:57,330
+false es simplemente una configuración necesaria para Body parser.
+
+31
+00:02:57,470 --> 00:03:06,350
+Ahora voy a hacer otro modelo web Apep use y voy a decirle que todo lo que le llegue vale lo convierta
+
+32
+00:03:06,470 --> 00:03:16,310
+a Jayson utilizar el método Yeison es decir cualquier tipo de petición la va a convertir a Jayson cualquier
+
+33
+00:03:16,310 --> 00:03:21,800
+tipo de petición que me llegue a ejecutar esto lo primero y me va a convertir los datos Allais en cualquier
+
+34
+00:03:21,800 --> 00:03:28,200
+cosa que me llegue por el body de una petición después aquí configuraría el Cours y aquí configurará
+
+35
+00:03:28,330 --> 00:03:30,200
+más tema de rutas
+
+36
+00:03:32,810 --> 00:03:42,910
+vale aquí será que aquí cargaremos archivos de ruta y aquí cargaremos la ruta.
+
+37
+00:03:44,230 --> 00:03:50,380
+Y por último nos queda exportar este módulo porque este archivo APK p.ej. ese es un módulo de DJs que
+
+38
+00:03:50,480 --> 00:03:54,320
+puede exportar y luego estar importando los diferentes Archivo.
+
+39
+00:03:54,340 --> 00:04:01,270
+Aquí voy a exportarlo exportar y para exportar lo tendría que decir Module porque es un módulo punto
+
+40
+00:04:01,350 --> 00:04:08,230
+Esport acabado en ese importante y voy a exportar la variable a Pepe que es la que tiene ya toda la
+
+41
+00:04:08,230 --> 00:04:10,720
+configuración Dromi del web etc..
+
+42
+00:04:10,750 --> 00:04:17,800
+Vale pues yo tengo mi configuración de expres y de Body parser básica para crear mi servidor.
+
+43
+00:04:17,800 --> 00:04:24,640
+Ahora para crear mi servidor me voy a ir al Index J.S y una vez que yo realice la conexión a la base
+
+44
+00:04:24,640 --> 00:04:28,060
+de datos dentro de este edén voy a ejecutar aquí
+
+45
+00:04:31,780 --> 00:04:41,350
+la creación del servidor y entonces voy a quedarme aquí una variable que se va a llamar a Pepe en la
+
+46
+00:04:41,350 --> 00:04:47,000
+cual voy a cargar el archivo a Pepe punto J.V que la configuración de le tengo que indicar la ruta dónde
+
+47
+00:04:47,020 --> 00:04:47,340
+está.
+
+48
+00:04:47,380 --> 00:04:48,400
+Dónde está este archivo.
+
+49
+00:04:48,400 --> 00:04:52,540
+Pues en la ruta actual en la carpeta actual y el archivo es a Pepe.
+
+50
+00:04:52,630 --> 00:04:58,650
+El punto JBS no hace falta ponerlo porque ya lo he reconocido automáticamente y también voy a quedarme
+
+51
+00:04:58,680 --> 00:05:03,330
+una variable llamada port en la cual indica el puerto del servidor.
+
+52
+00:05:03,340 --> 00:05:11,760
+En mi caso vuelve a poner tres mil setecientos Valencia va a ser el puerto de mi servidor local 2.3
+
+53
+00:05:11,750 --> 00:05:12,920
+1700.
+
+54
+00:05:13,030 --> 00:05:18,520
+Vale ahora voy a crear mi servidor para eso se utiliza el objeto a Pepe que es donde está expres y utiliza
+
+55
+00:05:18,520 --> 00:05:21,900
+el método listed de Express.
+
+56
+00:05:22,060 --> 00:05:29,050
+Esto tiene varios parámetros el primero es el puerto así que le paso el puerto y luego el segundo parámetro
+
+57
+00:05:29,050 --> 00:05:32,260
+es una función de caldo que va a ser una función de flecha
+
+58
+00:05:34,960 --> 00:05:41,860
+y simplemente en este Calvache lo que tendría que indicar es si la conexión se ha realizado correctamente
+
+59
+00:05:41,860 --> 00:06:00,970
+o no. Si voy a hacer un consolé punto lo que diga servidor corriendo correctamente en la RL local Jost
+
+60
+00:06:01,600 --> 00:06:08,930
+dos puntos tres mil setecientos Valencia Aragón punto y coma y en el caso de que esto se lance correctamente
+
+61
+00:06:08,930 --> 00:06:11,360
+es que nuestros servidores estará funcionando.
+
+62
+00:06:11,360 --> 00:06:16,600
+Vale ahora mismo si miro mi consola me aparece conexión a la base de datos organizada correctamente
+
+63
+00:06:16,840 --> 00:06:22,080
+y servidor corriendo correctamente en la web el local 2.3 1700.
+
+64
+00:06:22,330 --> 00:06:30,290
+Si ahora me voy a mi navegador y ejecuto local Jost 2 punto 3800
+
+65
+00:06:33,610 --> 00:06:42,370
+en este caso 3700 hemos dicho 3700 me carga efectivamente mi servidor de DJs que pone no hay ninguna
+
+66
+00:06:42,370 --> 00:06:43,420
+ruta en jet.
+
+67
+00:06:43,450 --> 00:06:48,220
+Vale pues realmente el servidor está funcionando perfectamente porque me está reconociendo que estoy
+
+68
+00:06:48,220 --> 00:06:50,580
+haciendo una petición por a una ruta.
+
+69
+00:06:50,570 --> 00:06:57,730
+Vale entonces ya tengo el servidor funcionando ahora me puedo crear alguna ruta para probar que realmente
+
+70
+00:06:57,730 --> 00:06:59,380
+el servidor funciona al 100 por ciento.
+
+71
+00:06:59,730 --> 00:07:06,060
+Ok para eso me puedo ir a p.ej. ese ya aquí en la parte de ruta puedo crear una ruta de prueba que se
+
+72
+00:07:06,080 --> 00:07:06,490
+PP.
+
+73
+00:07:06,530 --> 00:07:07,900
+Punto.
+
+74
+00:07:07,990 --> 00:07:13,990
+Es decir utilizo el objeto Apep que utilizo es un método guetto y en el método Goeth pues voy a crear
+
+75
+00:07:13,990 --> 00:07:22,330
+una ruta por ese método HTTP hay una ruta que se va a llamar texto ok y esto tiene una función de Calvache
+
+76
+00:07:22,480 --> 00:07:30,640
+que recibe una request y una Response Balet recibe una recuas y una Response la recoge los datos que
+
+77
+00:07:30,640 --> 00:07:36,550
+yo le puedo estar enviando desde el cliente o desde la petición que yo haga y la red es la responsable
+
+78
+00:07:36,550 --> 00:07:37,950
+que yo voy a estar enviando.
+
+79
+00:07:38,080 --> 00:07:45,610
+Si yo hiciera respondo estátus 200 sería una petición o una respuesta exitosa por parte del servidor
+
+80
+00:07:46,210 --> 00:07:52,660
+y utilizaría el método osen para enviar los datos de acuerdo y en este caso voy a enviar un Jayson que
+
+81
+00:07:52,660 --> 00:08:10,210
+diga un mensaje mensaje que diga por ejemplo Hola mundo desde mi Happy de no de J.S. guardo actualizo
+
+82
+00:08:10,210 --> 00:08:11,620
+la pantalla.
+
+83
+00:08:11,620 --> 00:08:18,940
+Aquí no me aparece nada pero si yo entro en la ruta text me devuelve mi Jaxon de acuerdo sin ningún
+
+84
+00:08:18,940 --> 00:08:20,130
+tipo de problema.
+
+85
+00:08:20,230 --> 00:08:29,700
+Si yo me creara otra ruta que fuera simplemente barra yo podría incluso devolver algo que no fueron
+
+86
+00:08:29,700 --> 00:08:35,580
+Jayson o simplemente devolver un texto vale y eso es imprimiría en la pantalla sin ningún tipo de problema
+
+87
+00:08:37,810 --> 00:08:39,750
+puede devolver un texto un string
+
+88
+00:08:42,540 --> 00:08:45,620
+que diga página de inicio.
+
+89
+00:08:45,990 --> 00:08:53,720
+Incluso si lo meto entre una etiqueta HTML a ver a ver qué hace realmente no DJs y a ver cómo lo interpreta.
+
+90
+00:08:53,940 --> 00:09:02,520
+Guardo dentro del local 2.3 1700 y me muestra la página de inicio y además me interpretã el HTML que
+
+91
+00:09:02,520 --> 00:09:06,650
+yo le pongo ahí y si lo controlo pues ahí aparece vale.
+
+92
+00:09:06,930 --> 00:09:16,500
+Así que de esta manera podemos crear rutas utilizando el método HTTP GET vale y luego veremos más en
+
+93
+00:09:16,500 --> 00:09:24,480
+profundidad cómo crear más rutas cómo organizar esto en un modelo vista controlador y veremos cómo hacerlo
+
+94
+00:09:24,480 --> 00:09:24,910
+mejor.
+
+95
+00:09:24,950 --> 00:09:32,160
+Pero por el momento ya hemos visto cómo crear diferentes métodos para devolver una información de API
+
+96
+00:09:32,280 --> 00:09:33,570
+a nuestro navegador web.

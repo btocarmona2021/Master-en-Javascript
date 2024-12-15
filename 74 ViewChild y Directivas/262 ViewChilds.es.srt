@@ -1,0 +1,295 @@
+1
+00:00:00,780 --> 00:00:06,120
+Aquí en nuestra página de contacto ahora vamos a probar otra cosa nueva de angular.
+
+2
+00:00:06,170 --> 00:00:14,780
+Otra característica que tiene angular interesante vamos a añadir aquí un párrafo vamos a añadir un párrafo
+
+3
+00:00:15,240 --> 00:00:16,610
+y vamos a poner.
+
+4
+00:00:16,710 --> 00:00:22,650
+Esta es la página de contacto.
+
+5
+00:00:22,650 --> 00:00:28,000
+Puedes enviarnos cualquier duda.
+
+6
+00:00:28,000 --> 00:00:29,850
+Vale perfecto.
+
+7
+00:00:31,210 --> 00:00:37,560
+Entonces va a aparecer ese texto ahí realmente esta parte del código la voy a comentar porque de momento
+
+8
+00:00:37,560 --> 00:00:39,150
+no vamos a tocarla más
+
+9
+00:00:42,210 --> 00:00:46,270
+vale y solamente quiero que nos quedemos con esto.
+
+10
+00:00:46,780 --> 00:00:53,750
+Y ahora vamos a explicar algunas cosas más acerca de las vistas en angular mira en angular nosotros
+
+11
+00:00:53,920 --> 00:01:00,820
+podemos tener una plantilla que sería cualquier página o punto HTML que tengamos en nuestro proyecto
+
+12
+00:01:01,520 --> 00:01:05,960
+y eso podría ser considerado como una vista de nuestro proyecto vale.
+
+13
+00:01:06,820 --> 00:01:14,650
+Pero además angular cuando nosotros cargamos una vista cada bloque o cada etiqueta lo entiende como
+
+14
+00:01:14,650 --> 00:01:15,570
+una vista.
+
+15
+00:01:15,670 --> 00:01:24,130
+Vale por ejemplo este DIV para angular podría ser una vista de este párrafo incluso podríamos hacer
+
+16
+00:01:24,130 --> 00:01:24,550
+un DIV
+
+17
+00:01:28,920 --> 00:01:34,650
+vale y el diben si lo consideraría como una vista de nuestro de nuestra plantilla.
+
+18
+00:01:34,650 --> 00:01:42,420
+Entonces nosotro originalmente en JavaScript cómo podíamos conseguir el valor interno que tiene una
+
+19
+00:01:42,420 --> 00:01:49,830
+vista o cómo podíamos seleccionar un elemento de nuestra página web utilizando el documento de Lemaire
+
+20
+00:01:50,010 --> 00:01:56,070
+y selector utilizando allí Kairi y seleccionando cualquier elemento de la página etc..
+
+21
+00:01:56,130 --> 00:02:03,750
+Eso está bien estaba bien cuando trabajamos con JavaScript incluso hacerlo dentro de angular también
+
+22
+00:02:03,750 --> 00:02:08,790
+podría estar bien pero angular nos traen una funcionalidad muy interesante que son los Büchi que nos
+
+23
+00:02:08,790 --> 00:02:16,100
+permite acceder a esta parte del código que me interesen simplemente poniéndole un nombre a ese elemento.
+
+24
+00:02:16,170 --> 00:02:22,410
+Originalmente nosotros si queríamos acceder a este DIV tendríamos que poner un ideé por ejemplo que
+
+25
+00:02:22,410 --> 00:02:29,430
+fuera que fuera texto por ejemplo y yo podría acceder a él cómo lo podría hacer pues directamente en
+
+26
+00:02:29,430 --> 00:02:40,770
+mi componente en el Ninet yo podía hacer esto document junto con el selector y seleccionar el elemento
+
+27
+00:02:40,830 --> 00:02:46,110
+con Hide texto y aquí puedo sacar el dinero HTML
+
+28
+00:02:49,160 --> 00:02:57,570
+que tuviera no y hacer un console log de esto o una vez directamente yo podía hacer esto sin ningún
+
+29
+00:02:57,570 --> 00:02:58,220
+problema.
+
+30
+00:03:02,180 --> 00:03:06,000
+Vale lo que pasa es que guipur me dará algún error dentro de angulas.
+
+31
+00:03:06,770 --> 00:03:14,210
+Vale efectivamente me dice que no puede leer la propiedad el HTML pero bueno podemos hacer un consuelo
+
+32
+00:03:14,270 --> 00:03:22,640
+del elemento HTML con texto console un Autolog guardado actualizo
+
+33
+00:03:25,510 --> 00:03:31,620
+efectivamente me saca Null porque no he guardado la vista claro todo guardarla.
+
+34
+00:03:31,670 --> 00:03:34,000
+Ahora si podré sacar el línea HTML.
+
+35
+00:03:34,000 --> 00:03:47,530
+Voy a darle controlé y voy a hacer un Alert delineaba HTML mal muerdo actualizo la pantalla y efectivamente
+
+36
+00:03:47,560 --> 00:03:49,030
+me saca el contenido que tiene.
+
+37
+00:03:49,330 --> 00:03:55,540
+EDIT vale me lo saca sin ningún tipo de problema me saca el párrafo y me saca el texto.
+
+38
+00:03:55,540 --> 00:03:56,710
+No hay ningún tipo de problema.
+
+39
+00:03:56,740 --> 00:04:00,880
+Así se hacía y se puede hacer con JavaScript.
+
+40
+00:04:00,880 --> 00:04:02,110
+Esta sería una opción
+
+41
+00:04:07,180 --> 00:04:08,230
+opción clásica
+
+42
+00:04:11,020 --> 00:04:20,080
+vale pero en angular tenemos los butil vale mucho y es lo mismo lo mismo que hacer esto pero le tenemos
+
+43
+00:04:20,080 --> 00:04:26,830
+que poner un nombre al campo en este caso le podemos poner un nombre crear una variable con ese campo
+
+44
+00:04:26,830 --> 00:04:29,170
+que sea almohadilla y por ejemplo
+
+45
+00:04:31,910 --> 00:04:32,680
+textos.
+
+46
+00:04:32,750 --> 00:04:38,630
+Vamos a poner en lugar de texto textos y eso es una variable a la cual yo puedo acceder desde mi componente
+
+47
+00:04:39,060 --> 00:04:46,470
+vale sin ningún tipo de problema y entonces puedo coger importar mi hucha y mi elemento soy un componente
+
+48
+00:04:46,490 --> 00:04:53,030
+de hucha y entonces puedo utilizar el bitcoin en una propiedad que yo tenga Public
+
+49
+00:04:56,340 --> 00:05:01,610
+directamente ni públic directamente arroba Choir porque es un decorador.
+
+50
+00:05:01,740 --> 00:05:08,790
+Recojo la variable que se llama Textos vale y me creo la propiedad llamada textos
+
+51
+00:05:11,570 --> 00:05:13,320
+Okkhoy.
+
+52
+00:05:13,830 --> 00:05:22,050
+Ahora mismo yo puedo acceder a esta propiedad y tengo la misma información si algún consuelo de textos
+
+53
+00:05:23,040 --> 00:05:32,670
+disputo textos guardo actualizo la pantalla que debería tener la información que pasa que Objet ignota
+
+54
+00:05:32,670 --> 00:05:36,870
+función de la línea 14.
+
+55
+00:05:36,960 --> 00:05:45,210
+Claro es que aquí me he equivocado escrito View sale mal voy a escribirlo bien mil palabras.
+
+56
+00:05:45,240 --> 00:05:53,100
+Guardo actualizo la pantalla y efectivamente me saca la referencia a un elemento nativo de JavaScript
+
+57
+00:05:53,160 --> 00:06:01,930
+que es de aquí y aquí tenemos pues todo toda la información del elemento la clase todo.
+
+58
+00:06:02,010 --> 00:06:08,210
+Toda la información de línea HTML que el tipo elemento todo lo tenemos todo.
+
+59
+00:06:08,210 --> 00:06:13,880
+Todas las propiedades directamente puedo acceder a línea HTML por ejemplo.
+
+60
+00:06:14,490 --> 00:06:16,140
+Hago esto guardado actualizo
+
+61
+00:06:18,600 --> 00:06:28,740
+y me saca un defined porque el HTML no está en la misma en la misma altura o en la misma raíz del elemento
+
+62
+00:06:28,740 --> 00:06:35,970
+sino que tendría que seleccionar la propiedad Natty Element y luego bajar a línea HTML.
+
+63
+00:06:35,970 --> 00:06:36,330
+Vale
+
+64
+00:06:39,490 --> 00:06:41,360
+o incluso al Tex content.
+
+65
+00:06:41,460 --> 00:06:52,590
+Incluso podría hacer lo siguiente Native Element y aquí hacer text content.
+
+66
+00:06:52,740 --> 00:07:00,030
+De esta manera sí que puede funcionar y efectivamente me saca el contenido de texto que hay dentro del
+
+67
+00:07:00,030 --> 00:07:01,900
+elemento y yo podría.
+
+68
+00:07:02,130 --> 00:07:11,400
+Pues ya te digo hacer lo que me diera la gana con ese texto mostrarlo en una alerta o o directamente
+
+69
+00:07:12,410 --> 00:07:13,290
+hacer lo que yo quiera
+
+70
+00:07:17,760 --> 00:07:21,920
+vale manipularlo y volverlo a mostrar o lo que sea.
+
+71
+00:07:21,920 --> 00:07:27,640
+Aquí vemos que el contenido de eso es ese texto entonces de esta manera podemos trabajar también un
+
+72
+00:07:27,640 --> 00:07:34,210
+poco más con el DOM y seleccionar más cosas aparte de poder hacerlo con bosque nativo también lo podemos
+
+73
+00:07:34,210 --> 00:07:40,870
+hacer con elementos y objetos nativos de angular y podemos utilizar los Viacha y de esta manera tener
+
+74
+00:07:41,190 --> 00:07:44,700
+un pequeño trozo de vista que nosotros podemos seleccionar y manipular.

@@ -1,0 +1,139 @@
+1
+00:00:01,320 --> 00:00:07,740
+Ahora vamos a hacer una mejora nuestro código de este método vamos a comprobar qué extensión se está
+
+2
+00:00:07,740 --> 00:00:15,390
+subiendo si la extensión es correcta y además vamos a hacer que si la extensión no es correcta o no
+
+3
+00:00:15,390 --> 00:00:20,400
+se ha subido bien el archivo o lo que sea lo borre de nuestro en nuestra carpeta.
+
+4
+00:00:21,120 --> 00:00:28,220
+Entonces lo primero que tenemos que hacer es sacar la extensión de nuestro archivo vale para eso voy
+
+5
+00:00:28,230 --> 00:00:37,190
+a crear una variable aquí que se va a llamar ext exploit y voy a hacer un file split de file name file
+
+6
+00:00:37,190 --> 00:00:47,210
+name punto exploit y aquí voy a cortar por el punto del archivo Vale y ahora ya tengo una Rai con dos
+
+7
+00:00:47,210 --> 00:00:56,570
+elementos la parte en la parte de antesdel punto y la parte del punto después del punto es la extensión
+
+8
+00:00:56,630 --> 00:01:00,030
+y es el índice número uno de ese array.
+
+9
+00:01:00,170 --> 00:01:11,180
+Vale entonces agregar una variable File ext de extensión y voy a acceder a X exploit y al índice número
+
+10
+00:01:11,180 --> 00:01:22,670
+1 perfecto entonces simplemente voy a hacer un info aquí voy a comprobar si File ext es igual igual
+
+11
+00:01:22,670 --> 00:01:45,710
+a PNG o File es igual igual la jpg o File es igual igual a jpg o File es igual igual Abif.
+
+12
+00:01:46,130 --> 00:01:53,540
+En ese caso que me haga el guardado de la imagen en base de datos y me la guarde sin ningún tipo de
+
+13
+00:01:53,540 --> 00:02:00,260
+problema Balay me actualiza el objeto okey pero en el caso de que no vamos a hacer un enlace por aquí
+
+14
+00:02:02,120 --> 00:02:02,950
+en el caso de que no.
+
+15
+00:02:02,990 --> 00:02:10,970
+Entonces yo voy a borrar ese archivo entonces voy a utilizar una librería de DJs para eso tengo que
+
+16
+00:02:10,970 --> 00:02:20,110
+importarlo por aquí arriba la librería que se llama F.S donde tengo que hacer require FS
+
+17
+00:02:24,250 --> 00:02:30,030
+vale entonces voy a utilizar la librería Fáil System por aquí abajo para borrar un archivo para hacer
+
+18
+00:02:30,120 --> 00:02:31,900
+un link.
+
+19
+00:02:32,080 --> 00:02:40,050
+Entonces vamos a hacer F ese punto un link y le voy a pasar la ruta completa el file pack completo del
+
+20
+00:02:40,050 --> 00:02:45,630
+archivo para que lo borre y como segundo parámetro tengo una función de Calvache que recibe un error
+
+21
+00:02:45,980 --> 00:02:55,140
+en el caso de que suceda y pues eso podría mostrar el error y si sucede o directamente mostrará un RETURN
+
+22
+00:02:56,610 --> 00:03:10,040
+hacia una respuesta básicamente returned respondo estátus 200 y que diga que la extensión no es válida.
+
+23
+00:03:10,110 --> 00:03:10,890
+Mensaje
+
+24
+00:03:15,210 --> 00:03:20,500
+la extensión no es válida.
+
+25
+00:03:20,850 --> 00:03:29,280
+Cierro con Punto y Coma vale guardo y vamos a comprobarlo.
+
+26
+00:03:29,280 --> 00:03:31,590
+De momento voy a borrar todos los archivos que tengo aquí.
+
+27
+00:03:31,590 --> 00:03:36,250
+Delete File delete File delete File y Delete file.
+
+28
+00:03:36,660 --> 00:03:43,320
+Y ahora voy a asignarle una nueva imagen a mi documento la tengo aquí le voy a enviar me la guarda sin
+
+29
+00:03:43,320 --> 00:03:44,330
+ningún tipo de problema.
+
+30
+00:03:44,610 --> 00:03:52,590
+Pero qué pasaría si yo añado un archivo que no es una extensión válida por ejemplo este video aquí vale
+
+31
+00:03:53,280 --> 00:03:59,910
+lo va a subir y me va decir la extensión no es válida y si reviso la carpeta de blogs no me aparece
+
+32
+00:03:59,910 --> 00:04:04,140
+esa imagen ahí simplemente me aparece la imagen que yo tenía originalmente.
+
+33
+00:04:04,140 --> 00:04:08,600
+Con lo cual ya hemos hecho una mejora bastante importante y bastante interesante a nuestro código y
+
+34
+00:04:08,600 --> 00:04:14,610
+a este método de subida de archivos para que solamente permita subir imágenes y si no se suben imágenes
+
+35
+00:04:14,610 --> 00:04:17,850
+o lo que sea que borre el archivo de la carpeta.

@@ -1,0 +1,111 @@
+1
+00:00:00,750 --> 00:00:06,690
+Otra cosa que podemos hacer con el tema de las rutas es hacer redirecciona es una redirección cuando
+
+2
+00:00:06,690 --> 00:00:14,670
+nosotros programáticamente redirigido al usuario a otra página de nuestra web de acuerdo por ejemplo
+
+3
+00:00:14,730 --> 00:00:15,930
+esto es un link.
+
+4
+00:00:15,930 --> 00:00:22,740
+Esto no es una redirección pero cuando yo hago programáticamente un router navigate o hago una redirección
+
+5
+00:00:22,740 --> 00:00:26,270
+por código para que se vaya a otra página cuando suceda algo.
+
+6
+00:00:26,310 --> 00:00:30,800
+Eso si que es una redireccionan en nuestro componente de cursos.
+
+7
+00:00:30,870 --> 00:00:32,130
+Voy a añadir aquí un botón
+
+8
+00:00:36,060 --> 00:00:40,100
+y en este botón Voy a poner llévame
+
+9
+00:00:42,910 --> 00:00:44,000
+a zapatillas
+
+10
+00:00:46,640 --> 00:00:47,160
+vale.
+
+11
+00:00:47,540 --> 00:00:53,990
+Y aquí cuando yo le dé click con el evento click voy a lanzar un método que se va a llamar redirigir
+
+12
+00:00:59,020 --> 00:01:01,910
+y en este método que lo voy a tener dentro de mi componente
+
+13
+00:01:05,570 --> 00:01:13,400
+voy a hacer un cúter navigate disputo guión bajo Rutter punto navigate y esto yo le voy a indicar que
+
+14
+00:01:13,400 --> 00:01:19,670
+me lleve a cualquier R.L de mi proyecto cualquier ruta de mi proyecto le puede decir que me lleve zapatillas
+
+15
+00:01:21,200 --> 00:01:27,770
+vale sin ningún tipo de problema guardo actualizo la pantalla y si le doy click aquí me lleva zapatillas
+
+16
+00:01:27,770 --> 00:01:32,860
+sin ningún tipo de problema me hace un navigate entre las diferentes páginas de la web.
+
+17
+00:01:32,860 --> 00:01:40,740
+Si yo quiero que me lleve a otra página a cursos o cursos no que ya estamos vídeojuego.
+
+18
+00:01:41,150 --> 00:01:46,520
+Vale pues cuando le dé clic a ese botón me llevará a vídeojuego.
+
+19
+00:01:46,520 --> 00:01:49,010
+Igualmente esto lo puedo utilizar en navigate
+
+20
+00:01:51,950 --> 00:01:56,870
+cuando sucede algo en la página no cuando acabe de hacer una petición Ayax.
+
+21
+00:01:56,900 --> 00:02:04,160
+Cuando el usuario de clica cierta cosa etcétera yo puedo hacer un navigate para que lo redirige a cualquier
+
+22
+00:02:04,160 --> 00:02:14,830
+parte de acuerdo es decir que por ejemplo si yo recibo por la web R.L un parámetro o el parámetro nombre
+
+23
+00:02:15,910 --> 00:02:27,340
+lleva un valor disputo nombre lleva un valor exactamente igual igual a ninguno que me dirija a la.
+
+24
+00:02:27,430 --> 00:02:34,550
+El acuerdo podría hacerlo perfectamente que me redirige a la página vale entonces yo puedo probar esto
+
+25
+00:02:34,550 --> 00:02:41,380
+y si me voy a la página de cursos para hacer un curso aquí en la web del elpaso nombre ninguno y le
+
+26
+00:02:41,430 --> 00:02:48,080
+paso un número y me redirige abajo porque se cumple esta condición y programáticamente pues redirige
+
+27
+00:02:48,080 --> 00:02:54,810
+al usuario a la otra página de mi proyecto a la otra sección de mi aplicación web con angular.
+
+28
+00:02:54,950 --> 00:02:58,100
+Así que ya hemos visto como hace redirección también con el router.

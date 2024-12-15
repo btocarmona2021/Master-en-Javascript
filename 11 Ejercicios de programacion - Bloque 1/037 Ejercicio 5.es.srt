@@ -1,0 +1,143 @@
+1
+00:00:01,000 --> 00:00:04,070
+Vamos a hacer el siguiente ejercicio que va a ser un poco parecido a éste.
+
+2
+00:00:04,120 --> 00:00:08,440
+Vamos a hacer un fichero a veces el fichero número 15
+
+3
+00:00:11,160 --> 00:00:26,950
+ejercicio 5 puntos JS guardo y vamos a importarlo por aquí en el Indec cargarlo el ejercicio 15 y el
+
+4
+00:00:26,950 --> 00:00:30,100
+ejercicio 5 va perfecto.
+
+5
+00:00:30,110 --> 00:00:37,180
+Entonces vamos a ponerle el huso Street y en este ejercicio lo que vamos a hacer es mostrar todos los
+
+6
+00:00:37,180 --> 00:00:42,890
+números divisores de un número introducido por pantalla de acuerdo pongo aquí el enunciado.
+
+7
+00:00:43,030 --> 00:00:58,720
+Vamos a hacer un programa que muestre todos los números divisores de un número introducido en un pronto.
+
+8
+00:00:59,370 --> 00:01:03,850
+Vale todo esto ejercicios quiero que quede claro que son ejercicios que son ejercicios de programación
+
+9
+00:01:04,120 --> 00:01:09,970
+son ejercicios para quien no sepa programar del todo y para asentarlo conocimiento de JavaScript que
+
+10
+00:01:09,970 --> 00:01:11,380
+hemos estado viendo hasta ahora.
+
+11
+00:01:11,380 --> 00:01:15,360
+Si tú ya eres un experto en programación evidentemente esto ejercicio puede saltar.
+
+12
+00:01:15,880 --> 00:01:20,430
+Entonces tenemos que mostrar los números divisores de un número que se introducen todos vamos a crear
+
+13
+00:01:20,470 --> 00:01:26,380
+una variable donde vamos a guardar el número que ha introducido el usuario Parse INT para convertir
+
+14
+00:01:27,130 --> 00:01:29,990
+a un string lo que va a llevar por el prompt.
+
+15
+00:01:30,180 --> 00:01:38,200
+En este caso un número y por default va a venir el número uno cierra con punto y coma.
+
+16
+00:01:38,200 --> 00:01:40,930
+Y entonces qué bucle voy a utilizar para hacer esto.
+
+17
+00:01:40,930 --> 00:01:47,770
+Pues muy sencillo un fork porque voy a ir desde el número 1 hasta el número introducido por el teclado
+
+18
+00:01:47,770 --> 00:01:54,250
+entonces en este caso aún por el foro está formado por tres partes La primera es el contador o al inicio
+
+19
+00:01:54,270 --> 00:01:58,980
+rizador que es la variable y que en este caso se estaría inicializar a 1.
+
+20
+00:01:59,080 --> 00:02:07,960
+La segunda parte sería la comparación o la condición en este caso y otras que sea menor o igual al número
+
+21
+00:02:08,610 --> 00:02:15,470
+pues voy a estar incrementando el contador 1 y entonces voy integrando poco a poco.
+
+22
+00:02:15,550 --> 00:02:24,520
+Entonces ahora tendré que mostrar un consolero divisor entonces voy a concatenar De ahí que sería el
+
+23
+00:02:24,520 --> 00:02:29,860
+número divisor que estamos recorriendo hasta llegar al número en este caso pero qué pasa si yo ahora
+
+24
+00:02:29,860 --> 00:02:35,710
+mismo hago esto así y autorizó la pantalla meto un número en este caso el 123 y me va y me va a sacar
+
+25
+00:02:35,710 --> 00:02:38,940
+todos los números del 1 al 123.
+
+26
+00:02:38,950 --> 00:02:44,230
+Hasta aquí todo correcto pero claro yo lo que quiero mostrar los divisores qué divisor tiene un número
+
+27
+00:02:45,010 --> 00:02:49,240
+un número es divisor de otro número cuando al dividirlo entre sí te da como resto 0.
+
+28
+00:02:49,240 --> 00:02:56,020
+Entonces tendríamos que hacer unir en el caso de que número al dividirlo entre y que es el número que
+
+29
+00:02:56,020 --> 00:03:02,200
+estamos recorriendo o integrando en este caso al dividirlo entre el resto que es este operador y de
+
+30
+00:03:02,200 --> 00:03:08,440
+aquí el resto nos da cero en el caso de que nos dé cero como resto al dividirlo entonces ese número
+
+31
+00:03:08,520 --> 00:03:15,070
+y que se está integrando en este momento sí que sería divisor de el número que introduzcamos por pantalla
+
+32
+00:03:15,070 --> 00:03:21,660
+entonces si hacemos esto y volvemos a introducir el 123 nos va a mostrar que los divisores en los cuales
+
+33
+00:03:21,670 --> 00:03:32,000
+el resto de dividirlo al dividir los da cero pues es el 1 el 3 el 41 y el 123 cuando tu divide 123 123
+
+34
+00:03:32,200 --> 00:03:38,620
+el resto es cero cuando viví 41 entre 123 también a 0 cuando hay vida 1 323 pues el resto también da
+
+35
+00:03:38,620 --> 00:03:39,000
+cero.
+
+36
+00:03:39,010 --> 00:03:42,520
+Así que de esta manera acabamos de resolver el ejercicio.

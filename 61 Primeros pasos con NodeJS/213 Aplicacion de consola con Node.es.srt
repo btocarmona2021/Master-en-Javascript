@@ -1,0 +1,303 @@
+1
+00:00:00,980 --> 00:00:06,570
+Bien vamos a crear una carpeta nueva para lo que vamos a estar haciendo ahora con DJs vale vamos a crear
+
+2
+00:00:06,660 --> 00:00:11,820
+una carpeta que se va a llamar Baquet y aquí es donde vamos a estar trabajando.
+
+3
+00:00:11,820 --> 00:00:18,480
+Por el momento voy a hacer un ejemplo de una aplicación de consola con DJs vale voy a guardar este archivo
+
+4
+00:00:18,570 --> 00:00:23,940
+y simplemente voy a hacer un ejercicio que va a ser una calculadora de acuerdo calculadora
+
+5
+00:00:26,320 --> 00:00:28,500
+apuntó J.S..
+
+6
+00:00:28,510 --> 00:00:35,290
+Bien entonces voy a ponerle luces Street para activar el modo estricto y tal.
+
+7
+00:00:35,360 --> 00:00:47,650
+Voy a poner un consolé punto lo que diga hola mundo con DJs vale pues nosotros ya teníamos instalado
+
+8
+00:00:47,650 --> 00:00:52,450
+no DJs en nuestro equipo porque lo habíamos instalado antes en la parte de Taipe scrip.
+
+9
+00:00:52,450 --> 00:01:01,420
+Si no lo ha instalado simplemente busca en Google no DJs y instalas la versión que más te convenga de
+
+10
+00:01:01,420 --> 00:01:03,520
+acuerdo lo más recomendable señala LDS.
+
+11
+00:01:03,520 --> 00:01:07,450
+Pero si quiere tener la última característica Poitras la última.
+
+12
+00:01:07,510 --> 00:01:14,380
+Bien pues una vez que tenemos DJ instalado como ya expliqué anteriormente en el curso pues ya tendríamos
+
+13
+00:01:14,620 --> 00:01:22,180
+DJs disponible de forma que en la consola de comandos si yo la limpio
+
+14
+00:01:25,990 --> 00:01:32,500
+y entro a la carpeta en la que estoy ahora que es la carpeta Bakken CD Bakken.
+
+15
+00:01:32,660 --> 00:01:38,300
+Si algún L.S. tengo ese fichero de calculadora si hago no menos sube me saca la versión de Node que
+
+16
+00:01:38,300 --> 00:01:40,660
+yo tengo.
+
+17
+00:01:40,670 --> 00:01:40,990
+Vale.
+
+18
+00:01:41,020 --> 00:01:45,620
+Y si yo quisiera ejecutar cualquier escrit de Javascript por la consola simplemente tendría que lanzar
+
+19
+00:01:45,620 --> 00:01:52,790
+el comando node y el nombre del archivo en este caso sería calculadora J.S. Y esto me escupe lo que
+
+20
+00:01:52,790 --> 00:01:58,880
+yo ponga en el archivo de acuerdo puesto un consuelo pues me devuelve el Hola Mundo con DJs.
+
+21
+00:01:58,880 --> 00:02:01,020
+Vale ya tenemos el Hola Mundo.
+
+22
+00:02:01,230 --> 00:02:07,280
+Vale ahora nosotros podemos hacer cualquier tipo de aplicación con esto de acuerdo que haga cualquier
+
+23
+00:02:07,280 --> 00:02:12,560
+cosa que incluso haga peticiones Ayax que haga lo que se te ocurra de acuerdo y yo pueda hacer cualquier
+
+24
+00:02:12,560 --> 00:02:17,570
+tipo de aplicación en este caso vamos a ver cómo hacer una calculadora vale.
+
+25
+00:02:17,720 --> 00:02:23,060
+Simplemente vamos a recoger los parámetros que nos llevan por la consola es decir nosotros podemos pasarle.
+
+26
+00:02:23,060 --> 00:02:27,470
+Podemos hacer no de calculadora
+
+27
+00:02:29,800 --> 00:02:34,090
+punto J.V y aquí empezar a pasarle parámetros de acuerdo.
+
+28
+00:02:34,100 --> 00:02:37,690
+Podemos pasarle un parámetro dos parámetros de parámetros lo que yo quiera.
+
+29
+00:02:37,700 --> 00:02:40,030
+Entonces cómo puedo capturar esos parámetros.
+
+30
+00:02:40,220 --> 00:02:46,580
+Pues utilizando me ha creado una variable Arx que son argumentos coparán o parámetros le puedo poner
+
+31
+00:02:46,580 --> 00:02:47,830
+el parámetro.
+
+32
+00:02:48,140 --> 00:02:50,960
+Puedo capturar esos parámetros utilizando proces
+
+33
+00:02:53,500 --> 00:03:01,400
+punto AR V.M es Luis vale.
+
+34
+00:03:01,570 --> 00:03:04,900
+De esta manera si yo aún con Consuelo el ojo
+
+35
+00:03:07,930 --> 00:03:18,730
+de paraules guardo y vuelvo a ejecutar el script fíjate lo que me devuelve me devuelve una Ray con esos
+
+36
+00:03:18,790 --> 00:03:25,300
+elementos vale con los elementos que yo he añadido Aquí vale una raíz con el 1 el 2 y el 3 son los tres
+
+37
+00:03:25,300 --> 00:03:26,640
+parámetros que yo he pasado.
+
+38
+00:03:26,740 --> 00:03:34,300
+Si yo le quito guiles Life 2 y le pongo Eslaquit 1 Vamos a ver lo que pasa es que me devuelve también
+
+39
+00:03:35,080 --> 00:03:41,140
+el primer índice que sería el primer parámetro del comando que es la ruta del archivo completa.
+
+40
+00:03:41,290 --> 00:03:49,150
+Pero eso no me interesa entonces quiero que empiece a partir del 2 del índice número 2 o del parámetro
+
+41
+00:03:49,150 --> 00:03:59,140
+número que sería el 1 vale bien entonces ya tenemos los parámetros recogidos okey entonces yo quiero
+
+42
+00:03:59,140 --> 00:04:02,200
+recibir varios parámetros quiero recibir el número 1
+
+43
+00:04:05,230 --> 00:04:13,750
+que para esto tendría que hacerle un Parse float para convertir ese string a un número de coma flotante
+
+44
+00:04:13,820 --> 00:04:21,280
+en lo que viene siendo un número con el cual puede hacer operaciones y voy a recoger de paraules el
+
+45
+00:04:21,280 --> 00:04:29,890
+índice cero que será el número 1 y luego el número 2 será el índice número 1 de la variable número 2
+
+46
+00:04:30,470 --> 00:04:32,260
+y el índice será el 1
+
+47
+00:04:35,620 --> 00:04:45,970
+vale si ahora se me ocurriera a mí hacer consolé log número 1 y consolé log
+
+48
+00:04:49,900 --> 00:04:51,510
+número 2.
+
+49
+00:04:52,060 --> 00:04:58,690
+Si guardo y vuelvo a ejecutar me saca el 1 como número 1 y el 2 como número 2 porque es lo que yo he
+
+50
+00:04:58,690 --> 00:05:04,760
+introducido por aquí vale introduzco otra cosa pues me lo va a sacar.
+
+51
+00:05:04,840 --> 00:05:10,420
+Vale y entonces ahora lo que me interesa es mostrar todas las operaciones con estos números.
+
+52
+00:05:10,420 --> 00:05:20,350
+Vale yo puedo hacer una variable que se llame plantilla y aquí voy a quedarme en una plantilla de JavaScript
+
+53
+00:05:20,350 --> 00:05:22,940
+como lo hago con las comillas invertida.
+
+54
+00:05:23,380 --> 00:05:35,080
+Entonces voy a poner aquí lo que me interesa es decir la suma es y aquí muestro pues la suma vale que
+
+55
+00:05:35,080 --> 00:05:37,850
+supongo que se podrá hacer de esta manera.
+
+56
+00:05:37,930 --> 00:05:43,600
+Número 1 más número vamos a probar si esto funciona ya habrá un consuelo de plantilla
+
+57
+00:05:47,950 --> 00:05:50,860
+guardo o vuelvo a ejecutar.
+
+58
+00:05:51,060 --> 00:05:56,110
+Efectivamente si que me funciona en la operación de hoy y me hace la operación sin ningún tipo de problema.
+
+59
+00:05:56,220 --> 00:06:04,880
+Ok esto para que no me todos estos espacios que tengo aquí tendré que pegarlo del todo aquí vale la
+
+60
+00:06:04,880 --> 00:06:09,140
+suma la resta la multiplicación
+
+61
+00:06:12,800 --> 00:06:13,640
+y la división
+
+62
+00:06:16,980 --> 00:06:25,540
+de la operación con el dólar número uno más dos.
+
+63
+00:06:26,420 --> 00:06:28,550
+En este caso en lugar de más seria menos
+
+64
+00:06:32,780 --> 00:06:44,670
+número uno por número dos y luego número uno entre número dos.
+
+65
+00:06:44,700 --> 00:06:49,670
+Vale de esta manera podemos hacer la plantilla si vuelvo a ejecutar esto me hace todas las operaciones
+
+66
+00:06:49,670 --> 00:06:57,200
+correspondiente y ya tengo mi calculadora y esto es una scrip que lo ejecuto desde la consola un programa
+
+67
+00:06:57,200 --> 00:07:01,400
+que yo he creado para la consola igual que si estuviera utilizándose el scrip o si estuviera utilizando
+
+68
+00:07:01,400 --> 00:07:07,550
+cualquier cosa incluso desde no puedo ejecutar otro programa y puedo hacer cualquier cosa que se me
+
+69
+00:07:07,550 --> 00:07:12,250
+ocurra a nivel de aplicación de consola ya depende de las necesidades.
+
+70
+00:07:12,380 --> 00:07:18,920
+Por ejemplo en una empresa en la que yo estuve trabajando pues se necesitaba hacer un importador vía
+
+71
+00:07:18,980 --> 00:07:25,010
+línea de comandos que pasara de un Excel a un tipo de base de datos o que pasaran unos productos de
+
+72
+00:07:25,010 --> 00:07:34,100
+un CMS a un acuerdo y ese tipo de cosas se hicieron con los DJs con un programa de consola como éste
+
+73
+00:07:34,820 --> 00:07:41,450
+porque era mucho más rápido de ejecutar que otros lenguajes como PHP o lo que sea porque JavaScript
+
+74
+00:07:41,510 --> 00:07:45,830
+se ejecuta mucho más rápido y es más rápido de procesar todo esto en el servidor y todo.
+
+75
+00:07:46,490 --> 00:07:50,990
+Así que ya hemos visto cómo hacer un programa de consola y en la siguiente clase ya empezaremos a hacer
+
+76
+00:07:50,990 --> 00:07:53,270
+un back completo con Node JS.

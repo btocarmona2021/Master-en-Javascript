@@ -1,0 +1,207 @@
+1
+00:00:00,750 --> 00:00:04,040
+Vamos a aprender a crear constructores y cómo funcionan.
+
+2
+00:00:04,200 --> 00:00:09,510
+Un constructor no es más que un método que se lanza nada más crear un objeto y que sirve básicamente
+
+3
+00:00:09,510 --> 00:00:14,800
+para su tarea más común es inicializar variables o inicializar.
+
+4
+00:00:14,880 --> 00:00:25,580
+El valor de las propiedades no es para crear un constructor simplemente utilizamos esta función constructor.
+
+5
+00:00:25,620 --> 00:00:33,630
+Utilizamos este método y aquí simplemente pues lo más común que podemos hacer es llamar a algún método
+
+6
+00:00:33,720 --> 00:00:36,360
+o darle un valor a una propiedad.
+
+7
+00:00:36,360 --> 00:00:44,100
+Por ejemplo disputo velocidad en lugar de definir el valor aquí vale se lo vamos a definir aquí abajo
+
+8
+00:00:44,580 --> 00:00:50,460
+vale que eso ya sería una buena práctica vale hacerlo aquí arriba pues no es una buena práctica no está
+
+9
+00:00:50,700 --> 00:00:58,200
+o no está bien no porque aquí simplemente para definir la propiedad de los valores inicialmente se pueden
+
+10
+00:00:58,200 --> 00:01:01,800
+definir el constructor y luego ya se cambian con los métodos.
+
+11
+00:01:02,010 --> 00:01:08,160
+Por ejemplo al modelo también le podemos poner un color o sea le podemos poner un modelo por defecto.
+
+12
+00:01:08,220 --> 00:01:17,340
+Por ejemplo podemos decir que va a ser un BMV genérico por defecto el coche se va a llamar así y luego
+
+13
+00:01:17,340 --> 00:01:19,040
+el color por defecto va a ser blanco
+
+14
+00:01:21,940 --> 00:01:27,080
+vale va a ser blanco de acuerdo en todo.
+
+15
+00:01:27,090 --> 00:01:37,960
+Luego ya mediante los métodos que esté utilizando vale podemos cambiarle el valor o no vale entonces
+
+16
+00:01:37,990 --> 00:01:45,980
+vamos a crear un método o un par de un Guedea un set para cambiarle por ejemplo el nombre y tal.
+
+17
+00:01:46,450 --> 00:01:51,580
+Pero antes vamos a ver cómo al crear un objeto le podemos pasar directamente un nombre vale podemos
+
+18
+00:01:51,650 --> 00:01:55,510
+pasarle un parámetro opcional al objeto que sea por ejemplo
+
+19
+00:01:58,330 --> 00:02:05,760
+modelo modelo que va a ser por defecto Nul valiendo de aquí vamos a comprobar
+
+20
+00:02:09,180 --> 00:02:21,060
+si por defecto o sea en un modelo es igual igual al Nul vale que no inicializar la variable o la propia
+
+21
+00:02:21,060 --> 00:02:27,180
+modelo BMV genérico y sino que nos dé el valor a esa propiedad
+
+22
+00:02:30,810 --> 00:02:42,850
+que tenga el parámetro modelo vale entonces aquí es igual vale por defecto modelo es igual a Nul vale
+
+23
+00:02:42,850 --> 00:02:47,720
+en principio ahora sí que lo guarda bien y cuando nosotros creamos un objeto vamos a utilizar también
+
+24
+00:02:48,030 --> 00:02:56,340
+los métodos ISEP para para él no para el modelo vale vamos a crear un método que va a ser el modelo
+
+25
+00:02:58,230 --> 00:03:06,240
+que va a devolver la propiedad modelo y luego un método set modelo que lo que va a hacer pues también
+
+26
+00:03:06,240 --> 00:03:10,480
+es recibir un string vale
+
+27
+00:03:16,830 --> 00:03:20,100
+y damos un valor a la propiedad modelo.
+
+28
+00:03:20,100 --> 00:03:24,300
+Aquí también podríamos indicarle que lo que va a recibir pues va a ser un estreno.
+
+29
+00:03:24,330 --> 00:03:29,340
+Pero en este caso cómo le vamos a dar un valor nulo y tal pues lo podemos dejar a N-I.
+
+30
+00:03:29,400 --> 00:03:36,060
+Vale si no definimos nada la ley el atributo la propiedad o el parámetro que le pasaron va a ser de
+
+31
+00:03:36,060 --> 00:03:40,810
+tipo en aunque si se lo indicamos pues tampoco va a fallar ni va a pasar nada.
+
+32
+00:03:41,170 --> 00:03:43,800
+Así pues puede quedar incluso más claro.
+
+33
+00:03:44,200 --> 00:03:49,630
+Entonces si utilizamos por ejemplo el método GET
+
+34
+00:03:52,630 --> 00:04:03,510
+o sea por ejemplo el modelo del coche uno es guetto modelo A ver si utilizamos por defecto esto vale
+
+35
+00:04:03,990 --> 00:04:08,700
+lo que va a hacer es sacarnos el modelo por defecto que tiene por ejemplo el modelo del coche uno por
+
+36
+00:04:08,700 --> 00:04:11,080
+defecto es BMV genérico por qué.
+
+37
+00:04:11,080 --> 00:04:14,090
+Porque le viene a NULL pero si nosotros inicializar
+
+38
+00:04:17,400 --> 00:04:23,880
+o creamos el objeto y le pasamos como parámetro como parámetro principal le basamos el modelo del coche
+
+39
+00:04:23,910 --> 00:04:38,340
+por ejemplo un gran coupé y le pasamos y le pasamos como como parámetro el nombre del modelo en este
+
+40
+00:04:38,340 --> 00:04:41,380
+caso sería un Renault Clio.
+
+41
+00:04:41,430 --> 00:04:48,540
+Vale si le pasamos por ejemplo eso por defecto ya no va a tener este nombre o este modelo BMV genérico
+
+42
+00:04:48,540 --> 00:04:54,690
+sino que va a tener el que nosotros le hemos asignado pasándole una una pasada en un parámetro al objeto
+
+43
+00:04:54,690 --> 00:05:00,030
+vale cuando hemos creado el objeto y luego pasó un atributo de un parámetro y automáticamente el constructor
+
+44
+00:05:00,060 --> 00:05:06,390
+es lo que recoge vale por defecto si le pasamos un parámetro al objeto el constructor lo recoge y hacemos
+
+45
+00:05:06,390 --> 00:05:09,750
+lo que queramos con ese parámetro.
+
+46
+00:05:10,010 --> 00:05:14,700
+Entonces como la página vale y automáticamente nos dice que esto es un Renault Clio el modelo del coche
+
+47
+00:05:14,800 --> 00:05:23,190
+un Renault Clio el color rojo vale y en cualquier momento podríamos cambiarlo mediante el método set
+
+48
+00:05:23,250 --> 00:05:32,100
+modelo el modelo el coche de acuerdo y hasta simplemente pues nada más simplemente eso sí nosotros no
+
+49
+00:05:32,100 --> 00:05:38,280
+utilizáramos la propiedad ese color por ejemplo automáticamente al crear el objeto por defecto nos da
+
+50
+00:05:38,280 --> 00:05:42,440
+un color blanco al coche vale nos dice que el color blanco.
+
+51
+00:05:42,680 --> 00:05:48,210
+Pues ya hemos visto cómo utilizar los constructores qué son para qué sirven y cómo hacerlo dentro de
+
+52
+00:05:48,210 --> 00:05:54,140
+una clase en Taipe scrip y que todo esto luego lo van a utilizar también en angular 2.

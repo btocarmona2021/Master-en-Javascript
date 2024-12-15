@@ -1,0 +1,463 @@
+1
+00:00:01,230 --> 00:00:05,700
+Ahora vamos a hacer que este formulario guarde los datos a nivel de base de datos de acuerdo.
+
+2
+00:00:06,150 --> 00:00:13,620
+Si nosotros abrimos robo 3T que es el programa que hemos utilizado para trabajar como mueve de manera
+
+3
+00:00:13,620 --> 00:00:17,510
+visual lo que vamos a conseguir ahora.
+
+4
+00:00:17,520 --> 00:00:23,070
+Cuando nosotros hablamos nuestra base de datos de portafolio y veámoslo proyecto lo que vamos a conseguir
+
+5
+00:00:23,070 --> 00:00:28,730
+que señale un objeto como éste a nuestra base de datos utilizando el método o la ruta del API que hemos
+
+6
+00:00:28,730 --> 00:00:29,770
+dicho.
+
+7
+00:00:29,790 --> 00:00:37,080
+Entonces nuestro servicio ya podemos cerrar los estilos y nuestro modelo también en nuestro servicio
+
+8
+00:00:37,090 --> 00:00:45,750
+proyecto servis vamos a crear un nuevo método que se va a llamar 6 Projet y lo que vamos a hacer con
+
+9
+00:00:45,750 --> 00:00:49,170
+esto es guardar un nuevo elemento en nuestra base de datos.
+
+10
+00:00:49,180 --> 00:00:54,930
+Nuevo proyecto le vamos a pasar el parámetro Projet vale que va a ser el proyecto que le vamos a pasar
+
+11
+00:00:55,430 --> 00:01:02,190
+y podríamos decir que esto es un objeto de tipo proyecto vale y entonces lo que vamos a hacer aquí va
+
+12
+00:01:02,190 --> 00:01:07,050
+a ser lo primero crear una variable parámetros que van a ser los parámetros que vamos a enviar es decir
+
+13
+00:01:07,050 --> 00:01:12,030
+todos los datos del objeto pero necesitamos que sea un Jayson Extrem para que el API pueda acogerlo.
+
+14
+00:01:12,480 --> 00:01:23,050
+Entonces vamos a hacer un punto extra y le vamos a pasar el objeto en este caso proyecto.
+
+15
+00:01:23,070 --> 00:01:28,770
+Ahora tenemos que establecer nuestras cabeceras es decir cómo se va a enviar la información GDS vamos
+
+16
+00:01:28,770 --> 00:01:36,840
+a agregar la variable Geddes y allí vamos a utilizar el objeto http: Geddes Niu http: Gelder y vamos
+
+17
+00:01:36,840 --> 00:01:46,740
+a pasar en el método shed de este objeto le vamos a pasar el contentarme content Taipe que en este caso
+
+18
+00:01:46,740 --> 00:01:50,750
+será Application barra yeux.
+
+19
+00:01:50,760 --> 00:01:56,640
+De acuerdo para que la información viaje en ese formato y por último vamos a hacer la petición por post
+
+20
+00:01:56,700 --> 00:02:05,100
+porque para dar de alta un nuevo dato o para dar de alta algo o crear algo a nivel de Bakken en el Happy
+
+21
+00:02:05,210 --> 00:02:16,380
+se utiliza el método HTTP en este caso hacemos Return disputo y un bajo HTTP POST y le vamos a pasar
+
+22
+00:02:16,410 --> 00:02:22,700
+la web disputo esta web relay es la wereables que hemos configurado en el fichero global que es la web
+
+23
+00:02:23,030 --> 00:02:23,950
+de nuestra API.
+
+24
+00:02:23,970 --> 00:02:29,880
+Esto tendrá que cambiarlo por si tu sitio web es diferente ahora el de concatena el método del API que
+
+25
+00:02:29,880 --> 00:02:38,160
+voy a usar en este caso el método sería si abrimos nuestra API lo podríamos ver nuestro Bakken abrimos
+
+26
+00:02:38,160 --> 00:02:47,460
+el controlador o incluso el fichero de rutas sería 6 Projet la ruta así que la copiamos y la voy a utilizar
+
+27
+00:02:47,460 --> 00:02:54,060
+por aquí ok como segundo parámetro de le paso a los Parham los datos a guardar en el Bakken utilizando
+
+28
+00:02:54,060 --> 00:02:56,130
+el API y por último los Geddes.
+
+29
+00:02:56,130 --> 00:03:03,530
+Le paso un objeto con una propiedad que sea Gelder y con el valor de la variable Geddes guardo vale
+
+30
+00:03:03,530 --> 00:03:08,730
+ya puedo utilizar este método Marelli esto ya me va a guardar en la base de datos y aparte le tenemos
+
+31
+00:03:08,730 --> 00:03:14,830
+que definir una cosa importante que va de que va a devolver un observable de cualquier tipo le va a
+
+32
+00:03:14,860 --> 00:03:20,610
+devolver un observable bien ya tenemos el método 6 de nuestro servicio ahora en la parte de nuestro
+
+33
+00:03:20,970 --> 00:03:22,000
+componente.
+
+34
+00:03:22,050 --> 00:03:30,360
+Cuando hagamos un submit vamos a utilizarlo disputo y un bajo Prellezo servis .6 Projet
+
+35
+00:03:33,300 --> 00:03:41,640
+le voy a pasar displayed que es el objeto a guardar y voy a utilizar el método subscribe que esto me
+
+36
+00:03:41,640 --> 00:03:48,840
+permite recoger lo que me devuelva el Happy red de acuerdo y suscribirme también lo observable para
+
+37
+00:03:48,840 --> 00:03:52,950
+recoger básicamente los resultados y esto tiene dos funciones de calva una que me va a devolver una
+
+38
+00:03:52,950 --> 00:04:01,650
+Response como parámetro y otra que puede volver un posible error en el caso de que me devuelva un error
+
+39
+00:04:01,680 --> 00:04:09,660
+pues simplemente voy a hacer un consolé log y simplemente porque me devuelva cualquier error y yo lo
+
+40
+00:04:09,660 --> 00:04:15,000
+muestro por la consola y en el caso de que me devuelva una respuesta positiva pues yo voy a hacer un
+
+41
+00:04:15,000 --> 00:04:16,150
+consolé punto log
+
+42
+00:04:19,220 --> 00:04:28,670
+de la respuesta Response Key y vamos a ver qué devuelve realmente y si no funciona vale vamos a probarlo.
+
+43
+00:04:28,830 --> 00:04:35,500
+Voy a abrirme la consola para verlo claro lo tenemos aquí y voy a poner.
+
+44
+00:04:35,500 --> 00:04:41,240
+Voy a rellenar mi formulario en este caso proyecto web veterinario
+
+45
+00:04:44,710 --> 00:04:50,430
+Malabia crear un proyecto y hacer una web veterinaria categoría
+
+46
+00:04:52,840 --> 00:05:01,390
+Desarrollo completo y lenguaje utilizado PHP y Simphony.
+
+47
+00:05:01,600 --> 00:05:09,770
+Voy a enviar y me devuelve un objeto vale fíjate que me devuelve el objeto además me lo devuelve ya
+
+48
+00:05:09,770 --> 00:05:13,280
+relleno con élide y con toda la información que yo no he indicado.
+
+49
+00:05:13,310 --> 00:05:21,230
+Si nos vamos a poner vemos que tenemos una petición Ayax con código 200 de acuerdo que me ha devuelto
+
+50
+00:05:21,320 --> 00:05:28,520
+un estado codeado ciento una petición exitosa y además en la preview de lo que me devuelve en la Response
+
+51
+00:05:28,950 --> 00:05:32,020
+pues me devuelve el objeto Yeison que a mí me interesa.
+
+52
+00:05:32,180 --> 00:05:39,320
+Vale decir esto significó que se ha creado correctamente el proyecto en la base de datos entonces en
+
+53
+00:05:39,320 --> 00:05:44,870
+el caso de que se haya creado correctamente como es el caso yo también podría revisar el robot 3T y
+
+54
+00:05:44,870 --> 00:05:51,170
+darle al play para ver aquí que tengo por mi nuevo objeto.
+
+55
+00:05:51,800 --> 00:05:57,470
+Entonces en el caso de que se haya creado correctamente lo que voy a hacer va a ser mostrar un mensaje
+
+56
+00:05:57,470 --> 00:06:00,940
+de éxito aquí arriba y vaciar mi formulario.
+
+57
+00:06:02,060 --> 00:06:10,610
+Entonces vamos a hacer eso vamos a crear una propiedad de status Public status que va a ser un bullían
+
+58
+00:06:13,900 --> 00:06:16,920
+y entonces aquí vamos a hacer un if
+
+59
+00:06:19,430 --> 00:06:31,460
+Response punto Projet si me llega esto pues entonces disputo estátus será igual al truc y si no pues
+
+60
+00:06:31,460 --> 00:06:36,920
+disputo status será igual a false OK.
+
+61
+00:06:37,040 --> 00:06:38,050
+Así de sencillo.
+
+62
+00:06:38,120 --> 00:06:48,560
+Entonces en el caso de que estátus sea Trump yo lo que voy a hacer aquí arriba es poner un mensaje y
+
+63
+00:06:48,570 --> 00:06:51,140
+hacerme un Dib con una clase que sea Shakes
+
+64
+00:06:54,890 --> 00:06:55,690
+cierra el lib
+
+65
+00:06:59,830 --> 00:07:04,840
+y entonces también le voy a poner una clase que sea mensaje y la creamos ahora y aquí voy a poner
+
+66
+00:07:08,540 --> 00:07:14,770
+el proyecto se ha creado correctamente.
+
+67
+00:07:15,500 --> 00:07:21,020
+Puedes verlo aquí vale y el aquí que sea un link
+
+68
+00:07:23,810 --> 00:07:27,770
+que luego revelaremos con el Rutter Link.
+
+69
+00:07:28,160 --> 00:07:37,160
+Así que de momento yo Ponemon vacío cierro por aquí y esto solamente se va a mostrar en el caso de que
+
+70
+00:07:37,430 --> 00:07:38,430
+no hace una Lejeune
+
+71
+00:07:41,330 --> 00:07:49,080
+estátus sea Truc vale pero en el caso de que no en el caso de que sea falsee lo que voy a hacer va a
+
+72
+00:07:49,080 --> 00:07:53,390
+ser mostrado lo DIV que en lugar de Saxe sea failed.
+
+73
+00:07:53,910 --> 00:08:05,480
+Vale y aquí en el caso de que estátus no sea Trough el proyecto no se ha podido crear.
+
+74
+00:08:06,000 --> 00:08:08,570
+Podemos poner ese mensaje y entonces.
+
+75
+00:08:08,580 --> 00:08:14,490
+Pues ahora si lo comprobamos aquí me dice que el proyecto no se ha podido crear tal y cual porque por
+
+76
+00:08:14,490 --> 00:08:18,360
+default lo que estoy haciendo es ponerlo a falsía.
+
+77
+00:08:18,360 --> 00:08:23,910
+Vale entonces lo que vamos a hacer en lugar de tenerlo como un bule no vamos a tenerlo como un estreno
+
+78
+00:08:25,620 --> 00:08:31,360
+vale y vamos a ponerle en lugar de esto vamos a por el deshaces o failed.
+
+79
+00:08:31,800 --> 00:08:40,350
+Cuando falla de esa manera lo comprobamos de manera más efectiva y aquí comprobamos que estátus Saigon
+
+80
+00:08:40,410 --> 00:08:42,810
+iguala Acces
+
+81
+00:08:47,190 --> 00:08:53,690
+o que estátus sea igual igual a failed.
+
+82
+00:08:54,060 --> 00:08:56,540
+Vamos a comprobar que funciona.
+
+83
+00:08:56,730 --> 00:09:04,290
+Vale si yo relleno esto completamente a enviar me dice el proyecto se ha quedado correctamente pueden
+
+84
+00:09:04,290 --> 00:09:10,190
+verlo aquí y aquí este verlo aquí será luego un link que haremos el proyecto.
+
+85
+00:09:10,560 --> 00:09:14,190
+Y ahora lo que vamos a hacer va a ser un maquetar esto para que se vea un poco mejor le vamos a poner
+
+86
+00:09:14,190 --> 00:09:22,500
+unos etilo vamos a abrir el archivo de estilos y al mensaje le voy a poner
+
+87
+00:09:25,600 --> 00:09:37,250
+un padrino de 5p xD a poner un borde de un PX sorry.
+
+88
+00:09:38,680 --> 00:09:48,340
+Vale de momento poner también un 100 por ciento vale para maquetar lo voy a quitar la condición simplemente
+
+89
+00:09:48,340 --> 00:09:54,040
+para maquetar el mensaje o para maquetar los mensajes y a quitar esta condición para que siempre se
+
+90
+00:09:54,040 --> 00:09:54,790
+muestren.
+
+91
+00:09:55,840 --> 00:10:02,700
+Entonces ahí lo vemos debía poner en lugar de un cien por cien un Wiz 40 por ciento
+
+92
+00:10:05,610 --> 00:10:09,390
+o quizá un poco más 50.
+
+93
+00:10:10,230 --> 00:10:19,440
+Perfecto y le voy a poner un Bagram una a cada mensaje en este caso el mensaje es Acces a poner un background
+
+94
+00:10:20,400 --> 00:10:23,250
+verde green y un color wait
+
+95
+00:10:27,650 --> 00:10:29,180
+ok.
+
+96
+00:10:29,950 --> 00:10:34,910
+Ahí se puede ver y los links que hay adentro Salces.
+
+97
+00:10:35,070 --> 00:10:37,010
+Le voy a poner un color.
+
+98
+00:10:37,080 --> 00:10:37,650
+También
+
+99
+00:10:45,940 --> 00:10:57,170
+y al otro mensaje que sería failed iba a poner un background red y le a poner un color wahabíes también
+
+100
+00:10:59,040 --> 00:11:01,340
+y aquí en lugar de esa con el mensaje.
+
+101
+00:11:01,420 --> 00:11:03,080
+Ah ok.
+
+102
+00:11:03,080 --> 00:11:08,170
+De momento me parece todo bien.
+
+103
+00:11:08,310 --> 00:11:15,120
+Tengo el mensaje perfecto y ahora voy a volver a poner las condiciones en mi en mi vista para que solamente
+
+104
+00:11:15,120 --> 00:11:23,010
+se muestre cuando me interese en este caso sí yo rellenó el formulario correctamente me aparece el proyecto
+
+105
+00:11:23,010 --> 00:11:24,700
+y se ha creado correctamente puedes verlo aquí.
+
+106
+00:11:24,840 --> 00:11:28,430
+Ahora me falta vaciar el formulario puedo vaciarlo.
+
+107
+00:11:28,950 --> 00:11:33,870
+Pues muy simple tengo Forum aquí que es el objeto del formulario que yo le paso.
+
+108
+00:11:34,560 --> 00:11:38,180
+Entonces ese objeto tiene un método que se llama reset.
+
+109
+00:11:38,340 --> 00:11:43,470
+Utiliza el objeto Form de mi formulario de angular y usar el método reset de esa manera.
+
+110
+00:11:43,470 --> 00:11:45,710
+Vacío el formulario.
+
+111
+00:11:45,920 --> 00:11:46,670
+Vamos a probarlo
+
+112
+00:11:49,630 --> 00:11:57,080
+enviar y me vació el formulario perfectamente hay ningún tipo de problema me lo vacía perfectamente.
+
+113
+00:11:57,490 --> 00:12:03,980
+Así que ya hemos visto como guardar en la base de datos utilizando nuestro Bakken que hemos creado antes
+
+114
+00:12:04,120 --> 00:12:10,220
+mediante el frontend de angular haciendo una petición Ayax vemos que todo funciona perfectamente.
+
+115
+00:12:10,240 --> 00:12:15,820
+También hemos visto como maquetar esto validarlo y los mensajes correspondiente y en la siguiente clase
+
+116
+00:12:15,830 --> 00:12:21,310
+ya lo que vamos a empezar a hacer va a ser el tema de subir la imagen del proyecto y mostrarla Damiá.

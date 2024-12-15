@@ -1,0 +1,347 @@
+1
+00:00:00,630 --> 00:00:05,570
+Hay otras funciones que no son exactamente eventos pero que van a ser muy útiles para muchas cosas y
+
+2
+00:00:05,580 --> 00:00:12,610
+son las funciones de tiempo o los temporizadores o los Taymor de acuerdo a la función se Interval y
+
+3
+00:00:12,740 --> 00:00:22,830
+y Mouth que vamos a ver cómo funcionan así que vamos a abrir un archivo de JavaScript controles 31 guión
+
+4
+00:00:22,830 --> 00:00:28,470
+Tamers apuntó JS y vamos a cargarlo por aquí.
+
+5
+00:00:32,710 --> 00:00:35,490
+El 31 inmerso
+
+6
+00:00:38,500 --> 00:00:47,070
+vale vamos a poner lo primero lo uso Street y vamos a utilizar también el evento bailout de acuerdo
+
+7
+00:00:47,080 --> 00:00:59,170
+Windu junto al event Líster Lovett tenemos la función de Calvache y aquí es donde vamos a trabajar con
+
+8
+00:00:59,170 --> 00:01:07,110
+los Tamers bien tenemos el set Interval y el set taimados de acuerdo.
+
+9
+00:01:07,110 --> 00:01:14,170
+El set de Interval nos permite ejecutar una función de calva como ejecutar un trozo de código cada x
+
+10
+00:01:14,170 --> 00:01:23,170
+segundos pudo crear una variable tiempo y aquí utilizar el set Interval set Interval
+
+11
+00:01:26,210 --> 00:01:30,480
+Marelli esto tiene una función de Calvache X dentro de esta función anónima de Calvache.
+
+12
+00:01:30,490 --> 00:01:35,140
+Yo puedo ejecutar cualquier cosa de acuerdo podría hacer un consolé Autolog
+
+13
+00:01:39,590 --> 00:01:52,000
+y mostrar ser Interval ejecutado y nada más simplemente con esto se ejecutaría vale cada X tiempo cuánto
+
+14
+00:01:52,000 --> 00:01:56,470
+el tiempo pues como segundo parámetro a la función set de Interval indicó el tiempo.
+
+15
+00:01:56,470 --> 00:02:04,180
+En este caso cada 3 segundos cada 3 000 milisegundos que serían tres segundos pues ejecutaría esto valen
+
+16
+00:02:04,320 --> 00:02:07,590
+lo vamos a comprobar que esto funciona si actualizamos la pantalla.
+
+17
+00:02:07,800 --> 00:02:14,760
+Vamos a ver que 1 2 3 y se ejecuta el intervalo 1 2 3 otra vez.
+
+18
+00:02:14,760 --> 00:02:19,680
+1 2 3 y otra vez y aquí se está ejecutando cada cierto tiempo.
+
+19
+00:02:19,740 --> 00:02:24,960
+Incluso podríamos hacer que alguno de los elementos de la web cambiara de color o de tamaño o lo que
+
+20
+00:02:24,960 --> 00:02:25,670
+sea.
+
+21
+00:02:25,770 --> 00:02:33,540
+Por ejemplo el H1 de aquí de acuerdo podríamos hacer que cambiara de tamaño.
+
+22
+00:02:33,600 --> 00:02:34,590
+Cómo podemos hacer eso.
+
+23
+00:02:34,590 --> 00:02:38,040
+Pues simple utilizando el selector
+
+24
+00:02:40,530 --> 00:02:44,100
+documento punto y selector.
+
+25
+00:02:44,540 --> 00:03:00,100
+El primer H1 que encuentre el H1 le cambiamos esta el punto bonsais concise y le ponemos 50 px.
+
+26
+00:03:00,210 --> 00:03:08,220
+Así de sencillo valés y actualizamos la pantalla pues van a pasar ha visto que se acaba de ejecutar
+
+27
+00:03:08,220 --> 00:03:10,170
+ese dinero y ha cambiado de tamaño.
+
+28
+00:03:10,170 --> 00:03:16,920
+Luego podemos hacer que si si s si el tamaño de esto
+
+29
+00:03:25,300 --> 00:03:29,260
+vale vamos a crear una variable aquí encabezado
+
+30
+00:03:31,830 --> 00:03:32,860
+yo lo voy a seleccionar.
+
+31
+00:03:32,860 --> 00:03:37,890
+Recuerda que cuanta menos accesos Aldón tengamos mucho mejor.
+
+32
+00:03:38,170 --> 00:03:44,360
+Simplemente el documento selector sí lo podemos hacer una vez en lugar de tres pues mucho mejor.
+
+33
+00:03:44,840 --> 00:03:46,270
+Entonces si encabezado
+
+34
+00:03:53,420 --> 00:03:56,410
+bonsais es igual igual a 50 pixels
+
+35
+00:03:59,720 --> 00:04:11,690
+pues entonces encabezado punto está el punto 6 que esta vez sea igual a 20 píxeles 20 px y luego
+
+36
+00:04:14,530 --> 00:04:19,350
+en el caso de que no sea así pues que lo ponga a 56.
+
+37
+00:04:19,390 --> 00:04:23,950
+De esta manera va a estar parpadeando continuamente cada 3 segundos.
+
+38
+00:04:23,950 --> 00:04:24,220
+Vale
+
+39
+00:04:27,800 --> 00:04:37,860
+que vemos el cambio otro cambio otro cambio y así va a estar continuamente vamos a ponerle 30 píxeles
+
+40
+00:04:37,870 --> 00:04:45,400
+y le vamos a poner una velocidad mayor cada 500 milisegundos cada medio segundo en la pantalla y mira
+
+41
+00:04:45,790 --> 00:04:50,920
+parpadeando continuamente cada cierto tiempo cada intervalo de tiempo que nosotros le hemos indicado
+
+42
+00:04:50,920 --> 00:05:08,170
+pues lo va a hacer lo podemos poner cada 5 segundos 5000 milisegundos 1 2 3 4 5 y cambia 1 2 3 4 5 y
+
+43
+00:05:08,170 --> 00:05:09,760
+cambia de acuerdo.
+
+44
+00:05:10,040 --> 00:05:17,890
+Genial pues también tenemos otro método aparte de éste que es el método se llama Out que se ejecuta
+
+45
+00:05:17,890 --> 00:05:21,070
+solamente una vez y utilizo el set time
+
+46
+00:05:24,690 --> 00:05:28,830
+out solamente se va a estar ejecutando una vez cada 5 segundos.
+
+47
+00:05:29,660 --> 00:05:37,610
+1 2 3 4 5 y se ejecuta y no se va a volver a ejecutar.
+
+48
+00:05:37,730 --> 00:05:42,920
+Solamente se ejecuta una vez cada cierto tiempo en ese intervalo que le hemos indicado pero no va a
+
+49
+00:05:42,920 --> 00:05:47,920
+estar en bucle ejecutándose mil millones de veces como hacerse de Interval.
+
+50
+00:05:48,050 --> 00:05:50,670
+Esa es la diferencia entre el séptimo y ese intervalo.
+
+51
+00:05:50,750 --> 00:05:59,090
+Luego también podemos hacer algo interesante y es poner un botón de acuerdo un botón para parar parar
+
+52
+00:05:59,090 --> 00:06:09,160
+el parar el parpadeo de acuerdo podemos añadir un botón aquí cuyo y deseado stop y cuyo texto sea el
+
+53
+00:06:09,160 --> 00:06:09,630
+stop.
+
+54
+00:06:09,630 --> 00:06:15,180
+Por ejemplo cuando íbamos a comprobar íbamos a hacer que funcione ese botón lo que va a hacer es parar
+
+55
+00:06:15,180 --> 00:06:16,190
+el parpadeo.
+
+56
+00:06:16,270 --> 00:06:27,570
+Voy a invocar Joyce voy a seleccionar ese botón bar Stop es igual a document .4 y selector y selecciono
+
+57
+00:06:27,660 --> 00:06:39,450
+el elemento cuyo divide es esto vale entonces cuando yo le dé clic stop punto a deben disponer click
+
+58
+00:06:39,900 --> 00:06:41,970
+se ejecuta en una función de Calvache function
+
+59
+00:06:45,480 --> 00:06:52,790
+y aquí yo voy a ejecutar un método que se llama Clear Interval Clear Interval
+
+60
+00:06:56,730 --> 00:07:01,950
+de acuerdo y entonces le voy a pasar como parámetro importante pasarle la variable que tiene al ser
+
+61
+00:07:01,950 --> 00:07:03,770
+Interval en este caso el tiempo.
+
+62
+00:07:04,110 --> 00:07:08,820
+De esa manera ya no va a estar parpadeando siempre sino que cuando yo le doy al botón pues va a parar.
+
+63
+00:07:08,820 --> 00:07:17,520
+Vale incluso voy a ponerle aquí una alerta que diga has parado el intervalo en bucle
+
+64
+00:07:20,820 --> 00:07:22,550
+cerrado con un punto y coma.
+
+65
+00:07:23,540 --> 00:07:26,220
+Actualizamos la pantalla va a estar parpadeando
+
+66
+00:07:29,250 --> 00:07:32,760
+vamos a ponerlo en un tiempo más corto en cada segundo.
+
+67
+00:07:36,370 --> 00:07:43,010
+Tal Tal Tal iba a estar parpadeando todo el tiempo que yo todo el tiempo que yo le deje hasta que impresiones
+
+68
+00:07:43,030 --> 00:07:50,200
+top impresionarlo aparado el intervalo en bucle aceptar y ya no se va a volver a ejecutar el intervalo
+
+69
+00:07:50,230 --> 00:07:51,590
+porque lo acabo de parar.
+
+70
+00:07:51,610 --> 00:07:57,580
+Incluso podría añadir otro otro botón que fuera iniciar
+
+71
+00:08:00,860 --> 00:08:04,420
+que fuera start Start
+
+72
+00:08:08,810 --> 00:08:10,870
+y aquí simplemente
+
+73
+00:08:13,430 --> 00:08:14,510
+voy a seleccionarlo
+
+74
+00:08:19,470 --> 00:08:28,880
+el botón Start cuyo y tiene Start y voy a hacer lo mismo un haz de Veliz en negrita el
+
+75
+00:08:32,210 --> 00:08:42,960
+para el botón Start que dibãs iniciado el intervalo en bucle y voy a tendría que hacer el interval de
+
+76
+00:08:42,960 --> 00:08:44,510
+la misma forma.
+
+77
+00:08:44,680 --> 00:08:47,550
+Ok entonces lo recomendable sería hacer una función
+
+78
+00:08:49,970 --> 00:08:50,780
+intervalo
+
+79
+00:08:54,760 --> 00:09:05,500
+que tuviera esto dentro y simplemente que devolviera la variable tiempo retuve el tiempo que la devuelva
+
+80
+00:09:05,500 --> 00:09:09,440
+como resultado.
+
+81
+00:09:09,670 --> 00:09:11,260
+Vale entonces
+
+82
+00:09:14,610 --> 00:09:22,990
+aquí yo me creo mi variable el tiempo que va a invocar el intervalo y eso va a devolverme pues el intervalo.
+
+83
+00:09:23,220 --> 00:09:31,810
+De esta manera yo hago el que el cliente Interval y también puedo llamar a mi función intervalo.
+
+84
+00:09:32,360 --> 00:09:40,830
+Vale vamos a comprobarlo actualizamos la pantalla se va a ejecutar continuamente si le doy a Stop lo
+
+85
+00:09:40,830 --> 00:09:46,680
+para y si le doy a start ok y vuelvo a continuar.
+
+86
+00:09:46,680 --> 00:09:52,620
+O sea increíble lo que se puede hacer con esto y las posibilidades son infinitas así que espero que
+
+87
+00:09:52,620 --> 00:09:57,900
+te ha quedado claro ya hemos visto con esto como dicen los intervalos y los Taymor en JavaScript.

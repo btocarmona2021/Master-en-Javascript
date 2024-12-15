@@ -1,0 +1,219 @@
+1
+00:00:00,600 --> 00:00:05,780
+Ahora vamos a ver cómo controlar los errores que se puedan producir dentro del código en JavaScript.
+
+2
+00:00:05,810 --> 00:00:10,410
+Vale pues en el código JavaScript normalmente pueden pasar un montón de fallos.
+
+3
+00:00:10,410 --> 00:00:15,510
+Puede suceder que algo no se ejecute bien que estemos que estemos haciendo cualquier instrucción que
+
+4
+00:00:15,840 --> 00:00:17,130
+genere un error.
+
+5
+00:00:18,120 --> 00:00:24,780
+Incluso haciendo una llamada Ayax con el fets o con lo que sea y que esa llamada ya se haga mal.
+
+6
+00:00:24,780 --> 00:00:29,940
+Tener mal el nombre una variable cualquier cosa puede pasar cualquier cosa.
+
+7
+00:00:30,520 --> 00:00:36,160
+Entonces cómo podríamos controlar y capturar los errores que sucedan en el código.
+
+8
+00:00:36,160 --> 00:00:40,770
+Pues mira para eso vamos a crear un nuevo archivo de JavaScript XXXVII
+
+9
+00:00:43,300 --> 00:00:52,390
+trai Cauich punto JS malt y vamos a incluir ese archivo en el fichero de datos externos
+
+10
+00:00:56,420 --> 00:01:05,480
+37 30h.
+
+11
+00:01:05,650 --> 00:01:13,630
+Entonces imagínate que tenemos aquí una variable que se llama Geer y que tiene un dato
+
+12
+00:01:17,700 --> 00:01:23,460
+OK y luego imagínate que yo intento hacer una alerta de la variable.
+
+13
+00:01:23,740 --> 00:01:25,500
+Vale pues hasta aquí todo correcto.
+
+14
+00:01:25,510 --> 00:01:31,330
+Si yo autorizo la pantalla me saca el año genial pero imagínate que yo pongo el nombre de la variable
+
+15
+00:01:31,330 --> 00:01:33,340
+y pongo ya vale.
+
+16
+00:01:33,340 --> 00:01:39,610
+Si yo pongo esto me genera un error Yea donde esta variable no está definida entonces cómo puedo controlar
+
+17
+00:01:39,610 --> 00:01:46,210
+este error para qué si este código provoca algún error capturarlo y mandarle un mensaje al usuario o
+
+18
+00:01:46,210 --> 00:01:47,330
+hacer cualquier cosa.
+
+19
+00:01:47,330 --> 00:01:59,830
+Pues para eso puedo utilizar la estructura troikas trai GATT Acuerdo nosotro todo el código que sea
+
+20
+00:01:59,830 --> 00:02:05,830
+susceptible a fallos lo vamos a meter dentro del tráiler vale traéis significa prueba vale.
+
+21
+00:02:06,040 --> 00:02:12,730
+Prueba este código y si este código genera error captura el error vale y hacemos un consolarlos del
+
+22
+00:02:12,730 --> 00:02:13,870
+error perfectamente
+
+23
+00:02:15,970 --> 00:02:23,830
+de error que provoque lo que suceda en este trozo de código de aquí de forma que si yo ahora mismo autorizo
+
+24
+00:02:23,830 --> 00:02:30,220
+la pantalla me aparece este error en formato de código de forma que puedo controlar siempre qué está
+
+25
+00:02:30,220 --> 00:02:32,010
+pasando en el código ok.
+
+26
+00:02:32,050 --> 00:02:40,450
+Entonces yo podría en este caso en el caso de que suceda algún error Alert podría poner ha ocurrido
+
+27
+00:02:41,380 --> 00:02:45,550
+un error en el código
+
+28
+00:02:48,670 --> 00:02:54,510
+guardo y actualizo la pantalla y ahí me lanza el Ares diciéndome que hay un error en el código.
+
+29
+00:02:54,640 --> 00:02:59,500
+De esta forma yo puedo controlar que cualquier código susceptible de fallo en cualquier cosa que me
+
+30
+00:02:59,500 --> 00:03:05,590
+pueda generar un fallo pues la podemos meter entre un 3 y un y capturar el posible error en el caso
+
+31
+00:03:05,590 --> 00:03:12,100
+de que se provoque un error pues enviar un mensaje o mostrar algo por pantalla o hacer alguna cosa.
+
+32
+00:03:12,100 --> 00:03:21,910
+Si yo tratara por ejemplo de decodificar una R.L para eso hay una función que se llama Decode Uri component
+
+33
+00:03:22,780 --> 00:03:24,270
+y yo le paso a una wereables
+
+34
+00:03:29,010 --> 00:03:30,440
+suele pasar esta web.
+
+35
+00:03:30,510 --> 00:03:34,650
+Yo puedo hacer perfectamente un consolé un tholos de esto
+
+36
+00:03:37,770 --> 00:03:45,210
+vale me voy a poner el código bien a un consuelo de esto y no hay ningún tipo de problema mira decodifica
+
+37
+00:03:45,210 --> 00:03:53,970
+y convierte a texto algo que haga falta vale pero si yo le pasara aquí una Wheres con algún signo raro
+
+38
+00:03:55,260 --> 00:04:00,630
+incluso con un porcentaje o lo que sea si yo le paso 1 o R.L que no es válida me va a decir que
+
+39
+00:04:03,630 --> 00:04:08,460
+ha ocurrido un error en el código vale porque esa regla no es válida y ya no me escupe la consola sino
+
+40
+00:04:08,460 --> 00:04:13,500
+que se ha quedado aquí capturado según Consuelo del error
+
+41
+00:04:18,390 --> 00:04:25,710
+me va a decir que es este el error de acuerdo.
+
+42
+00:04:25,800 --> 00:04:30,360
+Incluso si yo tuviera una web completa formada por símbolos raros
+
+43
+00:04:33,020 --> 00:04:36,140
+vale yo tuviera esta Wireless vale.
+
+44
+00:04:36,350 --> 00:04:40,810
+Este método no entiende que esto sea algo válido porque esto pasa.
+
+45
+00:04:40,900 --> 00:04:47,150
+Este método se utiliza cuando tenemos una web reírle codificada de acuerdo y tenemos un montón de símbolos
+
+46
+00:04:47,450 --> 00:04:48,450
+por decodificar.
+
+47
+00:04:48,460 --> 00:04:54,890
+Se suele utilizar este método en un montón de parámetros Guez que van codificados y tal pues se suele
+
+48
+00:04:54,910 --> 00:04:59,270
+utilizar este método y si le pasa a una web que está mal formada pues me escupo de error.
+
+49
+00:04:59,270 --> 00:05:02,060
+De igual forma se intentará definir una Roi
+
+50
+00:05:08,320 --> 00:05:17,010
+se intentará definir una Roi que fuera demasiado grande vale una raid con miles y miles y miles de índices.
+
+51
+00:05:17,220 --> 00:05:26,070
+Si intentar hacer esto pues evidentemente me va a fallar y me va a escupir un error efectivamente la
+
+52
+00:05:26,070 --> 00:05:32,250
+longitud del array es inválida con lo cual si se pueden capturar errores y así podemos estar todo el
+
+53
+00:05:32,250 --> 00:05:35,530
+rato probando hacer cosas mal y capturar el error.
+
+54
+00:05:35,610 --> 00:05:41,270
+Simplemente quería explicar esta estructura y ya sabemos un montonazo de cosas de JavaScript y creo
+
+55
+00:05:41,280 --> 00:05:46,390
+que ya tenemos un buen nivel en JavaScript para empezar a implementarlo en nuestra página web.

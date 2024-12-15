@@ -1,0 +1,827 @@
+1
+00:00:00,780 --> 00:00:05,850
+Ahora vamos a hacer un ejercicio con el tema del DOM los eventos y las funciones que hemos estado viendo
+
+2
+00:00:06,180 --> 00:00:07,350
+anteriormente.
+
+3
+00:00:07,420 --> 00:00:12,420
+El ejercicio que vamos a hacer va a costar de crear un formulario que tenga tres campos el nombre los
+
+4
+00:00:12,420 --> 00:00:14,150
+apellidos y la edad.
+
+5
+00:00:14,160 --> 00:00:19,230
+Después vamos a añadirle un botón que utilice un evento nuevo que todavía no hemos visto que es el evento
+
+6
+00:00:19,230 --> 00:00:26,520
+submit y también haremos varias cosas con el tema del Don pero todo esto lo quiero hacer en un fichero
+
+7
+00:00:26,520 --> 00:00:31,890
+separado que no sea el índex punto HTML así que dentro de la carpeta Hola mundo que tenemos aquí vamos
+
+8
+00:00:31,890 --> 00:00:36,680
+a crear un nuevo fichero HTML que se va a llamar formulario a HTML.
+
+9
+00:00:36,690 --> 00:00:42,990
+Aquí es donde vamos a hacer ese ejemplo y aquí vamos a poner una estructura básica de HTML y ahora explicamos
+
+10
+00:00:42,990 --> 00:00:49,290
+el enunciado del ejercicio Doctrine HTML HTML es
+
+11
+00:00:51,990 --> 00:00:55,000
+derramo del HTML.
+
+12
+00:00:55,770 --> 00:00:58,500
+Abrimos la etiqueta Ajit cerramos el JIT
+
+13
+00:01:02,780 --> 00:01:13,520
+le ponemos la etiqueta meta Chart set up F guión 8 para la codificación de caracteres en castellano
+
+14
+00:01:13,550 --> 00:01:14,500
+o en español.
+
+15
+00:01:14,630 --> 00:01:15,650
+Ponemos el dintel
+
+16
+00:01:19,880 --> 00:01:35,360
+en el título hacer ejercicio Dom eventos y funciones y vamos a crear la etiqueta Body que es el cuerpo
+
+17
+00:01:35,360 --> 00:01:37,100
+de la página.
+
+18
+00:01:37,310 --> 00:01:44,410
+Cerramos el body y vamos a ponerle un h 1 a esta página de este ejercicio.
+
+19
+00:01:44,410 --> 00:01:59,080
+El H1 va a ser el mismo que el título ejercicio Dom eventos y funciones curso J.S.
+
+20
+00:01:59,180 --> 00:02:03,270
+Víctor Robles buen punto de acuerdo.
+
+21
+00:02:03,410 --> 00:02:07,220
+Entonces vamos a cargar este archivo en el navegador.
+
+22
+00:02:07,220 --> 00:02:08,910
+Vamos a ver si no lo carga.
+
+23
+00:02:09,020 --> 00:02:20,690
+Formulario HTML y efectivamente si no lo carga perfecto entonces voy a poner aquí el enunciado del ejercicio
+
+24
+00:02:20,690 --> 00:02:23,490
+para tenerlo claro a quien un comentario del código.
+
+25
+00:02:23,660 --> 00:02:25,700
+Voy a poner el enunciado.
+
+26
+00:02:26,110 --> 00:02:29,990
+Mira va a tener tenemos que tener un formulario
+
+27
+00:02:32,270 --> 00:02:38,540
+formulario con el campo con los campos nombre apellidos
+
+28
+00:02:43,030 --> 00:02:44,990
+y edad.
+
+29
+00:02:45,130 --> 00:02:55,330
+Segundo tenemos que tener un botón de enviar el formulario vale y para eso utilizaremos un evento Summit
+
+30
+00:02:56,320 --> 00:02:58,970
+evento Summit que luego lo veremos como se utiliza.
+
+31
+00:02:59,620 --> 00:03:02,280
+Vale pero es muy parecido al resto de eventos que hemos visto.
+
+32
+00:03:02,290 --> 00:03:07,680
+Simplemente el evento Summit se lanza cuando le damos clic a un botón de enviar el formulario.
+
+33
+00:03:07,750 --> 00:03:15,310
+Tercero una vez que enviamos el formulario tenemos que mostrar esos datos por pantalla mostrar datos
+
+34
+00:03:15,340 --> 00:03:23,170
+por pantalla de acuerdo en un día o en algo vamos a mostrar los datos.
+
+35
+00:03:23,170 --> 00:03:24,680
+4.
+
+36
+00:03:25,360 --> 00:03:30,670
+Tener un botón tener un botón que al darle clic
+
+37
+00:03:35,170 --> 00:03:45,940
+nos muestra los datos actuales del formulario es decir tener un botón aparte del formulario al cual
+
+38
+00:03:45,970 --> 00:03:52,120
+si le damos clic coge todos los valores que ya ha introducido dentro del formulario y nos los pinta
+
+39
+00:03:52,630 --> 00:04:00,730
+bien pues este va a ser el ejercicio de acuerdo así que ahora vamos a crear un nuevo archivo js que
+
+40
+00:04:00,730 --> 00:04:15,670
+va a ser el 32 controlase 32 punto con ejercicio Dom a punto JSA y aquí vamos a empezar a hacerlo vamos
+
+41
+00:04:15,670 --> 00:04:27,100
+a ponerle eluso Street y vamos a incluir este archivo en nuestro índex nuestro fichero HTML script type
+
+42
+00:04:27,940 --> 00:04:33,360
+text barra JavaScript SRC.
+
+43
+00:04:33,760 --> 00:04:44,170
+Esto está en la carpeta J.S. Y es el fichero 32. dio un ejercicio de Hondón punto JBS y cerramos el
+
+44
+00:04:44,170 --> 00:04:44,680
+script
+
+45
+00:04:48,100 --> 00:05:03,140
+bien ya que en el fichero de JavaScript vamos a utilizar window junto a event lista para utilizar el
+
+46
+00:05:03,140 --> 00:05:10,010
+evento Cloud y una vez que esté cargado puedes empezar a trabajar con JavaScript.
+
+47
+00:05:10,010 --> 00:05:22,040
+De acuerdo aquí pondrian un consolé apuntó lock down cargado de acuerdo vamos a comprobarlo si actualizamos
+
+48
+00:05:22,040 --> 00:05:26,870
+la pantalla de un cargado y ahí empezaríamos a trabajar con JavaScript.
+
+49
+00:05:26,910 --> 00:05:31,250
+Bien pues el punto número uno sería crear un formulario con subcampo correspondiente así que vamos a
+
+50
+00:05:31,250 --> 00:05:38,000
+hacerlo vamos a crear un párrafo por aquí y dentro del párrafo vamos a crear un formulario de HTML Form
+
+51
+00:05:41,080 --> 00:05:42,440
+y cerramos el formulario
+
+52
+00:05:47,660 --> 00:05:55,600
+el Auctions lo vamos a dejar vacío de momento y el método se lo vamos a poner a aposto aunque esto pues
+
+53
+00:05:55,680 --> 00:06:01,670
+ya sabes que hasta que no reciba un Bakken pues eso es simplemente una referencia pero no sirve para
+
+54
+00:06:01,670 --> 00:06:02,510
+nada.
+
+55
+00:06:02,580 --> 00:06:08,300
+Ahora vamos a crear los campos del formulario el primero sería el nombre si que vamos a poner un label
+
+56
+00:06:09,530 --> 00:06:16,710
+for nombre que sería el nombre del campo Label y aquí le pondríamos nombre.
+
+57
+00:06:20,150 --> 00:06:31,430
+Ahora vamos a poner el input Taieb text Nein nombre que es el nombre del campo y le pondríamos un IDE
+
+58
+00:06:31,490 --> 00:06:35,950
+que también va a ser nombre para poder identificarlo fácilmente.
+
+59
+00:06:35,950 --> 00:06:42,850
+Va de siguiente campo el siguiente campo sería Label for apellidos apellidos
+
+60
+00:06:48,440 --> 00:06:49,940
+y creamos el imput
+
+61
+00:06:55,160 --> 00:07:06,170
+apellidos le ponemos un ideé también apellidos cerramos por aquí Label for
+
+62
+00:07:10,450 --> 00:07:12,310
+edad el campo que nos queda
+
+63
+00:07:15,190 --> 00:07:24,040
+cerramos el label y ponemos el input del campo de texto input Taieb number sería esto porque esto sería
+
+64
+00:07:24,040 --> 00:07:31,700
+edad Nein edad y de edad y cierro por aquí
+
+65
+00:07:36,490 --> 00:07:41,500
+y por último nos quedaría el botón Submit de acuerdo que es el que lanza el evento submit en este caso
+
+66
+00:07:42,060 --> 00:07:46,240
+input Taipe submit
+
+67
+00:07:49,980 --> 00:07:55,710
+valio submit y de.
+
+68
+00:07:56,460 --> 00:08:02,680
+En este caso en lugar de en valio Summit le vamos a poner valor enviar.
+
+69
+00:08:02,970 --> 00:08:05,280
+Vale entonces ahora actualizamos la pantalla.
+
+70
+00:08:05,310 --> 00:08:06,680
+Aquí no aparecen los campos.
+
+71
+00:08:06,690 --> 00:08:08,070
+Aquí hay algo que hemos cerrado mal.
+
+72
+00:08:08,070 --> 00:08:14,640
+Efectivamente esto bien pues si queremos que estos campos estén mejor organizados podemos meterlo todo
+
+73
+00:08:14,640 --> 00:08:18,500
+dentro de un párrafo o utilizar BR para hacer saltos de línea.
+
+74
+00:08:19,210 --> 00:08:20,100
+Vale.
+
+75
+00:08:20,550 --> 00:08:24,440
+Así que vamos a utilizar el BR para hacer saltos de línea.
+
+76
+00:08:24,690 --> 00:08:25,350
+De momento
+
+77
+00:08:34,360 --> 00:08:35,760
+estupendo ahora sí.
+
+78
+00:08:35,800 --> 00:08:37,940
+Así se quedaría el formulario.
+
+79
+00:08:37,940 --> 00:08:39,330
+Ya tenemos nuestro formulario.
+
+80
+00:08:39,370 --> 00:08:41,990
+Me interesa que aquí al lado se muestren esos datos.
+
+81
+00:08:42,010 --> 00:08:50,560
+Una vez que yo envié mi formulario bien vamos a utilizar el evento on Summit el evento Summit.
+
+82
+00:08:50,560 --> 00:08:55,840
+Una vez que le demos al botón de Submit vamos a coger y vamos a utilizar ese evento.
+
+83
+00:08:55,840 --> 00:09:01,570
+Para eso tendremos que capturar primero el formulario el formulario tendremos que ponerle un identificador
+
+84
+00:09:03,340 --> 00:09:08,250
+para reconocerlo más fácilmente formulario le ponemos Exide.
+
+85
+00:09:08,350 --> 00:09:13,390
+Ahora vamos a utilizar Aquaris el documento punto y selector
+
+86
+00:09:17,020 --> 00:09:19,190
+formulario.
+
+87
+00:09:19,420 --> 00:09:24,540
+De esta manera crear la variable formulario.
+
+88
+00:09:24,550 --> 00:09:28,950
+De esta manera yo ya tengo mi formulario capturado lo tengo seleccionado
+
+89
+00:09:31,680 --> 00:09:35,440
+y ahora sobre el formulario tengo que capturar el evento Summit.
+
+90
+00:09:35,600 --> 00:09:48,800
+Formulario punto a deben tener Summit sería este evento function y por aquí recogería recogerían cerraríamos
+
+91
+00:09:48,800 --> 00:09:58,040
+el Calvache y aquí podríamos hacer un Consol punto lo de cuando suceda y se sume al evento Summit capturado
+
+92
+00:09:59,840 --> 00:10:04,610
+vamos a comprobar que ese evento funciona si actualizamos la pantalla y le damos a enviar el evento
+
+93
+00:10:04,630 --> 00:10:05,500
+es un Mikati.
+
+94
+00:10:05,570 --> 00:10:07,190
+Pam pam pam.
+
+95
+00:10:07,190 --> 00:10:12,440
+Qué pasa que me redirecciona de nuevo a la página que yo indico que es aquí si yo le quito el Action
+
+96
+00:10:18,200 --> 00:10:19,660
+vale y le voy a enviar.
+
+97
+00:10:19,660 --> 00:10:25,200
+Igualmente me redirecciona Qué pasa que yo debería hacer un return false o algo así.
+
+98
+00:10:25,200 --> 00:10:31,220
+Return false para que no me redirecciona porque eso no me interesa.
+
+99
+00:10:31,220 --> 00:10:39,130
+Cómo puedo hacerlo le puedo poner también una almohadilla a la acción y así no me lleva a ninguna parte.
+
+100
+00:10:39,130 --> 00:10:50,920
+Incluso le podría poner un summit aquí on Summit y ponerle return false como solución para esto.
+
+101
+00:10:50,980 --> 00:10:53,410
+Efectivamente si yo le pongo el return false.
+
+102
+00:10:53,410 --> 00:11:02,260
+Parece ser que aquí no lo captura bien el return pero si se lo pongo directamente al evento Sumy dentro
+
+103
+00:11:02,260 --> 00:11:07,750
+del formulario ya no me redirige a otra página simplemente me deja en la que estoy de acuerdo así que
+
+104
+00:11:07,750 --> 00:11:10,240
+de esa manera luego lo puedo solventar.
+
+105
+00:11:10,240 --> 00:11:11,330
+Entonces si le doy click.
+
+106
+00:11:11,350 --> 00:11:15,290
+Pues fíjate que el evento Summit se ha capturado ya lanzado.
+
+107
+00:11:15,600 --> 00:11:21,060
+El evento es normalmente sí que te suele llevar a donde el formulario te diga si no se debería utilizar
+
+108
+00:11:21,070 --> 00:11:22,140
+un evento click.
+
+109
+00:11:22,160 --> 00:11:28,360
+Pues realmente cuando trabajamos con un formulario lo suyo es trabajar con el evento Summit así que
+
+110
+00:11:28,690 --> 00:11:30,440
+ya tenemos el evento capturado.
+
+111
+00:11:30,490 --> 00:11:38,350
+Cómo puedo una vez que yo tengo el evento Summit hecho cómo puedo mostrarlo tanto por pantalla que haya
+
+112
+00:11:38,350 --> 00:11:40,170
+introducido dentro del Formulario.
+
+113
+00:11:40,210 --> 00:11:46,590
+Vale realmente este punto y este son prácticamente el mismo así que vamos a hacer el primero y ya como
+
+114
+00:11:46,600 --> 00:11:54,130
+puedo mostrar esos datos pues simplemente tendré que acceder al DOM de cada uno de esos campos no vale.
+
+115
+00:11:54,140 --> 00:12:01,850
+Cómo puedo hacer esto voy a utilizar el selector de igual forma crearme una variable nombre una variable
+
+116
+00:12:02,830 --> 00:12:13,840
+apellido y una variable edad y aquí voy a utilizar el documento punto y selector y voy a seleccionar
+
+117
+00:12:13,840 --> 00:12:15,610
+el ideé de ese campo.
+
+118
+00:12:15,610 --> 00:12:22,150
+En este caso nombre y voy a utilizar la propiedad valio con esa propiedad le saco el valor que tiene
+
+119
+00:12:22,150 --> 00:12:25,450
+dentro y de igual forma voy a hacer en el resto de campus
+
+120
+00:12:30,250 --> 00:12:32,020
+apellidos apellido
+
+121
+00:12:34,760 --> 00:12:38,500
+apellidos y edad.
+
+122
+00:12:38,600 --> 00:12:41,660
+De esta manera si yo aún Consol los de tus datos
+
+123
+00:12:45,530 --> 00:12:54,690
+de nombre apellido apellidos que vamos a poner apellidos y edad.
+
+124
+00:12:55,010 --> 00:13:00,820
+Si yo hago esto y lo compruebo voy a rellenar esta información
+
+125
+00:13:03,840 --> 00:13:07,150
+efectivamente me saca la información sin ningún tipo de problema.
+
+126
+00:13:07,170 --> 00:13:12,550
+Ahora lo único que me queda es mostrarla aquí mostrarla en un lateral o aquí en alguna parte.
+
+127
+00:13:12,600 --> 00:13:23,770
+Para eso voy a crearme esto obviamente dentro de un libro el formulario que voy a poner una clase que
+
+128
+00:13:23,790 --> 00:13:34,500
+va a ser vox pop simplemente y voy a crear otro Dip llamado Vox con la misma clase al que le va en la
+
+129
+00:13:34,500 --> 00:13:41,430
+clase también dalle y estas clases las voy a utilizar yo no vale le voy a dar un estilo.
+
+130
+00:13:41,640 --> 00:13:51,370
+Cómo hago esto pues puedo añadir que uno estilo a lo discutió y cuya clase Boggs lo voy a poner un Wiz
+
+131
+00:13:52,120 --> 00:13:57,840
+de 250 px y un float left.
+
+132
+00:13:57,910 --> 00:14:05,110
+También le voy a poner un margin de 20 píxels y ya vamos a ver qué pasa.
+
+133
+00:14:05,110 --> 00:14:07,260
+Efectivamente aquí eso está pasando aquí.
+
+134
+00:14:07,360 --> 00:14:23,180
+Incluso puedo poner si tiene la clase de ballet Dazed que voy a poner un Border de 3P Solid soy Hallett
+
+135
+00:14:24,700 --> 00:14:34,960
+Black vale y le voy a poner también un alto Jaitt de 250 PX guardo actualizo la pantalla y efectivamente
+
+136
+00:14:34,960 --> 00:14:41,110
+aquí me aparece el cuadro que aquí será donde se van a mostrar los datos del formulario de acuerdo esta
+
+137
+00:14:41,110 --> 00:14:45,550
+información de aquí se va a mostrar aquí los datos que yo rellene aquí incluso lo puedo reducir un poco
+
+138
+00:14:45,550 --> 00:14:53,630
+el tamaño o el ancho a 200 píxeles de acuerdo pues aquí se mostrarán los datos del usuario.
+
+139
+00:14:53,650 --> 00:14:58,240
+Qué pasa que esto solo quiero que se muestre una vez que yo le dé assuming antes de que yo le de asúmelo
+
+140
+00:14:58,240 --> 00:14:58,990
+quiero oculto.
+
+141
+00:14:58,990 --> 00:15:00,870
+Entonces cómo puedo ocultar eso.
+
+142
+00:15:00,880 --> 00:15:06,900
+Pues muy sencillo yo simplemente tendría que seleccionar el set vale ese elemento.
+
+143
+00:15:06,970 --> 00:15:17,980
+Para eso utilizo el cuerpo y selector Male box set le veo poner a la variable y voy a seleccionarlo
+
+144
+00:15:17,980 --> 00:15:24,670
+con el documento punto Coeli y selector y selecciono el primer elemento dáselo
+
+145
+00:15:27,220 --> 00:15:36,580
+Basset y entonces simplemente lo oculto Boggs y un bajo Dazed punto está el punto display
+
+146
+00:15:40,540 --> 00:15:44,800
+no le vale y de esta manera se actualizará la pantalla va a estar oculto.
+
+147
+00:15:44,800 --> 00:15:54,100
+Efectivamente está completamente oculto pero cuando yo haga submit vale cuando yo haga submit lo voy
+
+148
+00:15:54,100 --> 00:16:01,510
+a mostrar lo voy a mostrar y voy a poner display blog vale de forma que se actualiza la pantalla meto
+
+149
+00:16:01,510 --> 00:16:11,350
+información debe enviar me aparece aquí ahora sólo me quedaría mostrar los datos del usuario que he
+
+150
+00:16:11,350 --> 00:16:18,730
+introducido en el bote en el formulario simplemente aquí voy a poner un H3 que diga información del
+
+151
+00:16:18,730 --> 00:16:19,270
+usuario
+
+152
+00:16:23,750 --> 00:16:31,100
+información del usuario y aquí voy a poner una Chérrez de forma que sea actualizo la pantalla a enviar.
+
+153
+00:16:31,120 --> 00:16:37,370
+Aquí me aparecería esto y no podría perfeccionarlo a nivel de estilo o a nivel de lo que sea le voy
+
+154
+00:16:37,370 --> 00:16:44,700
+a poner un Padín al Agett Padín de tres px.
+
+155
+00:16:44,920 --> 00:16:54,290
+De esa forma me separa un poco los bordes y tal incluso 5 pixels bien.
+
+156
+00:16:55,390 --> 00:17:02,530
+Efectivamente Maximón lo deja perfecto entonces después de esto aquí quiero añadir unos cuantos elementos
+
+157
+00:17:02,530 --> 00:17:06,720
+como son el nombre los apellidos y la edad que estamos sacando del formulario.
+
+158
+00:17:06,730 --> 00:17:10,030
+Yo puedo coger y hacer un create element de JavaScript.
+
+159
+00:17:10,060 --> 00:17:18,940
+Puedo hacer lo siguiente Bahr párrafo Bahr párrafo y voy a hacer un documento punto.
+
+160
+00:17:18,940 --> 00:17:20,940
+Create element.
+
+161
+00:17:21,420 --> 00:17:33,870
+Y ahora al párrafo le hago un APEN y le añado el nombre te añado también los apellidos y la edad
+
+162
+00:17:39,420 --> 00:17:41,700
+nombre apellidos y edad.
+
+163
+00:17:41,700 --> 00:17:42,450
+A ver qué hace.
+
+164
+00:17:43,770 --> 00:17:55,920
+Y por último a un documento punto en punto no simplemente selecciona el ballet Box Set punto Appen y
+
+165
+00:17:55,920 --> 00:18:01,380
+añado el párrafo que ahora con puntico Man guardo.
+
+166
+00:18:01,380 --> 00:18:07,700
+Actualizo la pantalla me tomo la información y me aparece todos los datos aquí.
+
+167
+00:18:07,710 --> 00:18:09,480
+Qué pasa que me aparecen junto.
+
+168
+00:18:09,480 --> 00:18:12,250
+Me aparecen sin formatear correctamente.
+
+169
+00:18:12,480 --> 00:18:17,700
+Entonces esto se podría hacer así pero para hacerlo más óptimo todavía lo que podría hacer en meter
+
+170
+00:18:17,700 --> 00:18:18,730
+esta información.
+
+171
+00:18:18,780 --> 00:18:30,510
+Estos tres datos dentro de un array vale voy a crear una Ray con estos tres datos datos usuario y esto
+
+172
+00:18:30,510 --> 00:18:32,240
+va a ser un array con los corchetes
+
+173
+00:18:35,220 --> 00:18:48,810
+de acuerdo entonces voy a hacer un bucle for foril índice y datos usuario entonces en cada iteración.
+
+174
+00:18:48,820 --> 00:18:50,910
+Yo voy a crearme mi elemento parrafo
+
+175
+00:18:53,960 --> 00:18:55,430
+vale y voy a hacer un Appen
+
+176
+00:18:58,250 --> 00:19:07,570
+de datos usuario y número del índice para meter el nombre apellido y la edad en cada iteración que haga.
+
+177
+00:19:07,640 --> 00:19:11,020
+Y por último voy haciendo el box set Happel.
+
+178
+00:19:12,590 --> 00:19:13,490
+Así de fácil.
+
+179
+00:19:13,490 --> 00:19:18,910
+De esta manera me ahorro bastante el código y aquí tenemos un error nos dice que índice nos defined
+
+180
+00:19:19,520 --> 00:19:22,240
+y efectivamente tengo que crear la variable por aquí índices.
+
+181
+00:19:25,820 --> 00:19:26,900
+Volvemos a probar
+
+182
+00:19:31,170 --> 00:19:35,390
+y ahora si me sacan los datos del usuario vale sin ningún tipo de problema.
+
+183
+00:19:35,430 --> 00:19:45,210
+Otra moneda de la cual podríamos hacerlo sería crear dentro de nuestro HTML aquí abajo crear varios
+
+184
+00:19:45,210 --> 00:19:45,930
+párrafos
+
+185
+00:19:49,180 --> 00:19:57,270
+crear varios párrafos uno que sea poner el nombre o vamos a ponerle nombre nombre y aquí pondríamos
+
+186
+00:19:57,270 --> 00:20:00,100
+una Span dónde iría el nombre.
+
+187
+00:20:00,890 --> 00:20:01,180
+Vale.
+
+188
+00:20:01,200 --> 00:20:06,570
+Y así con todos los elementos que yo quisiera mostrar con los apellidos
+
+189
+00:20:10,010 --> 00:20:13,370
+de apellidos y con la edad
+
+190
+00:20:19,620 --> 00:20:26,880
+de forma que yo podría coger aquí el lugar y hacer esto en lugar de hacer esto
+
+191
+00:20:29,610 --> 00:20:44,760
+podría seleccionar cada uno de estos elementos con un selector de nombre document .4 y selector.
+
+192
+00:20:45,900 --> 00:20:49,490
+Y aquí podría yo seleccionar pegón bajo nombres.
+
+193
+00:20:51,420 --> 00:20:59,940
+Vale podría seleccionar cada uno de esos elementos cada uno de esos párrafos donde va a ir dentro el
+
+194
+00:20:59,940 --> 00:21:09,670
+texto apellidos y edad y en cada uno de estos pues yo le cambio su correspondiente etiqueta o su correspondiente
+
+195
+00:21:09,670 --> 00:21:10,140
+idea.
+
+196
+00:21:10,320 --> 00:21:14,290
+Apellidos y edad.
+
+197
+00:21:14,670 --> 00:21:21,690
+Y aquí le puedo o ya puedo seleccionar el pan de acuerdo el pan el pan que hay dentro.
+
+198
+00:21:21,690 --> 00:21:28,450
+Si hago esto es pan selecciono el pan que hay dentro de esta etiqueta o sea todo elemento con el aceite
+
+199
+00:21:29,780 --> 00:21:32,870
+que le estamos indicando dentro de ahí empecé nombre.
+
+200
+00:21:32,910 --> 00:21:39,390
+Puedo hacer un Inega HTML y simplemente clavar aquí el nombre y así con los 3
+
+201
+00:21:42,410 --> 00:21:47,020
+Vale podría hacerlo con apellidos y con
+
+202
+00:21:50,750 --> 00:22:02,640
+apellidos y guardo autorizó la pantalla meto los datos y efectivamente aquí no lo pinta tal y como hemos
+
+203
+00:22:02,640 --> 00:22:03,430
+dicho.
+
+204
+00:22:03,480 --> 00:22:10,590
+Así que las dos formas son correctas como más te interesa a ti y nada pues ya tenemos el ejercicio resuelto
+
+205
+00:22:10,590 --> 00:22:16,950
+porque el último punto que he dicho realmente es lo mismo que hacerlo como lo hemos hecho nosotros.
+
+206
+00:22:16,950 --> 00:22:23,010
+Así que este punto nos lo ahorramos así que ya tenemos un nuevo ejercicio resuelto y ya sabemos utilizar
+
+207
+00:22:23,010 --> 00:22:25,290
+más cositas acerca del don y de los eventos.

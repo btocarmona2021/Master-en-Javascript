@@ -1,0 +1,423 @@
+1
+00:00:00,590 --> 00:00:04,250
+Bien ahora imagínate que quisiera hacer algún tipo de cosa.
+
+2
+00:00:04,740 --> 00:00:12,510
+Imagínate que necesitara seguir con la promesa y procesar cierta información por ejemplo.
+
+3
+00:00:13,010 --> 00:00:16,500
+Entonces yo tengo un método para hacer una función
+
+4
+00:00:19,320 --> 00:00:27,630
+que se va a llamar info info y yo quiero que tu información o sea que aquí en esta función se me devuelva
+
+5
+00:00:27,960 --> 00:00:36,570
+otra promesa y yo quiero aquí tener una variable que sea profesor y yo quiero aquí tener un objeto Jayson
+
+6
+00:00:37,500 --> 00:00:43,680
+con un nombre y yo quiero convertir esta información Anguix string.
+
+7
+00:00:43,740 --> 00:00:55,410
+Para eso utilizaría Jayson punto Trini foi Trini FAI y le pasaría el objeto de o no y yo quiero que
+
+8
+00:00:55,410 --> 00:01:01,050
+esta información se muestre pero cuando este proceso se haya realizado ya entonces este ejemplo te lo
+
+9
+00:01:01,050 --> 00:01:06,090
+estoy poniendo para enseñarte cómo crear una promesa de cero decir dentro de la promesa puede haber
+
+10
+00:01:06,090 --> 00:01:12,240
+lo que sea cómo hago una promesa Yo desde cero pues simplemente hago returned y hago Unión-PRO máis
+
+11
+00:01:13,050 --> 00:01:14,800
+Promise Promise.
+
+12
+00:01:14,820 --> 00:01:21,290
+Esto es un objeto de acuerdo el mío es una palabra para distanciar un una clase o para crear un objeto.
+
+13
+00:01:21,300 --> 00:01:28,290
+Eso lo veremos más adelante en profundidad y hemos visto un poquito de objetos utilizando Yeison pero
+
+14
+00:01:28,590 --> 00:01:35,640
+más adelante veremos Programación Orientada a Objetos pura de la promesa Yo tengo un Calvache que es
+
+15
+00:01:36,150 --> 00:01:44,410
+Resolve y Rayet vale es decir la promesa se ha resuelto o no se ha resuelto.
+
+16
+00:01:44,410 --> 00:01:53,010
+Entonces si la promesa se resuelve dentro del Calvache y obviamente esta información por lo menos el
+
+17
+00:01:53,010 --> 00:01:58,090
+procesamiento de esa información IFAI obviamente aquí.
+
+18
+00:01:58,700 --> 00:02:09,560
+Esto lo meto aquí vale y entonces esto obviamente dentro de una variable que va a ser profesor y un
+
+19
+00:02:09,570 --> 00:02:10,820
+bajo Extrem.
+
+20
+00:02:11,280 --> 00:02:14,940
+Entonces si él ya hizo el string IFAI y se hace correctamente.
+
+21
+00:02:15,280 --> 00:02:22,440
+Vale es decir IHF profesores Trinta su Taipe off
+
+22
+00:02:25,700 --> 00:02:37,340
+type of su tipo es un string es decir en el caso de que sea diferente a un string pues entonces lo que
+
+23
+00:02:37,340 --> 00:02:43,400
+vamos a hacer va a ser devolver un error en este caso si no solamente voy a poner una instrucción en
+
+24
+00:02:43,400 --> 00:02:49,910
+el IB No hace falta poner la llave simplemente poniéndola al lado podríamos lanzar un returned podríamos
+
+25
+00:02:49,910 --> 00:02:51,520
+devolver el Rayet.
+
+26
+00:02:51,620 --> 00:02:59,360
+El método Rayet la función Rayet que lo que hacen de negarme la promesa y entonces le paso cualquier
+
+27
+00:02:59,360 --> 00:03:06,130
+cosa a error o el resultado que me devuelva este método.
+
+28
+00:03:06,500 --> 00:03:13,960
+Y en el caso de que todo vaya bien pues simplemente a un returned Resolve y le paso los datos que yo
+
+29
+00:03:13,970 --> 00:03:19,460
+quiera en este caso el profesor Extrem entonces ya tengo una promesa vale yo tengo otra promesa para
+
+30
+00:03:19,460 --> 00:03:27,680
+encadenar y que así es como se llama el patrón el patrón este de la promesa del plomada training o encadenamiento
+
+31
+00:03:27,680 --> 00:03:28,210
+de promesas.
+
+32
+00:03:29,540 --> 00:03:39,900
+Entonces yo puedo hacer aquí otro Return Return y llamar al método GET info info y ya tengo una promesa
+
+33
+00:03:39,900 --> 00:03:45,040
+disponible para hacer del otro.
+
+34
+00:03:45,740 --> 00:03:52,440
+Y aquí yo tengo mi función de calvos con los datos que devuelve en este caso pues me devolvería unos
+
+35
+00:03:52,440 --> 00:03:54,370
+datos data.
+
+36
+00:03:55,710 --> 00:04:06,570
+Uso una función de call back de flecha y aquí a un consuelo de los datos consolé un dolor de data que
+
+37
+00:04:06,750 --> 00:04:10,030
+me devuelve la pantalla.
+
+38
+00:04:10,880 --> 00:04:14,110
+Me dice la línea 38 tal hay un error.
+
+39
+00:04:14,300 --> 00:04:15,320
+Aquí me falta una coma.
+
+40
+00:04:15,930 --> 00:04:23,660
+Vale ahora actualizo la pantalla de nuevo Papa y aquí me saca mi Jayson Strait sin ningún tipo de problema
+
+41
+00:04:23,660 --> 00:04:30,690
+es decir que se ha esperado a ejecutar este este trozo de código es decir yo puedo hacer aquí una lógica
+
+42
+00:04:30,690 --> 00:04:38,460
+increíble y luego encadenar a la promesa vale encadenan encadenar la promesa sin ningún tipo de problema
+
+43
+00:04:38,970 --> 00:04:44,340
+si no lo hiciera con la promesa estoy de acuerdo si yo esto no lo hiciera con la promesa pues tendría
+
+44
+00:04:44,340 --> 00:04:50,940
+que hacer el return de Allison estrenã aquí vale hacer un RETURN y luego aquí llamar a la función y
+
+45
+00:04:50,940 --> 00:04:52,400
+aquí mismo hace el consuelo.
+
+46
+00:04:52,870 --> 00:05:00,000
+Ok aquí mismo ok entonces no tendría otra promesa y no tendría todo separado sino que lo mezclaría todo
+
+47
+00:05:00,360 --> 00:05:09,330
+dentro de cada vén y haríamos un bagel a la larga si pasa eso cuando las promesas cuando tenemos que
+
+48
+00:05:09,930 --> 00:05:16,880
+leer archivo cuando tenemos que enviar cosas por post cosas por Ayax recibir cosas por Ayax.
+
+49
+00:05:16,890 --> 00:05:22,220
+Otro ejemplo que podríamos poner con el tema de la promesa es que este método tardará un tiempo.
+
+50
+00:05:22,230 --> 00:05:30,090
+De acuerdo cuando tú haces un call back realmente también se podría hacer pero tendrías que ir metiendo
+
+51
+00:05:30,390 --> 00:05:36,030
+código dentro de o se tendría que hacer un Calvache dentro de otro callback para que el código se a
+
+52
+00:05:36,030 --> 00:05:37,570
+que tú recibieran los datos.
+
+53
+00:05:37,570 --> 00:05:39,090
+Pero por ejemplo si yo pongo aquí
+
+54
+00:05:44,430 --> 00:05:52,740
+si aquí pusiera por ejemplo en el Return un y Mouth Setame Mouth
+
+55
+00:05:56,410 --> 00:06:03,000
+vale yo pongo un tema o de aquí lo voy a hacer con una función de calva como si nueva función de calva
+
+56
+00:06:03,010 --> 00:06:03,720
+como tú quiera
+
+57
+00:06:07,100 --> 00:06:20,630
+vale pongo un séptimo de tres segundo vale y este séptimo lo voy a poner arriba y es lo que va a tardar.
+
+58
+00:06:21,020 --> 00:06:23,540
+Vale lo que va a tardar en procesar Jayson.
+
+59
+00:06:23,670 --> 00:06:29,010
+Vale voy a coger este código de aquí lo corto lo pego por aquí lo pego por aquí aquí voy a definirme
+
+60
+00:06:29,010 --> 00:06:36,330
+simplemente la variable vacía y aquí le voy a asignar el valor a esa variable a los tres segundos es
+
+61
+00:06:36,330 --> 00:06:53,280
+decir al rato Okkhoy al rato y aquí si ven diferente un trino o profesores TRIM está vacío es igual
+
+62
+00:06:53,280 --> 00:06:54,440
+a igual a nada.
+
+63
+00:06:54,720 --> 00:06:57,420
+Pues entonces que nos devuelva el error.
+
+64
+00:06:57,420 --> 00:07:03,480
+Vale entonces esta promesa la voy a lanzar yo no le voy a lanzar la última sino que la voy a lanzar
+
+65
+00:07:03,570 --> 00:07:06,480
+en medio vale voy a coger este trozo de código
+
+66
+00:07:09,910 --> 00:07:18,310
+y lo voy a poner aquí vale y el return GT info me lo voy a llevar este método de arriba después de listado
+
+67
+00:07:18,310 --> 00:07:26,200
+de usuario y una vez que acabemos con él con el que timpo y nos saque ya la información del profesor
+
+68
+00:07:26,260 --> 00:07:34,150
+entonces hacemos el que Janet vale y entonces ya nos mostrará los datos de Yaneth pero lo que quiero
+
+69
+00:07:34,150 --> 00:07:39,430
+comprobar con esto es que las promesas están esperando a que se procese cierto código cierta lógica
+
+70
+00:07:39,580 --> 00:07:44,500
+o cierta llamadas asíncronas al servidor o cierto procesamiento de cualquier cosa.
+
+71
+00:07:44,560 --> 00:07:50,890
+Entonces si yo ahora mismo actualizo la pantalla veo que me falta tengo un error en la línea 21.
+
+72
+00:07:51,940 --> 00:07:58,500
+Efectivamente aquí esto no hay que ponerlos punto y coma a través de la pantalla bien ya que no ocupa
+
+73
+00:07:58,550 --> 00:08:04,870
+un error si te das cuenta este error en el que yo he puesto aquí vale en la parte de la promesa de la
+
+74
+00:08:04,870 --> 00:08:10,480
+promesa que he creado en el rey error 1 he puesto ahora se actualizo me aparece Error 1 eso es porque
+
+75
+00:08:10,480 --> 00:08:16,030
+no se cumple esta condición de que esto sea un string o que sea diferente a vacío.
+
+76
+00:08:16,030 --> 00:08:25,280
+Cuidado con esto o que sea igual a vacío es decir el justo el justo el Resolve vale es justo el sol
+
+77
+00:08:25,400 --> 00:08:34,190
+esta parte del código obviamente dentro del sistema para que se espere ese tiempo y lo haga de acuerdo
+
+78
+00:08:34,250 --> 00:08:40,760
+vamos a meterlo dentro de aquí y ahora mismo ya no me debe lanzar el error lo mantengo dentro del Taymor
+
+79
+00:08:40,790 --> 00:08:45,670
+para que se espere los 3 segundos y luego ya me haga el return Resolve en la pantalla
+
+80
+00:08:49,180 --> 00:08:54,030
+y ahí me lo ejecuta habitos jaspeado 3 segundos 3 segundos para escupirle.
+
+81
+00:08:54,130 --> 00:09:02,880
+Este código ok que incluso lo podríamos mostrar por pantalla aquí hacemos un H.R
+
+82
+00:09:09,190 --> 00:09:10,840
+y abrimos un día aquí
+
+83
+00:09:14,130 --> 00:09:30,440
+día cargando cargando un profesor aquí cargando usuario de aquí cargando usu datos globales datos globales.
+
+84
+00:09:30,630 --> 00:09:36,380
+Si hago esto yo puedo cargar esta información que me llega por aquí que estoy haciendo un Consol log
+
+85
+00:09:37,030 --> 00:09:39,930
+la puedo cargar dentro del Lib
+
+86
+00:09:43,980 --> 00:09:44,860
+del profesor
+
+87
+00:09:51,580 --> 00:09:52,390
+y puedo hacer
+
+88
+00:09:57,670 --> 00:10:03,530
+aquí un electo ni siquiera puedo hacer un profesor.
+
+89
+00:10:03,880 --> 00:10:04,940
+Punto.
+
+90
+00:10:04,950 --> 00:10:08,090
+Inega Chete Miele y aquí dentro.
+
+91
+00:10:08,290 --> 00:10:12,690
+Clavo Allyson Extrem vale porque simplemente quiero mostrar estos datos.
+
+92
+00:10:12,960 --> 00:10:19,580
+Entonces si a través de la pantalla se espera 3 segundo 1 3 me muestra el guiso.
+
+93
+00:10:19,690 --> 00:10:22,640
+Y luego ya me ejecutã lo siguiente decir cómo te puede dar.
+
+94
+00:10:22,760 --> 00:10:25,910
+Como te puede estar dando cuenta las promesas las está cumpliendo.
+
+95
+00:10:25,910 --> 00:10:29,450
+Es decir esto es una promesa recoge los datos.
+
+96
+00:10:29,530 --> 00:10:36,220
+Después esto devuelve una promesa después capturamos esos datos que nos devuelve ejecutamos esto para
+
+97
+00:10:36,220 --> 00:10:38,550
+mostrar para mostrarlo en la pantalla.
+
+98
+00:10:38,590 --> 00:10:41,670
+Después llamamos al otro método que también es una promesa la devolvemos.
+
+99
+00:10:41,680 --> 00:10:44,980
+Utilizamos su promesa de acuerdo una vez que tenemos ya los datos.
+
+100
+00:10:44,980 --> 00:10:50,290
+Después de los tres segundos lo metemos dentro de la página web dentro de Dib.
+
+101
+00:10:50,740 --> 00:10:56,800
+No esperamos después ejecutamos el que ya que es un fechu un método fets que también en una promesa.
+
+102
+00:10:56,800 --> 00:11:03,120
+No esperamos entonces cuando tenemos los datos que se están secando por Ayax que lo tenemos se ejecuta
+
+103
+00:11:03,130 --> 00:11:10,300
+la siguiente promesa vale se devuelve la promesa se ejecuta la siguiente promesa se devuelven los datos
+
+104
+00:11:10,300 --> 00:11:11,590
+que también son una promesa.
+
+105
+00:11:11,590 --> 00:11:17,670
+Por lo tanto se ejecuta la siguiente promesa y se muestran los datos del usuario con lo cual así funcionan
+
+106
+00:11:17,680 --> 00:11:21,080
+la promesa y así se crean y así funciona.

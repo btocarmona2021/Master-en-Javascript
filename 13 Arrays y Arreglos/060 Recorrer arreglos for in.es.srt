@@ -1,0 +1,79 @@
+1
+00:00:01,050 --> 00:00:03,220
+Otra forma de recorrer una raï.
+
+2
+00:00:03,300 --> 00:00:09,270
+Anteriormente hemos visto que podíamos utilizar el frizz pues hay una forma también interesante que
+
+3
+00:00:09,270 --> 00:00:11,300
+es utilizando el for in.
+
+4
+00:00:11,370 --> 00:00:22,810
+De acuerdo eso simplemente utilizando el Ford el Ford normal y creando una variable aquí que se llama
+
+5
+00:00:22,890 --> 00:00:30,030
+elemento o en este caso como estamos recorriendo lenguajes de programación sería el lenguaje en singular
+
+6
+00:00:30,180 --> 00:00:31,870
+y lenguajes.
+
+7
+00:00:32,040 --> 00:00:40,110
+De esa manera tengo disponible el elemento lenguaje de cada en cada iteración que haga el bucle y simplemente
+
+8
+00:00:40,110 --> 00:00:45,030
+puedo hacer un documento punto right de este elemento
+
+9
+00:00:48,450 --> 00:00:49,500
+de esta manera.
+
+10
+00:00:49,660 --> 00:01:00,970
+Vale en este caso sería el lenguaje y ahora yo puedo simplemente comentar este trozo de aquí arriba.
+
+11
+00:01:00,990 --> 00:01:02,880
+Vale y también voy a cargar el archivo
+
+12
+00:01:06,330 --> 00:01:16,760
+voy a copiar el archivo por aquí reescribí y este me lo llevo arriba y vamos a ver cómo recorre de nuevo.
+
+13
+00:01:17,160 --> 00:01:19,650
+Efectivamente no recorre esto pero
+
+14
+00:01:22,500 --> 00:01:30,910
+no lo recorre porque esto tiene el índice dentro pero lo que necesito esto es el índice realmente esto
+
+15
+00:01:30,930 --> 00:01:32,870
+es el índice.
+
+16
+00:01:33,450 --> 00:01:42,120
+Lo que yo necesito es acceder a la raíz de lenguajes y coger su índice y pasárselo a los corchete para
+
+17
+00:01:42,360 --> 00:01:47,990
+capturar ese índice y el valor que tiene dentro del array se ha visto ahora si efectivamente me muestra
+
+18
+00:01:48,000 --> 00:01:56,190
+el lenguaje de programación esto es otra forma que tenemos para hacer iteraciones y para recorrer una
+
+19
+00:01:56,190 --> 00:02:01,530
+raíz para que quede claro también que también se puede hacer así y también es una manera elegante mucho
+
+20
+00:02:01,530 --> 00:02:02,340
+más que la primera.

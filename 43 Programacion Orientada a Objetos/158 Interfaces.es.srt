@@ -1,0 +1,159 @@
+1
+00:00:01,270 --> 00:00:05,920
+Ahora vamos a estar hablando acerca de las interfaces una interfaz dentro de la programación orientada
+
+2
+00:00:05,920 --> 00:00:06,880
+a objetos.
+
+3
+00:00:07,000 --> 00:00:12,820
+Es un contrato en el que definimos qué propiedades y qué métodos obligatorios va a tener una clase.
+
+4
+00:00:12,820 --> 00:00:19,420
+Entonces podemos definir interface y podemos aplicársela a las clases que queramos y entonces esa clase
+
+5
+00:00:19,540 --> 00:00:25,240
+automáticamente de manera obligatoria tiene que cumplir tiene que cumplir ese contrato de la interfaz
+
+6
+00:00:25,330 --> 00:00:30,360
+y tienen que existir los métodos o propiedades que definamos en esa interfaz.
+
+7
+00:00:30,370 --> 00:00:38,740
+Esto se suele utilizar cuando necesitamos que un software sea muy robusto y que haya mucha rigurosidad
+
+8
+00:00:38,740 --> 00:00:42,240
+a la hora de definir las clases y de qué métodos van a tener dentro.
+
+9
+00:00:42,280 --> 00:00:47,740
+Entonces se suele utilizar la interface para que no se nos pase nada y para que todo esté perfecto entonces
+
+10
+00:00:47,740 --> 00:00:58,210
+vamos a definir aquí arriba una interfaz interfaz un interfaz se define con la palabra interface Valoy
+
+11
+00:00:58,290 --> 00:01:01,850
+y le ponemos un nombre en este caso camiseta base.
+
+12
+00:01:02,250 --> 00:01:08,470
+Vale vamos a definir qué método obligatorio debe tener esta clase de camiseta pues por ejemplo necesitamos
+
+13
+00:01:08,530 --> 00:01:17,460
+un método que se llame set color valet que va a recibir un parámetro color y simplemente así lo definimos
+
+14
+00:01:17,830 --> 00:01:25,960
+y luego también vamos a tener una clase que se llama en qué color vale qué color que no va a tener ningún
+
+15
+00:01:25,960 --> 00:01:27,190
+parámetro ni nada.
+
+16
+00:01:27,190 --> 00:01:33,250
+Entonces si yo le aplico esta interfaz a mi objeto lo puedo aplicar implement e implemento
+
+17
+00:01:35,860 --> 00:01:38,010
+camiseta base.
+
+18
+00:01:39,080 --> 00:01:42,600
+Si yo se la implemento y actualizo la pantalla todo va bien.
+
+19
+00:01:42,700 --> 00:01:43,990
+Si reviso la compilación
+
+20
+00:01:46,530 --> 00:01:47,510
+todo va bien.
+
+21
+00:01:47,520 --> 00:01:48,090
+Vamos a ver
+
+22
+00:01:51,050 --> 00:01:54,990
+vale dice error.
+
+23
+00:01:55,890 --> 00:02:05,300
+Eso es porque en el mini punto se lo vamos a borrar porque no lo vamos a usar ya va entonces contra
+
+24
+00:02:05,300 --> 00:02:07,110
+la compilación vuelvo a ejecutar vale.
+
+25
+00:02:07,160 --> 00:02:12,880
+Todo va bien la web va bien y esto va bien incluso puedo hacerme un console blog
+
+26
+00:02:15,950 --> 00:02:18,490
+o puedo hacer la instancia de un objeto o lo que yo quiera.
+
+27
+00:02:18,520 --> 00:02:29,000
+Vale vamos a hacer la distancia un objeto Baur camiseta es igual a la camiseta y luego pasar los valores
+
+28
+00:02:29,000 --> 00:02:42,750
+1 2 3 4 y el precio vale por ejemplo y voy a hacer un consuelo de camiseta
+
+29
+00:02:47,560 --> 00:02:49,280
+guardo actualizo la pantalla.
+
+30
+00:02:49,430 --> 00:02:54,310
+Alguien aparece en mi camiseta vale mi objeto perfectamente.
+
+31
+00:02:54,380 --> 00:02:58,790
+No hay ningún problema porque estos dos métodos existen pero qué pasa si yo le cambio el nombre estos
+
+32
+00:02:58,790 --> 00:02:59,420
+métodos
+
+33
+00:03:05,330 --> 00:03:07,520
+y de tal forma incumplimos el contrato.
+
+34
+00:03:07,520 --> 00:03:10,430
+Estos dos métodos que estamos definiendo en la interfaz ya no existen.
+
+35
+00:03:10,460 --> 00:03:19,060
+Ya no los tenemos disponible en la clase de camiseta cuya en la clase de camiseta que implementa esa
+
+36
+00:03:19,060 --> 00:03:20,020
+interfaz vale.
+
+37
+00:03:20,050 --> 00:03:24,460
+Entonces si actualizamos la pantalla va a seguir funcionando pero en el compilador no iba a decir que
+
+38
+00:03:24,510 --> 00:03:30,490
+la implementación de la interfaz incorrecta porque el método es color no existe en la clase con lo cual
+
+39
+00:03:30,610 --> 00:03:37,240
+ya hemos visto que si incumplimos el contrato nos da error y de esta manera somos mucho más estrictos
+
+40
+00:03:37,300 --> 00:03:41,710
+a la hora de programar y a la hora de definir nuestras clases.

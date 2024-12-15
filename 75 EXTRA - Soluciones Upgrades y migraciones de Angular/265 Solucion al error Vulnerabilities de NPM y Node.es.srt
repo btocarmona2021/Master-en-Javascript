@@ -1,0 +1,119 @@
+1
+00:00:01,670 --> 00:00:05,120
+Ahora voy a cortar la ejecución de mi proyecto angular.
+
+2
+00:00:05,300 --> 00:00:11,060
+Debería decir que sí a hacer control C malvivió hacer CLS y vamos a hacer una cosa para solucionar el
+
+3
+00:00:11,060 --> 00:00:17,630
+tema de las vulnerabilidades cuando instalamos angular de acuerdo con el MPM hacerce de punto punto.
+
+4
+00:00:17,690 --> 00:00:21,830
+Y para solucionar el problema que hemos visto anteriormente que mucha gente se queja de que déjales
+
+5
+00:00:21,830 --> 00:00:22,400
+es vital.
+
+6
+00:00:22,640 --> 00:00:30,600
+Pues el problema se puede solucionar así de fácil LPM install menos jé para hacerlo de manera global.
+
+7
+00:00:30,710 --> 00:00:36,500
+En MM arroba Ladd est Balet ejecuto esto
+
+8
+00:00:39,320 --> 00:00:47,620
+para actualizar MPM bien ya lo tenemos actualizado en MPM tenemos la versión 6 0 1 si hacemos RPM menos
+
+9
+00:00:47,820 --> 00:00:50,680
+sube que versión tenemos.
+
+10
+00:00:50,750 --> 00:00:58,410
+Ahora vamos a volver a borrar la caché para eso ejecutamos RPM cache Clean menos Force importante que
+
+11
+00:00:58,410 --> 00:01:04,700
+bien puede borrar la caché de MPM y no tener problemas y para solucionar el problema de las adicciones
+
+12
+00:01:04,870 --> 00:01:11,630
+de seguridad que estoy intentando hacer siempre en MM Podemos hacerlo de manera sencilla cuando instalamos
+
+13
+00:01:11,630 --> 00:01:19,580
+un paquete podemos ponerle el comando o la opción no hadith unidimensional así o directamente desactivar
+
+14
+00:01:19,670 --> 00:01:20,470
+la adición.
+
+15
+00:01:20,480 --> 00:01:25,660
+Cómo lo podemos hacer en pm. set Audit false.
+
+16
+00:01:26,090 --> 00:01:30,770
+Si ponemos esto y ya no vamos a tener ese problema con la nueva versiones de Node y ahora ya podríamos
+
+17
+00:01:30,770 --> 00:01:33,970
+generar un nuevo proyecto de Acuerdo de angular.
+
+18
+00:01:34,280 --> 00:01:36,290
+Podríamos hacer NG New
+
+19
+00:01:39,300 --> 00:01:49,920
+instalación angular 6 guión texto base y voy a estar en el proyecto de nuevo y ahora vamos a ver que
+
+20
+00:01:49,920 --> 00:01:51,420
+no me va a generar ningún problema.
+
+21
+00:01:51,510 --> 00:01:57,900
+En general es CAFO hólding el proyecto igual que hemos visto antes no hay problema y esto es lo que
+
+22
+00:01:57,900 --> 00:02:03,660
+me aparece a mí es por porque no tengo el elegid en esta consola instalado vale por eso me aparecen
+
+23
+00:02:03,660 --> 00:02:12,210
+estas cosas pero bueno no hay problema si yo me cargo mi directorio en su 20x también ha cargado bien
+
+24
+00:02:12,620 --> 00:02:14,410
+y tenemos todos los archivos.
+
+25
+00:02:14,520 --> 00:02:24,310
+Todo perfecto vale incluso si yo entro a la instalación de angular 6 test y le hago el RBM estar en
+
+26
+00:02:24,320 --> 00:02:32,220
+NG Server me está cargando todo me dice que el servidor se ha cargado en esta web R.L me está compilando
+
+27
+00:02:32,220 --> 00:02:37,410
+el proyecto vale y ya lo tengo si actualizo la pantalla aquí vale ya me aparece aquí la nueva aplicación
+
+28
+00:02:37,410 --> 00:02:38,920
+instalación mulher 6 test.
+
+29
+00:02:39,120 --> 00:02:48,960
+Perfecto pues ya hemos visto cómo solucionar esos problemas de vulnerabilidades de DJs y hacer una instalación
+
+30
+00:02:49,140 --> 00:02:51,170
+perfecta y sin ningún tipo de fallo.

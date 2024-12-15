@@ -1,0 +1,231 @@
+1
+00:00:01,020 --> 00:00:06,450
+Ahora vamos a aprender a trabajar con el condicional switch el switch es una estructura de control diferente
+
+2
+00:00:06,450 --> 00:00:12,570
+al HIV que nos permite hacer muchas condiciones de una manera mucho más organizada por ejemplo en lugar
+
+3
+00:00:12,570 --> 00:00:19,860
+de tener un IFAL aquí y luego otro y Fakih y luego otro y luego otro y en lugar de eso simplemente en
+
+4
+00:00:19,860 --> 00:00:24,150
+una sola estructura de control podemos comprobarlo posibles casos que vayan a pasar.
+
+5
+00:00:24,150 --> 00:00:31,800
+Por ejemplo si la edad fuera mayor a 18 si fuera mayor a 30 o si fuera mayor atal todo en una misma
+
+6
+00:00:32,790 --> 00:00:38,730
+estructura de control y vamos a estar comprobando los diferentes casos en el caso de que uno de los
+
+7
+00:00:38,730 --> 00:00:44,860
+casos se cumpliera pues entraría a ese caso y ejecutaría un trozo de código.
+
+8
+00:00:44,910 --> 00:00:46,220
+Vamos a ver cómo funciona el switch.
+
+9
+00:00:46,230 --> 00:00:51,540
+Para entenderlo mejor para eso en la carpeta de JS vamos a crear un nuevo fichero con el ejercicio que
+
+10
+00:00:51,540 --> 00:00:53,060
+vamos a hacer ahora.
+
+11
+00:00:53,240 --> 00:00:55,140
+07 switch
+
+12
+00:00:58,890 --> 00:01:00,910
+p.ej. switch punto J.S.
+
+13
+00:01:00,950 --> 00:01:04,120
+Cuarto y el índex junto HTML.
+
+14
+00:01:04,120 --> 00:01:11,470
+Como siempre voy a copiar esta línea para recuperarla en algún momento si queremos movilizar el fichero.
+
+15
+00:01:11,470 --> 00:01:12,970
+07 un switch
+
+16
+00:01:16,890 --> 00:01:19,310
+switch.
+
+17
+00:01:19,620 --> 00:01:27,540
+Asegúrate de que lo tiene bien escrito y pues aquí lo de siempre vamos a hacer el uso de Street Street
+
+18
+00:01:29,520 --> 00:01:32,460
+y vamos a probar el switch.
+
+19
+00:01:32,550 --> 00:01:34,710
+En principio todo debe ir correcto.
+
+20
+00:01:34,720 --> 00:01:42,840
+Voy a abrir la consola del navegador y voy a hacer zoom para verlo todo claro si yo pongo aquí un consuelo
+
+21
+00:01:43,660 --> 00:01:48,110
+no confundir con aguardo actualizo y aquí me aparece Swett.
+
+22
+00:01:48,320 --> 00:01:52,990
+Bien perfecto entonces vamos a hacer una prueba con el switch.
+
+23
+00:01:53,040 --> 00:01:59,970
+Esto va a ser muy sencillo simplemente vamos a crear una variable que va a ser edad vale bar edad y
+
+24
+00:01:59,970 --> 00:02:02,570
+que va a ser de 18 por ejemplo.
+
+25
+00:02:02,580 --> 00:02:08,850
+Luego le cambiamos el valor y entonces podemos utilizar el switch como lo usamos poniendo la palabra
+
+26
+00:02:08,880 --> 00:02:09,360
+switch
+
+27
+00:02:12,540 --> 00:02:22,590
+switch con minúscula acuerdate y entre paréntesis ponemos la variable de acuerdo en este caso la variable
+
+28
+00:02:22,590 --> 00:02:26,510
+que vamos a estar comprobando los diferentes casos es edad bien.
+
+29
+00:02:26,580 --> 00:02:34,420
+Ahora vamos fabulando case case para comprobar un caso en el caso de que la variable sea el valor sea
+
+30
+00:02:34,440 --> 00:02:36,970
+18.
+
+31
+00:02:36,990 --> 00:02:44,520
+Pues aquí vamos a imprimir un resultado podríamos hacer un Consol log o incluso tener una variable que
+
+32
+00:02:44,520 --> 00:02:54,960
+fuera imprime que por defecto esta estaría inicializar vacía entonces dentro del caso el proceso de
+
+33
+00:02:54,960 --> 00:03:01,360
+selección que va a hacer el switch en el caso de quedarse igual a 18 yo voy a darle un valor a imprime.
+
+34
+00:03:01,650 --> 00:03:06,410
+Le voy a dar un valor que en este caso que diría acabamos de cumplir la mayoría de edad.
+
+35
+00:03:06,420 --> 00:03:18,570
+Acabás de cumplir la mayoría de edad con puntico vale y para pasar al siguiente caso tengo que usar
+
+36
+00:03:18,570 --> 00:03:24,500
+el Black la instrucción break de acuerdo y este sería un caso en el caso de que la verdad sea 18 va
+
+37
+00:03:24,500 --> 00:03:29,670
+a pasar esto pero yo puedo ir haciendo más casos de acuerdo voy a copiar y pegar este trozo de código
+
+38
+00:03:30,420 --> 00:03:36,920
+en el caso de que sea la edad 25.
+
+39
+00:03:37,770 --> 00:03:45,390
+Pues aquí podríamos poner ya eres un adulto ya eres un adulto en el caso de que sea
+
+40
+00:03:49,340 --> 00:03:50,710
+40.
+
+41
+00:03:50,860 --> 00:03:53,130
+Que ponga crisis de los 40.
+
+42
+00:03:57,020 --> 00:03:59,020
+Y en el caso de que sea 70
+
+43
+00:04:01,810 --> 00:04:04,810
+75 pues eres ya un anciano.
+
+44
+00:04:05,290 --> 00:04:16,540
+Eres ya un anciano vale por ejemplo y luego hay otro caso que es el caso de Asphalt que es cuando no
+
+45
+00:04:16,540 --> 00:04:31,420
+sucede nada de esto de facto y aquí en imprimes podemos meter un valor que sea tu edad es neutra.
+
+46
+00:04:31,420 --> 00:04:39,690
+Por ejemplo cierro con puntico y voy a hacer un break y esto parece que está todo correcto el switch
+
+47
+00:04:39,730 --> 00:04:44,210
+pero realmente si lo ejecutamos vamos a ver que tenemos un error y ahora vamos a explicar por qué me
+
+48
+00:04:44,210 --> 00:04:50,530
+dice unexpected token Keys porque los casos del switch yo tengo que meterlo entre las llaves de acuerdo
+
+49
+00:04:50,560 --> 00:04:57,520
+como si fuera un IP pero en este caso es un switch vale el momento entrar en llave para que esto sea
+
+50
+00:04:57,520 --> 00:04:59,530
+el bloque de casos que va a hacer.
+
+51
+00:04:59,530 --> 00:05:02,880
+Vale si hago esto actualizo la pantalla.
+
+52
+00:05:03,700 --> 00:05:08,230
+Todo correcto no me imprime nada porque efectivamente no le estoy diciendo que me imprima nada aquí
+
+53
+00:05:08,230 --> 00:05:16,270
+voy a poner un Consol Autolog que imprima imprime el que me muestra en el blog de la consola la variable
+
+54
+00:05:16,270 --> 00:05:21,680
+imprime la pantalla y me dice que acabo de cumplir la mayoría de edad.
+
+55
+00:05:22,600 --> 00:05:30,430
+Si lo cambiara a 25 por ejemplo guardo y actualizo la pantalla.
+
+56
+00:05:30,430 --> 00:05:39,220
+Me dice que ya eres un adulto si le pongo 40 pues me va a decir lo que pone en el caso 40 es decir crisis
+
+57
+00:05:39,220 --> 00:05:48,240
+de los 40 y si le pongo cualquier otro número pues me dice que tu edad es neutra con lo cual ya hemos
+
+58
+00:05:48,240 --> 00:05:50,910
+visto como funciona la estructura de control switch.

@@ -1,0 +1,215 @@
+1
+00:00:00,970 --> 00:00:05,650
+Ya hemos hecho las pruebas y ya lo tenemos todo preparado para continuar desarrollando nuestro servicio
+
+2
+00:00:05,740 --> 00:00:08,320
+es una explicación nueva a nivel de Bakken.
+
+3
+00:00:08,500 --> 00:00:14,230
+Vamos a empezar a avanzar en el desarrollo de esto y vamos a hacerlo pasito a pasito y poco a poco.
+
+4
+00:00:14,380 --> 00:00:21,670
+El primer paso que me parece más recomendable hacer es crear los modelos de la base de datos o las entidades
+
+5
+00:00:21,670 --> 00:00:29,620
+que va a tener el Wacken en este caso solamente tenemos una que es la entidad de proyecto de acuerdo
+
+6
+00:00:29,620 --> 00:00:34,480
+porque hemos creado una colección de datos que se llama proyectos pues ahora vamos a tener una entidad
+
+7
+00:00:34,480 --> 00:00:41,740
+que se llama proyecto vale así que vamos a crear los modelos en nuestra aplicación ni un folder se va
+
+8
+00:00:41,740 --> 00:00:50,440
+a llamar modelo la carpeta y aquí dentro vamos a crear nuestro modelo un modelo representa a un documento
+
+9
+00:00:50,710 --> 00:00:56,620
+de una colección de la base de datos es decir que cuando yo creé un objeto modelo creando un nuevo documento
+
+10
+00:00:56,830 --> 00:00:58,200
+dentro de la base de datos.
+
+11
+00:00:58,950 --> 00:01:05,560
+Entonces para crear un modelo lo primero voy a definir el modo estricto Street vale voy a guardar el
+
+12
+00:01:05,560 --> 00:01:13,240
+archivo se va a llamar Proyecto Punto JS Porque es el tipo de entidad te recuerdo que tenemos en nuestra
+
+13
+00:01:13,420 --> 00:01:19,460
+base de datos la colección de proyectos de acuerdo.
+
+14
+00:01:19,520 --> 00:01:26,400
+Aquí tenemos un objeto un documento que es el de un proyecto dentro de esta colección de proyectos.
+
+15
+00:01:27,020 --> 00:01:34,670
+Entonces vamos a definir esa entidad o ese modelo para crear un modelo tendré que importar MongoDB que
+
+16
+00:01:34,670 --> 00:01:45,700
+es lo que se encarga de trabajar con los modelos VAR mongolos voy a cargar el módulo required mongolos
+
+17
+00:01:47,720 --> 00:01:55,280
+y ahora tengo que definir un esquema de un modelo entonces voy a cargar el objeto de esquema vale voy
+
+18
+00:01:55,280 --> 00:02:01,580
+a hacer aquí un punto esquema accedo a este objeto ya lo tengo disponible ahora voy a crear el esquema
+
+19
+00:02:01,580 --> 00:02:07,290
+de proyecto proyecto esquema.
+
+20
+00:02:07,670 --> 00:02:14,630
+Esto va a ser el molde el objeto molde sobre el cual voy a estar el cual voy a estar utilizando para
+
+21
+00:02:14,630 --> 00:02:18,940
+crear nuevos proyectos en nuestra base de datos nuevos documentos de este tipo.
+
+22
+00:02:18,950 --> 00:02:24,350
+Todavía utiliza el objeto esquema o este método de aquí y yo le paso como un parámetro un objeto Allyson
+
+23
+00:02:24,380 --> 00:02:29,780
+con todas las propiedades que tienen que tener un proyecto pues antes hemos dicho que vamos a tener
+
+24
+00:02:29,780 --> 00:02:36,620
+un nombre una descripción una categoría unos lenguajes de acuerdo con los que está desarrollado el proyecto
+
+25
+00:02:36,710 --> 00:02:43,920
+y un año en el que se desarrolle el proyecto pues vamos a añadir el nombre que va a ser de tipo string
+
+26
+00:02:44,260 --> 00:02:50,870
+vale mongolos tengo que definir los tipos de datos de esta manera para que luego Mingus creé en la base
+
+27
+00:02:50,870 --> 00:02:59,810
+de datos pues esos elementos correspondientemente hemos dicho que iba a tener aparte de Nain si hemos
+
+28
+00:02:59,810 --> 00:03:10,430
+dicho en la descripción que va a ser un string y vamos a tener también el año la categoría
+
+29
+00:03:13,580 --> 00:03:19,160
+que va a ser una actriz también y vamos a tener Geer que esto iba a ser un Amber
+
+30
+00:03:21,810 --> 00:03:27,730
+y vamos a tener los lenguajes en los que se desarrolló que esto era un campo de tipo array.
+
+31
+00:03:27,910 --> 00:03:33,520
+Define una red con los corchetes y diciéndole el tipo de dato que va a tener dentro el array en este
+
+32
+00:03:33,520 --> 00:03:40,590
+caso pues va a tener simplemente strings vale todos los campos eran un string.
+
+33
+00:03:40,640 --> 00:03:45,700
+Pues yo tengo mi modelo creado mi esquema vale sobre este molde y voy a estar creando diferentes objetos.
+
+34
+00:03:45,700 --> 00:03:50,580
+Vale cuando yo haga new project voy a tener esas propiedades para darle un valor.
+
+35
+00:03:50,800 --> 00:03:58,330
+Y ahora voy a hacer Module punto Esport para poder exportar este módulo y poder importarlo en otro fichero
+
+36
+00:03:58,390 --> 00:04:04,780
+de acuerdo para poder utilizarlo fuera de este fichero y ahora voy a hacer mongolos punto Model para
+
+37
+00:04:04,900 --> 00:04:08,980
+coger este esquema y utilizarlo como modelo.
+
+38
+00:04:09,040 --> 00:04:14,230
+Vale le voy a poner lo primero que tengo que hacer es ponerle el primer parámetro y luego el segundo
+
+39
+00:04:14,230 --> 00:04:17,100
+para el primer parámetro sería el nombre de mi entidad.
+
+40
+00:04:17,110 --> 00:04:21,760
+En este caso el proyecto será el tipo de entidad que se guardará en la base de datos y luego le tengo
+
+41
+00:04:21,760 --> 00:04:25,530
+que pasar como segundo parámetro el esquema en este caso proyecto esquema.
+
+42
+00:04:25,730 --> 00:04:31,930
+Vale te preguntará vale tu está utilizando aquí Blodget para guardar la entidad en la base de datos
+
+43
+00:04:32,070 --> 00:04:37,300
+que es la base de datos tenemos una entidad que se llama Projet o una colección que se llama haploides.
+
+44
+00:04:37,500 --> 00:04:39,170
+Cómo guarda esto.
+
+45
+00:04:39,300 --> 00:04:45,700
+Mongolos si esa entidad no si esa colección no existiera pues lo que hace mongolos cuando yo le pongo
+
+46
+00:04:45,700 --> 00:04:49,090
+aquí en la colección a donde yo quiero guardarla.
+
+47
+00:04:49,090 --> 00:04:57,370
+Lo que hacemos es ponerlo en minúsculas y pluralizar el nombre de mi modelo en este caso si yo lo pongo
+
+48
+00:04:57,370 --> 00:05:02,710
+aquí Projet realmente en la base de datos se va a generar una colección de datos que se va a llamar
+
+49
+00:05:02,710 --> 00:05:08,980
+Projet maletilla site pues no pasa nada directamente guardar los documentos en esa colección
+
+50
+00:05:12,200 --> 00:05:18,500
+Malet directamente entonces simplemente utilizamos este esquema para cuando nosotros hagamos un Soib
+
+51
+00:05:18,860 --> 00:05:25,520
+de ese modelo se guarde en la colección proyectes vale y este es el nombre del modelo general.
+
+52
+00:05:25,780 --> 00:05:30,680
+Pues ya tenemos nuestro modelo creado y en las próximas clases vamos a estar utilizando vamos a crear
+
+53
+00:05:30,680 --> 00:05:36,380
+los controladores y vamos a estar haciendo el resto de métodos que va a tener nuestra API.
+
+54
+00:05:36,380 --> 00:05:37,130
+Por el momento.

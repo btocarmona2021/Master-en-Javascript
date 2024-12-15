@@ -1,0 +1,387 @@
+1
+00:00:01,210 --> 00:00:07,520
+En la clase anterior vemos que nos hemos dejado un error y es que si abrimos el compilador no aparece
+
+2
+00:00:07,580 --> 00:00:08,210
+este fallo.
+
+3
+00:00:08,210 --> 00:00:16,520
+La Línea 27 que Fool's no es asignarle a un tipo number y bueno si abrimos este componente que es el
+
+4
+00:00:16,630 --> 00:00:24,830
+descomponer en la línea 27 aquí vemos que estamos asignando false a una propiedad que es de tipo number.
+
+5
+00:00:24,830 --> 00:00:32,690
+Entonces aquí vamos a poner el tipo Genny porque vamos a estar en metiendole valores distinto en cada
+
+6
+00:00:32,690 --> 00:00:33,290
+momento.
+
+7
+00:00:33,290 --> 00:00:36,380
+Entonces si hacemos eso el error se soluciona
+
+8
+00:00:39,250 --> 00:00:46,270
+Marai funciona perfectamente y actualizamos la pantalla pues ya nos carga todo perfectamente vale y
+
+9
+00:00:46,270 --> 00:00:50,350
+podemos seguir metiendo información o lo que sea bien.
+
+10
+00:00:50,950 --> 00:00:57,520
+Ahora ya hemos visto cómo utilizan la propiedad imput para pasar un valor de un componente padre a un
+
+11
+00:00:57,520 --> 00:01:05,260
+componente hijo y lo que vamos a ver ahora va a ser cómo utilizar la propiedad output que básicamente
+
+12
+00:01:05,260 --> 00:01:10,510
+esta propiedad y este decorador lo que nos permite es compartir información de un componente a otro
+
+13
+00:01:10,510 --> 00:01:16,210
+pero esta vez desde el hijo al padre es decir en el ejemplo que estamos haciendo desde el componente
+
+14
+00:01:16,290 --> 00:01:20,250
+es Leider al componente de contacto que es el padre.
+
+15
+00:01:20,250 --> 00:01:28,030
+Vale entonces básicamente lo que tenemos que hacer es un evento desde el componente hijo que emita una
+
+16
+00:01:28,030 --> 00:01:30,430
+información al componente padre.
+
+17
+00:01:30,430 --> 00:01:37,210
+Esto va a ser sencillo relativamente así que vamos a ver cómo hacerlo.
+
+18
+00:01:37,210 --> 00:01:45,720
+Lo primero que tenemos que hacer es ir a nuestro componente hijo e importar el decorador output o mutuales
+
+19
+00:01:46,120 --> 00:01:54,340
+lo importamos por aquí y también tenemos que importar el Event emitir para poder crear nuevo evento
+
+20
+00:01:54,640 --> 00:02:02,610
+por nosotros mismos de acuerdo y entonces vamos a tener una propiedad en nuestro componente madre vamos
+
+21
+00:02:02,620 --> 00:02:11,200
+a tener una propiedad autor vale por ejemplo y esto simplemente va a ser de tipo Heini y va a ser un
+
+22
+00:02:11,200 --> 00:02:18,310
+objeto Yeison vale que va a ser el objeto que le vamos a pasar al otro componente para imprimirlo desde
+
+23
+00:02:18,310 --> 00:02:26,740
+el otro componente disputo autor y esto va a ser un objeto Yeison vale que vamos a poner varias propiedades
+
+24
+00:02:27,750 --> 00:02:30,550
+una serie el nombre le voy a poner mi nombre
+
+25
+00:02:33,180 --> 00:02:40,880
+Víctor Robles otra sería la web el sitio web website.
+
+26
+00:02:41,440 --> 00:02:58,050
+Víctor Robles apuntó es otro sería el YouTube canal de YouTube pues también sería Víctor Robles bueno
+
+27
+00:02:58,220 --> 00:03:07,420
+vale entonces ya tengo mi objeto de autor y esto yo quiero pasárselo a mi componente de contacto imprimirlo
+
+28
+00:03:07,510 --> 00:03:11,220
+en una vista en la propia vista de contacto no.
+
+29
+00:03:11,690 --> 00:03:21,400
+Entonces vamos a utilizar la propiedad output arroba output para poder devolver un valor es decir yo
+
+30
+00:03:21,470 --> 00:03:27,340
+voy a querer devolver una propiedad y en el output voy a generar un nuevo evento vale voy a generar
+
+31
+00:03:27,340 --> 00:03:28,720
+un evento que se va a llamar
+
+32
+00:03:31,420 --> 00:03:31,940
+autor
+
+33
+00:03:35,470 --> 00:03:43,430
+o conseguir autor le vamos a poner al conseguir autor y va a ser un niño even emites hacer una instancia
+
+34
+00:03:43,430 --> 00:03:49,560
+de este objeto con este objeto yo puedo crear nuevos eventos vale sin ningún tipo de problema.
+
+35
+00:03:49,670 --> 00:03:53,420
+Ahora solo me quedaría lanzar este evento cuando me interese.
+
+36
+00:03:54,290 --> 00:04:00,710
+Entonces ahora tengo que crearme un método que lance ese evento un método para ese evento por ejemplo
+
+37
+00:04:01,010 --> 00:04:02,750
+podría ser el evento lanzar
+
+38
+00:04:05,990 --> 00:04:11,140
+que le pase el evento y entonces aquí podemos hacer dice punto
+
+39
+00:04:14,610 --> 00:04:18,480
+conseguir autor punto M.I.T.
+
+40
+00:04:18,480 --> 00:04:24,630
+Utilizamos el método Hemming para emitir un dato y aquí ya le pasamos el objeto directamente.
+
+41
+00:04:24,660 --> 00:04:31,490
+Vale podemos pasar un millón o directamente pasarle la propiedad Diz autor que ya llevo adentro un objeto
+
+42
+00:04:31,640 --> 00:04:35,010
+y esto va a ser lo que se va a recibir en el otro componente.
+
+43
+00:04:35,190 --> 00:04:39,360
+Vale entonces este evento cuando se va a lanzar esta función pues yo voy a tener aquí un botón
+
+44
+00:04:43,140 --> 00:04:48,000
+que sea conseguir autor por ejemplo
+
+45
+00:04:50,800 --> 00:04:52,200
+y que cuando yo le dé clic
+
+46
+00:04:55,080 --> 00:04:56,550
+se lance el método lanzar
+
+47
+00:05:02,640 --> 00:05:07,740
+para ello le paso el dólar event.
+
+48
+00:05:07,870 --> 00:05:17,030
+De esa manera si yo hago aquí un consolero de Event vamos a ver que eso se está lanzando vale.
+
+49
+00:05:17,880 --> 00:05:22,480
+Obviamente aquí algo tenemos un error vamos a revisar cual es
+
+50
+00:05:25,290 --> 00:05:32,230
+dice emite is no al constructor eso es porque claro nos hemos equivocado.
+
+51
+00:05:32,260 --> 00:05:37,390
+Realmente no se ven en Intercom 12 meses e vienen hitter con dos tes vale.
+
+52
+00:05:37,420 --> 00:05:42,890
+Así que vamos a ponerlo bien guardamos y volvemos a probar.
+
+53
+00:05:43,680 --> 00:05:53,200
+Ahora si vale y si le doy a conseguir autor pam me muestra lo que está pasando el evento le pasa el
+
+54
+00:05:53,210 --> 00:05:56,290
+evento etcétera.
+
+55
+00:05:56,540 --> 00:06:05,690
+Vale y ahora lo que tengo que hacer es utilizar el evento nuestro el evento conseguir autor en la directiva
+
+56
+00:06:05,780 --> 00:06:13,010
+o en la etiqueta de mi componente hijo que tenemos dentro del componente padre tranquillo utilizar conseguir
+
+57
+00:06:13,460 --> 00:06:24,130
+autor y de paso simplemente la llamada un método que yo tenga en mi en mi clase del componente vale
+
+58
+00:06:24,280 --> 00:06:29,820
+Greta autor le vamos a poner y le paso también el dólaresen para conseguir los datos.
+
+59
+00:06:30,660 --> 00:06:41,240
+Entonces voy a tener ese método aquí el autor el autor con el evento vale y si yo ahora consolé un blog
+
+60
+00:06:41,420 --> 00:06:46,970
+de El evento vamos a ver que tenemos y esa información
+
+61
+00:06:54,390 --> 00:06:55,530
+vamos a abrir la consola
+
+62
+00:07:02,240 --> 00:07:11,920
+si yo le doy click aquí me llega efectivamente el primer consolé log que se lanza aquí en este componente
+
+63
+00:07:11,920 --> 00:07:18,070
+es líder en el componente hijo se lanza el evento lanzar se hace el M.I.T y entonces en el componente
+
+64
+00:07:18,070 --> 00:07:24,480
+padre se le emite ese evento se lanza este evento conseguí autor que es el que estoy haciendo con el
+
+65
+00:07:24,480 --> 00:07:30,970
+joven emites y automáticamente se lanza este esta función o este método también que nos permite conseguir
+
+66
+00:07:30,970 --> 00:07:34,480
+los datos del evento y ya puedo hacer con ellos lo que yo quiera.
+
+67
+00:07:34,480 --> 00:07:42,850
+Vale entonces vamos a probarlo vamos a mostrar son datos en nuestro componente de contacto ya puedo
+
+68
+00:07:42,850 --> 00:07:44,110
+borrarlos console logs
+
+69
+00:07:49,800 --> 00:07:59,950
+y entonces aquí mismo podría yo mostrar los datos que yo tengo guardados en una propiedad va a ser una
+
+70
+00:07:59,950 --> 00:08:02,770
+propiedad pública y al autor
+
+71
+00:08:06,550 --> 00:08:15,330
+que va a ser un objeto de tipo n y aquí yo voy a guardar los datos del evento disputo autor es igual.
+
+72
+00:08:15,790 --> 00:08:25,330
+Ahí tengo yo la información y entonces la puedo mostrar por aquí Autor untó nombre
+
+73
+00:08:28,000 --> 00:08:30,540
+de concatenan también autor
+
+74
+00:08:35,710 --> 00:08:41,190
+junto un web Malet guardo actualizo la pantalla.
+
+75
+00:08:41,920 --> 00:08:50,910
+Vale y si yo Carboni el líder y le diera al botón de conseguir autor PAMM aquí el website.
+
+76
+00:08:50,930 --> 00:08:54,100
+Vale vamos a volver a repetir
+
+77
+00:08:59,220 --> 00:09:00,010
+vale.
+
+78
+00:09:00,180 --> 00:09:05,580
+Le doy al botón Pam y esto me lo está mostrando el componente padre no en el componente hijo entonces
+
+79
+00:09:05,580 --> 00:09:10,890
+ya le estamos pasando un valor del componente hijo al componente padre porque esos datos lo estamos
+
+80
+00:09:10,890 --> 00:09:17,400
+recogiendo contá componen que es el componente padre y ya podemos hacer con esos datos lo que nos dé
+
+81
+00:09:17,400 --> 00:09:18,150
+la real gana.
+
+82
+00:09:18,150 --> 00:09:24,990
+De hecho si yo borro esto presentar el Leider esta información sigue en mi otro componente.
+
+83
+00:09:24,990 --> 00:09:31,180
+Vale y esto lo último del componente padre y se lo estoy pasando del componente hijo es la idea cómo
+
+84
+00:09:31,680 --> 00:09:37,770
+definiendo un evento que se llama aconseguir autor definiendo un lanzador un evento lanzador también
+
+85
+00:09:37,920 --> 00:09:41,320
+un método lanzador que emita ese evento.
+
+86
+00:09:41,380 --> 00:09:47,760
+Vale este M.I.T yo lo podría hacer nada más carga de componentes vale en lugar de tener ese evento yo
+
+87
+00:09:47,760 --> 00:09:54,570
+podría copiar esto por aquí pegarlo en el online y lanzar el evento directamente
+
+88
+00:09:58,160 --> 00:09:58,840
+de esa manera.
+
+89
+00:09:58,850 --> 00:10:04,100
+Cuando yo actualice la página ya voy a tener esa información de golpe cuando yo carga el componente
+
+90
+00:10:04,100 --> 00:10:06,610
+nada más cargar.
+
+91
+00:10:06,920 --> 00:10:14,120
+Ya tengo esa información aquí vale y si no y si no cargará el componente con una condición sino que
+
+92
+00:10:14,120 --> 00:10:19,330
+directamente el componente me carga automáticamente.
+
+93
+00:10:19,410 --> 00:10:25,190
+Vale yo aquí abajo tengo esa información y la está imprimiendo el componente padre habiendo emitido
+
+94
+00:10:25,730 --> 00:10:32,500
+un evento haciendo un ayni de esa propiedad y cuando este evento se produce.
+
+95
+00:10:32,500 --> 00:10:32,940
+Vale.
+
+96
+00:10:32,990 --> 00:10:38,690
+Nosotros llamamos a un método que tengamos en nuestra clase padre le pasamos el evento que haya sucedido
+
+97
+00:10:38,750 --> 00:10:44,720
+y ahí dentro están todos los datos y ya tenemos nuestro dato enviado desde el componente hijo al padre.

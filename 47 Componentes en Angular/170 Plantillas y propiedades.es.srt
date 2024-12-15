@@ -1,0 +1,171 @@
+1
+00:00:01,290 --> 00:00:07,880
+Ahora bien hemos visto que hemos definido nuestra template en línea de acuerdo y que definimos todo
+
+2
+00:00:07,880 --> 00:00:13,270
+el HTML aquí pero a mi parecer lo más recomendable es separar esto.
+
+3
+00:00:13,290 --> 00:00:18,620
+Este trozo de la plantilla el trozo de HTML y llevándolo a una vista externa.
+
+4
+00:00:18,780 --> 00:00:23,820
+Para eso hemos creado el fichero vídeojuego junto con poner un punto HTML así que vamos a cortar este
+
+5
+00:00:23,820 --> 00:00:29,200
+trozo de código y me lo voy a llevar aquí vale.
+
+6
+00:00:29,370 --> 00:00:35,730
+A mi vista vídeojuego compone un punto HTML entonces cómo puedo cargar la hora voy a quitar mi propiedad
+
+7
+00:00:35,730 --> 00:00:40,600
+template y utilizar la propiedad template o R.L.
+
+8
+00:00:40,760 --> 00:00:44,060
+Ahora yo simplemente Indico donde tengo mi plantilla.
+
+9
+00:00:44,070 --> 00:00:51,770
+En este caso está en el directorio actual barra y el nombre del archivo es vídeojuego punto component
+
+10
+00:00:51,980 --> 00:00:53,190
+punto HTML.
+
+11
+00:00:53,190 --> 00:00:59,580
+De esta manera si yo guardo y actualizo mi pantalla vamos a ver que todo sigue exactamente igual de
+
+12
+00:00:59,580 --> 00:01:02,780
+acuerdo no hay ningún tipo de problema.
+
+13
+00:01:02,790 --> 00:01:08,640
+Otra cosa interesante que me gustaría enseñarte es el tema de las propiedades.
+
+14
+00:01:08,700 --> 00:01:17,250
+Vale yo puedo definir dentro de mi clase una serie de propiedades públicas vale públic título y le puedo
+
+15
+00:01:17,250 --> 00:01:18,510
+definir qué tipo de dato es.
+
+16
+00:01:18,510 --> 00:01:27,130
+En este caso un Extrem y le puedo definir también otra públic listado y voy a decir que esto es un estre
+
+17
+00:01:27,470 --> 00:01:28,030
+vale.
+
+18
+00:01:28,740 --> 00:01:35,220
+Entonces yo puedo pasar el valor que yo guarde en estas propiedades a mi vista.
+
+19
+00:01:35,550 --> 00:01:41,250
+Por ejemplo el título se lo puedo asignar aquí en el constructor lo más normal es asignarle un valor
+
+20
+00:01:41,250 --> 00:01:47,340
+a las propiedades dentro del constructor porque para eso está hecho entonces para darle un valor a la
+
+21
+00:01:47,340 --> 00:01:54,450
+propiedad a título hago disputo título y le doy un valor en este caso el título que le voy a poner que
+
+22
+00:01:54,820 --> 00:02:00,500
+es el componente de videojuegos un punto y coma.
+
+23
+00:02:00,670 --> 00:02:07,440
+Guardo yo ahora mismo modelizar la propiedad título en mi vista puedo interpolar con las doble llaves
+
+24
+00:02:08,730 --> 00:02:16,170
+Yahvéh llave llave llave y aquí Interpueblos mi variable decir Kojo la propiedad a título de mi modelo
+
+25
+00:02:16,170 --> 00:02:20,530
+de datos que en este caso en la clase del componente y la muestro aquí simplemente hago título.
+
+26
+00:02:20,790 --> 00:02:26,520
+Vale simplemente con esto con la doble llave imprimo el valor que tenga yo en mi propiedad a título
+
+27
+00:02:26,520 --> 00:02:31,610
+de mi componente de acuerdo eso se llama interpolación Mining por interpolación.
+
+28
+00:02:31,620 --> 00:02:37,320
+Muestro el valor de una propiedad en mi vista y yo guardo y actualizo la pantalla los componentes siguen
+
+29
+00:02:37,320 --> 00:02:41,330
+exactamente iguales.
+
+30
+00:02:42,780 --> 00:02:44,130
+Y lo mismo con el listado.
+
+31
+00:02:44,170 --> 00:02:56,200
+Si yo le doy un valor al listado disputo listado a dar un valor que va a ser listado de los juegos más
+
+32
+00:02:56,200 --> 00:02:57,000
+populares
+
+33
+00:02:59,920 --> 00:03:01,560
+vale y fierro con punto y coma.
+
+34
+00:03:01,590 --> 00:03:05,400
+Yo ahora mismo puedo coger esta propiedad quedarme aquí un párrafo
+
+35
+00:03:08,120 --> 00:03:14,960
+y simplemente interpolar con las dobles llaves y mostrar la propiedad o la variable listado.
+
+36
+00:03:15,170 --> 00:03:22,670
+Si lo hago de esta manera ahora en mi componente tengo mi variable mostrada por aquí de acuerdo el valor
+
+37
+00:03:22,670 --> 00:03:23,680
+de mi variable.
+
+38
+00:03:23,810 --> 00:03:30,990
+Voy a imprimir solamente un componente para verlo más claro vale.
+
+39
+00:03:31,010 --> 00:03:36,800
+Aquí aparece el componente de videojuegos que es una variable o una propiedad que tengo yo en mi clase
+
+40
+00:03:36,800 --> 00:03:41,810
+de mi componente esto también lo tengo en mi LCD el componente y esto lo tengo fijo en la vista.
+
+41
+00:03:41,810 --> 00:03:49,340
+Por el momento con lo cual ya hemos visto un par de cosas interesantes como separar la plantilla a un
+
+42
+00:03:49,340 --> 00:03:55,410
+archivo externo y cómo utilizar las propiedades de las clases de los componentes para utilizar el binding
+
+43
+00:03:55,550 --> 00:03:59,120
+interpolación y mostrar esos datos en nuestras plantillas.

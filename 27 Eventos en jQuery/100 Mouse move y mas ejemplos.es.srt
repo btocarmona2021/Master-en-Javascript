@@ -1,0 +1,371 @@
+1
+00:00:00,750 --> 00:00:05,260
+Otro evento que tenemos también para el ratón son el in-house Down y el mouse.
+
+2
+00:00:05,520 --> 00:00:11,370
+Estos dos eventos nos permiten capturar el evento de cuando opresion con la tecla del ratón y cuando
+
+3
+00:00:11,370 --> 00:00:12,290
+la suelto.
+
+4
+00:00:12,330 --> 00:00:19,190
+De acuerdo vamos a ver el Mox Down y el mouse.
+
+5
+00:00:19,510 --> 00:00:31,430
+A estos dos métodos vale muy muy simple vamos a aplicar este método sobre sobre sobre esta caja de datos.
+
+6
+00:00:31,430 --> 00:00:33,410
+Vale para variar un poco.
+
+7
+00:00:33,450 --> 00:00:39,720
+Si voy a quedarme la variable datos por aquí para no tener que llamar o seleccionar el elemento cada
+
+8
+00:00:39,720 --> 00:00:46,140
+vez que quiera interactuar con él datos y vamos a actuar sobre este elemento
+
+9
+00:00:48,750 --> 00:00:56,220
+voy a cambiar aquí esto es la variable vale actualizo la pantalla todo sigue igual.
+
+10
+00:00:56,220 --> 00:01:04,710
+Perfecto entonces tenemos la variable datos en la cual hemos seleccionado este elemento de aquí y vamos
+
+11
+00:01:04,710 --> 00:01:06,060
+a utilizar el evento
+
+12
+00:01:09,200 --> 00:01:16,530
+Mox down para justamente cuando estemos presionando el ratón ejecutamos una función de Calvache.
+
+13
+00:01:16,940 --> 00:01:22,190
+Vale por ejemplo lo que podríamos hacer es cambiar el color del border.
+
+14
+00:01:22,190 --> 00:01:27,770
+Vale podríamos hacer días para seleccionar el propio elemento al cual al cual le estamos aplicando el
+
+15
+00:01:27,770 --> 00:01:40,090
+evento C.S. ser borde el color y se lo podríamos cambiarã verde por ejemplo o a gris incluso gris.
+
+16
+00:01:40,250 --> 00:01:44,280
+Vale si lo probamos se actualizó la pantalla.
+
+17
+00:01:44,570 --> 00:01:50,570
+Si yo hago click cuando presiono fíjate lo que está pasando me lo pone gris cuando suelto no pasa nada
+
+18
+00:01:50,600 --> 00:01:55,480
+porque cuando suelte yo tendría que ejecutar el evento mouses a Massa.
+
+19
+00:01:55,550 --> 00:01:58,270
+Vale lo mismo exactamente lo mismo.
+
+20
+00:01:58,310 --> 00:02:10,250
+Simplemente que se llama Max Aub guasap y puedo cambiar de color a Black de nuevo o a otro color que
+
+21
+00:02:10,250 --> 00:02:11,090
+yo quisiera.
+
+22
+00:02:11,170 --> 00:02:14,970
+Si lo vamos a poner Blanca negro vale.
+
+23
+00:02:15,260 --> 00:02:21,320
+Cuando yo presiono me lo pone en gris cuando levanto me lo pone negro.
+
+24
+00:02:21,360 --> 00:02:29,270
+Si presiono me lo pone en gris y si levanto me lo pone en negro pues en todo evento es lo que quería
+
+25
+00:02:29,270 --> 00:02:30,030
+enseñarte.
+
+26
+00:02:30,050 --> 00:02:37,220
+En este caso y aparte de estos eventos hay otro evento muy interesante que es el mouse.
+
+27
+00:02:37,290 --> 00:02:45,530
+Muy de acuerdo y Máximus lo que hace es perseguir al ratón por decirlo de alguna manera muchismo y lo
+
+28
+00:02:45,530 --> 00:02:51,560
+que hace básicamente es capturar el evento de movimiento del ratón de forma que si yo sí capturó el
+
+29
+00:02:51,560 --> 00:03:01,820
+documento por ejemplo documenten que todo el HTML documento si yo selecciono eso y captura el evento
+
+30
+00:03:01,880 --> 00:03:08,080
+mouse Mob mouse Move ejecuto una función de carga cuando este evento se ejecute.
+
+31
+00:03:08,100 --> 00:03:14,180
+Yo podría capturar mis coordenadas de acuerdo podría hacer console logs mostrando las coordenadas que
+
+32
+00:03:14,180 --> 00:03:20,290
+yo quisiera osea las coordenadas de las coordenadas que están sucediendo ahora con solo Autolog podía
+
+33
+00:03:20,300 --> 00:03:29,560
+capturar event punto cliente X vale y cliente y esa moneda capturó las coordenadas por las cuales están
+
+34
+00:03:29,560 --> 00:03:38,720
+pasando el ratón el curso de ratón se actualizo la pantalla ahora y yo muevo fíjate lo que está pasando
+
+35
+00:03:39,320 --> 00:03:48,560
+me dicen que coordenadas estoy ahora mismo o que podría poner aquí en x
+
+36
+00:03:51,790 --> 00:03:52,920
+vale y Kieny
+
+37
+00:03:59,650 --> 00:04:02,680
+vale se actualizo la pantalla.
+
+38
+00:04:02,680 --> 00:04:09,640
+Fíjate que me dice donde está donde está ahora mismo el ratón las coordenadas digamos no los pixeles
+
+39
+00:04:09,640 --> 00:04:19,600
+en X y en y si yo me pongo en este punto de aquí tenemos la altura y la anchura más o menos 1364 efectivamente
+
+40
+00:04:19,750 --> 00:04:24,560
+entonces esta moneda yo podría hacer que un DIV o algo siguiera el ratón balet.
+
+41
+00:04:24,640 --> 00:04:27,220
+Yo podría hacer eso sin ningún tipo de problema.
+
+42
+00:04:27,340 --> 00:04:29,890
+Yo podría hacer podría tener un Dib
+
+43
+00:04:33,340 --> 00:04:35,320
+me a crear un por aquí
+
+44
+00:04:39,030 --> 00:04:53,100
+DIV con una idea Sígueme se va a llamar el DIV y simplemente va a ser le vamos a poner unos estilo Sígueme
+
+45
+00:04:53,650 --> 00:05:06,370
+le vamos a poner un juicio de 25 píxeles un Jaitt de 25 píxeles una posición absoluta para poder mover
+
+46
+00:05:06,370 --> 00:05:12,290
+el elemento libremente sin que interfiera entre ningún otro de los elementos de la web.
+
+47
+00:05:12,460 --> 00:05:16,660
+Le voy a poner un display Blok aunque esto ya lo tiene.
+
+48
+00:05:16,660 --> 00:05:25,510
+Voy a poner un background y hielo le voy a poner una transparencia a decir uno parity del 0.5 y le voy
+
+49
+00:05:25,510 --> 00:05:35,380
+a poner un border radius de 999 para que sea un circulo por decirlo de alguna manera se optimiza la
+
+50
+00:05:35,380 --> 00:05:36,400
+pantalla.
+
+51
+00:05:36,400 --> 00:05:40,240
+Aquí me aparece lo que pasa es que no me lo pone como si fuera un círculo
+
+52
+00:05:42,970 --> 00:05:47,690
+porque indican los pixeles 999 pixeles para que sea un círculo.
+
+53
+00:05:47,780 --> 00:05:49,200
+Tengo yo el círculo.
+
+54
+00:05:49,210 --> 00:05:55,780
+Bale está en una posición absoluta por lo tanto está donde donde caiga de acuerdo donde lo hemos creado
+
+55
+00:05:55,790 --> 00:06:01,780
+esto se puede superponer encima de cualquier otro elemento incluso llegó a bajar la opacidad un cero
+
+56
+00:06:01,780 --> 00:06:09,070
+coma tres vale lo que voy a hacer es que este elemento se mueva acorde a donde yo vaya con el ratón
+
+57
+00:06:09,520 --> 00:06:20,050
+Bale algo interesante estoy yo cuando captura el evento Mush Move lo que voy a hacer es a ese Dib que
+
+58
+00:06:20,050 --> 00:06:32,140
+se llama Sígueme almohadilla Sígueme lo selecciono Bale y debe indicar en el CSS vindicar la propiedad
+
+59
+00:06:32,240 --> 00:06:35,530
+LED ya que le voy a pasar las coordenadas de X.
+
+60
+00:06:35,590 --> 00:06:39,810
+Copiar esto ok.
+
+61
+00:06:39,850 --> 00:06:48,410
+Entonces ya cuando yo ejecute este evento fijate que está pasando la bola me persigue osea persigue
+
+62
+00:06:48,410 --> 00:06:57,230
+por donde va el ratón realmente y te das cuenta podemos aumentarle los colores y vamos a poner un border
+
+63
+00:07:01,250 --> 00:07:09,830
+de un PX Solid Black incluso de 3 píxeles le vamos a poner de esta manera.
+
+64
+00:07:09,830 --> 00:07:11,850
+Ahora mismo la bola me persigue.
+
+65
+00:07:11,930 --> 00:07:20,510
+Ok fíjate como me persigue Bale porque el eje X en Leff le he puesto las coordenadas actuales las coordenadas
+
+66
+00:07:20,510 --> 00:07:23,580
+de X que son en horizontal.
+
+67
+00:07:23,660 --> 00:07:31,970
+Ahora voy a utilizar también esto para poner las coordenadas en el top de acuerdo.
+
+68
+00:07:31,970 --> 00:07:35,150
+Digamos que eso va a modificar el eje Y me acuerdo.
+
+69
+00:07:35,170 --> 00:07:41,450
+Es decir en vertical de esta manera si yo quito esto ahora mismo esto me va a funcionar sin ningún tipo
+
+70
+00:07:41,450 --> 00:07:50,450
+de problema para optimizar el código yo crearía una variable Sígueme y aquí yo Rementería pues la selección
+
+71
+00:07:50,450 --> 00:08:00,980
+del elemento Sígueme y la reutilizó haría para no sobrecargar el DOM ya sea estos son detalles que realmente
+
+72
+00:08:00,980 --> 00:08:04,820
+no son 100 por cien necesarios pero optimizamos el código si lo hacemos de esta manera.
+
+73
+00:08:04,820 --> 00:08:10,850
+De igual forma podríamos utilizar simplemente el selector o incluso de una de una tacada.
+
+74
+00:08:10,850 --> 00:08:16,210
+Hacer esto sin volver a llamar otra vez a la variable.
+
+75
+00:08:16,340 --> 00:08:21,830
+Podríamos hacer esto directamente y ni siquiera tendríamos que guardar ni la variable simplemente haciendo
+
+76
+00:08:21,830 --> 00:08:25,480
+esto pues también estaría correcto.
+
+77
+00:08:25,480 --> 00:08:34,220
+Vale bien entonces vamos a ver si funciona a través de la pantalla y fíjate qué pasa.
+
+78
+00:08:34,220 --> 00:08:41,660
+Me está siguiendo ahora mismo ese elemento que yo que acabo de Crear Vale sigue a mi ratón sin ningún
+
+79
+00:08:41,660 --> 00:08:42,340
+tipo de problema.
+
+80
+00:08:42,380 --> 00:08:47,360
+Allá donde vaya el ratón en la web va siguiéndolo el elemento.
+
+81
+00:08:47,360 --> 00:08:54,110
+Esto es algo super común para que se para crear el juego para lo que sea valido para que algo te siga
+
+82
+00:08:54,110 --> 00:09:00,140
+en la página no sea simplemente una cosa curiosa que podemos ver que funciona.
+
+83
+00:09:00,200 --> 00:09:02,970
+Incluso podría ocultar el cursor del ratón.
+
+84
+00:09:02,980 --> 00:09:16,130
+Vale podría hacer eso pues simplemente haciendo dis punto CSS y ocultando el cursor cursor no le vale.
+
+85
+00:09:16,220 --> 00:09:22,950
+Y ahora pues mi nuevo cursor en la bola bueno realmente
+
+86
+00:09:26,460 --> 00:09:30,600
+aquí deberías seleccionar el body antes que el documento.
+
+87
+00:09:30,730 --> 00:09:32,860
+Vale si selección el body.
+
+88
+00:09:33,190 --> 00:09:37,410
+Ahora sí fíjate que mi cursor ahora es la bola y donde yo me coloque.
+
+89
+00:09:37,440 --> 00:09:40,150
+Pues ahí está el cursor.
+
+90
+00:09:40,170 --> 00:09:43,210
+Vale de mi curso la bola.
+
+91
+00:09:43,210 --> 00:09:48,330
+Ahora en lugar de el propio cursor cómo lo hemos hecho utilizando el mouse.
+
+92
+00:09:48,420 --> 00:09:53,920
+Muy de acuerdo a este evento y capturando sus coordenadas que fácilmente nos da los píxeles en los cuales
+
+93
+00:09:53,920 --> 00:09:59,580
+se encuentra el ratón así que así que espero que te haya gustado y nos vemos en la siguiente clase.

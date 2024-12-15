@@ -1,0 +1,211 @@
+1
+00:00:00,660 --> 00:00:05,490
+Ahora vamos a hacer otro ejercicio bastante interesante uniendo gran parte de las cosas que hemos aprendido
+
+2
+00:00:06,030 --> 00:00:19,800
+vamos a crear un nuevo archivo de JavaScript control s se va a llamar 17 ejercicio 7 puntos JS vamos
+
+3
+00:00:19,800 --> 00:00:22,130
+a indicarle el uso Street.
+
+4
+00:00:23,250 --> 00:00:26,490
+Y lo vamos a incrustar en nuestro HTML.
+
+5
+00:00:26,490 --> 00:00:31,820
+Vamos a incluir para que funcione este archivo en la página
+
+6
+00:00:34,710 --> 00:00:39,570
+lo que vamos a hacer simplemente es la tabla de multiplicar de un número introducido por pantalla ver
+
+7
+00:00:39,990 --> 00:00:50,970
+tabla de multiplicar de un número introducido por pantalla.
+
+8
+00:00:50,970 --> 00:00:54,940
+Esto es muy sencillo si lo piensa y te pone a hacerlo bien.
+
+9
+00:00:55,200 --> 00:01:00,990
+Primero tenemos que capturar el número de acuerdo vamos a crear una variable número y vamos a hacer
+
+10
+00:01:00,990 --> 00:01:02,510
+un par Saint.
+
+11
+00:01:02,590 --> 00:01:10,620
+Del resultado que nos devuelve el prompt del prompt nos va a preguntar de qué número quieres la tabla
+
+12
+00:01:11,700 --> 00:01:22,230
+de qué número quieres la tabla y por defecto te vamos a poner que la tabla del 1 el número por defecto
+
+13
+00:01:22,230 --> 00:01:23,070
+que va a llevar el prom.
+
+14
+00:01:23,070 --> 00:01:29,580
+Si no metemos nada vale entonces ahora cómo hago para multiplicar el número que he introducido por todos
+
+15
+00:01:29,580 --> 00:01:31,870
+un número del 1 al 10.
+
+16
+00:01:31,900 --> 00:01:41,160
+Me acuerdo pues para eso tengo que usar un foro tengo que usar un foro y el Foro tiene tres partes la
+
+17
+00:01:41,160 --> 00:01:52,050
+variable o el contador inicial que sería A1 inicializar en este caso mientras que I sea menor o igual
+
+18
+00:01:52,110 --> 00:01:59,280
+a 10 que el bucle sigue reiterando y vamos incrementando el valor de ahí de esa manera yo puedo hacer
+
+19
+00:01:59,730 --> 00:02:06,670
+un documento un top right para mostrarlo en el body la de la página web lo que viene siendo en la web
+
+20
+00:02:06,710 --> 00:02:13,650
+no en un consuelo ni en una alerta vamos a mostrarlo directamente en la web pues podría hacer un documento
+
+21
+00:02:13,650 --> 00:02:23,970
+right diciendo diciendo pues y con caté no le pongo una X
+
+22
+00:02:26,920 --> 00:02:36,130
+le concatena el número es decir por ejemplo 2 por 5 yo no le concatena el igual
+
+23
+00:02:39,470 --> 00:02:50,990
+2 por 5 es Iguala y le concatena el resultado de la multiplicación de y por número Valencia con puntico
+
+24
+00:02:51,260 --> 00:02:52,230
+y ya lo tendría.
+
+25
+00:02:52,240 --> 00:02:55,850
+Simplemente con esto simplemente con este código yo ya tengo.
+
+26
+00:02:55,990 --> 00:03:00,790
+Yo tengo la tabla de multiplicar del número que yo quiera hecha de acuerdo si actualizo la pantalla
+
+27
+00:03:01,150 --> 00:03:04,300
+me pide la tabla de multiplicar de qué número del 4.
+
+28
+00:03:04,510 --> 00:03:10,630
+Efectivamente aquí me la saca bien vamos a formatear esto para que se vea un poco mejor y visiblemente
+
+29
+00:03:10,780 --> 00:03:17,860
+mejor para eso yo le concatenación BR para que haga un salto de linea de HTML y de esta manera se actualice
+
+30
+00:03:17,860 --> 00:03:19,850
+la pantalla.
+
+31
+00:03:19,870 --> 00:03:26,110
+La tabla del 3 pues me parece formateados mucho mejor voy a reducir un poco y me parece mucho mejor
+
+32
+00:03:26,110 --> 00:03:35,650
+formateado incluso si le pongo como Right poniendole como un encabezado como el punto Gurlitt le voy
+
+33
+00:03:35,650 --> 00:03:49,390
+a poner un H1 H1 y le voy a poner tabla del y le concatenado el número que yo quiera.
+
+34
+00:03:49,550 --> 00:03:54,730
+Número el número que yo haya introducido entonces se actualiza la pantalla.
+
+35
+00:03:54,820 --> 00:04:03,250
+Efectivamente la tabla del 3 es ésta vale y está correcta y si yo quisiera hacer la tabla de todos los
+
+36
+00:04:03,250 --> 00:04:10,630
+números realmente en lugar de solamente de un número pues yo podría hacer lo siguiente Todas las tablas
+
+37
+00:04:11,560 --> 00:04:12,660
+de multiplicar.
+
+38
+00:04:12,940 --> 00:04:19,390
+Si quisiera todas las tablas de multiplicar simplemente voy a copiar este trozo de código y simplemente
+
+39
+00:04:19,390 --> 00:04:22,090
+tendría que hacer un fork por encima de éste.
+
+40
+00:04:22,160 --> 00:04:25,690
+Vale anidar en este trozo de código animarlo y aquí hacer un fork
+
+41
+00:04:31,060 --> 00:04:31,720
+que fuera
+
+42
+00:04:35,140 --> 00:04:45,370
+del 1 al 10 de aquí que fuera y te mando y le vamos a poner otro nombre se le vamos a poner.
+
+43
+00:04:45,370 --> 00:04:54,160
+C y C ya que voy a utilizar C ya que voy a utilizar C ya que mi utilizar C de esta manera Yo estoy recorriendo
+
+44
+00:04:54,520 --> 00:05:00,930
+todas las tablas del uno al diez y luego estoy volviendo a recorrer todo del 1 al 10 y entonces voy
+
+45
+00:05:01,120 --> 00:05:08,680
+utilizando el número de la tabla que yo quiero actualmente con el número del contador de esa multiplicación
+
+46
+00:05:08,680 --> 00:05:09,370
+concreta.
+
+47
+00:05:09,410 --> 00:05:10,540
+Si actualizo la pantalla
+
+48
+00:05:13,680 --> 00:05:19,260
+la tabla del 1 en la tabla el 2 la del 3 la del 4 5 la del silencio tira de 8 9 y la del 10 hasta la
+
+49
+00:05:19,260 --> 00:05:20,130
+que yo quiera.
+
+50
+00:05:20,220 --> 00:05:29,910
+Si yo pusiera aquí quiero la tabla la tabla del 15 pues evidentemente me aparece hasta la tabla del
+
+51
+00:05:29,910 --> 00:05:36,210
+15 vale así que ya hemos visto como hacer las tablas de multiplicar y como seleccionar una tabla de
+
+52
+00:05:36,210 --> 00:05:37,620
+multiplicar única.
+
+53
+00:05:37,980 --> 00:05:40,560
+Cuando yo introduzco un número por el prompt.

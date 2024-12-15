@@ -1,0 +1,123 @@
+1
+00:00:00,600 --> 00:00:06,510
+A partir de ahora vamos a estar creando un backend o una Pierres una Pierres es un servicio o un programa
+
+2
+00:00:06,510 --> 00:00:13,890
+que está en el Bakken que nos permite recibir peticiones HTTP ya sea por JEET por post por put@ o por
+
+3
+00:00:13,890 --> 00:00:22,020
+Blyth de acuerdo por los diferentes métodos que acepta el protocolo HTTP y interactuar con una base
+
+4
+00:00:22,020 --> 00:00:25,230
+de datos y devolvernos un resultado en formato Jagellón.
+
+5
+00:00:25,230 --> 00:00:33,680
+Eso es una Pierres así que vamos a estar creando eso y vamos a crear un proyecto con DJs Okkhoy entonces
+
+6
+00:00:33,690 --> 00:00:41,070
+para hacer esto vamos a abrir nuestra consola de comando ya sea un CMD o si tienes el C Icewind lo puedes
+
+7
+00:00:41,070 --> 00:00:42,010
+utilizar también.
+
+8
+00:00:42,270 --> 00:00:45,280
+Entonces vamos a ir a la carpeta de nuestro proyecto vale
+
+9
+00:00:50,970 --> 00:00:57,810
+entramos aquí y entonces vamos a lanzar el comando MPM init este comando lo que hace es iniciarme un
+
+10
+00:00:57,810 --> 00:01:05,170
+proyecto de DJs y crear el fichero package punto Jayson donde hoy va la configuración del proyecto van
+
+11
+00:01:05,190 --> 00:01:08,740
+las dependencias que se instalan en el proyecto etcétera.
+
+12
+00:01:09,070 --> 00:01:12,390
+Así que MPM para crear el proyecto de nube
+
+13
+00:01:15,360 --> 00:01:19,060
+esperamos un segundito que acabe de ejecutarse.
+
+14
+00:01:19,140 --> 00:01:25,590
+Me pregunta qué nombre va a tener el paquete en este caso pone Bakken pero nosotros le vamos a poner
+
+15
+00:01:25,980 --> 00:01:33,030
+API REST no DJs vale qué versión 1 vale.
+
+16
+00:01:33,160 --> 00:01:40,310
+Qué descripción pues API REST del máster de JavaScript
+
+17
+00:01:44,210 --> 00:01:44,860
+Trip.
+
+18
+00:01:44,920 --> 00:01:47,390
+Cuál va a ser el punto de inicio del programa.
+
+19
+00:01:47,470 --> 00:01:52,640
+No quiero que sea calculadora JS Porque eso no va a ser el punto de inicio el programa el punto de inicio
+
+20
+00:01:52,640 --> 00:02:01,630
+del programa del API va a ser el índex p.ej. ese que crearemos más adelante le damos Enter the escomo
+
+21
+00:02:01,680 --> 00:02:02,120
+nada.
+
+22
+00:02:02,140 --> 00:02:05,690
+Le damos gente repositorio nada que iVoox nada autor.
+
+23
+00:02:05,800 --> 00:02:15,430
+Puedes poner tu nombre licencia MIT y le damos a OK y así que le decimos Yes vale.
+
+24
+00:02:15,450 --> 00:02:23,070
+En este momento se acaba de crear nuestro nuestro pacá es punto y eso como puedes ver aquí se ha creado
+
+25
+00:02:23,100 --> 00:02:28,530
+nuestro punto eso con el nombre del paquete laversión todo de acuerdo todo lo necesario.
+
+26
+00:02:28,560 --> 00:02:34,650
+La consola de comandos me ha generado este archivo y ya tenemos nuestro proyecto de DJs creado en la
+
+27
+00:02:34,650 --> 00:02:40,220
+siguiente clase lo que vamos a hacer va a ser añadir la dependencia al proyecto las dependencias necesarias
+
+28
+00:02:40,220 --> 00:02:48,030
+para que para que funcione el proyecto porque no DJs en sí como tal es una plataforma pero para que
+
+29
+00:02:48,030 --> 00:02:55,470
+funcione como si fuera un Fring Worthy o quitarle dependencia y librerías como expres como Bodhi parser
+
+30
+00:02:55,530 --> 00:03:01,710
+y como otras tantas librerías que vamos a estar instalando para poder utilizar DJs como Freiburg y poder
+
+31
+00:03:01,710 --> 00:03:05,810
+conectarnos a un 9 también y hacer bastantes cositas que vamos a estar viendo.

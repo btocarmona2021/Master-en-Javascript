@@ -1,0 +1,75 @@
+1
+00:00:00,570 --> 00:00:07,410
+Antes hemos visto la pseudo clase hover de CSS que era superinteresante porque funcionaba de manera
+
+2
+00:00:07,410 --> 00:00:14,340
+automática y funcionaba muy bien y sin necesidad de tener código JavaScript aunque con JavaScript podemos
+
+3
+00:00:14,340 --> 00:00:20,630
+hacer cosas y disparar cosa mucho más potente más allá de un cambio simplemente estético.
+
+4
+00:00:20,790 --> 00:00:27,570
+Pero dentro de Intel tenemos un método un evento llamado hover y el Hover sirve para hacer exactamente
+
+5
+00:00:27,570 --> 00:00:33,980
+lo mismo que nosotros hemos hecho aquí pero de una manera más podríamos decir efectiva o más sencilla
+
+6
+00:00:34,380 --> 00:00:40,430
+sin tener tanto código simplemente en una misma función.
+
+7
+00:00:40,440 --> 00:00:47,700
+Si yo le aplicó al Caja el evento o ver el evento o ver tiene dos funciones puedo meterle dos funciones
+
+8
+00:00:47,700 --> 00:00:57,810
+de Calvache vale en lugar de tener este trozo de código aquí vamos a comentarlo vamos a comentarlo y
+
+9
+00:00:57,990 --> 00:01:02,090
+vamos a coger estas dos funciones de calvos que tenemos aquí las vamos a copiar
+
+10
+00:01:06,060 --> 00:01:15,700
+voy a copiar y en lugar de ser funciones anónimas les voy a poner un nombre vale les voy a poner un
+
+11
+00:01:15,700 --> 00:01:16,780
+nombre en este caso
+
+12
+00:01:19,590 --> 00:01:25,620
+cambia rojo y ahora la función cambia verde.
+
+13
+00:01:26,450 --> 00:01:32,460
+Entonces el método hover las voy a utilizar cambia de rojo y cambia a verde.
+
+14
+00:01:34,830 --> 00:01:41,940
+Cuando pasemos por encima con el ratón pasamos por encima de caja se va a ejecutar cambia rojo y cuando
+
+15
+00:01:41,940 --> 00:01:49,170
+salgamos de la caja se va a ejecutar cambia verde guardamos actualizamos la pantalla si pasamos por
+
+16
+00:01:49,170 --> 00:01:56,970
+encima fíjate lo que está pasando y el que actúa de la misma manera que cuando estaba utilizando los
+
+17
+00:01:56,970 --> 00:01:59,640
+otros dos eventos el mouse y el mouse.
+
+18
+00:01:59,730 --> 00:02:06,480
+Así que de esta manera con el software podemos simular lo mismo que hemos hecho con los otros dos eventos
+
+19
+00:02:06,480 --> 00:02:08,220
+de una manera más sencilla y más rápida.

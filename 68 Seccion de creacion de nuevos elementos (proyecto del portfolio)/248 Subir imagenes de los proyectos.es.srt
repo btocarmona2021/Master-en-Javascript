@@ -1,0 +1,531 @@
+1
+00:00:00,570 --> 00:00:06,480
+Ahora vamos a hacer la subida de archivos para esto no vamos a crear un nuevo servicio en angular para
+
+2
+00:00:06,480 --> 00:00:12,590
+hacer un método que nos pueda subir archivos de acuerdo como es como es una tarea muy específica pues
+
+3
+00:00:12,600 --> 00:00:18,450
+nos vamos a crear un servicio aparte entonces en la carpeta de serie Vice Media crear un nuevo archivo
+
+4
+00:00:18,480 --> 00:00:26,470
+que se va a llamar Hublot puntos el vice Punto de Acuerdo Global servis.
+
+5
+00:00:27,090 --> 00:00:33,960
+Entonces qué voy a hacer voy a importar el inyectable importã inyectable
+
+6
+00:00:37,080 --> 00:00:45,240
+from arrobado angular barra Core Puntí como también voy a importar el Global
+
+7
+00:00:49,160 --> 00:00:54,050
+tengo la configuración de mi regaladera etcétera.
+
+8
+00:00:54,320 --> 00:01:03,500
+From Tobarra porque está en el directorio actual global pero con Punto y Coma utiliza un decorado inyectable
+
+9
+00:01:03,500 --> 00:01:10,820
+para definir mi servicio que tenga inyección de dependencia Italia agua lesport Clas publo servis
+
+10
+00:01:13,740 --> 00:01:16,730
+y aquí dentro voy a definir varias cosas.
+
+11
+00:01:16,990 --> 00:01:24,790
+Voy a poner públic o R.L dos puntos string para definir mi propiedad de la web de la API.
+
+12
+00:01:24,840 --> 00:01:34,240
+El constructor le asigna un valor porque es una buena práctica disputo o R.L es igual a Global punto
+
+13
+00:01:34,240 --> 00:01:45,250
+o RL Y ahora voy a crear un nuevo método que se va a llamar MEIC Feil recuesto y este método me va a
+
+14
+00:01:45,250 --> 00:01:52,510
+permitir hacer una petición Ayax clásica de acuerdo pero en la cual vamos a juntar un archivo para subir
+
+15
+00:01:52,510 --> 00:01:52,950
+de acuerdo.
+
+16
+00:01:52,970 --> 00:01:54,530
+Entonces cómo lo vamos a hacer.
+
+17
+00:01:54,530 --> 00:01:58,740
+Pues simplemente le vamos a definir varios parámetros este método para luego pasarselo.
+
+18
+00:01:58,780 --> 00:02:05,530
+Uno podría ser la web R.L a la cual voy a hacer la petición Ayax otra.
+
+19
+00:02:05,530 --> 00:02:13,390
+Los parámetros de acuerdo posibles parámetros que puede estar enviando un array de tipo string
+
+20
+00:02:16,570 --> 00:02:25,060
+otra va a ser una red de archivos fails que va hacia una raíz de tipo Feil porque el fin ya viene por
+
+21
+00:02:25,060 --> 00:02:33,250
+defecto en gran angular digital y luego el Nein me acuerdo el nombre del archivo o el nombre del parámetro
+
+22
+00:02:33,250 --> 00:02:37,240
+que va a recibir el Baque en este caso también será un tipo de dato extremo.
+
+23
+00:02:38,750 --> 00:02:44,420
+Y ahora voy a hacer lo siguiente Return y voy a crear una promesa ni un.
+
+24
+00:02:46,210 --> 00:02:47,920
+Y como saben las promesas tienen
+
+25
+00:02:51,370 --> 00:02:52,450
+una función de Calvache
+
+26
+00:02:56,660 --> 00:03:03,230
+y tienen el Resolve y el rey ok.
+
+27
+00:03:03,990 --> 00:03:10,170
+Cuando está en resuelves que la plomizos se ha resuelto y si no llega Rayet que no se ha resuelto y
+
+28
+00:03:10,170 --> 00:03:17,790
+tenemos un problema entonces aquí dentro lo que vamos a hacer va a ser definir la petición Ayax para
+
+29
+00:03:17,790 --> 00:03:18,770
+subir archivo.
+
+30
+00:03:18,780 --> 00:03:24,720
+Para eso necesitamos simular un formulario clásico así que vamos a crear una variable llamada form data
+
+31
+00:03:25,960 --> 00:03:28,880
+y aquí vamos a hacer New Fondation.
+
+32
+00:03:29,100 --> 00:03:36,330
+Vale que este objeto nos va a permitir crear como una especie de formulario en un objeto y esta variable
+
+33
+00:03:36,330 --> 00:03:39,510
+va a ser de tipo n para no tener ningún tipo de problema.
+
+34
+00:03:39,690 --> 00:03:50,730
+Luego voy a crear otra variable x HR-V que X HR es un sinónimo de Ayax vale y va a contener un objeto
+
+35
+00:03:50,850 --> 00:04:00,660
+XML HTTP reco es que esto es el típico objeto de peticiones asíncronas que aunque siempre ha habido
+
+36
+00:04:00,660 --> 00:04:06,080
+en JavaScript ya lo voy a hacer un fork para recorrer el raid de archivos que me puede estar llegando.
+
+37
+00:04:06,080 --> 00:04:15,690
+Vale entonces Bahr y es igual a cero dos puntos mientras que sea menor o igual a filles punto Lent
+
+38
+00:04:18,450 --> 00:04:24,360
+mientras que sea menor a la longitud de todos los archivos que me llegan y más más que sigue liderando
+
+39
+00:04:24,400 --> 00:04:30,510
+y en este caso a Fondation le voy a juntar le voy a hacer una Pen del archivo que yo quiera o del campo
+
+40
+00:04:30,510 --> 00:04:32,960
+que yo quiera en este caso el Nain.
+
+41
+00:04:33,000 --> 00:04:43,550
+Vale que yo le diga y mientras que va recorriendo los ficheros que me vaya juntando en su fichero la
+
+42
+00:04:43,560 --> 00:04:48,000
+petición vale.
+
+43
+00:04:48,210 --> 00:04:56,940
+Esto significa recorrerme todos los ficheros que vayan llegando y adjuntamos el formulario con el nombre
+
+44
+00:04:57,060 --> 00:05:04,880
+que me lleva por aquí y luego ve añadiendo ese archivo y recoge su nombre también vale.
+
+45
+00:05:04,980 --> 00:05:17,150
+Simplemente adjuntamos esos archivos y ahora vamos a hacer la petición Ayax x x H.R punto on Redi estáte
+
+46
+00:05:17,160 --> 00:05:18,990
+change.
+
+47
+00:05:19,560 --> 00:05:28,350
+Cuando hay algún cambio pues vamos a tener una función anónima por aquí vamos a comprobar si la petición
+
+48
+00:05:28,350 --> 00:05:34,530
+Ayax X HD Ready State
+
+49
+00:05:39,050 --> 00:05:45,710
+es igual a igual a cuadro esto simplemente son valores que funcionan así y hasta en el caso que sea
+
+50
+00:05:45,710 --> 00:05:52,080
+igual a igual a 4 entonces podemos pasar hacia otra condición y comprobar el estatus X punto de status.
+
+51
+00:05:52,130 --> 00:06:01,100
+Si me devuelven la petición haya 200 entonces hacemos el Resolve ejecutamos el resolverã de la promesa
+
+52
+00:06:01,100 --> 00:06:07,780
+y hace muñeira un punto Parse de la respuesta que me devuelve el servicio X H.R response.
+
+53
+00:06:07,910 --> 00:06:10,560
+Cierro con punto y coma luego en el s.
+
+54
+00:06:10,610 --> 00:06:18,650
+En el caso de que esto no suceda de esta manera el Rayet y le paso con un parámetro la responsivo X
+
+55
+00:06:18,790 --> 00:06:27,770
+H.B Response y por último ya hago la petición por posi X H.R punto Open para hacer la medición Ayax
+
+56
+00:06:29,150 --> 00:06:36,500
+por el método POST a la UE R.L que yo le indico y le digo en el último parámetro el truco para que me
+
+57
+00:06:36,500 --> 00:06:45,440
+haga la petición y también definir que la envía finalmente con el método osen y finalmente envío todo
+
+58
+00:06:45,440 --> 00:06:51,800
+el formulario Fondation y de esa manera juntados los archivos que me hayan llegado y esto nadie me va
+
+59
+00:06:51,800 --> 00:06:58,380
+a permitir subir nuevo archivo a mi Bakken de acuerdo perfecto.
+
+60
+00:06:58,390 --> 00:06:59,690
+Ya tenemos nuestro servicio.
+
+61
+00:06:59,690 --> 00:07:04,700
+Si revisamos la consola vemos que no tenemos ningún fallo de ningún tipo y ahora vamos a utilizar este
+
+62
+00:07:04,700 --> 00:07:07,390
+servicio en nuestro create componen .3.
+
+63
+00:07:07,430 --> 00:07:13,790
+Aquí tendremos que cargarlo import upload servirse
+
+64
+00:07:16,850 --> 00:07:27,260
+from punto punto Barrapunto punto barra servicios barra Hublot .6 dice Zero con punto y coma y ahora
+
+65
+00:07:27,460 --> 00:07:34,460
+me bajo a la parte de providers cargo mi objeto lo servis y voy a cargar también la propiedad en mi
+
+66
+00:07:34,460 --> 00:07:46,520
+clase privarte y un bajo upload Service lospuntos iba a ser un objeto de título al servicio que guardo
+
+67
+00:07:47,440 --> 00:07:55,400
+y ya puedo utilizar mi servicio de subida de archivo y mi método perfecto entonces ahora tenemos que
+
+68
+00:07:55,400 --> 00:08:04,670
+modificar nuestro formulario para que en la parte de la imagen utilicemos el evento Cheikh hay un evento
+
+69
+00:08:04,670 --> 00:08:10,760
+que se llama Choir que cuando hacemos algún cambio en algún input va a lanzar otro Paganza otro método
+
+70
+00:08:10,760 --> 00:08:12,760
+que tengamos en nuestro componente.
+
+71
+00:08:12,760 --> 00:08:18,440
+Entonces en este caso voy a crear un método en mi componente la gracia de mi componente se va a llamar
+
+72
+00:08:19,070 --> 00:08:26,040
+Feil Change event Valoy y le voy a pasar el evento que suceda en el evento.
+
+73
+00:08:26,120 --> 00:08:32,960
+La variable event voy a tener todos los datos que haya capturado ese input qué ficheros ha elegido qué
+
+74
+00:08:32,960 --> 00:08:39,420
+nombre tiene etcétera entonces voy a crear ese archivo ese método a en el componente en la clase por
+
+75
+00:08:39,710 --> 00:08:54,740
+aquí abajo File Change event vale le paso el evento como parámetro o más que el evento fail input que
+
+76
+00:08:54,740 --> 00:09:03,710
+va a ser el tipo Benning vale y entonces aquí si va a un console punto log de File input cuando yo seleccione
+
+77
+00:09:03,710 --> 00:09:11,990
+un archivo vamos a ver lo que pasa volví a abrir la consola la consola borró todo.
+
+78
+00:09:11,990 --> 00:09:19,370
+Voy a seleccionar un archivo en el campo de imagen del proyecto me voy aquí voy a seleccionar esta imagen
+
+79
+00:09:19,970 --> 00:09:24,300
+vale fíjate lo que ha pasado que el evento captura lo que ha pasado aquí todo.
+
+80
+00:09:24,310 --> 00:09:35,000
+Toda la información y aparte si me voy a Target aquí tengo en la parte de fails aquí tengo el archivo
+
+81
+00:09:35,000 --> 00:09:41,450
+que se ha seleccionado que es este aquí vale con un montón de información a partir de entonces yo ya
+
+82
+00:09:41,450 --> 00:09:45,710
+estoy seleccionando un archivo ya lo estoy cogiendo de mi sistema de archivos para subirlo lo estoy
+
+83
+00:09:45,710 --> 00:09:55,370
+preparando voy a crearme una propiedad que arriba que se va a llamar feis tu Hublot ficheros para subir
+
+84
+00:09:55,410 --> 00:10:01,250
+no iba a ser de tipo Array IVACE un array de tipo fail vale todo.
+
+85
+00:10:01,250 --> 00:10:03,470
+Todos los elementos que hay dentro serán de tipo FEUE.
+
+86
+00:10:03,830 --> 00:10:11,570
+Entonces cuando yo capture mi evento en mi impute tipo fail voy a coger y le voy a dar un valor a Fires
+
+87
+00:10:11,600 --> 00:10:21,290
+tu blog y el valor va a ser el siguiente voy a castigar esto voy a forzarlo a que sea un tipo fail de
+
+88
+00:10:21,290 --> 00:10:27,860
+tipo fail y voy a seleccionar File input que es lo que captura el evento y aquí voy a seleccionar la
+
+89
+00:10:27,860 --> 00:10:32,840
+propiedad de Target y voy a seleccionar la propiedad fails que son todos los archivos que seleccionamos
+
+90
+00:10:32,840 --> 00:10:38,630
+con el IMPO vale ya lo tengo preparado ya tengo en mi propiedad todos los archivos que quiero subir
+
+91
+00:10:38,690 --> 00:10:43,770
+en este caso seleccionaremos solamente uno pero podría ser para más también y entonces una vez que yo
+
+92
+00:10:43,790 --> 00:10:51,200
+guarde satisfactoriamente los datos en este caso vale aquí es cuando voy a subir la imagen subir la
+
+93
+00:10:51,200 --> 00:10:54,710
+imagen vale aquí era guardar los datos
+
+94
+00:10:58,380 --> 00:11:01,600
+de aquí subir la imagen y guardarlo.
+
+95
+00:11:01,700 --> 00:11:09,980
+Para eso voy a utilizar mi servicio disputo y un bajo vuelvo a servir punto Maik File recuesto que te
+
+96
+00:11:09,980 --> 00:11:14,630
+recuerdo que es el método que hemos creado en nuestro servicio que tiene varios parámetros para subirlo
+
+97
+00:11:14,630 --> 00:11:23,890
+a archivo por Ayax vale y esto como es una promesa tiene un método del que luego utilizaremos YouTube
+
+98
+00:11:23,950 --> 00:11:34,970
+tendrá una variable result un tipo N-I y aquí habremos recogido todos los datos que me llegan del servicio
+
+99
+00:11:36,660 --> 00:11:38,960
+que me devuelve el servicio red y la Pierres.
+
+100
+00:11:39,290 --> 00:11:41,530
+Y esto guiaremos un consuelo del resultado
+
+101
+00:11:44,690 --> 00:11:50,840
+pero antes tendré que pasar los parámetros que necesita el método Myc files.
+
+102
+00:11:50,990 --> 00:11:57,080
+En este caso necesita primero una web R.L vale la web y la podemos conseguir de nuestro archivo global
+
+103
+00:11:57,170 --> 00:11:57,830
+import
+
+104
+00:12:00,320 --> 00:12:10,760
+global from punto punto a punto punto barras servicio barra global de aquí yo voy a sacar la web de
+
+105
+00:12:10,760 --> 00:12:19,660
+mi asiento y se lo voy a pasar al método por aquí como primer parámetro sería global punto wireless
+
+106
+00:12:20,050 --> 00:12:30,380
+y le concatenado el método que quiero utilizar en este caso sería un load Image de Image si reviso mi
+
+107
+00:12:30,380 --> 00:12:38,060
+API para ver la ruta vamos a ver que el archivo de ruta tenemos el método o la ruta load Image necesita
+
+108
+00:12:38,060 --> 00:12:44,720
+que le pasemos un hide del documento que hemos guardado en este caso del documento que hemos guardado
+
+109
+00:12:44,780 --> 00:12:52,160
+ya vendrá como resultado en la responsa y entonces se lo voy a pasar se lo voy a concatenar sería Response
+
+110
+00:12:53,710 --> 00:12:57,490
+punto Projet punto y bajo IDEA.
+
+111
+00:12:57,740 --> 00:13:04,150
+Así de sencillo vale ahora el segundo parámetro serían parámetros opcionales que se lo vamos a dejar
+
+112
+00:13:04,150 --> 00:13:05,130
+vacío.
+
+113
+00:13:05,380 --> 00:13:11,580
+El tercer parámetro sería disputo files tuteló los archivos para subir y el último parámetro sería el
+
+114
+00:13:11,580 --> 00:13:15,570
+nombre del campo que va a recibir el paquete qué nombre va a recibir.
+
+115
+00:13:15,790 --> 00:13:21,490
+Si me voy a Projet aquí en el Bakken y me voy aquí a la parte de Bloody Image al método de la imagen
+
+116
+00:13:21,880 --> 00:13:30,200
+va a recibir un campo llamado Image de acuerdo así que le voy a pasar ese Nein se va a llamar imagen
+
+117
+00:13:30,270 --> 00:13:33,050
+vaques lo va a procesar de esa manera y ya lo tengo.
+
+118
+00:13:33,070 --> 00:13:42,360
+Vale ya si lo comprobamos vamos a meter el disco Acces dentro de el resultado y el fondo es también
+
+119
+00:13:44,190 --> 00:13:48,920
+el resultado de la subida del archivo.
+
+120
+00:13:49,060 --> 00:13:51,860
+Vamos a ver si funciona o qué pasa.
+
+121
+00:13:51,870 --> 00:14:01,150
+Ok vamos a ver vamos a rellenar el formulario como podamos y vamos a seleccionar una imagen esta mismo
+
+122
+00:14:01,910 --> 00:14:08,120
+añadir enviar me devuelve mi objeto correctamente en mi objeto.
+
+123
+00:14:08,270 --> 00:14:12,650
+Efectivamente ya tengo mis datos de mi imagen.
+
+124
+00:14:12,650 --> 00:14:14,180
+De acuerdo.
+
+125
+00:14:14,510 --> 00:14:17,440
+Entonces el consolé log que me hace esto ok.
+
+126
+00:14:17,480 --> 00:14:23,150
+Además aquí se me está mostrando que el proyecto se ha quedado correctamente en la petición Ayax se
+
+127
+00:14:23,150 --> 00:14:25,380
+ha realizado correctamente de 6 Projet.
+
+128
+00:14:25,380 --> 00:14:31,460
+Vale aquí me ha devuelto los objetos básico sin la imagen pero luego de haber ejecutado la otra y me
+
+129
+00:14:31,460 --> 00:14:37,160
+ha devuelto el objeto de nuevo actualizado pero con la imagen que se ha subido esta imagen ya está en
+
+130
+00:14:37,160 --> 00:14:41,240
+el servidor guardada porque si no vamos a la carpeta de un loop aquí la tenemos.
+
+131
+00:14:41,250 --> 00:14:48,110
+Vale entonces ya hemos hecho nuestro método para subir imágenes ya tenemos preparado este formulario
+
+132
+00:14:48,140 --> 00:14:56,090
+para subir nuevas imágenes adjuntada al proyecto y lo siguiente Vamos a hacer ya va a ser el listado
+
+133
+00:14:56,210 --> 00:14:58,380
+de proyectos en esta sección de aquí.

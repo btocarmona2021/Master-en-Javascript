@@ -1,0 +1,331 @@
+1
+00:00:00,620 --> 00:00:05,310
+Ya hemos visto cómo quedan algunos métodos y algunas rutas de prueba en nuestra Pierres o en nuestra
+
+2
+00:00:05,310 --> 00:00:10,610
+aplicación de Bakken que estamos haciendo con DJs y durante el desarrollo de la Pierres.
+
+3
+00:00:10,680 --> 00:00:18,270
+Al ser un servicio redes los envíos de datos y las respuestas de datos van a ir en Yeison y vamos a
+
+4
+00:00:18,270 --> 00:00:24,390
+tener que estar trabajando con los diferentes métodos HTTP que existen en el protocolo HTTP.
+
+5
+00:00:24,780 --> 00:00:30,420
+Entonces para hacer el trabajo mucho más fácil y para poder hacer la prueba y testear todo lo que vamos
+
+6
+00:00:30,420 --> 00:00:38,430
+desarrollando vamos a utilizar un cliente full el cliente reforma conocida actualmente y uno de los
+
+7
+00:00:38,430 --> 00:00:44,070
+mejores a mi parecer se llama Postman de acuerdo y simplemente tendrías que buscarlo e instalarlo.
+
+8
+00:00:44,070 --> 00:00:50,850
+Es muy sencillo simplemente busca en Google Postman y yo lo tengo por aquí.
+
+9
+00:00:50,850 --> 00:00:56,550
+Vale se puede instalar como una extensión de Chrome o como un programa independiente y lo vamos a abrir
+
+10
+00:00:56,640 --> 00:00:57,900
+y vamos a ver cómo funciona.
+
+11
+00:00:57,900 --> 00:01:03,480
+Vale vamos a tener alguna petición a nuestra a nuestra API a las rutas que hemos creado ya y vamos a
+
+12
+00:01:03,480 --> 00:01:04,500
+ver cómo funciona esto.
+
+13
+00:01:04,510 --> 00:01:11,830
+Mira si yo quisiera hacer una petición a cualquiera de la UE Reveles por ejemplo a la web de mi API
+
+14
+00:01:12,180 --> 00:01:19,630
+yo podría hacerlo perfectamente vale la copio y la pongo aquí y aquí yo puedo elegir el método HTTP
+
+15
+00:01:19,640 --> 00:01:24,630
+de todos los que hay en este caso los más comunes que vamos usar son el ket el post el putt y el de
+
+16
+00:01:24,630 --> 00:01:25,460
+lit.
+
+17
+00:01:25,470 --> 00:01:31,500
+En este caso qué tipo de ruta es ésta es una ruta que solo permite peticiones.
+
+18
+00:01:31,500 --> 00:01:31,950
+Por qué.
+
+19
+00:01:32,010 --> 00:01:37,710
+Porque si yo una petición por post no va a funcionar así que va a ser por Guier y yo le voy a Grasset
+
+20
+00:01:38,950 --> 00:01:45,560
+y esto me va a devolver el resultado en Yaso lo puedo ver en formato Purity que es un formato con colores
+
+21
+00:01:45,570 --> 00:01:53,130
+y bien ordenado RAW o hacer un preview de cómo se vería en un navegador normal y puedo ver las cabeceras
+
+22
+00:01:53,130 --> 00:01:58,500
+de la petición puedo verlo absolutamente todo y además yo puedo estar modificando las cabeceras que
+
+23
+00:01:58,620 --> 00:02:05,700
+voy a enviar en la petición y hacer cualquier tipo de modificación y de manipulación de mi petición
+
+24
+00:02:05,790 --> 00:02:07,330
+HTTP vía Guetto.
+
+25
+00:02:07,770 --> 00:02:13,500
+Pero qué pasa si yo cambio el método HTTP a un método POST vale el método vós siempre suele utilizar
+
+26
+00:02:13,500 --> 00:02:19,510
+para guardar nuevos recursos dentro de una API o para abordar nuevos recursos en el Bakken vale el Get
+
+27
+00:02:19,530 --> 00:02:27,690
+siempre se utiliza para consultar y consultar el detalle de algo o sacar una información básicamente
+
+28
+00:02:27,690 --> 00:02:33,690
+y devolverla el post para guardar para guardar el putt para actualizar y el DVD para ahorrar recursos
+
+29
+00:02:33,910 --> 00:02:35,700
+de nuestra base de datos y de nuestro back.
+
+30
+00:02:36,540 --> 00:02:41,580
+Entonces si utilizo el método OPEX por ejemplo deseasen no me va a devolver nada al revés me va a decir
+
+31
+00:02:41,580 --> 00:02:47,160
+que no existe una ruta por post que se llame text efectivamente porque las rutas que nosotros tenemos
+
+32
+00:02:47,160 --> 00:02:55,200
+configuradas son rutas por qué únicamente entonces solamente van a permitir peticiones por get.
+
+33
+00:02:55,590 --> 00:03:05,880
+Si a mí se me ocurriera cambiarle el método y en lugar de utilizar el método POST okey yo podría perfectamente
+
+34
+00:03:07,200 --> 00:03:11,610
+hacer la petición Droguett y me va a devolver el mismo error pero si lo hago por paypal me va a decir
+
+35
+00:03:11,610 --> 00:03:12,080
+que ok.
+
+36
+00:03:12,130 --> 00:03:19,080
+Y me va a devolver efectivamente mi Jayson y además no sólo eso sino que podría pasarle por el body
+
+37
+00:03:19,260 --> 00:03:25,790
+por el por el body en la pestañita de radio botón de x 3 W.
+
+38
+00:03:25,920 --> 00:03:30,990
+El Encode podría pasarle información por ejemplo nombre
+
+39
+00:03:38,920 --> 00:03:41,650
+apellidos podría pasarle todos los parámetros que yo quisiera.
+
+40
+00:03:42,430 --> 00:03:47,120
+Vale entonces yo puedo hacer la petición sin ningún tipo de problema y además no sólo eso sino que yo
+
+41
+00:03:47,170 --> 00:03:48,680
+puedo recoger esos datos.
+
+42
+00:03:48,720 --> 00:03:57,120
+Vale si yo un consolón de la recuesto RedQ ahí yo voy a tener toda la información de la petición vale
+
+43
+00:03:59,230 --> 00:04:05,830
+y se me va a mostrar por la consola vamos a ejecutar esa petición por pods a esa ruta de nuestro método
+
+44
+00:04:05,830 --> 00:04:12,250
+de Lapid y efectivamente me devuelve un objeto de la red.
+
+45
+00:04:13,370 --> 00:04:22,450
+Y además yo podría acceder a los datos más concretamente por ejemplo al nein podría hacer esto podría
+
+46
+00:04:22,450 --> 00:04:31,840
+hacer la petición y aquí me parece aun defined efectivamente cómo podría acceder a ese método a esa
+
+47
+00:04:31,840 --> 00:04:37,970
+propiedad en concreto pues podría utilizar el método que existe que se llama Parham.
+
+48
+00:04:38,740 --> 00:04:46,090
+De acuerdo puede utilizar Parham y por aquí directamente recoger el nombre vale.
+
+49
+00:04:46,150 --> 00:04:55,610
+Vuelvo a enviar y ahora aquí me aparece el nombre vale.
+
+50
+00:04:55,870 --> 00:05:02,310
+Y además fíjate lo que me dice me dicen reparas está depredada es decir que en próximas versiones dejará
+
+51
+00:05:02,350 --> 00:05:09,850
+de funcionar seguramente y nos dice que utilicemos REC punto Parham repuntó Bodhi o repuntó qwerty en
+
+52
+00:05:09,850 --> 00:05:11,490
+lugar de utilizar paramos.
+
+53
+00:05:11,850 --> 00:05:14,210
+O sea utilizar el método paramos.
+
+54
+00:05:14,920 --> 00:05:22,960
+Entonces para esto simplemente hago punto paramos y accedo a la propiedad nombre vale ese parámetro
+
+55
+00:05:22,960 --> 00:05:23,950
+que yo le he enviado.
+
+56
+00:05:23,980 --> 00:05:25,750
+Ok esta es la moneda más optimizada.
+
+57
+00:05:25,750 --> 00:05:33,410
+Simplemente quería explicar cómo funcionaba ese método si lo hacen ahora efectivamente me dice que han
+
+58
+00:05:33,430 --> 00:05:39,580
+de Faydit porque en Parham realmente no estoy enviando dato eso sería para recoger parámetros de la
+
+59
+00:05:39,580 --> 00:05:40,420
+web.
+
+60
+00:05:40,420 --> 00:05:46,510
+En este caso lo que yo estoy recogiendo es el body o el body es el cuerpo de la petición.
+
+61
+00:05:46,520 --> 00:05:49,260
+Vale ahora si me lo muestra.
+
+62
+00:05:49,390 --> 00:05:54,190
+Esto es el body Male Body enviándonos por el body de la petición por post.
+
+63
+00:05:54,190 --> 00:06:01,750
+Si yo enviara por aquí un parámetro a mi web si hiciera esto si quisiera acceder a ese parámetro entonces
+
+64
+00:06:01,750 --> 00:06:03,630
+sí tendría que utilizar para más vale
+
+65
+00:06:07,820 --> 00:06:15,500
+Parham si hago esto y vuelvo a enviar la petición y miro la consola me dice que aun definí por qué.
+
+66
+00:06:15,510 --> 00:06:19,100
+Porque realmente para mí no es es cuestión vale.
+
+67
+00:06:19,140 --> 00:06:27,810
+Yo podría acceder hoy a Cuadri vamos a hacer la medición y en Quay debería tenerlo no nombre sino web.
+
+68
+00:06:27,990 --> 00:06:28,710
+Vale.
+
+69
+00:06:28,890 --> 00:06:30,390
+Web festivamente.
+
+70
+00:06:30,490 --> 00:06:36,060
+Si actualizo y vuelvo a enviar aquí en la consola aparece.
+
+71
+00:06:36,150 --> 00:06:39,950
+Efectivamente esto y en qué caso utilizo Paramales vale.
+
+72
+00:06:39,960 --> 00:06:47,580
+En qué caso yo utilizo para console punto los puntos paradones punto.
+
+73
+00:06:47,660 --> 00:06:50,980
+Y ahora vamos a recoger un parámetro que se va a llamar y.
+
+74
+00:06:51,200 --> 00:06:57,780
+Pues en el caso de que yo le añada un parámetro a mi nuera y yo le añado este parámetro y de ahora mi
+
+75
+00:06:57,780 --> 00:06:59,570
+ruta está mal formada.
+
+76
+00:06:59,570 --> 00:07:02,810
+Vale porque realmente ese parámetro es obligatorio para que la ruta exista.
+
+77
+00:07:02,970 --> 00:07:04,860
+Entonces tendría que pasar el parámetro.
+
+78
+00:07:05,550 --> 00:07:07,940
+Y después ya le paso el parámetro de envío.
+
+79
+00:07:08,280 --> 00:07:13,530
+Y ahora me va a sacar mi nombre que es un parámetro que envío por post por el body.
+
+80
+00:07:13,530 --> 00:07:20,790
+La web R.L que es un parámetro que envío por la web R.L y 88 que es un parámetro que envío como forma
+
+81
+00:07:20,790 --> 00:07:24,720
+de parametro de mi ruta en la web de DJs.
+
+82
+00:07:24,720 --> 00:07:30,300
+Así que ya hemos visto para qué sirve cada una de estas opciones y ya hemos visto como utilizar también
+
+83
+00:07:30,310 --> 00:07:34,470
+Postman para manipular nuestras peticiones http:.

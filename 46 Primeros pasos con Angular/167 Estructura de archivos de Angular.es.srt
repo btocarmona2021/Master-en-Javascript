@@ -1,0 +1,163 @@
+1
+00:00:00,520 --> 00:00:05,790
+Bien ahora vamos a analizar a grandes rasgos y te voy a explicar a grandes rasgos la estructura de archivos
+
+2
+00:00:05,790 --> 00:00:10,770
+y directorios que tiene un proyecto de angular nuestro proyecto de angulares aprendiendo angular que
+
+3
+00:00:10,770 --> 00:00:18,050
+lo acabamos de crear hace un rato y tienen varios ficheros y varios directorios el fichero TS lint es
+
+4
+00:00:18,060 --> 00:00:24,560
+la configuración del Inter que tiene Taipe scrip que esto luego está el código y hace varias cosas en
+
+5
+00:00:24,570 --> 00:00:27,880
+una configuración de Taipe escribe TS confit.
+
+6
+00:00:27,990 --> 00:00:35,610
+También es otra configuración de Taipe escribe el rating pues simplemente es información del proyecto
+
+7
+00:00:35,610 --> 00:00:42,750
+un fichero MDB documentación el pagas punto Allyson pues es el fichero de configuración principal del
+
+8
+00:00:42,750 --> 00:00:50,310
+proyecto donde tiene una serie de scripts y comandos que hay en nuestro proyecto de angular y luego
+
+9
+00:00:50,310 --> 00:00:54,200
+tienen la dependencia o paquetes fundamentales del proyecto.
+
+10
+00:00:54,210 --> 00:00:59,880
+Las dependencias de desarrollo y aquí nosotros podemos indicarle el nuevo paquete y nuevas dependencias
+
+11
+00:00:59,910 --> 00:01:05,070
+para instalar en nuestro proyecto el angular Jayson es un fichero también de configuración del proyecto
+
+12
+00:01:05,100 --> 00:01:11,410
+en el cual podemos indicarle assets que va a cargar nuestro proyecto por ejemplo en esta parte de aquí.
+
+13
+00:01:11,450 --> 00:01:18,360
+En esta parte de nosotros podemos indicarle assets JavaScript externo que nosotros queramos cargar etcétera
+
+14
+00:01:18,360 --> 00:01:25,790
+librerías externas que no sean un paquete o un módulo de angular propio y ese tipo de cosas podríamos
+
+15
+00:01:26,010 --> 00:01:27,320
+cargarlas aquí.
+
+16
+00:01:27,430 --> 00:01:34,050
+Además cargar más assets cargar más tipos de información indicar también varias configuraciones y varias
+
+17
+00:01:34,050 --> 00:01:36,810
+opciones que van a tener nuestro proyecto.
+
+18
+00:01:36,810 --> 00:01:43,830
+Indicar cosas de testing de acuerdo y configurar el proyecto angular en general.
+
+19
+00:01:43,830 --> 00:01:49,740
+Básicamente lo que más se suele tocar es esta parte de aquí que luego veremos cómo se configura alguien
+
+20
+00:01:49,790 --> 00:01:58,610
+ignore es un fichero de grit para no comi Tear ciertos directorios o ciertos archivos en nuestro en
+
+21
+00:01:58,680 --> 00:02:00,620
+nuestro proyecto.
+
+22
+00:02:00,840 --> 00:02:05,710
+El editor confit pues esto no es nada simplemente es configuración del editor de código.
+
+23
+00:02:05,820 --> 00:02:10,690
+Realmente no sirve para mucho salvo para algunos editores de código.
+
+24
+00:02:10,800 --> 00:02:16,540
+La carpeta de osé para temas de pruebas y de configuraciones internas del lenguaje.
+
+25
+00:02:16,770 --> 00:02:23,830
+La carpeta de módulos es donde se descargan todos los paquetes librería dependencia y todo todo el Frings
+
+26
+00:02:23,880 --> 00:02:30,240
+de sí es decir el core el framework todos los paquetes están aquí y donde nosotros más vamos a estar
+
+27
+00:02:30,240 --> 00:02:38,250
+tocando en la carpeta src vale la carpeta src tiene varios ficheros tiene un fichero de configuración
+
+28
+00:02:38,250 --> 00:02:46,290
+de Tepes scrip una hoja de estilos Poli Fils que son para configuración de navegadores el punto de que
+
+29
+00:02:46,290 --> 00:02:53,400
+es el fichero donde se carga toda la aplicación de angular Carma que es para tema de pruebas el índex
+
+30
+00:02:53,460 --> 00:02:58,640
+HTML que es la página que se va a cargar en nuestra en nuestro navegador.
+
+31
+00:02:58,640 --> 00:03:04,620
+Un Faby con acuerdo que también podríamos indicar ficheros de environments donde podemos configurar
+
+32
+00:03:04,860 --> 00:03:09,360
+aspectos de temas de producción Ital y sobre todo dónde vamos a estar tocando ese.
+
+33
+00:03:09,450 --> 00:03:16,260
+Pues ya te digo en el índex HTML en la carpeta de assets que muestro guardando nuestras imágenes y ese
+
+34
+00:03:16,260 --> 00:03:21,450
+tipo de cosa y luego en la carpeta Apep que aquí es donde voy toda la aplicación.
+
+35
+00:03:21,450 --> 00:03:27,360
+En este caso tenemos simplemente un módulo un archivo de un módulo que es el fichero que configura el
+
+36
+00:03:27,360 --> 00:03:34,530
+módulo principal Apep sobre el sobre el que Irán cargado el resto de componentes y el resto de módulos
+
+37
+00:03:34,530 --> 00:03:35,670
+de la aplicación.
+
+38
+00:03:35,670 --> 00:03:41,360
+Tenemos una serie de archivos de componentes como es el que componen un punto TDS que es una clase.
+
+39
+00:03:41,850 --> 00:03:48,510
+La vista de ese componente y el archivo CSS de ese mismo componente y sobre todo dentro del PP donde
+
+40
+00:03:48,510 --> 00:03:52,670
+vamos a estar tocando para crear un nuevo componente etcétera.
+
+41
+00:03:52,760 --> 00:03:56,780
+Y eso ya lo iremos viendo en la próxima clase como crear un componente etcétera.

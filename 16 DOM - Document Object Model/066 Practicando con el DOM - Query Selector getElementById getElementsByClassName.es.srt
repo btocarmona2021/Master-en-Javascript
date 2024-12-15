@@ -1,0 +1,327 @@
+1
+00:00:00,750 --> 00:00:05,040
+Si quisiera seleccionar una clase funciona igual que hemos hecho aquí.
+
+2
+00:00:05,040 --> 00:00:07,160
+De acuerdo prácticamente funciona igual.
+
+3
+00:00:07,200 --> 00:00:12,780
+Vamos a comprobarlo vamos a hacer una prueba en nuestro índex punto HTML tenemos un Mario div.
+
+4
+00:00:13,110 --> 00:00:21,270
+Vale pues a uno de ellos le vamos a poner una clase que va a ser amarillo y los otros dos le vamos a
+
+5
+00:00:21,270 --> 00:00:24,990
+poner otra clase que va a ser rojo y esa clase la van a compartir
+
+6
+00:00:27,570 --> 00:00:29,080
+clase rojo.
+
+7
+00:00:29,880 --> 00:00:37,110
+Entonces si yo quiero seleccionar los Dib cuya clase sea rojo pues para eso me creó una variable dips
+
+8
+00:00:37,590 --> 00:00:54,160
+rojos y entonces utiliza el documento punto Get elements bi Class Namm y seleccionó la clase rojo de
+
+9
+00:00:54,170 --> 00:01:00,320
+acuerdo de esta manera lo puedo hacer y entonces simplemente ahora puedo hacer un Consol log y ver que
+
+10
+00:01:00,320 --> 00:01:08,570
+tendré una Rey con una colección de elemento HTML dice la pantalla efectivamente tengo dos elementos
+
+11
+00:01:08,960 --> 00:01:16,580
+el primer tip fíjate aquí lo selecciona y el segundo DIV con esa clase rojo y justamente a esos elementos
+
+12
+00:01:16,580 --> 00:01:23,480
+yo le puedo poner solamente a esos elementos en concreto los rojos dips rojos yo lo puedo modificar
+
+13
+00:01:23,480 --> 00:01:27,690
+y ponerle un Stairs apuntó Brown.
+
+14
+00:01:27,980 --> 00:01:31,880
+Igual la red vale
+
+15
+00:01:35,160 --> 00:01:46,500
+a ver background claro no puedo hacerlo de manera global porque son muchos Okkhoy son muchos elementos.
+
+16
+00:01:46,560 --> 00:01:50,750
+Vale esto es una Rey y yo quiero ponérselo a cada uno de los elementos de la Rey.
+
+17
+00:01:50,960 --> 00:01:57,760
+Cómo puedo hacer eso pues puedo seleccionar un elemento y ponérselo vale.
+
+18
+00:01:57,850 --> 00:02:03,020
+Le pongo el rojo a un elemento y si quiero ponérselo al otro pues tendré que utilizar su otro índice
+
+19
+00:02:03,110 --> 00:02:04,370
+el 1.
+
+20
+00:02:04,450 --> 00:02:08,900
+O también puedo hacer un bucle como hemos hecho anteriormente.
+
+21
+00:02:08,900 --> 00:02:09,890
+Puedo hacer un foril
+
+22
+00:02:13,130 --> 00:02:24,920
+puedo hacer un favor entonces voy a recorrer los rojos y voy a coger el índice o directamente el DIB
+
+23
+00:02:26,810 --> 00:02:28,960
+en dips rojos.
+
+24
+00:02:29,060 --> 00:02:36,770
+Y entonces utilizo esto para ponerle su estilo al índice de acuerdo.
+
+25
+00:02:36,770 --> 00:02:40,130
+En este caso el dip que selecciones de la raíz dips rojo.
+
+26
+00:02:40,140 --> 00:02:46,680
+De esa manera aquí tenemos un error porque no define porque yo tengo que definir esa variable antes
+
+27
+00:02:46,920 --> 00:02:55,620
+lo puedo hacer también aquí directamente Vardi de acuerdo y hoy me lo selecciono sin ningún tipo de
+
+28
+00:02:55,620 --> 00:02:56,150
+problema.
+
+29
+00:02:56,550 --> 00:02:59,790
+Aunque también sería bueno definir primero la variable aquí
+
+30
+00:03:04,140 --> 00:03:10,890
+y este error nos lo marca porque también está recorriendo cosas que realmente no son nada más.
+
+31
+00:03:10,920 --> 00:03:16,470
+Consolé junto a blog de Dib rojos
+
+32
+00:03:19,750 --> 00:03:20,260
+dips.
+
+33
+00:03:20,290 --> 00:03:21,910
+Yo recorro esto.
+
+34
+00:03:22,290 --> 00:03:27,480
+Vamos a ver que al final nos va a recorrer más cosa que no solamente eso en el libro.
+
+35
+00:03:27,530 --> 00:03:30,110
+Vale nos saca también el número total de elemento.
+
+36
+00:03:30,160 --> 00:03:35,130
+Entonces yo necesito ver tengo que hacer un IBF y comprobar si esto
+
+37
+00:03:39,760 --> 00:03:43,320
+realmente es un Dib no vale.
+
+38
+00:03:43,360 --> 00:03:49,740
+Simplemente tendría que hacer esto y sacar el Class punto.
+
+39
+00:03:49,930 --> 00:03:55,380
+Class name Class ni exactamente igual a rojo.
+
+40
+00:03:55,600 --> 00:03:58,120
+Pues entonces que nos ponga el color rojo.
+
+41
+00:03:58,300 --> 00:03:58,940
+Efectivamente.
+
+42
+00:03:58,960 --> 00:04:02,750
+Y ahora ya no me da el error y puedo quitar incluso el consuelo.
+
+43
+00:04:03,010 --> 00:04:09,730
+De esta manera tan simple puedo hacer lo que estaba lo que estaba haciendo con la selección de párrafos
+
+44
+00:04:09,850 --> 00:04:15,320
+de etiquetas o con la selección que hemos hecho aquí de dips.
+
+45
+00:04:15,520 --> 00:04:20,280
+Hemos seleccionado varios pues lo mismo funciona igual con las clases.
+
+46
+00:04:20,410 --> 00:04:28,090
+Y luego la otra clase que le hemos puesto teníamos otra clase que era amarillo Dipsa amarillos
+
+47
+00:04:30,880 --> 00:04:41,420
+amarillos y podría seleccionar los discos con la clase amarillo los elementos con la clase amarillo.
+
+48
+00:04:41,500 --> 00:04:48,140
+Incluso aquí no solamente recorrer sólo 10 rojos sino que recorrer todos los días y luego hacer UNIV
+
+49
+00:04:48,280 --> 00:04:54,310
+y clavarle un color en función de la clase que tenga y tal.
+
+50
+00:04:54,460 --> 00:04:56,530
+Pero simplemente quiero que veamos que también
+
+51
+00:04:59,680 --> 00:05:07,430
+los Dib amarillos también los selecciona y los mete en una raíz al igual que hemos visto efectivamente
+
+52
+00:05:07,540 --> 00:05:16,130
+menos nueva Rey y luego yo puedo coger el elemento cero que es el único que hay y ponerle un Bagram
+
+53
+00:05:16,130 --> 00:05:18,460
+como yo quiera.
+
+54
+00:05:18,750 --> 00:05:27,380
+Dónde está el punto Bakraoui amarillo en este caso el hielo lo voy a hacer y me cambiará el color sin
+
+55
+00:05:27,380 --> 00:05:29,030
+ningún tipo de problema.
+
+56
+00:05:29,060 --> 00:05:31,430
+Efectivamente bien.
+
+57
+00:05:32,580 --> 00:05:38,150
+Y bueno aparte de seleccionar los elementos como estamos haciendo aquí me gustaría comprobar si realmente
+
+58
+00:05:38,150 --> 00:05:42,550
+si utilizo el selector me va a seleccionar los elementos de igual forma.
+
+59
+00:05:42,590 --> 00:05:45,940
+Vale vamos a probar el Cury selector.
+
+60
+00:05:45,950 --> 00:05:54,380
+Ya hemos visto que si yo utilizo el selector para capturar y capturar un IDE tendría que hacer lo siguiente
+
+61
+00:05:54,380 --> 00:06:03,400
+document punto y selector y en cualquier elemento que tenga una idea en mi página por ejemplo este aquí
+
+62
+00:06:03,410 --> 00:06:06,140
+le voy a poner un IDE encabezado
+
+63
+00:06:09,370 --> 00:06:12,670
+vale yo lo puedo seleccionar con la almohadilla encabezado
+
+64
+00:06:17,680 --> 00:06:19,010
+y puedo hacer un Consol log
+
+65
+00:06:21,940 --> 00:06:25,320
+de hide y eso me va a sacar el Dip.
+
+66
+00:06:25,330 --> 00:06:30,190
+Efectivamente el elemento sea me saca de elemento cuyo IDE se ha encabezado.
+
+67
+00:06:30,190 --> 00:06:36,990
+Vale pues quiero ver si realmente cuando yo hago esto con una clase me saca una Ray al igual que en
+
+68
+00:06:37,150 --> 00:06:44,340
+mi clase y tal cual y selector de punto rojo.
+
+69
+00:06:44,330 --> 00:06:48,830
+Clases vamos a ponerle clase rojo.
+
+70
+00:06:49,240 --> 00:06:51,280
+Quiero ver si realmente me saca una Ray
+
+71
+00:06:56,510 --> 00:07:02,340
+con todos los elementos al igual que hemos visto con el jet eleven bailás.
+
+72
+00:07:02,780 --> 00:07:09,600
+Vamos a verlo solamente me saca 1 vale solamente me selecciona uno.
+
+73
+00:07:09,620 --> 00:07:18,530
+Si yo pongo mi punto punto rojo igualmente me saca solamente 1 no me saca el array completo.
+
+74
+00:07:19,210 --> 00:07:25,040
+Y al igual que si hago lo mismo con todos los dips si yo quiero seleccionar todos los dips toda la etiqueta
+
+75
+00:07:25,490 --> 00:07:30,610
+Dib y se llama esto etiqueta.
+
+76
+00:07:34,670 --> 00:07:41,990
+Si yo quiero hacer esto igualmente me saca solamente un DIV no me saca una colección completa entonces
+
+77
+00:07:42,410 --> 00:07:49,040
+a lo mejor el selector solamente recomendable para para cierta para ciertas cosas más pequeñas pero
+
+78
+00:07:50,480 --> 00:07:56,300
+por ejemplo para seleccionar un y no me parece mejor pero a lo mejor para seleccionar mucho clases o
+
+79
+00:07:56,310 --> 00:08:01,770
+mucha etiqueta el flash Nain me parece más recomendable.
+
+80
+00:08:02,270 --> 00:08:06,320
+Y de esta manera hemos aprendido un poco más acerca del cual selector que sirve para seleccionar un
+
+81
+00:08:06,320 --> 00:08:13,160
+elemento o un elemento en el caso de que sea un IDE o el primer elemento en el caso de que sea una etiqueta
+
+82
+00:08:13,160 --> 00:08:19,480
+o una clase y hemos visto también cómo trabajar con el que es de la clase Nain y el elemento Bahai Tag.

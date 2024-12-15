@@ -1,0 +1,203 @@
+1
+00:00:00,960 --> 00:00:03,610
+Ahora vamos a aprender a trabajar con las imágenes.
+
+2
+00:00:03,660 --> 00:00:10,320
+Para eso he creado una carpeta dentro de nuestra carpeta de web llamada Imágenes y aquí dentro he metido
+
+3
+00:00:10,320 --> 00:00:19,110
+multitud de fotos e imágenes de diferentes animales y entonces ahora vamos a aprender a incrustar o
+
+4
+00:00:19,110 --> 00:00:22,360
+a poner una imagen dentro de nuestra página web.
+
+5
+00:00:22,420 --> 00:00:27,510
+Si abrimos nuestra página web en nuestro navegador vamos a ver qué tenemos como lo habíamos dejado antes
+
+6
+00:00:27,940 --> 00:00:29,980
+del título.
+
+7
+00:00:30,000 --> 00:00:36,930
+Las etiquetas de texto que hayamos probado etcétera de acuerdo a la lista aquí abajo y tal ya verá lo
+
+8
+00:00:36,930 --> 00:00:42,660
+que vamos a hacer va a ser en medio de aquí añadir un encabezado y debajo añadir una imagen.
+
+9
+00:00:42,720 --> 00:00:49,740
+Vamos a ello lo vamos a hacer justo debajo del H.R de aquí y además vamos a poner otro H.R para hacer
+
+10
+00:00:49,740 --> 00:00:50,730
+otro separador.
+
+11
+00:00:51,210 --> 00:01:01,350
+Vamos a poner un H2 para hacer un encabezado o un subtítulo que diga imágenes en HTML.
+
+12
+00:01:01,420 --> 00:01:06,340
+Si yo guardo y actualizo la pantalla me aparece mi encabezado.
+
+13
+00:01:06,340 --> 00:01:09,460
+Vale ahora cómo pongo yo una imagen dentro de HTML.
+
+14
+00:01:09,460 --> 00:01:17,910
+Pues para eso existe una etiqueta que es la etiqueta y M.G. Malen y esta etiqueta no tiene ningún contenido
+
+15
+00:01:18,120 --> 00:01:21,020
+de texto con lo cual se cierra de esta manera.
+
+16
+00:01:22,560 --> 00:01:31,350
+Ahora esta etiqueta tiene varios atributos importantes tiene un atributo que es al que aquí tenemos
+
+17
+00:01:31,350 --> 00:01:34,390
+que indicar un texto para cuando la imagen no cargue.
+
+18
+00:01:34,850 --> 00:01:41,460
+Y es importante para pues a nivel de SEO importante para describir lo que tiene la imagen y a nivel
+
+19
+00:01:41,460 --> 00:01:42,790
+de usabilidad.
+
+20
+00:01:42,780 --> 00:01:46,830
+Por si no cargar no cargar la imagen también cargar un texto.
+
+21
+00:01:46,830 --> 00:01:56,400
+Aquí por ejemplo podríamos poner imagen de un perro y luego también tenemos otro atributo que es el
+
+22
+00:01:56,400 --> 00:02:04,440
+Twitter que también sería para cuando nosotros pasemos por encima de la imagen que nos haga una pequeña.
+
+23
+00:02:04,440 --> 00:02:13,560
+Un pequeño popup muy pequeño que nos diga que es esa imagen pues también podríamos decir foto de perro
+
+24
+00:02:16,300 --> 00:02:23,420
+vale si yo guardo y actualizo la pantalla aquí me aparece la imagen de un perro es decir el texto alternativo
+
+25
+00:02:23,880 --> 00:02:30,060
+pero yo voy a cargar la imagen de una manera muy concreta voy a utilizar el atributo que se rece que
+
+26
+00:02:30,060 --> 00:02:38,040
+tiene esta etiqueta y yo le voy a indicar la ruta relativa en la cual está nuestra imagen es decir nuestra
+
+27
+00:02:38,040 --> 00:02:45,730
+imagen del perro por ejemplo esta aquí está dentro de la carpeta imágenes y se llama cachorrito aunque
+
+28
+00:02:45,750 --> 00:02:55,290
+no se cuanta vale el nombre lo podemos copiar o cambiar su perro junto JPG.
+
+29
+00:02:56,100 --> 00:02:58,780
+Vale entonces cómo podríamos cargar la imagen.
+
+30
+00:02:58,800 --> 00:03:01,800
+Pues lo primero sería copiando su ruta absoluta.
+
+31
+00:03:01,890 --> 00:03:11,730
+La primera forma copiando su ruta absoluta toda la ruta en la cual está el archivo.
+
+32
+00:03:11,730 --> 00:03:15,260
+Vale que estaría aquí perro punto.
+
+33
+00:03:15,310 --> 00:03:16,230
+JPG.
+
+34
+00:03:16,230 --> 00:03:18,960
+De esta manera yo cargaría la foto.
+
+35
+00:03:18,960 --> 00:03:21,370
+Efectivamente ahí está la foto cargada.
+
+36
+00:03:21,600 --> 00:03:27,420
+Pero esto no está bien porque si yo me llevo mi carpeta del proyecto a otra parte o la sube a un servidor
+
+37
+00:03:27,420 --> 00:03:28,150
+o lo que sea.
+
+38
+00:03:28,290 --> 00:03:33,600
+Esa imagen ya no va a cargar entonces lo más correcto utilizar la ruta relativa cómo utilizo una ruta
+
+39
+00:03:33,600 --> 00:03:37,500
+relativa indicándole la carpeta en la que está la imagen.
+
+40
+00:03:37,500 --> 00:03:43,710
+En este caso imágenes barra y el nombre de la imagen que hay dentro de la carpeta de imágenes en este
+
+41
+00:03:43,710 --> 00:03:52,230
+caso perro punto JPG guardo actualizo la pantalla y me sigo cargando de la misma manera.
+
+42
+00:03:52,320 --> 00:04:02,460
+Más atributos que tienen esta etiqueta y M.G. pues tiene los atributos CUIL with DTH y Jaitt en el cual
+
+43
+00:04:02,520 --> 00:04:08,030
+yo puedo indicar en los cuales yo puedo indicarle la anchura y la altura de la imagen.
+
+44
+00:04:08,040 --> 00:04:17,040
+Por ejemplo yo no puedo poner una anchura de 255 píxeles y ya lo hizo la pantalla.
+
+45
+00:04:17,040 --> 00:04:23,880
+La imagen cambia de tamaño pero también le puedo poner un alto de 1000 píxeles Vali puedo deformar la
+
+46
+00:04:23,880 --> 00:04:24,950
+imagen a mi gusto
+
+47
+00:04:27,670 --> 00:04:31,180
+Valey la imagen queda cambiada de tamaño deformada.
+
+48
+00:04:31,270 --> 00:04:36,410
+Lo más correcto sería solamente tocar una de las dos opciones para que la imagen no se deforme.
+
+49
+00:04:36,490 --> 00:04:43,450
+En este caso si le pongo el atributo Wiz y le pongo por ejemplo 455 píxeles y autorizó la pantalla pues
+
+50
+00:04:43,450 --> 00:04:45,470
+ahí me aparece la imagen más grande.
+
+51
+00:04:45,870 --> 00:04:50,800
+Y de esta manera yo puedo incrustar imágenes en mi página web utilizando la etiqueta y M.G..

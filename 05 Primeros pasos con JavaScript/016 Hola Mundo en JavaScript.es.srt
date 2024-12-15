@@ -1,0 +1,419 @@
+1
+00:00:00,660 --> 00:00:06,120
+Una vez que tenemos preparada nuestras dos herramientas el navegador web y el editor de código vamos
+
+2
+00:00:06,120 --> 00:00:12,210
+a crear nuestro primer script de JavaScript y nuestro primer proyecto pequeño para hacer un Hola mundo
+
+3
+00:00:12,210 --> 00:00:13,490
+con JavaScript.
+
+4
+00:00:13,590 --> 00:00:19,440
+Bien para eso yo me voy a ir a mi equipo y me voy a ir a una carpeta que es la que yo tengo todos los
+
+5
+00:00:19,440 --> 00:00:24,480
+proyectos web pero quiero que tengas claro que todo lo que vamos a desarrollar por lo menos en esta
+
+6
+00:00:24,480 --> 00:00:31,590
+primera parte del curso lo puede estar desarrollando en cualquier carpeta de tu equipo así que no necesariamente
+
+7
+00:00:31,590 --> 00:00:38,190
+tienes que tener una carpeta 3V dobles que es la que voy a orillo porque en esta carpeta es en la que
+
+8
+00:00:38,190 --> 00:00:40,710
+yo trabajo siempre de acuerdo.
+
+9
+00:00:40,710 --> 00:00:46,950
+Entonces pues yo voy a crear aquí una carpeta en mi carpeta TRW porque en la que yo tengo para guardar
+
+10
+00:00:46,950 --> 00:00:51,270
+mis proyectos web pero realmente tú podrías hacer una carpeta en el escritorio y empezar a trabajar
+
+11
+00:00:51,270 --> 00:00:53,210
+como lo estoy haciendo yo.
+
+12
+00:00:53,340 --> 00:01:02,910
+Bien pues voy a crear una carpeta que se va a llamar curso curso JavaScript Balet y voy a entrar dentro
+
+13
+00:01:03,870 --> 00:01:10,830
+y aquí voy a crear otra carpeta que va a ser el Hola Mundo una carpeta que se va a llamar Hola mundo
+
+14
+00:01:11,120 --> 00:01:14,260
+y este va a ser nuestro primer proyecto de JavaScript.
+
+15
+00:01:14,290 --> 00:01:20,190
+Vale ahora lo que tenemos que hacer dentro de esta carpeta es crear un fichero índex punto HTML índex
+
+16
+00:01:20,280 --> 00:01:26,720
+punto HTML que como bien sabes en índex es el fichero principal que se carga dentro de una página web
+
+17
+00:01:26,760 --> 00:01:32,400
+entonces este archivo el que tenemos que crear para empezar a hacer nuestro primer script.
+
+18
+00:01:32,550 --> 00:01:37,740
+Una vez que tengo esto voy a cargar el proyecto voy a cargar esta carpeta dentro de mi editor de código
+
+19
+00:01:38,150 --> 00:01:39,750
+USA es el que uses.
+
+20
+00:01:39,750 --> 00:01:45,060
+Crear el proyecto dentro del editor de código va a ser muy sencillo simplemente nos vamos a Projet le
+
+21
+00:01:45,060 --> 00:01:50,400
+vamos a dar a Add folder tu proyecto y yo voy a buscar aquí la carpeta de curso de JavaScript que acabo
+
+22
+00:01:50,400 --> 00:01:53,930
+de crear yo en mi carpeta de RWE.
+
+23
+00:01:54,000 --> 00:02:00,960
+Ya te digo que tú puedes crearla en cualquier otra ruta de tu equipo yo la tengo por aquí cargo la carpeta
+
+24
+00:02:00,990 --> 00:02:05,130
+y aquí me aparece lo que yo he creado en mi sistema de archivos.
+
+25
+00:02:05,140 --> 00:02:07,810
+Bien pues tengo el fichero índex junto a HTML.
+
+26
+00:02:07,830 --> 00:02:12,980
+Vale que es el que vamos a estar tocando y modificando para hacer nuestro Hola mundo con JavaScript
+
+27
+00:02:13,530 --> 00:02:15,420
+nuestro primer script.
+
+28
+00:02:15,480 --> 00:02:20,790
+Entonces ahora vamos a hacer una estructura básica de HTML cómo hacemos esto pues vamos a recordarlo
+
+29
+00:02:20,790 --> 00:02:26,280
+simplemente tenemos que poner el Doctrine HTML y esto le indica Connector indicamos que vamos a estar
+
+30
+00:02:26,280 --> 00:02:29,010
+utilizando HTML 5 de acuerdo.
+
+31
+00:02:29,010 --> 00:02:34,920
+Ahora abrimos la etiqueta HTML le indicamos el atributo Link es para indicarle que la página web que
+
+32
+00:02:34,920 --> 00:02:37,550
+vamos a estar creando está en castellano.
+
+33
+00:02:37,730 --> 00:02:44,310
+Vale ahora me abro el jit y aquí es donde voy a meter los metadatos y la parte que no va a ser visible
+
+34
+00:02:44,340 --> 00:02:46,810
+a simple vista dentro del cuerpo de la página.
+
+35
+00:02:46,880 --> 00:02:54,270
+Aquí yo voy a poner por ejemplo Minitel y oponerle Hola mundo con JavaScript
+
+36
+00:02:56,950 --> 00:03:02,790
+ya que le voy a poner mi nombre Víctor Robles Valle y voy a cerrar el Twitter
+
+37
+00:03:05,790 --> 00:03:07,100
+ahora también lo voy a poner.
+
+38
+00:03:07,150 --> 00:03:13,110
+Es recomendable ponerle el meta charged para que cuando yo escriba con tilde dentro del cuerpo de mi
+
+39
+00:03:13,110 --> 00:03:17,690
+página pues no se me vea mal simplemente me ponga las tildes correctamente.
+
+40
+00:03:17,690 --> 00:03:23,960
+Voy a poner el meta charged VF guión 8.
+
+41
+00:03:23,990 --> 00:03:28,790
+De esta manera se codifica todo correctamente incluso en HTML 5.
+
+42
+00:03:28,820 --> 00:03:31,920
+No haría falta ni siquiera cerrar las etiquetas con la barra.
+
+43
+00:03:31,940 --> 00:03:39,920
+Aunque a mí siempre me ha gustado bien pues también le voy a indicar el cuerpo que va a tener la página.
+
+44
+00:03:39,960 --> 00:03:46,880
+Vale voy a ponerle el body cierro el body y aquí yo ya puedo escribir cualquier cosa porque eso va a
+
+45
+00:03:46,880 --> 00:03:48,370
+ser lo que se va a mostrar en la web.
+
+46
+00:03:48,530 --> 00:03:53,720
+Esto es lo que hay en el Jet simplemente son metadatos cosas que no se van a mostrar dentro de la página
+
+47
+00:03:53,720 --> 00:03:57,470
+web y aquí se va a mostrar lo que yo le indique en la página web.
+
+48
+00:03:57,470 --> 00:04:03,920
+Voy a poner un H1 y poner aqui curso JavaScript
+
+49
+00:04:10,110 --> 00:04:22,330
+vale y entonces voy a poner un párrafo que va a decir nuestro primer script en JSE cierro el párrafo
+
+50
+00:04:22,800 --> 00:04:25,950
+y ya tengo mi página web cómo la muestro en el navegador.
+
+51
+00:04:25,960 --> 00:04:30,500
+Pues simplemente cojo el archivo y lo arrastró a mi navegador web.
+
+52
+00:04:30,550 --> 00:04:32,460
+Vale y de esa manera me lo carga.
+
+53
+00:04:32,590 --> 00:04:38,200
+Aquí tenemos nuestra página web aquí no indica el Twitter aquí nos indica el H1 1 y el párrafo tal y
+
+54
+00:04:38,200 --> 00:04:39,130
+como lo hemos hecho.
+
+55
+00:04:39,130 --> 00:04:45,140
+Si hago controlo en el navegador o muestro el código de mi fichero Index de HTML.
+
+56
+00:04:45,250 --> 00:04:46,740
+Bien hasta aquí todo correcto.
+
+57
+00:04:46,750 --> 00:04:50,840
+Entonces cómo hago yo para crear mi primer script en JavaScript.
+
+58
+00:04:50,930 --> 00:04:59,320
+Pues para eso normalmente los scripts se suelen poner con el jet o en la parte final de nuestro Bodhi
+
+59
+00:04:59,410 --> 00:05:01,680
+o de nuestro código HTML de acuerdo.
+
+60
+00:05:01,690 --> 00:05:07,480
+Una vez que se haya cargado ya todo el árbol de etiqueta pero normalmente para empezar pues lo creamos
+
+61
+00:05:07,480 --> 00:05:13,600
+dentro del gif porque en el gif donde están los metadatos la parte que no es visible en el cuerpo de
+
+62
+00:05:13,600 --> 00:05:19,720
+la página web entonces cómo hacemos nuestro primer escrit utilizando la etiqueta script.
+
+63
+00:05:20,200 --> 00:05:25,470
+Así de simple script todo lo que vaya dentro de esta etiqueta es código JavaScript.
+
+64
+00:05:25,630 --> 00:05:26,340
+De acuerdo.
+
+65
+00:05:26,380 --> 00:05:32,530
+Si quieres ser todavía más redundante indicarse y forzar al navegador que entienda obligatoriamente
+
+66
+00:05:32,530 --> 00:05:35,660
+de código JavaScript para los navegadores antiguos.
+
+67
+00:05:35,670 --> 00:05:43,410
+A lo mejor es recomendable ponerle aquí escribe Tip y ponerle el atributo text barra JavaScript.
+
+68
+00:05:43,570 --> 00:05:45,450
+Esto es interesante.
+
+69
+00:05:45,620 --> 00:05:49,190
+Es bueno ponerlo en minúscula JavaScript.
+
+70
+00:05:50,260 --> 00:05:54,870
+Entonces aquí dentro de esta etiqueta yo voy a poner mi código de JavaScript.
+
+71
+00:05:54,880 --> 00:06:01,070
+Siempre siempre siempre el código de JavaScript debe ir entre estas etiquetas vale dentro una etiqueta
+
+72
+00:06:01,150 --> 00:06:01,780
+scrip.
+
+73
+00:06:01,890 --> 00:06:07,630
+Entonces cómo hago un Hola mundo pues puedo sacar por ejemplo una alerta cómo hago una alerta pues con
+
+74
+00:06:07,630 --> 00:06:14,110
+la función Alert y dentro de aquí yo tengo que meter en una cadena de texto entre comillas un texto
+
+75
+00:06:14,110 --> 00:06:19,170
+entre comillas y lo puedo decir hola mundo con J.S.
+
+76
+00:06:19,270 --> 00:06:24,240
+De esta manera el navegador va a lanzar una ventana emergente que nos va a decir hola mundo con JS Si
+
+77
+00:06:24,340 --> 00:06:25,700
+actualizamos la pantalla.
+
+78
+00:06:25,840 --> 00:06:30,400
+Efectivamente me dice hola mundo con JS aceptar y ya.
+
+79
+00:06:30,460 --> 00:06:37,560
+De acuerdo incluso podría poner varios Alerts y se van a mostrar uno detrás de otro Hola mundo con.
+
+80
+00:06:37,990 --> 00:06:40,780
+Bienvenido al curso.
+
+81
+00:06:40,780 --> 00:06:43,040
+Bienvenido al curso.
+
+82
+00:06:43,450 --> 00:06:49,060
+Guardo actualizo la pantalla y efectivamente aquí aparece el primer Aulet ya que me aparece el segundo
+
+83
+00:06:49,180 --> 00:06:51,530
+Audivert de manera muy sencilla.
+
+84
+00:06:51,610 --> 00:06:59,140
+Ok pues ya tengo mi Hola Mundo esta manera la manera más simple de incrustar JavaScript en nuestra página
+
+85
+00:06:59,140 --> 00:07:01,160
+web utilizando esta etiqueta.
+
+86
+00:07:01,180 --> 00:07:06,250
+De esta manera luego también podemos utilizar esta etiqueta pero incluir un archivo externo de acuerdo
+
+87
+00:07:06,260 --> 00:07:15,440
+esto lo podemos hacer de esta manera scrip type text barra JavaScript y le puedo decir s refer ya aquí
+
+88
+00:07:15,470 --> 00:07:17,530
+tengo que indicar la ruta de un archivo
+
+89
+00:07:20,170 --> 00:07:20,720
+vale.
+
+90
+00:07:20,740 --> 00:07:24,680
+Si nosotros creamos nuestra carpeta Hola mundo un nuevo fichero que sea.
+
+91
+00:07:25,240 --> 00:07:26,050
+Controles.
+
+92
+00:07:26,620 --> 00:07:37,660
+Hola Mundo punto J.S y yo lo guardo yo puedo coger este código JavaScript o puedo copiar pegar aquí
+
+93
+00:07:39,330 --> 00:07:48,580
+y esta etiqueta HTML y la puedo comentar por el momento la comento para que no se ejecute vale y de
+
+94
+00:07:48,580 --> 00:07:57,930
+esta manera si yo incluyo el fichero Hola Mundo punto J.S vale ya lo mismo.
+
+95
+00:07:57,970 --> 00:08:03,190
+O sea esto va a hacer lo mismo que yo tenía aquí lo único que es mucho más limpio porque lo tengo extraído
+
+96
+00:08:03,190 --> 00:08:09,290
+en un fichero en un fichero externo no está todo dentro del mismo HTML y eso sería una buena práctica.
+
+97
+00:08:09,370 --> 00:08:12,890
+Si yo actualizo la pantalla de igual forma me aparece esto vale.
+
+98
+00:08:12,910 --> 00:08:19,350
+Y si yo quiero hacer por ejemplo también utilizar la función documento punto right para escribir en
+
+99
+00:08:19,360 --> 00:08:21,690
+la página yo puedo mostrar aquí.
+
+100
+00:08:22,420 --> 00:08:30,160
+Hola Mundo de este fichero externo y se me van a mostrar dos Alerts y luego se me va a pintar dentro
+
+101
+00:08:30,160 --> 00:08:34,650
+del cuerpo de la página este texto si autorizó la pantalla.
+
+102
+00:08:34,750 --> 00:08:40,010
+Okey okey y ahora me pinta dentro del cuerpo de la página.
+
+103
+00:08:40,030 --> 00:08:41,200
+Estoy de acuerdo.
+
+104
+00:08:41,560 --> 00:08:47,200
+Hola mundo desde un fichero externo con lo cual ya tenemos nuestro Hola mundo ya sabe montar nuestros
+
+105
+00:08:47,200 --> 00:08:48,870
+primeros pasos dentro de JavaScript.

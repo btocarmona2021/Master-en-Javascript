@@ -1,0 +1,439 @@
+1
+00:00:01,020 --> 00:00:04,430
+Las promesas son muy útiles para evitar el CAL bagel.
+
+2
+00:00:04,440 --> 00:00:10,500
+Tener un Calvache dentro de otro calva y luego dentro de otro callback y luego otro y otro y otro y
+
+3
+00:00:10,500 --> 00:00:14,320
+otro de forma que el código se hace muy ilegible e ignorante.
+
+4
+00:00:14,850 --> 00:00:21,300
+Y sobre todo cuando trabajamos con datos asíncronos competiciones a birretes competiciones hay kayak
+
+5
+00:00:21,510 --> 00:00:28,350
+es muy común que pasen este tipo de cosas entonces por eso el método fetch y por eso devuelve promesas
+
+6
+00:00:28,350 --> 00:00:30,390
+y por eso trabajamos con promesas.
+
+7
+00:00:30,450 --> 00:00:38,760
+Entonces puede pasar que a lo mejor tengamos varias peticiones Ayax que tenemos que esperar a que tengamos
+
+8
+00:00:38,760 --> 00:00:44,590
+el resultado de una para después para después ejecutar la otra y así continuamente y así progresivamente.
+
+9
+00:00:44,840 --> 00:00:48,840
+Entonces para eso las promesas son súper súper útiles.
+
+10
+00:00:49,320 --> 00:00:58,740
+Entonces imagínate que aparte de tener esta promesa de aquí estás llamada Ayax utilizando Fetch al Bakken
+
+11
+00:00:58,770 --> 00:01:04,320
+para que no te vuelva un Jayson y tener esos objetos en nuestro frontend con JavaScript imagínate que
+
+12
+00:01:04,320 --> 00:01:11,010
+necesitamos también Shaker sacar los datos de un usuario en concreto y hacer otra petición allá en específico.
+
+13
+00:01:11,190 --> 00:01:18,090
+Entonces voy a encapsular este código y aquí en una función listado usuarios que simplemente va a servir
+
+14
+00:01:18,090 --> 00:01:22,260
+para mostrar esa información le voy a pasar como parámetro usuarios.
+
+15
+00:01:22,260 --> 00:01:32,160
+Entonces la voy a llamar por aquí a la función está listado usuarios y de paso users punto data directamente
+
+16
+00:01:32,210 --> 00:01:37,100
+y fuera y esta variable también fuera.
+
+17
+00:01:37,100 --> 00:01:41,410
+Vamos a minimizar la cantidad de código que va a haber entonces.
+
+18
+00:01:41,650 --> 00:01:45,520
+Hasta aquí todo correcto se esto la pantalla todo sigue exactamente igual.
+
+19
+00:01:45,550 --> 00:01:54,070
+Si me abro mi consola todo sigue exactamente igual de acuerdo todo sigue igual de bien.
+
+20
+00:01:54,140 --> 00:02:03,070
+Entonces ahora yo necesito hacer otra llamada a otra web R.L que me devuelve otro ya es decir yo quiero
+
+21
+00:02:03,250 --> 00:02:08,650
+sacar un usuario concreto de acuerdo simplemente haciendo esta petición.
+
+22
+00:02:08,640 --> 00:02:15,370
+Ayax entonces aquí esto también lo vamos a encapsular en funciones vamos a tener una función que se
+
+23
+00:02:15,370 --> 00:02:25,300
+va a llamar Goeth usuarios vale esto lo vamos a meter el fets lo vamos a meter aquí controlé X y vamos
+
+24
+00:02:25,300 --> 00:02:32,110
+a hacer Retour para devolver el resultado que donde el fetch y entonces aquí vamos a utilizar esta función
+
+25
+00:02:32,960 --> 00:02:40,240
+que tú usuarios y como esto devuelve el Fetch el resultado del FET y es una promesa.
+
+26
+00:02:40,260 --> 00:02:46,330
+Pues podemos utilizar el método de acuerdo sin ningún tipo de problema y ahora vamos a crear otra función
+
+27
+00:02:48,340 --> 00:02:55,790
+que se va a llamar Goeth usuario o en este caso como se llama el usuario 2 se llama Yanet.
+
+28
+00:02:55,800 --> 00:02:56,800
+Pues vamos a hacer
+
+29
+00:02:59,410 --> 00:03:09,460
+Janette que se llame así la función y vamos a hacer una Kooy a la web RL API barra users barra 2 a esa
+
+30
+00:03:09,460 --> 00:03:15,290
+ruta de aquí hacemos esto y nos tienen que sacar este usuario el usuario Janne.
+
+31
+00:03:16,240 --> 00:03:21,640
+Pero claro yo quiero que eso me lo saque una vez que ya tenga el listado de usuario sacado entonces
+
+32
+00:03:21,690 --> 00:03:32,800
+voy a crear un DIV también por aquí abajo y de Janet cierro el libro le voy a poner también cargando
+
+33
+00:03:35,380 --> 00:03:41,080
+para que lo veamos visualmente si actualizo ahora mismo la pantalla me aparece el cargando del usuario
+
+34
+00:03:41,100 --> 00:03:51,030
+ese entonces yo quiero que una vez que tenga el listado de usuarios me muestre lo siguiente me haga
+
+35
+00:03:51,030 --> 00:04:00,270
+la siguiente promesa Yo aquí tengo que hacer un Returned de Janet vale y en lugar de hacer aquí un Calvache
+
+36
+00:04:00,330 --> 00:04:02,200
+increíble.
+
+37
+00:04:02,280 --> 00:04:07,710
+Coger estos datos aquí y empezar a meter código lo que puedo hacer es otro método Oden puedo encadenar
+
+38
+00:04:07,790 --> 00:04:15,330
+otros como el método anterior me devuelve una promesa Yo puedo ir encadenando promesas es decir cuando
+
+39
+00:04:15,330 --> 00:04:22,200
+tenga los resultados de la petición haya entonces entonces capturarlo y listo me lo usuario y luego
+
+40
+00:04:22,240 --> 00:04:23,810
+Devuélveme el otro usuario.
+
+41
+00:04:23,880 --> 00:04:27,210
+Una vez que tenga ese otro usuario captura los datos
+
+42
+00:04:32,880 --> 00:04:37,910
+que me devuelve esa petición y una vez que los tenga.
+
+43
+00:04:38,490 --> 00:04:41,610
+Pues entonces lo mete dentro de la variable Janez
+
+44
+00:04:45,620 --> 00:04:54,770
+y vamos a mostrar ese usuario Jeaneth como lo podemos hacer creando un método que sea Janet o mostrar
+
+45
+00:04:54,800 --> 00:05:00,620
+Janet que sea como éste lo copio europeo mostrar
+
+46
+00:05:03,040 --> 00:05:11,610
+Janet y le paso el usuario usuario y en este caso no necesito utilizar el método Map porque ya está
+
+47
+00:05:11,830 --> 00:05:18,470
+el objeto limpio no es una colección entonces ahora simplemente utilizo esto.
+
+48
+00:05:18,470 --> 00:05:19,310
+Me voy a crear
+
+49
+00:05:22,950 --> 00:05:29,400
+el lector también de Yanet con alguien que se va a llamar Deep Janet
+
+50
+00:05:33,290 --> 00:05:42,320
+cuyo y de Janet me parece efectivamente y entonces lo utilizo por aquí en mi función obviamente es su
+
+51
+00:05:42,320 --> 00:05:46,820
+nombre en un h 4
+
+52
+00:05:49,400 --> 00:05:51,010
+use un total.
+
+53
+00:05:51,030 --> 00:05:58,540
+Esto lo vamos a poner que se abuse para no cambiar tanto código por aquí y lo vamos a añadir a el dip
+
+54
+00:05:58,840 --> 00:06:02,060
+ya le vale.
+
+55
+00:06:03,000 --> 00:06:09,620
+Y en este caso el loading que haya adentro de DIV Janet en este caso sería Janet.
+
+56
+00:06:10,250 --> 00:06:13,370
+Vale pues si se lo vamos a poner Anole vamos a actualizar la pantalla.
+
+57
+00:06:13,370 --> 00:06:16,170
+Cargando este segundo elemento.
+
+58
+00:06:16,250 --> 00:06:18,260
+No me lo acaba de terminar de hacer.
+
+59
+00:06:18,260 --> 00:06:21,720
+Vamos a ver si la petición se ha realizado correctamente.
+
+60
+00:06:21,770 --> 00:06:24,410
+Efectivamente se ha realizado correctamente.
+
+61
+00:06:24,410 --> 00:06:30,050
+Ahora nos falta ver si entra el método o no mientras claro yo no estoy llamando a esta función realmente
+
+62
+00:06:30,080 --> 00:06:31,180
+y por eso no entra.
+
+63
+00:06:31,190 --> 00:06:35,800
+Entonces tendría que llamar esta función dentro de la promesa de Gareth Bale.
+
+64
+00:06:35,930 --> 00:06:42,860
+Yo llamo a la función mostrar Janet y de paso mi objeto Janet Bale que es un usuario que podría poner
+
+65
+00:06:42,860 --> 00:06:51,980
+aquí Usher y pasarle el usuario autoriza la pantalla y me dice Ah tienes un problema porque no está
+
+66
+00:06:51,980 --> 00:06:53,000
+definido claro.
+
+67
+00:06:53,000 --> 00:06:56,590
+Aquí estoy llamando ahí y realmente y no está definido.
+
+68
+00:06:56,980 --> 00:06:59,630
+Efectivamente guardo autorizó la pantalla.
+
+69
+00:06:59,630 --> 00:07:04,430
+Pam pam y me sacaron de España donde Faydit pero si tanto cuenta primero se ha ejecutado esto y una
+
+70
+00:07:04,430 --> 00:07:07,300
+vez que acabo de ejecutar esto ha ejecutado lo siguiente.
+
+71
+00:07:07,470 --> 00:07:13,520
+Bale me sacan de Fanny porque seguramente estaremos haciendo mal al objeto si hago con su reloj dentro
+
+72
+00:07:13,520 --> 00:07:15,440
+de la propia función mostrar Janet
+
+73
+00:07:18,140 --> 00:07:22,660
+Consol en punto log Usher.
+
+74
+00:07:22,680 --> 00:07:25,820
+Vamos a ver qué hay dentro del objeto.
+
+75
+00:07:25,830 --> 00:07:30,750
+Efectivamente me saco una propiedad data y dentro de Data están todos los datos.
+
+76
+00:07:31,290 --> 00:07:36,680
+Entonces tendría que pasarle un punto data.
+
+77
+00:07:36,980 --> 00:07:38,780
+De esa manera actualizo la pantalla.
+
+78
+00:07:38,770 --> 00:07:39,510
+Pam pam.
+
+79
+00:07:39,710 --> 00:07:41,240
+Y hoy me lo saca.
+
+80
+00:07:41,350 --> 00:07:47,020
+Vale incluso podría poner un H.R para separar la información.
+
+81
+00:07:47,690 --> 00:07:51,530
+De esta manera utilizamos la promesa en cada uno una promesa detrás de otra.
+
+82
+00:07:51,650 --> 00:07:56,390
+Y de esa manera evitamos el bagel si no lo hubiéramos hecho de esta manera encadenando la promesa que
+
+83
+00:07:56,390 --> 00:07:58,430
+es la manera más óptima de hacerlo.
+
+84
+00:07:58,430 --> 00:08:06,860
+Tendríamos que haber hecho dentro de este call back o sea dentro de esta función haber hecho la otra
+
+85
+00:08:06,860 --> 00:08:07,820
+llamada.
+
+86
+00:08:07,820 --> 00:08:11,750
+Vale haber hecho el otro que Janet y ahí dentro.
+
+87
+00:08:11,750 --> 00:08:19,040
+Luego otro y luego dentro de ese Calvache otro y así continuamente de forma un poco liosa si tenemos
+
+88
+00:08:19,040 --> 00:08:21,080
+muchas peticiones asíncrona.
+
+89
+00:08:21,080 --> 00:08:26,020
+De esta manera si lo hacemos con el dempués ya llevaba esperando los datos.
+
+90
+00:08:26,050 --> 00:08:30,770
+Está esperando la siguiente promesa la siguiente promesa la siguiente promesa y hasta que va ejecutando
+
+91
+00:08:30,950 --> 00:08:33,580
+todo lo que necesita.
+
+92
+00:08:33,800 --> 00:08:39,640
+Otra cosa que podríamos hacer es mostrar la imagen del usuario ya para completar el ejercicio porque
+
+93
+00:08:39,660 --> 00:08:47,300
+aparece un avatar una R.L de Avatar entonces en el mostrar Janet podemos hacer lo siguiente.
+
+94
+00:08:47,300 --> 00:08:56,360
+Podemos crear un nuevo elemento Avatar que según el punto create elemento y que sea una y MG2.
+
+95
+00:08:57,420 --> 00:09:00,460
+Entonces podemos modificar eso sin ningún tipo de problema.
+
+96
+00:09:00,530 --> 00:09:11,990
+Podríamos hacer Avatar punto SRC y aquí yo le indico ls es decir la web R.L mi imagen.
+
+97
+00:09:12,000 --> 00:09:16,320
+Dónde está esa R.L pues está en user punto Avatar.
+
+98
+00:09:16,710 --> 00:09:27,600
+Vale y además le puede modificar el resto de propiedades Avatar punto Wiz y lo puedo poner 100 píxeles.
+
+99
+00:09:27,600 --> 00:09:28,860
+Esto entre comillas.
+
+100
+00:09:31,550 --> 00:09:39,960
+Y luego le puedo modificar también el Jaitt y se lo puedo dejar en alto también como está ahora.
+
+101
+00:09:40,030 --> 00:09:43,080
+Ahora simplemente puedo hacer una pensil al Dib Janet.
+
+102
+00:09:43,110 --> 00:09:52,050
+No puedo hacer Dib Janet junto a Pensil y le paso y M.G. en este caso el avatar.
+
+103
+00:09:52,950 --> 00:09:57,240
+De esa manera le pasó el avatar y ahora se actualiza en la pantalla.
+
+104
+00:09:57,270 --> 00:09:58,000
+Pam.
+
+105
+00:09:58,040 --> 00:09:58,900
+Ahí me lo muestra.
+
+106
+00:09:58,920 --> 00:10:06,910
+De acuerdo tarda un milisegundo en cargarlo porque se está haciendo una petición a un Bakken no efectivamente
+
+107
+00:10:07,070 --> 00:10:12,720
+y está cargando una imagen externa y cuenta primero carga listado y después ya carga lo otro siguiendo
+
+108
+00:10:12,720 --> 00:10:18,070
+el orden de la promesa y esperándose a conseguir los datos anteriores de acuerdo.
+
+109
+00:10:18,180 --> 00:10:24,510
+Así que de esta manera utilizamos el dén y de esta moneda utilizamos la promesa y el método fets para
+
+110
+00:10:24,510 --> 00:10:28,200
+hacer peticiones asíncronas con JavaScript nativo.

@@ -1,0 +1,263 @@
+1
+00:00:01,110 --> 00:00:06,770
+Ahora vamos a hacer un método que no Liste todos los proyectos que tenemos en la base de datos.
+
+2
+00:00:06,930 --> 00:00:17,460
+Para eso voy a crear algún proyecto más vale por ejemplo vamos a poner Google el punto es buscador de
+
+3
+00:00:17,460 --> 00:00:18,150
+Internet
+
+4
+00:00:20,850 --> 00:00:26,760
+mil novecientos noventa y siete y esto sería Payton
+
+5
+00:00:31,620 --> 00:00:33,390
+o como se escriba.
+
+6
+00:00:33,540 --> 00:00:38,790
+Vale vamos a añadir otro que va a ser Facebook
+
+7
+00:00:43,510 --> 00:00:44,170
+puntocom
+
+8
+00:00:49,680 --> 00:00:51,130
+que va a ser una red social
+
+9
+00:00:54,040 --> 00:00:58,630
+vale y esto va a ser en el año 2004
+
+10
+00:01:02,760 --> 00:01:03,550
+ok.
+
+11
+00:01:03,570 --> 00:01:07,940
+Envío y acabo de crear los proyectos.
+
+12
+00:01:08,310 --> 00:01:14,460
+Si reviso mi base de datos documents tengo mis tres documentos nuevos.
+
+13
+00:01:14,520 --> 00:01:19,260
+Mal bien ahora vamos a crear un método que nos pueda listar todos esos proyectos que tenemos en la base
+
+14
+00:01:19,260 --> 00:01:21,180
+de datos no solamente uno.
+
+15
+00:01:21,210 --> 00:01:30,060
+Entonces vamos a crear el método get projects acabado en S y aquí vamos a crear una función que va a
+
+16
+00:01:30,060 --> 00:01:32,070
+recibir una red y una respuesta
+
+17
+00:01:35,450 --> 00:01:36,090
+vale.
+
+18
+00:01:36,120 --> 00:01:40,800
+Y lo primero que deberíamos hacer es simplemente llamar a nuestro modelo al igual que hemos hecho aquí
+
+19
+00:01:40,970 --> 00:01:43,440
+ya no tenemos ni que recoger ningún parámetro.
+
+20
+00:01:43,440 --> 00:01:50,440
+Vamos a llamar a nuestro modelo de proyecto Rayet punto fin utiliza el método file.
+
+21
+00:01:50,580 --> 00:01:57,420
+Simplemente realmente el método Fain lo que hace es sacarme todos los documentos que hay dentro de una
+
+22
+00:01:57,420 --> 00:02:02,850
+entidad o dentro de una colección de datos en este caso de proyectos y yo le puedo pasar por aquí diferentes
+
+23
+00:02:02,850 --> 00:02:12,780
+parámetros diferentes condición le puedo pasar un Wer cuando el año sea igual a 2019.
+
+24
+00:02:13,110 --> 00:02:20,610
+Yo podría hacer esto perfectamente y me sacaría solamente los proyectos cuyo año sea 2019.
+
+25
+00:02:20,700 --> 00:02:25,780
+Pero realmente no será necesario simplemente hacemos el fin le pagamos.
+
+26
+00:02:25,800 --> 00:02:33,210
+No le pasamos ninguna opción y utilizamos el método exec es decir cuando ya no saque los resultados
+
+27
+00:02:33,240 --> 00:02:37,860
+vamos a ejecutar una función de Calvache que vamos a tener por aquí
+
+28
+00:02:40,880 --> 00:02:48,000
+que va a recibir un error en el caso de que se produzca o realmente todos los proyectos Prayuth una
+
+29
+00:02:48,000 --> 00:02:51,890
+raid de objetos una colección de objetos vale.
+
+30
+00:02:52,230 --> 00:02:59,630
+Si realmente se produce el error if R Pues voy a hacer un RETURN.
+
+31
+00:02:59,790 --> 00:03:11,040
+Como ya estamos acostumbrados pues punto estátus 500 puntos y voy a devolver un mensaje que diga que
+
+32
+00:03:13,450 --> 00:03:24,480
+error al devolver los datos cierro un punto y cómo voy a hacer otro y en el caso de que no me lleguen
+
+33
+00:03:24,480 --> 00:03:39,750
+los proyectos de que venga Null que me diga un punto estátus 4 04 y que me diga Hessen a enviar el mensaje
+
+34
+00:03:39,780 --> 00:03:45,080
+que digan no hay proyectos para mostrar
+
+35
+00:03:48,680 --> 00:03:56,700
+y en el caso de que todo vaya bien pues ya voy a hacer un RETURN una respuesta positiva retumbe respondo
+
+36
+00:03:57,130 --> 00:04:01,580
+estátus 200 y voy a devolver
+
+37
+00:04:04,630 --> 00:04:09,350
+el método en la variable que lleva una radio objeto de todos los proyectos vale.
+
+38
+00:04:09,830 --> 00:04:23,990
+Si guardo y creo una ruta nueva Rutter apuntó G.T en una ruta por Guez porque es una ruta para sacar
+
+39
+00:04:24,110 --> 00:04:32,870
+resultado de la API o del Bakken y se va a llamar la ruta proyectes no recibe ningún parámetro y cuando
+
+40
+00:04:32,870 --> 00:04:38,210
+yo llame a esta o R.L o esta ruta por el navegador o haga una petición de esta ruta me voy a cargar
+
+41
+00:04:38,210 --> 00:04:46,840
+el objeto pero hay controles y el método de proyectos acabados en S Cierco un punto y coma guardo y
+
+42
+00:04:46,860 --> 00:04:49,280
+vamos a ejecutar ese método.
+
+43
+00:04:49,280 --> 00:05:02,270
+Voy a llamar a la ruta proyectes por aquí le díasen y efectivamente me saca mis proyectos vale.
+
+44
+00:05:02,420 --> 00:05:09,440
+Aquí lo vemos una red de objeto llamado projects con cada uno de los objetos o documentos que he sacado
+
+45
+00:05:09,440 --> 00:05:11,340
+de la base de datos.
+
+46
+00:05:11,500 --> 00:05:21,880
+Vale como te comentaba antes si yo le pusiera aquí guíes 2019 me va a sacar los objetos cuyo año 2019
+
+47
+00:05:21,880 --> 00:05:30,110
+es decir me va a hacer esa condición y me salga efectivamente esos objetos solamente uno porque cumple
+
+48
+00:05:30,110 --> 00:05:32,150
+esa condición el Wer lo cumple.
+
+49
+00:05:32,150 --> 00:05:36,380
+Vale si yo le pusiera más condiciones pues efectivamente me va a sacar ese tipo de datos.
+
+50
+00:05:36,380 --> 00:05:41,480
+Esto lo puede investigar un poco más en la documentación de mongolos o incluso hacer el curso de modo
+
+51
+00:05:41,630 --> 00:05:46,570
+que yo tengo donde tengo un montón de cosas de esto y en el resto de cursos que tengo yo también pues
+
+52
+00:05:46,580 --> 00:05:52,910
+profundizamos un montón en muchas cosas porque porque por ejemplo el curso que tengo de hacer una red
+
+53
+00:05:52,910 --> 00:05:53,720
+social.
+
+54
+00:05:53,800 --> 00:05:59,740
+Pues ahí ven un montonazo de cosas complejas a nivel de DJs.
+
+55
+00:05:59,790 --> 00:06:08,660
+Entonces también podría ordenar que me interesaría hacer un short utilizarme todo short y ordenar por
+
+56
+00:06:09,230 --> 00:06:19,800
+el año ordenar por año de forma que si yo hago ahora mismo sin una petición me ordena por año antiguo
+
+57
+00:06:19,790 --> 00:06:25,130
+o más antiguo o más nuevo y a lo mejor a mi me interesa ordenar de más nuevo más antiguo eso lo puede
+
+58
+00:06:25,130 --> 00:06:33,450
+hacer utilizando más guías de acuerdo efectivamente de mayor a menor.
+
+59
+00:06:33,470 --> 00:06:36,270
+Vale todo el primero el 2019.
+
+60
+00:06:36,840 --> 00:06:38,610
+A ver realmente quiero ordenar.
+
+61
+00:06:39,680 --> 00:06:49,850
+Así menos quien exactamente así si con el menos IER ordeno de mayor a menor vale y con el Guier ordeno
+
+62
+00:06:49,850 --> 00:06:58,640
+de menor a mayor así que le pongo menos y cuando llega la petición pues me sacan al río Gedo ordenado
+
+63
+00:06:59,120 --> 00:07:04,420
+con el año de mayor a menor.
+
+64
+00:07:04,790 --> 00:07:11,240
+Así que ya tengo mi nuevo método para listar o devolver una colección de objetos de todos los proyectos
+
+65
+00:07:11,240 --> 00:07:13,520
+que yo tengo y estoy ya en el frontón.
+
+66
+00:07:13,520 --> 00:07:17,510
+Podríamos recorrer esto mostrarlo y hacer mil cosas.

@@ -1,0 +1,363 @@
+1
+00:00:01,350 --> 00:00:08,880
+Ya tenemos el .5 hecho con lo cual vamos a marcar en verde y ahora vamos con el .6 que dice hacer un
+
+2
+00:00:08,880 --> 00:00:13,980
+formulario de Lovin falso que nos permita guardar en el local factoraje el nombre del usuario y en el
+
+3
+00:00:13,980 --> 00:00:20,000
+caso de que exista la sesión pues mostrarla vale el formulario ya lo tenemos creado.
+
+4
+00:00:20,060 --> 00:00:27,570
+Aquí en la parte de El Ceibal así que simplemente lo que vamos a hacer va a ser introducir aquí información
+
+5
+00:00:27,660 --> 00:00:33,330
+guardarla en el Local Storage y en el caso de que exista esa información en el local histora una vez
+
+6
+00:00:33,330 --> 00:00:42,810
+que la página se recargue pues mostrarla en ese caso aquí vale mostrarla aquí o quitar todo esto y mostrarla
+
+7
+00:00:42,810 --> 00:00:45,120
+directamente aquí.
+
+8
+00:00:45,280 --> 00:00:46,850
+Bien pues vamos a hacer eso
+
+9
+00:00:51,360 --> 00:00:59,350
+lo que vamos a hacer va a ser ponerle un Heydi a este formulario blogging vale simplemente como ya tenemos
+
+10
+00:00:59,350 --> 00:01:00,880
+una caja que se llama Lovin.
+
+11
+00:01:01,330 --> 00:01:03,700
+Vamos a seleccionar esa caja.
+
+12
+00:01:03,760 --> 00:01:16,880
+Esto será lo falso vamos a seleccionar esa caja Lovin y vamos a seleccionar el formulario.
+
+13
+00:01:16,880 --> 00:01:17,280
+Vale.
+
+14
+00:01:17,320 --> 00:01:18,580
+Y cuando vamos Summit
+
+15
+00:01:22,150 --> 00:01:26,200
+vamos a capturar ese evento.
+
+16
+00:01:26,390 --> 00:01:34,180
+Esto tiene una función de calor y lo que vamos a hacer va a ser recoger los datos de el formulario en
+
+17
+00:01:34,180 --> 00:01:41,880
+este caso vamos a recoger los datos guardados en cada uno de los inputs vale.
+
+18
+00:01:43,570 --> 00:01:49,680
+Entonces yo le pondría una idea a cada a cada imput para poder seleccionar lo mejor en este caso uno
+
+19
+00:01:49,690 --> 00:01:54,490
+sería el Nain como ponerle un guión bajo.
+
+20
+00:01:56,110 --> 00:01:59,480
+Luego el email sería formulario guión bajo y mail
+
+21
+00:02:02,200 --> 00:02:09,010
+y luego la password que sería Phong guión bajo pagos aunque realmente el ejercicio dice que solamente
+
+22
+00:02:09,340 --> 00:02:15,250
+guardemos el nombre del usuario badén no hace falta guardar toda la información simplemente guardar
+
+23
+00:02:15,250 --> 00:02:24,610
+el nombre del usuario nos va a servir como ejemplo pues es válido entonces vamos a seleccionar con un
+
+24
+00:02:24,610 --> 00:02:32,470
+selector Fontenay vamos a seleccionar ese campo y vamos a coger su valio vale y esto es lo que vamos
+
+25
+00:02:32,470 --> 00:02:35,650
+a hacer va a ser guardarlo en el local de storage como lo hacemos aquí.
+
+26
+00:02:35,680 --> 00:02:47,930
+Creamos una variable online y vamos a guardarla dentro del local de storage Balet Local Storage puntos
+
+27
+00:02:47,980 --> 00:02:53,860
+se editen vale y se va a llamar form Nein.
+
+28
+00:02:53,890 --> 00:02:59,860
+El índice del Local Storage que vamos a guardar y vamos a pasar la variable fornicando para guardarla
+
+29
+00:03:00,280 --> 00:03:09,610
+vale de esta forma ya tenemos este valor en el Local Storage vale y una vez que se recargue la pantalla
+
+30
+00:03:10,060 --> 00:03:14,350
+vamos a crear una variable por aquí que se llame Folman
+
+31
+00:03:17,530 --> 00:03:21,920
+vale y que lo que haga sea recoger ese valor del local histora.
+
+32
+00:03:21,970 --> 00:03:27,040
+En este caso sería Local Storage punto Get item
+
+33
+00:03:29,830 --> 00:03:31,900
+form Net.
+
+34
+00:03:31,930 --> 00:03:38,050
+De esta manera tendríamos ya ese valor y entonces podemos indultarlo en cualquier parte de la página
+
+35
+00:03:38,050 --> 00:03:40,170
+en este caso lo podemos incrustar por aquí.
+
+36
+00:03:40,280 --> 00:03:50,320
+Si presionamos los datos del HTML podemos ver si selecciono esta a partir de aquí que lo tengo dentro
+
+37
+00:03:50,320 --> 00:03:58,210
+de un Dib que se llama about Valdéz y que vamos a seleccionar ese Dip con ese Hide Abat.
+
+38
+00:03:59,380 --> 00:04:08,470
+Voy a seleccionar el párrafo que hoy vale dentro de About y voy a hacerle un HTML vale y aquí voy a
+
+39
+00:04:08,470 --> 00:04:19,000
+decir Bienvenido cómo y luego encadeno el nombre del usuario que yo tenga en el local histora.
+
+40
+00:04:19,010 --> 00:04:26,310
+En este caso la variable for Name se agrega un punto y coma guardo y yo creo que ya podríamos probarlo.
+
+41
+00:04:26,310 --> 00:04:30,280
+Vale vamos a actualizar la pantalla y vamos a añadir aquí la información.
+
+42
+00:04:30,280 --> 00:04:35,330
+Otra de las cosas que deberíamos hacer sería ocultar esto.
+
+43
+00:04:35,890 --> 00:04:42,070
+Esta parte de acuerdo en este caso fíjate que nos pone Nul porque realmente no existe nada pero si yo
+
+44
+00:04:42,080 --> 00:04:50,100
+metiera algo vale fíjate que ahora sí que me muestra ese nombre de usuario.
+
+45
+00:04:50,320 --> 00:04:58,420
+Okey entonces lo que he tenido lo que tendremos que comprobar es si aquí si realmente Forni es malo
+
+46
+00:04:58,480 --> 00:04:59,950
+entonces tendremos que hacer un info aquí
+
+47
+00:05:05,530 --> 00:05:09,460
+comprobar si name diferente anulo
+
+48
+00:05:14,370 --> 00:05:22,630
+o si por mail es diferente a An definite
+
+49
+00:05:25,450 --> 00:05:32,740
+y además y entonces en ese caso vamos a ocultar Longino lo Inform.
+
+50
+00:05:32,740 --> 00:05:41,320
+Todo esto lo vamos a ocultar lo que es la caja del móvil la vamos a ocultar vamos a hacer un Jaitt y
+
+51
+00:05:41,890 --> 00:05:49,960
+esto lo vamos a meter entre etiquetas Strogg para que se resalte mucho más con k tenemos la etiqueta
+
+52
+00:05:50,060 --> 00:05:50,590
+estroma
+
+53
+00:05:54,420 --> 00:06:01,580
+guardo actualizó la pantalla y ahora efectivamente pone aquí bienvenido el nombre de mi usuario vale
+
+54
+00:06:01,590 --> 00:06:09,390
+incluso le podría meter un H.R delante para que me separé un poco de lo que hay arriba.
+
+55
+00:06:09,480 --> 00:06:17,310
+Incluso le voy a meter un B.R. para que me separé un poco de lo que de arriba vale le puedo quitar el
+
+56
+00:06:17,330 --> 00:06:19,170
+HR-V porque no queda muy bien
+
+57
+00:06:23,130 --> 00:06:25,180
+así que bienvenido tal.
+
+58
+00:06:25,200 --> 00:06:31,920
+También puedo añadir un link de cerrar sesión porque sería interesante poder volver a mostrar el formulario
+
+59
+00:06:31,920 --> 00:06:33,680
+y la historia.
+
+60
+00:06:34,140 --> 00:06:37,570
+Para eso voy a hacer una PEN a este selector.
+
+61
+00:06:37,620 --> 00:06:39,540
+Vale todo lo suyo sería crear una variable
+
+62
+00:06:42,540 --> 00:06:45,180
+Aboud párrafo
+
+63
+00:06:48,450 --> 00:06:56,340
+y reutilizarla bien en la variable Abat párrafo.
+
+64
+00:06:56,370 --> 00:07:02,850
+Voy a hacer una APEN de un link a HR-V almohadilla.
+
+65
+00:07:03,030 --> 00:07:04,650
+Le voy a poner una clase
+
+66
+00:07:07,500 --> 00:07:13,670
+o un idea como quiera en este caso como solamente va a ser un elemento le vamos a poner una idea que
+
+67
+00:07:13,680 --> 00:07:15,900
+va a ser loadout.
+
+68
+00:07:16,790 --> 00:07:17,550
+Cierro el link
+
+69
+00:07:22,750 --> 00:07:26,240
+okey y cierro con punto y coma.
+
+70
+00:07:26,240 --> 00:07:32,620
+De esta manera se actualizó la pantalla aquí aparece Milic mining de cerrar sesión.
+
+71
+00:07:33,560 --> 00:07:38,480
+Vale y pues cuando lo tenga.
+
+72
+00:07:38,480 --> 00:07:39,860
+En el caso de que yo le dé click
+
+73
+00:07:46,640 --> 00:07:52,670
+vale si yo le doy clic a ese link al link con ideóloga out
+
+74
+00:07:57,480 --> 00:08:00,480
+si le doy click se va a ejecutar esta función
+
+75
+00:08:06,250 --> 00:08:11,960
+y lo que va a hacer esto va a ser hacerme un local storage.
+
+76
+00:08:13,030 --> 00:08:21,230
+Punto Clear de acuerdo con el local lector a punto Clear lo que hago es borrar todas las variables que
+
+77
+00:08:21,230 --> 00:08:30,280
+hay guardadas en la sesión o en la memoria del Local Storage o que de esa manera también debería hacer
+
+78
+00:08:30,280 --> 00:08:36,580
+una redirección en este caso Badel o no sé si Daraya el link por defecto vamos a probarlo si le doy
+
+79
+00:08:36,580 --> 00:08:42,130
+click aquí me lleva arriba pero realmente no me actualiza la pantalla sino actualizo y ya me vuelve
+
+80
+00:08:42,130 --> 00:08:42,690
+a aparecer.
+
+81
+00:08:43,040 --> 00:08:53,050
+Yo quiero que me actualicen la pantalla para eso puedo hacer window punto Reload vale utilizo el Bom
+
+82
+00:08:53,200 --> 00:08:59,320
+de acuerdo el browser o bien modelo utilizo la ventana y le hago un reloj valéis utilizo la pantalla
+
+83
+00:08:59,320 --> 00:09:03,110
+ahora me identifico aquí con datos falsos.
+
+84
+00:09:03,190 --> 00:09:08,000
+Vale ahora me aparece aquí y le doy click a cerrar sesión pam.
+
+85
+00:09:08,410 --> 00:09:13,150
+Realmente me ha borrado esto pero no me han hecho la recarga de la pantalla y lo que debo hacer en lugar
+
+86
+00:09:13,150 --> 00:09:21,110
+de Window es locations porque location es el objeto que nos permite hacer eso ok.
+
+87
+00:09:21,190 --> 00:09:22,030
+Si ahora lo hago
+
+88
+00:09:24,880 --> 00:09:27,350
+me identifico con datos falsos.
+
+89
+00:09:27,370 --> 00:09:34,750
+Vale si le doy click pam me redirige y me muestra de nuevo el formulario del hoy vale con lo cual ya
+
+90
+00:09:34,750 --> 00:09:41,620
+hemos visto como utiliza el local Storage para hacer un lobby falso y tener ahí los datos del usuario
+
+91
+00:09:41,650 --> 00:09:45,250
+identificado durante toda la navegación que yo haga en la página web.

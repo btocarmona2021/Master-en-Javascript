@@ -1,0 +1,227 @@
+1
+00:00:00,700 --> 00:00:07,620
+Bien pues vamos a descargar el plugin y Cury UI y lo vamos a incluir en nuestro proyecto.
+
+2
+00:00:07,620 --> 00:00:13,370
+Tenemos tres opciones la opción Legacy que es para codigo antiguo digamos la opción estable que es la
+
+3
+00:00:13,370 --> 00:00:20,520
+que vamos a utilizar nosotros y la Custom download a custom download aquí podemos elegir para qué versión
+
+4
+00:00:20,520 --> 00:00:24,420
+de cuero queremos este plugin Nelly Curi UI.
+
+5
+00:00:24,690 --> 00:00:32,850
+En este caso vamos a crear la 1:12 de UI y aquí podemos elegir los componentes que queremos que tenga
+
+6
+00:00:33,330 --> 00:00:40,800
+nuestro Kairi y en este caso podemos dejarlo todo pero a lo mejor tú quieres que solamente tenga dos
+
+7
+00:00:40,800 --> 00:00:45,600
+o tres componentes que lo único que utiliza en la web pues simplemente tendrías que seleccionar lo que
+
+8
+00:00:45,600 --> 00:00:46,590
+tú quisieras.
+
+9
+00:00:46,620 --> 00:00:51,840
+Vale y aquí pues simplemente tendríamos que utilizar o elegir el tema que quisiéramos.
+
+10
+00:00:51,900 --> 00:00:56,100
+El tema base incluso lo podríamos incluir al estilo CSS y ya no lo descargaría.
+
+11
+00:00:56,550 --> 00:01:02,120
+Esa opción la tenemos en nuestro caso no vamos a descargar la versión estable que lo lleva todo vale
+
+12
+00:01:03,670 --> 00:01:12,540
+bien entonces voy a abrir este archivo que me acabo de descargar y voy a descomprimir el Highway dentro
+
+13
+00:01:12,630 --> 00:01:13,890
+de mi proyecto.
+
+14
+00:01:13,890 --> 00:01:21,240
+Para eso abro mi proyecto scrip aprendiendo Kairi y dentro de la carpeta J.S voy a descomprimir y arrastrar
+
+15
+00:01:21,900 --> 00:01:23,830
+esto de acuerdo.
+
+16
+00:01:23,950 --> 00:01:34,140
+Uy yo puedo cerrar el archivo comprimido ya puedo cerrar esta carpeta y ahora vamos a incluir la librería
+
+17
+00:01:34,630 --> 00:01:41,010
+cidad cuenta dentro de la carpeta allí contribuí tenemos un montón de cosas tenemos los CSS tenemos
+
+18
+00:01:41,010 --> 00:01:48,840
+archivos J.S luego tenemos los CSS unificado y los J.S. unificado también estructura tema tal.
+
+19
+00:01:48,840 --> 00:01:54,190
+Todo esto tenemos que incluirlo por lo menos los archivos magnificados que es sólo importante.
+
+20
+00:01:54,780 --> 00:02:01,710
+Así que vamos a crear un nuevo archivo de JavaScript para trabajar sobre esto y un nuevo archivo HTML
+
+21
+00:02:01,710 --> 00:02:04,140
+para trabajar sobre esto.
+
+22
+00:02:04,680 --> 00:02:13,380
+Voy a crear un nuevo archivo HTML que se va a llamar interfaz Interface punto HTML y voy a crear un
+
+23
+00:02:13,380 --> 00:02:21,810
+nuevo archivo de JavaScript dentro de la carpeta DJs que se va a llamar controlé s 06 Nión interface
+
+24
+00:02:22,710 --> 00:02:24,780
+untó JS.
+
+25
+00:02:24,940 --> 00:02:29,310
+Aquí vamos a estar trabajando con ui dentro de el archivo Interface.
+
+26
+00:02:29,310 --> 00:02:32,480
+Voy a copiar una estructura HTML básica que tengan por aquí
+
+27
+00:02:35,650 --> 00:02:38,710
+por ejemplo de aquí voy a quitarle el estilo
+
+28
+00:02:41,450 --> 00:02:47,840
+voy a cargar el archivo cero seis interface JS
+
+29
+00:02:52,080 --> 00:02:55,650
+voy a quitar todo el HTML que hay dentro del body.
+
+30
+00:02:55,890 --> 00:02:57,150
+Sólo voy a dejar el H1
+
+31
+00:03:04,830 --> 00:03:06,030
+y ahora vamos a ver
+
+32
+00:03:08,910 --> 00:03:15,090
+QWERTY uy vale vamos a ver los diferentes elementos que nos interesa.
+
+33
+00:03:15,090 --> 00:03:20,220
+Esto lo puedo evitar también aquí en el interfaz de mundo JBS.
+
+34
+00:03:20,220 --> 00:03:21,510
+Voy a poner un documento
+
+35
+00:03:24,060 --> 00:03:28,770
+junto a Reddit para ver cuando la página está cargada.
+
+36
+00:03:34,090 --> 00:03:44,750
+Vale y aquí yo puedo hacer console punto lo que diga hola o qué.
+
+37
+00:03:44,800 --> 00:03:55,570
+Si abrimos ese archivo HTML interface junto a HTML me carga la página y si abro la consola también me
+
+38
+00:03:55,570 --> 00:04:00,510
+carga de texto con lo cual está funcionando lo que hemos hecho de momento ahora vamos a incluir Cury
+
+39
+00:04:00,620 --> 00:04:09,750
+uy en nuestro HTML para que funcionen los nuevos componentes lo nuevo métodos que trae esta librería.
+
+40
+00:04:09,760 --> 00:04:18,490
+Si solamente queremos utilizar los métodos los métodos más básicos yo puedo incluir solamente el JavaScript
+
+41
+00:04:18,570 --> 00:04:27,250
+de acuerdo si yo solamente quiero tener acceso a los métodos concreto como entrañable realizable etc.
+
+42
+00:04:27,280 --> 00:04:34,400
+Todo ese tipo de eventos que hay solamente con incluir el Yi contribuí minipunto JS Me valdría vale.
+
+43
+00:04:34,510 --> 00:04:38,950
+Importante tengo que incluirlo después de cargar el JavaScript porque esto es un plugin que funciona
+
+44
+00:04:38,950 --> 00:04:40,090
+sobre JavaScript.
+
+45
+00:04:40,090 --> 00:04:48,610
+Entonces tengo que primero incluir JavaScript y después un script de tipo texto barra Javascript con
+
+46
+00:04:48,610 --> 00:05:02,450
+el SRC JS barra QR guion UI guion 1.12 punto 1 que es como se llama la carpeta y voy a cargar el Kairi
+
+47
+00:05:02,800 --> 00:05:10,570
+punto guion y .1.000 punto JS Si quiero hacerlo más sencillo le puedo cambiar el nombre de la carpeta
+
+48
+00:05:11,230 --> 00:05:13,930
+de acuerdo.
+
+49
+00:05:14,030 --> 00:05:18,270
+Aquí hago un Renesmee y le cambio el nombre de la carpeta allí Cury.
+
+50
+00:05:18,320 --> 00:05:19,410
+Nada más.
+
+51
+00:05:19,510 --> 00:05:26,170
+Y aquí le cambio a la ruta el nombre también vale de esta manera yo ya estoy cargando y Kairi guay.
+
+52
+00:05:26,200 --> 00:05:34,510
+Vale si actualizo la pantalla y me voy a elementos o incluso llamo controlo yo veo que si le doy click
+
+53
+00:05:34,660 --> 00:05:40,310
+me carga el archivo sin ningún tipo de problema con todos los métodos nuevos que tiene recovery.
+
+54
+00:05:40,420 --> 00:05:45,520
+Vale entonces vamos a ver cómo funcionan los diferentes métodos que hay.
+
+55
+00:05:45,520 --> 00:05:47,650
+Eso ya lo vamos a ver en la siguiente clase.
+
+56
+00:05:47,860 --> 00:05:59,170
+Vamos a ver cómo funciona el trabajo el ceibo el selectivo el sorteo el Peibbol el drop y un montón
+
+57
+00:05:59,170 --> 00:06:00,290
+de cosas que tiene.

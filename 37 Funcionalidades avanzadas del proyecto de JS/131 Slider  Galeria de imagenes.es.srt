@@ -1,0 +1,383 @@
+1
+00:00:01,170 --> 00:00:06,360
+Vamos a continuar con el proyecto y en este caso lo que tenemos que hacer es buscar un Leider o una
+
+2
+00:00:06,360 --> 00:00:12,960
+galería una típica galería que haya en las webs que hay en la página web y incluirla.
+
+3
+00:00:12,950 --> 00:00:13,800
+Coñi Quay.
+
+4
+00:00:13,860 --> 00:00:19,320
+Simplemente tenemos que buscar un plugin para hacer un Leider incluirlo en nuestra web así que vamos
+
+5
+00:00:19,320 --> 00:00:22,640
+a buscar en Google un líder para Kairi.
+
+6
+00:00:22,950 --> 00:00:30,470
+Simplemente buscamos es líder y plugin vale.
+
+7
+00:00:30,530 --> 00:00:37,770
+Y uno de los que no aparece es BX es líder que es un Leider que está muy bien y vamos a utilizar este
+
+8
+00:00:37,860 --> 00:00:40,690
+simplemente lo que vamos a conseguir va a ser esto.
+
+9
+00:00:40,980 --> 00:00:45,860
+Esta típica galería de fotos que está en muchas páginas web.
+
+10
+00:00:46,440 --> 00:00:55,620
+Así que fíjate que tenemos incluso ejemplos de cómo utilizarlo vale con tal código aquí con lo que hay
+
+11
+00:00:55,620 --> 00:00:58,520
+que poner como tiene que ser el HTML.
+
+12
+00:00:58,530 --> 00:01:04,110
+Todo vale vamos a basarnos en esto así que vamos a instalar la librería simplemente
+
+13
+00:01:06,820 --> 00:01:10,880
+podemos utilizar los CDN que nos da para hacerla
+
+14
+00:01:14,470 --> 00:01:22,790
+podemos utilizar Bower también podemos utilizar también LPM aunque esto todavía no lo hemos visto de
+
+15
+00:01:22,790 --> 00:01:29,010
+la manera más sencilla copiando el script que carga el archivo del CDN.
+
+16
+00:01:29,110 --> 00:01:38,300
+Es simplemente un servidor de assets es decir que lo que hace es servir o proporcionarnos los assets
+
+17
+00:01:38,390 --> 00:01:41,960
+o los plugins o librerías que vamos a cargar a nivel de frontend.
+
+18
+00:01:41,990 --> 00:01:47,660
+En este caso tenemos los CSS y tenemos el JavaScript así que vamos a copiar estas líneas y la vamos
+
+19
+00:01:47,660 --> 00:01:51,950
+a pegar en nuestro índex punto HTML en la parte del GIT.
+
+20
+00:01:52,290 --> 00:01:58,130
+Vale aquí vamos a poner un comentario que va a ser Leider
+
+21
+00:02:02,660 --> 00:02:10,020
+okey aquí estamos incluyendo también QWERTY así que lo podemos incluso dejar para que lo cargue el CDN
+
+22
+00:02:10,030 --> 00:02:10,630
+de Google.
+
+23
+00:02:10,640 --> 00:02:17,130
+No hay ningún tipo de problema vale o podemos meterlo en nuestra carpeta de JS.
+
+24
+00:02:17,190 --> 00:02:22,380
+Eso ya como tú quieras en este caso lo podemos dejar que lo cargue el CDN aunque si lo carga el CDN
+
+25
+00:02:22,470 --> 00:02:28,170
+Necesitamos conexión a internet para que se conecte a estas R.L donde tenemos la librería
+
+26
+00:02:32,300 --> 00:02:39,830
+entonces descargamos tanto Kairi como el slider y lo vamos a cargar por aquí
+
+27
+00:02:46,600 --> 00:02:55,390
+ok perfecto ahora para poder utilizar el Leider simplemente tenemos que crear un Dib como nos indica
+
+28
+00:02:55,390 --> 00:02:55,730
+aquí
+
+29
+00:03:00,930 --> 00:03:08,670
+vale si nos vamos a examples Image Gallery una galería de imágenes como ésta simplemente tendríamos
+
+30
+00:03:08,670 --> 00:03:10,380
+que crear un dip como éste.
+
+31
+00:03:10,370 --> 00:03:15,810
+Aquí vamos a copiarlo y lo vamos a pegar y lo vamos a estar modificando.
+
+32
+00:03:15,870 --> 00:03:22,620
+Esto yo lo quiero justo debajo del menú así que en nuestro código debajo del menú debajo del jede tenemos
+
+33
+00:03:22,620 --> 00:03:29,340
+un DIV que se llama la idea así que aquí dentro lo vamos a meter un dip con la clase BX es Leider aunque
+
+34
+00:03:29,340 --> 00:03:34,760
+realmente la clase da igual le puedes poner lo que quieras y aquí vamos a cargar dentro de los otros
+
+35
+00:03:34,770 --> 00:03:41,520
+tips que tenemos que son cada una de las pantallas o de los steps de los pasos de las fotos que va a
+
+36
+00:03:41,520 --> 00:03:45,970
+haber dentro de la galería pues tendremos que cargar imágenes nuestras.
+
+37
+00:03:46,050 --> 00:03:53,610
+En este caso nuestras imágenes están en eMerge barra y ahí tenemos nuestra imagen en una base de hojas
+
+38
+00:03:53,610 --> 00:03:56,190
+junto JPG.
+
+39
+00:03:56,470 --> 00:04:07,940
+Te vamos a poner un twitter si queremos que muestre el caption otra que va a ser y M.G. barra rojo
+
+40
+00:04:11,110 --> 00:04:12,170
+un jpg
+
+41
+00:04:16,290 --> 00:04:21,550
+y otro que va a ser cielo y M.G. barra cielo.
+
+42
+00:04:21,550 --> 00:04:28,810
+Si ahora mismo punto JPG ahora mismo autorizó la pantalla aquí me aparecen imágenes totalmente grande
+
+43
+00:04:28,930 --> 00:04:32,000
+y realmente no hace nada.
+
+44
+00:04:32,000 --> 00:04:37,720
+Vale ahora vamos a utilizar el plugin que acabamos de instalar el BX es Leider esto que acabamos de
+
+45
+00:04:37,840 --> 00:04:40,850
+instalar en nuestro fichero punto J.S.
+
+46
+00:04:40,880 --> 00:04:50,730
+Vale aquí tendremos que utilizar el documento Redi documento punto Redi y cuando esto esté listo vamos
+
+47
+00:04:50,730 --> 00:04:52,740
+a ejecutar lo que nosotros queramos.
+
+48
+00:04:52,750 --> 00:04:54,650
+En este caso qué tenemos que hacer.
+
+49
+00:04:54,650 --> 00:05:00,310
+Pues si nos vamos a la documentación podemos ver que simplemente seleccionamos lo que es el slider y
+
+50
+00:05:00,310 --> 00:05:02,190
+utilizamos el método BX.
+
+51
+00:05:02,330 --> 00:05:02,880
+Es la idea.
+
+52
+00:05:02,890 --> 00:05:09,670
+Vamos a copiar este trozo y lo vamos a pegar por aquí para ver como funciona realmente lo que es la
+
+53
+00:05:09,670 --> 00:05:10,880
+clase BX el.
+
+54
+00:05:10,900 --> 00:05:16,870
+Da igual que se llame así o que se llame de otra manera si es como galería pues simplemente tendría
+
+55
+00:05:16,870 --> 00:05:22,900
+que seleccionar galería aquí la clase galería utilizó el método BX Leider y le paso un Jayson con las
+
+56
+00:05:22,900 --> 00:05:23,530
+opciones.
+
+57
+00:05:23,570 --> 00:05:32,860
+Vale le puedo decir el width el tamaño de El slight de la foto en si que se va a visualizar si quiero
+
+58
+00:05:32,860 --> 00:05:39,040
+que se muestren caption o no y el modo que sería el tipo de animación que hace para transicional entre
+
+59
+00:05:39,040 --> 00:05:44,100
+una foto y otro si autorizo la pantalla ahora realmente no ha pasado nada.
+
+60
+00:05:44,110 --> 00:05:50,350
+Por qué no pasa nada porque no he cargado mi archivo del líder de acuerdo o mi archivo minipunto J.S.
+
+61
+00:05:50,620 --> 00:05:55,030
+Vale eso lo voy a cargar aquí en la parte de scripts.
+
+62
+00:05:55,290 --> 00:06:02,940
+Voy a mi getter y justo debajo de la parte del plugin es Leider voy a poner aquí una sección que va
+
+63
+00:06:02,940 --> 00:06:10,180
+a ser mis scripts y aquí es donde yo voy a cargar mi escribe.
+
+64
+00:06:10,230 --> 00:06:14,340
+En este caso el script type text Marla JavaScript
+
+65
+00:06:20,790 --> 00:06:29,070
+RFEV JS Va Rahma inculto J.V que es el fichero principal donde yo tengo todo esto
+
+66
+00:06:34,100 --> 00:06:41,510
+donde yo tengo el código de JavaScript que estoy poniendo ahora y cierra el script de esta manera si
+
+67
+00:06:41,510 --> 00:06:48,820
+yo guardo y actualizo la pantalla voy a ver que efectivamente aquí no aparece ni es Leider vale aquí
+
+68
+00:06:48,820 --> 00:06:52,990
+lo estamos viendo qué pasa que me aparece con un tamaño que a lo mejor no me gusta.
+
+69
+00:06:52,990 --> 00:06:58,510
+Vale entonces yo quiero que esto tenga un tamaño que a mi me convenga como puedo ponerlo simplemente
+
+70
+00:06:58,510 --> 00:07:02,860
+modificando esto el huid sería de 1200
+
+71
+00:07:07,220 --> 00:07:09,890
+así si que se adaptaría perfectamente.
+
+72
+00:07:11,190 --> 00:07:15,900
+Pues hasta aquí todo correcto me encargué del Leider sin ningún tipo de problema y tal pero ahora me
+
+73
+00:07:15,900 --> 00:07:21,690
+interesa cambiarle la altura del Leider porque esto es demasiado alto porque las imagenes son demasiado
+
+74
+00:07:21,690 --> 00:07:26,110
+grandes y simplemente quiero que tenga una altura de 250 pixeles.
+
+75
+00:07:26,160 --> 00:07:30,500
+Cómo puedo modificar esa altura de acuerdo cómo puedo hacer ese cambio.
+
+76
+00:07:30,570 --> 00:07:38,130
+Pues mira simplemente mi estilo CSS aquí al final voy a añadir un par de reglas CSS simplemente tengo
+
+77
+00:07:38,130 --> 00:07:49,280
+que seleccionar lo que es la caja del líder en este caso BX guapear y BX View por estas dos clases y
+
+78
+00:07:49,280 --> 00:08:00,180
+voy a seleccionar la BX rapper y X punto Px View port.
+
+79
+00:08:01,140 --> 00:08:07,590
+Vale y ahora le voy a aplicar una propiedad de CSS a estas dos a estos dos elementos estas dos clases
+
+80
+00:08:07,860 --> 00:08:16,620
+me iba a decir que el Jaitt va a ser de 250 píxeles y además le voy a poner un importante para que machaque
+
+81
+00:08:16,650 --> 00:08:17,850
+cualquier cosa que pueda.
+
+82
+00:08:17,870 --> 00:08:20,490
+A ver si actualizo la pantalla.
+
+83
+00:08:20,490 --> 00:08:28,350
+Efectivamente me cambio el tamaño ya que estoy machacando cualquier estilo que pueda tener con referencia
+
+84
+00:08:28,350 --> 00:08:29,410
+a la altura.
+
+85
+00:08:29,580 --> 00:08:34,270
+Así que ya tenemos nuestro Leider completamente funcional.
+
+86
+00:08:34,650 --> 00:08:40,080
+Esto lo pueden modificar y recontra modificar y lo sabe simplemente tienes que indagar en la documentación
+
+87
+00:08:40,080 --> 00:08:46,050
+de este plugin pueden modificar la velocidad cualquier cosa o sea cualquier cosa realmente que se imagine
+
+88
+00:08:46,140 --> 00:08:47,120
+que te imagines.
+
+89
+00:08:47,130 --> 00:08:55,660
+Por ejemplo si quieres quitar estos tres puntos de aquí porque no te interesan vale pues habrá alguna
+
+90
+00:08:55,660 --> 00:08:56,920
+opción para quitarlo.
+
+91
+00:08:56,980 --> 00:09:05,740
+Si buscamos Pages vale aquí poner Tru por defecto por defecto Binet a Trump pero si yo en mi objeto
+
+92
+00:09:05,740 --> 00:09:14,170
+Yeison le pongo aquí Plager 2 puntos false vale le 7o esa propiedad a false a false si actualizo la
+
+93
+00:09:14,170 --> 00:09:22,180
+pantalla los tres puntos no aparecen y simplemente se queda Leider limpio digo en mi caso se lo voy
+
+94
+00:09:22,180 --> 00:09:30,400
+a poner al truc porque me parece que está bien que tenga esos tres puntos y ahí aparece y yo puedo ir
+
+95
+00:09:30,400 --> 00:09:34,900
+navegando entre las diferentes imágenes que hay en mi galería así que ya hemos visto como utilizar un
+
+96
+00:09:34,900 --> 00:09:39,400
+plugin cualquiera en Kairi y ya hemos visto cómo hacer nuestro Leider en la web.

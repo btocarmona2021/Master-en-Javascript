@@ -1,0 +1,283 @@
+1
+00:00:01,140 --> 00:00:06,690
+Vamos a hacer una mejora en el borrado de los proyectos porque cuando nosotros borramos un proyecto
+
+2
+00:00:06,720 --> 00:00:12,660
+y le damos al botón de borrar directamente nos borra el proyecto y nos redirige a la página de proyectos
+
+3
+00:00:12,960 --> 00:00:19,770
+pero no nos hace ninguna pregunta de confirmación para realmente eliminar el proyecto y comprobar si
+
+4
+00:00:19,770 --> 00:00:25,310
+estamos seguros de que lo queremos borrar así que eso es lo que vamos a hacer en esta clase.
+
+5
+00:00:25,410 --> 00:00:31,440
+Lo que vamos a hacer va a ser abrir nuestro componente de tal punto com poner un punto tse y aquí lo
+
+6
+00:00:31,440 --> 00:00:38,560
+que vamos a hacer va a ser crear una propiedad pública que sea confiable.
+
+7
+00:00:38,670 --> 00:00:45,340
+Vamos a crear esta propiedad confirmó y le vamos a decir que es un booleano volia por defecto ponerla
+
+8
+00:00:45,420 --> 00:00:50,200
+false disputo confirm igual a.
+
+9
+00:00:50,730 --> 00:00:56,410
+De acuerdo entonces este confín lo vamos a utilizar para hacer lo siguiente.
+
+10
+00:00:56,550 --> 00:01:01,730
+Aquí hemos puesto una botonera con los botones de editar y borrar todo eso entonces vamos a ponerle
+
+11
+00:01:01,730 --> 00:01:11,060
+una Lejeune y vamos a decir que solamente se muestren cuando confirm sea igual a false confirm igual
+
+12
+00:01:11,070 --> 00:01:17,150
+igual a false Male cuando sea exactamente igual a false que no muestre esto de aquí.
+
+13
+00:01:17,460 --> 00:01:23,250
+Si guardamos y actualizamos la pantalla todo va a seguir igual y no va a mostrar esos botones vale y
+
+14
+00:01:23,250 --> 00:01:27,930
+me voy a copiar este trozo de código y ahora vamos a hacer justo lo contrario.
+
+15
+00:01:27,930 --> 00:01:29,340
+Vamos a poner unos botones
+
+16
+00:01:32,160 --> 00:01:34,260
+de eliminar definitivamente
+
+17
+00:01:38,740 --> 00:01:39,830
+y el de cancelar
+
+18
+00:01:42,530 --> 00:01:46,280
+vale entonces esto solamente pasará cuando confirm se Atrus.
+
+19
+00:01:46,880 --> 00:01:50,060
+Ok de momento pues todo está bien.
+
+20
+00:01:50,060 --> 00:01:58,850
+Si yo le pusiera confirm a Trump ahora se mostrarían en sus segundos botones efectivamente se mostrarían
+
+21
+00:01:59,590 --> 00:02:07,700
+esos segundos botones que además los estilos están un poco regular y se me está haciendo más pequeño
+
+22
+00:02:07,700 --> 00:02:08,660
+el botón.
+
+23
+00:02:08,810 --> 00:02:13,310
+Así que podríamos hacerlo al estilo de los botones más grandes poniéndole un
+
+24
+00:02:16,350 --> 00:02:20,240
+30 por ciento 30 por ciento y ponerle el texto en el centro.
+
+25
+00:02:20,250 --> 00:02:27,480
+Eso lo podríamos hacer también así que vamos a abrirlo estilo CSS que tenemos en assets CSS estables
+
+26
+00:02:28,470 --> 00:02:30,460
+y donde tenemos los botones.
+
+27
+00:02:30,600 --> 00:02:31,380
+Voy a buscarlo.
+
+28
+00:02:31,380 --> 00:02:34,800
+Controlé F 20 por ciento ve a buscar
+
+29
+00:02:37,810 --> 00:02:38,890
+gol.
+
+30
+00:02:39,220 --> 00:02:49,870
+Aquí le voy a poner un 30 por ciento pero le voy a poner un tex aligncenter y de esa manera ya tengo
+
+31
+00:02:49,870 --> 00:02:51,170
+los botones mejor.
+
+32
+00:02:51,280 --> 00:02:55,500
+Perfecto entonces sólo quiero que estos botones se me en ese caso.
+
+33
+00:02:55,630 --> 00:02:57,500
+Vale entonces qué voy a hacer.
+
+34
+00:02:57,550 --> 00:03:06,700
+Pues mira por default yo no voy a borrar directamente la entrada o el proyecto utilizando este método
+
+35
+00:03:06,700 --> 00:03:12,760
+que hace la petición Ayax sino que voy a utilizar un método antes de que lo que haga sea lanzarme el
+
+36
+00:03:12,780 --> 00:03:20,740
+confirm de acuerdo ponérmelo a Tru por defecto lo vamos a tener a Fool's pero yo voy a crearme un método
+
+37
+00:03:21,340 --> 00:03:31,030
+que se va a llamar que se va a llamar CED confirm y entonces le voy a pasar un parámetro que sea confirm
+
+38
+00:03:32,500 --> 00:03:39,880
+y entonces lo que voy a hacer va a ser que le voy a dar un valor a disputo confirm con el valor que
+
+39
+00:03:39,880 --> 00:03:41,590
+me venga como parámetro.
+
+40
+00:03:41,960 --> 00:03:48,160
+Ok entonces yo ahora voy a llamar a este método desde mi vista lo llamo desde aquí en lugar de borrarlo
+
+41
+00:03:48,160 --> 00:03:56,770
+directamente llamó al método ser confirm y le voy a pasar un truco para que le dé el valor Tru y me
+
+42
+00:03:56,770 --> 00:03:59,560
+muestre los otros.
+
+43
+00:03:59,560 --> 00:04:05,470
+El otro párrafo de acuerdo que además le puedo poner yo aquí un texto que está seguro
+
+44
+00:04:08,200 --> 00:04:18,040
+de eliminar este proyecto vale y entonces aquí en este segundo enlace en el enlace de editar que estoy
+
+45
+00:04:18,040 --> 00:04:24,520
+poniendo aquí en lugar de que sea un enlace hay tal proyecto voy a ponerle el enlace de cancelar que
+
+46
+00:04:24,520 --> 00:04:26,250
+sería utilizando el evento click.
+
+47
+00:04:26,250 --> 00:04:32,470
+También utilizando el set confirm pero esta vez poniéndolo a false.
+
+48
+00:04:32,890 --> 00:04:34,690
+Vamos a comprobar que esto funciona.
+
+49
+00:04:35,200 --> 00:04:40,360
+Actualizamos la pantalla y la idea borrar spam me aparece estás seguro de que quieres eliminar este
+
+50
+00:04:40,360 --> 00:04:41,350
+proyecto.
+
+51
+00:04:41,440 --> 00:04:48,010
+Si debo cancelar vuelvo a los botones de atrás aquí voy a poner un verde para que salte de línea.
+
+52
+00:04:50,610 --> 00:04:57,080
+Vamos a comprobar que lo que estaba bien vale menos mal que estaba bien realmente bien.
+
+53
+00:04:57,130 --> 00:05:02,140
+Entonces vamos a comprobar si le doy a borrar me aparece esto tal cual.
+
+54
+00:05:02,160 --> 00:05:04,000
+Esto ahora le daremos uno estilo.
+
+55
+00:05:04,120 --> 00:05:08,210
+Si le doy a cancelar me Buelga como estaba.
+
+56
+00:05:08,230 --> 00:05:10,540
+Si de borrar me vuelve a aparecer.
+
+57
+00:05:10,540 --> 00:05:16,150
+La confirmación se debía eliminar definitivamente me lo borra y efectivamente ya me redirige aquí y
+
+58
+00:05:16,150 --> 00:05:17,670
+ya no aparece el proyecto.
+
+59
+00:05:18,160 --> 00:05:22,540
+Voy a crear otro proyecto que se va a llamar Hola mundo
+
+60
+00:05:35,560 --> 00:05:40,150
+estoy creando mi proyecto y le voy a añadir una imagen
+
+61
+00:05:44,470 --> 00:05:48,610
+que va a ser esta aquí envío voy a verlo.
+
+62
+00:05:48,610 --> 00:05:56,050
+Vale y ahora vamos a darle uno de estilo a este texto de aquí malvivió poner obviamente dentro de un
+
+63
+00:05:56,050 --> 00:05:57,870
+español España
+
+64
+00:06:04,280 --> 00:06:12,570
+te voy a poner una clase que va a ser la clase confirm vale y me voy a ir a mis estilos y le voy a agregar
+
+65
+00:06:12,570 --> 00:06:14,130
+unos estilos por aquí al final
+
+66
+00:06:17,610 --> 00:06:25,000
+confirm le voy a poner un display blog voy a poner un fondo guay.
+
+67
+00:06:25,620 --> 00:06:37,360
+Boll vale y voy a poner un margen top de 10 pixeles que guardo actualizo la pantalla a borrar me parece
+
+68
+00:06:37,880 --> 00:06:42,360
+seguro que quieren borrar quizá le voy a añadir un poco más de margen superior.
+
+69
+00:06:43,630 --> 00:06:47,620
+Le doy ahora sí está seguro que quiere eliminar este proyecto.
+
+70
+00:06:47,620 --> 00:06:55,870
+Le voy a eliminar definitivamente y ya tenemos la ventana de confirmación o el aviso de que voy a eliminar
+
+71
+00:06:56,470 --> 00:07:00,220
+definitivamente un proyecto hecho correctamente.

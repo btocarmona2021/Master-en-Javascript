@@ -1,0 +1,159 @@
+1
+00:00:00,690 --> 00:00:04,830
+Ahora vamos a aprender lo que son las listas dentro de una web.
+
+2
+00:00:04,830 --> 00:00:11,640
+Nosotros podemos tener un listado de información recopilada por ejemplo un listado de frutas y que formen
+
+3
+00:00:11,640 --> 00:00:17,090
+parte de una lista con sus puntos o con su numeración o incluso.
+
+4
+00:00:17,090 --> 00:00:24,540
+También podemos tener una lista a la cual nosotros luego le damos un formato específico a nivel de CSS.
+
+5
+00:00:24,540 --> 00:00:32,580
+El objetivo principal de una lista es tener una serie de información conjunta o una serie de datos que
+
+6
+00:00:32,670 --> 00:00:38,280
+tienen cierta relación y que nos interesa mostrarlo de una manera conjunta en formato de listado.
+
+7
+00:00:38,730 --> 00:00:41,700
+Entonces vamos a ver cómo se hace una lista dentro de HTML.
+
+8
+00:00:41,700 --> 00:00:46,660
+Vamos a venir a nuestro último párrafo y aquí dentro vamos a crear una lista.
+
+9
+00:00:46,770 --> 00:00:53,370
+Hay dos tipos de listas las ordenadas y las desordenadas una lista ordenada sería con la etiqueta o
+
+10
+00:00:53,370 --> 00:00:57,270
+l hicieron la etiqueta o L.
+
+11
+00:00:57,270 --> 00:01:03,140
+De esta manera yo puedo crear una lista para crear cada uno de los elementos de la lista.
+
+12
+00:01:03,150 --> 00:01:10,800
+Yo tengo que utilizar la etiqueta Helí y cierro la etiqueta allí y aquí entro yo voy a crear mi mi elemento
+
+13
+00:01:10,800 --> 00:01:11,250
+de la lista.
+
+14
+00:01:11,250 --> 00:01:18,390
+Por ejemplo vamos a hacer una lista de frutas más manzana voy a crear otro elemento para la lista que
+
+15
+00:01:18,390 --> 00:01:20,400
+va a ser naranja
+
+16
+00:01:24,000 --> 00:01:25,410
+voy a crear otro lista.
+
+17
+00:01:25,410 --> 00:01:33,480
+Otro elemento para el listado que va a ser Vera y otro que va a ser sandía por ejemplo
+
+18
+00:01:36,640 --> 00:01:38,100
+y cierro el link.
+
+19
+00:01:38,120 --> 00:01:45,410
+El elemento de la lista guardo actualizo la pantalla de aquí me aparece mi listado de frutas mal e incluso
+
+20
+00:01:45,710 --> 00:01:47,570
+podría llevarme este o L.
+
+21
+00:01:47,570 --> 00:01:58,670
+Fuera del párrafo y aquí crearme un H3 también que diga listado de frutas
+
+22
+00:02:05,040 --> 00:02:11,380
+vale y entonces tengo mi lista de fruta ordenada del 1 al 4.
+
+23
+00:02:11,520 --> 00:02:16,650
+Vale que lo estamos viendo pero también puedo hacer que la lista sea desordenada.
+
+24
+00:02:16,650 --> 00:02:24,380
+Para eso puedo utilizar el l la etiqueta huele huele significa un ordenadito listo.
+
+25
+00:02:24,460 --> 00:02:33,300
+Acuerdo y significa orden aided List Lista ordenada entonces y ahora guardo con controles y actualizo
+
+26
+00:02:33,330 --> 00:02:34,290
+la pantalla.
+
+27
+00:02:34,300 --> 00:02:39,760
+Aquí aparece la lista desordenada simplemente con puntos en lugar de con números.
+
+28
+00:02:40,140 --> 00:02:45,170
+Además dentro de las listas puedo meter su lista también de acuerdo.
+
+29
+00:02:45,180 --> 00:02:52,080
+Es decir dentro de un lí yo puedo coger y decir que hay dentro otra lista con otro huele y esto se va
+
+30
+00:02:52,080 --> 00:03:00,470
+a mostrar con un formato con un formato ya tabulado y con un formato ordenado para que la lista se formalice
+
+31
+00:03:00,480 --> 00:03:02,820
+y visualice correctamente en la página web.
+
+32
+00:03:02,910 --> 00:03:10,140
+En este caso voy a crear otro elemento dentro de la lista que sea manzana roja o manzana verde
+
+33
+00:03:15,790 --> 00:03:18,650
+entonces si yo guardo y actualizo la pantalla.
+
+34
+00:03:18,650 --> 00:03:23,320
+Aquí aparece dentro de la lista en mi listado principal y dentro del elemento manzana me aparece otra
+
+35
+00:03:23,320 --> 00:03:31,880
+lista con el elemento roja y elemento verde como si fuera un subtipo de la manzana.
+
+36
+00:03:31,890 --> 00:03:36,430
+De esta manera y de esta manera nosotros hacemos la lista a nivel de texto.
+
+37
+00:03:36,510 --> 00:03:42,030
+Luego también podríamos tener una lista si pensamos una página web real podríamos tener un listado con
+
+38
+00:03:42,030 --> 00:03:49,290
+la etiqueta huele o L para hacer el menú de navegación que cada uno de los link que haya dentro de la
+
+39
+00:03:49,290 --> 00:03:57,830
+lista sea un enlace a una página o un enlace a otra de las secciones de nuestra página web etcétera.
+
+40
+00:03:57,900 --> 00:04:01,130
+Pero eso lo vamos a ir viendo poco a poco a lo largo del curso.

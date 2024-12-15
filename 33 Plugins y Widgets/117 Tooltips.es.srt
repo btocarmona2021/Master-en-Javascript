@@ -1,0 +1,179 @@
+1
+00:00:01,140 --> 00:00:07,710
+Ya hemos visto varios de los métodos y efectos nuevos que no incluye Kourí Uy y ahora vamos a ver cómo
+
+2
+00:00:07,710 --> 00:00:10,800
+utilizar varios de los Willet más importantes.
+
+3
+00:00:10,810 --> 00:00:18,020
+Bien vamos a empezar por el Tulip porque me parece me parece interesante para utilizar un Tulip un Tulip
+
+4
+00:00:18,030 --> 00:00:23,890
+simplemente es como un pequeño PopUp que aparece cuando pasa por encima de algún elemento.
+
+5
+00:00:24,390 --> 00:00:29,980
+Entonces para hacer el efecto voy a crearme un input en el cual voy a hacer ese efecto.
+
+6
+00:00:31,850 --> 00:00:36,290
+Entonces voy a hacer un H.R aquí para separar con lo que hemos hecho antes.
+
+7
+00:00:40,070 --> 00:00:46,120
+Vale y aquí vamos a empezar a hacer efectos o utilizar estos Willett.
+
+8
+00:00:46,540 --> 00:00:52,130
+Vale vamos a poner un H3 en este caso vamos a ver cómo hacer un Tultepec
+
+9
+00:00:55,010 --> 00:00:57,210
+bien aquí vamos a hacer.
+
+10
+00:00:57,280 --> 00:01:03,650
+Entonces voy a hacerme un imput en el cual cuando pase por encima de él se me muestre algo o incluso
+
+11
+00:01:03,680 --> 00:01:09,330
+un enlace sobre que cuando pase por encima de él se muestre algo no.
+
+12
+00:01:09,350 --> 00:01:13,520
+Por ejemplo si yo pongo aquí un link que no me lleva a ningún sitio
+
+13
+00:01:17,090 --> 00:01:26,480
+que ponga mis datos por ejemplo y yo le pongo un par de atributos interesantes como por ejemplo un títere
+
+14
+00:01:27,410 --> 00:01:34,970
+que diga acceder a la sección de mis datos de esta web vale
+
+15
+00:01:38,320 --> 00:01:46,270
+y además le pongo un IDEP que sea mis datos yo puedo utilizar este enlace.
+
+16
+00:01:46,360 --> 00:01:53,440
+O sea yo puedo utilizar los Tulip para que todos lo elementos que tenga un tío Del Sel se le lance un
+
+17
+00:01:53,440 --> 00:01:53,950
+Tulip.
+
+18
+00:01:53,950 --> 00:01:54,730
+Cómo lo puedo hacer.
+
+19
+00:01:54,730 --> 00:01:56,020
+Pues simplemente llamando
+
+20
+00:01:59,680 --> 00:02:08,920
+al método Tultepec lo puedo aplicar sobre el documento vale puedo hacer Tulip llamar ese método y cuando
+
+21
+00:02:08,920 --> 00:02:13,280
+paso por encima fijate lo que pasa.
+
+22
+00:02:13,280 --> 00:02:22,450
+Vale que se nos muestra simplemente pues el último vale incluso yo podría hacer más elemento como éste
+
+23
+00:02:23,970 --> 00:02:29,200
+más enlace voy a quitarle el enlace porque no hace falta realmente
+
+24
+00:02:35,640 --> 00:02:36,750
+identificarse
+
+25
+00:02:59,190 --> 00:03:10,080
+vale y de esta manera tan simple yo puedo utilizar los Tulip vale para hacer diferente para utilizarlo
+
+26
+00:03:10,080 --> 00:03:15,750
+en diferentes contextos dentro de una página web en Kairi hay un montón de plugins que funcionan igual
+
+27
+00:03:15,750 --> 00:03:23,160
+de fácil que éste y nos sirven para hacer Tyr y además podemos modificar cómo se comportan si se salen
+
+28
+00:03:23,160 --> 00:03:26,080
+por un lado y salen por arriba y salen por abajo de acuerdo.
+
+29
+00:03:26,130 --> 00:03:34,660
+Hay un montón de plugins de ese tipo para hacer Tultepec simplemente buscando en Google tu últil recovery.
+
+30
+00:03:34,850 --> 00:03:40,140
+Vale no van a aparecer el primero es de Cury porque está muy posicionado después los de vostra porque
+
+31
+00:03:40,140 --> 00:03:49,980
+también Busters tiene un montón de plugins que utilizan Swery pero si buscas tu último plugin aquí te
+
+32
+00:03:49,980 --> 00:03:56,020
+van a parecer mucho mal e incluso mira una web que te recopila 73 plugins para hacer esto.
+
+33
+00:03:56,500 --> 00:03:59,940
+Vale fíjate este ejemplo está muy bien.
+
+34
+00:04:00,000 --> 00:04:09,490
+Recuerdo haberlo utilizado en algún momento vale fíjate que nos permite modificar mucho los estilos
+
+35
+00:04:09,490 --> 00:04:13,740
+del Tulip.
+
+36
+00:04:13,900 --> 00:04:21,590
+Fíjate por ejemplo este plugin está muy bien y si te pones a mirar cómo se utiliza vale si nos vamos
+
+37
+00:04:21,590 --> 00:04:24,410
+a que te estarte.
+
+38
+00:04:24,860 --> 00:04:29,380
+Fíjate cómo se incluye no dice cómo se utiliza en el html.
+
+39
+00:04:29,390 --> 00:04:35,740
+Básicamente poniendo un Tite al igual que hemos visto y luego utilizando el método hípster de acuerdo
+
+40
+00:04:35,780 --> 00:04:42,490
+simplemente utilizando este método ya está lo mismo que hemos hecho con el plugin de Cury Higüey simplemente
+
+41
+00:04:42,480 --> 00:04:50,210
+que se llama diferente y puede y tienen más opciones no le puedes poner temas puedes incluso modificar
+
+42
+00:04:50,210 --> 00:04:51,510
+esos estilos de septum.
+
+43
+00:04:51,620 --> 00:04:54,870
+Una vez que tenga fin puedes hacer un montonazo de cosas.
+
+44
+00:04:55,940 --> 00:05:01,830
+Vale simplemente es ir probando y investigando los diferentes plugins que te interesen.
+
+45
+00:05:01,910 --> 00:05:08,320
+En mi caso conecté de Cury uy yo lo puedo modificarlo al estilo CSS o puedo dejarlo tal y como está.

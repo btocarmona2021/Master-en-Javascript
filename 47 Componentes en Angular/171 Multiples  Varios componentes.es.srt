@@ -1,0 +1,243 @@
+1
+00:00:00,940 --> 00:00:06,960
+Yo ahora mismo tengo mi componente de videojuegos vale pero realmente yo podría tener en mi habitación
+
+2
+00:00:06,960 --> 00:00:09,320
+muchos más componentes creado vale.
+
+3
+00:00:09,330 --> 00:00:14,850
+Cómo puedo crear otro componente seguir siguiendo el mismo procedimiento que hemos visto ni un fólder
+
+4
+00:00:15,150 --> 00:00:23,260
+voy a crear un nuevo componente que va a ser un componente de zapatillas vale voy a crear dentro de
+
+5
+00:00:23,260 --> 00:00:30,580
+esa carpeta un nuevo fichero que va a ser mi clase de componente en este caso zapatillas punto componente
+
+6
+00:00:31,010 --> 00:00:39,250
+puntos S y además voy a crear también la vista que va a ser zapatillas apuntó component.
+
+7
+00:00:39,410 --> 00:00:41,130
+Apuntó HTML.
+
+8
+00:00:41,610 --> 00:00:48,150
+Entonces voy a definir todo lo que tiene el componente por defecto en este caso vamos a tener un input
+
+9
+00:00:49,170 --> 00:00:50,760
+con el módulo component
+
+10
+00:00:53,340 --> 00:00:58,000
+from arroba angular barra Acore que es el paquete.
+
+11
+00:00:58,840 --> 00:01:05,310
+Vale ahora voy a definir mis metadatos del componente component con el decorador que va a indicar dentro
+
+12
+00:01:05,310 --> 00:01:11,790
+de un gallo todo lo que va a tener en este caso el selector.
+
+13
+00:01:11,790 --> 00:01:18,210
+El selector va a ser zapatillas esa va a ser la etiqueta donde yo voy a cargar mi componente y luego
+
+14
+00:01:18,390 --> 00:01:19,340
+voy a tener mi vista.
+
+15
+00:01:19,340 --> 00:01:27,330
+En este caso template o R.L y le digo que la vista va a ser un Tobarra zapatillas apuntó component apuntó
+
+16
+00:01:28,110 --> 00:01:29,400
+HTML.
+
+17
+00:01:29,560 --> 00:01:35,760
+Y ahora define mi clase Esport para poder utilizar la clase en otro archivo dentro de otro archivo es
+
+18
+00:01:35,790 --> 00:01:40,710
+por qué las zapatillas vamos a ponerlo bien.
+
+19
+00:01:41,010 --> 00:01:41,910
+Zapatillas
+
+20
+00:01:44,790 --> 00:01:55,140
+component y simplemente pues definen mi clase puedo indicarle que va a tener un título públic título
+
+21
+00:01:56,660 --> 00:02:01,040
+que va a ser una string y también puedo asignarle un valor directamente aquí.
+
+22
+00:02:01,170 --> 00:02:07,530
+No sería la mejor práctica del mundo pero se puede hacer también de acuerdo en le puedo decir componente
+
+23
+00:02:08,250 --> 00:02:17,700
+de zapatillas OK Computer como y en mi vista lo voy a mostrar dentro de un HD2 aquí con la doble llave.
+
+24
+00:02:17,700 --> 00:02:21,370
+Muestro título cierro el H2.
+
+25
+00:02:21,410 --> 00:02:27,690
+Vale ya ahora si yo me pongo a utilizar este nuevo componente voy a cerrar el archivo.
+
+26
+00:02:27,690 --> 00:02:30,090
+Si yo me pongo a utilizar zapatillas
+
+27
+00:02:33,790 --> 00:02:41,720
+que si este componente acaba de crear vamos a ver los errores que no anda si actualizo la pantalla se
+
+28
+00:02:41,720 --> 00:02:47,240
+me queda en blanco la pantalla aquí en el compilador no aparece nada pero si hablo la herramienta de
+
+29
+00:02:47,240 --> 00:02:56,180
+desarrolladores aquí en la parte de consola muy importante siempre revisarla nos dice Ojo zapatillas
+
+30
+00:02:56,600 --> 00:03:00,310
+no es un elemento conocido de acuerdo.
+
+31
+00:03:00,370 --> 00:03:01,080
+1.
+
+32
+00:03:01,160 --> 00:03:10,990
+Si zapatillas es un componente angular tienes que verificar si está añadido en el módulo vale y luego
+
+33
+00:03:11,110 --> 00:03:17,650
+nos dicen que parte pues tenemos el error a la hora de esto y sobre todo nos indica eso que a lo mejor
+
+34
+00:03:17,650 --> 00:03:19,250
+nos falta añadirlo al módulo.
+
+35
+00:03:19,270 --> 00:03:26,890
+Efectivamente eso es lo que nos falta darlo de alta en nuestro NG Module y cargarlo así que voy a importar
+
+36
+00:03:27,040 --> 00:03:29,020
+componentes zapatillas import
+
+37
+00:03:31,480 --> 00:03:38,620
+zapatillas component from y le vindicar Tobarra zapatillas
+
+38
+00:03:41,050 --> 00:03:48,730
+barra zapatillas untó component cierro con un punto y coma y cargo mi componente en Declaration que
+
+39
+00:03:48,730 --> 00:03:51,010
+es el sitio donde se cargan los componentes.
+
+40
+00:03:51,400 --> 00:03:57,370
+Vale así que lo cargo por aquí zapatillas componen y yo ya tengo disponible este componente para llamarlo
+
+41
+00:03:57,400 --> 00:04:03,120
+desde cualquier parte de mi aplicación deambular en todo ello ya si lo llamo aquí en mi propio componer
+
+42
+00:04:03,130 --> 00:04:09,200
+HTML si llamo a este componente perfectamente me aparece aquí componente de zapatillas.
+
+43
+00:04:09,310 --> 00:04:15,780
+También podríamos añadirle un listado de zapatillas como hemos hecho con videojuegos como añadir lo
+
+44
+00:04:15,780 --> 00:04:16,450
+que uno huele
+
+45
+00:04:19,480 --> 00:04:20,110
+huele.
+
+46
+00:04:20,150 --> 00:04:21,490
+Aquí vamos añadir el listado
+
+47
+00:04:27,860 --> 00:04:28,950
+Rebus Classic
+
+48
+00:04:31,430 --> 00:04:37,390
+Adidas Yipsi y bueno podríamos añadir muchas más marcas.
+
+49
+00:04:38,020 --> 00:04:42,750
+Vale si actualizamos la pantalla pues aquí nos aparece el componente pues ya sabes que lo podemos reutilizar
+
+50
+00:04:42,750 --> 00:04:47,100
+todas las veces que queramos y donde queramos es decir yo puedo coger este componente de zapatillas
+
+51
+00:04:47,340 --> 00:04:54,690
+abrirme la vista de videojuego componer y cargar abajo perfectamente y aquí en vez de componer ni siquiera
+
+52
+00:04:54,690 --> 00:04:56,610
+llamarlos yo si no quiero.
+
+53
+00:04:57,030 --> 00:05:02,790
+No hace falta solamente cargó el componente de videojuegos yo quito el videojuego de aquí se me van
+
+54
+00:05:02,920 --> 00:05:04,530
+los otros dos.
+
+55
+00:05:04,940 --> 00:05:08,380
+Ya no se me muestra el otro tampoco.
+
+56
+00:05:08,570 --> 00:05:12,810
+Entonces yo puedo hacer las combinaciones que yo quiera y mostrar aquí zapatillas y yo quiero también
+
+57
+00:05:13,190 --> 00:05:15,100
+y mostrar por dos veces.
+
+58
+00:05:15,100 --> 00:05:18,170
+Efectivamente y como yo quiera.
+
+59
+00:05:18,270 --> 00:05:23,750
+Vale entonces ya hemos visto también cómo crear múltiples componentes y tenerlo dentro de nuestra aplicación
+
+60
+00:05:24,620 --> 00:05:30,930
+y de esta manera podría crear uno y miles de componentes dentro de mi aplicación y estar usándolo en
+
+61
+00:05:30,930 --> 00:05:33,660
+cualquier parte de la misma como yo quiera.

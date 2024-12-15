@@ -1,0 +1,179 @@
+1
+00:00:02,370 --> 00:00:09,900
+Vale pues siguiendo con el tema de las clases los métodos y los atributos vamos antes hemos dicho que
+
+2
+00:00:10,620 --> 00:00:13,770
+un coche por ejemplo podría tener diferentes funciones.
+
+3
+00:00:13,950 --> 00:00:16,940
+Por ejemplo sería una podría ser el acelerar.
+
+4
+00:00:16,950 --> 00:00:19,940
+Otra podría ser el frenar etcétera.
+
+5
+00:00:19,970 --> 00:00:27,240
+Entonces lo normal es que los métodos realicen algo en el objeto de acuerdo hagan algo que sea una funcionalidad
+
+6
+00:00:27,270 --> 00:00:32,840
+o una acción que pueda realizar nuestro nuestra nuestro objeto básicamente.
+
+7
+00:00:33,000 --> 00:00:40,310
+Por ejemplo el objeto coche podría acelerar y podría frenar vamos a crear un par de métodos acelerar
+
+8
+00:00:42,170 --> 00:00:50,070
+lo que van a hacer vaser modificar la propiedad velocidad no uno va a ser acelerar lo que va a hacer
+
+9
+00:00:50,070 --> 00:00:54,590
+va a ser 10 puntos velocidad va a ser sumarle uno a velocidad.
+
+10
+00:00:56,020 --> 00:01:00,480
+Vale más más con el operador mamá y otro que otro medio que va a ser frenar
+
+11
+00:01:03,570 --> 00:01:14,390
+que nos va a permitir quitarle velocidad a la variable velocidad no a la propiedad velocidad valientes
+
+12
+00:01:14,400 --> 00:01:21,900
+por defecto le vamos a dar un valor a esta propiedad que va a ser uno o cero Balet por defecto le vamos
+
+13
+00:01:21,900 --> 00:01:27,810
+a dar ese valor que no se debe asignar un valor aquí se debe hacer con un constructor pero eso lo vamos
+
+14
+00:01:27,810 --> 00:01:34,090
+a ver más adelante vale en principio no falla la compilación está todo correcto.
+
+15
+00:01:34,230 --> 00:01:40,100
+No falla también y ahora podemos utilizar estos métodos de frenar y acelerar.
+
+16
+00:01:40,110 --> 00:01:47,370
+Por ejemplo vamos a cambiarle la velocidad al coche número uno al coche entonces por ejemplo podemos
+
+17
+00:01:47,370 --> 00:01:59,780
+utilizar ese método coche punto acelerar vale vamos a acelerar 3 veces vale 1 2 y 3.
+
+18
+00:01:59,790 --> 00:02:03,340
+Entonces ahora la velocidad está al 3 vale.
+
+19
+00:02:03,510 --> 00:02:12,990
+Si nosotros mostramos la velocidad esto lo vamos a poner por aquí lo vamos a comentar para que no nos
+
+20
+00:02:12,990 --> 00:02:17,220
+estorbe.
+
+21
+00:02:17,860 --> 00:02:25,310
+Vale entonces si por ejemplo el color del coche ya se mueve se lo hemos asignado vale y por aquí vamos
+
+22
+00:02:25,310 --> 00:02:28,210
+a poner la velocidad del coche uno
+
+23
+00:02:31,840 --> 00:02:35,210
+es y aquí vamos a tener un método también en velocidad.
+
+24
+00:02:35,220 --> 00:02:45,620
+Vale vamos a crear un método por aquí o al ser velocidad lo que va a hacer básicamente recoger o devolver
+
+25
+00:02:46,880 --> 00:02:51,600
+el valor que tiene velocidad en este momento vale.
+
+26
+00:02:51,650 --> 00:02:57,250
+Y en este caso podemos decir también que donde devuelva un Lambe vale nos devuelve a un tipo concreto
+
+27
+00:02:57,460 --> 00:03:03,350
+vale guardamos y esto no da ningún tipo de error tampoco de tipado ni nada vale entonces aquí utilizamos
+
+28
+00:03:03,510 --> 00:03:08,550
+el método de velocidad Babé.
+
+29
+00:03:08,930 --> 00:03:14,120
+Entonces de esta forma vamos creando funciones vamos creando un método aquí que vaya interactuando con
+
+30
+00:03:14,120 --> 00:03:20,630
+esta variable o atributo o propiedad de la clase vale y así podemos crear tanta distancia como necesitemos
+
+31
+00:03:20,630 --> 00:03:26,780
+de la clase coche reutilizar todo eso lo máximo que podamos y no ahorramos tiempo trabajo y hacemos
+
+32
+00:03:26,780 --> 00:03:29,690
+mejores prácticas de programación etcétera.
+
+33
+00:03:29,690 --> 00:03:37,250
+Como ya sabemos no vale entonces vamos a ver la velocidad del coche que en este caso debería ser 3 vale
+
+34
+00:03:37,360 --> 00:03:45,200
+aquí la velocidad del coche estress vale pero si nosotros utilizamos el método frenar vale utilizamos
+
+35
+00:03:45,200 --> 00:03:55,130
+por aquí el método frenar coche frenar vale y volvemos a mostrar la velocidad nos va a poner que la
+
+36
+00:03:55,130 --> 00:04:01,060
+velocidad es dos y vamos a la velocidad después de frenar
+
+37
+00:04:06,640 --> 00:04:10,470
+el coche uno de dos.
+
+38
+00:04:10,690 --> 00:04:13,670
+Aquí lo demás vale hemos restado uno.
+
+39
+00:04:14,250 --> 00:04:15,040
+Pues nada.
+
+40
+00:04:15,040 --> 00:04:21,520
+De esta forma podemos ir creando propiedades o sea ir creando un método que interactúen con las propiedades
+
+41
+00:04:21,580 --> 00:04:22,590
+etcétera.
+
+42
+00:04:22,740 --> 00:04:28,270
+En el siguiente vídeo lo que vamos a ver es cómo usar los constructores para inicializar variable.
+
+43
+00:04:28,540 --> 00:04:34,610
+Darle un valor a las propiedades que tenemos o básicamente por lanzar algún método o lo que sea.
+
+44
+00:04:34,930 --> 00:04:39,880
+En este caso un constructor básicamente para lo que se usa suele ser para darle un valor a alguna de
+
+45
+00:04:39,880 --> 00:04:41,140
+las propiedades de nuestra clase.

@@ -1,0 +1,347 @@
+1
+00:00:00,960 --> 00:00:06,030
+Ahora vamos a aprender qué son las funciones de Anonymous y cómo trabajar con ella y también cómo crearlas.
+
+2
+00:00:06,030 --> 00:00:14,580
+Para eso vamos a hacer un nuevo fichero controles que se va a llamar 21 guión funciones
+
+3
+00:00:17,280 --> 00:00:23,870
+anónimas punto JS Y en el Hynde punto HTML voy a añadir ese script
+
+4
+00:00:27,230 --> 00:00:30,360
+21 funciona Guillain anónimas
+
+5
+00:00:36,790 --> 00:00:48,100
+y en el script voy a poner el uso Street y vamos a hablar de las funciones anónimas una función anónima
+
+6
+00:00:48,100 --> 00:00:53,500
+no es más que una función que no tiene nombre es decir que ese conjunto de instrucciones no va a tener
+
+7
+00:00:53,500 --> 00:00:58,840
+ningún nombre y yo lo puedo guardar dentro de una variable de forma que esto se suele utilizar muchísimo
+
+8
+00:00:58,840 --> 00:01:07,120
+en JavaScript muchísima librería y en muchas cosas pero sobre todo se utiliza para hacer cal VAX y cosas
+
+9
+00:01:07,120 --> 00:01:12,420
+así no un calva que es una función que se ejecuta dentro de otra por decirlo de una manera sencilla
+
+10
+00:01:13,270 --> 00:01:15,030
+y eso veremos cómo hacerlo luego.
+
+11
+00:01:15,040 --> 00:01:24,690
+Pero bueno básicamente una función anónima es una función que no tiene nombre.
+
+12
+00:01:24,790 --> 00:01:29,520
+Básicamente todo yo puedo crear una variable que se llame película.
+
+13
+00:01:30,530 --> 00:01:37,540
+Entonces yo puedo crear aquí una función función como valor a esa variable y le puedo pasar incluso
+
+14
+00:01:37,540 --> 00:01:44,380
+un parámetro que tenga un parámetro nombre de la película y dentro simplemente puedo hacer un RETURN
+
+15
+00:01:45,250 --> 00:01:49,300
+de la película.
+
+16
+00:01:50,440 --> 00:01:59,200
+Es entonces de concatena simplemente el nombre de la película va del nombre o el parámetro yo estoy
+
+17
+00:01:59,200 --> 00:02:01,580
+pasando por la función anónima.
+
+18
+00:02:01,630 --> 00:02:04,410
+De esta manera tan simple tengo ya una función anónima.
+
+19
+00:02:04,740 --> 00:02:12,550
+Vale entonces cómo puedo llamarla pues simplemente la consola podría poner yo película y pasarle el
+
+20
+00:02:12,550 --> 00:02:14,360
+nombre.
+
+21
+00:02:15,190 --> 00:02:21,310
+Vale entonces la función existe y tiene este nombre pero es una función anónima es decir que si yo cambio
+
+22
+00:02:21,310 --> 00:02:25,360
+el nombre de aquí perfectamente lo puedo modificar.
+
+23
+00:02:25,690 --> 00:02:29,380
+Entonces esta función está funcionando perfectamente y además tiene este nombre por qué.
+
+24
+00:02:29,380 --> 00:02:33,870
+Porque la variable tiene ese nombre entonces de esta manera tengo una función anónima.
+
+25
+00:02:34,240 --> 00:02:40,090
+Entonces para entender mucho mejor la función anónima vamos a ver que es un Korvac es simplemente una
+
+26
+00:02:40,090 --> 00:02:45,820
+función que se ejecuta dentro de otra de acuerdo es una función dentro de una función de acuerdo cuando
+
+27
+00:02:45,820 --> 00:02:51,430
+se ejecuta una función después de ejecutarse pues ejecuta esa misma función.
+
+28
+00:02:51,430 --> 00:02:52,860
+Otra función dentro.
+
+29
+00:02:53,020 --> 00:02:59,920
+Entonces para entenderlo vamos a tener una función que se va a llamar Mame suma y se va a llamar y recibir
+
+30
+00:02:59,920 --> 00:03:05,900
+pues un número uno y un número dos vale.
+
+31
+00:03:06,490 --> 00:03:13,940
+Vamos a crear una variable suma sumar que sume el número uno y el número dos
+
+32
+00:03:18,250 --> 00:03:20,040
+y de momento ya estaría.
+
+33
+00:03:20,040 --> 00:03:22,760
+No simplemente esto sería la función normal.
+
+34
+00:03:22,760 --> 00:03:24,800
+Yo podría llamarla en cualquier parte.
+
+35
+00:03:25,320 --> 00:03:33,180
+Yo podría llamar aquí a mi función sumarme y pasarle el número uno que sea el 4 y el número 2 que sea
+
+36
+00:03:33,180 --> 00:03:33,860
+del 5.
+
+37
+00:03:34,890 --> 00:03:36,380
+Y hasta aquí todo correcto.
+
+38
+00:03:36,380 --> 00:03:44,390
+Eso me sumaría a mi resultado y me podemos hacer un returned podemos hacer un retumbo por aquí de sumar
+
+39
+00:03:44,520 --> 00:03:50,840
+y simplemente con eso yo ya puedo llamar a mi función aquí y sumarme.
+
+40
+00:03:50,840 --> 00:03:58,040
+De hecho debería podría hacer un consolarlos aquí o lo que sea consolé apuntó Olog
+
+41
+00:04:00,860 --> 00:04:11,180
+para mostrar el resultado no yo muestro resultado aquí 9 9 sería el resultado entonces una función de
+
+42
+00:04:11,180 --> 00:04:16,910
+call back es una función que se le pasa como parámetro es una función anónima que no tiene ningún nombre
+
+43
+00:04:16,940 --> 00:04:23,210
+y que se le pasa como un parámetro a otra función es decir al final le pasamos una función como parámetro
+
+44
+00:04:23,300 --> 00:04:29,020
+a otra función y esa propia función dentro de ella ejecuta la función anónima que yo le estoy pasando.
+
+45
+00:04:29,090 --> 00:04:40,850
+Vamos a poner un ejemplo yo tengo mi consuelo por alguien voy a dar un Tapp para verlo mejor.
+
+46
+00:04:41,480 --> 00:04:49,250
+Entonces una función anónima haría lo siguiente voy a quitar esto y voy a hacer lo siguiente Voy a explicar
+
+47
+00:04:49,280 --> 00:04:51,940
+cómo se usa o cómo se crea una función anónima.
+
+48
+00:04:51,950 --> 00:04:59,150
+Mira yo puedo tener un parámetro que sea suma y muestra suma y muestra
+
+49
+00:05:02,730 --> 00:05:13,900
+por ejemplo y otro que sea suma por dos y entonces estos dos parámetros van a ser funciones de Calvache.
+
+50
+00:05:14,160 --> 00:05:20,900
+Vale porque yo le veo pasar una función cuando el invoque a esto no lo voy a hacer.
+
+51
+00:05:20,910 --> 00:05:29,460
+La llamada súmamente debe pasar el primer parámetro que va a ser 5 el segundo parámetro más el 7 y el
+
+52
+00:05:29,460 --> 00:05:35,880
+tercer parámetro suma y muestra va a ser una función de Calvache función que es una función anónima
+
+53
+00:05:35,880 --> 00:05:37,110
+que no tiene nombre.
+
+54
+00:05:37,120 --> 00:05:39,870
+Vale le pasa una función de Calvache.
+
+55
+00:05:40,170 --> 00:05:46,320
+Y aquí esta función de Calvache misma ya tiene que recibir un dato vale ya tiene que recibir un dato
+
+56
+00:05:46,320 --> 00:05:47,400
+a devolver.
+
+57
+00:05:47,550 --> 00:05:57,210
+Y esto lo que haría sería un consolé un blog que es suma y muestra en este caso del dato vale la suma
+
+58
+00:05:57,210 --> 00:05:57,600
+es
+
+59
+00:06:00,690 --> 00:06:07,380
+dato vale y luego va a recibir otra función de Calvache Junction que también es una función anónima
+
+60
+00:06:07,440 --> 00:06:12,840
+que también va a recibir un parámetro que es la suma que ya está hecha dato y va a hacer un consolé
+
+61
+00:06:12,840 --> 00:06:13,500
+punto.
+
+62
+00:06:14,370 --> 00:06:17,090
+Pero esta vez va a ser la suma por dos
+
+63
+00:06:19,710 --> 00:06:20,180
+es.
+
+64
+00:06:20,220 --> 00:06:28,080
+Y entonces yo puedo hacer una operación Datu Porthos es decir la suma de lo que se haya hecho multiplicado
+
+65
+00:06:28,080 --> 00:06:34,440
+por dos y simplemente de esta manera tan sencilla cierro con Punto y Coma ya tengo dos funciones anónimas.
+
+66
+00:06:34,860 --> 00:06:42,960
+Vale que estoy utilizando como Callback okey así de simple.
+
+67
+00:06:42,960 --> 00:06:46,380
+Si yo ahora mismo ejecuto esto actualizo la pantalla.
+
+68
+00:06:46,400 --> 00:06:54,950
+Aquí no pasa nada porque yo no estoy invocando a estas funciones dentro de el propio dentro de la propia
+
+69
+00:06:54,950 --> 00:07:00,740
+función sumaré yo dentro de esta función sumarme tengo que invocar esas dos funciones asuma y muestra
+
+70
+00:07:01,790 --> 00:07:11,810
+la invoco y le paso el dato sumar y tengo que invocar también asuma por dos y pasarle el dato sumar
+
+71
+00:07:12,600 --> 00:07:13,480
+un punto y coma.
+
+72
+00:07:13,710 --> 00:07:19,820
+Guardo y actualizo la pantalla ahora sí me hice la suma abduce y la suma por 24 es decir la función
+
+73
+00:07:19,820 --> 00:07:23,510
+de Calvache ya se encarga de devolverme ese resultado.
+
+74
+00:07:23,510 --> 00:07:30,710
+Vuelvo a repetirlo tenemos una función con varios parámetros parámetros normales que hace una operación
+
+75
+00:07:30,710 --> 00:07:38,770
+aquí y luego tengo dos parámetros que son también normales pero yo le paso realmente una función anónima
+
+76
+00:07:38,780 --> 00:07:44,390
+una función anónima en una función que no tiene nombre sin que esté estrictamente utilizada para algo
+
+77
+00:07:44,390 --> 00:07:53,480
+concreto sino que yo sino que yo se la paso de manera anónima como parámetro a una función y esta función
+
+78
+00:07:53,480 --> 00:08:01,280
+anónima aquí se le hace una asignación a esta variable y ya tengo acceso y ya tengo acceso a esa función
+
+79
+00:08:01,280 --> 00:08:08,690
+con este nombre pero esto está completamente abstraído es decir cuando yo invoco al método Summary le
+
+80
+00:08:08,690 --> 00:08:09,860
+paso la función de Calvar.
+
+81
+00:08:09,860 --> 00:08:16,190
+Yo no sé cómo se va a llamar la función dentro de la función principal simplemente yo sé que tengo que
+
+82
+00:08:16,190 --> 00:08:23,480
+pasar un tercer parámetro y hasta le paso mi función anónima que es una función de Calvache tiene como
+
+83
+00:08:23,480 --> 00:08:29,360
+parámetro un dato va a recibir un dato y luego cuando yo la invoco aquí pues recibe efectivamente ese
+
+84
+00:08:29,360 --> 00:08:35,000
+dato y ya muestra la lógica que yo quiera o los datos que yo quiera o hace lo que yo quiera decir que
+
+85
+00:08:35,000 --> 00:08:40,100
+cuando se ejecuta la función principal dentro de esa propia función se ejecuta una función de Calvar
+
+86
+00:08:40,370 --> 00:08:46,220
+y esto es una cosa que se ve muchísimo en QWERTY y en muchos frentes de desarrollo con JavaScript así
+
+87
+00:08:46,220 --> 00:08:49,530
+que ya sabemos lo que es una función anónima y lo que es una función de Calvache.

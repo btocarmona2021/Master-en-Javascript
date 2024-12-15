@@ -1,0 +1,335 @@
+1
+00:00:00,450 --> 00:00:05,280
+Ahora vamos a hablar sobre la herencia el concepto de herencia dentro de la programación orientada a
+
+2
+00:00:05,280 --> 00:00:05,960
+objetos.
+
+3
+00:00:06,000 --> 00:00:12,720
+Es un mecanismo muy básico por el cual las clases hijas heredan de una clase padre madre de forma que
+
+4
+00:00:12,720 --> 00:00:19,360
+por ejemplo podríamos tener una clase que fuera coche y luego tener otra clase.
+
+5
+00:00:19,480 --> 00:00:27,000
+Creo que darán todo lo método de coche por ejemplo si queremos tener una marca de vehículo diferente
+
+6
+00:00:27,090 --> 00:00:33,270
+de acuerdo por ejemplo un Toyota que tenga más ruedas o que sea híbrido lo que tenga características
+
+7
+00:00:33,270 --> 00:00:41,430
+diferentes puede heredar todas las propiedades y métodos que sea posible que tenga la clase coche las
+
+8
+00:00:41,430 --> 00:00:47,280
+puede heredar esa nueva clase y tenerla disponible dentro de ella de acuerdo.
+
+9
+00:00:47,280 --> 00:00:53,340
+Para ilustrarlo mejor vamos a crear un ejemplo desde cero de acuerdo vamos a crear un fichero nuevo
+
+10
+00:00:54,300 --> 00:01:04,390
+lo guardamos se va a llamar programa Punto TS Valoy y este fichero va a ser una clase.
+
+11
+00:01:04,410 --> 00:01:09,810
+Vamos a tener una clase programa de acuerdo a un software por ejemplo puedes tener por ejemplo un nombre
+
+12
+00:01:09,900 --> 00:01:11,610
+y una versión entre otras cosas.
+
+13
+00:01:12,000 --> 00:01:21,480
+Entonces vamos a crear una clase programa madre que está representando a un programa de software.
+
+14
+00:01:21,920 --> 00:01:28,580
+Entonces ponemos públic nombre que sería el nombre del software o del programa.
+
+15
+00:01:28,650 --> 00:01:38,070
+Luego podemos tener también una propiedad que sea versión que va a ser un número y lo vamos a tener
+
+16
+00:01:38,070 --> 00:01:51,090
+nuestros métodos SEBC para el nombre y que recibirá un nombre que será un string y guardará dentro de
+
+17
+00:01:51,150 --> 00:01:59,340
+la propiedad nombre el valor que traiga el parámetro nombre bare.
+
+18
+00:01:59,370 --> 00:02:01,830
+Y lo mismo vamos a hacer con la versión
+
+19
+00:02:05,340 --> 00:02:06,210
+Subversion
+
+20
+00:02:11,910 --> 00:02:26,400
+versión será un número List versión y versión vale entonces ahora lo que vamos a hacer es también crear
+
+21
+00:02:26,400 --> 00:02:29,390
+nuestro método y set para cada una de estas propiedades.
+
+22
+00:02:29,390 --> 00:02:33,030
+No vamos a crear un G3 para nombre
+
+23
+00:02:36,380 --> 00:02:39,750
+el nombre marque.
+
+24
+00:02:39,750 --> 00:02:48,710
+No le vamos a pasar ningún parámetro simplemente va a devolver la propiedad nombre vale lo mismo vamos
+
+25
+00:02:48,710 --> 00:02:49,760
+a hacer con la versión.
+
+26
+00:02:49,760 --> 00:03:02,360
+Vamos a querer su Getter su método Getter versión y va a devolver disputo versión vale ya tenemos nuestra
+
+27
+00:03:02,360 --> 00:03:05,270
+clase que va a actuar como clase padre.
+
+28
+00:03:05,270 --> 00:03:11,990
+Esta clase representa un programa o un globo crearemos un objeto programa y vamos a tener otra clase
+
+29
+00:03:12,210 --> 00:03:14,630
+otro par de clase que hereden.
+
+30
+00:03:14,630 --> 00:03:20,470
+Está de acuerdo cuando estas nuevas clases hereden de la clase un padre y un programa tendrán disponibles
+
+31
+00:03:20,480 --> 00:03:26,930
+todos sus métodos dentro de ella de acuerdo incluso cuando nosotros creemos el objeto de la clase hija
+
+32
+00:03:26,990 --> 00:03:29,330
+tendremos disponibles los métodos de la clase padre.
+
+33
+00:03:29,390 --> 00:03:31,220
+Vamos a verlo.
+
+34
+00:03:31,220 --> 00:03:35,990
+Creamos una clase que sea por ejemplo una especie de algún tipo de software podría ser un editor de
+
+35
+00:03:35,990 --> 00:03:47,440
+video o editor video vale y esta clase se va a extender extensa o va a heredar de programa acuerdo.
+
+36
+00:03:47,480 --> 00:03:50,550
+De esta forma ya tenemos todos los métodos disponibles.
+
+37
+00:03:50,550 --> 00:03:57,990
+Bien entonces por ejemplo pues una de las propiedades que puede tener esta clase editor de video o editor
+
+38
+00:03:58,010 --> 00:04:05,420
+video puede ser por ejemplo el timeline que un programa normal no va a tener Public Timeline que es
+
+39
+00:04:05,420 --> 00:04:11,240
+la línea de tiempo que puede ser un número.
+
+40
+00:04:11,240 --> 00:04:20,330
+Entonces le metemos el séptimo se está inline y aquí dentro le damos un valor a esta propiedad
+
+41
+00:04:23,330 --> 00:04:24,020
+Timeline
+
+42
+00:04:27,140 --> 00:04:36,920
+y le damos el valor .10 disputo timeline es igual a Anam a Timeline Valoy lo mismo vamos a crear un
+
+43
+00:04:36,920 --> 00:04:47,450
+método GET Guez Timeline y vamos a devolver esa propiedad.
+
+44
+00:04:47,770 --> 00:04:53,090
+Vale vale ya tenemos nuestra clase padre y nuestra clase hija vale.
+
+45
+00:04:53,780 --> 00:05:02,600
+Entonces qué va a pasar si nosotros instancia como la clase hija que en este caso sería vamos a crear
+
+46
+00:05:02,600 --> 00:05:09,710
+una variable editor y aquí dentro vamos a distanciar la clase e hija editor video.
+
+47
+00:05:10,120 --> 00:05:10,440
+Vale.
+
+48
+00:05:10,460 --> 00:05:16,190
+Esta clase va a tener disponible todos los métodos de la clase padre.
+
+49
+00:05:16,190 --> 00:05:28,190
+Entonces si nosotros hiciéramos por ejemplo un editor punto set versión y le ponemos una versión por
+
+50
+00:05:28,190 --> 00:05:38,540
+ejemplo la opción 1 le podemos poner también un editor punto se nombre y le ponemos el nombre por ejemplo
+
+51
+00:05:39,230 --> 00:05:42,410
+Phantasia estudio.
+
+52
+00:05:42,770 --> 00:05:51,740
+Vale la versión ya vamos a cambiar a la 8 y luego le podemos cambiar también el timeline.
+
+53
+00:05:51,750 --> 00:05:57,470
+Vale porque esto está disponible en la clase e hija no la padres de acuerdo estos métodos son de la
+
+54
+00:05:57,480 --> 00:06:02,720
+clase padre y el que vamos a utilizar ahora va a ser de clase e hija que es la que estamos creando el
+
+55
+00:06:02,720 --> 00:06:07,390
+objeto servi está en blanco.
+
+56
+00:06:07,470 --> 00:06:23,360
+Aquí podemos poner 4000 vale y ahora lo que podemos hacer es o bien utilizar los métodos G.T de esto
+
+57
+00:06:23,690 --> 00:06:31,730
+esta clase de esta clase de padre y de la clase hija o bien crear no un método que nos devuelva esos
+
+58
+00:06:31,730 --> 00:06:36,860
+datos pintados de alguna forma no para ver que realmente esto está funcionando o no. Por ejemplo hemos
+
+59
+00:06:36,860 --> 00:06:46,160
+creado un método que sea ghee o el Data vale y aquí simplemente vamos a devolver un string lo vamos
+
+60
+00:06:46,160 --> 00:06:47,930
+a poner por aquí vamos a devolver un string
+
+61
+00:06:50,570 --> 00:06:55,610
+returned con todos los datos del objeto.
+
+62
+00:06:55,610 --> 00:07:02,430
+Por ejemplo el nombre que el nombre le concatenando con guion
+
+63
+00:07:06,260 --> 00:07:16,160
+disputo qué versión le concatenados también un guion y por último Elgueta en blanco
+
+64
+00:07:19,250 --> 00:07:21,230
+Timeline balet.
+
+65
+00:07:21,290 --> 00:07:27,590
+De esta forma estamos consiguiendo cada uno de los valores que tienen las propiedades y ahora lo que
+
+66
+00:07:27,590 --> 00:07:36,540
+podemos hacer es en un consuelo utilizar este método y ver cómo se están los métodos y las propiedades
+
+67
+00:07:36,540 --> 00:07:45,870
+de la clase padre y ver que todo funciona o lata editor un toque o lata vale.
+
+68
+00:07:45,930 --> 00:07:56,490
+Ahora qué tenemos que hacer antes de nada importar este fichero aquí el programa apuntó J.S. que todavía
+
+69
+00:07:56,490 --> 00:08:00,670
+no se ha generado problema apuntó J.S.
+
+70
+00:08:00,720 --> 00:08:02,340
+Me acuerdo de esto lo vamos a comentar
+
+71
+00:08:06,070 --> 00:08:09,180
+estado de importación del coche apuntó J.S..
+
+72
+00:08:09,190 --> 00:08:18,640
+Vale y ahora vamos a volver a lanzar el método o el comando TSC menos W para que recomponer las cosas
+
+73
+00:08:18,640 --> 00:08:25,340
+y esté con el Watch vale ahora ya podemos lanzar nuestro escrit DTB.
+
+74
+00:08:25,390 --> 00:08:31,610
+Aquí no podemos lanzar nuestra web actualizamos la pantalla vale y aquí nos saca los datos del programa.
+
+75
+00:08:31,640 --> 00:08:36,700
+Te das cuenta estamos sacando el valor de la propiedad nombre el valor de la propiedad version y el
+
+76
+00:08:36,700 --> 00:08:40,810
+valor de la propiedad tan online que está en la clase hija.
+
+77
+00:08:40,810 --> 00:08:47,720
+Vale pues de esta forma se usa la herencia dentro de ti scrip y asi de simple funciona.
+
+78
+00:08:47,770 --> 00:08:52,780
+O sea una cosa bastante sencilla pero esto puede llegar a ser muy útil cuando estamos desarrollando
+
+79
+00:08:52,780 --> 00:08:59,040
+algo de alta complejidad y bueno pues requieren métodos que son comunes.
+
+80
+00:08:59,200 --> 00:09:04,990
+Luego hay clases que heredan de otra y es diferente el funcionamiento de una a otra o ciertas cosas
+
+81
+00:09:04,990 --> 00:09:06,210
+varía.
+
+82
+00:09:06,760 --> 00:09:13,000
+Vale y nada pues así funciona de herencia de forma básica incluso puedes en cualquier Fripur que nosotros
+
+83
+00:09:13,000 --> 00:09:20,290
+utilicemos tipo angulado o cualquiera utilizamos pues extendemos ciertas clases también para añadir
+
+84
+00:09:20,290 --> 00:09:24,110
+funcionalidades para tener un método disponible etc..

@@ -1,0 +1,207 @@
+1
+00:00:01,200 --> 00:00:09,900
+Ahora vamos a probar los métodos Get y post de acuerdo un método GET Gotti post.
+
+2
+00:00:10,320 --> 00:00:17,520
+Ya sabes que en el protocolo HTTP tenemos varios métodos el Get el post el put el delete etcétera y
+
+3
+00:00:17,520 --> 00:00:18,100
+mucho.
+
+4
+00:00:18,570 --> 00:00:19,410
+Entonces.
+
+5
+00:00:19,520 --> 00:00:24,480
+Pues incluye algunos métodos como el gel y el método POST también dentro de Kairi que nos permiten hacer
+
+6
+00:00:24,480 --> 00:00:31,500
+peticiones de ese tipo de acuerdo entonces por ejemplo si yo quisiera hacer una petición por a cualquiera
+
+7
+00:00:31,500 --> 00:00:36,450
+de esta web que nos brinda este API de acuerdo por ejemplo para sacar
+
+8
+00:00:40,360 --> 00:00:47,470
+esta página de aquí para sacar los resultados de un total de usuarios que no aparece aquí conseguir
+
+9
+00:00:47,470 --> 00:00:50,410
+ese Jayson pues podríamos hacer lo siguiente.
+
+10
+00:00:52,610 --> 00:01:00,020
+Podríamos utilizar el dólar punto Goeth pasarle la web revelé que a mi me interesa sacar en este caso
+
+11
+00:01:00,740 --> 00:01:06,050
+res in regrets in barra.
+
+12
+00:01:06,190 --> 00:01:15,220
+Le paso la ruta concreta que es ésta la página tiene que sacarnos de acuerdo y como segundo parámetro
+
+13
+00:01:15,220 --> 00:01:23,260
+lo voy a pasar los parámetros que a mí me interesen por ejemplo podría pasar la página como podemos
+
+14
+00:01:23,260 --> 00:01:25,460
+comprobar aquí tenemos el parámetro Page.
+
+15
+00:01:25,470 --> 00:01:30,870
+Entonces por qué yo le puedo pasar diferentes parámetros como segundo parámetro.
+
+16
+00:01:30,910 --> 00:01:35,290
+Le puedo pasar un Jayson con el nombre del parámetro y la página que yo quiera sacar.
+
+17
+00:01:35,290 --> 00:01:37,670
+En este caso pues la página 3 por ejemplo.
+
+18
+00:01:38,050 --> 00:01:44,920
+Y luego tenemos una función de Calvache donde yo voy a recoger ese resultado y hacer lo que yo quiera
+
+19
+00:01:44,920 --> 00:01:52,880
+con él no por ejemplo aquí sería responder con un parámetro de esa función de Calvache y si hago console
+
+20
+00:01:52,900 --> 00:01:55,640
+punto Log response.
+
+21
+00:01:55,840 --> 00:01:56,990
+Cierro con punto y coma.
+
+22
+00:01:57,010 --> 00:01:58,730
+Vamos a comprobar que esto funciona.
+
+23
+00:01:58,750 --> 00:02:02,230
+Vamos a ver vamos a abrir la consola del navegador
+
+24
+00:02:05,550 --> 00:02:08,610
+y si me voy para acá.
+
+25
+00:02:08,610 --> 00:02:13,820
+Efectivamente alguien me devuelve mi objeto Jayson de acuerdo.
+
+26
+00:02:13,830 --> 00:02:19,530
+El objeto que acabo de recoger desde el Happy voy a comentar esta parte de aquí porque ya no me interesa
+
+27
+00:02:19,530 --> 00:02:24,450
+sacar los datos de esta parte y lo vamos a ver mucho más claro.
+
+28
+00:02:24,450 --> 00:02:27,520
+Efectivamente me hace la petición Ayax y no vamos a neighbors.
+
+29
+00:02:27,660 --> 00:02:29,910
+Vemos que no ha sacado la página 3.
+
+30
+00:02:29,910 --> 00:02:36,240
+De acuerdo estamos viéndolo aquí y es una petición por web que se ha resuelto correctamente y nos ha
+
+31
+00:02:36,240 --> 00:02:43,600
+devuelto pues un objeto completo con toda la información de los usuarios como estamos viendo por aquí.
+
+32
+00:02:43,600 --> 00:02:45,150
+Luego qué puedo hacer yo con esto.
+
+33
+00:02:45,160 --> 00:02:50,510
+Pues acceder a cualquiera de esas propiedades y mostrarla de acuerdo podría hacer un.
+
+34
+00:02:51,720 --> 00:03:03,320
+Vale podría hacer response to data que es donde están los usuarios vale y hacer un Fortich for it de
+
+35
+00:03:03,330 --> 00:03:05,590
+JavaScript normal.
+
+36
+00:03:06,350 --> 00:03:14,670
+Y esto tiene una función de Calvache y tiene también un elemento un elemento y un índice y esta función
+
+37
+00:03:14,670 --> 00:03:17,340
+de Calvar de flecha que estamos haciendo.
+
+38
+00:03:17,380 --> 00:03:23,180
+Pues yo puedo recorrer el resultado que me devuelve el API que está dentro de Response y más concretamente
+
+39
+00:03:23,180 --> 00:03:29,740
+lo usuario dentro de data como estamos viendo aquí en cada iteración de ese bucle mostrar un elemento
+
+40
+00:03:29,740 --> 00:03:33,690
+o añadir un elemento HTML a nuestro dip de datos.
+
+41
+00:03:33,690 --> 00:03:44,130
+De acuerdo puede hacer un APEN puedo hacer una Open de el elemento que yo estoy intentando recoger.
+
+42
+00:03:44,130 --> 00:03:45,120
+Vale vamos a añadir
+
+43
+00:03:48,750 --> 00:03:56,590
+el nombre del usuario en este caso sería Element punto Nein.
+
+44
+00:03:57,030 --> 00:03:59,840
+Vale si hago esto y actualizo la pantalla.
+
+45
+00:04:00,120 --> 00:04:09,510
+Efectivamente me da aun definir porque realmente lo que estoy intentando sacar lo que lo que intento
+
+46
+00:04:09,510 --> 00:04:19,050
+sacar es el Fessenden de acuerdo no es como tal es el first name IVSS Name y además le veo concatenar
+
+47
+00:04:19,140 --> 00:04:19,980
+los apellidos
+
+48
+00:04:24,340 --> 00:04:33,370
+Element unto last night guardo actualizo la pantalla y aquí me muestra los datos sacados por Ayax de
+
+49
+00:04:33,370 --> 00:04:40,690
+acuerdo completamente super sencillo y con QR ya sabemos que podemos crear el elemento HTML de manera
+
+50
+00:04:40,690 --> 00:04:44,850
+mucho más sencilla y hacer lo que queramos nosotros con esos elementos.
+
+51
+00:04:44,860 --> 00:04:50,200
+Así que ya hemos visto cómo hacer peticiones por G.T por post pues sería de una manera similar pero
+
+52
+00:04:50,200 --> 00:04:52,020
+lo vamos a ver ya en la siguiente clase.

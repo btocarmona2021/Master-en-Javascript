@@ -1,0 +1,127 @@
+1
+00:00:01,210 --> 00:00:07,270
+De esta manera podemos utilizar las clases en formato de atributo y utilizar una condición para ponerlas
+
+2
+00:00:07,390 --> 00:00:15,480
+o no pero también podemos utilizar el atributo en clase como tal para poder hacer varias condiciones
+
+3
+00:00:15,570 --> 00:00:19,440
+y poder poner varias clases de un golpe.
+
+4
+00:00:19,440 --> 00:00:26,430
+Si se cumple una condición vale una de las formas de utilizar el NG Class por ejemplo sería la siguiente
+
+5
+00:00:27,450 --> 00:00:40,320
+en clase porque esto es una directiva de atributos se utiliza con los corchetes y por aquí podría poner
+
+6
+00:00:41,040 --> 00:00:43,340
+una raíz pudiera pasarle una raíz con clase.
+
+7
+00:00:43,350 --> 00:00:50,250
+Por ejemplo un fondo rojo podría pasarle otra clase que fuera
+
+8
+00:00:53,330 --> 00:01:03,860
+subrayado etc. Podría pasarle 100000 clases así y luego yo añado a mi estilo fondo rojo.
+
+9
+00:01:03,860 --> 00:01:11,780
+Puedo ponerle un fondo un background Reb y además le voy a poner la clase subrayado la voy a definir
+
+10
+00:01:11,780 --> 00:01:20,210
+subrayado que tiene un test decoracion underlying pero con puntico Man guardo actualizo la pantalla
+
+11
+00:01:20,720 --> 00:01:26,600
+y automáticamente a mis precios se le pone se le ponen esas clases que yo le he dicho esto no sería
+
+12
+00:01:26,600 --> 00:01:27,600
+más.
+
+13
+00:01:27,850 --> 00:01:32,700
+No sería muy útil porque realmente puedo hacer lo mismo poniendo aquí clases y poniéndolo aquí.
+
+14
+00:01:32,810 --> 00:01:42,940
+Fondo rojo y subrayado puedo hacer exactamente lo mismo y esto quitarlo guardo autorizó la pantalla.
+
+15
+00:01:43,400 --> 00:01:49,390
+Igualmente funciona la gracia de utilizar el NG class en la siguiente Puedo definir que un objeto no
+
+16
+00:01:50,120 --> 00:01:52,240
+vale un Jayson por aquí
+
+17
+00:01:55,710 --> 00:01:56,600
+vale.
+
+18
+00:01:56,730 --> 00:02:01,590
+De esta manera puedo decir qué clase voy a asignar con el BNG Clas.
+
+19
+00:02:01,620 --> 00:02:06,240
+Pero es que además puedo decirle una condición vale puedo ponerle una condición a cada una de estas
+
+20
+00:02:06,240 --> 00:02:15,900
+clases es decir puedo decir que fondo rojo se ponga solamente si el precio es mayor a 100 dólares vale
+
+21
+00:02:16,360 --> 00:02:23,350
+si deportiva punto precio es mayor a 100 en ese caso.
+
+22
+00:02:23,350 --> 00:02:32,720
+Pues ahí le pondría esa clase y subrayado cuando la marca sea Annick por ejemplo deportiva punto marca
+
+23
+00:02:33,150 --> 00:02:36,330
+que se Ivor igual a nadie.
+
+24
+00:02:37,530 --> 00:02:39,240
+Si se cumplen estas condiciones.
+
+25
+00:02:39,360 --> 00:02:45,090
+Pues ahora mismo se van a asignar esos valores esas clases solamente a los elementos que cumplen esas
+
+26
+00:02:45,090 --> 00:02:45,810
+condiciones.
+
+27
+00:02:46,050 --> 00:02:52,140
+Por ejemplo si el precio sobrepasa los 100 dólares se pone en rojo o los 100 euros se pone el fondo
+
+28
+00:02:52,140 --> 00:02:58,390
+en rojo se le asigna esa clase puede inspeccionar esto y vemos que tengo esa clase fondo rojo y además
+
+29
+00:02:58,390 --> 00:03:05,760
+si la marca es Nike aquí vemos que se subraya con una línea es decir que esas condiciones se están cumpliendo
+
+30
+00:03:05,760 --> 00:03:12,690
+perfectamente y estamos asignándole unas clases varias clases en base a varias condiciones de golpe
+
+31
+00:03:13,140 --> 00:03:19,740
+así que esta directiva muy interesante también para trabajar y manipular diferentes elementos de nuestra
+
+32
+00:03:19,740 --> 00:03:20,010
+web.

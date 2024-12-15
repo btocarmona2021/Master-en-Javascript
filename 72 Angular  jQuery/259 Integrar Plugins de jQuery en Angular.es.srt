@@ -1,0 +1,395 @@
+1
+00:00:01,860 --> 00:00:08,720
+Anteriormente en un proyecto que hicimos con JavaScript vimos cómo integrar una librería o un plugin
+
+2
+00:00:08,740 --> 00:00:12,060
+de es líder para hacer una galería de fotos.
+
+3
+00:00:12,060 --> 00:00:16,980
+Vamos a buscar en lpm a ver qué hay.
+
+4
+00:00:16,980 --> 00:00:19,530
+Seguramente habrá un montón de sliders.
+
+5
+00:00:19,530 --> 00:00:25,160
+Hay un montón de cosas pero lo que me interesa como ya hemos visto como instalar con LPM una librería
+
+6
+00:00:25,230 --> 00:00:27,180
+en este caso ha sido QWERTY.
+
+7
+00:00:27,270 --> 00:00:34,800
+Ahora me interesa integrar manualmente un plug in de QWERTY para ver cómo utilizarlo cualquier plug
+
+8
+00:00:34,800 --> 00:00:36,170
+in de cuerno serviría.
+
+9
+00:00:36,180 --> 00:00:45,490
+Pero vamos a buscar un slider de imágenes así que voy a buscar en Google slider y Kairi blowing ok.
+
+10
+00:00:45,850 --> 00:00:53,750
+Y me gustaría integrar el BX slider que es lo que hemos integrado anteriormente.
+
+11
+00:00:53,870 --> 00:01:00,240
+Vale que esto es lo que integramos anteriormente en el proyecto que hicimos antes así que para eso le
+
+12
+00:01:00,240 --> 00:01:02,880
+voy a dar a Install y me va a decir la opción.
+
+13
+00:01:02,880 --> 00:01:10,170
+Tenemos la opción fácil tenemos la opción de descargarnos manualmente la librería tenemos la opción
+
+14
+00:01:10,170 --> 00:01:16,130
+de Bower o tenemos la opción de MPM todas las opciones son buenas y válidas.
+
+15
+00:01:16,120 --> 00:01:23,210
+Vale podemos hacerlo de dos formas podemos probar primero integra la librería manualmente descargando
+
+16
+00:01:23,230 --> 00:01:29,900
+la integrándola y luego probamos con LPM vale así que para eso voy a descargarme la librería le voy
+
+17
+00:01:29,900 --> 00:01:37,520
+a dar clic manualmente para ver cómo se integra cualquier fichero de JavaScript en el proyecto cualquier
+
+18
+00:01:37,520 --> 00:01:44,960
+librería o lo que sea voy a abrir voy a abrirlo el archivo vale y me voy a llevar la librería entera
+
+19
+00:01:46,460 --> 00:01:53,630
+la voy a copiar a mí aquí voy poner la ruta de mi proyecto en este caso esto está en C dos puntos barra
+
+20
+00:01:54,260 --> 00:01:58,430
+barra dobles barra curso JavaScript
+
+21
+00:02:01,680 --> 00:02:10,380
+barra esto es el proyecto angular barra s barra assets.
+
+22
+00:02:10,480 --> 00:02:15,670
+Ahí lo voy a meter vale voy a aceptar ya lo tendré dentro.
+
+23
+00:02:16,050 --> 00:02:24,240
+Si reviso mi carpeta de assets efectivamente tengo aquí mi BX es Leider vale así que la puedo dejar
+
+24
+00:02:24,240 --> 00:02:29,220
+ahí la librería perfectamente o crearme una carpeta de JS y meterla dentro.
+
+25
+00:02:29,280 --> 00:02:37,650
+Eso ya como tú quiera y entonces voy a cargar simplemente mi archivo mil J.S y CSS para eso tengo que
+
+26
+00:02:37,650 --> 00:02:46,200
+abrir mi angular CL y punto Jayson o My angular Jayson que es lo mismo lo abro y voy a bajar a la parte
+
+27
+00:02:46,200 --> 00:02:54,390
+de Stairs y aquí tendré que añadir mi hoja de estilo de el BX Leider lo añado por aquí C barras CETS
+
+28
+00:02:54,540 --> 00:02:55,170
+barra
+
+29
+00:02:58,050 --> 00:03:00,870
+BX slider.
+
+30
+00:03:01,390 --> 00:03:09,300
+En mi caso la carpeta se llama BX Leider guión 4 No sé cuánto proclive a cambiar la nombre a BX en Leider
+
+31
+00:03:09,340 --> 00:03:10,590
+solamente.
+
+32
+00:03:10,780 --> 00:03:16,900
+Bueno pues entonces BX el Leider accedo a la carpeta vist vale y dentro de la carpeta vist tengo un
+
+33
+00:03:16,900 --> 00:03:27,760
+archivo que se llama QWERTY punto x es Leider .1.000 punto CSS ya tengo mi hoja de estilos cargada ahora
+
+34
+00:03:27,850 --> 00:03:32,070
+voy a hacer lo mismo pero con los Crips con el script de BX.
+
+35
+00:03:32,110 --> 00:03:45,340
+La idea en este caso qwerty en este caso es R.C. barra assets barra BX slider barra vist barra QWERTY
+
+36
+00:03:46,720 --> 00:03:58,240
+punto x es Leider .1.000 JS guardo ya tengo la librería integrada dentro del angular Jayson.
+
+37
+00:03:58,270 --> 00:03:59,760
+Ahora voy a guardar.
+
+38
+00:03:59,950 --> 00:04:09,790
+Voy a cortar la ejecución de El proyecto contra el C y voy a volver a hacer.
+
+39
+00:04:10,000 --> 00:04:13,290
+Ahora vamos a ver cómo solucionar algunos problemas que tenemos.
+
+40
+00:04:13,330 --> 00:04:18,960
+Vale me dice que no puede compilar porque tenemos un error con el dólar vale.
+
+41
+00:04:19,040 --> 00:04:22,640
+Eso es porque nuestro componente esto no lo encuentra.
+
+42
+00:04:22,820 --> 00:04:23,630
+El proyecto
+
+43
+00:04:26,460 --> 00:04:31,690
+entonces para evitar este error yo lo que podría hacer para hacerlo de forma global es acceder a mí
+
+44
+00:04:31,690 --> 00:04:47,680
+a PP Module punto TS ya que hace lo siguiente import asterisco AZ dolar from y Kairi lo que hago esto
+
+45
+00:04:49,270 --> 00:04:58,960
+simplemente importo todo lo que sea dólar lo importo todo de la librería de Yi Quarry guardo malheridas
+
+46
+00:04:58,990 --> 00:05:02,120
+esta compilando de nuevo.
+
+47
+00:05:02,140 --> 00:05:08,250
+Ahora parece que si se ha compilado correctamente voy a hacer el control de todas forma al F8 para borrar
+
+48
+00:05:08,380 --> 00:05:14,380
+la consola y vuelvo a lanzar en el reserve aunque ya de por si funcionaba pero la consola me devuelve
+
+49
+00:05:14,380 --> 00:05:23,080
+este error o este aviso incluso aparte de hacer esto esto lo podría hacer perfectamente podría hacer
+
+50
+00:05:23,080 --> 00:05:34,280
+otra cosa también que es hacer esto declare bar $2.5 vale esto lo puedo hacer perfectamente.
+
+51
+00:05:34,390 --> 00:05:39,250
+Lo que no sé si luego si lo hago en el módulo me va a funcionar en el componente eso no lo sé vamos
+
+52
+00:05:39,250 --> 00:05:39,880
+a comprobar
+
+53
+00:05:43,520 --> 00:05:52,630
+nada evidentemente el declare dólar el declares Bar en esto tendría que hacerlo en mi contra.
+
+54
+00:05:52,710 --> 00:05:57,870
+Vale esto lo tengo que importar por aquí o declararã y la variables y luego ahí si que me va a compilar
+
+55
+00:05:57,870 --> 00:06:03,000
+vale o control C y vuelvo a ejecutar la compilación
+
+56
+00:06:05,520 --> 00:06:09,480
+ahora ya no me va a dar error porque va a encontrar esa variable y le está dando un tipado
+
+57
+00:06:15,180 --> 00:06:18,180
+efectivamente ya funciona sin ningún tipo de problema.
+
+58
+00:06:18,360 --> 00:06:21,610
+Ahora de hecho sigue funcionando todo.
+
+59
+00:06:22,180 --> 00:06:29,660
+Ahora lo que vamos a hacer va a ser utilizar la librería que van a instalar que es el Kairi BX Leider
+
+60
+00:06:29,720 --> 00:06:38,080
+este no lo hemos importado de la manera manual añadiendo nuestro Angulo Allyson los archivos de JavaScript.
+
+61
+00:06:38,270 --> 00:06:44,820
+Entonces ahora lo que tenemos que hacer es crear un líder vale vamos a ver los ejemplos que tienen de
+
+62
+00:06:44,820 --> 00:06:54,360
+sliders aquí en esta web vamos a ver este ejemplo por ejemplo fíjate tenemos un dip simplemente con
+
+63
+00:06:54,450 --> 00:06:55,630
+varias imágenes.
+
+64
+00:06:55,680 --> 00:07:06,750
+Vale vamos a poner nuestro Dib en nuestra vista en una vista que tengamos de contacto por aquí vamos
+
+65
+00:07:06,750 --> 00:07:15,210
+a añadir el dip con clase container y vamos a añadir nuestro de la galería
+
+66
+00:07:17,840 --> 00:07:22,570
+ok aquí podríamos añadir en nuestras imágenes que quisiéramos.
+
+67
+00:07:23,430 --> 00:07:32,840
+Vale podríamos descargar alguna imagen y meterla en la carpeta de assets en una carpeta M.G..
+
+68
+00:07:35,190 --> 00:07:37,650
+Vale aquí podríamos meter nuestras imágenes.
+
+69
+00:07:38,490 --> 00:07:45,330
+Vamos a buscar alguna imagen interesante por ejemplo esta misma que hay aquí las podemos descargar dentro
+
+70
+00:07:45,330 --> 00:07:55,860
+del proyecto guardar imagen cómo me la voy a llevar a mi proyecto que sería la ruta C dos puntos barra
+
+71
+00:07:59,970 --> 00:08:05,040
+barra 3V dobles barra curso JavaScript
+
+72
+00:08:07,410 --> 00:08:18,870
+barra proyecto angular entro aquí dentro de esa red c entro al Sheets y M.G. y aquí me guardo Koffi
+
+73
+00:08:18,870 --> 00:08:21,420
+1 me voy a guardar la otra
+
+74
+00:08:24,390 --> 00:08:30,450
+cocidos y guardar esta otra también para hacer la prueba Cofides.
+
+75
+00:08:31,710 --> 00:08:40,110
+Entonces ahora utilizo esas imágenes solamente que esta vez están dentro de la carpeta y M.G. dentro
+
+76
+00:08:40,110 --> 00:08:44,300
+de assets y MG y Mg.
+
+77
+00:08:44,340 --> 00:08:51,540
+Hasta aquí todo correcto si guardo y actualizo la pantalla me aparecen aquí las fotos vale pero ahora
+
+78
+00:08:51,540 --> 00:08:56,940
+yo quiero meterlas en el líder para hacer funcionar el líder como hemos visto en la documentación tenemos
+
+79
+00:08:56,940 --> 00:09:06,180
+que usar el método BX el Leider sobre un elemento de HTML que elemento es el que tiene la clase es Leider
+
+80
+00:09:06,240 --> 00:09:14,370
+o galería que le vamos a poner nosotros entonces en nuestro componente aquí en el Bonini usamos dólar
+
+81
+00:09:14,910 --> 00:09:17,100
+seleccionamos la clase punto galería
+
+82
+00:09:19,830 --> 00:09:23,220
+vale y utilizamos el método punto x es Leider
+
+83
+00:09:26,490 --> 00:09:32,400
+vale que era como se llamaba y luego esto tiene un Jayson con los efectos que yo le quiero poner o lo
+
+84
+00:09:32,400 --> 00:09:33,970
+que sea vale copiarlo.
+
+85
+00:09:34,070 --> 00:09:43,290
+Los que por default y así de simple lo llaman badén el modo Feith los caption los puedo dejar a false
+
+86
+00:09:43,980 --> 00:09:50,700
+y el Wiz de esto lo puedo poner a 800 píxeles.
+
+87
+00:09:50,700 --> 00:09:59,220
+Guardo actualizo la pantalla y aquí vemos que el caption funciona o sea que la galería está funcionando
+
+88
+00:09:59,790 --> 00:10:07,110
+perfectamente y lo vemos sin ningún tipo de problema nos está funcionando la galería y la librería de
+
+89
+00:10:07,260 --> 00:10:13,230
+Kui que hemos integrado y nada falla porque realmente el problema que nos daba es que no encontraba
+
+90
+00:10:13,230 --> 00:10:18,990
+la variable dólar simplemente había que declararla de manera global hacer de clarear para que fuera
+
+91
+00:10:18,990 --> 00:10:24,220
+una variable global y que pudiéramos acceder desde cualquier parte de la clase ya lo tenemos hecho y
+
+92
+00:10:24,220 --> 00:10:30,870
+ya lo tenemos cargado con lo cual ya no funcionan los plugins de Cueli también ya sería cuestión de
+
+93
+00:10:30,870 --> 00:10:41,440
+perfeccionar esto y darle un tamaño también a las imágenes que fuera un tamaño menor.
+
+94
+00:10:41,500 --> 00:10:46,930
+Así pues lo podemos ver mejor y pues nada ya hemos visto cómo integrar un plugin.
+
+95
+00:10:47,050 --> 00:10:54,340
+Ahora también podríamos hacerlo integrarlo con RPM Como estamos viendo para integrarlo con LPM se hace
+
+96
+00:10:54,340 --> 00:11:01,360
+de manera muy sencilla si vamos a instalar aquí tenemos la forma de hacerlo que es igual pues Nistal
+
+97
+00:11:02,030 --> 00:11:10,390
+BX Leider para guardarlo en el proyecto como dependencia y ya lo cargamos en el angular Jayson o con
+
+98
+00:11:10,390 --> 00:11:12,560
+un script normal.
+
+99
+00:11:12,580 --> 00:11:16,500
+Así que ya hemos visto cómo cargar librerías y plugins de Alloy QWERTY.

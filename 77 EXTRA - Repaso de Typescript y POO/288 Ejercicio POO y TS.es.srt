@@ -1,0 +1,419 @@
+1
+00:00:00,450 --> 00:00:06,210
+Vamos a hacer un pequeño ejemplo para aplicar lo que hemos estado viendo de acuerdo y ver algo un poco
+
+2
+00:00:06,330 --> 00:00:13,080
+dinámico dentro de la página web y que no sea solamente mandar consolé blogs etc. No vamos a ver un
+
+3
+00:00:13,080 --> 00:00:19,450
+ejemplo de cómo sería trabajar con Taipe scrip dentro de un proyecto pequeño de JavaScript.
+
+4
+00:00:19,470 --> 00:00:25,480
+No vale entonces en cualquier página web que nosotros estemos haciendo podríamos estar utilizando Taipe
+
+5
+00:00:25,500 --> 00:00:30,120
+script sin ningún tipo de problema de acuerdo simplemente sería integrarlo como hemos estado viendo
+
+6
+00:00:30,120 --> 00:00:31,150
+hasta ahora.
+
+7
+00:00:31,440 --> 00:00:35,710
+Y ahora vamos a ver un pequeño ejemplo de cómo trabajar realmente con.
+
+8
+00:00:35,790 --> 00:00:38,790
+Con esto no vale.
+
+9
+00:00:38,800 --> 00:00:43,980
+Mira vamos a tener como hemos estado trabajando con la entidad programa de acuerdo y luego está usando
+
+10
+00:00:43,980 --> 00:00:48,310
+la herencia y todo eso vamos a crear un formulario que nos va a permitir.
+
+11
+00:00:48,630 --> 00:00:56,160
+Vale vamos a crear un formulario que nos va a permitir añadir un nuevo programa a una RAK.
+
+12
+00:00:56,190 --> 00:01:01,600
+Vale entonces vamos a crear un formulario con la etiqueta form y cerramos la etiqueta.
+
+13
+00:01:02,010 --> 00:01:03,750
+Aquí le vamos a definir un campo
+
+14
+00:01:08,290 --> 00:01:10,870
+de texto que vamos a poner una idea.
+
+15
+00:01:10,880 --> 00:01:11,550
+Por ejemplo
+
+16
+00:01:14,370 --> 00:01:23,980
+vale le vamos a poner también un Pleiss Wolder.
+
+17
+00:01:26,890 --> 00:01:30,540
+El programa Vale entonces vamos a tener también un botón
+
+18
+00:01:36,240 --> 00:01:42,720
+de tipo batón vale y que va a tener como Balli guardar
+
+19
+00:01:45,630 --> 00:01:47,960
+y ya está simplemente.
+
+20
+00:01:47,970 --> 00:01:53,130
+De momento vamos a tener esta vale y ahora lo miramos en el navegador a ver cómo va quedando y tenemos
+
+21
+00:01:53,130 --> 00:01:59,100
+nuestro input y nuestro botón de acuerdo entonces lo que vamos a poner debajo va a ser un listado de
+
+22
+00:01:59,100 --> 00:02:04,250
+programas que hay en el listado de programas que va a ver en la aplicación.
+
+23
+00:02:05,860 --> 00:02:14,760
+Entonces vamos a crear debajo del formulario vamos a poner un H4 y vamos a poner aquí un listado de
+
+24
+00:02:14,760 --> 00:02:22,740
+programa listado de programas vale y aquí lo que vamos a hacer simplemente va a ser tener una etiqueta
+
+25
+00:02:23,310 --> 00:02:33,200
+con un IDE listado y aquí dentro vamos a meter todos los programas que va a haber en nuestra mini aplicación
+
+26
+00:02:33,210 --> 00:02:42,820
+de acuerdo a actualizamos la página ya tenemos nuestro listado de programa y aquí abajo todo vale.
+
+27
+00:02:43,170 --> 00:02:48,720
+Entonces ahora vamos a hacer la funcionalidad en JavaScript de acuerdo dentro del fichero Livescribe
+
+28
+00:02:49,680 --> 00:02:54,450
+vale Qué va qué va a hacer esto qué va a hacer el formulario lo que va a hacer es cuando le demos clic
+
+29
+00:02:54,450 --> 00:02:59,460
+al botón de guardar va a llamar a una función que vamos a tener en nuestro JavaScript para decir que
+
+30
+00:02:59,460 --> 00:03:05,970
+vamos a utilizar el evento on click de JavaScript clásico de toda la vida y cuando llamemos al evento
+
+31
+00:03:05,970 --> 00:03:12,330
+glía desde cuando pulsamos el botón vamos a llamar a un método o a una función en este caso y va a ser
+
+32
+00:03:12,330 --> 00:03:14,140
+guardado.
+
+33
+00:03:15,060 --> 00:03:21,360
+Vale y esta función lo que va a tener una lógica que lo que va a hacer va a ser guardar elementos dentro
+
+34
+00:03:21,360 --> 00:03:26,820
+de un array vaya si que esto lo podemos ver a partir de aquí abajo vale.
+
+35
+00:03:26,880 --> 00:03:34,650
+A partir de aquí abajo vamos a hacer la lógica del formulario aquí lo vamos a hacer vamos a tener una
+
+36
+00:03:34,650 --> 00:03:39,030
+red de programas vale que va a ser una red en principio
+
+37
+00:03:41,760 --> 00:03:47,250
+de momento ni siquiera le vamos a definir el tipado aunque se lo podría podríamos hacer que podríamos
+
+38
+00:03:47,250 --> 00:03:49,530
+decirle que sea una reiré string
+
+39
+00:03:52,320 --> 00:03:57,300
+strings vale y esto sería una red de string de acuerdo.
+
+40
+00:03:57,300 --> 00:04:03,600
+Ahora si guardaremos no creo que tengamos ningún error de tipado vaya no tenemos ningún tipo de error
+
+41
+00:04:03,600 --> 00:04:10,440
+de tipado simplemente hemos definido esa variable y ahora vamos a crear la función que se va a llamar
+
+42
+00:04:10,450 --> 00:04:12,960
+al hacer click al botón para añadir cosas.
+
+43
+00:04:14,910 --> 00:04:23,480
+Para eso utilizamos la palabra reservada función guardar y aquí vamos a tener nuestra lógica.
+
+44
+00:04:23,640 --> 00:04:29,950
+Lo primero que tenemos que hacer va a ser recoger el nombre de guardado dentro del impulso.
+
+45
+00:04:30,210 --> 00:04:35,370
+Para eso vamos a crear una variable el nombre si queremos le decimos el tipo y si no no no pasa nada
+
+46
+00:04:35,950 --> 00:04:41,760
+y aquí lo que vamos a hacer va a ser recoger el nombre no lo vamos a hacer con un javascript normal
+
+47
+00:04:41,940 --> 00:04:47,940
+directamente vamos a utilizar una pequeña etiqueta que hay gente y escrit para indicarle que el elemento
+
+48
+00:04:47,940 --> 00:04:51,960
+del DOM que estamos recogiendo es de un tipo concreto.
+
+49
+00:04:51,960 --> 00:04:57,780
+Vale entonces eso se hace de la siguiente manera Mira vamos a utilizar el documento Punto G elemento
+
+50
+00:04:57,980 --> 00:05:06,120
+Baire y aquí le vamos a decir el nombre no le vamos a decir que va a recoger el ID de nombre vale va
+
+51
+00:05:06,210 --> 00:05:13,390
+a capturar ese elemento del DOM vale y aquí en este.
+
+52
+00:05:13,450 --> 00:05:21,910
+Antes de esto le vamos a decir que este elemento HTML es un HTML Input
+
+53
+00:05:24,520 --> 00:05:25,650
+Elemento.
+
+54
+00:05:25,650 --> 00:05:33,250
+Esto significa que esto que estamos recogiendo de aquí es un input de HTML de acuerdo le estamos diciendo
+
+55
+00:05:33,430 --> 00:05:41,260
+qué cosa en concreto no vale entonces de esa forma de escribir nos permite trabajar de una mejor forma
+
+56
+00:05:41,500 --> 00:05:48,670
+con todo el DOM vale para realmente detectar qué es cada cosa también dentro de un fichero de escrita
+
+57
+00:05:48,700 --> 00:05:53,510
+bien podríamos trabajar con JQuery con el selector con mil cosas vale.
+
+58
+00:05:53,540 --> 00:05:58,690
+Podríamos hacer cualquier cosa pero bueno de momento lo vamos a hacer así en JavaScript en JavaScript
+
+59
+00:05:58,690 --> 00:05:59,300
+normal.
+
+60
+00:05:59,790 --> 00:06:06,920
+Entonces vamos a utilizar la propiedad value para recoger el valor que tiene el input y utilizar el
+
+61
+00:06:06,920 --> 00:06:15,000
+método tubes trim para convertir ese valor a un string y tal.
+
+62
+00:06:15,050 --> 00:06:23,860
+No vale ahora vamos a crear el objeto del programa y lo vamos a guardar en una variable que se llama
+
+63
+00:06:23,860 --> 00:06:31,570
+Programa para distanciamos el objeto o la clase que hacemos la clase por aquí y ahora llamamos al método
+
+64
+00:06:31,570 --> 00:06:40,480
+C Nombre Balay le pasamos un valor que en este caso va a ser la variable de nombre y ahora simplemente
+
+65
+00:06:40,480 --> 00:06:43,660
+lo que vamos a hacer va a ser añadir a la variable programas
+
+66
+00:06:46,960 --> 00:06:48,280
+el objeto programa.
+
+67
+00:06:48,290 --> 00:06:53,720
+Me acuerdo de esa forma vamos a tener disponible todo el objeto que le añadamos.
+
+68
+00:06:53,770 --> 00:06:58,150
+También podríamos añadirle la versión por aquí Malé ponerle un set versión
+
+69
+00:07:04,600 --> 00:07:07,880
+versión la versión.
+
+70
+00:07:07,930 --> 00:07:13,450
+Vale pero qué pasa aquí que aquí entramos en conflicto un poco con el tipado porque estamos diciendo
+
+71
+00:07:13,450 --> 00:07:18,820
+que es una red de tipo string de acuerdo y le vamos a pasar un objeto con lo cual yo creo que el tipado
+
+72
+00:07:18,820 --> 00:07:21,760
+por aquí se lo podemos eliminar no daría lo mismo.
+
+73
+00:07:22,300 --> 00:07:31,030
+Vale entonces con esto añadimos un nuevo elemento un nuevo objeto a la red del programa y hasta de momento
+
+74
+00:07:31,060 --> 00:07:36,170
+no creo que esté fallando la compilación de acuerdo.
+
+75
+00:07:36,170 --> 00:07:43,180
+Y ahora qué vamos a hacer pues simplemente vamos a recorrer todos los programas que haya guardado en
+
+76
+00:07:43,180 --> 00:07:49,810
+el array vale lo vamos a recorrer y lo vamos a mostrar para eso vamos a crear una variable lista por
+
+77
+00:07:49,810 --> 00:07:52,330
+aquí y vamos a utilizar el bucle for
+
+78
+00:07:55,210 --> 00:07:56,780
+para recorrer todo eso.
+
+79
+00:07:56,950 --> 00:08:05,140
+Para eso simplemente creamos una variable por aquí inicializar a cero mientras que sea menor a programas
+
+80
+00:08:05,740 --> 00:08:06,670
+punto Lent
+
+81
+00:08:10,590 --> 00:08:12,100
+vale y más más.
+
+82
+00:08:13,820 --> 00:08:19,400
+Y aquí lo que vamos a hacer simplemente concatenar o cambiar el valor a list y el valor que va a tener
+
+83
+00:08:19,510 --> 00:08:31,820
+va a ser lo que tenga Liset ya de por sí más un elemento olí concatenado de programa programa programas
+
+84
+00:08:32,390 --> 00:08:40,100
+y es decir el programa que estamos recorriendo en este momento y aquí pues sacamos el nombre sacamos
+
+85
+00:08:40,110 --> 00:08:51,120
+el nombre Baler y por aquí pues cerramos el panel de esta forma pues estamos recorriendo todo lo que
+
+86
+00:08:51,120 --> 00:08:55,860
+hay dentro de la Raid programa todo el objeto y ahora pues simplemente
+
+87
+00:09:00,090 --> 00:09:08,540
+dentro de una variable que se llame listado guardamos por ejemplo recogemos el elemento HTML HTML L.M
+
+88
+00:09:08,840 --> 00:09:13,110
+y aquí recogemos la etiqueta listado cogemos ese elemento del DOM
+
+89
+00:09:15,910 --> 00:09:25,230
+bagdadí entonces ahora simplemente a esta variable a este elemento del DOM que es la etiqueta listado
+
+90
+00:09:25,290 --> 00:09:35,550
+la lista está simplemente le utilizamos el elemento INER HTML esta propiedad el HTML para meterle el
+
+91
+00:09:35,550 --> 00:09:43,110
+contenido que tiene listo vale vamos a verlo ahora si no se trata quitamos la página en principio no
+
+92
+00:09:43,110 --> 00:09:55,240
+tenemos ningún error aquí en bueno si tenemos un error en la línea 54 y a 54 C en versión en programa
+
+93
+00:09:55,300 --> 00:10:03,540
+a ver si tenemos la versión versión avoir tenemos que pasarle un un número uno de momento va a ser un
+
+94
+00:10:03,550 --> 00:10:10,240
+1 porque tampoco vamos a hacer nada más ahí actualizamos ahora la compilación se hace bien Barilla ahora
+
+95
+00:10:10,240 --> 00:10:21,550
+vamos a añadir nuevo elemento por ejemplo sublime texto a guardar añade el elemento Balet añadimos uno
+
+96
+00:10:21,550 --> 00:10:22,990
+nuevo.
+
+97
+00:10:22,990 --> 00:10:24,420
+Por ejemplo NMH
+
+98
+00:10:27,190 --> 00:10:33,730
+guardar y lo añade y lo va listando y lo va añadiendo no podemos añadir otro otro programa Firefox
+
+99
+00:10:36,090 --> 00:10:39,300
+guardad podemos hacer que cuando le demos click a guardar.
+
+100
+00:10:39,340 --> 00:10:41,470
+Limpie el contenido que tiene esto.
+
+101
+00:10:41,570 --> 00:10:44,600
+Eso se puede hacer fácilmente.
+
+102
+00:10:44,650 --> 00:10:48,220
+Vale eso se puede hacer simplemente utilizando esto
+
+103
+00:10:51,450 --> 00:10:58,830
+justo aquí abajo lo vamos a utilizar y le vamos a quitar le vamos a cambiar el value Malvasía
+
+104
+00:11:07,470 --> 00:11:14,440
+ahí ves que cuando yo añado le borra el value pues ya tenemos nuestro pequeño programita hecho con The
+
+105
+00:11:14,560 --> 00:11:16,060
+Script y JavaScript.

@@ -1,0 +1,299 @@
+1
+00:00:02,470 --> 00:00:03,260
+Bien vamos.
+
+2
+00:00:03,270 --> 00:00:07,590
+Ya el grueso del asunto es empezar a trabajar con lo que digo.
+
+3
+00:00:07,620 --> 00:00:10,680
+Lo primero que vamos a hacer es abrir una conexión al socket.
+
+4
+00:00:10,680 --> 00:00:11,500
+Cómo hacemos esto.
+
+5
+00:00:11,500 --> 00:00:21,730
+Pues utilizando la variable y y llamamos al método on de acuerdo al método no va a permitir lanzar eventos.
+
+6
+00:00:21,840 --> 00:00:27,950
+El evento que vamos a lanzar viverista va a ser el evento conectado de acuerdo evento Connection.
+
+7
+00:00:27,960 --> 00:00:36,300
+Se lo vamos a mandar a los clientes de acuerdo y entonces vamos a tener una función de calvas por aquí
+
+8
+00:00:39,010 --> 00:00:45,930
+de acuerdo y este método Connection alguien tiene que lanzarlo de acuerdo alguien tiene que llamar a
+
+9
+00:00:45,930 --> 00:00:46,640
+esa conexión.
+
+10
+00:00:47,050 --> 00:00:52,920
+Entonces este método lo que va a hacer es encargarse de recibir las conexiones de los clientes de acuerdo
+
+11
+00:00:52,950 --> 00:00:59,820
+y va a detectar cada vez que algún cliente se conecte con lo cual cuando alguien se conecte a nuestro
+
+12
+00:00:59,820 --> 00:01:10,500
+socket nos va a mandar un consuelo por ejemplo que nos diga que alguien se conecta al socket por ejemplo
+
+13
+00:01:12,540 --> 00:01:18,720
+también podemos usar para detectar la IP por ejemplo de el usuario que se ha conectado al socket.
+
+14
+00:01:18,810 --> 00:01:29,030
+Podemos utilizar una cosa que no nos da no porque por aquí en esta función de call back vamos a recibir
+
+15
+00:01:29,210 --> 00:01:34,490
+una variable Soke de acuerdo vamos a recibir un parámetro socket que va a llevar toda la información
+
+16
+00:01:34,490 --> 00:01:39,840
+del shock que va a llevar más métodos que vamos a poder lanzar una serie de cosas.
+
+17
+00:01:40,100 --> 00:01:45,590
+Para utilizar este parámetro y recoger la IP de la persona que se conecta pues simplemente vamos a poner
+
+18
+00:01:45,590 --> 00:01:51,500
+aquí el equipo o el nodo.
+
+19
+00:01:51,500 --> 00:02:03,980
+El nodo y vamos a poner un nodo con impe de aquí concatenan con la IP que en este caso sería socket
+
+20
+00:02:04,610 --> 00:02:05,720
+punto Hansack
+
+21
+00:02:10,610 --> 00:02:13,170
+junto a Ceres.
+
+22
+00:02:13,640 --> 00:02:19,970
+De acuerdo se ha conectado.
+
+23
+00:02:20,750 --> 00:02:22,790
+Este sería el consuelo que nos llegaría.
+
+24
+00:02:22,820 --> 00:02:32,970
+Vale decir el nodo con IP tal o el equipo el cliente con IP X la que no llegue al socket se ha conectado.
+
+25
+00:02:32,970 --> 00:02:40,040
+Vale esto sería el mensaje que nos llegaría cada vez que alguien se conecte a nuestro socket vale pero
+
+26
+00:02:40,040 --> 00:02:45,970
+de momento esto no lo vamos a dejar así lo vamos a dejar aparcado para seguir haciéndolo después.
+
+27
+00:02:45,980 --> 00:02:51,040
+Ahora lo que nos interesa es tener una vista donde se cargue el formulario y se cargue el chat verdad.
+
+28
+00:02:51,080 --> 00:03:00,110
+Entonces para eso vamos a usar un nivel Wer que nos da no DJs o en este caso expres para cargar una
+
+29
+00:03:00,110 --> 00:03:08,570
+vista estática por defecto a Pepe punto use para usar un nivel Wer de Despres entonces antes de que
+
+30
+00:03:08,570 --> 00:03:18,650
+se realice ninguna otra petición o utilizar expres punto estático de acuerdo este método que nos da
+
+31
+00:03:18,710 --> 00:03:28,880
+el objeto de expres para decirle que todo lo HTML que haya en la carpeta públic van a hacerlo HTML estáticos
+
+32
+00:03:29,630 --> 00:03:32,610
+Badi va a cargar HTML de ahí.
+
+33
+00:03:33,080 --> 00:03:40,730
+En este caso va a cargar el índex punto HTML que tendremos creado en la carpeta de cliente de acuerdo
+
+34
+00:03:40,730 --> 00:03:47,290
+que íbamos a quedarnos un índex junto a HTML.
+
+35
+00:03:47,290 --> 00:03:55,820
+Vale y aquí vamos a tener una estructura HTML básica de acuerdo a este punto HTML lo cargará porque
+
+36
+00:03:55,820 --> 00:04:02,870
+tendrá acceso a HTML estático a la carpeta públic así que aquí vamos a definir un sistema el estático
+
+37
+00:04:03,680 --> 00:04:12,470
+definimos el Doctrine HTML5 definimos la etiqueta HTML es cerramos en HTML
+
+38
+00:04:15,170 --> 00:04:31,830
+abrimos la etiqueta G.T lo vamos a definir el chalet de tacharse un T.F Nión 8 le vamos a decir también
+
+39
+00:04:31,980 --> 00:04:42,330
+el View Port meta en Newport para que se adapta a las pantallas los diferentes dispositivos content
+
+40
+00:04:46,210 --> 00:04:46,680
+Juiz
+
+41
+00:04:51,700 --> 00:04:52,780
+Device Wiz
+
+42
+00:04:56,550 --> 00:05:10,860
+y le vamos a indicar también que initial initial scale sea un punto de acuerdo para que por defecto
+
+43
+00:05:10,860 --> 00:05:14,650
+el zoom esté a lo normal de acuerdo.
+
+44
+00:05:14,700 --> 00:05:17,220
+Hasta ahora le vamos a definir un título
+
+45
+00:05:20,310 --> 00:05:35,780
+que en este caso le vamos a decir cheat con socket punto yo y no de J eso vale y vamos a copiar ese
+
+46
+00:05:35,780 --> 00:05:36,380
+título.
+
+47
+00:05:36,460 --> 00:05:39,350
+El body también vamos a crear la etiqueta Body
+
+48
+00:05:44,680 --> 00:05:49,900
+utilizar la H1 para meter aquí el título también
+
+49
+00:05:53,140 --> 00:05:56,340
+vale en principio ya estaría en principio ya estaría.
+
+50
+00:05:56,500 --> 00:05:57,570
+Vale eso es correcto.
+
+51
+00:05:57,610 --> 00:06:02,010
+Entonces yo tengo que cargar aquí mi hija.
+
+52
+00:06:02,080 --> 00:06:06,320
+De acuerdo voy a cargar el JavaScript de que dio para poder trabajar con eso que.
+
+53
+00:06:06,340 --> 00:06:12,040
+Ahora más adelante escribe type text barra JavaScript
+
+54
+00:06:15,500 --> 00:06:26,240
+y voy a cargar el SRC te voy a decir que cargue la librería que dio y el fichero socket punto y punto
+
+55
+00:06:26,310 --> 00:06:35,570
+JS Eso es lo que va a cargar la librería de su tío para permitir interactuar con el socket que está
+
+56
+00:06:35,570 --> 00:06:43,110
+en el Bakken y en este caso el cliente acuerdo cliente servidor vale y también vamos a tener un script
+
+57
+00:06:43,250 --> 00:06:45,150
+es donde vamos a trabajar nosotros.
+
+58
+00:06:45,150 --> 00:06:45,730
+Escribe
+
+59
+00:06:49,270 --> 00:06:50,120
+que va a ser
+
+60
+00:06:54,990 --> 00:06:59,580
+el fichero Main JS Que lo vamos a crear Tammet
+
+61
+00:07:02,910 --> 00:07:11,670
+y aquí es donde vamos a trabajar con con los quedito eso vale.
+
+62
+00:07:11,710 --> 00:07:17,710
+Entonces ahora llegado el momento de cargar nuestro Index puntuó HTML en lo que va diciendo el navegador
+
+63
+00:07:17,770 --> 00:07:20,430
+siguió autorizó la página aquí no sale nada por qué.
+
+64
+00:07:20,440 --> 00:07:27,100
+Porque en el Index yo le he puesto públic de acuerdo y la carpeta donde tiene que cargar todo eso o
+
+65
+00:07:27,100 --> 00:07:32,890
+sea de la que tienen que coger esos archivos estáticos o HTML estáticos en una carpeta Client vale.
+
+66
+00:07:32,890 --> 00:07:38,890
+Así que yo guardo Actualizo la página y ahora me tienen que cargar efectivamente esta página HTML que
+
+67
+00:07:38,890 --> 00:07:40,370
+estamos codificando nosotros.
+
+68
+00:07:40,370 --> 00:07:48,470
+Vale bien estupendo vamos a añadir más cosa para tenerla ya disponible en el chat.
+
+69
+00:07:48,550 --> 00:07:55,660
+Vale en este caso sería lo primero vamos a tener un Dib para los mensajes vamos a una idea mensajes
+
+70
+00:08:00,800 --> 00:08:11,270
+y vamos a tener un formulario también lo vamos a ir después para todos esos mensajes de momento lo dejamos
+
+71
+00:08:11,270 --> 00:08:11,600
+así.
+
+72
+00:08:12,500 --> 00:08:14,260
+Vale.
+
+73
+00:08:14,250 --> 00:08:20,400
+Bien pues en el siguiente vídeo lo que vamos a hacer va a ser recibir la conexión al socket.
+
+74
+00:08:20,420 --> 00:08:29,270
+O realmente conectar ese cliente que se conecte al socket y hacer la funcionalidad para poder enviar
+
+75
+00:08:29,270 --> 00:08:35,740
+mensaje al socket y que se guarden de acuerdo y también que nos llegue un mensaje por defecto del choque.

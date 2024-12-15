@@ -1,0 +1,431 @@
+1
+00:00:01,230 --> 00:00:06,990
+Ahora vamos a crear varios componentes para nuestro proyecto en el enunciado yo decía que teníamos que
+
+2
+00:00:06,990 --> 00:00:12,690
+tener una página sobre mí que sería la página principal una página de proyectos una para crear el proyecto
+
+3
+00:00:12,690 --> 00:00:15,020
+y otra para el contacto inicialmente.
+
+4
+00:00:15,300 --> 00:00:17,030
+Entonces vamos a crear esos componentes.
+
+5
+00:00:17,040 --> 00:00:22,550
+Para eso abrimos nuestra consola de comando el símbolo de sistema si está en Windows y Mac Linux pues
+
+6
+00:00:22,620 --> 00:00:28,740
+la terminal que tengas vale y aquí voy a salir para afuera y voy a entrar a mi proyecto.
+
+7
+00:00:28,740 --> 00:00:35,850
+El proyecto en sí se llama Proyecto angular va dentro y aquí voy a limpiar la consola ejecutando el
+
+8
+00:00:35,850 --> 00:00:38,100
+comando CLS o clear.
+
+9
+00:00:38,100 --> 00:00:44,790
+Si estás en otro sistema operativo y entonces voy a lanzar el comando ng g component
+
+10
+00:00:47,880 --> 00:00:53,160
+vale y ya pongo el nombre de mi componente en este caso como vamos a hacer una aplicación un poco más
+
+11
+00:00:53,310 --> 00:00:56,900
+seria que la práctica que hemos estado haciendo anteriormente.
+
+12
+00:00:56,940 --> 00:01:02,280
+Vamos a guardar los componentes dentro de una carpeta que se llama que se va a llamar components así
+
+13
+00:01:02,280 --> 00:01:08,760
+que vamos a poner componentes que va a ser la carpeta barra y ya el nombre de mi componente.
+
+14
+00:01:08,850 --> 00:01:19,230
+En este caso el componente quiero que se llame pues sobre mí sobre mi vida enter y esto me genera mi
+
+15
+00:01:19,230 --> 00:01:23,480
+carpeta de componentes y dentro me genera mi componente sobre mí.
+
+16
+00:01:23,580 --> 00:01:33,690
+Ok perfecto o incluso podríamos mejorar esto un poco y que se llame about así que voy a borrarlo y vamos
+
+17
+00:01:33,690 --> 00:01:38,260
+a hacerlo todo en inglés para para seguir las mejores prácticas posibles.
+
+18
+00:01:38,270 --> 00:01:47,640
+No voy a quitar el importe aquí lo suyo sería hacer la aplicación completamente en inglés o que venga
+
+19
+00:01:47,890 --> 00:01:52,570
+pues voy a volver a generar el componente vayámonos en este caso Abat.
+
+20
+00:01:53,760 --> 00:01:57,510
+Vamos a hacer entrar en inglés porque se suele programar más en inglés que en castellano.
+
+21
+00:01:57,540 --> 00:02:02,010
+De acuerdo a si es una aplicación solamente para ti pues si que la puedes hacer entera en español lo
+
+22
+00:02:02,010 --> 00:02:06,480
+nombra en español vital pero lo normal es que lo hagamos en inglés.
+
+23
+00:02:06,570 --> 00:02:12,090
+Depende también del proyecto y de la empresa y de lo que te apetezca pero lo más normal es eso hacerlo
+
+24
+00:02:12,090 --> 00:02:14,790
+en inglés así que vamos a poner los nombres en inglés.
+
+25
+00:02:15,030 --> 00:02:16,810
+Ya tenemos el componente Aboud.
+
+26
+00:02:17,010 --> 00:02:23,940
+Ahora voy a quedarme un segundo componente que va a ser el componente de proyectos vale si miramos la
+
+27
+00:02:25,140 --> 00:02:30,700
+documentación teníamos el componente de proyectos así que vamos a crear el componente.
+
+28
+00:02:31,630 --> 00:02:40,200
+De esa manera le damos a Enter y se acaba de generar ese proyecto ese componente vamos a crear otro
+
+29
+00:02:40,200 --> 00:02:49,260
+componente y va a ser el de crear proyectos en este caso se va a llamar create el componente
+
+30
+00:02:52,950 --> 00:02:58,120
+y vamos a tener otro componente que va a ser el de contacto contacto.
+
+31
+00:02:58,950 --> 00:03:00,000
+Le voy a dar a Enter
+
+32
+00:03:02,740 --> 00:03:04,590
+y ahí lo tenemos dentro.
+
+33
+00:03:04,680 --> 00:03:09,940
+De momento vamos a tener esta página luego evidentemente también tendremos otro componente más adelante
+
+34
+00:03:09,940 --> 00:03:17,110
+que será el de editar un proyecto y el de visualizar un proyecto de acuerdo con componente de detalle
+
+35
+00:03:17,140 --> 00:03:18,630
+pero eso lo vamos a crear luego.
+
+36
+00:03:18,640 --> 00:03:23,740
+De momento vamos a configurar esto componente ya me funciona ya lo tengo es decir la aplicación sigue
+
+37
+00:03:23,740 --> 00:03:28,200
+funcionando y ya se han añadido a la vez Module Maure.
+
+38
+00:03:28,240 --> 00:03:35,340
+Ahora vamos a hacer nuestro fichero de rutas dentro de la carpeta app creamos un nuevo archivo controlase
+
+39
+00:03:35,730 --> 00:03:40,840
+app punto routing punto de S y vamos a configurar nuestra ruta.
+
+40
+00:03:41,110 --> 00:03:48,790
+Lo primero que tenemos que hacer es importar los módulos del router el Module with providers.
+
+41
+00:03:49,210 --> 00:03:58,150
+Esto es necesario from arrobado angular Marla Core y luego el resto de módulos del router que serían
+
+42
+00:03:59,050 --> 00:04:11,980
+el router el Routes también y el router Module from arroba angular barra router cierre un punto y coma
+
+43
+00:04:12,370 --> 00:04:14,380
+y ahora pues importa un componente.
+
+44
+00:04:14,380 --> 00:04:20,520
+Esto lo puede hacer igual que lo tengo aquí en la parte de mi NG Module.
+
+45
+00:04:20,530 --> 00:04:26,890
+De acuerdo a la parte de mi módulo voy a copiar los Import y lo pruebo por aquí vale ya ahora voy a
+
+46
+00:04:26,890 --> 00:04:34,570
+definir rutas voy a crear una constante que se va a llamar a Pepe brutes dos puntos base un objeto de
+
+47
+00:04:34,570 --> 00:04:35,880
+tipo routes.
+
+48
+00:04:36,070 --> 00:04:41,520
+Bien que un objeto va a ser una REIT de objetos de tipo ruta.
+
+49
+00:04:41,600 --> 00:04:46,540
+Vale te voy a definir cada uno de mis objetos o cada una de mis rutas.
+
+50
+00:04:46,540 --> 00:04:52,420
+La primera ruta va a ser la John vale más en la página que se va a cargar por defecto y el componente
+
+51
+00:04:53,490 --> 00:05:00,580
+que se va a cargar va a ser el árbol component o que luego vamos a tener otra segunda ruta que va a
+
+52
+00:05:00,580 --> 00:05:09,610
+ser la ruta sobre mí que también va a cargar el componente component.
+
+53
+00:05:10,660 --> 00:05:21,220
+Luego vamos a tener una tercera ruta que va a ser la ruta de proyectos la ruta sigue la ponemos en español
+
+54
+00:05:21,250 --> 00:05:28,090
+porque es algo visible para el usuario no es algo de código vale entonces sí que las ponemos en español
+
+55
+00:05:28,120 --> 00:05:31,380
+y vamos a caer en el componente proyectes componente.
+
+56
+00:05:32,260 --> 00:05:35,050
+Luego vamos a crear una cuarta ruta
+
+57
+00:05:38,410 --> 00:05:49,030
+para el otro componente de crear crear el proyecto iba a cargar el componente de CREAL de component
+
+58
+00:05:50,230 --> 00:05:55,630
+y además vamos a añadir otro de la ruta que va a ser las rutas de contacto
+
+59
+00:05:59,780 --> 00:06:10,910
+que va a cargar el componente Contact componente y por último vamos a crear la ruta 4 0 4 que se hace
+
+60
+00:06:10,910 --> 00:06:18,920
+con el asterisco asterisco okey para cuando no nos cargue ningún componente o la ruta que nosotros hayamos
+
+61
+00:06:18,920 --> 00:06:23,980
+puesto en el navegador no sea correcta pues que nos cargue el componente Abat.
+
+62
+00:06:24,020 --> 00:06:29,510
+En este caso también podríamos crear un componente 4 0 4 y hacer una página de error personalizada pero
+
+63
+00:06:29,510 --> 00:06:32,790
+en este caso pues simplemente con esto sirve ok.
+
+64
+00:06:32,900 --> 00:06:45,540
+Incluso si queremos si queremos crear ese componente de error vale lo podemos crear ok lo podemos estar
+
+65
+00:06:45,540 --> 00:06:46,670
+utilizando.
+
+66
+00:06:46,710 --> 00:06:48,180
+Vale vamos a copiar el import
+
+67
+00:06:51,990 --> 00:06:56,770
+y cuando la ruta sea incorrecta pues que nos cargue el componente de error perfecto.
+
+68
+00:06:56,770 --> 00:07:01,300
+Ahora simplemente nos queda exportar la configuración de las rutas.
+
+69
+00:07:01,300 --> 00:07:12,020
+Para eso pongo Esport const AP routing providers para exportar el servicio de rutas que va a ser una
+
+70
+00:07:12,030 --> 00:07:17,170
+RAI de tipo n y va a exportar simplemente esto.
+
+71
+00:07:17,170 --> 00:07:26,500
+Y ahora voy a exportar el Routin routing que va a ser el módulo Module with providers que es lo que
+
+72
+00:07:26,500 --> 00:07:32,560
+va a hacer es llamar al router Module punto y al método for root y este método lo que hace es cargar
+
+73
+00:07:32,560 --> 00:07:38,230
+nuestra configuración de ruta en el router de angulas a Pepe Routes y hacer que funcione guardo y ahora
+
+74
+00:07:38,230 --> 00:07:42,670
+voy a importar este fichero en el App Module lo importo por aquí.
+
+75
+00:07:43,090 --> 00:07:57,100
+Import Routin y el PP Routin providers from el fichero de ruta que está en el directorio actual y se
+
+76
+00:07:57,100 --> 00:08:01,180
+llama PPO punto Routin cierro con punto y coma.
+
+77
+00:08:01,180 --> 00:08:08,650
+Ahora voy a cargar el routing en el import porque es un módulo y voy a cargar el PPA Routin providers
+
+78
+00:08:08,680 --> 00:08:18,100
+como es un servicio en los providers lo que hago por aquí guardo autorizo la pantalla y aquí tenemos
+
+79
+00:08:18,100 --> 00:08:18,630
+ya errores.
+
+80
+00:08:18,640 --> 00:08:20,020
+Vamos a revisar qué pasa.
+
+81
+00:08:20,020 --> 00:08:24,250
+Dice que en la línea 3 no puede encontrar a Pepe Routin.
+
+82
+00:08:24,330 --> 00:08:31,310
+No sé qué no sé cuánto vale eso es porque no pueden encontrar la Berruti.
+
+83
+00:08:31,490 --> 00:08:35,660
+Eso es porque realmente no está compilando bien vamos a hacer contra el C y vamos a volver a lanzar
+
+84
+00:08:35,650 --> 00:08:41,530
+el LG deserve y ahora sí que nos carga bien y si no actualiza la pantalla correctamente de forma que
+
+85
+00:08:41,530 --> 00:08:48,400
+si ahora intenta entrar a esas wereables que yo he creado esas rutas que yo he creado no me va a funcionar
+
+86
+00:08:48,670 --> 00:08:53,200
+porque no estoy utilizando el rutera outlet que es lo que dispara realmente el funcionamiento del router
+
+87
+00:08:53,500 --> 00:08:58,750
+y nos carga un componente dentro de la página enfunción a la web revelé que yo haya puesto si pongo
+
+88
+00:08:58,750 --> 00:09:04,450
+una ruta que corresponde a un componente me va a cargar ese componente asociado a esa ruta dentro de
+
+89
+00:09:04,450 --> 00:09:12,640
+una etiqueta así que voy a entrar en la app componen HTML ok y aquí tendremos una estructura HTML que
+
+90
+00:09:12,640 --> 00:09:22,690
+luego haremos valer de momento simplemente vamos a añadir un H1 que va a ser proyecto angular y aquí
+
+91
+00:09:22,690 --> 00:09:31,060
+vamos a utilizar el PP el rutera en este caso el router outlet utilizamos el router Howlett
+
+92
+00:09:34,270 --> 00:09:40,810
+por aquí guardamos actualizamos la pantalla y aquí me aparece la ruta por default si yo quiero acceder
+
+93
+00:09:40,810 --> 00:09:47,200
+a otra ruta por ejemplo la ruta de proyectos puede entrar perfectamente vale.
+
+94
+00:09:47,410 --> 00:09:50,350
+También podría hacerme un menú directamente un muelle
+
+95
+00:09:53,930 --> 00:09:55,010
+que tuviera los links
+
+96
+00:09:58,560 --> 00:10:00,480
+a la ruta que yo quiero.
+
+97
+00:10:00,510 --> 00:10:03,270
+Por ejemplo a la ruta de Abat
+
+98
+00:10:08,460 --> 00:10:14,520
+sobre mí hemos dicho que era sobre mi otro para proyectos
+
+99
+00:10:24,960 --> 00:10:26,310
+para proyectos
+
+100
+00:10:28,860 --> 00:10:29,700
+otra para
+
+101
+00:10:33,410 --> 00:10:38,570
+crear proyecto y otra para contacto
+
+102
+00:10:44,350 --> 00:10:45,340
+proyectos
+
+103
+00:10:48,500 --> 00:10:53,480
+crear el proyecto y otra para contacto
+
+104
+00:10:57,180 --> 00:11:03,890
+vale y simplemente con esto podría acceder a cualquiera de estas páginas.
+
+105
+00:11:04,110 --> 00:11:08,200
+Fíjate como voy navegando y me va cargando el contenido dentro del rutero.
+
+106
+00:11:08,280 --> 00:11:14,340
+Y si pongo una página que no existe me voy a cargar la página de error Okkhoy con lo cual ya tengo mi
+
+107
+00:11:14,340 --> 00:11:20,610
+router configurado tengo mis componentes creados y en la próxima clase de lo que vamos a hacer va a
+
+108
+00:11:20,610 --> 00:11:27,150
+ser ya maquetar o empezar con la maquetación de nuestro proyecto y en nuestra página web con angular.

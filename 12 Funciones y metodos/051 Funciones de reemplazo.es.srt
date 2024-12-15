@@ -1,0 +1,187 @@
+1
+00:00:00,880 --> 00:00:05,980
+Ya hemos visto las funciones de texto básica las funciones para hacer búsquedas y ahora vamos a ver
+
+2
+00:00:05,980 --> 00:00:12,830
+las funciones para reemplazar separar texto etcétera y cortar textos.
+
+3
+00:00:13,090 --> 00:00:16,130
+Hay una función que nos permite reemplazar un texto por otro.
+
+4
+00:00:16,180 --> 00:00:23,380
+Esa función se llama replace y yo puedo buscar por ejemplo JavaScript y puedo cambiar ese texto por
+
+5
+00:00:23,380 --> 00:00:26,230
+cualquier otra cosa es decir como segundo parámetro de esta función.
+
+6
+00:00:26,240 --> 00:00:28,080
+Yo le voy a pasar otra cosa.
+
+7
+00:00:28,330 --> 00:00:35,140
+Por ejemplo Simphony vale y en este caso cuando al cónsul loggia autorice la pantalla me aparece bienvenido
+
+8
+00:00:35,140 --> 00:00:39,780
+al curso de Simphony que lo acabo de sustituir por JavaScript débito.
+
+9
+00:00:39,880 --> 00:00:45,550
+De acuerdo entonces este método remplace sirve justamente para eso va a reemplazar este texto por el
+
+10
+00:00:45,550 --> 00:00:48,670
+segundo parámetro por el texto indicado en el segundo parámetro.
+
+11
+00:00:49,030 --> 00:00:56,950
+Luego tenemos el método es Leys que nos permite separar un estreno en separar el street o dar como resultado
+
+12
+00:00:57,010 --> 00:00:59,940
+un estrella a partir del carácter que yo quiera.
+
+13
+00:00:59,950 --> 00:01:06,160
+Por ejemplo si yo indico que quiero que me separé a partir del carácter número 14 si guardo a partir
+
+14
+00:01:06,160 --> 00:01:11,050
+de aquí es lo que me va a devolver a devolver un string a partir de aquí me va a haber eliminado la
+
+15
+00:01:11,050 --> 00:01:20,260
+primera parte efectivamente me corta el estreno y me lo dejo como yo quiero simplemente cortándole los
+
+16
+00:01:20,260 --> 00:01:25,150
+primeros caracteres y empezando a partir de el número de carácter que yo quiero.
+
+17
+00:01:25,150 --> 00:01:33,100
+Incluso podría decirle que me recortarã solamente del 14 al 22 que hace.
+
+18
+00:01:34,480 --> 00:01:40,630
+Fíjate me saca del número 14 al 22 me recortã por delante y por detrás sirve para la y sirve simplemente
+
+19
+00:01:40,630 --> 00:01:42,610
+para eso para recortar un string.
+
+20
+00:01:42,700 --> 00:01:48,830
+Luego tengo otro método que es el split que nos sirve para recortar las palabras y meterla en una raíz
+
+21
+00:01:48,840 --> 00:01:50,480
+y tener una colección de palabras.
+
+22
+00:01:50,860 --> 00:02:00,130
+Por ejemplo yo veo utilizar el split en mi texto 1 guarda y actualizo la pantalla y fíjate lo que pasa
+
+23
+00:02:00,130 --> 00:02:03,580
+en mi mente todo dentro de un array dentro de una raíz.
+
+24
+00:02:03,580 --> 00:02:09,700
+Pero si yo quiero separarlo por espacios si lo separo por espacio lo que va a hacer es separarme cada
+
+25
+00:02:09,700 --> 00:02:15,500
+una de las palabras que hay en el string con un separador que yo le indico en este caso el espacio y
+
+26
+00:02:15,500 --> 00:02:20,520
+de esta manera voy a tener una raíz con todas las palabras separadas.
+
+27
+00:02:20,530 --> 00:02:25,840
+Esto es súper útil para hacer buscadores para hacer diferentes funcionalidades que se nos pueden ir
+
+28
+00:02:25,840 --> 00:02:31,840
+ocurriendo entonces ahora mismo voy a tener una raíz y una colección de elemento una colección de string
+
+29
+00:02:32,170 --> 00:02:37,570
+cada uno con su índice correspondiente separadas por la palabra o sea separadas por el separador que
+
+30
+00:02:37,570 --> 00:02:39,000
+yo le he dicho por el espacio.
+
+31
+00:02:39,010 --> 00:02:44,460
+De esa manera corta el exploit corta todas esas palabras y los va metiendo en un índice de la raíz de
+
+32
+00:02:44,460 --> 00:02:51,240
+esta colección de elementos que luego ya te lo digo que veremos en profundidad que es una regla y como
+
+33
+00:02:51,240 --> 00:02:52,580
+funciona y toda esa historia.
+
+34
+00:02:53,520 --> 00:02:58,230
+Y por último tenemos un método súper fundamental en cualquier lenguaje de programación que es el método
+
+35
+00:02:58,230 --> 00:03:07,920
+trim de acuerdo yo lo puedo llamar al método trim en base a esta variable de acuerdo yo tengo esta variable
+
+36
+00:03:07,920 --> 00:03:14,340
+y llamo al método trim y lo que va a hacer recortarse o quitármelo de espacio por delante y por detrás
+
+37
+00:03:14,340 --> 00:03:22,140
+que tenga mi estricnina es decir si yo no le pongo trim lo que va a hacer esto es simplemente pintarme
+
+38
+00:03:22,140 --> 00:03:23,090
+aquí su espacio.
+
+39
+00:03:23,430 --> 00:03:27,690
+Pero muchas veces cuando yo guardo el nombre del usuario cuando yo guardo el IMEI del usuario no me
+
+40
+00:03:27,690 --> 00:03:33,810
+interesa guardar lo espacio entonces para eso tanto en PHP que tenemos la función trim tal cual yo le
+
+41
+00:03:33,810 --> 00:03:42,410
+paso la variable como en JavaScript que es simplemente la variable y le indico qué método qué filtro
+
+42
+00:03:42,410 --> 00:03:49,250
+le voy a poner en este caso con el método trim esa propiedad se la voy a adjuntar a mi variable para
+
+43
+00:03:49,250 --> 00:03:55,430
+que procese mi variable y en este caso le va a quitar los espacios que yo tengo por delante y por detrás
+
+44
+00:03:56,210 --> 00:04:01,670
+me va a dejar de Trim limpio vamos a autorizar la pantalla y efectivamente me quita los espacios sobrantes
+
+45
+00:04:01,700 --> 00:04:04,140
+por delante y por detrás en el extremo.
+
+46
+00:04:04,310 --> 00:04:12,290
+Así que estas funciones también interesantes para procesar generar reemplazar texto que nos van a servir
+
+47
+00:04:12,290 --> 00:04:13,700
+mucho en JavaScript.

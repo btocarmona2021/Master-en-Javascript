@@ -1,0 +1,143 @@
+1
+00:00:00,630 --> 00:00:04,050
+Qué aprenderemos en esta primera sección del curso.
+
+2
+00:00:04,050 --> 00:00:09,780
+Bueno en esta primera sección del curso vamos a aprender HTML pero quiero que quede bien claro que esta
+
+3
+00:00:09,780 --> 00:00:12,960
+parte es un repaso de HTML opcional.
+
+4
+00:00:12,960 --> 00:00:19,020
+Si tú ya tienes conocimientos en HTML no hace falta que hagas estas clases y puedes pasar directamente
+
+5
+00:00:19,440 --> 00:00:22,850
+a la sección primeros pasos con JavaScript de acuerdo.
+
+6
+00:00:22,890 --> 00:00:28,740
+Si ya tienes conocimientos en HTML no es necesario que hagas esta sección porque en esta sección simplemente
+
+7
+00:00:28,890 --> 00:00:35,460
+vamos a repasar lo más importante de HTML poco a poco para la gente que no tiene ningún conocimiento
+
+8
+00:00:35,460 --> 00:00:42,080
+en HTML así que importante si no quieres ver contenido de HTML pasa directamente a la siguiente sección
+
+9
+00:00:42,090 --> 00:00:44,770
+primeros pasos con JavaScript.
+
+10
+00:00:45,000 --> 00:00:49,020
+Pero si te quedas en esta sección lo que vamos a ver y lo que vamos a aprender va a ser lo siguiente
+
+11
+00:00:49,620 --> 00:00:53,520
+Empezaremos viendo qué es HTML y qué es una etiqueta.
+
+12
+00:00:53,520 --> 00:00:59,610
+Veremos un poco de teoría acerca de HTML y cómo crear etiquetas o cómo funcionan las etiquetas.
+
+13
+00:00:59,610 --> 00:01:06,450
+Después pasaremos a ver la estructura de un documento HTML viendo qué secciones y qué partes tiene un
+
+14
+00:01:06,450 --> 00:01:16,030
+documento HTML de la etiqueta principal HTML la cabecera el body los metadatos etcétera.
+
+15
+00:01:16,050 --> 00:01:22,570
+Después empezaremos a aprender etiquetas para textos y veremos diferentes etiquetas para hacer texto
+
+16
+00:01:22,570 --> 00:01:31,580
+aparecer encabezados H1 H2 H3 los párrafos etcétera y haremos varios ejercicios con eso.
+
+17
+00:01:31,800 --> 00:01:38,070
+Después explicaré las listas de HTML y cómo utilizarlas veremos cómo crear una lista ordenada una lista
+
+18
+00:01:38,150 --> 00:01:39,760
+ordenada etcétera.
+
+19
+00:01:39,900 --> 00:01:45,240
+Haremos prácticas con eso una vez que hayamos aprendido esto empezaremos a trabajar con las imágenes
+
+20
+00:01:45,240 --> 00:01:49,950
+de HTML y veremos como incrustar imágenes en nuestra página web.
+
+21
+00:01:49,950 --> 00:01:56,130
+Después trabajaremos con tablas y veremos cómo crear tablas como ponerle filas como ponerle columna
+
+22
+00:01:56,130 --> 00:02:00,660
+a una tabla de HTML y cómo estructurar el contenido en una tabla.
+
+23
+00:02:00,660 --> 00:02:05,330
+También aprenderemos a trabajar con formularios veremos lo más importante de los formularios de HTML
+
+24
+00:02:05,370 --> 00:02:13,480
+cómo crear un formulario los campos más importantes los campos de tipo texto la tarea los radio hutongs
+
+25
+00:02:13,620 --> 00:02:14,660
+etcétera.
+
+26
+00:02:14,880 --> 00:02:22,730
+Los campos L.T y alguna cosita más y después pasaremos a hacer un ejercicio completo con JavaScript
+
+27
+00:02:22,740 --> 00:02:28,680
+haremos una página HTML completa en la cual tendremos varias secciones en esa página tendremos un menú
+
+28
+00:02:28,680 --> 00:02:34,650
+de navegación para ir saltando entre las diferentes páginas veremos cómo utilizar los enlaces y veremos
+
+29
+00:02:34,710 --> 00:02:40,860
+varias cosas y propondré un ejercicio completo para practicar con HTML y una vez que hayamos visto todo
+
+30
+00:02:40,860 --> 00:02:46,800
+esto pasaremos a la siguiente sección del curso que será los primeros pasos con JavaScript y empezaremos
+
+31
+00:02:46,800 --> 00:02:50,400
+a aprender programación desde cero con JavaScript de acuerdo.
+
+32
+00:02:50,460 --> 00:02:57,690
+Si ya sabe HTML y no te interesa ver otra vez un repaso de HTML la cual empezaremos a aprender a programar
+
+33
+00:02:57,690 --> 00:03:03,210
+desde cero es decir utilizaremos el lenguaje JavaScript pero empezaremos a programar desde cero viendo
+
+34
+00:03:03,210 --> 00:03:08,820
+todo lo necesario que tiene un lenguaje de programación para empezar a crear nuestros propios programas
+
+35
+00:03:09,040 --> 00:03:12,430
+así que sin más vamos a empezar en esta sección de HTML.
+
+36
+00:03:12,480 --> 00:03:16,050
+Vamos a empezar a repasar un poquito de HTML y espero que te guste.

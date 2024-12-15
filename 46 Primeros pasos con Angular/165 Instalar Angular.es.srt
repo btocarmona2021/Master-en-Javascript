@@ -1,0 +1,439 @@
+1
+00:00:00,730 --> 00:00:06,250
+Ahora vamos a empezar a trabajar con angular angular es un framework para JavaScript que nos va a ayudar
+
+2
+00:00:06,250 --> 00:00:11,410
+a desarrollar aplicaciones web S.p.A es decir una aplicación web S.p.A es una aplicación web que no
+
+3
+00:00:11,410 --> 00:00:17,770
+recarga la página en ningún momento y está completamente separada del Baquet es decir que la comunicación
+
+4
+00:00:17,770 --> 00:00:25,390
+con el baquet es mediante peticiones Ayax y mediante comunicación asíncrona de acuerdo con lo cual todo
+
+5
+00:00:25,390 --> 00:00:28,720
+lo que sucede en la web es casi instantáneo.
+
+6
+00:00:28,720 --> 00:00:33,040
+Entonces vamos a empezar con angular y vamos a realizar la instalación de angular.
+
+7
+00:00:33,190 --> 00:00:38,800
+Vamos a estar trabajando con la última versión de El que ha salido hace unas horas que en la versión
+
+8
+00:00:38,980 --> 00:00:44,950
+6 de angular pero quiero que quede bien claro que todo lo que vamos a hacer en el curso es completamente
+
+9
+00:00:44,950 --> 00:00:51,010
+compatible con la versión 6 de angular con la versión 5 de angular con la versión 4 de angular y con
+
+10
+00:00:51,010 --> 00:00:57,100
+la versión 2 final de angular con lo cual todo lo que vamos a ver en el curso acerca de angular 6 es
+
+11
+00:00:57,100 --> 00:01:03,490
+completamente compatible con las versiones anteriores desde la versión 2 final en adelante de acuerdo
+
+12
+00:01:03,490 --> 00:01:06,570
+así que quiero que eso quede muy muy claro.
+
+13
+00:01:06,700 --> 00:01:11,500
+Entonces vamos a empezar a realizar la instalación para eso tenemos que abrir nuestra consola de comandos.
+
+14
+00:01:11,530 --> 00:01:18,820
+En mi caso voy a utilizar Cygwin de acuerdo y Gwynn que es un emulador de la terminal de Linux o de
+
+15
+00:01:18,820 --> 00:01:20,590
+Mac para Windows.
+
+16
+00:01:20,590 --> 00:01:24,490
+Voy a hacer esto más grande y vamos a empezar con los comandos.
+
+17
+00:01:24,530 --> 00:01:31,730
+Mira lo primero que tenemos que hacer cuando vamos a trabajar con nuevas versiones de angular y tal
+
+18
+00:01:32,050 --> 00:01:39,650
+es actualizar angular C que es el programa que se encarga de generar los proyectos de ãngulo general
+
+19
+00:01:39,700 --> 00:01:46,570
+un CAFO Olin y hacer más tareas con ãngulo de acuerdo es un intérprete de comandos que nos permite hacer
+
+20
+00:01:46,570 --> 00:01:52,450
+cositas con angular instalarlo o generar un proyecto generar componentes generar algo de código hacer
+
+21
+00:01:52,450 --> 00:01:53,490
+Bildt etcétera.
+
+22
+00:01:53,490 --> 00:01:59,050
+Entonces cuando vamos a instalar una nueva versión de angular hay que actualizarlo si tú no tienes angular
+
+23
+00:01:59,050 --> 00:02:03,640
+de Lehi instalado estos comandos que voy a poner ahora no los va a tener que poner hasta que yo no te
+
+24
+00:02:03,640 --> 00:02:04,390
+diga vale.
+
+25
+00:02:04,520 --> 00:02:08,410
+O sea esto es solamente para quien ya tiene angular CDI instalado.
+
+26
+00:02:08,410 --> 00:02:17,610
+Yo lo tengo instalado tengo que citar lo primero para eso voy a ejecutar el comando MPM uniste al menos
+
+27
+00:02:17,620 --> 00:02:27,700
+G arroba angular barra Fellay de Lumi angular y actual esto va a tardar un ratito porque tiene que borrar
+
+28
+00:02:28,300 --> 00:02:34,840
+varios paquetes a nivel global que hay en mi máquina bien se acaba de desinstalar mi paquete de angulas
+
+29
+00:02:34,850 --> 00:02:40,900
+Cellay mi programa de angulas leí que yo utilizaba con el MPM y ahora lo que tengo que hacer es borrar
+
+30
+00:02:40,900 --> 00:02:44,350
+la caché de PM para luego volver a instalar angulas.
+
+31
+00:02:44,360 --> 00:02:52,240
+Leí en la última versión para eso podemos ejecutar dos comandos de acuerdo el MPM caché verifique que
+
+32
+00:02:52,240 --> 00:02:57,700
+esto me va a borrar la caché de acuerdo nos esperamos un poquito a que actúe.
+
+33
+00:02:57,700 --> 00:03:05,560
+Si hago Control C la ejecución del comando se corta así que voy a volver a lanzarlo en MM caché Verified
+
+34
+00:03:05,800 --> 00:03:08,070
+para borrar la caché.
+
+35
+00:03:08,200 --> 00:03:14,700
+Entonces cómo podemos ver la caché se ha verificado y se ha comprimido aquí se ha eliminado lo que haya
+
+36
+00:03:14,710 --> 00:03:20,580
+tenido que eliminar y una vez que hemos ejecutado este comando también vamos a lanzar otro para asegurarnos
+
+37
+00:03:20,590 --> 00:03:29,940
+el comando sería el MPM caché Clear para borrar la caché que borre los paquetes antiguo y todo lo que
+
+38
+00:03:29,940 --> 00:03:30,530
+ha de borrar.
+
+39
+00:03:31,300 --> 00:03:40,570
+Esperamos un rato que actúe y aquí me dice que no se cuantas que esto es solamente para MPM 5 y que
+
+40
+00:03:40,570 --> 00:03:42,110
+utilice el menú menos Force.
+
+41
+00:03:42,130 --> 00:03:51,340
+Así que voy a ejecutar el comando MPM caché crear menos menos Force para que se borre y elimine toda
+
+42
+00:03:51,340 --> 00:04:00,320
+la caché una vez que termine el comando ya tenemos la caché borrada con lo cual ya vamos a pasar a instalar
+
+43
+00:04:00,320 --> 00:04:03,710
+angular Fellay de nuevo en la última versión.
+
+44
+00:04:03,710 --> 00:04:09,350
+Ojo estos tres comandos que hemos ejecutado anteriormente era eso eran sólo para gente que ya tenía
+
+45
+00:04:09,550 --> 00:04:12,270
+angular C Lehi en su máquina instalado.
+
+46
+00:04:12,500 --> 00:04:19,010
+Ahora lo que vamos a hacer ahora ya lo puede hacer cualquiera de acuerdo ya si no tienes angular Celli
+
+47
+00:04:19,070 --> 00:04:24,590
+o no tenías angular Cellay estos pasos ya si que tienes que seguirlos conmigo vale para instalar angular
+
+48
+00:04:24,590 --> 00:04:31,920
+Cele y tenemos que ejecutar el comando MPM install para utilizar el gestor de paquetes de no DJ s el
+
+49
+00:04:32,640 --> 00:04:42,920
+instala para instalar un paquete nuevo dentro de nuestro no DJs menos menosque vale y vamos tener el
+
+50
+00:04:42,920 --> 00:04:51,920
+paquete arroba angular CL y de acuerdo vamos a instalar angular Cellay esta dependencia o esta.
+
+51
+00:04:52,260 --> 00:04:58,590
+Este módulo al final de RPM y esto va a ser un programa que vamos a ejecutar sobre MPM que nos va a
+
+52
+00:04:58,590 --> 00:05:05,640
+servir para crear un nuevo proyecto de angular por el momento pero tiene más funciones que iremos viendo
+
+53
+00:05:06,120 --> 00:05:12,720
+bien acabamos de instalar angular Cellay como estamos viendo aquí y ahora lo que nos faltaría sería
+
+54
+00:05:12,930 --> 00:05:18,300
+generar un proyecto de angular porque ya tenemos disponible en nuestro nuestro angular de Lehi con lo
+
+55
+00:05:18,300 --> 00:05:21,120
+cual ya podemos generar nuevos proyectos de angular.
+
+56
+00:05:21,120 --> 00:05:23,070
+Si buscamos en Google angular Cellay
+
+57
+00:05:26,080 --> 00:05:29,010
+podemos entrar a su web C.L. y punto angular punto.
+
+58
+00:05:29,130 --> 00:05:34,240
+Y aquí nos dice que tenemos que hacer de acuerdo que Komando y cuáles son los más importantes.
+
+59
+00:05:34,280 --> 00:05:40,960
+Vale sigamos Aguete estarte aquí no lleva al Jaap vale que nos ponen todo lo que podemos hacer como
+
+60
+00:05:40,960 --> 00:05:47,350
+instalar angular Celebi como obtener ayuda de angular Cele y cómo generar y servir un proyecto de angular
+
+61
+00:05:47,380 --> 00:05:50,480
+para desarrollar y esto es lo que nos interesa.
+
+62
+00:05:50,530 --> 00:05:56,020
+Vamos a ejecutar el comando NG New para crear un nuevo proyecto y NG servir para lanzar ese proyecto
+
+63
+00:05:56,020 --> 00:05:58,120
+en un servidor local de desarrollo.
+
+64
+00:05:58,120 --> 00:06:00,470
+Vale sí que vamos con eso.
+
+65
+00:06:00,470 --> 00:06:04,840
+Mira para crear un nuevo proyecto de angular una nueva carpeta en la que trabajar tenemos que utilizar
+
+66
+00:06:04,840 --> 00:06:11,680
+el comando NG New pero es importante que lo ejecutemos dentro de la carpeta del proyecto del curso que
+
+67
+00:06:11,680 --> 00:06:16,840
+estamos haciendo o dentro de la carpeta donde queremos estar trabajando para eso voy a entrar yo a mi
+
+68
+00:06:16,840 --> 00:06:18,100
+directorio del curso.
+
+69
+00:06:18,100 --> 00:06:26,040
+Vale voy a limpiar la consola y aquí voy a entrar aquí directamente donde voy a ejecutar el ingenio
+
+70
+00:06:26,070 --> 00:06:33,090
+porque esto me va a generar una nueva carpeta así que voy a lanzar el comando NG New que para generar
+
+71
+00:06:33,090 --> 00:06:39,990
+un nuevo proyecto y voy a poner el nombre a mi proyecto en éste caso va a ser aprendiendo angular le
+
+72
+00:06:39,990 --> 00:06:46,350
+doy a Enter y esto lo que va a hacer este comando va a ser lo primero crearme una serie de archivos
+
+73
+00:06:46,470 --> 00:06:52,920
+y directorios básicos para uno para una aplicación esqueleto de angular de acuerdo un café Olin de archivo
+
+74
+00:06:52,920 --> 00:06:58,200
+y directorio básico de angular como se llama Los generales carefully.
+
+75
+00:06:58,200 --> 00:07:03,060
+La estructura básica de un proyecto de ãngulo los archivos básicos de un proyecto de angular y después
+
+76
+00:07:03,060 --> 00:07:09,030
+se conecta vía MPM y se descarga toda la librería como estamos viendo que acaba de crear una carpeta
+
+77
+00:07:09,040 --> 00:07:16,380
+nueve módulos y se descarga vía MPM toda la librería paquetes y dependencia que necesita angular.
+
+78
+00:07:16,380 --> 00:07:25,060
+Una vez que termina de generar ese proyecto ya tendríamos listo nuestro nuestro proyecto angular y podríamos
+
+79
+00:07:25,060 --> 00:07:30,380
+empezar ya a programar con él y a desarrollar cosas sobre sobre angular sobre el Freiburg.
+
+80
+00:07:30,790 --> 00:07:35,110
+Así que esto va a tardar un buen rato porque tienen que descargarse muchos paquetes y mucha librería.
+
+81
+00:07:35,230 --> 00:07:40,760
+Simplemente tenemos que esperar un ratito y cuando acabe tendremos angular listo para comenzar.
+
+82
+00:07:41,080 --> 00:07:47,350
+Bien pues ya ha terminado la instalación ya tenemos nuestro angular instalado ya tenemos todos los paquetes
+
+83
+00:07:47,560 --> 00:07:53,320
+de módulos y aquí estamos viendo que no ha instalado la versión 6 de angular y ahora lo vamos a ver
+
+84
+00:07:53,380 --> 00:07:55,750
+en la estructura de archivo y Directorio.
+
+85
+00:07:55,780 --> 00:08:01,180
+Vale por ejemplo podemos ver que versión de angular tenemos si abrimos el paquete punto Yeison aquí
+
+86
+00:08:01,230 --> 00:08:07,420
+no indica que la versión en las 6 de todo lo que haya angular de todo lo que hay de angular angular
+
+87
+00:08:07,420 --> 00:08:11,720
+común en la versión 6.0 con lo cual tenemos la versión más actualizada.
+
+88
+00:08:11,790 --> 00:08:17,740
+Y ahora para arrancar nuestra aplicación de angular simplemente tenemos que lanzar el comando NG Serve
+
+89
+00:08:18,010 --> 00:08:24,760
+o RPM estar de acuerdo en mi caso te recomiendo NG sirve porque también en este comando podemos indicarle
+
+90
+00:08:24,760 --> 00:08:31,840
+al menú menos Port Vale y le puede indicar un puerto etcétera pero en este caso por default lanzamos
+
+91
+00:08:31,900 --> 00:08:39,370
+o N.P Star o NG serve que sirve para lanzar el servidor local de desarrollo de angular y esperamos otro
+
+92
+00:08:39,460 --> 00:08:40,030
+cargue
+
+93
+00:08:44,830 --> 00:08:50,330
+y me dice que NG Serve efectivamente no puede funcionar porque no encuentra el ángulo elpunto Yeison
+
+94
+00:08:50,330 --> 00:08:55,590
+que es el fichero de configuración de Ambulance leí que antes se llamaba angulación Cele y punto Yeison
+
+95
+00:08:55,640 --> 00:09:00,540
+que ahora le cambió el nombre pero básicamente es exactamente lo mismo.
+
+96
+00:09:00,740 --> 00:09:01,330
+De acuerdo.
+
+97
+00:09:02,480 --> 00:09:08,560
+Y bueno realmente esto pasa porque estamos fuera de ese directorio de angular de la extracción de ãngulo
+
+98
+00:09:08,560 --> 00:09:14,060
+al que hemos hecho del proyecto de ãngulo para poder lanzar el servidor local de desarrollo de angular
+
+99
+00:09:14,180 --> 00:09:15,900
+y ejecutar nuestro proyecto.
+
+100
+00:09:15,940 --> 00:09:19,120
+Tendremos que entrar a aprendiendo angular
+
+101
+00:09:21,940 --> 00:09:30,160
+y aquí ya sí que podemos lanzar el comando NG Serve o el bienestar el que quiera esperamos un poquito
+
+102
+00:09:30,160 --> 00:09:33,780
+a que nos arranque el servidor.
+
+103
+00:09:33,990 --> 00:09:40,810
+Alguien nos dice que el angular Lykke Development Server va a estar escuchando en el local 4200 en esta
+
+104
+00:09:40,900 --> 00:09:47,320
+web revelé de aquí la vamos a copiar y ahora está compilando y magnificando todo el proyecto ya lo tenemos
+
+105
+00:09:47,320 --> 00:09:52,930
+compilado completamente y ahora si nos vamos a nuestro navegador y ejecutamos esta web revelé a ver
+
+106
+00:09:52,930 --> 00:10:03,010
+si podemos hacerlo sería local Jost 4200 entramos y efectivamente nos carga nuestra aplicación de angular.
+
+107
+00:10:03,010 --> 00:10:10,150
+Todo esto en lo que aparece en el componente que está dentro de ese Reece entonces RC dentro de PP y
+
+108
+00:10:10,150 --> 00:10:14,160
+es este componente este HTML es el que se está cargando aquí.
+
+109
+00:10:14,170 --> 00:10:18,310
+Luego veremos en profundidad cómo funciona todo esto pero ya tenemos nuestro angulado instalado y nuestro
+
+110
+00:10:18,310 --> 00:10:19,930
+proyecto iniciado con angular.

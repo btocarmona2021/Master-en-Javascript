@@ -1,0 +1,455 @@
+1
+00:00:01,200 --> 00:00:09,970
+Ahora vamos a hacer uso de RedQ res Fonteyn para hacer una prueba de acuerdo.
+
+2
+00:00:10,080 --> 00:00:15,780
+Hemos probado los métodos HTTP que van por gheto de acuerdo pero tenemos un método HTTP como el put
+
+3
+00:00:15,780 --> 00:00:21,060
+y el delete que eso lo veremos cuando desarrollamos la aplicación que vamos a hacer pero de momento
+
+4
+00:00:21,060 --> 00:00:27,360
+vamos a hacer una práctica con el método HTTP POST y vamos a crear un formulario que nos permita añadir
+
+5
+00:00:27,570 --> 00:00:35,340
+un nuevo usuario vale aquí utilizando esta API le vamos a hacer una petición por posh en el servicio
+
+6
+00:00:35,880 --> 00:00:43,530
+y vamos a guardar un nuevo usuario y vamos a ver cómo funciona una petición HTTP por por post.
+
+7
+00:00:43,560 --> 00:00:48,930
+Vale que son muy parecidas al resto ya bien pues entonces lo vamos a hacer en la parte de externo en
+
+8
+00:00:48,930 --> 00:00:49,890
+este componente.
+
+9
+00:00:50,340 --> 00:00:55,900
+Vamos a crear un formulario ahí y también vamos a estar modificando nuestro servicio.
+
+10
+00:00:55,950 --> 00:00:57,030
+Vamos a cerrarlo todo.
+
+11
+00:00:57,450 --> 00:01:04,320
+Vamos a modificar nuestro servicio de peticiones punto Service y vamos a añadir un método nuevo el método
+
+12
+00:01:04,320 --> 00:01:09,470
+se va a llamar desde Bruselas porque vamos a estar usando el método Create.
+
+13
+00:01:09,490 --> 00:01:18,340
+De esta API estafe y capín Vale y le vamos a indicar que va a devolver un observable tipo Benni Okkhoy
+
+14
+00:01:18,720 --> 00:01:25,840
+y le vamos a pasar también un objeto para guardar en este caso un usuario.
+
+15
+00:01:26,340 --> 00:01:32,640
+Entonces cómo hacemos una petición Ayax utilizando post de acuerdo a este servicio tenemos que enviarle
+
+16
+00:01:32,640 --> 00:01:36,480
+datos en un Jayson string de acuerdo para crear un Jayson string.
+
+17
+00:01:36,480 --> 00:01:43,500
+Vamos a crear una variable Jayson y para convertir un objeto de JavaScript puro a un Jayson string es
+
+18
+00:01:43,500 --> 00:01:49,350
+decir a un string que dentro tiene un Jayson pues tenemos que usar el objeto Jayson punto string Giphy
+
+19
+00:01:50,490 --> 00:01:52,410
+y le vamos a pasar el usuario.
+
+20
+00:01:52,410 --> 00:01:54,690
+Esto ya es un Jayson.
+
+21
+00:01:55,200 --> 00:02:02,010
+Luego también tenemos que indicarle las cabeceras cómo le indicamos las cabeceras como una variable
+
+22
+00:02:02,020 --> 00:02:10,310
+Geddes y vamos a hacer Nemu HTTP Geddes que es el objeto que nos permite crear cabecera y utilizamos
+
+23
+00:02:10,330 --> 00:02:11,380
+el método set.
+
+24
+00:02:11,520 --> 00:02:18,270
+Vamos a decir el tipo de petición que vamos a hacer vamos a decir que el Content type va a ser de tipo
+
+25
+00:02:18,570 --> 00:02:19,440
+application
+
+26
+00:02:22,230 --> 00:02:31,530
+guión Application Jayson vale y ahora por último simplemente tengo que enviar mi petición por cómo lo
+
+27
+00:02:31,530 --> 00:02:41,820
+hago con el returned hago disputo guion bajo HTTP punto post y le paso disputo o R.L para utilizar la
+
+28
+00:02:41,820 --> 00:02:47,220
+web de Miami que es una piedra de pruebas y le voy a pasar y luego pasar la ruta que voy a cargar en
+
+29
+00:02:47,220 --> 00:02:48,620
+este caso API barra.
+
+30
+00:02:49,380 --> 00:02:57,420
+Vamos a ver cuál era user vale por post le voy a pasar como segundo parámetro los parámetros a guardar
+
+31
+00:02:57,450 --> 00:03:02,730
+el objeto Jayson a guardar en este caso la variable se ha llamado Yeison pero le voy a poner paraules
+
+32
+00:03:04,080 --> 00:03:08,870
+apagarlos paramos y le voy a pasar las cabeceras.
+
+33
+00:03:08,910 --> 00:03:16,060
+Los jefes dentro entre un objeto Jayson dentro de una propiedad Geddes y de paso la variable Geddes.
+
+34
+00:03:16,070 --> 00:03:23,010
+Así de sencillo puedo hacer una petición Ayax con el método POST vale una petición HTTP se revisó el
+
+35
+00:03:23,010 --> 00:03:31,960
+compilador todo sigue yendo bien y ahora en mi componente externo voy a crear un nuevo formulario.
+
+36
+00:03:32,130 --> 00:03:36,060
+Vale me agregarme un formulario
+
+37
+00:03:38,940 --> 00:03:46,770
+por aquí abajo y aparte además voy a crearme un objeto ficticio para estar rellenando lo vale tengo
+
+38
+00:03:46,770 --> 00:03:57,600
+ya la propiedad user que tenga unos datos y tal pero voy a crear otra que va a ser New user base de
+
+39
+00:03:57,600 --> 00:04:04,180
+tipo n ok y entonces le voy a dar unos valores o voy a rellenarla aquí voy a crear un objeto Allyson
+
+40
+00:04:04,190 --> 00:04:14,010
+aquí disputo ni user pues tal y como me indica el API un objeto puede constar de esto simplemente vale
+
+41
+00:04:14,040 --> 00:04:19,560
+entonces voy a pasarle un objeto como éste un objeto Jayson como este.
+
+42
+00:04:19,590 --> 00:04:26,160
+Lo único es que los datos van a ir vacíos porque lo voy a rellenar con el formulario malentendida a
+
+43
+00:04:26,160 --> 00:04:32,100
+crear un formulario nuevo en mi vista por aquí abajo voy a poner un H.R y voy a crear un formulario
+
+44
+00:04:32,240 --> 00:04:35,190
+con un H2 que ponga crear usuario
+
+45
+00:04:38,250 --> 00:04:50,730
+me ha creado un formulario form le voy a poner un nombre ni usar bases una en Gijón ni utilizar el método
+
+46
+00:04:50,800 --> 00:04:58,980
+NG Summit el evento y yo voy a crear un método en mi componente se llamaron Summit o que le voy a pasar
+
+47
+00:05:00,060 --> 00:05:04,290
+el formulario en si new user también para resetearlo.
+
+48
+00:05:04,680 --> 00:05:10,140
+Voy a crear el formulario y voy a creerme los campos al crear un primer campo
+
+49
+00:05:13,680 --> 00:05:20,190
+que va a ser el campo Nein Label for Nain nombre
+
+50
+00:05:23,320 --> 00:05:32,260
+que haga el input de tipo texto con el Naima Nein y le voy a decir un nombre para el formulario para
+
+51
+00:05:32,260 --> 00:05:38,560
+el campo del fumet de Angola en este caso va a ser NAICM que ser un LG Model y voy a utilizar el Churata
+
+52
+00:05:38,580 --> 00:05:50,440
+vinil por aqui para modificar el objeto Range Model en este caso el objeto a modificar es ni user
+
+53
+00:05:53,560 --> 00:06:05,130
+vale ni un user y la propiedad Nain hacia Romi input y voy a hacer lo mismo con el otro input.
+
+54
+00:06:05,990 --> 00:06:11,140
+Copio pego por aqui va a ser yo trabajo
+
+55
+00:06:16,230 --> 00:06:25,390
+de esto para Yok el nombre va a ser Joop va según el modelo voy a modificar la propiedad de mi objeto.
+
+56
+00:06:25,710 --> 00:06:29,790
+Y por último el imput de tipo submit
+
+57
+00:06:34,800 --> 00:06:36,750
+Valerio oponerle también
+
+58
+00:06:39,910 --> 00:06:46,830
+un valio que sea enviar o guardar un usuario vale.
+
+59
+00:06:46,860 --> 00:06:49,120
+Y voy a ponerle también la propia disabled.
+
+60
+00:06:50,770 --> 00:06:56,160
+Bueno realmente si se la podría poner en el caso de que la validación sea incorrecta.
+
+61
+00:06:56,170 --> 00:07:04,600
+No le voy a poner cuando ni un user FOM no sea valid pues que me ponga esto realmente va a poner también
+
+62
+00:07:05,110 --> 00:07:15,040
+un requires a cada campo vale y debe añadir la validación en España es pal españa y voy a comprobar
+
+63
+00:07:17,120 --> 00:07:25,660
+con el eje si el Naima punto touched y
+
+64
+00:07:28,740 --> 00:07:36,120
+no es válido ni valid pues entonces que diga que el nombre no es válido
+
+65
+00:07:39,300 --> 00:07:41,170
+y voy a hacer lo mismo con él.
+
+66
+00:07:41,340 --> 00:07:50,610
+Otro imput de trabajo en este caso en lugar de Nein pues se utilizó Joop y voy a ponerlo aquí también.
+
+67
+00:07:50,610 --> 00:08:02,580
+Viendo el trabajo en un guardo autorizó la pantalla y aquí tengo mi formulario para crear un usuario
+
+68
+00:08:02,850 --> 00:08:11,550
+me lo voy a llevar arriba para verlo mejor me voy a llevar todo este trozo aquí arriba y voy a poner
+
+69
+00:08:11,550 --> 00:08:14,330
+el H.R abajo.
+
+70
+00:08:14,790 --> 00:08:22,800
+Vale entonces ahora mismo tengo mi formulario aquí si elemento algo mal o no lo metiera me dice que
+
+71
+00:08:22,800 --> 00:08:23,370
+no es válido.
+
+72
+00:08:23,370 --> 00:08:25,740
+Vale una vez que sí que sea válido me deja enviar.
+
+73
+00:08:25,800 --> 00:08:32,010
+Vale entonces cuando hagamos un summit cuando vamos el evento Summit vamos a crear este método en el
+
+74
+00:08:32,010 --> 00:08:42,570
+componente externo del método submit deja pasar el formulario como parámetro te voy a hacer aquí lo
+
+75
+00:08:42,570 --> 00:08:48,450
+siguiente Voy a llamar a mi servicio de peticiones disputo guión bajo peticiones servis punto y a utilizar
+
+76
+00:08:48,510 --> 00:08:57,060
+el método que he creado que es el de user user y debió pasar como parámetro el usuario a guardar.
+
+77
+00:08:57,060 --> 00:09:06,770
+En este caso es disputo que un bajo Niu user disputo ni tú ni bajo user Malet y utilizo el método suscripta
+
+78
+00:09:07,440 --> 00:09:09,440
+para recoger la información que me devuelva.
+
+79
+00:09:09,450 --> 00:09:18,030
+Vale esto tiene dos métodos de Calvados funcionan de Calvar una que es la Response y otra que es el
+
+80
+00:09:18,120 --> 00:09:18,600
+error
+
+81
+00:09:23,500 --> 00:09:32,530
+en el caso de que me venga el error simplemente muestra un consolé punto log de error y en el caso de
+
+82
+00:09:32,530 --> 00:09:41,900
+que me llegara de que me llegue la respuesta simplemente muestro la Response punto data realmente llevará
+
+83
+00:09:41,930 --> 00:09:48,760
+algún alguna propiedad data pero simplemente muestro la Response y el formulario una vez que me llegue
+
+84
+00:09:48,760 --> 00:09:56,060
+la Response correctamente por lo vacío hago un disputo a un form punto reset con ese método reset de
+
+85
+00:09:56,060 --> 00:09:58,990
+los formularios actualizo la pantalla.
+
+86
+00:09:58,990 --> 00:10:07,660
+Voy a abrirme la consola Balet luego todo voy a meter la información que voy a crear usuario Pama y
+
+87
+00:10:07,660 --> 00:10:11,020
+me devuelve efectivamente la información y me vacía el formulario.
+
+88
+00:10:11,110 --> 00:10:17,620
+Esta información de dónde sale el servicio res me devuelve la fecha élide y me devuelve el Yok y el
+
+89
+00:10:17,620 --> 00:10:19,810
+nombre de acuerdo perfecto.
+
+90
+00:10:19,810 --> 00:10:21,950
+Ahora qué puedo hacer con esta información.
+
+91
+00:10:21,950 --> 00:10:26,910
+Pues puedo mostrarla en mi en mi página web directamente.
+
+92
+00:10:26,900 --> 00:10:31,830
+Vale puedo hacerme aquí un dip
+
+93
+00:10:38,110 --> 00:10:39,310
+que solamente se muestre
+
+94
+00:10:42,120 --> 00:10:50,460
+cuando hay una propiedad rellenada que sea que sea usuario guardado por ejemplo vale entonces cuando
+
+95
+00:10:50,460 --> 00:10:51,660
+esa propiedad esté rellena
+
+96
+00:10:59,230 --> 00:11:05,300
+un usuario guardado vale cuando esa propiedad esté rellena.
+
+97
+00:11:05,380 --> 00:11:11,650
+Voy a mostrar aquella información o simplemente muestra un H2 H3 con el nombre
+
+98
+00:11:14,260 --> 00:11:15,190
+usuario
+
+99
+00:11:17,870 --> 00:11:26,030
+muestro por aquí a ver como ve bien el objeto me viene en limpio pues simplemente muestro usuario guardado
+
+100
+00:11:27,120 --> 00:11:27,660
+entonen
+
+101
+00:11:30,920 --> 00:11:34,420
+y usuario guardado apuntó Yo.
+
+102
+00:11:35,640 --> 00:11:44,620
+Ok estoy en una H4 entonces así de simple guardo por aquí guardo por aquí y vamos a probarlo.
+
+103
+00:11:44,680 --> 00:11:52,460
+Entonces relleno mi objeto o sea mi formulario le dio a guardar PAMM vale y debería haberse mostrado
+
+104
+00:11:52,850 --> 00:11:53,750
+la información
+
+105
+00:11:56,460 --> 00:11:58,980
+vale porque la propiedad yo la he rellenado.
+
+106
+00:11:58,980 --> 00:12:05,280
+Entonces vamos a revisar qué pasa usuario guardado tenemos la propiedad y es que claro no le hemos dado
+
+107
+00:12:05,280 --> 00:12:05,760
+un valor.
+
+108
+00:12:05,770 --> 00:12:12,050
+Vamos a darle un valor al difunto usuario guardado es igual a response ok.
+
+109
+00:12:12,150 --> 00:12:19,950
+De esa manera el formulario de Masliah sin un valor esa propiedad y se me va a mostrar a guardar y aquí
+
+110
+00:12:20,040 --> 00:12:28,200
+se me muestra la información que yo he guardado en la base de datos que además le puedo poner una h
+
+111
+00:12:28,650 --> 00:12:38,270
+2 que diga el usuario se ha guardado correctamente el H2 guardo.
+
+112
+00:12:38,410 --> 00:12:46,770
+Voy a cerrar la consola y vamos a volver a probar guardo y aquí se me añade el usuario y los datos me
+
+113
+00:12:46,770 --> 00:12:53,550
+vienen desde el servicio res con lo cual ya sabemos cómo utilizar el método POST DE HTTP y cómo utilizar
+
+114
+00:12:53,550 --> 00:13:00,600
+un formulario enlazado a nuestro servicio y enlazado además a una Pierres que está en remoto.

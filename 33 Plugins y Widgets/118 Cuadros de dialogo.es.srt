@@ -1,0 +1,127 @@
+1
+00:00:00,450 --> 00:00:09,260
+Ahora vamos a ver cómo hace el cuadro de diálogo que básicamente son un popup se vale simplemente en
+
+2
+00:00:09,300 --> 00:00:18,890
+nuestro HTML puede hacerme una sección como ésta en el html para verlo claramente.
+
+3
+00:00:18,970 --> 00:00:29,150
+Mira vamos a ver ahora los cuadros de diálogo y cuadros de diálogo.
+
+4
+00:00:29,150 --> 00:00:35,550
+Simplemente podemos tener un Dib nuestro código esto se suele usar mucho en cualquier tipo de página
+
+5
+00:00:35,550 --> 00:00:39,030
+web le podemos poner una clase popup
+
+6
+00:00:48,320 --> 00:00:50,060
+Vale y le podemos poner un Twitter.
+
+7
+00:00:50,090 --> 00:00:58,780
+El Twitter va a ser el titular que tendrá la pequeña ventanita que nos aparecerá más pues podría ser.
+
+8
+00:00:58,860 --> 00:00:59,360
+Seguro
+
+9
+00:01:02,460 --> 00:01:03,800
+y luego dentro del.
+
+10
+00:01:04,040 --> 00:01:07,640
+Pues yo puedo poner un párrafo si continúas en el curso
+
+11
+00:01:10,750 --> 00:01:18,000
+aprenderás mucho de JavaScript inevitablemente.
+
+12
+00:01:18,150 --> 00:01:22,930
+Okey entonces si guardamos y actualizamos la pantalla aquí pues simplemente tenemos el DIV.
+
+13
+00:01:23,470 --> 00:01:26,200
+Pero si yo utilizo el método Dialog
+
+14
+00:01:29,680 --> 00:01:39,060
+si utilizo aquí sobre ese Dib que se llama popup almohadilla popup.
+
+15
+00:01:40,440 --> 00:01:43,120
+Si utilizo aquí el método Dialog
+
+16
+00:01:45,660 --> 00:01:47,990
+guardado y actualizo la pantalla.
+
+17
+00:01:48,580 --> 00:01:54,550
+Aquí me aparece mi cuadro de diálogo si te das cuenta y me aparece que el botón de Clowes no aparece
+
+18
+00:01:54,550 --> 00:02:01,030
+en el cuadro diálogo que además es movible incluso podría dispararlo justo cuando pasara algún evento
+
+19
+00:02:01,040 --> 00:02:03,190
+no podría poner aquí un botón
+
+20
+00:02:10,570 --> 00:02:15,340
+con Hide lanzar popup
+
+21
+00:02:18,040 --> 00:02:33,020
+lanzamiento y le puedo poner no puedo seleccionar lanzar popup y cuando se produzca el evento clic yo
+
+22
+00:02:33,100 --> 00:02:36,400
+puedo lanzar mi cuadro de diálogo
+
+23
+00:02:41,390 --> 00:02:45,610
+actualizo la pantalla le doy click y me lo lanza.
+
+24
+00:02:45,680 --> 00:02:52,520
+Evidentemente yo puedo ponerle un display none cuando yo no quiera que esto se muestre.
+
+25
+00:02:52,520 --> 00:02:54,760
+En este caso ahora yo no quiero que se muestre
+
+26
+00:02:59,020 --> 00:03:01,550
+no quiero que se muestre por default.
+
+27
+00:03:02,560 --> 00:03:07,570
+Quiero que se muestre solamente cuando hice click al botón A..
+
+28
+00:03:07,750 --> 00:03:16,940
+Ya sé lo que es lo que pasa es que cuando utilizamos los logos los Tultepec esto al tener un Twitter
+
+29
+00:03:17,230 --> 00:03:22,510
+me lo añade ahí también el Tultepec entonces y paso por encima me saca el Tulip de Clowes de que eso
+
+30
+00:03:22,510 --> 00:03:26,170
+vale para cerrar pero realmente esto está funcionando correctamente.
+
+31
+00:03:26,170 --> 00:03:32,030
+Si desactivar a los Tultepec de la página en general no me soltaría de este último.
+
+32
+00:03:32,470 --> 00:03:35,440
+Pero vamos está funcionando perfectamente el cuadro de diálogo.

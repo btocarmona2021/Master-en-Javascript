@@ -1,0 +1,639 @@
+1
+00:00:00,540 --> 00:00:05,810
+Ahora vamos a empezar otro ejercicio para empezar a trabajar con el tema de los textos de acuerdo y
+
+2
+00:00:05,820 --> 00:00:10,500
+para empezar a ver nuevos métodos para manipular más el dormitan.
+
+3
+00:00:11,040 --> 00:00:19,710
+Así que para eso me voy a crear un nuevo HTML que se va a llamar textos punto HTML y vamos a ver varias
+
+4
+00:00:19,710 --> 00:00:27,270
+cositas aquí y aparte me voy a crear un nuevo fichero de JavaScript que se va a llamar 03 guión textos
+
+5
+00:00:29,040 --> 00:00:30,650
+JSA.
+
+6
+00:00:31,080 --> 00:00:42,930
+Vale y bien pues en el texto ese sistema le voy a copiarme el HTML de otro archivo lo veo por aquí y
+
+7
+00:00:42,960 --> 00:00:45,030
+voy a cambiarlo.
+
+8
+00:00:45,030 --> 00:00:53,350
+Voy a quitar los estilos que tenemos por aquí voy a incluir el archivo cero tres textos juntos J.S.
+
+9
+00:00:56,520 --> 00:01:07,890
+Y voy a quitar el código que tengo aquí ahora mismo y en este caso vamos a ver más métodos más métodos
+
+10
+00:01:07,890 --> 00:01:17,600
+simplemente vamos a ver más cositas y cuerito bien sobre todo enfocado a textos.
+
+11
+00:01:19,520 --> 00:01:28,510
+Entonces vamos a utilizar el documento punto redIT en el texto elpunto J.S.
+
+12
+00:01:31,170 --> 00:01:36,720
+para mostrar aquí algo para ver si funciona el archivo
+
+13
+00:01:41,140 --> 00:01:49,410
+vale así que vamos a cargar el archivo en este caso sería él textos junto a HTML y efectivamente funciona.
+
+14
+00:01:51,220 --> 00:01:57,910
+Entonces qué vamos a hacer pues vamos a hacer una serie de pruebas una serie de ejercicios.
+
+15
+00:01:58,240 --> 00:02:04,990
+Voy a crear un menú con una serie de enlaces y esos enlaces van a tener un texto vacío.
+
+16
+00:02:05,140 --> 00:02:16,810
+Vale voy a crear un menú con una serie de enlaces vale una serie de elementos de la lista con cuatro
+
+17
+00:02:16,810 --> 00:02:27,050
+enlaces vamos a meterle a HR-V y cierro el uno me va a llevar a Google.
+
+18
+00:02:28,310 --> 00:02:34,450
+Google untó es el otro me va a llevar a Facebook otro nuevo a llevar a Twitter
+
+19
+00:02:41,850 --> 00:02:43,120
+me va a llevar a Twitter
+
+20
+00:02:45,990 --> 00:02:52,080
+y el otro va a llevar a mi web.
+
+21
+00:02:52,490 --> 00:03:00,170
+Pues ahora mismo estos enlaces están vacíos aquí no aparece nada realmente vale no aparece nada realmente.
+
+22
+00:03:01,190 --> 00:03:03,050
+Entonces qué tenemos que hacer.
+
+23
+00:03:03,200 --> 00:03:09,260
+Lo que tenemos que hacer es leer todos los enlaces que haya de acuerdo todos los enlaces que haya aquí
+
+24
+00:03:09,530 --> 00:03:19,280
+y coger el atributo HR-V y meterlo dentro de la etiqueta en sí de acuerdo meterlo dentro del elemento
+
+25
+00:03:19,430 --> 00:03:21,250
+vale meterlo como texto.
+
+26
+00:03:21,260 --> 00:03:22,460
+Cómo podemos hacer esto.
+
+27
+00:03:22,460 --> 00:03:24,060
+Pues muy fácil.
+
+28
+00:03:24,290 --> 00:03:32,900
+Ya hemos visto cómo utilizar el Fortich en JavaScript el MAP utiliza los diferentes bucles para seleccionar
+
+29
+00:03:32,900 --> 00:03:34,190
+diferente elemento
+
+30
+00:03:37,160 --> 00:03:43,130
+pero en este caso vamos a utilizar funciones propias de cuerito es decir yo puedo seleccionar una serie
+
+31
+00:03:43,130 --> 00:03:49,820
+de elementos por ejemplo los elementos cuyo enlace o cuya etiqueta sea la puedes seleccionar lo es todo
+
+32
+00:03:49,820 --> 00:03:53,270
+y puedo recorrerlos con un método que se llama Hech.
+
+33
+00:03:53,540 --> 00:03:59,630
+De acuerdo va a utilizar el iWatch de igual forma poder utilizar JavaScript Apel o normal aquí dentro
+
+34
+00:03:59,630 --> 00:04:00,160
+y Cury.
+
+35
+00:04:00,170 --> 00:04:06,410
+No hay problema si no podemos mezclar JavaScript nativo con funciones Bellick QWERTY y viceversa no
+
+36
+00:04:06,410 --> 00:04:10,900
+hay problema porque al final es lo mismo en el fondo entonces tenemos una función que se llama Hitch
+
+37
+00:04:12,050 --> 00:04:16,440
+vale que tiene una función de Calvache como estamos diciendo.
+
+38
+00:04:16,790 --> 00:04:23,570
+Y de esta manera Yo estoy recorriendo mi elemento Malet mis elementos y esto tiene también parámetros
+
+39
+00:04:23,570 --> 00:04:34,070
+como el índice que podría capturar de esta forma si yo consolé Autolog de diseño.
+
+40
+00:04:35,000 --> 00:04:40,790
+Vamos a ver cómo va recorriendo cada uno de esos elementos y me lo va mostrando por la consola vale
+
+41
+00:04:41,250 --> 00:04:42,440
+como actualizar la pantalla.
+
+42
+00:04:42,440 --> 00:04:53,020
+Y efectivamente fíjate un enlace este primer enlace me lleva el HR-V me lleva a ver si lo puedo ver.
+
+43
+00:04:53,090 --> 00:04:58,510
+Efectivamente me lleva a Google de acuerdo y aquí tenemos cada uno de esos enlaces.
+
+44
+00:04:58,520 --> 00:05:04,850
+Luego el otro que me llevara los otros me llevaran a mi web uno por ejemplo.
+
+45
+00:05:04,850 --> 00:05:09,920
+Efectivamente ya estamos recorriendo todos los enlaces cada uno de estos elementos en un elemento del
+
+46
+00:05:09,920 --> 00:05:11,870
+DOM al cual yo puedo acceder.
+
+47
+00:05:11,870 --> 00:05:18,380
+Vale podría también contar la cantidad de enlaces que hay en la web según consolé blog.
+
+48
+00:05:18,920 --> 00:05:26,780
+Ahora mismo en esta página yo podría hacer un cont a punto Lend.
+
+49
+00:05:26,860 --> 00:05:29,240
+De esta manera podría ver cuanto elemento hay.
+
+50
+00:05:29,300 --> 00:05:38,450
+Efectivamente me cuenta 4 vale y bueno lo que quiero es seleccionar de estos elementos que estamos recorriendo
+
+51
+00:05:38,460 --> 00:05:43,820
+estos enlace hacer un disco y seleccionar el atributo HR-V.
+
+52
+00:05:43,820 --> 00:05:47,510
+Cómo puedo hacerlo haciendo T.R HR-V.
+
+53
+00:05:47,780 --> 00:05:52,210
+De esa manera lo selecciono y consigo el texto que hay dentro de ese atributo.
+
+54
+00:05:52,210 --> 00:05:56,380
+Vale vamos a hacer con su reloj para verlo.
+
+55
+00:05:58,040 --> 00:05:59,330
+Actualizamos la pantalla.
+
+56
+00:05:59,330 --> 00:06:04,790
+Efectivamente estos son los enlaces que hay aparte de todo lo que quiera una vez que tengas seleccionado
+
+57
+00:06:04,790 --> 00:06:05,670
+ese texto.
+
+58
+00:06:05,670 --> 00:06:11,660
+Vale una vez que tengas seleccionado el texto esto lo voy a meter dentro de una variable evidentemente
+
+59
+00:06:12,620 --> 00:06:23,650
+Bahr enlace lo que quiero es incrustar dentro del Bodipo dentro del texto que os va a mostrar en el
+
+60
+00:06:23,650 --> 00:06:24,260
+enlace.
+
+61
+00:06:24,280 --> 00:06:24,540
+Vale.
+
+62
+00:06:24,620 --> 00:06:26,350
+Cómo hacer eso.
+
+63
+00:06:26,350 --> 00:06:28,430
+Pues simplemente haciendo
+
+64
+00:06:31,180 --> 00:06:31,870
+disk.
+
+65
+00:06:31,910 --> 00:06:39,800
+De igual forma ya sabes que cuando tenemos varios acceso al seleccionar un mismo elemento del DOM recomiendo
+
+66
+00:06:40,130 --> 00:06:41,090
+crear una variable
+
+67
+00:06:44,150 --> 00:06:51,320
+para no sobrecargar el DOM y no sobrecargar ese acceso y que la web vaya más fluida.
+
+68
+00:06:51,320 --> 00:06:59,000
+En el caso de que tuviera un javascript muy grande y entonces podría hacer lo siguiente podría meter
+
+69
+00:06:59,000 --> 00:07:00,530
+en el enlace como texto.
+
+70
+00:07:00,530 --> 00:07:03,920
+Para eso tengo la función text lo podía meter dentro
+
+71
+00:07:06,710 --> 00:07:10,350
+del texto del propio enlace de forma que se actualizó la pantalla.
+
+72
+00:07:10,550 --> 00:07:20,310
+Fíjate lo que pasa me pinta como texto del propio enlace el HR-V que hay en el enlace ok.
+
+73
+00:07:20,340 --> 00:07:21,800
+O sea increíble.
+
+74
+00:07:21,800 --> 00:07:28,070
+Y si yo le doy clic pues evidentemente me lleva a la web a lo cual yo le esté dando clic sin ningún
+
+75
+00:07:28,070 --> 00:07:30,460
+tipo de problema.
+
+76
+00:07:30,530 --> 00:07:33,920
+Una vez que tenemos esto tenemos ya este listado de enlaces.
+
+77
+00:07:33,920 --> 00:07:39,470
+Me gustaría añadir un campo del formulario para añadir más enlaces a esta lista.
+
+78
+00:07:39,480 --> 00:07:42,290
+Vale yo podría hacer aquí un H3
+
+79
+00:07:46,080 --> 00:08:00,390
+añadir nuevos enlaces vale y entonces voy a quedarme aquí un input de tipo texto cuyo y desea Adem
+
+80
+00:08:03,380 --> 00:08:07,680
+y voy a quedarme un botón cuyo video va a ser
+
+81
+00:08:10,870 --> 00:08:20,880
+de Button y el ideal input era de texto o link de Nick le vamos a poner cierro el botón
+
+82
+00:08:27,780 --> 00:08:29,870
+Vale y ahora aquí no aparecerá.
+
+83
+00:08:29,910 --> 00:08:36,530
+Efectivamente para añadir nuevo elemento entonces yo quiero añadir un nuevo elemento a la lista.
+
+84
+00:08:36,600 --> 00:08:37,840
+Cómo podría hacerlo.
+
+85
+00:08:37,850 --> 00:08:40,050
+Bueno tendría varias formas de hacerlo.
+
+86
+00:08:40,170 --> 00:08:46,890
+Lo primero que tenemos que hacer es recoger el valor que hay aquí y después con el evento click al darle
+
+87
+00:08:46,890 --> 00:08:55,590
+clic pues capturar ese valor no recoger ese valor bien entonces lo podemos hacer por aquí arriba.
+
+88
+00:08:55,590 --> 00:09:00,840
+Voy a seleccionar el elemento a DD Button y cuando yo le dé clic
+
+89
+00:09:05,310 --> 00:09:06,490
+vale cuando yo le dé clic
+
+90
+00:09:09,490 --> 00:09:17,440
+va a pasar algo qué va a pasar que vamos a recoger el valor que tenemos aquí en el link vale vamos a
+
+91
+00:09:17,440 --> 00:09:21,610
+recoger ese valor a BB Link
+
+92
+00:09:25,870 --> 00:09:27,210
+y recogemos su valor.
+
+93
+00:09:27,220 --> 00:09:32,410
+Vale vale utilizando esta función vale y puedo hacer un consuelo
+
+94
+00:09:36,010 --> 00:09:46,750
+de lo que me devuelve autorizó la pantalla abrir la consola yo me toqui algo le voy a añadir y aquí
+
+95
+00:09:46,750 --> 00:09:49,160
+me aparece el texto que he introducido en el.
+
+96
+00:09:49,300 --> 00:09:50,920
+Hasta aquí todo correcto.
+
+97
+00:09:50,950 --> 00:09:56,080
+Ahora imagínate que yo ese texto que introducido ahí es un link y lo que he introducido dentro de un
+
+98
+00:09:56,080 --> 00:10:04,510
+enlace pues para eso tengo varias formas mira puedo hacer puedo seleccionar la propia lista donde yo
+
+99
+00:10:04,540 --> 00:10:11,440
+quiero introducir el enlace en este caso como solamente hay una pues podríamos seleccionarla aunque
+
+100
+00:10:11,440 --> 00:10:18,930
+podríamos ponerle un IDE también para seleccionar exactamente esa lista que se va a llamar menú valentón
+
+101
+00:10:18,940 --> 00:10:29,410
+yo selecciono el menú y puedo hacer lo siguiente HTML utilizar este método HTML y yo aquí añado mi enlace
+
+102
+00:10:29,560 --> 00:10:40,240
+ya verás ya verás que qué sencillo Yo he añadido añadió un enlace a HR-V con caté no utiliza el comilla
+
+103
+00:10:40,360 --> 00:10:41,290
+simple es mejor
+
+104
+00:10:45,940 --> 00:10:52,290
+le concatenado mi enlace muy fácilmente
+
+105
+00:10:55,390 --> 00:11:01,360
+abro comilla simple cierro las comillas del HR-V y cierro el link.
+
+106
+00:11:01,360 --> 00:11:07,990
+Vale lo añado de esta manera y de esta manera añadí el enlace también una cosa que vamos a hacer es
+
+107
+00:11:07,990 --> 00:11:14,100
+meter esto de aquí a traerlo en una función para volver a reutilizar la función CHEC links.
+
+108
+00:11:14,120 --> 00:11:17,650
+Le vamos a poner o Reload links
+
+109
+00:11:20,140 --> 00:11:26,310
+Reload links y esto lo vamos a meter dentro de esta función y la vamos a llamar.
+
+110
+00:11:26,370 --> 00:11:34,750
+Nada más cargar la página Reload links y también cuando le damos clic al elemento para que haga su funcionalidad
+
+111
+00:11:35,050 --> 00:11:44,320
+Reload links de forma que si yo hago esto vamos a ver que se carga todo el HTML es decir no me lo añade
+
+112
+00:11:44,660 --> 00:11:50,620
+a lo que ya había sino que se carga el contenido y dentro de la web simplemente añade esto vale también
+
+113
+00:11:50,620 --> 00:11:56,310
+lo podríamos poner el link el elemento de la lista que nosotros queremos.
+
+114
+00:11:56,380 --> 00:12:02,110
+Entonces de esta manera si yo añado ahora un elemento me lo añade pero me machaca lo que tengo anteriormente
+
+115
+00:12:02,620 --> 00:12:08,530
+es decir que con el método HTML yo puedo meter HTML dentro de una lista o dentro de cualquier Dibo o
+
+116
+00:12:08,530 --> 00:12:13,810
+cualquier elemento que yo tenga en la web con el método HTML puede incrustar HTML sin ningún problema
+
+117
+00:12:14,530 --> 00:12:20,910
+pero yo lo que quiero es añadir para eso hay otros métodos como por ejemplo la Penda que utilizo el
+
+118
+00:12:20,910 --> 00:12:32,940
+APEN vale y añado un link por ejemplo HTTP 2.0 barrabasada LinkedIn puntocom.
+
+119
+00:12:33,040 --> 00:12:40,210
+Lo añado y añade el link sin ningún tipo de problema me vuelve a refrescar ese listado y yo ahora mismo
+
+120
+00:12:40,210 --> 00:12:49,270
+en el DOM tengo un elemento nuevo cuyo cuerpo cuyo contenido de la etiqueta es éste y cuyo link es éste
+
+121
+00:12:49,320 --> 00:12:58,430
+le doy click evidentemente me llevará a la web evidentemente sin ningún problema.
+
+122
+00:12:58,450 --> 00:13:07,300
+También tengo el método depend LePen que lo que hace es añadir Melo al principio de la lista de actualizo
+
+123
+00:13:07,320 --> 00:13:20,110
+y en LinkedIn puntocom LinkedIn puntocom me añade al principio de la lista también vale y también tengo
+
+124
+00:13:20,110 --> 00:13:28,390
+otros métodos también como el before que si lo utilizo vamos a ver lo que pasa me lo añade fuera de
+
+125
+00:13:28,390 --> 00:13:28,950
+la lista.
+
+126
+00:13:29,040 --> 00:13:29,410
+Vale.
+
+127
+00:13:29,440 --> 00:13:34,900
+Antes de su propio elemento que yo estoy seleccionando y luego tengo el after que hace lo mismo que
+
+128
+00:13:34,900 --> 00:13:38,950
+me lo mete justo después del elemento que yo estoy seleccionando.
+
+129
+00:13:39,190 --> 00:13:50,660
+En este caso con el APEN o el PP no serviría sin ningún tipo de problema.
+
+130
+00:13:50,740 --> 00:13:50,970
+Vale
+
+131
+00:14:02,300 --> 00:14:05,710
+y ya venia el link.
+
+132
+00:14:05,730 --> 00:14:11,330
+Bien pues ya hemos visto también cómo utiliza el HDR.
+
+133
+00:14:11,330 --> 00:14:18,590
+Hemos visto cómo utiliza el TR y también vamos a ver cómo utilizarlo para añadir nuevos atributos a
+
+134
+00:14:18,590 --> 00:14:20,390
+los enlaces por ejemplo.
+
+135
+00:14:20,440 --> 00:14:30,710
+Mira si yo quisiera modificar el enlace DAT vale Dadd porque ahí tengo seleccionado de mi enlace yo
+
+136
+00:14:30,710 --> 00:14:38,720
+podría añadirle a TTL un atributo a cada cada enlace vale con el atenderé puedo decirle Mira quiero
+
+137
+00:14:38,720 --> 00:14:47,740
+que me ponga el atributo target target y además que su valor sea Blanck y un bajo Blanck.
+
+138
+00:14:47,990 --> 00:14:52,060
+De esa manera cuando le dé clic a un link me lo va a abrir en una pestaña nueva.
+
+139
+00:14:52,070 --> 00:14:58,340
+Vale me habrá añadido ese nuevo elemento ese nuevo atributo fijo que me añade el atributo target Blank.
+
+140
+00:14:58,370 --> 00:15:03,430
+Si yo le doy clic me abren una nueva pestaña sin ningún tipo de problema.
+
+141
+00:15:03,590 --> 00:15:05,190
+Vale eso es lo que hace.
+
+142
+00:15:05,210 --> 00:15:09,730
+Y luego también podría borrar cualquier atributo que yo añada.
+
+143
+00:15:10,450 --> 00:15:19,130
+Si yo por ejemplo no quisiera que tuvieran enlace este atributo que acabo de añadir podría utilizar
+
+144
+00:15:20,810 --> 00:15:28,580
+el remove HDR y así eliminar cualquier atributo que yo tenga en la web de acuerdo.
+
+145
+00:15:28,580 --> 00:15:31,520
+Por ejemplo mira lo vamos a hacer en un ejemplo más ilustrativo.
+
+146
+00:15:31,520 --> 00:15:41,180
+Yo voy a ponerle a mi botón un atributo que sea disabled disabled igual a disabled vale de esa manera
+
+147
+00:15:42,350 --> 00:15:43,220
+el botón no.
+
+148
+00:15:43,340 --> 00:15:51,100
+Yo no lo puedo clickar pero mediante Javascript yo puedo nada más cargar la web utilizar seleccionar
+
+149
+00:15:51,120 --> 00:15:56,150
+ese elemento en este caso el botón que lo tengo por aquí.
+
+150
+00:15:56,150 --> 00:16:09,470
+Vale podría seleccionarlo y utilizar el Remus HTA Red remove antes de red y eliminar el atributo disabled
+
+151
+00:16:11,610 --> 00:16:18,290
+vale de esa manera si yo tuviera la pantalla ahora ese atributo me lo ha borrado y por defecto esta
+
+152
+00:16:18,290 --> 00:16:24,650
+añadida en el HTML pero si lo reviso ahora me lo ha borrado y qwerty vale con lo cual estamos viendo
+
+153
+00:16:24,650 --> 00:16:32,000
+la potencia que realmente tiene QWERTY para hacer cosas dentro de él donde una página web otra cosa
+
+154
+00:16:32,000 --> 00:16:37,880
+que estoy viendo es que el texto se queda aquí una vez que lo añado y a lo mejor a mi me interesa que
+
+155
+00:16:37,880 --> 00:16:45,260
+cuando yo ejecute el método click el evento click y yo añada mi elemento me elimine el contenido que
+
+156
+00:16:45,260 --> 00:16:49,270
+tiene dentro al link de acuerdo en todo lo que voy a hacer.
+
+157
+00:16:49,460 --> 00:16:57,680
+Seleccionar esto de nuevo y añadirle un valor vale Aballí o en este caso lo puedo poner vacío.
+
+158
+00:16:57,680 --> 00:17:05,720
+Si hago esto me lo vacía nada más que yo añado algo con lo cual se queda mucho más limpio.
+
+159
+00:17:05,720 --> 00:17:11,710
+Así que ya hemos visto nuevas cosas para manejar texto nuevo método para trabajar con el DOM.
+
+160
+00:17:12,030 --> 00:17:18,260
+Ya estamos viendo realmente la potencia que tiene Cury a la hora de desarrollar el frontend en una web.

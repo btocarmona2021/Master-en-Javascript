@@ -1,0 +1,259 @@
+1
+00:00:01,180 --> 00:00:04,380
+Ahora vamos a hablar acerca del ámbito de las variables.
+
+2
+00:00:04,780 --> 00:00:08,740
+Cuando trabajamos con funciones esto una cosa importante en programación.
+
+3
+00:00:08,950 --> 00:00:13,810
+Vamos a crear un nuevo fichero de JavaScript para este ejercicio o para esta práctica que vamos a hacer
+
+4
+00:00:14,500 --> 00:00:26,080
+22 ámbito vamos a guardarlo con la extensión punto JSA vale y vamos a importar o cargar ese script en
+
+5
+00:00:26,080 --> 00:00:31,120
+el Index 22 ámbito
+
+6
+00:00:35,280 --> 00:00:38,660
+ámbito perfecto entonces imagínate.
+
+7
+00:00:38,730 --> 00:00:40,230
+Vamos a poner en primera luz Street.
+
+8
+00:00:42,720 --> 00:00:49,950
+Imagínate que yo tengo una función que se llama Hola mundo que recibe un parámetro
+
+9
+00:00:52,710 --> 00:01:03,350
+que sería texto y que aquí simplemente hace un Consol un blog de texto.
+
+10
+00:01:03,380 --> 00:01:03,600
+Vale
+
+11
+00:01:08,270 --> 00:01:16,080
+tenemos esa función definida y ahora aquí abajo la llamamos Hola mundo y le pasamos un texto que lo
+
+12
+00:01:16,080 --> 00:01:20,610
+vamos a guardar dentro de una variable que se va a llamar texto.
+
+13
+00:01:20,610 --> 00:01:26,120
+Vamos a crear una variable que además la vamos a poner arriba del todo porque es lo más recomendable.
+
+14
+00:01:26,340 --> 00:01:27,690
+Vamos a crear la variable
+
+15
+00:01:31,800 --> 00:01:43,870
+y le vamos a poner un texto Hola mundo soy una variable global por decirlo de alguna manera con punto
+
+16
+00:01:43,870 --> 00:01:46,870
+y coma y yo les paso el texto.
+
+17
+00:01:46,870 --> 00:01:50,420
+Vale el texto y esto es lo que voy a imprimir por un Consol log.
+
+18
+00:01:50,560 --> 00:01:57,920
+Este método vale perfecto si yo estoy hizo la pantalla me hice Hola mundo soy una variable global.
+
+19
+00:01:57,970 --> 00:02:00,300
+Hasta aquí todo correcto.
+
+20
+00:02:00,310 --> 00:02:01,930
+Hasta aquí todo correcto.
+
+21
+00:02:02,110 --> 00:02:08,680
+Vale todo perfecto pero qué pasaría si yo quisiera acceder a otra variable que yo me he creado por aquí
+
+22
+00:02:09,620 --> 00:02:13,560
+que se vaya llamar número vale y qué elemento.
+
+23
+00:02:13,910 --> 00:02:17,310
+Pues un un número vale.
+
+24
+00:02:17,410 --> 00:02:21,040
+Qué pasaría si yo quisiera acceder a esta variable dentro de la función.
+
+25
+00:02:21,070 --> 00:02:22,810
+Podría hacerlo.
+
+26
+00:02:22,880 --> 00:02:30,550
+Y hacer un Consol de eso con su elpunto lo podría hacer con el punto de número y mostrarlo llamando
+
+27
+00:02:30,550 --> 00:02:35,470
+a una variable que está fuera una variable externa a la función variable global en el fichero.
+
+28
+00:02:35,470 --> 00:02:37,030
+Yo podría hacer eso.
+
+29
+00:02:37,030 --> 00:02:38,980
+Pues efectivamente sí que puedo.
+
+30
+00:02:38,980 --> 00:02:42,930
+Vale sí que podría sin ningún tipo de problema.
+
+31
+00:02:43,030 --> 00:02:48,680
+Podría hacerlo pero qué pasa si yo defino una variable dentro de mi función.
+
+32
+00:02:48,700 --> 00:02:55,510
+Vale si yo aquí defino la variable o la visión bajo mundo
+
+33
+00:02:59,140 --> 00:03:02,710
+texto dentro de función.
+
+34
+00:03:02,710 --> 00:03:09,670
+Si hago esto yo puedo acceder a este a esta variable del mundo dentro de la propia función dentro del
+
+35
+00:03:09,670 --> 00:03:12,280
+ámbito de esta función.
+
+36
+00:03:12,280 --> 00:03:21,220
+Sí que podría y podría hacer un Consol punto log de Hola mundo porque es una variable local dentro de
+
+37
+00:03:21,220 --> 00:03:25,540
+la función podría hacerlo sin ningún tipo de problema y me muestra el texto.
+
+38
+00:03:25,540 --> 00:03:31,760
+Pero qué pasa si yo quiero llamar a esta variable fuera de la función vale y quiero hacer un consuelo
+
+39
+00:03:33,710 --> 00:03:36,080
+consolé puntos aquí fuera.
+
+40
+00:03:36,130 --> 00:03:40,450
+Quiero llamar a la variable hola y un bajo mundo podría hacerlo.
+
+41
+00:03:40,510 --> 00:03:41,670
+Pues mira lo que va a pasar.
+
+42
+00:03:41,740 --> 00:03:49,780
+No no puedo porque la variable Hola mundo no está definida en el ámbito global del programa de acuerdo
+
+43
+00:03:49,870 --> 00:03:52,520
+sí que está definida dentro de la función.
+
+44
+00:03:52,540 --> 00:03:57,960
+Por lo tanto yo tengo acceso a esa variable solo dentro de la función pero no fuera de ella.
+
+45
+00:03:58,110 --> 00:03:58,560
+Vale.
+
+46
+00:03:58,690 --> 00:04:04,180
+De forma que estas variables de aquí son locales y solamente son accesibles en la función.
+
+47
+00:04:04,240 --> 00:04:09,220
+Pero si yo defino una variable fuera de una función de manera global en el fichero si que puedo acceder
+
+48
+00:04:09,220 --> 00:04:11,730
+dentro de la función a esas variables.
+
+49
+00:04:11,770 --> 00:04:19,000
+Ok entonces esto es una cosa importante a tener en cuenta en la programación.
+
+50
+00:04:19,000 --> 00:04:25,630
+Vale entonces esto no podríamos hacerlo bien.
+
+51
+00:04:26,570 --> 00:04:28,720
+Pues eso es lo que quería enseñar en esta clase.
+
+52
+00:04:28,720 --> 00:04:33,850
+También podemos ver un Podemos pero una cosa interesante antes cuando hemos estado viendo las variables
+
+53
+00:04:33,850 --> 00:04:39,280
+y los tipos de datos creo que no hemos visto cómo convertir un número o cualquier cosa a un string de
+
+54
+00:04:39,280 --> 00:04:40,000
+acuerdo.
+
+55
+00:04:40,000 --> 00:04:46,600
+Eso se podría hacer de manera sencilla utilizando un método que existe que se llama punto tu string
+
+56
+00:04:47,380 --> 00:04:54,730
+string vale al final una variable al final se comporta como un objeto a nivel interno y tienen varios
+
+57
+00:04:54,730 --> 00:05:01,900
+métodos que yo puedo utilizar un método o simplemente una función es una función es como una función
+
+58
+00:05:01,990 --> 00:05:08,350
+pero aplicada a un objeto entonces tengo este objeto y dentro tengo el método tú el que nos permite
+
+59
+00:05:08,350 --> 00:05:09,720
+convertirlo en un string.
+
+60
+00:05:10,390 --> 00:05:16,600
+Entonces si yo pongo punto tu destino en cualquier variable yo puedo acceder a ciertas cosas y puedo
+
+61
+00:05:16,600 --> 00:05:18,250
+hacer ciertas cosas con eso.
+
+62
+00:05:18,250 --> 00:05:22,660
+En este caso convertir el número a un extremo y se actualiza la pantalla.
+
+63
+00:05:22,660 --> 00:05:30,370
+Efectivamente aquí vemos que toda obra es un string y aparte se agota y Bob Pop puede comprobar que
+
+64
+00:05:30,370 --> 00:05:38,860
+esto es un string y si le quitó el string podremos comprobar que es un interés o un Amber efectivamente
+
+65
+00:05:39,550 --> 00:05:46,270
+así que ya sabemos cómo convertir también un dato a un este con el método string.

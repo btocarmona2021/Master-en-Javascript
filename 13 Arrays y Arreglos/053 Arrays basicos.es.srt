@@ -1,0 +1,227 @@
+1
+00:00:00,610 --> 00:00:04,240
+Ahora vamos a aprender qué son los Arráiz y cómo trabajar con ellos.
+
+2
+00:00:04,270 --> 00:00:10,270
+Lo primero que vamos a hacer va a ser crear un nuevo archivo para trabajar con los Arráiz el archivo
+
+3
+00:00:10,270 --> 00:00:24,330
+número 25 Arráiz punto JS Valoy y lo vamos a cargar en el índex 25 Arráiz
+
+4
+00:00:28,410 --> 00:00:29,180
+vale.
+
+5
+00:00:29,490 --> 00:00:35,880
+Vamos a poner el USB Street bien pues vamos a hablar acerca de los Arráiz.
+
+6
+00:00:37,080 --> 00:00:39,330
+También se pueden conocer como arreglos
+
+7
+00:00:43,870 --> 00:00:52,520
+y se pueden conocer también como matrices y bueno tienen más más sinónimos pero básicamente una raya
+
+8
+00:00:52,520 --> 00:00:59,430
+o un arreglo es una colección de datos una colección de tipos de datos de valores que puede tener una
+
+9
+00:00:59,430 --> 00:01:08,910
+variable por defecto en una variable puede tener un solo valor simplemente indicando así vale
+
+10
+00:01:11,880 --> 00:01:18,390
+puedo tener un solo valor pero con una raíz yo puedo tener muchos valores dentro de una misma variable
+
+11
+00:01:18,520 --> 00:01:26,580
+vale y esos valores están almacenados dentro de una matriz dentro de un conjunto de valores de acuerdo
+
+12
+00:01:26,590 --> 00:01:33,240
+por ejemplo una raid se puede definir con los corchetes entonces yo puedo tener varios nombres aquí
+
+13
+00:01:33,240 --> 00:01:33,870
+guardados
+
+14
+00:01:38,350 --> 00:01:40,290
+vale esto es una raíz.
+
+15
+00:01:40,290 --> 00:01:44,280
+Simplemente es una colección de varios datos.
+
+16
+00:01:44,280 --> 00:01:50,100
+De acuerdo es tener una variable tener una variable con mucha información dentro con muchos datos dentro
+
+17
+00:01:50,280 --> 00:01:55,530
+no solamente con un solo dato sino con muchos una colección de valores y aquí yo puedo meter dentro
+
+18
+00:01:55,530 --> 00:02:02,610
+de esta colección de valores o de datos puedo meter tipos de datos como los que yo quiero puedo meter
+
+19
+00:02:02,610 --> 00:02:06,040
+una raid dentro de unas raíces en una Raimundi multidimensional.
+
+20
+00:02:06,120 --> 00:02:15,180
+Puedo meter números puedo tener puedo meter vulcanos puedo meter lo que yo quiera.
+
+21
+00:02:15,190 --> 00:02:20,730
+Vale con el tipo de dato que yo quiera y se pueden definir de esta manera con los corchetes simplemente.
+
+22
+00:02:20,730 --> 00:02:27,510
+O también podría definir una raíz en forma de objeto de acuerdo podría hacer varios lenguajes
+
+23
+00:02:30,210 --> 00:02:36,240
+para crear mi variable y podría hacer New Array y de esta manera yo creé una raíz creó el objeto Array
+
+24
+00:02:36,690 --> 00:02:41,500
+y aquí el elemento los datos que yo quiero al igual que he hecho ahí arriba.
+
+25
+00:02:41,500 --> 00:02:42,170
+PHP
+
+26
+00:02:44,640 --> 00:02:45,480
+JS
+
+27
+00:02:48,060 --> 00:02:48,510
+Gouet
+
+28
+00:02:52,650 --> 00:02:55,150
+Java y lo que yo quiero.
+
+29
+00:02:55,180 --> 00:03:01,500
+Vale la cantidad de parámetros y de datos que yo quiera y simplemente con esto ya tenemos una raíz.
+
+30
+00:03:01,860 --> 00:03:08,550
+Los Array tienen índices vale cada uno de estos elementos está guardado en un índice vale lo índice
+
+31
+00:03:08,640 --> 00:03:12,130
+dentro de la informática o dentro de la programación empiezan en cero.
+
+32
+00:03:12,190 --> 00:03:16,800
+Es decir que este es el índice cero con número cero.
+
+33
+00:03:16,870 --> 00:03:19,970
+éste es el índice 1.
+
+34
+00:03:20,200 --> 00:03:26,890
+éste va a ser el 2 y está por ejemplo sería la posición número 3.
+
+35
+00:03:26,910 --> 00:03:29,180
+Vale eso sería una raid.
+
+36
+00:03:29,190 --> 00:03:30,400
+De hecho si yo hago.
+
+37
+00:03:33,050 --> 00:03:42,700
+Si yo hago un Consol log de estos arrays con un punto log de la raíz de nombres y aún con el punto log
+
+38
+00:03:45,170 --> 00:03:46,140
+de lenguajes
+
+39
+00:03:50,300 --> 00:03:54,150
+y actualizo la pantalla pues aquí me aparecen mis elementos.
+
+40
+00:03:54,180 --> 00:03:59,520
+Qué pasa que me aparecen aquí me aparecen en la consola me aparece el número de elementos que hay dentro
+
+41
+00:03:59,520 --> 00:04:05,880
+del array y si lo de espliego fíjate lo que pasa me aparece la posición cero el índice cero de array
+
+42
+00:04:06,020 --> 00:04:06,650
+es esta.
+
+43
+00:04:06,690 --> 00:04:12,990
+Este dato es decir que empezamos a contar desde cero posición 1 éste la posición 2 está en la oposición
+
+44
+00:04:12,990 --> 00:04:15,640
+3 entre la posición 4 este ital.
+
+45
+00:04:15,660 --> 00:04:17,580
+Así progresivamente.
+
+46
+00:04:17,580 --> 00:04:23,490
+Entonces esto es lo que yo tengo dentro de una raíz una raíz una colección de tipos de dato dentro de
+
+47
+00:04:23,490 --> 00:04:27,890
+una misma variable de acuerdo una colección de datos agrupados.
+
+48
+00:04:27,930 --> 00:04:29,810
+Así de sencillo y así de simple.
+
+49
+00:04:29,850 --> 00:04:35,770
+Y esto es una matriz que cada uno de estos elementos del array tiene un índice.
+
+50
+00:04:36,210 --> 00:04:42,220
+Entonces cómo puedo acceder yo a cualquiera de estos índices cómo podría acceder yo por ejemplo a la
+
+51
+00:04:45,200 --> 00:04:53,100
+a la posición número 2 de mi Array por ejemplo podría hacer así utilizar los corchetes y poner el número
+
+52
+00:04:53,100 --> 00:05:00,840
+del índice de esa manera yo voy a sacar mi elemento número dos de mí a raíz de nombres de acuerdo que
+
+53
+00:05:00,840 --> 00:05:04,920
+es este es el elemento número 2 porque empezamos a contar por cero.
+
+54
+00:05:04,930 --> 00:05:11,850
+Vale si yo quisiera sacar el primer nombre tendría que poner el array o sea el índice cero en la posición
+
+55
+00:05:11,850 --> 00:05:19,710
+cero para sacar ese Array efectivamente si quisiera sacar el último elemento pues como son seis índices
+
+56
+00:05:20,400 --> 00:05:26,920
+como son seis elementos como empezamos a contar por cero sería el 5 nos sacaría un Truc efectivamente.
+
+57
+00:05:26,940 --> 00:05:31,800
+De esta manera yo puedo sacar cualquiera de los índices de mi array.

@@ -1,0 +1,179 @@
+1
+00:00:00,800 --> 00:00:06,860
+Lo último que vamos a ver acerca de TP scrip de manera exclusiva porque en la parte angular vamos a
+
+2
+00:00:06,860 --> 00:00:10,910
+estar viendo un montón de cosas acerca del tipo de scrip y vamos a estar usándolo.
+
+3
+00:00:11,180 --> 00:00:14,630
+Pero lo último que vamos a ver específicamente son los decoradores.
+
+4
+00:00:14,630 --> 00:00:19,910
+Vamos a ver qué es un decorador y cómo utilizarlo un decorador es un patrón de diseño que nos permite
+
+5
+00:00:20,240 --> 00:00:27,200
+mediante unos metadatos que nosotros le definimos de acuerdo a una clase hacer una copia de esa misma
+
+6
+00:00:27,200 --> 00:00:35,940
+clase y modificarla o que haga una cosa u otras en función de los parámetros que le pase de acuerdo.
+
+7
+00:00:36,020 --> 00:00:41,810
+Para entenderlo veremos cómo utilizar decoradores en la parte angular y ahora vamos a crear un decorador
+
+8
+00:00:41,810 --> 00:00:47,930
+para hacer una prueba vale para hacer un decorador simplemente por aquí arriba lo voy a definir voy
+
+9
+00:00:47,930 --> 00:00:54,440
+a crear una función que se va a llamar estampar y entonces le voy a pasar un parámetro que va a ser
+
+10
+00:00:54,520 --> 00:01:01,320
+lo por ejemplo y y luego esa variable va a ser una estrella.
+
+11
+00:01:01,860 --> 00:01:06,140
+Y entonces dentro de esta función tengo que hacer un returned tengo que devolver
+
+12
+00:01:08,790 --> 00:01:14,100
+function una función anónima cuyo parámetro sea Target
+
+13
+00:01:18,060 --> 00:01:26,110
+y que sea una función de acuerdo que devuelva o lo que reciba esta este return.
+
+14
+00:01:26,110 --> 00:01:36,720
+Al final no este target Vale y ahora lo que tengo que hacer es hacer target punto prototipo y ahora
+
+15
+00:01:36,720 --> 00:01:43,420
+simplemente tengo que decir el nombre del método que voy a agregarle a mí a mi clase.
+
+16
+00:01:43,440 --> 00:01:49,800
+En este caso voy a crearme un método o cuando yo le aplique decorador a cualquier clase se le va a añadir
+
+17
+00:01:49,890 --> 00:01:51,120
+un método nuevo.
+
+18
+00:01:51,120 --> 00:01:55,740
+Qué método se le va a añadir por su método que se llame estampación.
+
+19
+00:01:55,740 --> 00:02:03,720
+Por ejemplo vale y aquí puede definir la función anónima que va a tener que además no va a devolver
+
+20
+00:02:03,780 --> 00:02:05,740
+nada es decir va a ser un Veidt.
+
+21
+00:02:05,970 --> 00:02:10,020
+Cuando yo indico Veidt significa que no tiene ninguna respuesta.
+
+22
+00:02:10,270 --> 00:02:26,950
+Vale y ahora hago aquí un consolé punto algo que diga camiseta estampada con el logo de aquí le concatena
+
+23
+00:02:26,970 --> 00:02:36,150
+el logo que yo le he pasado como parámetro a la función principal logo Vale y ahora se la aplico aplicó
+
+24
+00:02:36,150 --> 00:02:37,760
+el decorador a la clásica camiseta.
+
+25
+00:02:37,770 --> 00:02:38,470
+Cómo lo aplico.
+
+26
+00:02:38,470 --> 00:02:46,270
+Pues con el arroba y el nombre del decorador en este caso estampar vale y de paso el logotipo que yo
+
+27
+00:02:46,290 --> 00:02:47,430
+quiero estampar.
+
+28
+00:02:47,430 --> 00:02:53,000
+En este caso Guzzi a poner Guzzi que.
+
+29
+00:02:53,160 --> 00:02:58,170
+Vamos a poner un decorador nunca se cierra con puntico es decir que de esta manera Yo lo aplico el decorador
+
+30
+00:02:58,170 --> 00:02:59,740
+a la clase siguiente.
+
+31
+00:02:59,970 --> 00:03:05,490
+Si ahora mismo ya actualizo la pantalla no me da ningún error y además en esta clásica camiseta ayuda
+
+32
+00:03:05,520 --> 00:03:08,890
+a tener disponible un método que se va a llamar estampación.
+
+33
+00:03:08,940 --> 00:03:14,850
+Vale si yo lo llamo por aquí camiseta punto estampación
+
+34
+00:03:17,640 --> 00:03:24,250
+yo tengo disponible ese método efectivamente y me saca lo que tiene el decorador.
+
+35
+00:03:24,370 --> 00:03:30,840
+Vale decir que al final un decorador lo que hace es adicionar una funcionalidad extra a cualquier clase
+
+36
+00:03:31,080 --> 00:03:33,420
+o que simplemente sirve para eso.
+
+37
+00:03:33,420 --> 00:03:40,210
+Evidentemente esto se puede hacer de una manera mucho más compleja y vamos a ver y veremos en la parte
+
+38
+00:03:40,230 --> 00:03:44,180
+angular cómo se utiliza con más parámetros y con más historia.
+
+39
+00:03:44,490 --> 00:03:50,130
+Evidentemente la parte angular no será en lugar de pasar por un extremo pasamos a un objeto y esto tiene
+
+40
+00:03:50,130 --> 00:03:53,440
+dentro un montón de funciones y un montón de funcionalidades.
+
+41
+00:03:53,490 --> 00:03:58,050
+Los decoradores de angular por ejemplo el decorador de arriba componen otro decoradores que vamos a
+
+42
+00:03:58,050 --> 00:04:02,850
+estar viendo tienen un montón de funcionalidades que lo que van a hacer es devolverme una cosa u otra
+
+43
+00:04:02,850 --> 00:04:08,040
+en función de lo que le pase y hacer muchas cosas pero básicamente un decorador nos permite hacer esto
+
+44
+00:04:08,100 --> 00:04:14,480
+adicionar una funcionalidad a una clase y darle unos metadatos y unas características diferentes.
+
+45
+00:04:14,490 --> 00:04:16,770
+Cada vez que yo lo aplico el decorador.

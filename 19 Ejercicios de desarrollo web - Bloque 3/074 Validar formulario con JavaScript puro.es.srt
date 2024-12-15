@@ -1,0 +1,343 @@
+1
+00:00:00,720 --> 00:00:05,460
+En el ejercicio del formulario que hemos hecho nosotros actualizamos la pantalla y enviamos los datos.
+
+2
+00:00:05,460 --> 00:00:08,770
+De igual forma nos deja enviar la información.
+
+3
+00:00:08,850 --> 00:00:13,290
+Entonces hay una cosa interesante que podríamos hacer que es la validación de este formulario.
+
+4
+00:00:13,290 --> 00:00:14,950
+Comprobar que esto sea un string válido.
+
+5
+00:00:14,970 --> 00:00:20,220
+Comprobar que otro extremo válido y comprobar que esto sea un número válido a nivel de JavaScript y
+
+6
+00:00:20,220 --> 00:00:25,440
+en el caso de que no lo sea que nos muestre un mensajito aquí abajo debajo de cada campo que nos indique
+
+7
+00:00:25,740 --> 00:00:31,220
+algo o incluso que cambie el color del input para que no nos indique que eso está mal.
+
+8
+00:00:31,230 --> 00:00:41,430
+Vale pues vamos a hacer la validación ese sería el punto 4 que podríamos añadir validación del formulario.
+
+9
+00:00:42,490 --> 00:00:50,680
+Entonces cuando hacemos el Summit y recogemos esta información aquí recogemos los datos de que nos llegan
+
+10
+00:00:52,270 --> 00:01:00,700
+podemos hacer un IP que compruebe si el nombre es válido es decir si el nombre es igual a NULL o o el
+
+11
+00:01:00,700 --> 00:01:11,650
+nombre la longitud de los caracteres que hemos introducido es igual a cero y además hacemos que esto
+
+12
+00:01:11,650 --> 00:01:19,770
+sea un trim que esto tenga aquí trim filtramos los datos para ser realmente deberíamos hacerle un trim.
+
+13
+00:01:19,780 --> 00:01:27,670
+Aquí trim hacemos un trim para que esto no contenga ningún espacio del antiguo Elettra.
+
+14
+00:01:28,090 --> 00:01:33,880
+Hacemos un trim y de esta manera si comprobamos esto esto es que realmente el nombre tiene algo o sea
+
+15
+00:01:33,880 --> 00:01:40,640
+no tiene nada adentro si no tiene nada adentro pues entonces no podríamos hacer lo siguiente dentro
+
+16
+00:01:40,640 --> 00:01:48,700
+de aquí podemos poner un RETURN false y podemos mostrar una alerta por ejemplo para no estar modificando
+
+17
+00:01:48,700 --> 00:01:53,250
+el formulario y haciendo cositas de ETA como hemos hecho aquí.
+
+18
+00:01:53,290 --> 00:02:02,290
+Aunque podríamos hacerlo primero vamos a mostrar una alerta diciendo el nombre no es válido vale y vamos
+
+19
+00:02:02,290 --> 00:02:03,520
+a hacer lo mismo con
+
+20
+00:02:06,280 --> 00:02:07,150
+los apellidos
+
+21
+00:02:09,880 --> 00:02:10,840
+apellidos
+
+22
+00:02:15,780 --> 00:02:16,770
+los apellidos
+
+23
+00:02:19,310 --> 00:02:27,300
+no son válidos y de igual forma lo vamos a hacer también con la edad pero esta vez tendremos que comprobar
+
+24
+00:02:27,300 --> 00:02:32,060
+si es un número vale con la edad.
+
+25
+00:02:32,100 --> 00:02:35,160
+Vamos a copiar el trozo de código este y lo vamos a hacer igual
+
+26
+00:02:37,760 --> 00:02:38,660
+edad.
+
+27
+00:02:41,520 --> 00:02:52,220
+Edad y además tendríamos que comprobar si Is Not a Number da true o false.
+
+28
+00:02:52,410 --> 00:02:56,150
+Si le paso por aquí la edad esto me tiene que dar false.
+
+29
+00:02:56,370 --> 00:02:59,050
+Así que le puedo poner la exclamación delante.
+
+30
+00:02:59,090 --> 00:03:10,010
+Esto es lo mismo que hacer ISNA igual igual a false lo mismo que hacer esto pero así no caigo bien pues
+
+31
+00:03:10,020 --> 00:03:11,440
+vamos a comprobar si esto funciona.
+
+32
+00:03:11,520 --> 00:03:17,630
+Y esta vez aquí deberíamos poner la edad no es válida.
+
+33
+00:03:21,430 --> 00:03:23,860
+Vamos a comprobar si funciona actualizamos la pantalla.
+
+34
+00:03:23,860 --> 00:03:28,180
+Le voy a enviar me dice el nombre no es válido vale y no me deja pasar.
+
+35
+00:03:28,690 --> 00:03:35,050
+No me a hacer chumi correctamente si se lo meto bien me hice los avío no son válidos y no me deja pasar
+
+36
+00:03:35,310 --> 00:03:41,920
+y se lo meto bien me dice la edad no es válida y no me dejaba asilamiento bien me hice la edad no es
+
+37
+00:03:41,920 --> 00:03:43,450
+válida y tampoco me dejaba hacer.
+
+38
+00:03:43,460 --> 00:03:44,040
+Por qué.
+
+39
+00:03:44,050 --> 00:03:49,720
+Porque no le he convertido un entero de acuerdo aquí debo hacer un Passaic para convertir ese valor
+
+40
+00:03:50,320 --> 00:03:55,370
+porque todos los tontos que meten un input son un string hasta que yo no los convierta a un entero si
+
+41
+00:03:55,380 --> 00:04:03,750
+hago un par Saint y lo vuelvo a probar actualizo la pantalla meto los datos bien edad trim y nos dan
+
+42
+00:04:04,070 --> 00:04:13,870
+a comprobar trim no pudo utilizarlo en un campo numérico digamos entonces lo tengo que quitar de aquí
+
+43
+00:04:18,220 --> 00:04:23,790
+y en lugar de Lent podríamos poner mayor o igual a cero.
+
+44
+00:04:24,230 --> 00:04:24,710
+Eso sí
+
+45
+00:04:28,920 --> 00:04:36,000
+o menor o igual a cero si es menor igual a cero porque donde el fallo la pantalla los datos.
+
+46
+00:04:36,720 --> 00:04:41,470
+Ahora me va a decir que la edad y se nota Amber
+
+47
+00:04:45,690 --> 00:04:53,730
+los apellidos no son válidos para aquí no falla no fallan en el tema de la edad se anula la edad es
+
+48
+00:04:53,850 --> 00:04:56,610
+menor o igual a cero o si.
+
+49
+00:04:56,730 --> 00:05:03,020
+Así que aquí debería comprobar si efectivamente y no dan Ambel en el caso de que no sea un número.
+
+50
+00:05:03,060 --> 00:05:04,130
+Vale.
+
+51
+00:05:04,140 --> 00:05:09,900
+En el caso de que edad no sea un número que sea una letra una letra aquí teníamos mala condición en
+
+52
+00:05:09,900 --> 00:05:18,060
+caso de que no haya una letra pues era falsa reactualizar osea en el caso de que no sea un número.
+
+53
+00:05:18,120 --> 00:05:25,050
+Aquí teníamos mala condición aquí deberíamos poner en el caso de que no sea un número valentón el que
+
+54
+00:05:25,050 --> 00:05:29,760
+pase Pasalic en el caso de que siguiera un número que no haya problema autorizamos la metemos los datos
+
+55
+00:05:30,470 --> 00:05:32,240
+si envío me dice la edad no es válida.
+
+56
+00:05:32,250 --> 00:05:35,790
+No nos dejo pasar si la meto bien o qué me deja vale.
+
+57
+00:05:35,850 --> 00:05:40,550
+En el caso de que quitar algún dato de aquí me hice los apellidos no son válidos.
+
+58
+00:05:40,650 --> 00:05:43,120
+Con lo cual ya tengo la validación hecha.
+
+59
+00:05:43,470 --> 00:05:45,390
+Vale en este caso sí perfecto.
+
+60
+00:05:45,390 --> 00:05:48,600
+Ya hemos salido ya hemos validado nuestro formulario.
+
+61
+00:05:48,620 --> 00:05:49,420
+Vale.
+
+62
+00:05:49,710 --> 00:05:56,520
+Qué pasa que en cada hoja cada vez que pasamos por y por un si no se cumple bien la validación no muestra
+
+63
+00:05:56,520 --> 00:06:02,460
+el Aulet y nos hacen return false Marai y no nos deja continuar con lo que sigue ejecutándose.
+
+64
+00:06:02,580 --> 00:06:09,600
+Vale entonces de esta manera podemos hacer una validación otro perfeccionamiento que podríamos hacer
+
+65
+00:06:09,630 --> 00:06:16,020
+es que en el caso de que la validación no se cumpliera pues yo aquí podría poner un DIV
+
+66
+00:06:18,750 --> 00:06:20,880
+o un Spano lo que yo quisiera
+
+67
+00:06:23,760 --> 00:06:28,080
+con una clase específica o con un idea específico que fuera.
+
+68
+00:06:28,080 --> 00:06:37,290
+Error nombre y yo dentro podía que podría clavar un mensaje de error por ejemplo en el caso de que sucediera
+
+69
+00:06:37,380 --> 00:06:47,580
+con el nombre pues podría hacer un documento punto y selector seleccionaría error y un bajo nombre que
+
+70
+00:06:47,580 --> 00:06:54,870
+se Lide y le pondría un Inega HTML le pondría el HTML dentro el texto que yo quisiera el nombre no es
+
+71
+00:06:54,870 --> 00:06:55,720
+válido.
+
+72
+00:06:58,180 --> 00:07:06,700
+Vale si hago esto cuando yo actualice la pantalla si envío esto me dice el nombre no es válido y me
+
+73
+00:07:06,700 --> 00:07:07,570
+lo clava ahí.
+
+74
+00:07:07,820 --> 00:07:08,100
+Vale.
+
+75
+00:07:08,140 --> 00:07:10,220
+Y una vez que si que lo hiciera bien.
+
+76
+00:07:10,450 --> 00:07:16,910
+Si esto fuera un enlace yo podría ocultar este elemento.
+
+77
+00:07:16,930 --> 00:07:17,830
+Podría hacer un
+
+78
+00:07:20,440 --> 00:07:26,250
+display según está el punto.
+
+79
+00:07:26,260 --> 00:07:27,360
+Display Nonell
+
+80
+00:07:32,000 --> 00:07:33,800
+y lo ocultaría.
+
+81
+00:07:33,990 --> 00:07:36,310
+Así de sencillo.
+
+82
+00:07:36,720 --> 00:07:42,840
+Envío vale Torres si lo rellenara bien me lo ocultaría porque ya estaría bien relleno.
+
+83
+00:07:43,050 --> 00:07:45,630
+Y así puedo ir perfeccionando esto todo lo que tú quieras.
+
+84
+00:07:45,630 --> 00:07:55,110
+También podríamos ponerle un color rojo al propio campo del nombre o este propio elemento o lo que tú
+
+85
+00:07:55,110 --> 00:08:01,220
+quieras puede modificar esto como tu quieras para hacer la validación como se adecúe a tus necesidades.
+
+86
+00:08:01,860 --> 00:08:05,280
+Así que ya hemos visto como validar un formulario con JavaScript puro.

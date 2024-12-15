@@ -1,0 +1,83 @@
+1
+00:00:00,750 --> 00:00:06,720
+Ahora vamos a estar hablando de programación orientada a objetos en JavaScript y Taipe escribe de acuerdo.
+
+2
+00:00:07,310 --> 00:00:09,370
+Qué es la programación orientada a objetos.
+
+3
+00:00:09,450 --> 00:00:14,520
+Pues la programación orientada a objetos es un paradigma de programación y una forma de programar que
+
+4
+00:00:14,520 --> 00:00:20,610
+nos permite estructurar mucho mejor nuestro código y seguir unas mejores prácticas dividiendo todo en
+
+5
+00:00:20,610 --> 00:00:23,520
+clases objetos o entidades.
+
+6
+00:00:24,570 --> 00:00:29,850
+Y luego también hablaremos de depois Creep que Taipe scrip es un Supercell o un súper conjunto de JavaScript
+
+7
+00:00:29,850 --> 00:00:31,490
+desarrollado por Microsoft.
+
+8
+00:00:31,580 --> 00:00:36,780
+Es al 85 por ciento o 90 por ciento de JavaScript normal.
+
+9
+00:00:36,780 --> 00:00:43,710
+Lo único que añadimos las nuevas características que tiene los nuevos estándares de más Creep 6 7 etcétera
+
+10
+00:00:43,950 --> 00:00:49,500
+tiene un tipado fuerte es decir que podemos indicar si una variable es un tipo de dato estrechen un
+
+11
+00:00:49,500 --> 00:00:57,110
+tipo de dato booleano o un tipo de dato numérico y es estricto con eso tiene un tipado fuerte tiene
+
+12
+00:00:57,120 --> 00:00:59,850
+una programación orientada a objetos mejorada.
+
+13
+00:00:59,850 --> 00:01:07,740
+Es un lenguaje interpretado de acuerdo que se transpira a JavaScript es decir codificado en Taipe script
+
+14
+00:01:07,840 --> 00:01:13,500
+y el transpirados que tiene lo compila todo lo tras pila a lenguaje JavaScript que pueden entender todos
+
+15
+00:01:13,500 --> 00:01:17,960
+los navegadores y la extensión de un archivo es punto de acuerdo.
+
+16
+00:01:17,970 --> 00:01:24,690
+Además este lenguaje es el que se utiliza dentro de angular para trabajar dentro del acuerdo así que
+
+17
+00:01:24,690 --> 00:01:28,740
+con todo esto vamos a ver cómo programa orientado a objetos en JavaScript.
+
+18
+00:01:28,740 --> 00:01:35,160
+Casi todo lo que vamos a ver indepes Creep es aplicable a JavaScript normal también salvo el tema del
+
+19
+00:01:35,160 --> 00:01:42,120
+tipado fuerte y algunas cosas que yo iré explicando específicamente y sobre todo veremos eso programación
+
+20
+00:01:42,120 --> 00:01:46,740
+orientada a objetos y Taipe scripts así que en la siguiente clase vamos a empezar a trabajar con todo
+
+21
+00:01:46,740 --> 00:01:47,090
+esto.

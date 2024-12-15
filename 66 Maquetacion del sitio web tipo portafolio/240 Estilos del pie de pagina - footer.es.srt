@@ -1,0 +1,67 @@
+1
+00:00:00,480 --> 00:00:06,810
+Vamos a concretar el fútbol para centrarlo un poco y darle unos estilos acorde al resto de la estructura
+
+2
+00:00:07,080 --> 00:00:09,940
+que acabamos de maquetar de nuestra web.
+
+3
+00:00:09,950 --> 00:00:14,460
+Bien pues para eso yo voy a estar tocando el pie de página.
+
+4
+00:00:18,070 --> 00:00:26,680
+Pie de página y aquí voy a modificar la etiqueta Fuhrer que le voy a poner lo mismo que le he puesto
+
+5
+00:00:26,680 --> 00:00:40,210
+al contemplar poner un Wiz de 75 por ciento y le voy a poner un margin 0 BX auto y de momento pues si
+
+6
+00:00:40,210 --> 00:00:44,030
+lo revisamos vemos que se centra por aquí mucho mejor.
+
+7
+00:00:44,120 --> 00:00:53,220
+Vale le voy a poner un padre también top de 25 Px Para que se separe un poco del borde superior de acuerdo
+
+8
+00:00:53,230 --> 00:00:56,550
+aquí lo tenemos incluso se lo reduciría a 15
+
+9
+00:00:59,490 --> 00:01:00,870
+aunque ahí se queda bien.
+
+10
+00:01:00,940 --> 00:01:05,260
+Y aparte le a quitar opacidad al texto al color del texto y todo eso.
+
+11
+00:01:05,260 --> 00:01:13,900
+Para eso voy a hacer un UPAC City del Fudan en general y le voy a quitar color o incluso hacer un color
+
+12
+00:01:15,070 --> 00:01:28,630
+y ponerle un color negro RGB a Bale y así de texto ponerle 255 como 255 como para ponerle un color más
+
+13
+00:01:28,630 --> 00:01:34,630
+apagado podría ponerle un cero coma cero coma cero que sería color negro y le pongo aquí como último
+
+14
+00:01:34,630 --> 00:01:43,090
+parámetro cero punto 5 de opacidad guardo actualizo la pantalla y aquí vemos que la opacidad es menor
+
+15
+00:01:43,720 --> 00:01:48,620
+y se queda bastante bien así que ya tenemos el derecho y en la siguiente clase vamos a hacer esta página
+
+16
+00:01:50,020 --> 00:01:56,970
+sobre mi vale y también vamos a hacer que los elementos de nuestro menú se queden marcados en funcion
+
+17
+00:01:56,960 --> 00:01:57,710
+a donde yo esté.

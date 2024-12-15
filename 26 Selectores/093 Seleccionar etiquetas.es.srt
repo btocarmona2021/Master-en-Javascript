@@ -1,0 +1,239 @@
+1
+00:00:00,570 --> 00:00:03,900
+Ahora vamos a ver cómo se utilizan los electores por etiqueta
+
+2
+00:00:06,630 --> 00:00:07,560
+selectores
+
+3
+00:00:10,440 --> 00:00:11,610
+de etiqueta.
+
+4
+00:00:12,680 --> 00:00:17,070
+Entonces electores son prácticamente igual que las clases simplemente que en lugar de seleccionar alguna
+
+5
+00:00:17,070 --> 00:00:19,760
+clase seleccionamos una etiqueta.
+
+6
+00:00:19,770 --> 00:00:27,090
+En este caso vamos a seleccionar los párrafos vamos a crear la variable párrafo párrafos y vamos a seleccionar
+
+7
+00:00:27,090 --> 00:00:32,500
+todos los párrafos como lo hacemos con la etiqueta p y simplemente vamos a seleccionar los párrafos.
+
+8
+00:00:32,760 --> 00:00:41,610
+De esta manera ya ahora podemos utilizar el evento clic el método click y lo que vamos a hacer va a
+
+9
+00:00:41,610 --> 00:00:43,170
+ser lo siguiente.
+
+10
+00:00:43,170 --> 00:00:48,720
+De igual forma que las clases esto es una rama y nosotros podemos seleccionar un elemento único podemos
+
+11
+00:00:48,720 --> 00:00:54,300
+recorrer y mostrar cualquier cosa podemos hacer cualquier tipo de cosa que se nos ocurra pero vamos
+
+12
+00:00:54,300 --> 00:00:59,550
+a hacer una cosa que es cuando le demos clic léquipe la clase cebra al párrafo que le hayamos dado clic
+
+13
+00:00:59,670 --> 00:01:08,370
+algo súper increíble que se pueda hacer muy fácilmente si utilizamos el dólar dice cuando le damos clic
+
+14
+00:01:08,490 --> 00:01:14,670
+al elemento que le hayamos dado click el link los alecciona y vamos a hacer un remó Class y le vamos
+
+15
+00:01:14,670 --> 00:01:15,890
+a quitar la clase cebra.
+
+16
+00:01:15,900 --> 00:01:24,840
+En el caso de que la tenga vale y así le vamos a quitar el bordeado de cebra si actualizamos la pantalla
+
+17
+00:01:25,170 --> 00:01:27,990
+si doy clic una vez se la quita.
+
+18
+00:01:27,990 --> 00:01:34,590
+Vale será quita aunque ya ni existía si es cíclica éste se la quita a éste tampoco como tampoco existían
+
+19
+00:01:34,590 --> 00:01:38,550
+y ni aparece hicieron click también desaparece.
+
+20
+00:01:38,550 --> 00:01:45,930
+Qué puedo hacer para que si el elemento al que yo le he dado clic no tiene el borde cebra no lo ponga
+
+21
+00:01:46,650 --> 00:01:47,740
+de acuerdo.
+
+22
+00:01:47,850 --> 00:01:49,110
+Cómo podemos hacer eso.
+
+23
+00:01:49,140 --> 00:01:51,840
+Pues simplemente podríamos hacer un IHF aquí
+
+24
+00:01:54,650 --> 00:02:03,960
+y solamente eliminar el borde de cebra o la clase de cebra de los párrafos cuando esa clase existe.
+
+25
+00:02:03,960 --> 00:02:15,240
+Me acuerdo de decir si dije punto Jaz Class Class es decir este método es clase lo que hace es buscar
+
+26
+00:02:15,270 --> 00:02:21,120
+si ese elemento al que yo le he dado clic o es elector tiene la clase que yo le indique que tiene la
+
+27
+00:02:21,120 --> 00:02:29,310
+clase cebra pues realmente podrá eliminarla y como realmente no va a funcionar porque aquí hay una contradicción
+
+28
+00:02:29,310 --> 00:02:37,080
+porque cuando le damos clic a los elementos sin borde realmente le añade la clase y luego simplemente
+
+29
+00:02:37,080 --> 00:02:42,260
+en todos los párrafos le va a quitar la clase no va a funcionar porque siempre va a estar en contradicción.
+
+30
+00:02:42,270 --> 00:02:42,840
+Entonces
+
+31
+00:02:45,740 --> 00:02:51,710
+lo que podemos hacer es que si le damos clic a los párrafos se añade otra clase de acuerdo.
+
+32
+00:02:51,710 --> 00:03:06,280
+Cualquier otra clase por ejemplo la clase grande vale y esto lo que va a hacer es el 6 de 30 px.
+
+33
+00:03:06,280 --> 00:03:14,620
+Vale entonces yo aquí hago una clase de clase y aquí esto lo podríamos dejar y funcionaría todo igual
+
+34
+00:03:14,920 --> 00:03:23,100
+ya que uno tiene que añadir la clase grande vale y vamos a ver ya de paso cómo optimizar esto esto realmente
+
+35
+00:03:23,100 --> 00:03:25,890
+esta condición.
+
+36
+00:03:25,890 --> 00:03:32,100
+Simplemente sería para comprobar si existe una clase o no existe dentro de un elemento que hayamos seleccionado.
+
+37
+00:03:32,190 --> 00:03:38,100
+Ahora mismo todo va a funcionar y si damos clic a algo no lo va a poner en grande vale pero este código
+
+38
+00:03:38,220 --> 00:03:43,230
+se puede optimizar es decir en lugar de hacer dos días dos electores lo que hace es cargar el DOM.
+
+39
+00:03:43,350 --> 00:03:48,070
+Si podemos hacer una variable que se llama medís y aquí hacer el dólar dis
+
+40
+00:03:50,960 --> 00:03:56,630
+estamos en el optimizamos la carga y la velocidad esto de una manera increíble y aquí simplemente hacemos
+
+41
+00:03:56,630 --> 00:04:05,520
+días y días y accedemos al Dom solamente una vez vale y siempre por si Podemos dice el comilla simple
+
+42
+00:04:05,610 --> 00:04:16,940
+pues mejor bien pues ahora de esta manera también funcionará pues aquí hay un error no existe claro
+
+43
+00:04:16,940 --> 00:04:19,440
+por qué dices no ampara es una palabra reservada.
+
+44
+00:04:19,440 --> 00:04:24,290
+Podemos poner TACT como dicen una palabra reservada no podemos hacerlo.
+
+45
+00:04:24,450 --> 00:04:27,700
+Efectivamente vamos a poner Dadd y utiliza Montalto.
+
+46
+00:04:28,020 --> 00:04:35,520
+Ahora si esto funciona porque además podemos hacer una cosa que lo ponga en grande y que cuando le volvamos
+
+47
+00:04:35,520 --> 00:04:36,360
+a dar click.
+
+48
+00:04:36,540 --> 00:04:44,370
+Si tiene la clase grande nos ponga otra clase vale o no la elimine directamente decir si no tiene la
+
+49
+00:04:44,370 --> 00:04:46,940
+clase grande que se la ponga.
+
+50
+00:04:47,280 --> 00:04:51,050
+Y si no si no lo tiene que se la ponga.
+
+51
+00:04:51,090 --> 00:04:56,750
+Y si la tiene que se la quite que le haga un Remus Class vale.
+
+52
+00:04:56,750 --> 00:05:00,160
+De esta manera si actualizamos la pantalla.
+
+53
+00:05:00,170 --> 00:05:07,260
+Vale fíjate como voy alternando los tamaños cada vez que yo le doy clic vale sin ningún tipo de problema
+
+54
+00:05:07,980 --> 00:05:12,240
+le va cambiando la clase al elemento que yo le vaya dando clic.
+
+55
+00:05:12,330 --> 00:05:16,600
+De esta manera tan sencilla y comprobando que tiene la clase no la tiene.
+
+56
+00:05:17,270 --> 00:05:22,440
+Y aparte también vamos a hacer lo siguiente y es ponerle a todos los párrafos.
+
+57
+00:05:23,760 --> 00:05:35,690
+El estilo del CSS el cursor Painters Painter si le ponemos el cursor Painter cuando pasamos por encima
+
+58
+00:05:35,750 --> 00:05:43,250
+pues tiene la forma de el dedito del cursor para que pulse y está conectado.
+
+59
+00:05:43,250 --> 00:05:48,350
+Hemos visto cómo trabajar con los electores de etiqueta que funciona muy parecido a los electores de
+
+60
+00:05:48,350 --> 00:05:48,820
+clases.

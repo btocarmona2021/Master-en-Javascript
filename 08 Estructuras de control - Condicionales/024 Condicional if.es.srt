@@ -1,0 +1,443 @@
+1
+00:00:00,360 --> 00:00:06,750
+Ahora vamos a trabajar con los condicionales y con los operadores relacionales y los operadores lógicos
+
+2
+00:00:06,780 --> 00:00:11,000
+para hacer condiciones y estructuras de control comparativas.
+
+3
+00:00:11,170 --> 00:00:19,080
+Bien para eso vamos a crear un nuevo fichero de JavaScript en nuestro proyecto que se va a llamar 06
+
+4
+00:00:19,230 --> 00:00:20,690
+Gion condicionales
+
+5
+00:00:23,380 --> 00:00:31,440
+vale y aquí es donde vamos a trabajar vamos a poner Beerus Street Street y entonces ahora vamos a ver
+
+6
+00:00:31,440 --> 00:00:36,950
+el condicional y de acuerdo y ahora lo explico.
+
+7
+00:00:37,620 --> 00:00:46,020
+Pero antes vamos a cargar el script llevarme escrit que tengo ahora al comentario y aquí voy a cargar
+
+8
+00:00:46,020 --> 00:00:49,140
+mi nuevo script que se llama condicionales
+
+9
+00:00:51,270 --> 00:00:53,390
+condicionales.
+
+10
+00:00:54,000 --> 00:00:54,510
+Entonces
+
+11
+00:00:57,590 --> 00:01:07,350
+un condicional es simplemente una estructura de control o unas instrucciones que nos van que nos van
+
+12
+00:01:07,350 --> 00:01:08,900
+a permitir comparar algo.
+
+13
+00:01:08,910 --> 00:01:20,940
+Es decir si A es igual a Be entonces haz algo de acuerdo simplemente es eso.
+
+14
+00:01:20,940 --> 00:01:30,000
+Básicamente él es igual podríamos sustituirlo por diferente en mayor o menor que cualquier tipo de condición
+
+15
+00:01:30,210 --> 00:01:30,970
+que quiera.
+
+16
+00:01:31,440 --> 00:01:38,850
+Pero básicamente son los condicionales son una intrucciones que nos permiten comparar dos valores o
+
+17
+00:01:39,040 --> 00:01:46,140
+o hacer una condición concreta y si sucede esa condición que el código ejecute algo y haga algo y si
+
+18
+00:01:46,140 --> 00:01:51,460
+no sucede esa condición que el código no haga eso y que haga otra cosa o no haga nada.
+
+19
+00:01:51,480 --> 00:01:57,420
+Cómo hacemos una condición con Elif eLIFE la estructura de control más básica que nos permite hacer
+
+20
+00:01:57,420 --> 00:02:07,320
+una condición y significa si vale y tiene unos paréntesis para dentro indicarle la condición que vamos
+
+21
+00:02:07,320 --> 00:02:11,960
+a tener y luego tiene una llave una llave para que esto sea el bloque.
+
+22
+00:02:11,980 --> 00:02:15,720
+Esto sería el bloque de contenido de código que va a ejecutar de acuerdo.
+
+23
+00:02:15,720 --> 00:02:21,990
+Es decir si pasa esto si pasa esto ejecuta esto
+
+24
+00:02:24,780 --> 00:02:35,700
+ejecuta esto entonces vamos a ver un ejemplo si por ejemplo yo tengo una variable que sea edad uno que
+
+25
+00:02:35,700 --> 00:02:45,230
+por ejemplo la edad uno sería 30 años y luego tendría otra variable que sería edad dos que sería 12
+
+26
+00:02:45,240 --> 00:02:46,130
+años.
+
+27
+00:02:46,290 --> 00:02:51,180
+Vale entonces voy a comparar mis dos edades.
+
+28
+00:02:51,210 --> 00:02:57,340
+Es decir si edad uno es mayor que 12.
+
+29
+00:02:57,340 --> 00:03:08,940
+Esto es un operador relacional sin edad uno es mayor que 12 o lo que podría ser también edad 2 si edad
+
+30
+00:03:09,000 --> 00:03:21,250
+uno es mayor quedan 2 entonces muéstrame un consolé punto lo que diga mi edad uno es mayor de edad.
+
+31
+00:03:21,350 --> 00:03:21,980
+2.
+
+32
+00:03:22,120 --> 00:03:31,320
+Vale y si no como hago el pues con la instrucción el C y las llaves y si no pues ejecutamos otra cosa
+
+33
+00:03:31,430 --> 00:03:33,790
+consolé punto.
+
+34
+00:03:34,260 --> 00:03:42,150
+La edad uno es inferior de acuerdo este sería un ejemplo que podríamos poner si actualizamos la pantalla
+
+35
+00:03:42,270 --> 00:03:50,800
+aquí en la consola fíjate que nos muestra que edad uno es mayor que da dos.
+
+36
+00:03:51,180 --> 00:03:57,630
+Voy a hacerlo un poco más grande para que se vea más claro ok lo hago grande bien.
+
+37
+00:03:58,360 --> 00:04:01,190
+Era uno es mayor quedados.
+
+38
+00:04:02,280 --> 00:04:10,650
+Si yo cambiara estos valores pues de la misma forma pues se modificaría la condición para que pasara
+
+39
+00:04:10,650 --> 00:04:13,830
+al Else es decir que no se cumpliera esta condición.
+
+40
+00:04:13,830 --> 00:04:21,320
+Yo tendría que bajar el valor de esto y ponérselo de esta manera nos mostrará la edad uno es inferior.
+
+41
+00:04:21,320 --> 00:04:28,650
+Vale vamos a hacer un ejemplo más claro y lo vamos explicando de nuevo vamos a tener una variable que
+
+42
+00:04:28,650 --> 00:04:35,130
+va a ser edad que le vamos a poner que va que la edad va a ser 18.
+
+43
+00:04:35,280 --> 00:04:39,260
+Entonces yo quiero comprobar si el usuario es mayor de edad o no.
+
+44
+00:04:39,300 --> 00:04:45,930
+También voy a crear una variable que se va a llamar nombre y va a contener un string que va a ser el
+
+45
+00:04:45,930 --> 00:04:51,950
+nombre del usuario David Suárez por ejemplo.
+
+46
+00:04:52,190 --> 00:04:53,190
+Entonces si
+
+47
+00:04:56,910 --> 00:05:08,420
+mi edad es mayor o igual a 18 vale en los operadores relacionales tenemos el mayor o igual tenemos el
+
+48
+00:05:08,420 --> 00:05:19,100
+menor o igual con este símbolo menor o igual tenemos el menor tenemos el mayor tenemos el igual exactamente
+
+49
+00:05:19,100 --> 00:05:27,820
+igual y tenemos el diferente de acuerdo esos son los operadores que hoy te los puedo apuntar aquí para
+
+50
+00:05:27,820 --> 00:05:30,220
+que los vayas teniendo claro.
+
+51
+00:05:30,340 --> 00:05:35,410
+Es decir tenemos operadores relacionales
+
+52
+00:05:38,490 --> 00:05:41,160
+esto nuevamente en un comentario de varias líneas
+
+53
+00:05:45,940 --> 00:05:59,350
+y lo voy explicando aquí de nuevo tenemos el mayor que sería este tenemos el menor que sería este.
+
+54
+00:05:59,390 --> 00:06:14,210
+Tenemos el mayor que sea mayor igual o mayor o igual que sería este tenemos el menor o igual que sería
+
+55
+00:06:14,300 --> 00:06:15,200
+éste.
+
+56
+00:06:15,470 --> 00:06:29,390
+Tenemos el igual que sería este y tenemos ser distinto que sería éste diferente o distinto para el puesto
+
+57
+00:06:29,390 --> 00:06:32,410
+serían los operadores relacionales que podríamos nosotros utilizar.
+
+58
+00:06:32,960 --> 00:06:38,840
+Entonces lo que queremos hacer aquí es una decisión vamos a borrarle de nuevo Elif y lo vamos a explicar
+
+59
+00:06:38,900 --> 00:06:43,140
+otra vez tenemos nuestras variables de edad y nombre.
+
+60
+00:06:43,480 --> 00:06:49,630
+Entonces yo quiero comprobar si el usuario es mayor de edad cómo lo podría hacer IHF haciendo Elif si
+
+61
+00:06:49,680 --> 00:06:56,870
+la edad es mayor o igual a 18 pues entonces el usuario es mayor de edad
+
+62
+00:07:00,450 --> 00:07:04,950
+y entonces yo voy a mostrar un consolé apuntó López.
+
+63
+00:07:05,390 --> 00:07:15,230
+Con la edad que tenga el usuario en este caso pues vamos a poner nombre y le vamos a concatenar un espacio
+
+64
+00:07:16,180 --> 00:07:17,810
+y vamos a ponerle aquí tiene
+
+65
+00:07:20,370 --> 00:07:27,970
+vamos a concatenar la variable edad y le vamos a concatenar la palabra años.
+
+66
+00:07:28,470 --> 00:07:34,950
+Vale si yo actualizo la pantalla como es mayor de edad me hice de aviso.
+
+67
+00:07:34,980 --> 00:07:40,760
+Tiene 18 años es mayor de edad.
+
+68
+00:07:41,000 --> 00:07:50,020
+Lo vamos a indicar por aquí vale David Suárez tiene 18 años es mayor de edad.
+
+69
+00:07:50,040 --> 00:07:56,830
+Si no fuera mayor de edad es decir si esta condición no se cumple pues yo lo que puedo hacer es un Elser
+
+70
+00:07:58,030 --> 00:08:01,510
+y entonces en él ese sería ya menor de edad.
+
+71
+00:08:01,580 --> 00:08:05,560
+Voy a copiar este trozo de código lo peor dentro del s.
+
+72
+00:08:05,780 --> 00:08:14,580
+C ya que es menor de edad y entonces diría David Suárez Taltal es menor de edad.
+
+73
+00:08:14,640 --> 00:08:21,240
+Guardo actualizo la pantalla y aquí me dice que sigue siendo mayor de edad porque la edad es esa de
+
+74
+00:08:21,240 --> 00:08:27,900
+acuerdo pero si yo por ejemplo modifico la edad en la variable indico que sean 10 años esto me va a
+
+75
+00:08:27,900 --> 00:08:34,740
+decir que es menor de edad porque la condición fíjate no la ha pasado vale ha pasado al Elche.
+
+76
+00:08:34,770 --> 00:08:37,850
+Si esto se cumple pasa por aquí.
+
+77
+00:08:38,010 --> 00:08:42,860
+Si esto no se cumple pues pasa por ls y pasa por aquí más sencillo.
+
+78
+00:08:42,990 --> 00:08:50,810
+Si la edad es mayor o igual a 18 muestra esto y si no me muestra esto otro pues así.
+
+79
+00:08:50,940 --> 00:08:54,100
+Así de sencillo es Elif.
+
+80
+00:08:54,330 --> 00:08:58,160
+Otra cosa que podríamos hacer es anidar UNIV dentro de otro.
+
+81
+00:08:58,230 --> 00:09:00,660
+Eso es una cosa muy común.
+
+82
+00:09:00,990 --> 00:09:06,450
+Por ejemplo si el usuario es mayor de 18 años aquí vamos a hacer otro hit dentro if
+
+83
+00:09:09,770 --> 00:09:20,570
+si por ejemplo tiene la edad es exactamente igual que treinta y tres por ejemplo
+
+84
+00:09:23,210 --> 00:09:31,150
+si es exactamente igual a 33 yo voy a mostrar un consolé punto lo voy a mostrar un Loz por la consola
+
+85
+00:09:31,150 --> 00:09:40,360
+que diga todavía eres millenial por ejemplo no vale vamos a comprobar esto si actualizó la pantalla
+
+86
+00:09:40,390 --> 00:09:48,820
+me dice David Suárez tiene 33 años es mayor de edad y todavía eres millenial de acuerdo incluso si le
+
+87
+00:09:48,820 --> 00:09:58,810
+indicara el lugar exactamente igual si es menor si la edad es menor o igual a 33 pues entonces todavía
+
+88
+00:09:58,810 --> 00:10:09,560
+millenial no actualizamos la pantalla y tal si fuera 34 pues aquí tendríamos que poner una s vamos a
+
+89
+00:10:09,570 --> 00:10:20,260
+hacer un consolé punto lo que diga ya no eres millenial ya no eres millenial guardo autorizó la pantalla
+
+90
+00:10:21,190 --> 00:10:27,190
+y me dice que ya no soy millenial porque tengo 34 años es decir no pasa por la primera condición y pasa
+
+91
+00:10:27,250 --> 00:10:33,910
+a la segunda condición guarece de acuerdo pasaréis en lugar de a la condición principal.
+
+92
+00:10:33,910 --> 00:10:37,650
+Otra cosa que podemos hacer también es el SOIB.
+
+93
+00:10:37,750 --> 00:10:42,640
+Ahora mismo hemos visto como hace Univ como hacer una DS como hacer una condición y tal pero también
+
+94
+00:10:42,640 --> 00:10:50,770
+podemos hacer un else if el S y es lo mismo que hacer otro if pero en lugar de animarlo lo ponemos al
+
+95
+00:10:50,770 --> 00:10:51,910
+lado.
+
+96
+00:10:52,140 --> 00:11:02,560
+El ir si no es menor de 33 pues tendremos que comprobar si es mayor a 70.
+
+97
+00:11:02,630 --> 00:11:09,260
+De acuerdo si la edad es mayor o igual a 70 en el caso de que la edad sea mayor igual a 70 lo que vamos
+
+98
+00:11:09,260 --> 00:11:20,960
+a hacer va a ser mostrar un consuelo que diga eres anciano eres anciano eres anciano ya no y en el caso
+
+99
+00:11:20,960 --> 00:11:27,740
+de que no se cumpla ninguna de estas condiciones es decir que la edad no sea menor o igual a 33 sino
+
+100
+00:11:27,770 --> 00:11:31,860
+que esté por encima y que no sea mayor igual a 70.
+
+101
+00:11:31,860 --> 00:11:40,610
+Pues vamos a poner aquí con sólo un punto lo ya no eres millenial ya no eres Milenio entonces hemos
+
+102
+00:11:40,610 --> 00:11:46,220
+hecho tres condiciones en una básicamente hemos hecho dos condiciones principales ésta si no se cumplía
+
+103
+00:11:46,220 --> 00:11:52,820
+esta pasábamos a la siguiente y si esta no se cumplía finalmente pasamos a mostrar lo último la última
+
+104
+00:11:52,910 --> 00:11:53,380
+opción.
+
+105
+00:11:53,390 --> 00:12:00,110
+La última decisión no se actualicemos la pantalla me dice que ya no si millenial porque ni mi edad está
+
+106
+00:12:00,530 --> 00:12:11,010
+por encima de 33 y por debajo de 70 si yo por ejemplo le pusiera setenta y cuatro años de edad actualizo
+
+107
+00:12:11,030 --> 00:12:13,430
+la pantalla me dice Eres anciano.
+
+108
+00:12:13,580 --> 00:12:22,850
+Vale si le cambio ese valor a 12 me va a decir que soy menor de edad menor de edad si le cambio ese
+
+109
+00:12:22,850 --> 00:12:32,270
+valor a 19 me va a decir que soy millenial todavía no y así así podemos hacer condiciones infinitas
+
+110
+00:12:32,270 --> 00:12:38,270
+y podemos hacer miles de ejercicios que luego propondré hacer algún ejercicio con todas las condiciones
+
+111
+00:12:38,300 --> 00:12:43,510
+pero yo creo que ha quedado claro como utilizar el ir y utilizar el S y utilizar el C y.

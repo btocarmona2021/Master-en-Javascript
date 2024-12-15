@@ -1,0 +1,255 @@
+1
+00:00:01,160 --> 00:00:08,990
+Antes de empezar a tocar código y a hacer cosas prácticas dentro de angular te voy a explicar los elementos
+
+2
+00:00:08,990 --> 00:00:15,530
+que conforman una aplicación de angular una aplicación de angular está formada básicamente por componentes
+
+3
+00:00:15,560 --> 00:00:24,740
+por plantillas por decoradores y metadatos por servicios por Provider por directivas y por módulos de
+
+4
+00:00:24,740 --> 00:00:32,960
+acuerdo y te voy a explicar cada cosa que es en esta clase un componente al final es una parte o un
+
+5
+00:00:32,960 --> 00:00:36,030
+elemento que compone la aplicación web de angular.
+
+6
+00:00:36,050 --> 00:00:41,840
+Al final un componente va a controlar un trozo de pantalla o de la vista de nuestra aplicación.
+
+7
+00:00:41,840 --> 00:00:47,030
+Todo lo que se puede ver en pantalla dentro de angular dentro de un proyecto de angular es controlado
+
+8
+00:00:47,090 --> 00:00:49,250
+y gestionado por este tipo de elementos.
+
+9
+00:00:49,250 --> 00:00:55,340
+La lógica de un componente dentro de una clase de angular es que da soporte a una vista interactuando
+
+10
+00:00:55,340 --> 00:01:00,980
+con ella a través de una serie de propiedades y métodos que hay dentro del Franko y el componente también
+
+11
+00:01:01,250 --> 00:01:06,860
+se encarga de hacer de mediador entre la vista a través de la plantilla y la lógica de la aplicación
+
+12
+00:01:07,160 --> 00:01:13,580
+que va a estar en la parte de la clase del componente donde se incluirá el modelo de datos y la interacción
+
+13
+00:01:13,580 --> 00:01:15,910
+y la lógica que vaya a tener nuestra aplicación.
+
+14
+00:01:16,010 --> 00:01:21,680
+Es decir que un componente al final es una especie de controlador de la aplicación y toda la aplicación
+
+15
+00:01:21,680 --> 00:01:26,750
+va a estar formada por pequeñas partes o pequeños elementos que van a ser los componentes y cada componente
+
+16
+00:01:26,750 --> 00:01:33,020
+se va a encargar de hacer una cosa específica o va en una página específica etc. Y eso lo iremos viendo
+
+17
+00:01:33,020 --> 00:01:34,460
+a lo largo del curso.
+
+18
+00:01:34,760 --> 00:01:39,740
+Dentro de angular también hay plantillas que es una plantilla pues las plantillas son simplemente las
+
+19
+00:01:39,740 --> 00:01:46,460
+vistas de los componentes las vistas de la aplicación las plantillas para definir la vista de los componentes
+
+20
+00:01:46,700 --> 00:01:53,270
+son fichero HTML que tienen una sintaxis especial de angular y trabajan con el Data Binding con directiva
+
+21
+00:01:53,270 --> 00:01:59,090
+y con una serie de elementos y características que vamos a estar viendo a lo largo del curso dentro
+
+22
+00:01:59,090 --> 00:02:01,640
+de una clase de angular y dentro de Taipe script.
+
+23
+00:02:01,640 --> 00:02:08,470
+También tenemos decoradores y metadatos con los decoradores que al final es un patrón de diseño un patrón
+
+24
+00:02:08,480 --> 00:02:14,600
+decorador vamos a configurar dinámicamente los atributos o metadatos que va a tener la clase de nuestro
+
+25
+00:02:14,600 --> 00:02:21,480
+componente angular de acuerdo o incluso la clase o una clase o cualquier otro tipo dentro del framework
+
+26
+00:02:21,770 --> 00:02:27,920
+los metadatos dentro de un decorador en una clase de angular van a describir una serie de relaciones
+
+27
+00:02:27,920 --> 00:02:32,210
+que van a tener una serie de características que va a tener el componente o la clase.
+
+28
+00:02:32,240 --> 00:02:38,420
+Por ejemplo si tenemos un componente y una plantilla metadatos se va a encargar de decirle angular que
+
+29
+00:02:38,420 --> 00:02:43,880
+ese componente y esa plantilla van juntos entre otras muchas características y configuraciones que podemos
+
+30
+00:02:43,880 --> 00:02:47,960
+hacerle al componente mediante el decorador y sus metadatos.
+
+31
+00:02:47,960 --> 00:02:50,520
+Otra cosa que tiene angulares son servicios.
+
+32
+00:02:50,570 --> 00:02:58,820
+Los servicios son clases con un objetivo claro es decir facilitar la reutilización del código interactuar
+
+33
+00:02:58,880 --> 00:03:02,110
+con un servicio redes de una entidad concreta.
+
+34
+00:03:02,270 --> 00:03:07,010
+Son un elemento fundamental dentro de un proyecto angular dentro de una aplicación que hagamos cuadrangular
+
+35
+00:03:07,210 --> 00:03:12,350
+y mediante inyección de dependencias lo vamos a poder estar utilizando dentro de otros componentes y
+
+36
+00:03:12,350 --> 00:03:17,840
+en la aplicación en general un servicio también se le puede llamar Provider de acuerdo y los Provider
+
+37
+00:03:18,050 --> 00:03:22,360
+básicamente son servicios que nos proveen datos o funcionalidades mediante sus métodos.
+
+38
+00:03:22,430 --> 00:03:28,340
+Existen muchos probã y de su servicio dentro de angular que son propios de angular o los podemos crear
+
+39
+00:03:28,340 --> 00:03:30,020
+nosotros de acuerdo.
+
+40
+00:03:30,020 --> 00:03:34,740
+Otro elemento que forma parte de una aplicación de angular son las directivas.
+
+41
+00:03:34,850 --> 00:03:41,000
+Las directivas son funcionalidades aplicables al Dom y a los elementos HTML que hay en las plantillas
+
+42
+00:03:41,000 --> 00:03:42,140
+de un componente.
+
+43
+00:03:42,140 --> 00:03:47,720
+Al final todo se traduce en una directiva es decir un componente lo pueden mostrar dentro de una plantilla
+
+44
+00:03:47,930 --> 00:03:55,330
+o podemos hacerlo visible mediante una directiva que es una etiqueta o un atributo y aparte también
+
+45
+00:03:55,330 --> 00:03:57,840
+la directiva es un atributos de HTML.
+
+46
+00:03:58,100 --> 00:04:04,970
+Por ejemplo una directiva puede servir para controlar que un DIV se muestre o no o recorrer una raíz
+
+47
+00:04:04,970 --> 00:04:11,060
+en la vista de acuerdo con la directiva estructurales que tiene el propio angular o incluso también
+
+48
+00:04:11,060 --> 00:04:17,370
+puede servir para darle un estilo u otro elemento del HTML.
+
+49
+00:04:17,450 --> 00:04:24,350
+La directiva NG class o Gestal o Damin incluso para interactuar con el modelo de datos con el modelo
+
+50
+00:04:24,370 --> 00:04:25,590
+y utilizar el de David.
+
+51
+00:04:25,970 --> 00:04:29,990
+Pero eso también lo iremos viendo a lo largo del curso.
+
+52
+00:04:30,020 --> 00:04:36,230
+Básicamente son nuevos atributos para aplicarla a cualquier cosa de nuestra plantilla o Vista.
+
+53
+00:04:36,470 --> 00:04:39,510
+Así que esos son los elementos más básicos que hay.
+
+54
+00:04:39,530 --> 00:04:45,080
+Luego también tenemos los módulos de acuerdo que ahora angular también es modular es decir que yo puedo
+
+55
+00:04:45,080 --> 00:04:51,950
+tener un módulo para mi aplicación principal y dentro de ese módulo tener un módulo para hacer la parte
+
+56
+00:04:51,950 --> 00:04:53,370
+de un panel de administración.
+
+57
+00:04:53,390 --> 00:04:55,000
+Otro módulo para hacer una tienda.
+
+58
+00:04:55,040 --> 00:05:01,190
+Otro módulo para hacer la parte pública de la web y así puedo ir creando diferentes módulos que hagan
+
+59
+00:05:01,190 --> 00:05:08,210
+diferentes funcionalidades que aunque estén unidos en el mismo proyecto son módulos separados que podemos
+
+60
+00:05:08,210 --> 00:05:14,510
+estar reutilizando en otros proyectos de acuerdo y de esa manera también organizar mucho mejor la arquitectura
+
+61
+00:05:14,510 --> 00:05:19,820
+de nuestra aplicación web así que todos estos elementos de los que forman parte de un proyecto de angular
+
+62
+00:05:19,820 --> 00:05:25,490
+son conceptos que va a haber dentro de angular que lo iremos viendo de manera más práctica a lo largo
+
+63
+00:05:25,490 --> 00:05:31,490
+del curso y en la siguiente clase a empezar a tocar código vamos a empezar a ver tema de componentes
+
+64
+00:05:31,490 --> 00:05:34,220
+y vamos a empezar a practicar con angular.

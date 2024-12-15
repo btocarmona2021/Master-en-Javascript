@@ -1,0 +1,475 @@
+1
+00:00:01,230 --> 00:00:07,440
+Vamos a maquetar un poco la caja donde aparecen los mensajes para que tenga un estilo mejor y sea más
+
+2
+00:00:07,440 --> 00:00:09,090
+visible.
+
+3
+00:00:09,510 --> 00:00:11,480
+Así que me voy a quedar aquí una etiqueta Steyn
+
+4
+00:00:15,860 --> 00:00:23,430
+y aquí voy a poner yo los estilos CSS que quiero en este caso al Dib de mensaje le voy a poner unos
+
+5
+00:00:23,490 --> 00:00:30,070
+estilo que van a ser por ejemplo el Wiz del 95 por ciento.
+
+6
+00:00:30,120 --> 00:00:36,890
+Le voy a poner un Max Wiz del de 400 píxeles de acuerdo para que no sea muy ancho.
+
+7
+00:00:36,890 --> 00:00:48,810
+Le voy a poner un Jaitt de 350 pixels debió poner un overflow scroll es decir cuando los mensajes sean
+
+8
+00:00:48,810 --> 00:01:00,140
+demasiado pues que haga un scroll le voy a poner un border un PX sólito
+
+9
+00:01:02,830 --> 00:01:14,140
+en gris muy claro le voy a poner un boxeador 0 pises 0 Visser 20 Pichel CCC 15 para que sea dentro de
+
+10
+00:01:14,200 --> 00:01:22,370
+el chip y debe poner un punto mensaje y le a poner unos destiló de la clase mensaje que es la que se
+
+11
+00:01:22,370 --> 00:01:29,480
+va imprimiendo en cada uno de los elementos de tipo mensaje que nos llega del servidor pues le voy a
+
+12
+00:01:29,480 --> 00:01:30,320
+poner un margen
+
+13
+00:01:33,020 --> 00:01:48,080
+de 20 pixels le voy a poner un PADI de 5 pixels le voy a poner un border radius de 5 pixel le voy a
+
+14
+00:01:48,080 --> 00:01:53,970
+poner también un border PX sólito
+
+15
+00:01:56,590 --> 00:02:05,170
+CFF y le poner un vacunaron vale en principio esto ya se debería haber mejor actriz de la página efectivamente
+
+16
+00:02:05,170 --> 00:02:10,180
+pues me aparece aquí el DIV mucho mejor.
+
+17
+00:02:10,240 --> 00:02:20,140
+Vale si ahora cojo y añado más mensajes por aquí en el html aquí a pelo cojo editor en HTML y copio
+
+18
+00:02:20,380 --> 00:02:21,130
+este mensaje
+
+19
+00:02:24,270 --> 00:02:24,980
+varias veces.
+
+20
+00:02:24,990 --> 00:02:32,580
+Pues fíjate que me aparece el scroll de mensaje vale bien estupendo ahora voy a crear un formulario
+
+21
+00:02:32,580 --> 00:02:35,040
+para poder añadir mensaje.
+
+22
+00:02:35,640 --> 00:02:39,960
+Eso lo voy a hacer justo debajo de este DIV aquí me voy a crear un foro
+
+23
+00:02:45,260 --> 00:02:48,090
+y voy a quedarme unos simples de imput
+
+24
+00:02:53,000 --> 00:03:07,040
+con idea de que nadie me va a crear ni un imput también bueno en este caso el texto varia con Hide Text
+
+25
+00:03:08,780 --> 00:03:18,780
+y le voy a poner también de atributo esto va a ser de tipo texto.
+
+26
+00:03:18,980 --> 00:03:25,530
+Vamos a poner también un play folder placer de leer nombre o nick
+
+27
+00:03:30,960 --> 00:03:35,790
+y hasta eso también lo podemos poner un plazo joder.
+
+28
+00:03:38,850 --> 00:03:49,600
+Y aquí le decimos mensaje vale ahora nos quedaría que el botón de Submit input y submit
+
+29
+00:03:57,990 --> 00:04:04,170
+y le voy a indicar aquí con la propiedad on Summit voy a capturar el evento de Summit.
+
+30
+00:04:04,170 --> 00:04:06,870
+Me acuerdo cuando le demos clic en el botón de enviar.
+
+31
+00:04:06,900 --> 00:04:12,930
+Eso significa que el formulario lo va a enviar y en lugar de enviarlo a ningún sitio ni nada pues vamos
+
+32
+00:04:12,930 --> 00:04:15,050
+a recoger ese evento.
+
+33
+00:04:15,390 --> 00:04:26,070
+Capturamos el evento y lanzamos alguna función returned de Message y le pasaba el evento.
+
+34
+00:04:26,080 --> 00:04:31,290
+Vale esto lo que se va a lanzar cuando enviemos el formulario.
+
+35
+00:04:31,300 --> 00:04:37,350
+Entonces esta función de aquí tenemos que meterlo en nuestro código JavaScript del cliente tenemos que
+
+36
+00:04:37,350 --> 00:04:38,480
+crearla.
+
+37
+00:04:38,800 --> 00:04:47,790
+Vale cómo hacemos eso creando una función de mensaje en la cual recibimos el evento
+
+38
+00:04:57,310 --> 00:05:02,860
+y vamos a crear una variable que normalmente se llama payload o sea mandato como tú quieras.
+
+39
+00:05:02,890 --> 00:05:06,620
+En mi caso lo que le voy a poner me
+
+40
+00:05:09,760 --> 00:05:15,250
+vale para que recoja el mensaje que yo estoy enviando desde el formulario y entonces aquí voy a definir
+
+41
+00:05:15,250 --> 00:05:21,480
+un objeto que va a ser el que va a enviar al servidor para que el sockets lo guarde.
+
+42
+00:05:21,520 --> 00:05:29,480
+Entonces voy a decir de una propiedad MINEM que voy a conseguir el documento punto gheto eleven BAII
+
+43
+00:05:29,500 --> 00:05:34,760
+de nickname y consiguiendo su valio.
+
+44
+00:05:35,160 --> 00:05:45,480
+Acuerdo es lo que hace conseguir el valor que tiene el input ninguneen con Nick NiMH y luego el texto
+
+45
+00:05:45,660 --> 00:05:57,190
+lo vamos a recoger como el punto G el baile y voy a recoger el texto en sí de ese campo de texto que
+
+46
+00:05:57,190 --> 00:06:03,490
+hemos definido en el formulario es decir con esto lo que hago es sacar el value que tiene el elemento
+
+47
+00:06:04,390 --> 00:06:06,100
+Tex con Tex.
+
+48
+00:06:06,100 --> 00:06:11,530
+Aquí me acuerdo lo hemos puesto y idea Tex con lo cual vamos a sacar el valio que tiene ese elemento
+
+49
+00:06:12,100 --> 00:06:16,020
+del doble que en este caso es un input vale.
+
+50
+00:06:16,060 --> 00:06:25,810
+Entonces cuando yo envía el mensaje este campo Nick ni me lo va a ocultar mediante CSS style punto display
+
+51
+00:06:26,630 --> 00:06:28,190
+te vamos a poner no.
+
+52
+00:06:29,110 --> 00:06:33,970
+Para qué hacemos esto para no poder cambiar el nombre de usuario una vez que estamos hoy.
+
+53
+00:06:34,240 --> 00:06:39,550
+Aunque luego si recargas la página sí que lo vamos a poder hacer pero bueno vale entonces qué vamos
+
+54
+00:06:39,550 --> 00:06:46,840
+a hacer con esto pues vamos a emitir un evento pero esta vez del cliente al servidor es decir que el
+
+55
+00:06:46,840 --> 00:06:54,940
+que tiene que recoger ese evento va a ser el socket en el servidor vale entonces utilizamos socket punto
+
+56
+00:06:55,030 --> 00:06:55,510
+M.I.T
+
+57
+00:06:58,770 --> 00:07:00,040
+de guión Message
+
+58
+00:07:02,760 --> 00:07:10,150
+vale y entonces le paso el mensaje para que lo guarde en el servidor y haga un return false para que
+
+59
+00:07:10,150 --> 00:07:13,760
+corte la ejecución de la función.
+
+60
+00:07:13,900 --> 00:07:19,630
+Vale entonces vamos a creernos el método o vamos a recoger el evento add Message en el servidor que
+
+61
+00:07:19,630 --> 00:07:26,950
+es que es el fichero de punto J ese entonces vale aquí yo estoy emitiendo un evento de mensaje que todos
+
+62
+00:07:26,950 --> 00:07:36,540
+los mensajes pero cuando yo reciba ese evento también tendré que recoger el evento de mensaje para poder
+
+63
+00:07:36,960 --> 00:07:43,110
+guardar la información del mensaje en el servidor y emitirla a todos los clientes que haya conectado
+
+64
+00:07:43,540 --> 00:07:49,530
+entonces socket punto on para recoger un evento.
+
+65
+00:07:49,520 --> 00:07:58,410
+Entonces recojo a ese mensaje cuando ese evento suceda se van a hacer una función de Calvar es decir
+
+66
+00:07:58,410 --> 00:08:01,140
+el socket lo que hace es tener una conexión bien abierta.
+
+67
+00:08:01,140 --> 00:08:08,480
+Entonces cuando se ejecuta ese evento voy a recibir la función de calva con los datos de acuerdo le
+
+68
+00:08:08,480 --> 00:08:14,700
+lleva como parámetro la función de carga esos datos y entonces utiliza el array mensajes de acuerdo
+
+69
+00:08:14,700 --> 00:08:23,010
+que es éste para hacerle un push compuse añadirle un dato a ese Array push data vale y guardo ese nuevo
+
+70
+00:08:23,010 --> 00:08:28,680
+objeto en el arranque de forma que persiste de forma temporal mientras que el servidor esté corriendo
+
+71
+00:08:29,250 --> 00:08:31,180
+o mientras que el socket esté abierto.
+
+72
+00:08:31,340 --> 00:08:40,200
+Vale existe ahí y entonces cuando acabe de añadir el elemento al array lo que va de lo que voy a hacer
+
+73
+00:08:40,200 --> 00:08:48,910
+es emitir a todos los clientes que haya conectado y o punto sockets así punto en lo que hago y se emitirá
+
+74
+00:08:48,910 --> 00:08:51,710
+a todos los clientes del chat que estén conectados.
+
+75
+00:08:52,230 --> 00:09:00,000
+Los mensajes de nuevos mensajes mensajes es decir el array de nuevo actualizado vale pues en principio
+
+76
+00:09:00,000 --> 00:09:00,620
+ya lo tenemos.
+
+77
+00:09:00,630 --> 00:09:10,480
+Vale voy a actualizar la página y por aquí se ve que tenemos algún voy a abrir la consola a ver qué
+
+78
+00:09:10,480 --> 00:09:12,520
+dice.
+
+79
+00:09:12,520 --> 00:09:17,790
+Dice que en la línea 30 del minipunto Jota es en la línea 30.
+
+80
+00:09:17,820 --> 00:09:22,460
+A mi de aquí se me ha colado una exclamación guardo ahora actualizo la página.
+
+81
+00:09:22,930 --> 00:09:29,920
+Vale ahora sí que me envía el mensaje por defecto y si yo envío uno nuevo por ejemplo le pongo un nombre
+
+82
+00:09:33,640 --> 00:09:34,110
+mío.
+
+83
+00:09:34,480 --> 00:09:39,210
+Hola qué tal lo envío.
+
+84
+00:09:39,310 --> 00:09:40,570
+Me lo añade vale
+
+85
+00:09:43,710 --> 00:09:52,310
+y si yo me abro otro cliente otro navegador por ejemplo una pestaña de incógnito y me la pongo por aquí.
+
+86
+00:09:52,650 --> 00:09:55,590
+Vale voy a copiar la Wireless me voy a mi chat
+
+87
+00:09:59,110 --> 00:10:02,860
+vale tengo aquí el chat y me envió un mensaje con nombre de Paco
+
+88
+00:10:05,580 --> 00:10:09,110
+y me digo estoy muy bien.
+
+89
+00:10:09,130 --> 00:10:18,910
+Envío automáticamente fijate que se actualiza ese elemento se actualiza todo el chat y no añade más
+
+90
+00:10:18,940 --> 00:10:20,700
+cosa vale.
+
+91
+00:10:20,840 --> 00:10:26,380
+No hay además más cosa al Soke o al array que guardan en el servidor
+
+92
+00:10:31,310 --> 00:10:38,840
+si yo quiero que los mensajes que aparezcan nuevos automáticamente el foco del chat se aunque hay una
+
+93
+00:10:38,850 --> 00:10:45,540
+cruz muy grande se queda abajo lo que puedo hacer me que el código y en la parte de el render yo me
+
+94
+00:10:45,550 --> 00:10:52,210
+voy a guardar este documento CTL Mémoire en una variable que se llame DIV
+
+95
+00:10:56,820 --> 00:11:04,380
+en esa variable Dib y un bajo en mis ejes madre y utiliza esta variable para hacer unas modificaciones.
+
+96
+00:11:04,670 --> 00:11:09,290
+Vale voy a utilizar la propiedad es Krol top
+
+97
+00:11:13,150 --> 00:11:14,020
+vale para
+
+98
+00:11:16,960 --> 00:11:27,400
+poner el scroll en él en la altura máxima de descoloque es decir utilizando el scroll.
+
+99
+00:11:29,300 --> 00:11:34,470
+Y aquí esto es GHD vale.
+
+100
+00:11:35,410 --> 00:11:36,400
+De forma que
+
+101
+00:11:41,240 --> 00:11:47,220
+de acuerdo esto lo dejamos así de forma que si yo me vengo aquí y empiezo a enviar mensajes como Paco.
+
+102
+00:11:48,640 --> 00:11:49,300
+Hola
+
+103
+00:11:52,060 --> 00:12:03,120
+hola qué tal meter aquí mensaje automáticamente se van añadiendo los mensajes y el foco se queda abajo.
+
+104
+00:12:03,260 --> 00:12:03,530
+Vale
+
+105
+00:12:08,440 --> 00:12:15,300
+aquí voy yo puedo enviar todos los mensajes que yo quiera y el chat de forma instantánea se va actualizando
+
+106
+00:12:15,390 --> 00:12:20,730
+actualizando con el socket si me conecto desde mi móvil pues voy a grabar la pantalla del móvil para
+
+107
+00:12:20,730 --> 00:12:24,750
+que vea como se ve automáticamente.
+
+108
+00:12:25,470 --> 00:12:26,610
+Voy a poner esto a grabar
+
+109
+00:12:29,140 --> 00:12:36,970
+automáticamente aquí me aparece en mi mensaje en el chat y yo puedo ponerme un nick es decir teléfono
+
+110
+00:12:39,380 --> 00:12:41,210
+teléfono y aquí puedo escribir un mensaje
+
+111
+00:12:44,800 --> 00:12:51,460
+envío y automáticamente fíjate que se está actualizando en mi teléfono y en el resto de chat del resto
+
+112
+00:12:51,460 --> 00:12:52,110
+de clientes.
+
+113
+00:12:58,740 --> 00:13:08,130
+Vale puedo enviar otro mensaje y ahí me llega el mensaje aquí puedo poner otra cosa y automáticamente
+
+114
+00:13:08,280 --> 00:13:09,810
+se actualiza de forma instantánea.
+
+115
+00:13:09,810 --> 00:13:10,170
+Por qué.
+
+116
+00:13:10,180 --> 00:13:16,020
+Porque esto es una conexión de un socket abierta y no necesita estar recargando nada ni nada ni haciendo
+
+117
+00:13:16,020 --> 00:13:19,610
+peticiones ni nada simplemente enviado.
+
+118
+00:13:19,880 --> 00:13:24,770
+Y como esa conexión está abierta los datos se transfieren de forma automática.
+
+119
+00:13:24,780 --> 00:13:28,700
+Vale fíjate que está funcionando perfectamente.

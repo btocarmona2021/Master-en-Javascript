@@ -1,0 +1,171 @@
+1
+00:00:01,080 --> 00:00:03,960
+Vamos con el siguiente ejercicio vamos a crear un fichero
+
+2
+00:00:07,080 --> 00:00:10,000
+sería el fichero número 13.
+
+3
+00:00:10,510 --> 00:00:24,270
+Ejercicio 3 puntos J.S. Y vamos a cargar el scrip en el índex sería el ejercicio número 13 el fichero
+
+4
+00:00:24,270 --> 00:00:36,600
+13 y el ejercicio 3 guardo y vamos a poner el USB Street y voy a explicar el enunciado del ejercicio
+
+5
+00:00:37,230 --> 00:00:42,330
+sería hacer un programa que muestre todos los números que hay entre dos números introducidos por el
+
+6
+00:00:42,330 --> 00:00:43,190
+usuario.
+
+7
+00:00:43,650 --> 00:00:48,090
+Entonces el programa nos va a pedir un número nos va a pedir otro número y tenemos que mostrar todos
+
+8
+00:00:48,090 --> 00:00:51,640
+los números que hay entre ese número y el otro número de acuerdo.
+
+9
+00:00:51,660 --> 00:00:59,310
+Voy a poder tener un techo aquí para tenerlo visualmente y que lo pueda ver dice hacer un programa
+
+10
+00:01:02,160 --> 00:01:14,790
+que muestre todos los números entre dos números introducidos por el usuario.
+
+11
+00:01:14,950 --> 00:01:24,150
+Adentro tendremos que hacer dos variables número uno que sería un prompt que nos va a decir introduce
+
+12
+00:01:25,350 --> 00:01:26,220
+el primer número
+
+13
+00:01:29,490 --> 00:01:35,820
+por defecto irá a cero y tendremos que hacerle un Parcent para convertir el destino un número
+
+14
+00:01:40,810 --> 00:01:45,890
+y después vamos a tener una segunda variable que será el número dos que será lo mismo.
+
+15
+00:01:46,220 --> 00:01:53,360
+Introduce el segundo número Vale esto ya nos va a pedir tu número vale y actualizamos la pantalla me
+
+16
+00:01:53,360 --> 00:01:56,450
+pide el número uno y me pide el número dos.
+
+17
+00:01:56,450 --> 00:02:01,680
+Hasta aquí todo correcto y aún con su lógica de estas dos variables me va a sacar el resultado que tienen.
+
+18
+00:02:02,450 --> 00:02:10,580
+Entonces nos dice Oye muestra tienes que mostrar todos los números que hay entre el número uno y el
+
+19
+00:02:10,580 --> 00:02:11,170
+número dos.
+
+20
+00:02:11,180 --> 00:02:13,320
+Cómo haríamos esto.
+
+21
+00:02:13,370 --> 00:02:18,790
+Pues yo lo que haría sería un bucle for de acuerdo podría hacer un fork.
+
+22
+00:02:19,550 --> 00:02:26,070
+Y entonces que la variable que inicializar el foro o el contador sea el número 1 en este caso voy a
+
+23
+00:02:26,070 --> 00:02:32,420
+crear la variable y que va a ser igual a número 1 Ok entonces va a empezar el foro empezará a correr
+
+24
+00:02:32,510 --> 00:02:36,530
+desde el número que yo he introducido en la variable 1.
+
+25
+00:02:36,780 --> 00:02:49,340
+Entonces mientras que I sea menor o igual a número 2 pues y más más es decir sumándole al contador y
+
+26
+00:02:49,340 --> 00:02:50,740
+ver mostrando esos números.
+
+27
+00:02:51,080 --> 00:02:56,450
+Entonces para eso yo lo que voy a hacer ahora en lugar de hacer un Aulet o algo vamos a hacer un documento
+
+28
+00:02:56,450 --> 00:03:04,200
+en punto right document right el punto right nos permite añadir texto en el body de la página.
+
+29
+00:03:04,550 --> 00:03:11,240
+Entonces si yo utilizo esta función voy a poder decirle mira en un hacheros aquí concatenando cosa
+
+30
+00:03:14,550 --> 00:03:18,380
+voy a poder poner de número 1
+
+31
+00:03:22,590 --> 00:03:24,590
+a Número 2
+
+32
+00:03:28,050 --> 00:03:36,060
+están estos números vale entonces aquí en el foro yo puedo hacer un documento punto Breguet de la misma
+
+33
+00:03:36,060 --> 00:03:36,510
+forma
+
+34
+00:03:40,830 --> 00:03:51,300
+y le voy a pasar os voy a mostrar en este caso el y el número y que es el que se va incrementando desde
+
+35
+00:03:51,450 --> 00:03:57,570
+el número que he introducido hasta en el número 1 hasta el número 2 y debía CONCATENAR UN B.R. guardo
+
+36
+00:03:59,280 --> 00:04:09,860
+actualizo la pantalla le meto el número 1 al número 10 y le meto el número 2 dos el número 454 y fíjate
+
+37
+00:04:09,870 --> 00:04:14,910
+lo que está pasando me ha mostrado desde el número 10 hasta el número
+
+38
+00:04:17,550 --> 00:04:22,920
+454 por pantalla con lo cual ya hemos hecho el ejercicio vale.
+
+39
+00:04:23,130 --> 00:04:27,480
+El ejercicio de hacer un programa que muestre todos los números entre un número introducido por el usuario.
+
+40
+00:04:27,650 --> 00:04:33,390
+Pues ya lo acabamos de hacer introducimos el primer número el segundo y desde el número 1 que está guardado
+
+41
+00:04:33,390 --> 00:04:39,660
+en ley hasta el número 2 esa variable se va incrementando en 1 en cada iteración del bucle y nos lo
+
+42
+00:04:39,660 --> 00:04:41,420
+va mostrando por pantalla.
+
+43
+00:04:41,520 --> 00:04:44,010
+Así que ya tenemos el ejercicio número 3 resuelto.

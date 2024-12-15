@@ -1,0 +1,319 @@
+1
+00:00:01,290 --> 00:00:07,170
+Aquí ya hemos practicado un poco con los electores de Cury y hemos visto varios ejemplos varios ejercicio
+
+2
+00:00:07,410 --> 00:00:14,760
+incluso visto como utilizar el elemento clic como utilizar diferentes métodos para añadir y quitar clases
+
+3
+00:00:15,110 --> 00:00:15,770
+etcétera.
+
+4
+00:00:15,780 --> 00:00:21,900
+Hemos visto bastantes cositas interesantes de ella y qwerty y lo hemos visto sobre el fichero índex
+
+5
+00:00:21,900 --> 00:00:28,950
+punto HTML dando como resultado esta página que tenemos aquí en la cual podemos ver las diferentes cosas
+
+6
+00:00:28,950 --> 00:00:33,930
+que hemos aprendido Itá en base a los selectores.
+
+7
+00:00:33,990 --> 00:00:41,070
+Entonces ahora para no estar mezclando cosa y estar haciendo más cosas sobre este mismo fichero vamos
+
+8
+00:00:41,070 --> 00:00:43,080
+a crear un nuevo archivo.
+
+9
+00:00:43,230 --> 00:00:52,260
+Vale un nuevo archivo HTML linfoide que se va a llamar eventos puntuó HTML.
+
+10
+00:00:52,320 --> 00:00:57,900
+Qué es lo que vamos a ver ahora o sea antes de ver más funciones que podemos hacer sobre etiquetas de
+
+11
+00:00:57,900 --> 00:00:58,860
+HTML.
+
+12
+00:00:58,890 --> 00:01:03,420
+Como ya hemos visto el evento clic pues vamos a ver más eventos que hay dentro de ella y Cuadri que
+
+13
+00:01:03,420 --> 00:01:07,780
+son los mismos que hay en JavaScript pero vamos a ver cómo se utilizan dentro de ella.
+
+14
+00:01:08,460 --> 00:01:16,470
+Vale pues creamos el fichero evento punto HTML y vamos a copiar el código HTML que tenemos aquí en el
+
+15
+00:01:16,470 --> 00:01:23,340
+Indec y lo vamos a pegar por aquí y ahora lo vamos a modificar lo vamos a estar modificando vamos a
+
+16
+00:01:23,340 --> 00:01:29,310
+quitar todo el tema de los estilos vamos a quitar esta parte de aquí
+
+17
+00:01:32,580 --> 00:01:33,620
+vale.
+
+18
+00:01:33,720 --> 00:01:35,670
+Aquí vamos a poner eventos
+
+19
+00:01:39,550 --> 00:01:43,360
+y luego vamos a quitar también cosas que tenemos por aquí.
+
+20
+00:01:45,140 --> 00:01:49,190
+Y vamos a dejar un HTML en una estructura HTML completamente limpia.
+
+21
+00:01:49,230 --> 00:01:56,130
+Y aparte de esto vamos a crear también un nuevo archivo de JavaScript que se va a llamar 0 2 son eventos
+
+22
+00:01:56,370 --> 00:01:57,620
+punto JS.
+
+23
+00:01:57,760 --> 00:02:02,470
+Aquí vamos a platicar con el tema de los eventos vale y lo vamos a incluir dentro de nuestro eventos
+
+24
+00:02:02,470 --> 00:02:03,420
+junto a HTML.
+
+25
+00:02:03,420 --> 00:02:08,360
+En este caso 02 eventos punto JS.
+
+26
+00:02:08,820 --> 00:02:15,920
+Por el momento simplemente tendré que añadirle a nuestro archivo de JavaScript el documento punto Redi
+
+27
+00:02:18,360 --> 00:02:19,710
+y aquí
+
+28
+00:02:22,060 --> 00:02:31,950
+pues seleccionamos el evento Redi utilizamos ese evento y aquí podemos mostrar una alerta de eventos
+
+29
+00:02:35,900 --> 00:02:47,360
+cargado a ver si funciona esto si si nos vamos a eventos untó HTML efectivamente eventos JBS cargado
+
+30
+00:02:47,360 --> 00:02:52,880
+con lo cual esto está funcionando vamos a abrir la consola viene entonces para hacerlo ejemplo vamos
+
+31
+00:02:52,880 --> 00:02:56,300
+a crear algún elemento HTML como por ejemplo un dip.
+
+32
+00:02:56,360 --> 00:03:00,140
+Vamos a crear un dip con una idea que se llame caja
+
+33
+00:03:02,750 --> 00:03:09,980
+vale vamos a poner soy una caja y le vamos a dar uno estilo para eso pues simplemente vamos a poner
+
+34
+00:03:09,980 --> 00:03:11,570
+aquí la etiqueta tail.
+
+35
+00:03:11,630 --> 00:03:17,780
+Efectivamente podríamos crear un archivo externo para poner ahí los estilos pero como van a ser poco
+
+36
+00:03:17,780 --> 00:03:24,710
+estilos podemos ponerlo aquí entonces a la etiqueta o al elemento cuyo IDE es caja le vamos a poner
+
+37
+00:03:25,130 --> 00:03:35,270
+uno de estilo CSS lo vamos a poner un width de 250 píxeles un Jaitt de 250 pixeles le vamos a poner
+
+38
+00:03:35,270 --> 00:03:47,360
+un borde de un PX o dos PX sólito Black y le vamos a poner un background de un color sólido como por
+
+39
+00:03:47,360 --> 00:03:49,950
+ejemplo podría ser el hielo vale.
+
+40
+00:03:50,140 --> 00:03:55,780
+Si hacemos esto de esta manera ya estuviéramos en la pantalla aquí aparece mi caja vale.
+
+41
+00:03:55,880 --> 00:04:00,420
+Aquí aparece la caja sin ningún tipo de problema.
+
+42
+00:04:01,130 --> 00:04:07,490
+Sobre esta caja vamos a estar viendo diferentes evento el primer evento que vamos a ver cómo funciona.
+
+43
+00:04:07,520 --> 00:04:15,900
+Lo primero eventos que vamos a ver cómo funcionan son los eventos mucho ver y Massoud.
+
+44
+00:04:17,620 --> 00:04:21,430
+Vale esto es el típico efecto o que nosotros podemos hacer en CSS.
+
+45
+00:04:21,440 --> 00:04:24,740
+Si yo hago lo siguiente caja
+
+46
+00:04:27,280 --> 00:04:35,120
+2.El over con esta pseudo clase vale yo puedo coger y decirle que cuando yo pase por encima de la caja
+
+47
+00:04:35,120 --> 00:04:41,960
+me hago un background Red Balay le cambio el color a la caja ok se dice la pantalla.
+
+48
+00:04:41,990 --> 00:04:51,070
+Esto ya no lo quiero quiero guardar el archivo actualizo paso por encima y fijate lo que pasa vale me
+
+49
+00:04:51,080 --> 00:04:54,290
+cambia el color cuando yo hago hover sin ningún tipo de problema.
+
+50
+00:04:54,320 --> 00:05:01,760
+También le puedo poner un cursor Painter y le puedo poner una transición para que sea más suave Transition
+
+51
+00:05:02,720 --> 00:05:05,000
+300 milisegundos.
+
+52
+00:05:05,090 --> 00:05:11,150
+Hoy si yo hago esto fíjate que aquí está el efecto.
+
+53
+00:05:11,210 --> 00:05:20,650
+Incluso podría ponerle la transición al elemento en general para que siempre sea una animación suave
+
+54
+00:05:20,740 --> 00:05:22,090
+al entrar y al salir vale.
+
+55
+00:05:22,300 --> 00:05:28,540
+Entonces de esta manera tan fácil yo puedo hacer el Hover en CSS pero yo lo quiero hacer en JavaScript
+
+56
+00:05:28,570 --> 00:05:32,960
+porque con JavaScript yo puedo lanzar más funcionalidades aparte de cambiar colores.
+
+57
+00:05:33,020 --> 00:05:35,170
+Entonces vamos a ver cómo hacerlo en JavaScript.
+
+58
+00:05:35,170 --> 00:05:40,460
+Voy a comentar este trozo y vamos a ver cómo hacerlo con JavaScript utilizando Chicuelo.
+
+59
+00:05:41,740 --> 00:05:50,620
+Entonces voy a hacer voy a seleccionar mi elemento mi caja voy a crear una variable caja y aquí utiliza
+
+60
+00:05:50,620 --> 00:05:53,930
+el dólar y voy a utilizar el selector de ID de caja.
+
+61
+00:05:53,960 --> 00:05:55,430
+Vale ya lo tengo ahí.
+
+62
+00:05:55,840 --> 00:06:02,580
+Ahora yo puedo sobre Caja utilizar cualquiera de mis eventos en este caso el mouse Hover Mouse over
+
+63
+00:06:03,700 --> 00:06:08,450
+vale y esto tiene una función de Calvache simplemente en esta función de Calvache.
+
+64
+00:06:08,860 --> 00:06:15,610
+Yo podría crearme hacer esta función de calva anónima o crear una función y luego llamarla o pasársela
+
+65
+00:06:15,610 --> 00:06:17,130
+ahí como parámetro.
+
+66
+00:06:17,130 --> 00:06:22,120
+Puedo hacer las dos acciones en mi caso lo vamos a dejar así como una función de calvos y voy a decir
+
+67
+00:06:22,120 --> 00:06:26,200
+que sobre Dish sobre Dish estamos hablando de caja.
+
+68
+00:06:26,380 --> 00:06:34,150
+Sobre la variable en la que se aplica el evento sobre Caja voy a cambiar el TSE se va a cambiar el background
+
+69
+00:06:36,530 --> 00:06:45,170
+y le voy a poner un color RET vale cuando yo haga o ver si actualizo la pantalla.
+
+70
+00:06:45,480 --> 00:06:50,160
+Efectivamente ahí se queda vale y me cambia el color directamente vale.
+
+71
+00:06:50,190 --> 00:06:59,310
+Y cuando yo haga caja punto Moss out es decir cuando yo salga de ahí voy a utilizar la función de nuevo
+
+72
+00:06:59,430 --> 00:07:02,270
+de Calvache que tiene este evento.
+
+73
+00:07:02,300 --> 00:07:10,350
+Este método utilizo Dish Dish hace referencia a Caja y caja hace referencia a este elemento cuyo IDE
+
+74
+00:07:10,410 --> 00:07:20,730
+es caja y aquí con el CSS con el método CSS le puedo cambiar el background de nuevo y ponérselo completamente
+
+75
+00:07:20,730 --> 00:07:24,070
+distinto a Grin por ejemplo.
+
+76
+00:07:24,510 --> 00:07:31,110
+Vale entonces partimos de un fondo amarillo cuando pasamos por encima o pasamos al rojo y si salgo pasamos
+
+77
+00:07:31,110 --> 00:07:37,920
+a verde y vuelvo a entrar rojo y si salgo verde porque ya está actuando ya están actuando estos dos
+
+78
+00:07:38,250 --> 00:07:39,120
+métodos de aquí.
+
+79
+00:07:39,150 --> 00:07:45,390
+Estos dos eventos bien pues ya hemos visto como utiliza de todo evento el mouse y el mouse Out y en
+
+80
+00:07:45,390 --> 00:07:48,330
+la siguiente clase veremos cómo utilizar más eventos.

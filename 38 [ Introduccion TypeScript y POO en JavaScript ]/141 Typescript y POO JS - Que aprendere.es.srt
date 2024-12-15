@@ -1,0 +1,163 @@
+1
+00:00:00,630 --> 00:00:06,270
+A partir de ahora en el curso vamos a estar aprendiendo Tais Creep y sobre todo Programación Orientada
+
+2
+00:00:06,270 --> 00:00:12,480
+a Objetos en JavaScript Taipe scrip es un Supercell de JavaScript desarrollado por Microsoft que nos
+
+3
+00:00:12,480 --> 00:00:18,060
+permite tener nuevas funcionalidades dentro de JavaScript como por ejemplo el tipado fuerte o el tipado
+
+4
+00:00:18,060 --> 00:00:22,980
+estático pero todo lo que veamos acerca de programación orientada a objetos salvo el tema de tipado
+
+5
+00:00:22,980 --> 00:00:30,330
+fuerte es funcional y aplicable a JavaScript nativo así que vamos a ver sobre todo sobre todo Programación
+
+6
+00:00:30,330 --> 00:00:34,860
+Orientada a Objetos en JavaScript.
+
+7
+00:00:35,010 --> 00:00:39,670
+Entonces lo primero que aprenderemos será una introducción a la programación orientada a objetos ya
+
+8
+00:00:39,680 --> 00:00:40,890
+Taipe scrip.
+
+9
+00:00:40,980 --> 00:00:47,220
+Después pasaremos a aprender los objetos Jayson como crear un objeto con Jayson de acuerdo a una manera
+
+10
+00:00:47,220 --> 00:00:50,650
+muy elegante de trabajar con objetos en JavaScript.
+
+11
+00:00:50,670 --> 00:00:57,900
+Después también aprenderemos que esta vez scrip y pasaremos a preparar el entorno de desarrollo.
+
+12
+00:00:58,050 --> 00:01:04,290
+Veremos como instalar una terminal de comandos para estar trabajando con el tema de comandos.
+
+13
+00:01:04,290 --> 00:01:10,950
+También veremos cómo instalar no DJs y theyve scrip en el equipo cómo resaltar los colores de nuestro
+
+14
+00:01:10,950 --> 00:01:18,900
+editor de código para que se vea Taipe scrip en un formato resaltado con diferentes colores.
+
+15
+00:01:18,930 --> 00:01:24,600
+Después pasaremos a aprender los primeros pasos con Taipe scrip viendo cómo crear un Hola mundo con
+
+16
+00:01:24,600 --> 00:01:30,270
+Dipres scrip y aprendiendo también temas de compilación y transpiración de código.
+
+17
+00:01:30,330 --> 00:01:36,420
+Una vez que veamos todo esto aprenderemos a trabajar con las variables y los tipos de datos en Taipe
+
+18
+00:01:36,420 --> 00:01:42,600
+scrip veremos todos los tipos de datos que hay como aplicárselo a las variables etcétera como trabajar
+
+19
+00:01:42,600 --> 00:01:44,070
+con el tipado fuerte.
+
+20
+00:01:44,070 --> 00:01:49,440
+También veremos cómo aplicarle múltiples tipos de datos a una variable veremos cómo hacer un tipo de
+
+21
+00:01:49,440 --> 00:01:50,670
+dato personalizado.
+
+22
+00:01:50,670 --> 00:01:57,360
+También volveremos a repasar el tema del LET y bar cómo definir la variable para qué sirve definir una
+
+23
+00:01:57,360 --> 00:01:59,700
+variable con LED o definir la combear.
+
+24
+00:01:59,700 --> 00:02:05,880
+También aprenderemos a trabajar con las funciones y el tipado fuerte para definir qué datos va a devolver
+
+25
+00:02:05,880 --> 00:02:09,210
+una función y más cosas.
+
+26
+00:02:09,210 --> 00:02:16,500
+Después pasaremos a aprender programación orientada a objetos cómo funciona y aprenderemos clases métodos
+
+27
+00:02:16,500 --> 00:02:22,430
+y propiedades que esto es lo más fundamental de la programación orientada a objetos.
+
+28
+00:02:22,440 --> 00:02:30,150
+También aprenderemos que son los constructores las interfaces la herencia y muchos más detalles de la
+
+29
+00:02:30,150 --> 00:02:32,640
+programación orientada a objetos en cualquier lenguaje.
+
+30
+00:02:32,640 --> 00:02:40,470
+Pero centrándonos sobre todo en JavaScript y luego aprenderemos una funcionalidad específica de Taipe
+
+31
+00:02:40,510 --> 00:02:47,880
+script que son los decoradores y como aplicárselo a una clase porque todo esto lo aplicaremos muchísimo
+
+32
+00:02:47,880 --> 00:02:54,520
+en la parte angular que utiliza Taipe script como lenguaje para programar.
+
+33
+00:02:54,540 --> 00:03:01,110
+Aparte dejaré enlace con más contenido acerca de scrip de Taipe script para que le eches un vistazo
+
+34
+00:03:01,480 --> 00:03:06,180
+y también veremos varios ejemplos de programación orientada a objetos así que todo esto es lo que vamos
+
+35
+00:03:06,180 --> 00:03:08,750
+a aprender en las siguientes clases del curso.
+
+36
+00:03:08,760 --> 00:03:14,850
+Espero que lo entiendas todo bien y que le saque provecho a todas estas clases y aprendan bien este
+
+37
+00:03:14,850 --> 00:03:20,250
+tipo de cosas ya sabes que si tienen cualquier tipo de duda o problema con lo que están montando en
+
+38
+00:03:20,250 --> 00:03:25,890
+clase o algo te ataca y te da algún error o lo que sea me lo puedes poner en el panel de preguntas y
+
+39
+00:03:25,890 --> 00:03:31,800
+respuestas de este máster y yo te voy a estar ayudando en lo que necesites así que sin más vamos a empezar
+
+40
+00:03:31,800 --> 00:03:38,340
+a trabajar con Pepe scrip y la programación orientada a objetos en JavaScript viendo cómo utilizar objetos
+
+41
+00:03:38,670 --> 00:03:39,110
+Jayson.

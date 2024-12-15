@@ -1,0 +1,395 @@
+1
+00:00:00,620 --> 00:00:06,310
+Ya sabiendo esto el local electoral vamos a hacer un pequeño ejercicio para sentar un poquito más de
+
+2
+00:00:06,330 --> 00:00:12,560
+conocimiento y para practicar más con el local actoras con las funciones con los eventos y con el DOM.
+
+3
+00:00:12,990 --> 00:00:25,830
+Vamos a crear un nuevo archivo de JavaScript controles en el archivo será el treinta y cinco ejercicio
+
+4
+00:00:26,940 --> 00:00:35,380
+Local Storage junto JS y vamos a importarlo.
+
+5
+00:00:35,400 --> 00:00:38,880
+En nuestro HTML
+
+6
+00:00:42,690 --> 00:00:47,890
+bien puede vamos a poner de Street
+
+7
+00:00:50,680 --> 00:00:53,370
+lo que vamos a hacer va a ser lo siguiente un formulario.
+
+8
+00:00:53,440 --> 00:00:58,080
+Vamos a tener un formulario que nos permita añadir películas Mahrez.
+
+9
+00:00:59,770 --> 00:01:01,480
+Vamos a tener por aquí un formulario
+
+10
+00:01:07,420 --> 00:01:18,450
+por aquí vamos a crear un formulario form form y vamos a poner aquí un encabezado que se añade tu película
+
+11
+00:01:21,570 --> 00:01:26,430
+y vamos a ponerle un input type text con el
+
+12
+00:01:31,470 --> 00:01:33,820
+hade de película
+
+13
+00:01:38,220 --> 00:01:39,380
+íbamos a poner un botón
+
+14
+00:01:43,410 --> 00:01:55,510
+un input mejor input type Summit aunque en este caso ni siquiera haremos un botón ni pondremos un evento
+
+15
+00:01:55,510 --> 00:02:01,000
+Glick ya que serán guardar
+
+16
+00:02:03,520 --> 00:02:12,700
+guardar y aquí vamos a hacer un molde vamos a poner un tanque Chumi mejor si nada más conecto suficiente
+
+17
+00:02:13,350 --> 00:02:16,060
+donde ya tenemos nuestro formulario y aquí fuera.
+
+18
+00:02:16,330 --> 00:02:17,140
+Vamos a tener
+
+19
+00:02:24,060 --> 00:02:29,510
+las películas vale actualizamos la pantalla de aquí no aparece.
+
+20
+00:02:29,660 --> 00:02:31,230
+Nosotros añadiremos aquí la película
+
+21
+00:02:34,070 --> 00:02:39,760
+le daremos a guardar y aquí aparecerá recargar la pantalla y ahí aparecerá.
+
+22
+00:02:39,920 --> 00:02:48,620
+Le vamos a poner el Auction a nada y ya bien entonces vamos a capturar el evento on Summit.
+
+23
+00:02:48,630 --> 00:02:58,350
+Para eso seleccionamos nuestro formulario documento punto y selector y vamos a seleccionar nuestro formulario
+
+24
+00:02:58,380 --> 00:03:05,310
+nuestra etiqueta foll que como sólo hay uno no selecciona esta pero si le ponemos un IDEC fueron películas
+
+25
+00:03:06,340 --> 00:03:07,430
+o mejor todavía.
+
+26
+00:03:09,900 --> 00:03:19,650
+Son películas bien entonces ya tenemos nuestro formulario nos creamos la variable y todo.
+
+27
+00:03:19,980 --> 00:03:26,550
+Entonces vamos a utilizar la variable formulario y vamos a utilizar el Béliz en el
+
+28
+00:03:33,230 --> 00:03:40,370
+para coger el evento submit una vez que tenemos el evento Sumi utilizamos una función de calma que tenemos
+
+29
+00:03:40,370 --> 00:03:48,530
+por aquí vale y vamos a añadir al local actoras nuestra película.
+
+30
+00:03:48,680 --> 00:03:54,220
+Lo podemos hacer en un objeto Yeison o simplemente como solamente un listado de títulos de películas
+
+31
+00:03:54,230 --> 00:03:58,820
+pues simplemente haciendo guardia guardando una string.
+
+32
+00:03:58,820 --> 00:04:12,330
+Para eso utilizo el local Storage punto set item y voy a guardar la película con el valor que yo tenga
+
+33
+00:04:12,330 --> 00:04:16,760
+en mi formulario de acuerdo en el input de mi formulario en este caso.
+
+34
+00:04:16,760 --> 00:04:25,200
+Para eso tendría que hacer un documento apuntó XlX electos.
+
+35
+00:04:25,280 --> 00:04:27,290
+En este caso sería el elemento
+
+36
+00:04:30,080 --> 00:04:39,860
+de película se llama Kojo Suite por aquí y aquí esto también es una idea así que utilizo el hasta aquí
+
+37
+00:04:39,890 --> 00:04:49,460
+selecciono su valio el valor que tenga el input así que esto sería Baur título vale y voy a guardar
+
+38
+00:04:49,460 --> 00:05:00,650
+como valor y como título lo mismo vale voy a guardar como valor título título y como OShea como clave
+
+39
+00:05:00,650 --> 00:05:07,500
+y como valor voy a guardar lo mismo vale para ir almacenando uno tras otro.
+
+40
+00:05:08,490 --> 00:05:14,990
+Vale entonces de momento vamos a ver si funciona y no añade elemento si yo añado aquí algo realmente
+
+41
+00:05:15,020 --> 00:05:19,300
+no sé si ha entrado a la función voy a hacer un consolé punto
+
+42
+00:05:23,350 --> 00:05:33,260
+entra me voy a consolé aquí tengo un error a deben tener y esto por qué no he guardado aquí mi formulario
+
+43
+00:05:33,260 --> 00:05:34,970
+ahora sí autorizo la pantalla.
+
+44
+00:05:34,970 --> 00:05:43,400
+Bien añado algo me voy ya me morí y aquí me aparece añade otra me sigue apareciendo vale me me van apareciendo
+
+45
+00:05:43,410 --> 00:05:53,860
+o la voy a añadir algo con tildes o algo de España y me sigue apareciendo si yo lo añado vacío también
+
+46
+00:05:53,860 --> 00:05:57,980
+me lo añade eso tendremos que corregirlo para que no me añada ningún elemento en el caso de que esté
+
+47
+00:05:57,980 --> 00:05:58,850
+vacío.
+
+48
+00:05:58,850 --> 00:06:05,030
+Es decir si título apuntó Lent
+
+49
+00:06:07,940 --> 00:06:18,860
+es menor o igual a cero pues que no añada nada vale y en este caso podemos mejorarlo poniendo si es
+
+50
+00:06:18,860 --> 00:06:19,490
+mayor
+
+51
+00:06:27,580 --> 00:06:32,200
+si es mayor o igual a 1 en el caso de que sea mayor igual a 1.
+
+52
+00:06:32,210 --> 00:06:39,870
+Pues sí que me guarde mi elemento omiten mi clave un índice en el local Storage vale.
+
+53
+00:06:39,970 --> 00:06:41,350
+Así que ahora borro por aquí
+
+54
+00:06:44,870 --> 00:06:49,340
+y si sigo añadiendo cosas pues me la seguirá con esto lo puede borrar todo.
+
+55
+00:06:49,340 --> 00:06:55,400
+Si sigo añadiendo cosas como las va a seguir añadiendo entonces ahora tendré que recorrer y mostrar
+
+56
+00:06:55,400 --> 00:07:00,170
+todos los elementos toda la película que tengo guardada en el local rectorales para mostrarla en la
+
+57
+00:07:00,170 --> 00:07:00,820
+página web.
+
+58
+00:07:00,830 --> 00:07:12,080
+Cómo hago esto pues ahí puedo hacer un foril for bar y de índice en locales torax puedo recorrer todo
+
+59
+00:07:12,080 --> 00:07:21,410
+mi local electoras y puedo hacer un consolé sólo para ver que dentro de locales Storage y de esta manera
+
+60
+00:07:21,410 --> 00:07:26,470
+vamos a ver que tengo todos los elementos del local Storage hay guardado.
+
+61
+00:07:26,660 --> 00:07:34,610
+Efectivamente tengo elementos del local lectoras más métodos que hoy teclear el remove y todo esto métodos
+
+62
+00:07:34,610 --> 00:07:41,600
+que tenemos simplemente lo que tenemos que hacer al listar todos esos elementos vale y añado aquí cosa
+
+63
+00:07:41,810 --> 00:07:49,370
+pues me seguirán apareciendo vale entonces simplemente vamos a mostrar esos elementos vamos a incrustar
+
+64
+00:07:49,490 --> 00:07:57,440
+en nuestra página web vamos a hacer el APEN aquí en el 10 de películas de manera sencilla vamos a meter
+
+65
+00:07:57,440 --> 00:07:58,190
+aquí un mueble
+
+66
+00:08:02,000 --> 00:08:13,880
+y a poner un ideé películas List y aquí dentro a meter el elemento Li bar Li es igual a document to
+
+67
+00:08:13,880 --> 00:08:16,600
+create element.
+
+68
+00:08:16,790 --> 00:08:26,810
+A crear una etiqueta allí y voy a asignarle un valor Li apuntó APEN y esto va a tener el valor que tenga
+
+69
+00:08:26,810 --> 00:08:32,630
+locales Thora lo que electoras y vale el elemento que yo estoy recogiendo en ese momento en el índice
+
+70
+00:08:33,020 --> 00:08:39,500
+de eventos que cada vez torax pero solamente lo voy a añadir solamente voy a hacer esto en el caso de
+
+71
+00:08:39,500 --> 00:08:44,570
+que locales torax y el elemento que estoy recorriendo
+
+72
+00:08:47,060 --> 00:08:54,640
+tenga o ya sea sea un texto no tipo
+
+73
+00:08:57,640 --> 00:09:06,830
+local lectoras y sea exactamente igual a un extremo en el caso de que eso sea así.
+
+74
+00:09:06,830 --> 00:09:12,170
+Pues si que voy a añadir mi elemento a mi página web y entonces voy a hacer una Pen
+
+75
+00:09:16,930 --> 00:09:27,580
+al dip o al UEL en este caso bar huele que es un documento punto y selector
+
+76
+00:09:29,950 --> 00:09:34,050
+almohadilla películas lista.
+
+77
+00:09:34,450 --> 00:09:35,870
+Voy a añadir ahí a mi.
+
+78
+00:09:35,970 --> 00:09:46,510
+A mi huele huele y punto Append añadir mi li de esa manera si yo estoy hizo la pantalla aquí me aparecen
+
+79
+00:09:46,540 --> 00:09:58,420
+todas mis películas listadas y si voy añadiendo película nueva Batman hoy me aparece Superman juego
+
+80
+00:09:58,420 --> 00:10:06,490
+de tronos o lo que sea Harry Potter o lo que yo quiera me van a Aparici me van apareciendo aquí sin
+
+81
+00:10:06,490 --> 00:10:08,700
+ningún tipo de problema.
+
+82
+00:10:08,740 --> 00:10:14,130
+También podría hacer un formulario que nos permita borrar una película poniendo su nombre de acuerdo.
+
+83
+00:10:14,230 --> 00:10:23,710
+Podría hacer un formulario igual que éste que se llame borre tu borra tu película borra tu película
+
+84
+00:10:25,960 --> 00:10:36,770
+Borrar y Borrar película lo podría hacer también sin ningún tipo de problema.
+
+85
+00:10:37,170 --> 00:10:41,110
+Borrar películas lo vamos a poner en camel cais cuando la cosa se hace muy larga.
+
+86
+00:10:41,110 --> 00:10:51,280
+Mejor poner todo en Camera café bien entonces podríamos hacer lo mismo cuando yo enviara ese formulario.
+
+87
+00:10:51,280 --> 00:11:00,370
+Voy a copiar este trozo de código lo hacemos por aquí abajo el formulario de borrado formulario de formulario
+
+88
+00:11:00,370 --> 00:11:10,050
+que le vamos a llamar foll borrar películas podríamos hacer lo mismo en el evento Sumy tal en este caso
+
+89
+00:11:10,780 --> 00:11:18,580
+en este caso se llama borrar película El ideé del campo en el cual yo pongo el nombre y en el caso de
+
+90
+00:11:18,580 --> 00:11:26,650
+que el título sea mayor igual a 1 puedo hacer un remove Iten del elemento con ese título.
+
+91
+00:11:26,720 --> 00:11:28,210
+Vale simplemente ya está.
+
+92
+00:11:28,210 --> 00:11:30,690
+Así de sencillo si que vamos a hacerlo.
+
+93
+00:11:30,730 --> 00:11:32,020
+Ahora vamos a comprobarlo.
+
+94
+00:11:32,020 --> 00:11:37,810
+Si yo quiero borrar por ejemplo la película Batman de momento por aquí le doy a borrar y me la elimina.
+
+95
+00:11:37,900 --> 00:11:42,730
+Quiero borrar Harry Potter por su nombre y me lo elimina.
+
+96
+00:11:42,760 --> 00:11:48,310
+Quiero añadir Batman de nuevo dañado quiero borrarla.
+
+97
+00:11:48,350 --> 00:11:51,700
+Lo pongo aquí y me lo borra del local.
+
+98
+00:11:51,970 --> 00:11:58,470
+Pues con esto ya hemos aprendido un poquito más acerca del lograrã Storage de los eventos y del documento
+
+99
+00:11:58,550 --> 00:11:59,300
+Quiet mode.

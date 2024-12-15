@@ -1,0 +1,155 @@
+1
+00:00:00,720 --> 00:00:05,500
+Ahora vamos a hablar acerca de los Arráiz multidimensionales o los Arráiz dentro de otros Arráiz.
+
+2
+00:00:06,000 --> 00:00:12,780
+Para eso vamos a crear un nuevo archivo de JavaScript controles que se va a llamar 26
+
+3
+00:00:15,310 --> 00:00:23,690
+Arráiz 26 guión Arráiz guión multipunto JS Lo vamos a incluir este archivo en el Index para que lo cargue
+
+4
+00:00:28,000 --> 00:00:32,480
+el 26 Arráiz multi.
+
+5
+00:00:33,550 --> 00:00:42,190
+Vale entonces voy a poner un ejemplo de que es una raid multidimensional usa Street mira Loarre multidimensionales
+
+6
+00:00:42,640 --> 00:00:48,490
+son Arráiz dentro de otros arrays es decir que dentro de una Ray yo puedo tener por ejemplo una raï
+
+7
+00:00:48,880 --> 00:01:00,190
+categorías por ejemplo y podría tener una raíz perfectamente definido que fuera una raid normal acción
+
+8
+00:01:03,220 --> 00:01:09,680
+terror comedia etcétera.
+
+9
+00:01:09,700 --> 00:01:16,840
+Yo tengo una raíz una raíz de categorías luego podría tener otro la raíz cualquiera que se llamara películas
+
+10
+00:01:18,160 --> 00:01:24,720
+y de igual forma yo podría tener una raíz que fuera la verdad duele
+
+11
+00:01:28,850 --> 00:01:37,120
+los elementos la vida es bella y podría añadir todos los elementos que yo quisiera agarrar.
+
+12
+00:01:37,160 --> 00:01:42,000
+Pero por ejemplo también Gran Torino Pues tengo estos dos Arráiz.
+
+13
+00:01:42,440 --> 00:01:47,970
+Pero claro yo dentro de una raíz no solamente puedo meter estrechen sino que también puedo meter número
+
+14
+00:01:48,010 --> 00:01:52,270
+Vulcano objeto a raíz de cualquier dato.
+
+15
+00:01:52,270 --> 00:01:55,670
+De acuerdo puedo meter cualquier dato dentro de un elemento de una raíz.
+
+16
+00:01:55,670 --> 00:01:59,450
+Entonces yo podría escoger y crearme una raíz.
+
+17
+00:02:01,070 --> 00:02:03,030
+Cine por ejemplo.
+
+18
+00:02:03,240 --> 00:02:10,370
+Y dentro de este array coger la categoría sea coger el primer Array y categorías meter Array y meter
+
+19
+00:02:10,430 --> 00:02:16,760
+otro elemento en una red que sería la raíz de películas de forma que si yo ahora muestro este array
+
+20
+00:02:16,760 --> 00:02:27,200
+en la consola console punto cine vamos a ver que voy a tener una raíz con dos elementos y esos dos elementos
+
+21
+00:02:27,800 --> 00:02:33,360
+el elemento cero y el uno son cada uno una raíz con otros tres elementos de forma que si los despliega
+
+22
+00:02:33,440 --> 00:02:39,560
+dentro tenemos otro arraigo en cada con cada elemento de ese Array tiene un índice concreto y de igual
+
+23
+00:02:39,560 --> 00:02:44,240
+forma el otro yo puedo acceder a cualquiera de estos Arráiz como yo quiera.
+
+24
+00:02:44,240 --> 00:02:44,810
+De acuerdo.
+
+25
+00:02:44,810 --> 00:02:47,270
+Puedo acceder a cualquiera de los elementos de array como yo quiera.
+
+26
+00:02:47,720 --> 00:02:54,300
+Entonces imagínate que yo quiero acceder a las categorías vale imagínate que yo quiero acceder a la
+
+27
+00:02:54,310 --> 00:03:00,310
+categoría tendría que acceder a la red de cine pasando por el array multidimensional porque es una raid
+
+28
+00:03:00,320 --> 00:03:02,400
+multidimensional tiene dos dimensiones.
+
+29
+00:03:02,420 --> 00:03:07,640
+La primera es esta de aquí y la segunda que es el array y dentro de esto entonces tengo que acceder
+
+30
+00:03:07,640 --> 00:03:12,630
+a la red de cine quiero acceder a las categorías por lo tanto accedo al elemento cero que se separa
+
+31
+00:03:12,690 --> 00:03:15,970
+de categorías y luego quiero acceder a una de esas categorías.
+
+32
+00:03:15,980 --> 00:03:23,360
+Por ejemplo la de terror que sería el elemento 1 vale y de esa manera yo voy a acceder a terror y me
+
+33
+00:03:23,360 --> 00:03:28,790
+lo va a mostrar por la consola efectivamente accedo a ese elemento de una red multidimensional en la
+
+34
+00:03:28,790 --> 00:03:35,960
+primera dimensión es ésta elijo el elemento categorías y la segunda dimensión es ésta y elijo el elemento
+
+35
+00:03:36,050 --> 00:03:39,440
+1 que es terror de igual forma podría acceder
+
+36
+00:03:43,060 --> 00:03:50,800
+a que el otro Array que sería el elemento 1 podría mostrar el elemento 2 para mostrar la película Gran
+
+37
+00:03:50,800 --> 00:03:51,280
+Torino
+
+38
+00:03:53,880 --> 00:03:59,810
+efectivamente me la muestra con lo cual De esta manera podemos tener una raid dentro de otro y así construir
+
+39
+00:03:59,810 --> 00:04:01,580
+una raíz multi dimensional.

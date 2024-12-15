@@ -1,0 +1,415 @@
+1
+00:00:00,810 --> 00:00:03,330
+Ahora vamos a aprender a trabajar con servicios.
+
+2
+00:00:03,360 --> 00:00:10,140
+Los servicios son clase cuyo objetivo principal es atraer un poco o separar un poco la lógica principal
+
+3
+00:00:10,140 --> 00:00:16,710
+de la aplicación de acuerdo sobre todo están enfocadas estas clases a tener los métodos y la funcionalidad
+
+4
+00:00:17,070 --> 00:00:22,800
+que interactúa directamente con los servicios o con un servidor externo de acuerdo.
+
+5
+00:00:22,800 --> 00:00:28,290
+Simplemente son clases en las cuales vamos a tener un montón de métodos que van a hacer labores que
+
+6
+00:00:28,290 --> 00:00:30,680
+van a hacer funcionalidades de nuestra aplicación.
+
+7
+00:00:30,690 --> 00:00:37,920
+Por ejemplo si tenemos una entidad como es nuestro caso de zapatilla vamos a tener un servicio que se
+
+8
+00:00:37,920 --> 00:00:43,230
+va a llamar zapatilla servis y ahí vamos a tener un montón de métodos que van hacer peticiones Ayax
+
+9
+00:00:43,710 --> 00:00:48,780
+a nuestro Bakken relacionados con esa entidad por ejemplo o vamos a tener un método que va a hacer una
+
+10
+00:00:48,780 --> 00:00:50,850
+funcionalidad con bastante lógica.
+
+11
+00:00:50,850 --> 00:00:55,930
+De acuerdo van a hacer una especie de modelo de consulta por decirlo de alguna forma.
+
+12
+00:00:56,200 --> 00:01:01,050
+Y es una de las partes de la arquitectura de una aplicación de ãngulo es más importante porque si no
+
+13
+00:01:01,050 --> 00:01:05,940
+tendríamos que tener un montón de código dentro de los componente relacionado con las peticiones Ayax
+
+14
+00:01:06,030 --> 00:01:13,550
+o para hacer gran gran cantidad de lógica cuando lo realmente útil sería separarlo en una clase externa.
+
+15
+00:01:13,540 --> 00:01:18,520
+Entonces vamos a ver cómo crear un servicio y cómo utilizarlo.
+
+16
+00:01:18,540 --> 00:01:24,770
+Esto es muy sencillo vamos a crear una carpeta llamada servis y aquí dentro vamos a crear nuestro servicio.
+
+17
+00:01:24,840 --> 00:01:30,750
+Como estamos trabajando con zapatillas por ejemplo vamos a crear un nuevo fichero lo vamos a guardar
+
+18
+00:01:30,750 --> 00:01:32,610
+que se va a llamar zapatilla
+
+19
+00:01:35,200 --> 00:01:37,830
+punto servicios punto de.
+
+20
+00:01:38,100 --> 00:01:44,910
+Vale entonces lo primero que tiene que tener un servicio es el inyectable el objeto inyectable.
+
+21
+00:01:44,910 --> 00:01:53,280
+Vamos a hacer un import de la clase inyectable esto luego nos va a permitir inyectar nuestro componente
+
+22
+00:01:53,850 --> 00:02:01,440
+como dependencia en otras clases y en otros componentes no inyectar el servicio from y tenemos que decirle
+
+23
+00:02:01,440 --> 00:02:09,660
+que está en arroba angular barra Acore inyectable vale y esto es un decorador vamos a utilizarlo inyectable
+
+24
+00:02:09,780 --> 00:02:11,090
+y no necesitamos nada más.
+
+25
+00:02:11,100 --> 00:02:17,400
+Esto tenemos que correr en la clase correcto para poder inyectar nuestro servicio y nuestro objeto en
+
+26
+00:02:17,400 --> 00:02:22,650
+otras clases y no tener que estar invocando siempre al objeto o creando el objeto siempre tener que
+
+27
+00:02:22,650 --> 00:02:30,000
+estar haciendo Niu zapatilla servi no se que simplemente con el inyectable vamos a poder inyectar la
+
+28
+00:02:30,000 --> 00:02:34,660
+dependencia utilizando inyector de dependencia que tiene interno angular.
+
+29
+00:02:34,750 --> 00:02:44,600
+Vale entonces vamos a exportar la clase Export Class y se va a llamar zapatilla servis.
+
+30
+00:02:45,390 --> 00:02:51,540
+Y aquí simplemente vamos a tener una serie de métodos que nosotros queramos o que por ejemplo podríamos
+
+31
+00:02:51,540 --> 00:02:58,980
+tener como antes hemos estado viendo en el componente que teníamos una raíz de zapatilla teníamos este
+
+32
+00:02:59,060 --> 00:03:09,090
+array por ejemplo podríamos tenerlo en nuestro servicio o que lo devuelva en si el servicio vale así
+
+33
+00:03:09,090 --> 00:03:14,770
+que vamos a cortarlo nuestro array de zapatillas y no lo vamos a llevar a nuestro servicio.
+
+34
+00:03:14,820 --> 00:03:16,410
+Vale vamos a ponerle un constructor
+
+35
+00:03:19,320 --> 00:03:24,630
+a nuestra clase del servicio y dentro le vamos a dar este valor y además vamos a crear la propiedad
+
+36
+00:03:24,630 --> 00:03:30,100
+pública zapatillas zapatillas.
+
+37
+00:03:30,240 --> 00:03:34,730
+De acuerdo al igual que tenemos en nuestro componente que va a ser una radio de tipo zapatillas así
+
+38
+00:03:34,740 --> 00:03:45,580
+que vamos a utilizarla la pegamos por aquí y perfecto también como están utilizando el objeto zapatilla
+
+39
+00:03:45,580 --> 00:03:54,730
+tenemos que importar nuestro modelo tenemos que hacer un import zapatilla fenom y ojo tenemos que salir
+
+40
+00:03:54,730 --> 00:04:02,950
+de directorio servis punto.com barra entrarãa Models barra y utilizar zapatilla de archivo zapatilla
+
+41
+00:04:02,950 --> 00:04:08,070
+que es nuestro modelo de datos o que lo utilizamos.
+
+42
+00:04:08,240 --> 00:04:16,960
+Y ahora vamos a crear un método que se va a llamar Guez zapatillas por ejemplo y este método simplemente
+
+43
+00:04:16,960 --> 00:04:22,750
+lo que va a hacer va a ser devolver una raíz de zapatillas se lo puede indicar también por aquí es decir
+
+44
+00:04:22,750 --> 00:04:36,970
+tú vas a devolver un array de objetos de tipo zapatilla vale así de sencillo okey entonces aquí simplemente
+
+45
+00:04:37,060 --> 00:04:45,160
+vamos vamos a hacer un retumbe disputo zapatillas y ya tendríamos un primer método podríamos crear un
+
+46
+00:04:45,160 --> 00:04:56,450
+método un método de prueba ket texto y puedo hacer un returned de un texto Hola mundo desde un servicio
+
+47
+00:04:59,220 --> 00:04:59,930
+etcétera.
+
+48
+00:04:59,930 --> 00:05:06,420
+Vale entonces ya tengo mi servicio hecho ahora es lo que tengo que hacer es utilizarlo dentro de mi
+
+49
+00:05:06,420 --> 00:05:10,190
+componente para poder utilizar nuestro servicio tenemos que importarlo.
+
+50
+00:05:10,210 --> 00:05:17,820
+Vale hemos hecho un eSport y para poder utilizarlo tenemos que hacer un Import Export y los import son
+
+51
+00:05:18,030 --> 00:05:21,190
+cosas propias de la matriz 6.
+
+52
+00:05:21,320 --> 00:05:26,000
+Entonces ya se pueden utilizar en muchos Freiburg de JavaScript como Google.
+
+53
+00:05:26,010 --> 00:05:34,430
+Como otros tantos Frings es algo súper útil entonces vamos a importar zapatilla servis from.
+
+54
+00:05:35,310 --> 00:05:42,090
+Y aquí tenemos que salir del directorio actual junto con Tobarra y entrar a ser vices y cargar el archivo
+
+55
+00:05:42,090 --> 00:05:45,380
+zapatilla punto servicio.
+
+56
+00:05:45,750 --> 00:05:50,470
+Ojo hay que escribir siempre bien porque si no no va a funcionar perfecto.
+
+57
+00:05:50,470 --> 00:05:56,220
+Entonces ahora hasta aquí todo correcto pero realmente yo no puedo utilizar mi servicio hasta que no
+
+58
+00:05:56,220 --> 00:06:03,180
+lo inyecte como un provider como un servicio de mi componente providers para eso utilizo esta propiedad.
+
+59
+00:06:03,180 --> 00:06:08,670
+Esto necesita tener una raíz y en este Arráiz voy a pasar todos los servicios que yo quiera cargar y
+
+60
+00:06:08,670 --> 00:06:13,920
+utilizar en mi componente en este caso el único servicio que tenemos es zapatilla servis lo cargo por
+
+61
+00:06:13,920 --> 00:06:19,810
+aquí y ahora solamente me queda inyectarlo como dependencia dentro de una propiedad vale inyectarlo
+
+62
+00:06:19,810 --> 00:06:24,510
+dentro de una propiedad nuestro objeto cómo lo hacemos pues simplemente dentro del constructor hacemos
+
+63
+00:06:24,510 --> 00:06:30,190
+Private zapatilla servis.
+
+64
+00:06:30,270 --> 00:06:36,230
+Lo normal es que los servicios tengan un guión bajo delante y un bajo zapatilla servir dos puntos y
+
+65
+00:06:36,430 --> 00:06:44,010
+entonces y entonces va a ser una propiedad de tipo zapatilla Service Valve va a ser un objeto de ese
+
+66
+00:06:44,010 --> 00:06:52,110
+tipo ya tengo mi mi servicio eyectados y reviso la consola veo que me marcó un error porque dice que
+
+67
+00:06:52,110 --> 00:06:55,980
+zapatilla punto Service no lo encuentra.
+
+68
+00:06:55,990 --> 00:06:58,380
+Vale aquí me lo hice también dice.
+
+69
+00:06:58,380 --> 00:07:01,160
+No encuentra el archivo zapatilla apuntó servi .3.
+
+70
+00:07:01,440 --> 00:07:05,920
+Entonces ahí tenemos un problema quizás no ha compilado bien voy a hacer control C y vuelvo a lanzar
+
+71
+00:07:05,920 --> 00:07:11,970
+el Serve a ver si me lo compila y si no me lo compiladora buscamos cuál puede ser la solución.
+
+72
+00:07:12,630 --> 00:07:18,030
+Si me lo compila muchas veces cuando estamos trabajando dentro de angulas y estamos creando más y más
+
+73
+00:07:18,030 --> 00:07:20,770
+fichero y estamos trabajando con varios ficheros a la vez.
+
+74
+00:07:21,260 --> 00:07:26,310
+Si en algún momento sucede un fallo puede que el compilador se quede pillado como pasa con nosotros.
+
+75
+00:07:26,310 --> 00:07:31,500
+Entonces para eso tenemos que hacer control C en la consola y volver a lanzar el reserve para que nos
+
+76
+00:07:31,500 --> 00:07:33,360
+vuelva a comprar todos lo archivo.
+
+77
+00:07:33,360 --> 00:07:38,960
+Esto es algo que suele pasar cuando usamos wapa y usamos aspiradores y compiladores es una cosa normal.
+
+78
+00:07:39,330 --> 00:07:40,140
+Ahora todo va bien.
+
+79
+00:07:41,100 --> 00:07:46,190
+Entonces cómo puedo utilizar mi servicio ya tengo mi objeto aquí cargado lo tengo inyectado.
+
+80
+00:07:46,350 --> 00:07:53,370
+Entonces me interesa cargar mi servicio porque yo estoy utilizá utilizando zapatillas en mi en mi componente
+
+81
+00:07:53,430 --> 00:07:59,500
+y aquí no se Melita en la zapatilla entonces necesito llamar a mi servicio para conseguir esas zapatillas.
+
+82
+00:07:59,530 --> 00:08:03,720
+Entonces lo que vamos a hacer va a ser utilizar el servicio en el online.
+
+83
+00:08:04,260 --> 00:08:12,510
+Vale esto lo voy a quitar entonces en el online yo voy a hacer disputo guión bajo zapatilla servis punto
+
+84
+00:08:12,570 --> 00:08:21,130
+y voy a llamar a mi método que he creado que se llama zapatillas vale voy a llamar zapatillas ok.
+
+85
+00:08:21,240 --> 00:08:26,460
+Este método simplemente lo que hace es devolverme no me devuelve ningún observable ni una promesa ni
+
+86
+00:08:26,510 --> 00:08:30,020
+nada simplemente me devuelve simplemente una raíz de zapatillas.
+
+87
+00:08:30,060 --> 00:08:32,210
+Una raíz con objetos de tipo zapatillas.
+
+88
+00:08:32,480 --> 00:08:37,900
+Entonces voy a darle un valor a mis zapatillas de mi clase de mi componente.
+
+89
+00:08:38,010 --> 00:08:42,360
+Le va a dar el valor que me devuelva el servicio de esta monedas y guarde y actualizo.
+
+90
+00:08:42,360 --> 00:08:50,040
+Ahora si me aparecen todos los todas las zapatillas de mi servicio o porque estoy llamando al servicio
+
+91
+00:08:50,040 --> 00:08:54,480
+y esto está llegando rellenando con lo que tengo en mi servicio.
+
+92
+00:08:54,490 --> 00:09:01,460
+La propiedad de mi clase de mi componente vale la propiedad de mi componente esto es.
+
+93
+00:09:01,680 --> 00:09:07,560
+Esto se asemeja mucho a lo que debe hacer un servicio proveer de datos a un componente o proveer de
+
+94
+00:09:07,560 --> 00:09:13,560
+una funcionalidad a un componente porque si no la lógica puede que se haga enorme en ciertos casos dentro
+
+95
+00:09:13,560 --> 00:09:20,790
+de los componentes cuando lo suyo es reducirla a solamente lo necesario y el tema de conseguir datos
+
+96
+00:09:20,790 --> 00:09:28,090
+o hacer una funcionalidad extremadamente grande pues si lo podemos separar en otro archivo mejor vale.
+
+97
+00:09:28,440 --> 00:09:36,750
+Y aún así también podríamos hacer un texto vale podríamos hacer Alert y podríamos hacer disputo y bajo
+
+98
+00:09:36,760 --> 00:09:41,600
+zapatilla 6 punto de texto y vamos a ver que esto nos devuelve el texto del servicio.
+
+99
+00:09:41,600 --> 00:09:46,000
+Vale sí será un punto y coma guardo y actualizo.
+
+100
+00:09:46,170 --> 00:09:53,000
+Aquí me dice hola mundo desde un servicio vale entonces realmente estamos viendo cómo funciona el servicio.
+
+101
+00:09:53,010 --> 00:09:59,220
+Estamos utilizando el objeto inyectado y sus propios métodos.
+
+102
+00:09:59,670 --> 00:10:04,110
+Así que ya hemos visto una iniciación al servicio y ya sabemos cómo crear el servicio y ya sabemos cómo
+
+103
+00:10:04,110 --> 00:10:10,350
+utilizarlo y en las siguientes clases más adelante veremos cómo hacer peticiones ellas con nuestro servicio
+
+104
+00:10:10,350 --> 00:10:13,520
+y conseguir datos de un servidor externo.

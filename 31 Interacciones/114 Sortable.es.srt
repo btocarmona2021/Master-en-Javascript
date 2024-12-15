@@ -1,0 +1,75 @@
+1
+00:00:01,210 --> 00:00:04,240
+También puede utilizar otro método que sea más portable.
+
+2
+00:00:04,240 --> 00:00:12,310
+Me acuerdo que me permite ordenar los elementos para listar y ordenar vamos a poner en el comentario.
+
+3
+00:00:12,470 --> 00:00:17,700
+El método es portable me permite organizar esto como me dé la gana.
+
+4
+00:00:17,710 --> 00:00:20,340
+Vale yo puedo coger y ordenar esto.
+
+5
+00:00:20,380 --> 00:00:25,440
+Qué pasa que cuando cuando estoy utilizando el tablet no puedo utilizar el otro.
+
+6
+00:00:25,480 --> 00:00:33,140
+Así que voy a comentarlo y efectivamente ahora sí que me deja ordenar esto como a mí me interese.
+
+7
+00:00:33,160 --> 00:00:35,950
+Vale lo puedo poner en el orden que yo quiera.
+
+8
+00:00:35,950 --> 00:00:42,520
+Y luego pues como esto es una Rey y cogiendo el orden que va teniendo conforme esté la lista montada
+
+9
+00:00:42,730 --> 00:00:46,250
+y hacer cualquier cosa cualquier cosa que me imagine.
+
+10
+00:00:46,660 --> 00:00:58,090
+Por ejemplo cada vez que termino de hacer una ordenación guardar esa posición en una base de datos se
+
+11
+00:00:58,090 --> 00:01:04,350
+podría hacer cualquier cosa que se nos ocurra porque esto tiene una función que se llama update.
+
+12
+00:01:04,400 --> 00:01:12,160
+Vale yo puedo indicarle esto así y esto tiene una propiedad que yo le puedo poner una función de Calvache
+
+13
+00:01:12,460 --> 00:01:20,440
+que recoja el evento y que recoja el Highway y simplemente puedo hacer aquí un consolé Autolog.
+
+14
+00:01:21,410 --> 00:01:27,490
+Y yo puedo detectar el cambio vale puedo decir ha cambiado la lista
+
+15
+00:01:30,250 --> 00:01:32,950
+o que se actualizó la pantalla.
+
+16
+00:01:32,950 --> 00:01:38,440
+Me voy a consola y a un cambio me dice ha cambiado la lista si vuelvo a cambiar ha cambiado la lista
+
+17
+00:01:38,790 --> 00:01:45,640
+y de esa manera puedo ya con un bucle recorrer esto ver qué posicioné hay y ver dónde está cada elemento
+
+18
+00:01:46,270 --> 00:01:50,720
+y puedo guardar esas posiciones en una base de datos o hacer lo que yo quiera.
+
+19
+00:01:50,720 --> 00:01:50,960
+Vale.

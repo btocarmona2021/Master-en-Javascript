@@ -1,0 +1,90 @@
+
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>54 NgTemplate</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+        <style>
+            body {
+                background-color: #f8f9fa;
+                font-family: Arial, sans-serif;
+                padding: 40px 0;
+            }
+            h1 {
+                text-align: center;
+                margin-bottom: 30px;
+                color: #333;
+                font-size: 2em;
+            }
+            aside {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 200px;
+    height: 90%; /* Ajusta la altura para que ocupe la mayoría de la pantalla */
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Permite el desplazamiento vertical */
+}
+            
+            
+            aside ul {
+                list-style: none;
+                padding: 0;
+            }
+            aside ul li {
+                margin-bottom: 10px;
+            }
+            aside ul li a {
+                color: white;
+                text-decoration: none;
+            }
+            aside ul li a:hover {
+                text-decoration: underline;
+            }
+            .container {
+                margin-left: 250px;
+            }
+            video {
+                width: 100%;
+                max-width: 600px;
+                margin: 15px 0;
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <aside>
+            <h3>Navegación</h3>
+            <ul>
+    <li><a href="index.html">01 Introduccion al Master en JavaScript</a></li><li><a href="index2.html">02 [ Introduccion HTML ]</a></li><li><a href="index3.html">03 HTML (Repaso opcional)</a></li><li><a href="index4.html">04 [ Introduccion Programacion desde cero y Javascript]</a></li><li><a href="index5.html">05 Primeros pasos con JavaScript</a></li><li><a href="index6.html">06 Variables</a></li><li><a href="index7.html">07 Tipos de datos y Operadores</a></li><li><a href="index8.html">08 Estructuras de control - Condicionales</a></li><li><a href="index9.html">09 Estructuras de control - Iteradores y bucles</a></li><li><a href="index10.html">10 Alertas y ventanas</a></li><li><a href="index11.html">11 Ejercicios de programacion - Bloque 1</a></li><li><a href="index12.html">12 Funciones y metodos</a></li><li><a href="index13.html">13 Arrays y Arreglos</a></li><li><a href="index14.html">14 Ejercicios de programacion - Bloque 2</a></li><li><a href="index15.html">15 [ Introduccion JavaScript en profundidad ]</a></li><li><a href="index16.html">16 DOM - Document Object Model</a></li><li><a href="index17.html">17 BOM - Browser Object Model</a></li><li><a href="index18.html">18 Eventos</a></li><li><a href="index19.html">19 Ejercicios de desarrollo web - Bloque 3</a></li><li><a href="index20.html">20 JSON - Objetos en JS - JavaScript Object Notation</a></li><li><a href="index21.html">21 LocalStorage - Almacenamiento local en el navegador</a></li><li><a href="index22.html">22 Peticiones asincronas (Fetch Ajax) y Promesas</a></li><li><a href="index23.html">23 Fechas matematicas y mas</a></li><li><a href="index24.html">24 [ Introduccion jQuery ]</a></li><li><a href="index25.html">25 Primeros pasos con jQuery</a></li><li><a href="index26.html">26 Selectores</a></li><li><a href="index27.html">27 Eventos en jQuery</a></li><li><a href="index28.html">28 Efectos animaciones y mas</a></li><li><a href="index29.html">29 Peticiones AJAX en jQuery</a></li><li><a href="index30.html">30 Primeros pasos con jQuery UI</a></li><li><a href="index31.html">31 Interacciones</a></li><li><a href="index32.html">32 Animaciones y efectos</a></li><li><a href="index33.html">33 Plugins y Widgets</a></li><li><a href="index34.html">34 [ Introduccion Proyecto HTML CSS JavaScript jQuery y Plugins]</a></li><li><a href="index35.html">35 Primeros pasos en el proyecto de JavaScript y jQuery</a></li><li><a href="index36.html">36 Maquetacion y estilos del sitio web (HTML y CSS)</a></li><li><a href="index37.html">37 Funcionalidades avanzadas del proyecto de JS</a></li><li><a href="index38.html">38 [ Introduccion TypeScript y POO en JavaScript ]</a></li><li><a href="index39.html">39 Primeros pasos en TypeScript y la Programacion Orientada a Objetos</a></li><li><a href="index40.html">40 Preparar el entorno de desarrollo</a></li><li><a href="index41.html">41 Primeros pasos con TypeScript</a></li><li><a href="index42.html">42 Variables y tipado en TypeScript</a></li><li><a href="index43.html">43 Programacion Orientada a Objetos</a></li><li><a href="index44.html">44 Mas acerca de TypeScript</a></li><li><a href="index45.html">45 [ Introduccion Angular El framework mas popular ]</a></li><li><a href="index46.html">46 Primeros pasos con Angular</a></li><li><a href="index47.html">47 Componentes en Angular</a></li><li><a href="index48.html">48 Clases y Modelos</a></li><li><a href="index49.html">49 Directivas estructurales</a></li><li><a href="index50.html">50 Enlace de datos - Data binding en Angular</a></li><li><a href="index51.html">51 Eventos en Angular</a></li><li><a href="index52.html">52 Directiva ngClass de Angular</a></li><li><a href="index53.html">53 Paginas y rutas en Angular</a></li><li><a href="index54.html">54 NgTemplate</a></li><li><a href="index55.html">55 Servicios HTTP y AJAX en Angular</a></li><li><a href="index56.html">56 Pipes</a></li><li><a href="index57.html">57 Formularios en Angular</a></li><li><a href="index58.html">58 [ Introduccion MEAN Stack]</a></li><li><a href="index59.html">59 MongoDB - Base de datos NoSQL</a></li><li><a href="index60.html">60 [ Introduccion NodeJS JavaScript en el servidor]</a></li><li><a href="index61.html">61 Primeros pasos con NodeJS</a></li><li><a href="index62.html">62 Empezando a desarrollar un backend con NodeJS</a></li><li><a href="index63.html">63 El controlador del backend de Node</a></li><li><a href="index64.html">64 Subir archivos en NodeJS</a></li><li><a href="index65.html">65 Primeros pasos en el proyecto de Angular (MEAN Stack)</a></li><li><a href="index66.html">66 Maquetacion del sitio web tipo portafolio</a></li><li><a href="index67.html">67 Pagina principal (webapp con Angular)</a></li><li><a href="index68.html">68 Seccion de creacion de nuevos elementos (proyecto del portfolio)</a></li><li><a href="index69.html">69 Listado principal del portafolio (Angular)</a></li><li><a href="index70.html">70 Detalle y mas informacion de los elementos</a></li><li><a href="index71.html">71 Borrar y Actualizar elementos de la webapp</a></li><li><a href="index72.html">72 Angular  jQuery</a></li><li><a href="index73.html">73 Comunicacion entre componentes de Angular</a></li><li><a href="index74.html">74 ViewChild y Directivas</a></li><li><a href="index75.html">75 EXTRA - Soluciones Upgrades y migraciones de Angular</a></li><li><a href="index76.html">76 EXTRA - Chat con Node.js y Socket.io</a></li><li><a href="index77.html">77 EXTRA - Repaso de Typescript y POO</a></li>
+            </ul>
+        </aside>
+        <div class="container">
+            <h1>54 NgTemplate</h1>
+    
+            <div>
+                <h3>191 ngTemplate - If y else en las vistas</h3>
+                <video controls>
+                    <source src="./54 NgTemplate/191 ngTemplate - If y else en las vistas.mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                </video>
+            </div>
+        
+            <div>
+                <h3>192 ngTemplate - Then - If else</h3>
+                <video controls>
+                    <source src="./54 NgTemplate/192 ngTemplate - Then - If else.mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                </video>
+            </div>
+        
+        </div>
+    </body>
+    </html>
+    

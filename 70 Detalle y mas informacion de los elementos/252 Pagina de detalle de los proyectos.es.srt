@@ -1,0 +1,487 @@
+1
+00:00:01,230 --> 00:00:06,120
+Ahora vamos a crear un nuevo componente para lo que es la página de detalle de cada uno de los proyectos
+
+2
+00:00:06,330 --> 00:00:13,740
+así que voy a abrir mi CMD símbolo del sistema voy a acceder a la carpeta de mi Proyecto C 0 puntos
+
+3
+00:00:13,800 --> 00:00:25,200
+barra en mi caso 3V dobles cursos JavaScript barra proyecto angular y aquí voy a lanzar el comando ng
+
+4
+00:00:25,230 --> 00:00:35,130
+g component y crear un componente que se va a llamar detail ok y este componente va a ser el que me
+
+5
+00:00:35,130 --> 00:00:40,290
+va a permitir mostrar todos los detalles de uno de los proyectos en concreto y será esa página a la
+
+6
+00:00:40,290 --> 00:00:42,070
+que estaremos creando.
+
+7
+00:00:42,180 --> 00:00:44,490
+Ya tenemos el componente generado.
+
+8
+00:00:44,490 --> 00:00:47,610
+Ahora lo que vamos a hacer va a ser crear una ruta para ese componente.
+
+9
+00:00:47,610 --> 00:00:57,990
+Para eso me voy a abrir mi archivo a Pepe Rudin y aquí voy a importar mi nuevo componente en este caso
+
+10
+00:00:58,170 --> 00:01:00,510
+detail component
+
+11
+00:01:03,150 --> 00:01:10,350
+from Tobarra component barra detail.
+
+12
+00:01:10,420 --> 00:01:15,720
+Bueno no porque lo he generado fuera realmente aquí hemos tenido un error y he generado fuera el archivo
+
+13
+00:01:16,080 --> 00:01:25,270
+así que voy a quitarlo de aquí vale y ahora lo volvemos a generar y el archivo se llamará detail to
+
+14
+00:01:25,410 --> 00:01:27,100
+component apuntó.
+
+15
+00:01:27,120 --> 00:01:37,890
+TS El TS no hace falta ponerlo vale y en el ApB Module vamos a borrar el importe que ha hecho porque
+
+16
+00:01:37,900 --> 00:01:39,370
+no no no no hace falta.
+
+17
+00:01:39,370 --> 00:01:45,890
+Lo hemos hecho mal vamos a realizar el comando y hay que crear el componente dentro de la carpeta components
+
+18
+00:01:47,270 --> 00:01:48,170
+balet.
+
+19
+00:01:48,330 --> 00:01:54,880
+De esta manera si que se va a generar el componente como a mí me interesa Ok ya se ha generado bien
+
+20
+00:01:55,510 --> 00:01:56,410
+lo importa.
+
+21
+00:01:56,480 --> 00:02:02,360
+Pepe routing correctamente y ahora creo que una ruta de crearle la ruta.
+
+22
+00:02:02,380 --> 00:02:09,230
+El pack que va a tener va a ser detail y además le tengo que pasar como parámetro por la web R.L el
+
+23
+00:02:09,240 --> 00:02:13,680
+IDE de mi proyecto Acuerdo Blyde.
+
+24
+00:02:14,090 --> 00:02:19,740
+Voy a cargar el componente cuando esa RL se cargue voy a cargar el componente detail componente pongo
+
+25
+00:02:19,830 --> 00:02:24,280
+una por aquí para no tener problemas y ya tengo la nueva ruta.
+
+26
+00:02:24,360 --> 00:02:24,610
+Vale.
+
+27
+00:02:24,610 --> 00:02:33,310
+En mi navegador si accedo a la página detail y le pongo un número puedo acceder perfectamente más que
+
+28
+00:02:33,310 --> 00:02:41,290
+detail yo le pondría proyecto y ya élide mejor todavía proyecto.
+
+29
+00:02:41,590 --> 00:02:45,190
+Así podría acceder a esta página 12 en esta página.
+
+30
+00:02:45,340 --> 00:02:51,670
+Cuando yo le pase un IDE de un proyecto correcto aquí se va a cargar toda la información del proyecto
+
+31
+00:02:52,360 --> 00:03:01,660
+entonces dentro de nuestro listado de proyectos vamos a hacer que esto sea un link un enlace al proyecto.
+
+32
+00:03:01,720 --> 00:03:14,470
+Entonces vamos a hacer que el H3 o el contenido en general sea un enlace a Rutter Link iguala y le ponemos
+
+33
+00:03:14,470 --> 00:03:23,860
+nuestra ruta en este caso por la ruta sería proyecto y como IDE le iba a pasar al IDE del objeto que
+
+34
+00:03:23,860 --> 00:03:32,050
+estemos recorriendo Projet punto un bajo y cierro el link por aquí y por aquí
+
+35
+00:03:35,840 --> 00:03:37,910
+tabulé esto para que se quede mejor.
+
+36
+00:03:38,930 --> 00:03:45,590
+Guardo actualizo la pantalla vamos a proyectos y aquí todo es un enlace como puedes comprobar.
+
+37
+00:03:45,920 --> 00:03:52,340
+Y si te fijas en la parte inferior izquierda vemos que la web reales está construyendo correctamente
+
+38
+00:03:52,340 --> 00:03:55,960
+con el parámetro ideé correctamente puesto y puedo acceder.
+
+39
+00:03:56,540 --> 00:04:03,500
+Ojo que también hay que ponerle la barra adelante al link porque si no no me va a construir realmente
+
+40
+00:04:03,500 --> 00:04:04,410
+bien la web.
+
+41
+00:04:05,060 --> 00:04:13,010
+Ahora sí ahora también entonces vamos a cambiar el estilo a los enlaces esto y vamos a hacer que no
+
+42
+00:04:13,010 --> 00:04:14,630
+tenga ese resultado
+
+43
+00:04:17,390 --> 00:04:18,340
+Balet Proyect
+
+44
+00:04:21,730 --> 00:04:24,290
+va a tener un Tekis decorativo Nonell
+
+45
+00:04:27,720 --> 00:04:35,410
+iba a tener un color Black.
+
+46
+00:04:35,470 --> 00:04:42,190
+Ahora si bien entonces ahora vamos a mostrar aquí los detalles de ese proyecto cómo lo hacemos pues
+
+47
+00:04:42,190 --> 00:04:47,220
+tenemos que crear un nuevo método en nuestro servicio para sacar un único proyecto.
+
+48
+00:04:47,230 --> 00:04:58,090
+Para eso voy a crear mi húmedo llamado Projet y le voy a pasar un IDE vale unido para buscar en la base
+
+49
+00:04:58,090 --> 00:05:04,590
+de datos o para bajárselo Halabi y que busque el objeto con ese IDE y vamos a devolver un observable
+
+50
+00:05:05,290 --> 00:05:11,080
+de tipo n entonces lo que vamos a hacer va a ser lo mismo que hemos hecho arriba básicamente vamos a
+
+51
+00:05:11,080 --> 00:05:18,530
+crear una variable cederse que es un New http: Geddes realmente lo mismo que hemos hecho aquí vamos
+
+52
+00:05:18,540 --> 00:05:26,750
+a copiarlo y pegarlo y vamos a hacer un returned disputo y un bajo HTTP.
+
+53
+00:05:26,770 --> 00:05:33,370
+Tenemos que hacer una petición por G.T utilizando el método Vet para wereables nuestra API y al segmento
+
+54
+00:05:33,370 --> 00:05:39,430
+de la ruta concreta que se llama Proyecto hagámosle tenemos que concatenar el
+
+55
+00:05:42,840 --> 00:05:48,230
+y de cleptómanos pasando por parametro el método para que nos saque justo ese objeto que estamos buscando
+
+56
+00:05:49,010 --> 00:05:50,600
+y ahora hacemos.
+
+57
+00:05:50,630 --> 00:05:58,400
+Le pasamos los genes las cabeceras y ya tenemos nuestro método creado ahora en nuestro proyecto component
+
+58
+00:05:58,410 --> 00:06:06,720
+vamos a cerrar el resto de cosas que no nos interesan ya vamos a abrir nuestro componente nuevo componente
+
+59
+00:06:06,720 --> 00:06:10,410
+de detalle.
+
+60
+00:06:10,410 --> 00:06:17,310
+Vamos a abrir el HTML y el componente en sí la clase y antes de eso también vamos a poner el Rutter
+
+61
+00:06:17,310 --> 00:06:20,420
+Link en el create componen HTML en el link.
+
+62
+00:06:20,430 --> 00:06:22,590
+Aquí en este link vamos a poner el Rutter Link
+
+63
+00:06:25,570 --> 00:06:42,890
+Rutter link que nos lleve a la barra proyecto y como primer parámetro de la ruta será Projet punto y
+
+64
+00:06:43,040 --> 00:06:50,870
+bajo IDE y para eso también tendré que darle un valor a una propiedad que sea proyecto guardado o algo
+
+65
+00:06:50,870 --> 00:06:51,900
+así.
+
+66
+00:06:52,060 --> 00:07:05,040
+Públic sair Projet vale aquí voy a guardar el objeto Response o objeto result en este caso disputo 6
+
+67
+00:07:05,090 --> 00:07:08,790
+Proyect es igual a resulto.
+
+68
+00:07:09,200 --> 00:07:12,230
+Entonces voy a utilizar esto para hacer el link
+
+69
+00:07:15,360 --> 00:07:16,500
+perfecto.
+
+70
+00:07:16,510 --> 00:07:19,060
+Vale ya lo tenemos tenemos perfectamente hecho.
+
+71
+00:07:19,060 --> 00:07:26,010
+No no nos falla la compilación y si a mí se me ocurriera crear otro proyecto web de bicicletas
+
+72
+00:07:42,180 --> 00:07:48,090
+doy click en poner aun defining y es porque aquí vamos a guardar Response
+
+73
+00:07:50,700 --> 00:07:52,150
+realmente result.
+
+74
+00:07:52,260 --> 00:07:57,900
+Punto punto proyecto vale de esa manera si que me va a dejar
+
+75
+00:08:15,050 --> 00:08:22,370
+voy a subir una imagen ahora si me coloco aquí efectivamente me encontré vive en la bureles y desde
+
+76
+00:08:22,370 --> 00:08:26,480
+clik me lleva a la página de detalle con lo cual ya tengo el link.
+
+77
+00:08:26,480 --> 00:08:32,970
+También bien puesto voy a cerrar el resto de archivos y vamos con la página de detalle.
+
+78
+00:08:33,020 --> 00:08:39,050
+Aquí en mi detail componente hay que cargar por mi servicio etcétera.
+
+79
+00:08:39,080 --> 00:08:42,770
+Vale lo mismo que yo he hecho en el proyecto.
+
+80
+00:08:42,890 --> 00:08:49,400
+Vale aquí en la clase de este componente he cargado estos tres archivos tanto el modelo como el servicio
+
+81
+00:08:49,400 --> 00:08:50,410
+como el archivo global.
+
+82
+00:08:50,540 --> 00:09:01,070
+Así que tengo que hacer exactamente lo mismo lo copio y pego por aquí vale y ahora voy a cargar mi servicio
+
+83
+00:09:01,070 --> 00:09:06,890
+en los providers del componente a cargar por aquí.
+
+84
+00:09:07,280 --> 00:09:12,950
+El proyecto servis en el constructor voy a definir también la propiedad
+
+85
+00:09:18,760 --> 00:09:28,980
+Private ni un bajo proyecto servis dos puntos pueden servir me agroambiental en una propiedad o R.L
+
+86
+00:09:30,920 --> 00:09:34,180
+que sea un string voy a hacer Tis
+
+87
+00:09:38,600 --> 00:09:46,380
+junto o RL es igual a Global punto o R.L para utilizarlo en la vista en algún momento.
+
+88
+00:09:46,500 --> 00:09:52,260
+Yo no voy a quedarme aquí un método que se vaya amargue Projet y voy a hacer una petición o voy a llamar
+
+89
+00:09:52,260 --> 00:09:59,470
+a mi método del servicio que acabamos de crear al proyecto de aquí y voy a invocar ese método y eso
+
+90
+00:09:59,460 --> 00:10:02,090
+va a hacer una petición Ayax al Bakken.
+
+91
+00:10:02,090 --> 00:10:07,650
+Bien pues este método va a recibir una idea para luego poder pasarselo al método del servicio entonces
+
+92
+00:10:07,650 --> 00:10:11,160
+vamos a tener que recoger el IDE por la web revelé que nos llega.
+
+93
+00:10:11,160 --> 00:10:19,500
+Para eso tengo que cargar los componentes del router con un impor del router de la Actívate router
+
+94
+00:10:23,850 --> 00:10:34,160
+y del Parham from arrobado angular Barreal router para poder acceder a eso y inyectar otro servicio
+
+95
+00:10:34,420 --> 00:10:48,800
+en el constructor Private guión bajo Rutter que será un objeto de tipo router y privarte y un bajo Rute
+
+96
+00:10:48,800 --> 00:10:56,840
+que será un objeto de tipo Actívate un router guardo y ahora yo podría recoger ya mis parámetros por
+
+97
+00:10:56,840 --> 00:10:57,590
+la web.
+
+98
+00:10:58,190 --> 00:11:05,290
+Cómo lo puedo hacer pues aquí en el Ninet voy a recoger esos parámetros puntos y un bajo Rute punto
+
+99
+00:11:05,330 --> 00:11:13,220
+Parham y ahora utilizarme todos sus CREUP para recoger el parámetro que me lleva por la web subscribe
+
+100
+00:11:13,940 --> 00:11:21,980
+esto tiene una función de Calvache que tiene un parámetro para y ahí dentro yo tengo mi parámetro vale
+
+101
+00:11:21,980 --> 00:11:29,360
+voy a crear una variable que se va a llamar y de ahí voy a recoger paraules punto y de que me llevó
+
+102
+00:11:29,360 --> 00:11:30,400
+por la web relea.
+
+103
+00:11:30,490 --> 00:11:37,610
+Ahora simplemente llamo a mi método que acaba de quedar en este componente disputo Proyect y le paso
+
+104
+00:11:37,700 --> 00:11:44,990
+el IDE por la web por la parametro o bien una vez que tengo esto dentro de mi método que acabo de crear
+
+105
+00:11:44,990 --> 00:11:52,490
+voy a invocar al método de mi servicio disputo y un bajo proyecto servis punto G Projet.
+
+106
+00:11:52,580 --> 00:12:00,170
+Le paso el IDE que me lleva por parametro y utilizo el metodo Shukri para recoger la respuesta que me
+
+107
+00:12:00,170 --> 00:12:03,400
+devolverá el Happy response.
+
+108
+00:12:03,830 --> 00:12:09,950
+Será uno de los métodos de Calvache de las funciones de callback y error será el posible error que nos
+
+109
+00:12:09,960 --> 00:12:10,270
+llegue
+
+110
+00:12:13,330 --> 00:12:17,020
+si me llega un error aún con su reloj de error y punto
+
+111
+00:12:20,630 --> 00:12:26,530
+y en el caso de que me llegue la respuesta pues voy a tener que crearme una propiedad en mi componente
+
+112
+00:12:26,530 --> 00:12:36,730
+que se va a llamar Projet que va a ser de tipo un objeto de tipo Projet y entonces disputo Projet será
+
+113
+00:12:36,730 --> 00:12:44,980
+igual a response to Project que será lo que me llevará del API y entonces ahora yo podré mostrar en
+
+114
+00:12:44,980 --> 00:12:55,940
+mi página de detalle voy a mostrar un H1 con el nombre del proyecto Projet punto Nein.
+
+115
+00:12:56,260 --> 00:13:01,980
+Vamos a comprobar que funciona guardo actualizo la pantalla.
+
+116
+00:13:02,210 --> 00:13:03,800
+Vale aquí efectivamente funciona.
+
+117
+00:13:03,850 --> 00:13:12,100
+Si voy saltando por las diferentes páginas de mi web diferentes proyectos me va cargando perfectamente
+
+118
+00:13:12,400 --> 00:13:18,670
+el nombre de mi proyecto y esto está sacando de la base de datos porque estamos consultando esto a través
+
+119
+00:13:18,670 --> 00:13:22,480
+de nuestra Pierres y nuestra Lapierre saca esos datos y no los devuelven.
+
+120
+00:13:22,490 --> 00:13:26,950
+Vale entonces perfecto.
+
+121
+00:13:26,950 --> 00:13:31,840
+Ahora lo que vamos a hacer en la siguiente Blacio va a ser maquetar esta página mostrar más información
+
+122
+00:13:32,130 --> 00:13:35,290
+y añadirle también unos botones que haremos que funcionen posteriormente.

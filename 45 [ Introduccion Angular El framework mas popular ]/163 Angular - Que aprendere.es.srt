@@ -1,0 +1,319 @@
+1
+00:00:00,490 --> 00:00:05,820
+En el máster ya hemos visto como programar desde cero cómo utilizar JavaScript y cómo programar con
+
+2
+00:00:05,820 --> 00:00:07,180
+JavaScript.
+
+3
+00:00:07,230 --> 00:00:11,850
+Hemos visto también Discovery lo hemos visto y querido hoy hemos visto cómo hacer un proyecto y unir
+
+4
+00:00:11,850 --> 00:00:18,570
+todas las piezas del puzle con JavaScript y HTML CSS etcétera.
+
+5
+00:00:18,570 --> 00:00:21,390
+Hemos visto cómo utilizar plugins y librerías.
+
+6
+00:00:21,390 --> 00:00:26,940
+Además hemos aprendido ya Taipe scrip y programación orientada a objetos y a partir de ahora lo que
+
+7
+00:00:26,940 --> 00:00:35,160
+vamos a aprender dentro del máster es angular el framework de JavaScript más popular y más solicitado
+
+8
+00:00:35,160 --> 00:00:40,740
+actualmente por las empresas angulares un framework desarrollado por Google que nos va a servir para
+
+9
+00:00:40,740 --> 00:00:45,570
+desarrollar aplicaciones web completas y modernas en JavaScript.
+
+10
+00:00:45,570 --> 00:00:51,190
+Es un framework que nos va a permitir generar aplicaciones web de tipo S.p.A es decir una Singel Peach
+
+11
+00:00:51,190 --> 00:00:54,170
+Application que no recarga la página en ningún momento.
+
+12
+00:00:54,170 --> 00:00:59,130
+Todo se hace en una misma página y el cambio entre las secciones y las diferentes páginas de la web
+
+13
+00:00:59,460 --> 00:01:05,250
+es completamente dinámico instantáneo y si hay que hacer alguna consulta al servidor es asíncrona de
+
+14
+00:01:05,250 --> 00:01:08,340
+acuerdo y nos devuelve los datos de manera síncrono.
+
+15
+00:01:08,430 --> 00:01:12,880
+Entonces vamos a estar aprendiendo angular en bastante profundidad.
+
+16
+00:01:12,900 --> 00:01:18,750
+Primero empezaremos con los primeros pasos con angular veremos cómo instalar angular cómo utilizar angular
+
+17
+00:01:18,750 --> 00:01:24,960
+Cele y veremos la estructura de archivo de un proyecto de angular y veremos varios conceptos teóricos
+
+18
+00:01:24,960 --> 00:01:28,560
+de los diferentes elementos que componen una aplicación de angular.
+
+19
+00:01:28,560 --> 00:01:34,560
+Después pasaremos a aprender los componentes en angular cómo trabajar con componentes y cómo crearlos.
+
+20
+00:01:34,560 --> 00:01:39,360
+Un componente es simplemente un trozo de la pantalla que hace cierta cosa o una página de la aplicación
+
+21
+00:01:39,420 --> 00:01:42,210
+y veremos que todo en ángulos son componentes.
+
+22
+00:01:42,210 --> 00:01:48,600
+Entonces veremos cómo crearlo cómo utilizar plantillas y propiedades veremos cómo crear varios componentes
+
+23
+00:01:48,600 --> 00:01:54,360
+en una misma aplicación como generar componentes por la consola cómo utilizar el ciclo de vida de los
+
+24
+00:01:54,360 --> 00:02:00,240
+componentes cómo funciona y cómo usar los diferentes looks y eventos del ciclo de vida.
+
+25
+00:02:00,330 --> 00:02:06,540
+Después pasaremos a trabajar con las clases y los modelos viendo cómo se importa y exporta un archivo
+
+26
+00:02:07,020 --> 00:02:13,080
+en JavaScript moderno y también veremos cómo crear modelos de datos en angular.
+
+27
+00:02:13,080 --> 00:02:17,400
+Después pasaremos a aprender qué son la directiva y cómo funcionan.
+
+28
+00:02:17,400 --> 00:02:23,790
+Trabajar con directivas estructurales que nos permiten hacer estructuras de control en las partes de
+
+29
+00:02:23,790 --> 00:02:28,460
+las vistas de nuestra aplicación de angular veremos que es una directiva.
+
+30
+00:02:28,600 --> 00:02:30,670
+Cómo utilizar la directiva en Reif.
+
+31
+00:02:31,140 --> 00:02:35,220
+Cómo utilizar la directiva del bucle for cómo utiliza la directiva.
+
+32
+00:02:35,220 --> 00:02:42,540
+NG Switch y muchos más detalles como por ejemplo el tail para ponerle estilos a una etiqueta y muchas
+
+33
+00:02:42,540 --> 00:02:43,200
+más cosas.
+
+34
+00:02:43,200 --> 00:02:48,930
+A continuación pasaremos a trabajar con el enlace de datos o el data mining en angular veremos cómo
+
+35
+00:02:49,170 --> 00:02:50,980
+trabajar con el chaira David.
+
+36
+00:02:51,290 --> 00:02:59,320
+Y el evento clik el Chuvi data binding es un binding bidireccional de datos en el cual si yo modifico
+
+37
+00:02:59,380 --> 00:03:04,690
+una variable en mi vista también se va a modificar en la clase de mi componente y si la modifico en
+
+38
+00:03:04,690 --> 00:03:10,260
+la clase de componente del componente instantaneamente también se va a modificar en la parte de la vista
+
+39
+00:03:10,520 --> 00:03:16,240
+y es algo super importante y superinteresante también veremos varios ejemplos de binding bidireccional
+
+40
+00:03:16,240 --> 00:03:21,310
+y de Chui Data Binding y aparte de esto también veremos como en trabajar con los eventos en angular
+
+41
+00:03:21,310 --> 00:03:25,740
+con el evento clik el evento Blur el evento que Yap etcétera.
+
+42
+00:03:25,780 --> 00:03:32,680
+Después también trabajaremos con la directiva NG class para poner clase a elemento HTML en función a
+
+43
+00:03:32,680 --> 00:03:35,100
+una condición etcétera etcétera.
+
+44
+00:03:35,320 --> 00:03:37,000
+Haremos varias prácticas.
+
+45
+00:03:37,390 --> 00:03:42,910
+Después pasaremos a trabajar con el Rudin veremos cómo crear páginas y rutas dentro de la aplicación
+
+46
+00:03:42,910 --> 00:03:49,660
+de angular configurar el Rute el routine angular veremos cómo crear un menú de navegación instantáneo
+
+47
+00:03:49,870 --> 00:03:55,900
+cómo resaltar la página actual en el menú veremos cómo pasa el parámetro por la web R.L veremos cómo
+
+48
+00:03:55,900 --> 00:04:00,970
+hacer direcciones entre las diferentes páginas de la web y algún detalle más en la siguiente sección
+
+49
+00:04:00,970 --> 00:04:02,310
+veremos cómo trabajar con él.
+
+50
+00:04:02,330 --> 00:04:09,340
+NG template que nos va a permitir hacer IHF y el sees dentro de las vistas de angular y también veremos
+
+51
+00:04:09,850 --> 00:04:11,380
+algún ejercicio con esto.
+
+52
+00:04:11,620 --> 00:04:17,800
+Después pasaremos a aprender una de las cosas más importantes que son los servicios peticiones HTTP
+
+53
+00:04:17,950 --> 00:04:25,810
+y Ayax en angular veremos cómo crear un servicio cómo crear clases de ese tipo cómo utilizar los servicios
+
+54
+00:04:25,900 --> 00:04:31,270
+y el HTTP client para hacer peticiones Ayax a un Bakken o a una birretes.
+
+55
+00:04:31,270 --> 00:04:36,280
+Veremos también cómo hacer efectos de carga y veremos varios ejercicios y prácticas con este tipo de
+
+56
+00:04:36,280 --> 00:04:37,770
+cosas.
+
+57
+00:04:37,810 --> 00:04:43,560
+Después pasaremos a aprender los países o filtros veremos que es una API o un filtro.
+
+58
+00:04:43,600 --> 00:04:50,860
+Veremos cómo utilizar los de fechas cómo utilizar los filtros de transformación de textos cómo utilizar
+
+59
+00:04:50,860 --> 00:04:57,010
+las partes personalizadas y cómo crear nuevas pipes y también veremos soluciones a diferentes errores
+
+60
+00:04:57,010 --> 00:05:00,700
+que pueden surgir con la librería RX JS.
+
+61
+00:05:00,700 --> 00:05:05,050
+Después pasaremos a otro de los temas más importantes que son los formularios como crear un formulario
+
+62
+00:05:05,070 --> 00:05:11,230
+cómo validar un formulario en angular y haremos un ejercicio completo con los formularios con Ayax y
+
+63
+00:05:11,230 --> 00:05:19,990
+con los servicios y haremos peticiones a un servicio RER etcétera y esto será las bases de angular.
+
+64
+00:05:19,990 --> 00:05:25,480
+Estoy aprendiendo aprendiendo todo esto ya sabremos cada una de las piezas y de las partes que tienen
+
+65
+00:05:25,480 --> 00:05:31,150
+angular pero después crearemos una aplicación completa uniendo todas estas piezas y para eso antes de
+
+66
+00:05:31,150 --> 00:05:38,860
+hacerlas desarrollaremos un Bakken completo una birretes completa utilizando no DJs que nos va a permitir
+
+67
+00:05:39,190 --> 00:05:42,810
+interactuar con una base de datos y guardar nuestra información.
+
+68
+00:05:42,820 --> 00:05:49,780
+Veremos cómo crear nuestro Bakken con los DJs para que luego se ha consumido por angular de acuerdo
+
+69
+00:05:49,780 --> 00:05:55,950
+y ya pasaremos a desarrollar una web completa con angular que va a estar consumiendo el API resuelvo
+
+70
+00:05:56,040 --> 00:06:03,590
+el Bakken que hemos creado con DJs expres y MongoDB y será un proyecto de un portafolio personal en
+
+71
+00:06:03,600 --> 00:06:08,020
+el cual podremos hacer muchas cosas pero eso lo veremos más adelante en el curso así que sin más.
+
+72
+00:06:08,020 --> 00:06:09,550
+Vamos a empezar con angular.
+
+73
+00:06:09,550 --> 00:06:14,560
+Espero que estés emocionado por aprender angular porque es uno de los Freiburg más interesantes.
+
+74
+00:06:14,950 --> 00:06:20,200
+Empezaremos con los primeros pasos viendo poco a poco todo lo que tenemos que hacer y ir explicando
+
+75
+00:06:20,200 --> 00:06:26,620
+de todas las partes de angular que es un framework increíble así que espero que le saque mucho partido
+
+76
+00:06:26,620 --> 00:06:31,450
+a esta sección angular es muy interesante un Flensburg muy interesante espero que te ayude y que te
+
+77
+00:06:31,450 --> 00:06:37,390
+sirva y si tienes cualquier duda ya sabes que me lo puedes preguntar en la sección de preguntas y respuestas
+
+78
+00:06:37,390 --> 00:06:43,120
+de este máster yo te estaría ayudando si te atascas en cualquiera de estos puntos que estar explicando
+
+79
+00:06:43,280 --> 00:06:49,330
+paso a paso y poco a poco y desde cero así que vamos a empezar a aprender angulas juntos a partir ya
+
+80
+00:06:49,330 --> 00:06:50,830
+de la siguiente clase.

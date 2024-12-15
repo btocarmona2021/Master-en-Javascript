@@ -1,0 +1,587 @@
+1
+00:00:01,120 --> 00:00:06,850
+Ahora vamos a empezar a trabajar con los componentes un componente no es más que un trozo de la pantalla
+
+2
+00:00:06,850 --> 00:00:12,100
+de nuestra aplicación y toda aplicación de angulas está compuesta a grandes rasgos por componentes de
+
+3
+00:00:12,100 --> 00:00:16,720
+acuerdo a un componente simplemente una parte de nuestra aplicación es decir yo puedo tener un componente
+
+4
+00:00:16,990 --> 00:00:23,380
+para el CD de la página un componente para un Sidebar un componente para un calendario un componente
+
+5
+00:00:23,380 --> 00:00:30,370
+para un listado de ciertos datos un componente para un formulario de contacto un componente para una
+
+6
+00:00:30,370 --> 00:00:35,800
+sección de la web es decir todo en angular es un componente todo está formado por componentes y todo
+
+7
+00:00:35,800 --> 00:00:42,340
+lo que vamos a visualizar en la pantalla son componentes así que vamos a ver cómo crear un componente
+
+8
+00:00:42,430 --> 00:00:48,390
+angular cómo integrarlo dentro del frijol para que funcione y tal.
+
+9
+00:00:48,910 --> 00:00:55,800
+Para eso tendremos que ir al directorio SRC y al directorio a PP por defecto tenemos este componente
+
+10
+00:00:55,810 --> 00:01:05,050
+aquí vale que es el componente a Pepe componen un componente está formado por una serie de import que
+
+11
+00:01:05,050 --> 00:01:11,660
+son módulos o objetos que tenemos que importar para poder utilizarlo con la palabra import.
+
+12
+00:01:11,660 --> 00:01:18,280
+Importamos ese módulo en este caso el módulo component y From y aquí le indicamos el paquete que está
+
+13
+00:01:18,280 --> 00:01:24,400
+guardado en el paquete punto y en este caso el componente está guardado en el core la huella que cargamos
+
+14
+00:01:24,400 --> 00:01:28,480
+pues este elemento o este objeto.
+
+15
+00:01:28,480 --> 00:01:30,960
+Este módulo y aquí lo utilizamos.
+
+16
+00:01:30,960 --> 00:01:36,500
+Esto es un decorador en el decorador simplemente yo voy a configurar mi componente el decorador arroba
+
+17
+00:01:36,490 --> 00:01:44,770
+component me permite eso y con la propiedad selector le puede indicar en qué etiqueta o directiva de
+
+18
+00:01:44,770 --> 00:01:47,950
+la página se va a estar cargando este componente.
+
+19
+00:01:47,950 --> 00:01:54,100
+En este caso este componente se carga en la etiqueta Peppe Ruth la podemos encontrar en el índex HTML
+
+20
+00:01:54,290 --> 00:02:00,730
+que podemos encontrar y lo que hace cargar pues ese componente principal componente.
+
+21
+00:02:01,000 --> 00:02:06,490
+Luego tenemos el template R.L que lo que hace indicar cuál es la vista de este componente en este caso
+
+22
+00:02:06,490 --> 00:02:12,300
+es esta vista aquí y aquí pues tenemos toda la información de acuerdo aquí por lo que aparece aquí hueco
+
+23
+00:02:12,330 --> 00:02:14,030
+junto a Pepe.
+
+24
+00:02:14,290 --> 00:02:15,760
+Yo puedo poner aquí bienvenido
+
+25
+00:02:18,730 --> 00:02:25,890
+a entonce a Pepe el titi el que aparece aquí acuerdo en la clase del componente aquí le juntamos también
+
+26
+00:02:25,910 --> 00:02:31,430
+esta propiedad uno de estilo CSS por si queremos darle un nuevo estilo al componente en específico y
+
+27
+00:02:31,430 --> 00:02:37,540
+luego hacemos un eSport a la clase para poder utilizar esta clase en otro archivo.
+
+28
+00:02:37,820 --> 00:02:43,670
+Definimos la clase del componente y aquí definimos las propiedades que va a tener la funcionalidad que
+
+29
+00:02:43,670 --> 00:02:48,290
+va a tener la clase de acuerdo eso lo vamos a ir viendo poco a poco pero en este caso tenemos una propiedad
+
+30
+00:02:48,290 --> 00:02:48,830
+pública
+
+31
+00:02:51,540 --> 00:02:57,180
+que se llama Twitter y Twitter pues simplemente tiene esto yo le puedo cambiar lo que sea de acuerdo
+
+32
+00:02:57,420 --> 00:03:07,260
+puedo poner bienvenido al equipo máster de JavaScript
+
+33
+00:03:10,380 --> 00:03:16,230
+y angular vale puedo hacer esto perfectamente y si actualizo la pantalla automáticamente se actualiza
+
+34
+00:03:16,230 --> 00:03:22,290
+porque automáticamente cada vez que hago un cambio el servidor que yo tengo Docal de angular tiene un
+
+35
+00:03:22,290 --> 00:03:28,260
+watcher que lo que hace es recargar el servidor local y recopilar todo lo que hay en el proyecto angular
+
+36
+00:03:28,350 --> 00:03:34,470
+y automáticamente me dice UEL con tu máster se Guanta vale pero tendríamos que guardar el archivo de
+
+37
+00:03:34,470 --> 00:03:40,500
+la vista para que no apareciera también el bienvenido al máster de JavaScript y angular.
+
+38
+00:03:40,650 --> 00:03:43,880
+De igual manera yo podría quitar cualquier cosa que haya en esta vista.
+
+39
+00:03:43,890 --> 00:03:50,000
+De acuerdo podría quitar la imagen y podría quitar el contenido que hay aquí.
+
+40
+00:03:52,250 --> 00:03:59,630
+Simplemente esto es un contenido de prueba que vienen Folding@home los archivos de la aplicación de
+
+41
+00:03:59,630 --> 00:04:03,690
+esqueleto que provee ángulos ley y desautorice la pantalla.
+
+42
+00:04:03,920 --> 00:04:06,520
+Pues aquí no aparece esto simplemente está en mi vista.
+
+43
+00:04:06,540 --> 00:04:09,930
+Yo le puedo añadir cualquier cosa aquí de acuerdo.
+
+44
+00:04:10,100 --> 00:04:11,000
+Puedo poner aquí
+
+45
+00:04:13,630 --> 00:04:18,380
+vamos a aprender angular juntos.
+
+46
+00:04:18,640 --> 00:04:24,760
+Vale si yo guardo esta vista lo que está lo que estamos viendo aquí ahora mismo lo único que tenemos
+
+47
+00:04:25,030 --> 00:04:26,270
+en nuestra aplicación.
+
+48
+00:04:26,550 --> 00:04:31,660
+Vale entonces resumiendo hacemos unos importes utilizamos el decorado la arroba componen para indicar
+
+49
+00:04:31,660 --> 00:04:37,930
+que esto es un componente definimos la clase con sus propiedades y sus métodos que vamos a ir viendo
+
+50
+00:04:38,770 --> 00:04:46,040
+qué métodos hay y cómo ir utilizándolos para hacer que este componente funcione.
+
+51
+00:04:46,240 --> 00:04:50,470
+Tenemos un módulo que es la carpeta AP 2 para definir el módulo.
+
+52
+00:04:50,500 --> 00:04:54,920
+Utilizamos a PP módulo punto TS un archivo de un módulo.
+
+53
+00:04:54,920 --> 00:04:59,650
+Aquí simplemente importamos los dos módulos o los dos objetos que se encargan de hacer esto que son
+
+54
+00:04:59,650 --> 00:05:03,240
+el browser Module y el módulo de acuerdo.
+
+55
+00:05:03,250 --> 00:05:12,530
+Luego importamos el componente y utilizamos el arroba NG Module NG Module simplemente es el decorado
+
+56
+00:05:12,570 --> 00:05:18,860
+el que nos permite configurar el módulo indicamos las declarativos de acuerdo que Declaration nos sirve
+
+57
+00:05:18,860 --> 00:05:23,860
+para cargar nuestros componentes nuestros países y nuestras directivas.
+
+58
+00:05:24,130 --> 00:05:29,810
+Importes que nos sirve para cargar módulos que tenga el propio freímos de angular módulos que hayamos
+
+59
+00:05:30,260 --> 00:05:35,840
+instalado nosotros externos o módulos que hayamos creado nosotros providers ideas que nos sirve para
+
+60
+00:05:35,840 --> 00:05:41,300
+cargar servicios y Bushra que es el módulo principal que se va a cargar o el componente principal en
+
+61
+00:05:41,300 --> 00:05:46,490
+este caso que se va a cargar en este caso el componente principal es el de componer pero si yo tuviera
+
+62
+00:05:46,490 --> 00:05:53,060
+otro componente podría hacer que ese componente fuera el gustã de acuerdo fuera el que inicia toda la
+
+63
+00:05:53,060 --> 00:06:00,840
+aplicación y por último ya simplemente exporto el módulo vale y esto a grandes rasgos como estructura
+
+64
+00:06:00,840 --> 00:06:05,830
+de un componente y como está estructurado un módulo de angular un módulo principal.
+
+65
+00:06:05,870 --> 00:06:12,860
+De acuerdo al módulo que hay ahora mismo definido aquí viendo cómo puedo crear un componente para crear
+
+66
+00:06:12,860 --> 00:06:18,790
+un componente tenemos varias opciones podemos utilizar la consola para generar ese componente que solo
+
+67
+00:06:18,800 --> 00:06:24,440
+veremos ahora adelante ahora más adelante podemos definir una carpeta de componentes y ahí crear todos
+
+68
+00:06:24,440 --> 00:06:29,300
+los componentes o incluso podríamos tener una carpeta de componentes donde tuviéramos las clases del
+
+69
+00:06:29,300 --> 00:06:34,820
+componente de los componentes o de la carpeta de views anduviéramos las plantillas de sus componentes
+
+70
+00:06:35,420 --> 00:06:41,730
+y así de acuerdo es decir una arquitectura muy parecida a un MVC la cual es muy interesante pero otra
+
+71
+00:06:41,730 --> 00:06:46,850
+de la manera que es la que vamos a utilizar nosotros es creando una carpeta por componente dentro de
+
+72
+00:06:46,850 --> 00:06:54,710
+la carpeta de app le vamos a dar clic derecho ni a PP ni un folder y aquí vamos a crear una nueva carpeta
+
+73
+00:06:55,190 --> 00:06:58,340
+para el nuevo componente que vamos a crear de acuerdo.
+
+74
+00:06:58,340 --> 00:07:03,290
+En este caso vamos a crear un componente que se va a llamar videojuego así que vamos a crear una carpeta
+
+75
+00:07:03,290 --> 00:07:13,750
+que se llama videojuego y dentro de esta carpeta tenemos que crear un nuevo archivo que va a ser el
+
+76
+00:07:14,020 --> 00:07:18,000
+archivo vídeojuego punto component.
+
+77
+00:07:18,310 --> 00:07:25,140
+Punto importante definir el punto de ese como extensión porque esa extensión es la extensión Taipe scrip
+
+78
+00:07:25,240 --> 00:07:31,480
+que es la que se utiliza para definir todos los archivos de JavaScript dentro de angular así que lo
+
+79
+00:07:31,480 --> 00:07:38,590
+definimos así y luego tendría que crear también la vista hacia UNIFIL controles y la vista se va a llamar
+
+80
+00:07:38,910 --> 00:07:45,220
+videojuego o punto con un punto HTML de acuerdo a la pista tienen que ser tienen que ser HTML.
+
+81
+00:07:45,260 --> 00:07:49,990
+Vale entonces qué va a tener nuestro componente nos vamos a nuestra clase del componente vamos a cerrar
+
+82
+00:07:49,990 --> 00:07:54,760
+el resto de archivos para verlo todo claro no vamos a ser nuestro fichero vídeojuego junto con poner
+
+83
+00:07:54,760 --> 00:08:00,620
+un punto que va a tener un componente pues simplemente va a tener un importe de El objeto component
+
+84
+00:08:03,640 --> 00:08:09,950
+componente from indicamos en qué paquete de angular está ubicado este objeto.
+
+85
+00:08:10,030 --> 00:08:19,300
+En este caso está en arroba angular barra core de acuerdo y ahora vamos a definir el decorador arroba
+
+86
+00:08:19,300 --> 00:08:29,500
+component para definir un componente esto entre paréntesis le pasamos un objeto Jayson y importante
+
+87
+00:08:29,560 --> 00:08:34,690
+no debemos cerrar con Punto y Coma no poner punto y coma aquí porque esto es un decorador para una clase
+
+88
+00:08:35,190 --> 00:08:40,870
+para entonces dentro del Jayson del componente lo puede definir varias propiedades en este caso el selector
+
+89
+00:08:42,280 --> 00:08:47,650
+sería una propiedad que nos permitiría decir qué nombre va a tener la etiqueta de este componente o
+
+90
+00:08:47,650 --> 00:08:52,810
+la directiva de este componente en este caso la etiqueta que nosotros tendremos que utilizar será la
+
+91
+00:08:52,810 --> 00:09:01,780
+etiqueta vídeojuego y luego también podemos definir una plantilla en línea o una plantilla en un archivo
+
+92
+00:09:01,780 --> 00:09:02,380
+externo.
+
+93
+00:09:02,380 --> 00:09:09,520
+Aquí la estamos definiendo hemos creado un archivo externo pero de momento vamos a crear una plantilla
+
+94
+00:09:09,580 --> 00:09:12,880
+en línea para definir una plantilla en línea una template.
+
+95
+00:09:12,880 --> 00:09:18,460
+Simplemente utilizamos este atributo o esta propiedad y tenemos que utilizar las comillas invertidas
+
+96
+00:09:18,490 --> 00:09:22,650
+para dar un enter y poder poner aquí código HTML.
+
+97
+00:09:22,690 --> 00:09:36,700
+En este caso voy a poner un H2 que diga componente de videojuego vale y aquí simplemente vamos a poner
+
+98
+00:09:36,700 --> 00:09:38,200
+un listado de videojuegos
+
+99
+00:09:41,190 --> 00:09:44,890
+dentro de un mueble GTA
+
+100
+00:09:50,110 --> 00:09:51,280
+el Prince of Persia
+
+101
+00:09:54,730 --> 00:09:55,420
+Tekken
+
+102
+00:09:58,160 --> 00:10:03,280
+y el Mario.
+
+103
+00:10:03,320 --> 00:10:06,730
+Ya tenemos nuestra vista o nuestra template definida.
+
+104
+00:10:06,770 --> 00:10:07,340
+Ok.
+
+105
+00:10:07,430 --> 00:10:13,520
+Luego voy a indicarle atributos como el atributo que nos permite ponerle hojas de estilo y todo eso
+
+106
+00:10:13,630 --> 00:10:13,910
+vale.
+
+107
+00:10:13,940 --> 00:10:16,840
+Pero de momento estos son los más básico y fundamental.
+
+108
+00:10:17,170 --> 00:10:23,450
+Entonces ahora voy a definir mi clase a un eSport Class y qué nombre debería ponerle yo a mi clase pues
+
+109
+00:10:23,480 --> 00:10:31,920
+en este caso el nombre que yo debería ponerle sería vídeojuego componente y hasta me acuerdo.
+
+110
+00:10:31,920 --> 00:10:36,660
+De esta manera tan sencilla me definió la clase por qué he puesto un nombre así porque el nombre del
+
+111
+00:10:36,660 --> 00:10:38,340
+archivo es vídeojuego junto con poner.
+
+112
+00:10:38,430 --> 00:10:45,510
+Lo normal es convertirlo esto acabe el catch a que empiece por mayúscula y luego en lugar de ponerle
+
+113
+00:10:45,560 --> 00:10:51,620
+un punto lo que sea simplemente continuar con el que vale tres ya tengo mi clase definida.
+
+114
+00:10:51,690 --> 00:10:54,340
+De esta manera tan sencilla tengo ya mi componente.
+
+115
+00:10:54,470 --> 00:10:59,520
+Ok entonces cómo utilizar el componente porque ahora mismo si estoy hizo la pantalla aquí no pasa nada.
+
+116
+00:11:01,130 --> 00:11:05,970
+Pues para poder utilizar un componente yo tengo que cargarlo y darlo de alta en mi aplicación en mi
+
+117
+00:11:05,970 --> 00:11:07,700
+módulo de angular.
+
+118
+00:11:07,890 --> 00:11:15,270
+De acuerdo en el módulo principal a PP módulo de punto TS tendré que importar mi componente en este
+
+119
+00:11:15,270 --> 00:11:18,370
+caso hago un import como yo he puesto la palabra export.
+
+120
+00:11:18,390 --> 00:11:23,700
+En esta clase esto lo vimos anteriormente en el curso por encima como he puesto la palabra es por ahora
+
+121
+00:11:23,700 --> 00:11:33,740
+yo puedo importar esa clase entonces yo voy a importar mi clase vídeojuego component vale from y me
+
+122
+00:11:33,870 --> 00:11:43,890
+indicó que está en el directorio actual en la carpeta vídeojuego y es el fichero vídeojuego punto component.
+
+123
+00:11:44,430 --> 00:11:50,010
+Cierro con punto y coma el punto de ese punto J.V no hace falta ponerlo porque si ya lo detecta automáticamente
+
+124
+00:11:50,010 --> 00:11:56,050
+el Fránkfurt vale guardo y ahora tengo que cargarlo dentro de la red de Declaration.
+
+125
+00:11:56,230 --> 00:12:04,470
+En declarativos mal los pipes las directivas y los componentes así que yo por aquí defino o cargo dentro
+
+126
+00:12:04,470 --> 00:12:08,490
+de este Arráiz vídeojuego componen de acuerdo.
+
+127
+00:12:08,520 --> 00:12:14,160
+De esta manera si yo ahora mismo actualizo la pantalla vamos a ver que no hay ningún tipo de cambio
+
+128
+00:12:14,760 --> 00:12:20,670
+pero voy a definir un constructor dentro de mi componente de definir un método constructor que es el
+
+129
+00:12:20,670 --> 00:12:28,590
+primer método que se ejecuta cuando carga un objeto y voy a poner un solo punto lo que diga se ha cargado
+
+130
+00:12:29,460 --> 00:12:42,910
+el componente vídeojuego junto componentes .3 guardo y si yo abro mi consola del navegador y actualizo
+
+131
+00:12:42,910 --> 00:12:43,750
+la pantalla
+
+132
+00:12:46,470 --> 00:12:48,990
+veo que aquí no me aparece absolutamente nada.
+
+133
+00:12:49,020 --> 00:12:53,610
+Por qué no me aparece absolutamente nada porque realmente no estoy cargando el componente porque no
+
+134
+00:12:53,610 --> 00:12:56,760
+lo estoy llamando en ninguna parte.
+
+135
+00:12:56,760 --> 00:13:01,180
+Entonces cómo podría llamar yo a mi componente en algún sitio para cargarlo.
+
+136
+00:13:01,200 --> 00:13:06,870
+Mi componente tendría que utilizar su selector vale así que voy a abrir el apetito componer en HTML
+
+137
+00:13:06,990 --> 00:13:12,180
+y aquí abajo voy a utilizar sus electores el sector simplemente es una etiqueta.
+
+138
+00:13:12,180 --> 00:13:19,770
+En este caso qué etiqueta hemos dicho que va a tener la etiqueta se llama videojuego videojuego y cierra
+
+139
+00:13:19,770 --> 00:13:24,480
+la etiqueta videojuego ya creado un componente y es este aquí.
+
+140
+00:13:24,540 --> 00:13:29,040
+De acuerdo yo puedo reutilizarlo tantas veces como quiera que se utilice la pantalla.
+
+141
+00:13:29,040 --> 00:13:33,900
+Efectivamente quien me aparece una vez que yo he cargado ese componente que me parece que se ha cargado
+
+142
+00:13:33,900 --> 00:13:39,900
+el componente de videojuego junto con poner un punto y aquí no aparece el contenido de ese componente
+
+143
+00:13:40,380 --> 00:13:44,640
+de acuerdo yo podría llamar tantas veces como quisiera a este componente.
+
+144
+00:13:44,640 --> 00:13:50,700
+Lo voy a copiar varias veces y si vuelvo a navegador veo que ahora tengo tres componentes aquí con lo
+
+145
+00:13:50,700 --> 00:13:56,460
+cual podrá utilizar mi componente tantas veces como yo quiera en la aplicación con lo cual ya hemos
+
+146
+00:13:56,460 --> 00:14:02,640
+visto cómo crear un componente Qué elementos tiene básicamente un componente y cómo cargarlo en la aplicación
+
+147
+00:14:02,640 --> 00:14:04,980
+de angular y que funcione a llamarlo.

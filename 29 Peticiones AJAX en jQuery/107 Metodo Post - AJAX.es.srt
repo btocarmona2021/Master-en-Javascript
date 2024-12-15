@@ -1,0 +1,311 @@
+1
+00:00:00,780 --> 00:00:05,340
+Ahora vamos a aprender a trabajar con el método de acuerdo de cuerpo para hacer predicciones mayas de
+
+2
+00:00:05,340 --> 00:00:06,410
+ese tipo.
+
+3
+00:00:06,510 --> 00:00:14,280
+Aquí tenemos varios métodos como por ejemplo el método Kraid la UE en esta Happy que nos permite enviar
+
+4
+00:00:14,340 --> 00:00:19,610
+un usuario y crear su registro en el banco malo.
+
+5
+00:00:20,760 --> 00:00:26,750
+Entonces vamos a ver cómo hacer peticiones por post ya que un protocolo o un método diferente al que
+
+6
+00:00:27,330 --> 00:00:33,990
+entonces tenemos el dólar punto post que es otro método y la UE que tendríamos que usar pues sería la
+
+7
+00:00:33,990 --> 00:00:40,590
+misma que está aquí simplemente como el método es diferente como ahora vamos a hacer un método una llamada
+
+8
+00:00:40,590 --> 00:00:48,450
+Ayax por el método POST que hace el método diferente a uno utilizando la misma red le van a ir por canales
+
+9
+00:00:48,450 --> 00:00:55,200
+distintos con lo cual si yo llamo a esto le voy a poder crear un nuevo usuario vale una variable usuario
+
+10
+00:00:55,680 --> 00:01:00,660
+y aquí voy a definir mi Jayson o que mi hijo podría ser el nombre
+
+11
+00:01:04,660 --> 00:01:07,360
+Víctor Robles puede indicarle también
+
+12
+00:01:10,200 --> 00:01:14,030
+la web que podría ser mi web
+
+13
+00:01:18,550 --> 00:01:24,760
+vale entonces ya tengo mi Jayson definido puedo definir con comillas el nombre de la propiedad o sin
+
+14
+00:01:24,760 --> 00:01:25,600
+las comillas.
+
+15
+00:01:25,600 --> 00:01:31,930
+De igual forma es válido entonces si lo voy a pasar al método post acuerdo se lo paso porque estos datos
+
+16
+00:01:31,930 --> 00:01:37,540
+son lo que voy a enviar y lo que voy a guardar por post paso del usuario y por último tengo un Calvache
+
+17
+00:01:39,580 --> 00:01:43,420
+con una Response que me debe devolver.
+
+18
+00:01:43,420 --> 00:01:52,040
+En el caso de que sea correcta vale voy a hacer un consolé un punto lo de usuario vale en el caso de
+
+19
+00:01:52,040 --> 00:01:56,120
+que sea correcta de usuario no response.
+
+20
+00:01:56,250 --> 00:02:02,570
+En caso de que sea correcta que me muestre la respuesta voy a actualizar la pantalla y me acaba de hacer
+
+21
+00:02:02,570 --> 00:02:04,620
+una petición por post.
+
+22
+00:02:04,640 --> 00:02:09,980
+Como estamos viendo por aquí y me ha devuelto efectivamente mi objeto Yeison con su idea correspondiente
+
+23
+00:02:10,070 --> 00:02:15,470
+y la fecha en la que se ha creado vale y efectivamente aquí tengo mi objeto como que el usuario se ha
+
+24
+00:02:15,470 --> 00:02:16,910
+creado correctamente.
+
+25
+00:02:16,910 --> 00:02:23,390
+Vale también podría hacerme un pequeño formulario para hacer una prueba para que este usuario sea dinámico
+
+26
+00:02:23,390 --> 00:02:28,190
+y ver cómo lo podríamos hacer simplemente yo podría
+
+27
+00:02:31,240 --> 00:02:32,550
+quedarme un formulario por aquí
+
+28
+00:02:36,090 --> 00:02:40,460
+form Action y que la acción me llevara a esta web.
+
+29
+00:02:40,630 --> 00:02:52,000
+De aquí a la web R.L de crear usuarios en el API el método Serpost evidentemente voy a cerrar el formulario
+
+30
+00:02:52,030 --> 00:02:57,610
+y iba a crear mis imputs el tipo tipo texto para el nombre
+
+31
+00:03:03,420 --> 00:03:12,190
+sería Fest Nein sería Nein le pondría un idea que sería.
+
+32
+00:03:12,300 --> 00:03:18,410
+Ni siquiera simplemente con el NIMH ya no sirve y luego tendría uno para la web.
+
+33
+00:03:18,900 --> 00:03:33,240
+Otro imput de tipo texto para la web vale y esto sería nombre web y botón de registrar Button.
+
+34
+00:03:33,390 --> 00:03:35,890
+Mejor dicho input Summit
+
+35
+00:03:40,720 --> 00:03:46,060
+y esto sería como valor le vamos a poner registrar
+
+36
+00:03:51,770 --> 00:03:54,800
+lo que ya nos aparece en nuestro formulario.
+
+37
+00:03:54,810 --> 00:03:56,280
+Voy a meterle un agarre
+
+38
+00:03:59,100 --> 00:04:03,290
+para separarle un poco y lo que vamos a hacer va a ser captura del evento Summit.
+
+39
+00:04:03,330 --> 00:04:10,720
+Vale vamos a hacer esto pero dentro de un calmante el vamos a capturar el evento del formulario de acuerdo
+
+40
+00:04:10,720 --> 00:04:14,940
+que vamos a poner también un ideal formulario
+
+41
+00:04:19,040 --> 00:04:30,610
+y vamos a trabajar sobre el formulario dólar almohadilla formulario y cuando se ejecuta el submit ejecutaremos
+
+42
+00:04:30,610 --> 00:04:32,050
+una función de callback
+
+43
+00:04:35,470 --> 00:04:36,070
+de acuerdo
+
+44
+00:04:40,100 --> 00:04:48,060
+y entonces vamos a ejecutar esto de aquí vamos a crear el usuario y estas variables de aquí.
+
+45
+00:04:48,100 --> 00:04:54,460
+Esto en lugar de que sea la web la apuesta fija aquí lo que voy a hacer es acceder a Adis que es el
+
+46
+00:04:54,460 --> 00:05:00,060
+formulario y coger su propia R.L que hay en la acción configurada.
+
+47
+00:05:00,070 --> 00:05:05,120
+Disputo atenderé Action.
+
+48
+00:05:05,140 --> 00:05:12,970
+De esta manera la web real la coge del propio formulario y aquí voy a coger los datos que he configurado
+
+49
+00:05:12,970 --> 00:05:13,810
+en los dos campos.
+
+50
+00:05:13,810 --> 00:05:23,030
+De acuerdo voy a hacer voy a recoger por nein de acuerdo a recoger todos los valores se recoge el input
+
+51
+00:05:23,050 --> 00:05:25,210
+cuyo NAICM se iguala
+
+52
+00:05:28,580 --> 00:05:36,180
+a poner entre comillas simples y voy a recoger el valor del input cuyo Nein sea Nain de acuerdo y aquí
+
+53
+00:05:36,190 --> 00:05:38,370
+voy a recoger su valor.
+
+54
+00:05:38,940 --> 00:05:46,690
+Vale que eso es lo que voy yo a enviar por post y luego como parámetro web como propiedad web el vindicar
+
+55
+00:05:47,910 --> 00:05:53,020
+pues que recoja el input cuyo Naimi sea una web de esa manera.
+
+56
+00:05:53,020 --> 00:05:55,790
+Pues yo tendré disponible esos dos valores ok.
+
+57
+00:05:55,870 --> 00:05:57,440
+Hasta aquí todo correcto.
+
+58
+00:05:57,490 --> 00:06:05,620
+Vale yo voy a hacer un consuelo de usuario para ver lo que se va a enviar de acuerdo y vamos a ver si
+
+59
+00:06:05,620 --> 00:06:13,470
+no hace la petición allá si no te vuelve a responsabilizamos la pantalla vamos a hacer la prueba te
+
+60
+00:06:13,520 --> 00:06:20,350
+voy a registrar y efectivamente me hace la petición correctamente me manda a la propia web con los datos
+
+61
+00:06:20,350 --> 00:06:25,220
+creados sin ningún tipo de problema entonces estamos viendo que nos redirige a otra página.
+
+62
+00:06:25,240 --> 00:06:28,690
+Cómo podemos solucionar eso capturando el evento.
+
+63
+00:06:28,720 --> 00:06:34,750
+Vale yo puedo utilizar aquí como parámetro para capturar el evento en la función de Calvache puedo meterle
+
+64
+00:06:34,750 --> 00:06:40,080
+un parámetro y entonces utilizar el punto prevent de fought.
+
+65
+00:06:40,180 --> 00:06:45,400
+De esa manera cuando yo envíe mis datos no me va a redirigir y aparte le puedo poner aquí un RETURN
+
+66
+00:06:45,430 --> 00:06:50,800
+false para que tampoco me redirige a de acuerdo para que no haga la acción por defecto que tiene el
+
+67
+00:06:50,800 --> 00:06:59,200
+formulario preconfigurado de forma que sigue baneado un usuario debe registrar ya no me redirige y efectivamente
+
+68
+00:06:59,200 --> 00:07:05,920
+me devuelve los datos primero el consolarlos con los datos que ha recogido del formulario y después
+
+69
+00:07:05,920 --> 00:07:12,330
+los datos que me vienen de la responsa y de acuerdo efectivamente que me devuelve el autotutela Response
+
+70
+00:07:12,960 --> 00:07:13,860
+vale.
+
+71
+00:07:14,940 --> 00:07:20,860
+Y con esta información yo podría mostrar este usuario añadirlo aquí o hacer lo que quisiera pero realmente
+
+72
+00:07:21,310 --> 00:07:26,830
+con esto ya hemos visto que realmente funciona la petición por post incluso podríamos utilizar el método
+
+73
+00:07:26,830 --> 00:07:39,820
+down down que tiene una función de Calvache para mostrar una alerta que diga usuario añadido correctamente
+
+74
+00:07:41,920 --> 00:07:43,600
+vale actualizo la pantalla
+
+75
+00:07:46,240 --> 00:07:52,240
+en mi rotando y cuando la petición haya acabado de satisfacer satisfactoriamente me muestra mi Haller
+
+76
+00:07:52,600 --> 00:07:58,390
+como que se ha añadido correctamente vale con lo cual ya hemos visto también cómo utiliza el método
+
+77
+00:07:58,390 --> 00:08:06,250
+POST y cómo recoger datos desde un servidor remoto y como enviarle también datos a ese servidor remoto
+
+78
+00:08:06,250 --> 00:08:13,150
+o a Bakken que tenemos disponible para que guarde datos en una base de datos para que haga lo que sea.

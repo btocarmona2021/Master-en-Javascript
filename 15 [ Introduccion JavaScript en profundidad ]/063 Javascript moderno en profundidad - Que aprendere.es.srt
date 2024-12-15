@@ -1,0 +1,239 @@
+1
+00:00:00,730 --> 00:00:05,460
+Qué vamos a aprender a partir de aquí en el curso porque ya hemos visto un repaso de HTML al principio
+
+2
+00:00:05,460 --> 00:00:06,120
+del curso.
+
+3
+00:00:06,120 --> 00:00:12,660
+También hemos aprendido a programar las bases de la programación desde cero y ahora vamos a profundizar
+
+4
+00:00:12,750 --> 00:00:18,630
+en JavaScript profundizaran el lenguaje para utilizarlo en nuestras aplicaciones y en nuestras páginas
+
+5
+00:00:18,630 --> 00:00:19,100
+web.
+
+6
+00:00:20,140 --> 00:00:27,690
+Entonces lo primero que vamos a ver es el Dom el Dom es el Document Object Model y básicamente son todos
+
+7
+00:00:27,690 --> 00:00:30,680
+los elementos que hay dentro de una página web.
+
+8
+00:00:30,900 --> 00:00:32,010
+Todas las etiquetas.
+
+9
+00:00:32,010 --> 00:00:36,140
+Todo eso es un elemento del DOM del documento obvien model.
+
+10
+00:00:36,270 --> 00:00:41,880
+Entonces vamos a ver en profundidad que es el DOM cómo trabajar con el DOM para seleccionar el elemento
+
+11
+00:00:41,880 --> 00:00:43,830
+de la página y modificarlos.
+
+12
+00:00:43,830 --> 00:00:48,510
+Vamos a estar practicando con las diferentes formas que hay de seleccionar elementos de la página con
+
+13
+00:00:48,510 --> 00:00:55,250
+el selector con el Document Cetelem Mémoire con el que tienen en bailás las Nain etcétera.
+
+14
+00:00:55,260 --> 00:01:01,800
+Entonces veremos cómo manipular el DOM y cómo manipular la página web del código de JavaScript.
+
+15
+00:01:01,800 --> 00:01:04,110
+Después pasaremos a aprender el boom.
+
+16
+00:01:04,140 --> 00:01:11,130
+El boom es el browser Object Model que nos permite manipular el navegador web y la ventana para obtener
+
+17
+00:01:11,130 --> 00:01:17,220
+datos con JavaScript para hacer cualquier tipo de cosa que se te ocurra con el navegador y con la ventana
+
+18
+00:01:17,220 --> 00:01:18,020
+del navegador.
+
+19
+00:01:18,060 --> 00:01:24,480
+Entonces veremos varias cosas acerca del boom luego pasaremos a aprender que es un evento y cómo funcionan
+
+20
+00:01:24,480 --> 00:01:25,710
+los eventos.
+
+21
+00:01:25,710 --> 00:01:32,370
+Un evento es algo que sucede en la página cuando el usuario realiza alguna acción por ejemplo da un
+
+22
+00:01:32,370 --> 00:01:33,300
+click.
+
+23
+00:01:33,300 --> 00:01:40,290
+Escribe en un campo de texto se sale de un input en un campo de texto o hace cualquier acción se ejecuta
+
+24
+00:01:40,350 --> 00:01:46,440
+un evento entonces vamos a aprender a capturar es o evento hacer funcionalidades con este evento aprenderemos
+
+25
+00:01:46,740 --> 00:01:50,640
+cómo capturar el evento click y cómo hacer varios ejercicios y varias prácticas.
+
+26
+00:01:50,640 --> 00:01:57,030
+Con esto veremos los eventos del teclado y de foco veremos el evento LOTTT veremos los trainers también
+
+27
+00:01:57,020 --> 00:02:05,580
+para que cada cierto tiempo se ejecute algo de acuerdo y poner también un delay en cualquier cosa que
+
+28
+00:02:05,580 --> 00:02:10,280
+hagamos etcétera y veremos un montón de cosas acerca de los eventos.
+
+29
+00:02:10,350 --> 00:02:16,470
+Después pasaremos a hacer un bloque de ejercicios de desarrollo web en el cual veremos cómo unir las
+
+30
+00:02:16,470 --> 00:02:20,820
+piezas del puzle de lo que hemos visto anteriormente veremos un ejercicio bastante bastante completo
+
+31
+00:02:21,570 --> 00:02:27,960
+en el cual vamos a trabajar con el Dom con los eventos con las funciones etcétera y también haremos
+
+32
+00:02:28,020 --> 00:02:33,990
+otro ejercicio bastante completo en el cual aprenderemos a validar un formulario con JavaScript puro
+
+33
+00:02:34,350 --> 00:02:39,180
+de acuerdo utilizando todo esto todos los eventos todo el DOM etcétera.
+
+34
+00:02:39,210 --> 00:02:45,330
+En la siguiente sección aprenderemos a trabajar con Jason Jayson es la notación de objetos de JavaScript
+
+35
+00:02:45,360 --> 00:02:51,900
+de acuerdo y nos va a permitir hacer objetos y veremos también cómo trabajar con el operador dis dentro
+
+36
+00:02:51,900 --> 00:02:59,370
+de un calvario dentro de JavaScript también veremos que es Jayson y cómo usar estos objetos Jayson.
+
+37
+00:02:59,640 --> 00:03:04,980
+Después de aprender Jayson aprenderemos a trabajar con locales Storage local Storage el almacenamiento
+
+38
+00:03:04,980 --> 00:03:11,550
+local del navegador y nos permite guardar información en el navegador para que persista en la sesión
+
+39
+00:03:11,550 --> 00:03:13,170
+del usuario entre comillas.
+
+40
+00:03:13,180 --> 00:03:17,780
+Vale entonces el usuario puede acceder a los datos del local estolas que haya almacenado en el local
+
+41
+00:03:17,820 --> 00:03:20,930
+Storage desde cualquier parte de su aplicación.
+
+42
+00:03:20,930 --> 00:03:26,340
+Entonces veremos cómo trabaja con el local lectoras que es en profundidad y también haremos un ejercicio
+
+43
+00:03:26,340 --> 00:03:28,350
+completo con el local lectoras.
+
+44
+00:03:28,380 --> 00:03:34,680
+Después de aprender esto pasaremos a aprender peticiones asíncronas es decir cómo trabajar con Fetch
+
+45
+00:03:34,770 --> 00:03:40,590
+con Ayax y también aprenderemos a trabajar con las promesas veremos cómo hacer peticiones Ayax a un
+
+46
+00:03:40,590 --> 00:03:44,910
+servidor utilizando fetch y peticiones asíncrona.
+
+47
+00:03:44,910 --> 00:03:49,860
+También trabajaremos con las promesas y haremos varias prácticas con la promesa veremos cómo crear una
+
+48
+00:03:49,860 --> 00:03:50,470
+promesa.
+
+49
+00:03:50,470 --> 00:03:55,880
+Cómo capturar cómo capturar errores en las promesas y muchas cosas más acerca de todo esto.
+
+50
+00:03:56,020 --> 00:04:01,530
+Y después pasaremos a aprender cómo trabajar con fechas con funciones matemáticas como capturar errores
+
+51
+00:04:01,530 --> 00:04:03,020
+en JavaScript etcétera.
+
+52
+00:04:03,020 --> 00:04:07,340
+Veremos más cositas de más detalles acerca de JavaScript como tal.
+
+53
+00:04:07,350 --> 00:04:13,290
+De acuerdo entonces esto será lo que aprenderemos de manera muy específica y las partes más importantes
+
+54
+00:04:13,290 --> 00:04:16,910
+que tiene JavaScript aparte de la base que habremos visto anteriormente.
+
+55
+00:04:16,980 --> 00:04:23,220
+Haremos varias prácticas y varios ejercicios en esta sección del curso y después de todo esto haremos
+
+56
+00:04:23,220 --> 00:04:27,870
+un proyecto también completo utilizando JavaScript y Kourí de acuerdo.
+
+57
+00:04:27,870 --> 00:04:35,660
+Así que espero que esta sección te sirva mucho que aprendas bastante ya sabes que si te atasca en algo
+
+58
+00:04:35,670 --> 00:04:39,150
+tienes cualquier problema en algo y no te funciona algo de lo que vemos en el curso.
+
+59
+00:04:39,150 --> 00:04:45,060
+Me puedes poner una pregunta en el panel de pregunta y respuesta y yo te voy a ayudar y sin más espero
+
+60
+00:04:45,060 --> 00:04:49,400
+que te ayude mucho esta sección y empezamos a aprender JavaScript en profundidad.

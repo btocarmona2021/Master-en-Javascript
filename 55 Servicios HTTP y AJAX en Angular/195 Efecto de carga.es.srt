@@ -1,0 +1,91 @@
+1
+00:00:00,810 --> 00:00:05,850
+Otra cosa que podríamos hacer es un efecto de carga porque si te das cuenta cuando yo cambio este número
+
+2
+00:00:05,940 --> 00:00:13,760
+a otro idea enter tarda un milisegundo o tardo un poquito en cargarme los datos externos.
+
+3
+00:00:13,860 --> 00:00:18,060
+Esto pasa porque realmente está haciendo una petición a un servicio externo a un API.
+
+4
+00:00:18,070 --> 00:00:20,370
+Entonces pues hay un.
+
+5
+00:00:20,590 --> 00:00:26,190
+Hay un delay hay un tiempo en el cual se está realizando la petición entonces en ese momento me interesa
+
+6
+00:00:26,460 --> 00:00:27,770
+que no aparezca cargando.
+
+7
+00:00:27,780 --> 00:00:29,140
+Cómo podemos hacerlo.
+
+8
+00:00:29,160 --> 00:00:39,530
+Pues mira muy muy fácil podemos hacer un dip con un LG ir que cuando Ussher no tenga nada de acuerdo
+
+9
+00:00:39,620 --> 00:00:46,370
+o sea fal'Cie o lo que sea aquí nos va a aparecer la palabra cargando.
+
+10
+00:00:46,370 --> 00:00:49,070
+A ver si puedo hacerlo.
+
+11
+00:00:49,070 --> 00:00:56,030
+Aquí no me va a aparecer cargando el cargándolo puede sustituir por una imagen de carga por un gif de
+
+12
+00:00:56,030 --> 00:01:00,950
+estos que parece que es una barra cargando por un círculo dando vueltas por lo que tú quiera.
+
+13
+00:01:01,130 --> 00:01:06,930
+Entonces en este caso si yo actualizo la pantalla ahora fíjate que me aparece cargando un milisegundo.
+
+14
+00:01:07,420 --> 00:01:12,610
+Si cambio de usuario ya no porque el objeto ya viene relleno realmente.
+
+15
+00:01:12,780 --> 00:01:21,330
+Entonces fíjate que si nosotro al darle a cargar usuario hacemos un disputo user igualas false.
+
+16
+00:01:21,680 --> 00:01:27,170
+Si hacemos esto cargando nos va a aparecer en cada transición que hagamos a otro usuario podemos entre
+
+17
+00:01:27,390 --> 00:01:29,390
+nos aparece el cargando y ya no aparece.
+
+18
+00:01:29,390 --> 00:01:31,490
+Vale ok.
+
+19
+00:01:31,580 --> 00:01:39,050
+Así de sencillo tarda un tiempo en cargarlo un milisegundo unas décimas de segundo y una vez que lo
+
+20
+00:01:39,050 --> 00:01:41,030
+tiene pues ya nos lo muestra.
+
+21
+00:01:41,460 --> 00:01:47,390
+Y mientras tanto tenemos un efecto de carga para darle a entender al usuario que está en la página web
+
+22
+00:01:47,450 --> 00:01:49,780
+que realmente está cargando.
+
+23
+00:01:49,850 --> 00:01:56,510
+Perfecto pues ya hemos visto otra cosita más interesante dentro de angular.

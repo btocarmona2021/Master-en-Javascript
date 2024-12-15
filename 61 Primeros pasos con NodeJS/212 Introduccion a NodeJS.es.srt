@@ -1,0 +1,51 @@
+1
+00:00:00,840 --> 00:00:08,130
+Ahora vamos a empezar a trabajar con No no DJs es una plataforma que nos permite crear scripts en JavaScript
+
+2
+00:00:08,250 --> 00:00:15,840
+ejecutables por la consola desarrollar Bakken desarrollar una web completa todo íntegramente utilizando
+
+3
+00:00:15,900 --> 00:00:23,850
+javascript tanto en el frente como en el Bakken de acuerdo entonces los usos más potentes o más interesantes
+
+4
+00:00:23,850 --> 00:00:31,200
+que tiene no DJs para hacer algún script de consola o en mi caso para lo que yo lo veo más interesante
+
+5
+00:00:31,230 --> 00:00:33,450
+para hacer una Pierres o un Bakken.
+
+6
+00:00:33,790 --> 00:00:40,500
+Entonces ahora en esta parte del curso vamos a crear un Bakken para una aplicación que vamos a hacer
+
+7
+00:00:40,680 --> 00:00:46,090
+posteriormente con angular es decir esa aplicación se va a dividir en el Bakken que va a ser el Happy
+
+8
+00:00:46,230 --> 00:00:52,110
+que vamos con los DJs que va a interactuar con la base de datos etcétera y luego la parte del frontend
+
+9
+00:00:52,110 --> 00:00:59,460
+que va a ser la parte angular y eso es lo que vamos a estar haciendo y ahora lo que vamos a hacer en
+
+10
+00:00:59,460 --> 00:01:04,920
+la siguiente clase va a ser una pequeña introducción a DJs como crear un script como ejecutarlo por
+
+11
+00:01:04,920 --> 00:01:12,180
+consola etcétera y luego pues ya empezaremos a desarrollar nuestro Bakken o nuestra API res con no de
+
+12
+00:01:12,290 --> 00:01:13,910
+J.S vale.
+
+13
+00:01:14,160 --> 00:01:15,800
+Así que eso es lo que vamos a estar viendo ahora.

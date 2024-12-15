@@ -1,0 +1,375 @@
+1
+00:00:00,510 --> 00:00:02,250
+Ya hemos visto cómo trabajar con funciones.
+
+2
+00:00:02,250 --> 00:00:03,600
+Ya sabemos lo que es una función.
+
+3
+00:00:03,600 --> 00:00:09,180
+Así que ahora vamos a ver un montón de propiedades funciones y métodos que tienen Javascript por defecto
+
+4
+00:00:09,410 --> 00:00:16,860
+que nos van a servir para procesar textos para hacer búsquedas en textos y para ver diferentes propiedades
+
+5
+00:00:17,130 --> 00:00:19,320
+en los textos o en las cadenas de texto.
+
+6
+00:00:21,100 --> 00:00:25,070
+Así que para eso vamos a crear un nuevo archivo de JavaScript.
+
+7
+00:00:25,090 --> 00:00:31,750
+Lo que vamos a ver su utilidad es súper importante así que vamos a guardar el archivo va a ser el archivo
+
+8
+00:00:31,760 --> 00:00:40,060
+23 funciones texto punto JS y vamos a ver las diferentes propiedades funciones métodos que tiene por
+
+9
+00:00:40,060 --> 00:00:43,150
+defecto JavaScript para sus variables.
+
+10
+00:00:43,150 --> 00:00:51,460
+Vamos a importar el archivo a cargar el script en el índex es el archivo número 23 funciones texto
+
+11
+00:00:55,660 --> 00:00:57,450
+guardo y vamos a verlo.
+
+12
+00:00:57,460 --> 00:00:59,180
+Vamos a ponerle el Street.
+
+13
+00:00:59,290 --> 00:01:05,620
+Lo primero que vamos a ver van a ser propiedades o métodos que nos van a permitir transformar textos
+
+14
+00:01:05,980 --> 00:01:12,740
+transformación de textos de cadenas.
+
+15
+00:01:12,740 --> 00:01:21,820
+Mira vamos a tener vamos a tener tres variables una que va a ser un número 4 4 4 otra variable que va
+
+16
+00:01:21,820 --> 00:01:33,190
+a ser un texto 1 que va a tener un que va a tener guardado un texto bienvenido al curso de JavaScript
+
+17
+00:01:35,740 --> 00:01:42,520
+de Víctor Robles y vamos a tener otra variable que va a ser un segundo texto o el nombre que tú quieras
+
+18
+00:01:42,520 --> 00:01:45,880
+ponerle la variable que va a tener otro texto.
+
+19
+00:01:46,180 --> 00:01:56,440
+Es muy buen curso entonces vamos a ver cómo transformar el número a un stream de acuerdo.
+
+20
+00:01:56,440 --> 00:01:57,500
+Ahora mismo es un número.
+
+21
+00:01:57,490 --> 00:02:00,660
+Eso ya lo hemos visto en la clase anterior pero lo vamos a refrescar.
+
+22
+00:02:00,670 --> 00:02:03,700
+Cómo transformamos ese número a un extremo.
+
+23
+00:02:03,960 --> 00:02:08,950
+Pues utilizando el método tú estoy de acuerdo.
+
+24
+00:02:08,950 --> 00:02:16,060
+Es una función que recibe como parámetro este valor número lo que pasa es que no sólo estamos pasando
+
+25
+00:02:16,060 --> 00:02:22,030
+por aquí simplemente hay que hay que poner la propiedad punto y accedemos a ese método.
+
+26
+00:02:22,030 --> 00:02:27,880
+Con esto ya convertimos el número a un string de acuerdo simplemente utilizamos el punto para acceder
+
+27
+00:02:27,880 --> 00:02:33,010
+a las propiedades o métodos que va a tener que tienen las variables en JavaScript.
+
+28
+00:02:33,250 --> 00:02:39,580
+Simplemente conecto cualquier cosa la podemos convertir poniéndole punto a una variable o a cualquier
+
+29
+00:02:39,580 --> 00:02:44,430
+dato que tengamos podemos convertirlo a otra cosa utilizando este método o no.
+
+30
+00:02:44,800 --> 00:02:46,510
+Entonces yo puedo mostrarlo.
+
+31
+00:02:46,870 --> 00:02:51,460
+Obviamente dentro de una variable no variable que se va a llamar dato y esa variable la vamos a mostrar
+
+32
+00:02:51,460 --> 00:02:59,700
+en el consorcio console punto log dato guardo y actualizo la pantalla.
+
+33
+00:03:00,310 --> 00:03:02,630
+Y aquí tenemos el dato que lo ha convertido en stream.
+
+34
+00:03:02,640 --> 00:03:11,950
+De hecho si le ponemos Taipei pues ya sabemos que el dato es un extremo efectivamente.
+
+35
+00:03:11,950 --> 00:03:17,300
+También tenemos un método para convertir un texto en minúsculas a mayúsculas.
+
+36
+00:03:17,370 --> 00:03:22,980
+Por ejemplo voy a darle otro valor de la variable dato por ejemplo el texto 1.
+
+37
+00:03:23,020 --> 00:03:32,350
+Si yo lo quiero convertir a mayúsculas pues tengo que utilizar el método tù upper case tu Upper Keys
+
+38
+00:03:32,380 --> 00:03:37,790
+por ejemplo y con eso lo convierto a mayúsculas.
+
+39
+00:03:37,790 --> 00:03:43,080
+Y si yo lo muestro en el consuelo y actualizo la pantalla me aparece bienvenido Terada pero me aparece
+
+40
+00:03:43,080 --> 00:03:49,750
+en mayúscula todo si no quiero convertir en minúsculas pues tengo que utilizar el tu lower lower catch
+
+41
+00:03:49,930 --> 00:03:51,080
+que son minúsculas.
+
+42
+00:03:51,130 --> 00:03:57,460
+Si actualizo la pantalla efectivamente me lo devuelve en minúsculas todo OK.
+
+43
+00:03:57,490 --> 00:04:05,180
+Así que tú lo Walkers para convertira minúsculas y él
+
+44
+00:04:08,790 --> 00:04:18,630
+tu Upper Keys el método tú Perquis aplicado a una variable lo que hace es convertir a mayúsculas.
+
+45
+00:04:18,850 --> 00:04:23,670
+Vale pues esto serían los métodos para transformar textos.
+
+46
+00:04:23,740 --> 00:04:33,630
+Ahora vamos a probar una propiedad para calcular la longitud que tiene un texto calcular longitud longitud
+
+47
+00:04:36,120 --> 00:04:42,000
+de acuerdo esto es muy útil para ver si realmente existe un texto y si tiene algo dentro.
+
+48
+00:04:42,180 --> 00:04:50,230
+Por ejemplo yo puedo quedarme una variable que se llame nombre y poner aquí algo vacío.
+
+49
+00:04:50,230 --> 00:05:00,160
+Vale y entonces yo con la propiedad con la propiedad punto Lent en GTA3.
+
+50
+00:05:00,550 --> 00:05:05,500
+Vale con esto yo puedo contar cuántos cuántas letras tiene un estreno.
+
+51
+00:05:05,540 --> 00:05:13,560
+Vale si yo hago esto me dice han definido me dice que no existe porque realmente el th no es realmente
+
+52
+00:05:13,560 --> 00:05:16,170
+es Lain de H.
+
+53
+00:05:16,200 --> 00:05:21,540
+Acabadamente h si lo hago así si que me dice que cero de acuerdo que hay cero.
+
+54
+00:05:21,540 --> 00:05:29,750
+Incluso si yo no tuviera definida esta variable comento esta línea me va a decir que no existe nombre
+
+55
+00:05:29,760 --> 00:05:31,280
+por lo tanto hay un error.
+
+56
+00:05:31,290 --> 00:05:38,490
+Incluso si la tuviera definida Nul el Ingeteam se nos va a dar que hay un error porque no puede procesar
+
+57
+00:05:38,550 --> 00:05:47,070
+algo anulé vale pero si yo elemento incluso si meto un número me dice han definido porque no hay texto
+
+58
+00:05:47,280 --> 00:05:48,490
+es un número.
+
+59
+00:05:48,490 --> 00:05:56,670
+Vale entonces si me da aun defined o incluso me da cero es que o no existe la variable o tiene un contenido
+
+60
+00:05:56,670 --> 00:06:04,850
+que está indefinido o que no tiene nada vale pero imagínate que yo meto mi nombre aquí pues el Lent
+
+61
+00:06:04,890 --> 00:06:11,130
+lo que va a hacer es contar la cantidad de letras que yo he metido que tiene ese string entonces perfectamente
+
+62
+00:06:11,130 --> 00:06:18,810
+me muestra el número de letra que tengo en esta cadena de texto esto es súper útil ya te digo para comprobar
+
+63
+00:06:18,810 --> 00:06:29,400
+si una variable tiene texto una variable no viene vacía etcétera vale incluso si existe esa variable
+
+64
+00:06:29,400 --> 00:06:36,720
+y esto no solamente sirve para contar la cantidad de letras sino que si yo tuviera una raï vale por
+
+65
+00:06:36,720 --> 00:06:43,220
+ejemplo si yo tuviera una raíz vuelvo a definir la variable asignarle un valor si yo tuviera un array
+
+66
+00:06:44,270 --> 00:06:53,970
+hola hola y yo utilizara el lente me va a decir que tengo dos elementos es decir que el Lent sirve para
+
+67
+00:06:53,970 --> 00:06:59,730
+contar cosas de acuerdo para contar la cantidad de elementos que hay dentro de algo ya sea dentro de
+
+68
+00:06:59,750 --> 00:07:04,710
+un string dentro de una radio o dentro de lo que sea que luego veremos cómo trabajar más con los Arráiz
+
+69
+00:07:05,280 --> 00:07:10,920
+vale pero de momento para calcular la longitud quedate con que se utiliza la propiedad punto Lent en
+
+70
+00:07:10,920 --> 00:07:12,690
+cualquier variable.
+
+71
+00:07:12,690 --> 00:07:22,080
+Ahora vamos a ver cómo concatenar concatenar concatenar es unir textos unir textos vale esto ya lo hemos
+
+72
+00:07:22,080 --> 00:07:27,720
+visto a grandes rasgos que si nosotros teníamos un texto uno y un texto dos por ejemplo vamos a utilizar
+
+73
+00:07:27,720 --> 00:07:30,000
+las variables que tenemos ahí arriba.
+
+74
+00:07:30,360 --> 00:07:36,780
+Si yo tengo el texto un intento y todos los puedo concatenar las puedo unir cómo puedo hacer eso puedo
+
+75
+00:07:36,780 --> 00:07:46,770
+crear una variable texto total que se llame texto total y puedo concatenar texto 1 con el operador más
+
+76
+00:07:48,190 --> 00:07:49,890
+puedo concatenar con texto.
+
+77
+00:07:49,890 --> 00:08:00,370
+2 Vale y yo puedo hacer perfectamente un consuelo de texto total y me van a aparecer los texto unidos
+
+78
+00:08:00,500 --> 00:08:04,920
+estar quitando el consuelo de aquí arriba para que no me esté molestando
+
+79
+00:08:08,610 --> 00:08:09,200
+vale.
+
+80
+00:08:09,600 --> 00:08:14,620
+Entonces si ahora mismo autorizo la pantalla me va a parecer todo el texto unido me aparece muy pegado
+
+81
+00:08:14,650 --> 00:08:21,460
+porque no concatenado ningún espacio si quiero concatenar alguna cosa más pues con el operador más vuelvo
+
+82
+00:08:21,460 --> 00:08:28,030
+a unir esos textos con un espacio por ahí y ahora me aparece el texto entero concatenado junto.
+
+83
+00:08:28,030 --> 00:08:32,970
+Unido vale pues hay otro método también que también nos sirve para hacer esto.
+
+84
+00:08:34,610 --> 00:08:42,700
+Puedo tener el lugar de hacer esto puedo hacer lo siguiente Puedo quedarme la variable texto total y
+
+85
+00:08:42,710 --> 00:08:49,850
+pude utilizar el método con qat sobre una variable es decir yo tengo la variable texto 1 texto 1 y utilizar
+
+86
+00:08:49,850 --> 00:08:52,410
+un método que se llama con Conkal vale.
+
+87
+00:08:52,430 --> 00:09:00,590
+Sobre esa variable y puedo concatenar de cualquier cosa vale puedo concatenar esto puedo utilizar el
+
+88
+00:09:00,590 --> 00:09:08,420
+operador más y meterle otro texto otra variable y de esta manera si yo estuviera en la pantalla el resultado
+
+89
+00:09:08,420 --> 00:09:14,180
+es exactamente el mismo utilizando el método con k en lugar de utilizar el más pues sobre esta variable
+
+90
+00:09:14,210 --> 00:09:22,160
+yo concatenado cosas para qué puede ser útil esto pues cuando a lo mejor queremos generar un texto y
+
+91
+00:09:22,330 --> 00:09:28,040
+tenemos ya varios textos anteriores a hacer un bucle pues podemos utilizar este método con qat o en
+
+92
+00:09:28,040 --> 00:09:34,010
+cualquier situación así vale bien pues esto es lo más fundamental las propiedades y funciones y métodos
+
+93
+00:09:34,040 --> 00:09:40,580
+que hay de texto más importante pero en la siguiente clase vamos a ver más funciones de texto para hacer
+
+94
+00:09:40,580 --> 00:09:42,860
+búsquedas dentro de textos etcétera.

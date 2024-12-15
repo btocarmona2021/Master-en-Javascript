@@ -1,0 +1,39 @@
+1
+00:00:01,500 --> 00:00:06,150
+Ahora imagínate que yo quiero saber cuál es el tipo de dato de cualquiera de estas variables que he
+
+2
+00:00:06,150 --> 00:00:07,890
+creado antes.
+
+3
+00:00:08,210 --> 00:00:12,890
+Para eso existe un operador de tipo de dato que se llama Taipe off.
+
+4
+00:00:12,900 --> 00:00:20,280
+De acuerdo entonces siguió con su reloj de Hip-Hop y seguido del nombre de cualquiera de mis variables
+
+5
+00:00:20,370 --> 00:00:23,690
+número entero por ejemplo.
+
+6
+00:00:23,940 --> 00:00:28,890
+Esto me va a indicar en la consola que es una variable de tipo number y de igual forma si yo hiciera
+
+7
+00:00:28,950 --> 00:00:37,900
+varios cursos de Lógica con cada una de mis variables con la cadena de texto con el verdadero falso
+
+8
+00:00:39,430 --> 00:00:41,470
+y con el número falso.
+
+9
+00:00:41,470 --> 00:00:53,180
+Vamos a ver que el tipo de dato que no devuelve es Lambe string bullían y string es decir que con el
+
+10
+00:00:53,180 --> 00:00:59,540
+Taipe Bob nos devuelve el tipo de dato exacto el cual es cualquiera de nuestras variables.

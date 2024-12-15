@@ -1,0 +1,723 @@
+1
+00:00:00,900 --> 00:00:03,150
+Ahora vamos a hacer las páginas de edición.
+
+2
+00:00:03,150 --> 00:00:11,550
+Para eso vamos a crear un nuevo componente con el comando ng g component y dentro de la carpeta components
+
+3
+00:00:13,030 --> 00:00:18,840
+voy a crear un componente que se va a llamar Edit Malet y dentro de este componente vamos a hacer toda
+
+4
+00:00:18,840 --> 00:00:25,300
+la funcionalidad necesaria para poder editar un proyecto.
+
+5
+00:00:25,860 --> 00:00:33,010
+Entonces voy a lo primero añadí una ruta para esta nueva página del proyecto.
+
+6
+00:00:33,170 --> 00:00:38,550
+Voy a importar el archivo en el fichero de rutas se llama Edit component
+
+7
+00:00:41,160 --> 00:00:56,460
+from Tobarra components barra Edit barra Edit apuntó component cierro con Kunti como Valetti y ahora
+
+8
+00:00:56,550 --> 00:01:05,040
+voy a crearme por aquí el PATH la ruta en sí para editar proyecto
+
+9
+00:01:08,250 --> 00:01:14,350
+y debía pasar una idea por la web reírle para saber qué proyecto vamos a estar editando y ahora voy
+
+10
+00:01:14,340 --> 00:01:22,350
+a cargar cuando esta web rebelde se cargue el navegador cargar el componente édith componente ok le
+
+11
+00:01:22,350 --> 00:01:27,620
+pongo una por aquí para que todo vaya bien y ya puedo acceder a esa web R.L.
+
+12
+00:01:27,630 --> 00:01:31,020
+Si a mí se me ocurre entrar a la web y editar proyecto
+
+13
+00:01:33,660 --> 00:01:36,170
+puedo entrar sin ningún tipo de problema.
+
+14
+00:01:36,160 --> 00:01:45,900
+Vale entonces vamos a modificar ese componente voy a cerrar el resto de cosas y además voy a añadir
+
+15
+00:01:45,900 --> 00:01:59,310
+aquí el link para la página de edición en HTML a usar el Rutter link que me va a llevar a la ruta editar
+
+16
+00:02:00,780 --> 00:02:10,140
+proyecto y además le va a pasar como primer parámetro y único de la web R.L el proyecto junto a un bajo
+
+17
+00:02:10,140 --> 00:02:17,040
+y que se del proyecto vale entonces ahora si me voy a proyectos a cualquiera de la web del proyecto
+
+18
+00:02:17,310 --> 00:02:23,090
+podría entrar perfectamente a la web reírle correspondiente de ahí vale ya puedo cerrar este archivo
+
+19
+00:02:24,040 --> 00:02:32,070
+archivo de proyecto también la ruta también y ahora vamos a crearnos una nueva función un nuevo método
+
+20
+00:02:32,070 --> 00:02:39,300
+en nuestro proyecto servir para editar la información de nuestros proyectos.
+
+21
+00:02:39,330 --> 00:02:43,470
+Para eso voy a crearme un método que se va a llamar update Update Proyect
+
+22
+00:02:46,510 --> 00:02:47,270
+y le va a pasar.
+
+23
+00:02:47,280 --> 00:02:54,960
+Evidentemente la idea del proyecto editar vía decirle que va de un observable de tipo en mi me voy a
+
+24
+00:02:54,960 --> 00:03:00,740
+crear también las mismas cabeceras que hemos dicho en las peticiones anteriores en los métodos anteriores
+
+25
+00:03:01,230 --> 00:03:08,760
+a hacer un returned disputo y un bajo HTTP punto y voy a utilizar el método put@ el método put@ sirve
+
+26
+00:03:08,760 --> 00:03:17,280
+para actualizar un recurso en el voy a utilizar la web disputo u RL vale y voy a utilizar el método
+
+27
+00:03:17,370 --> 00:03:26,310
+Projet y le voy a pasar el IDE del proyecto a editar y le voy a indicar también ya por último los parámetros
+
+28
+00:03:26,730 --> 00:03:32,220
+a modificar porque además no solamente tengo que pasar el IDE sino que tengo que pasarle el objeto entero
+
+29
+00:03:32,280 --> 00:03:36,160
+del proyecto proyecto que va a ser el proyecto entero.
+
+30
+00:03:36,170 --> 00:03:45,300
+Entonces voy a pasar voy a convertir ese proyecto vale voy a crear una variable panas y voy a convertir
+
+31
+00:03:45,300 --> 00:03:54,060
+ese proyecto a un en Extrem ese objeto ya hizo un punto extra en WiFi y de paso el proyecto vale de
+
+32
+00:03:54,060 --> 00:03:54,590
+esa manera.
+
+33
+00:03:54,600 --> 00:04:00,960
+Yo le paso los parámetros a la petición y me lo guarda me guarda y me actualiza el registro o el documento
+
+34
+00:04:00,960 --> 00:04:01,610
+que yo tengo.
+
+35
+00:04:02,040 --> 00:04:11,610
+Y por último le paso las cabecera dentro de un array donde un objeto Yeison o que guardo y ahora ya
+
+36
+00:04:11,610 --> 00:04:17,580
+puedo utilizar este método dentro de mi componente en este caso nuestro componente será el componente
+
+37
+00:04:17,740 --> 00:04:25,170
+édith que tenemos por aquí vamos a abrirlo y aquí tenemos que importar un montón de cosas que van a
+
+38
+00:04:25,170 --> 00:04:31,260
+ser necesaria como el servicio y todo eso que ya lo hemos importado en la parte de crear.
+
+39
+00:04:31,520 --> 00:04:41,310
+Vale esto lo vamos a copiar porque lo vamos a utilizar de la misma forma que también vamos a copiar
+
+40
+00:04:44,940 --> 00:04:46,350
+la parte de los providers
+
+41
+00:04:52,370 --> 00:04:56,660
+OK y la parte de las propiedades y el constructor
+
+42
+00:05:03,520 --> 00:05:11,510
+perfecto perfecto de momento ya lo tenemos si revisamos la consola tenemos un error en la línea 50 de
+
+43
+00:05:11,500 --> 00:05:13,990
+nuestro servicio.
+
+44
+00:05:14,660 --> 00:05:22,100
+Vale aquí he puesto y de aquí lo que tengo que poner es Projet punto y un bajo IDEA.
+
+45
+00:05:22,330 --> 00:05:31,990
+Ahora sí ahora sí con pila bien y entonces pues en nuestro componente de edición vamos a cargar la vista
+
+46
+00:05:33,820 --> 00:05:40,510
+de edición pero podríamos hacer una cosa que es reutilizar la vista del componente de crear porque básicamente
+
+47
+00:05:40,660 --> 00:05:41,620
+lo mismo.
+
+48
+00:05:41,620 --> 00:05:46,800
+Entonces simplemente en lugar de crear el proyecto en nuestro componente de edición vamos a poner dice
+
+49
+00:05:47,360 --> 00:05:55,140
+Twitter si es igual a editar proyecto vale y en lugar de inicializar esta propiedad con un objeto vacío
+
+50
+00:05:55,240 --> 00:06:00,240
+lo que vamos a hacer va a ser llamar al método del servicio que nos interese.
+
+51
+00:06:00,250 --> 00:06:09,430
+Vale como hemos hecho en el detail en el detail que lo tenemos por aquí en el o Ninet hemos llamado
+
+52
+00:06:09,490 --> 00:06:12,530
+a este método Vet Proyect que tenemos aquí.
+
+53
+00:06:12,660 --> 00:06:18,660
+Entonces vamos a copiar esto porque esto lo vamos a hacer de la misma forma lo vamos a copiar y ahora
+
+54
+00:06:18,710 --> 00:06:24,010
+lo explico en el Ninet vamos a recoger un parámetro que nos lleva por la web R.L que se dice vamos a
+
+55
+00:06:24,010 --> 00:06:29,440
+llamar a este método que es el que tenemos aquí que a su vez llama al método del servicio vale y esto
+
+56
+00:06:29,440 --> 00:06:34,990
+nos consigue el objeto del proyecto vale y eso nos rellena automáticamente el formulario Balet de forma
+
+57
+00:06:34,990 --> 00:06:38,130
+que esto ya no sería necesario.
+
+58
+00:06:38,800 --> 00:06:42,860
+Ok y entonces vamos a reutilizar la vista que teníamos en el otro componente.
+
+59
+00:06:42,970 --> 00:06:43,840
+Dónde está esa vista.
+
+60
+00:06:43,850 --> 00:06:51,550
+Pues en punto punto barra para seguir en directo y actual entramos a Create y utilizamos la vista create
+
+61
+00:06:52,920 --> 00:06:54,580
+component puntuó HTML.
+
+62
+00:06:54,580 --> 00:07:00,700
+Guardamos actualizamos la pantalla y efectivamente nos carga nuestro formulario.
+
+63
+00:07:00,710 --> 00:07:08,320
+Vale que pasa que esa vista por lo que sea vamos a abrirla.
+
+64
+00:07:08,530 --> 00:07:10,420
+Debemos tener una propiedad estátus.
+
+65
+00:07:10,420 --> 00:07:20,620
+También vamos a revisar que no hace la petición correctamente y que nos carga la información o si tenemos
+
+66
+00:07:20,620 --> 00:07:28,870
+algún error evidentemente me dice que la propiedad Parham está indefinida es porque claro no he encargado
+
+67
+00:07:28,870 --> 00:07:30,140
+los servicios de rutas.
+
+68
+00:07:30,160 --> 00:07:36,400
+Aquí vale esto en otros componentes si que lo hemos hecho así que por eso nos falla Private guión bajo
+
+69
+00:07:36,400 --> 00:07:37,320
+Rute.
+
+70
+00:07:37,580 --> 00:07:39,700
+Este tipo Actívate Rutter
+
+71
+00:07:42,520 --> 00:07:48,340
+no sé si lo que venga por aquí no lo he cargado así que ahora lo cargamos y Private y un bajo Rutter
+
+72
+00:07:48,350 --> 00:07:54,960
+es este tipo router y tenemos que cargar los componentes o los módulos del router Port
+
+73
+00:07:58,240 --> 00:08:09,660
+Rutter Activate Rute y paramos y esto está from Arrúa angular barra router cierre con punto y coma guardo
+
+74
+00:08:09,670 --> 00:08:19,630
+actualizo y ahora sí que me funciona me devuelve otros errores pero fíjate que me carga todos los datos
+
+75
+00:08:19,630 --> 00:08:24,020
+que a mi me interesaban.
+
+76
+00:08:24,490 --> 00:08:30,250
+Vale fíjate que me encargaría si yo entro cualquier otro proyecto me lo carga.
+
+77
+00:08:30,250 --> 00:08:34,710
+Me cago su información porque hace una petición salvaje en Ital y lo comprueba.
+
+78
+00:08:34,750 --> 00:08:37,720
+Entonces vamos a revisar qué errores nos puede dar.
+
+79
+00:08:38,440 --> 00:08:39,340
+Dice que
+
+80
+00:08:44,150 --> 00:08:46,010
+no puede leer la propiedad Image.
+
+81
+00:08:46,040 --> 00:08:48,260
+Vale me funciona.
+
+82
+00:08:48,320 --> 00:08:51,740
+Lo único que me falta es que dice que la propiedad hay un bajo y no existe.
+
+83
+00:08:51,830 --> 00:08:57,740
+Esto es simplemente porque aquí tenemos que hacer un MFI En el contenedor principal comprobando si Projet
+
+84
+00:08:57,740 --> 00:08:59,160
+existe.
+
+85
+00:08:59,160 --> 00:09:06,140
+Vale y aquí solamente compruebo si imágenes sistemasde porque realmente accedemos a propiedades que
+
+86
+00:09:06,140 --> 00:09:08,430
+todavía no tiene.
+
+87
+00:09:08,710 --> 00:09:15,540
+Que todavía no tiene no tiene cargadas por allá entonces como JavaScript carga antes de que Ayax me
+
+88
+00:09:15,530 --> 00:09:18,340
+haya devuelto el resultado.
+
+89
+00:09:18,340 --> 00:09:23,900
+Pues por eso da el error y por eso también da un error cuando entro a editar porque tengo que hacer
+
+90
+00:09:23,900 --> 00:09:25,860
+un ir de el objeto.
+
+91
+00:09:25,860 --> 00:09:32,180
+Vale aquí el principio tendría que hacer un NG y cuando
+
+92
+00:09:35,810 --> 00:09:39,650
+proyecto se haya cargado y tenga algo dentro.
+
+93
+00:09:39,740 --> 00:09:41,730
+Ahora ya no me va a dar error.
+
+94
+00:09:41,810 --> 00:09:45,850
+Efectivamente si entro a El proyecto tampoco me va a dar error.
+
+95
+00:09:45,860 --> 00:09:48,260
+Ya funcionaba bien vale perfecto.
+
+96
+00:09:48,950 --> 00:09:51,550
+Entonces me carga la información que a mi me interesa.
+
+97
+00:09:51,560 --> 00:09:58,520
+Otra cosa que me interesa es que me muestre la imagen del proyecto antes de querer meditarla o lo que
+
+98
+00:09:58,520 --> 00:09:58,820
+sea.
+
+99
+00:09:58,820 --> 00:10:03,700
+Entonces aquí en la parte de create componían HTML.
+
+100
+00:10:03,940 --> 00:10:14,270
+Aquí en la parte de la imagen yo voy a hacer un DIV que va a tener un NG IHF que va a comprobar si Proyect
+
+101
+00:10:14,840 --> 00:10:22,170
+punto Image existe y en el caso de que existiera la va a mostrar directamente.
+
+102
+00:10:22,170 --> 00:10:29,870
+Vale igual que hemos hecho por ejemplo el detalle para mostrar esto va a hacer exactamente esto igual
+
+103
+00:10:30,750 --> 00:10:35,650
+lo vamos a hacer pero aquí ok.
+
+104
+00:10:35,820 --> 00:10:44,660
+Y además le vamos a poner un Wiz de 100 píxeles a nivel de propiedades de HTML para que fuerce ese tamaño
+
+105
+00:10:45,890 --> 00:10:47,350
+de la pantalla.
+
+106
+00:10:47,390 --> 00:10:51,380
+Aquí ya tenemos un error vamos a revisar que puede estar pasando.
+
+107
+00:10:51,860 --> 00:10:56,950
+Me dice que no podemos meter el dedo dentro de un párrafo con lo cual vamos a meter un Span
+
+108
+00:10:59,760 --> 00:11:10,990
+guardo actualizo ahora sí y me dice que aun defined no se que no sé cuánto es porque la web del proyecto
+
+109
+00:11:10,990 --> 00:11:17,380
+no la tengo cargada en mi edit componen.
+
+110
+00:11:17,380 --> 00:11:24,700
+Efectivamente no la tengo cargada en todo esto que crearme aquí la propiedad públic o R.L que sea de
+
+111
+00:11:24,700 --> 00:11:26,400
+tipo String.
+
+112
+00:11:26,650 --> 00:11:38,340
+Entonces por aquí hago punto o RL global punto o RL de esta manera si que me va a cargar la imagen.
+
+113
+00:11:38,620 --> 00:11:41,980
+Aquí la vemos evidentemente me la hace demasiado grande
+
+114
+00:11:47,110 --> 00:11:56,120
+y no me hace caso al HTML así que voy a ponerle unos estilos diferentes o uno de estilo en linea esta
+
+115
+00:11:58,340 --> 00:12:09,710
+es igual a back up with 100 PX guardo actualizo el conteiner este también le vamos a poner un estilo
+
+116
+00:12:09,710 --> 00:12:14,780
+en línea de momento que va a ser un float Nonell para ver como queda
+
+117
+00:12:18,080 --> 00:12:21,710
+ok actualizo la pantalla.
+
+118
+00:12:22,050 --> 00:12:29,360
+Vaya aquí sí que me aparece la imagen ya mas o menos bien incluso podríamos ponerle un Berres para que
+
+119
+00:12:29,360 --> 00:12:32,030
+salte de linea.
+
+120
+00:12:32,030 --> 00:12:33,180
+Vale ya lo tenemos.
+
+121
+00:12:33,230 --> 00:12:39,390
+Si me interesa editar esta información yo puedo meterle cualquier dato aquí
+
+122
+00:12:44,650 --> 00:12:48,060
+vale y enviar.
+
+123
+00:12:48,220 --> 00:12:54,320
+Ahora vemos que no ha fallado porque no me redirigió en ninguna parte y me ha hecho nada vale.
+
+124
+00:12:54,340 --> 00:12:58,730
+Vamos a revisar qué pasa dice a un Submit It is no Daffunchio.
+
+125
+00:12:58,810 --> 00:13:09,570
+Evidentemente no estoy llamando no tengo lo primero un método un summit no lo tengo asumido y luego
+
+126
+00:13:09,570 --> 00:13:13,570
+que no esté llamando tampoco a mi método del servicio entonces voy a llamar a mi método de servicio
+
+127
+00:13:13,990 --> 00:13:18,030
+disputo y un bajo proyecto servis.
+
+128
+00:13:18,190 --> 00:13:19,480
+Punto.
+
+129
+00:13:19,930 --> 00:13:29,600
+Un date Proyect y le voy a pasar mi objeto disputo proyecto.
+
+130
+00:13:29,860 --> 00:13:37,270
+Utilizo el método subscribe y esto pues recoge una Response y un error
+
+131
+00:13:42,000 --> 00:13:48,370
+cierra un punto y coma en el caso de que la responsable venga correcta voy a hacer lo mismo que lo que
+
+132
+00:13:48,370 --> 00:13:52,110
+he hecho cuando he hecho el create vale en el Create.
+
+133
+00:13:52,120 --> 00:14:01,540
+He llamado al ulo a servir para subir la imagen y luego he mostrado los errores o no en función de lo
+
+134
+00:14:01,540 --> 00:14:07,480
+que pasará voy a copiar este trozo de código lo pongo por aquí si me llega el proyecto voy a subir la
+
+135
+00:14:07,480 --> 00:14:08,560
+imagen vale
+
+136
+00:14:11,830 --> 00:14:18,850
+voy a subir la imagen voy a utilizar la propiedad 6 proyecto voy a decir que la estatua es Acces y no
+
+137
+00:14:18,850 --> 00:14:23,860
+lo voy a ejecutar esta vez porque no me interesa esta vez y listo.
+
+138
+00:14:23,930 --> 00:14:28,420
+Vale esta moneda si que me va a funcionar ya cuando yo trate de editar la información voy a poner otro
+
+139
+00:14:28,420 --> 00:14:36,160
+título voy a darle a enviar spam y me dice que tenemos un problema.
+
+140
+00:14:36,160 --> 00:14:45,340
+Dice que tenemos un error en la línea 58 de édith component eso es porque el network update que yo he
+
+141
+00:14:45,340 --> 00:14:52,390
+hecho me ha devuelto me ha devuelto el proyecto correctamente de hecho me lo he editado bien porque
+
+142
+00:14:52,390 --> 00:14:58,660
+si actualizo la pantalla los datos me aparecen actualizados.
+
+143
+00:14:58,690 --> 00:15:10,880
+El problema es que me falla me falla el tema de la subida de archivo porque si si realmente tengo un
+
+144
+00:15:10,880 --> 00:15:18,420
+método que me rellene la propiedad dis File Hublot pues me falla.
+
+145
+00:15:18,420 --> 00:15:18,950
+Vale.
+
+146
+00:15:18,950 --> 00:15:24,230
+De hecho la tengo la propiedad pero no tengo ese método ese método lo tengo en el create lo puedo copiar
+
+147
+00:15:25,190 --> 00:15:34,010
+este método de aquí lo copio y pego en el Hedi componen también porque lo vamos a estar usando y aparte
+
+148
+00:15:34,070 --> 00:15:45,440
+el Upload solamente tengo que hacerlo cuando disputo files lo tenga algo realmente corto pego por aquí
+
+149
+00:15:46,500 --> 00:15:55,600
+y aquí cuando esto Link sea mayor o igual a 1 entonces ya cuando sea mayor igual a 1 la selección del
+
+150
+00:15:55,630 --> 00:16:01,130
+archivo entonces voy a hacer la subida de archivos y mientras tanto mientras tanto no voy a hacerla.
+
+151
+00:16:01,130 --> 00:16:07,030
+Vale entonces vuelvo a actualizar la pantalla vuelvo a modificar el proyecto.
+
+152
+00:16:07,040 --> 00:16:09,570
+Vamos que los datos los cambia correctamente.
+
+153
+00:16:09,770 --> 00:16:19,650
+Voy a darle a enviar y me sigue dando un error a quitarle el Lent simplemente lo voy a dejar así.
+
+154
+00:16:20,060 --> 00:16:23,510
+Cuando fui a Thula llevé algo dentro.
+
+155
+00:16:23,540 --> 00:16:26,010
+Le voy a dar a enviar.
+
+156
+00:16:26,230 --> 00:16:27,680
+Vale ahora no me da fallo
+
+157
+00:16:31,670 --> 00:16:34,400
+Malen me viene bien la información.
+
+158
+00:16:34,860 --> 00:16:38,210
+Entonces si me viene bien la información voy a hacer en un Elspeth
+
+159
+00:16:42,910 --> 00:16:53,030
+lo mismo que hago dentro de El Calvario de la subida de archivo pero esta vez con Response Proyect.
+
+160
+00:16:55,180 --> 00:16:56,320
+Guardo actualizo
+
+161
+00:16:59,620 --> 00:17:06,040
+voy a darle a enviar y me dice que el proyecto queda que se ha creado correctamente o se ha editado
+
+162
+00:17:06,040 --> 00:17:08,260
+correctamente lo que sea puedo verlo aquí.
+
+163
+00:17:08,350 --> 00:17:10,770
+Vale puedo ir a verlo a modificar.
+
+164
+00:17:10,770 --> 00:17:17,550
+Otro dato enviar dice lo mismo le di a ver y efectivamente me cambia la información.
+
+165
+00:17:17,650 --> 00:17:20,170
+Vale ahora sí trato de subió de la foto
+
+166
+00:17:23,400 --> 00:17:30,420
+envíar me dice lo mismo y me voy a verla pues me aparece con la nueva foto con lo cual ya tenemos la
+
+167
+00:17:30,420 --> 00:17:35,260
+parte de edición también hecha OK.
+
+168
+00:17:35,310 --> 00:17:40,180
+Así que pues nada más.
+
+169
+00:17:40,200 --> 00:17:42,230
+Nada más.
+
+170
+00:17:42,240 --> 00:17:49,020
+Simplemente ya hemos hecho nuestra aplicación Web ya tenemos todas las secciones hechas salvo la de
+
+171
+00:17:49,020 --> 00:17:56,220
+contacto porque aquí pueden meterte un formulario o lo que sea pero el resto de cosas ya no funciona.
+
+172
+00:17:56,610 --> 00:17:59,420
+Ya podemos editar y borrar y tal.
+
+173
+00:17:59,470 --> 00:18:05,580
+Otra mejora que podríamos hacer es hacer esto mismo pero en la parte de crear el create entonces lo
+
+174
+00:18:05,580 --> 00:18:09,300
+podemos poner también a create para que solamente suba la imagen cuando tenga que subirla
+
+175
+00:18:12,500 --> 00:18:12,790
+OK
+
+176
+00:18:17,520 --> 00:18:26,880
+y la ponemos esto mismo incluso el reset aquí dentro
+
+177
+00:18:31,280 --> 00:18:36,390
+y esto sería responsa si hacemos este cambio y probamos a subir algún proyecto
+
+178
+00:18:47,250 --> 00:18:48,140
+subo una imagen
+
+179
+00:18:54,170 --> 00:19:02,500
+debía enviar mi tío que pudiera verlo y siga funcionando así que ya tenemos el proyecto hecho ya sabemos
+
+180
+00:19:02,500 --> 00:19:07,930
+utilizar angular bastante bien y ya sabemos bastante bastantes cosas y ya sabemos cómo desarrollar aplicaciones
+
+181
+00:19:07,930 --> 00:19:12,240
+con este Frankfort unido con un baqueano con una Pierres de acuerdo.

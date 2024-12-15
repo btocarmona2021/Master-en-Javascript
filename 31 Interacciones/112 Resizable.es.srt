@@ -1,0 +1,87 @@
+1
+00:00:00,500 --> 00:00:03,090
+Ya hemos visto cómo se puede mover un elemento de la página.
+
+2
+00:00:03,090 --> 00:00:05,500
+Ahora vamos a ver cómo poder redimensionar.
+
+3
+00:00:05,970 --> 00:00:12,900
+Para eso tenemos que incluir antes de nada los estilos CSS y qwerty y para eso tenemos que añadir una
+
+4
+00:00:12,900 --> 00:00:17,640
+etiqueta Linn justo antes de cargar el script de QWERTY y hoy vale.
+
+5
+00:00:17,640 --> 00:00:27,120
+Justo aquí tenemos que cargar los estilos CSS para eso utilizamos la etiqueta Lync del estilo GIT Styx
+
+6
+00:00:27,240 --> 00:00:27,690
+GIT
+
+7
+00:00:30,750 --> 00:00:43,200
+HR-V y le decimos dónde están los estilos CSS en el JS barra QWERTY guión UI barra QWERTY guion uy punto
+
+8
+00:00:43,760 --> 00:00:46,260
+mín punto CSS.
+
+9
+00:00:46,320 --> 00:00:52,470
+Este es un archivo luego de incluir los del tema y de la estructura.
+
+10
+00:00:52,590 --> 00:00:54,930
+Incluimos punto estructure
+
+11
+00:00:57,900 --> 00:01:02,990
+incluimos también punto theme.
+
+12
+00:01:03,060 --> 00:01:07,920
+De esta manera pues ya hemos cargado los estilos CSS y de momento nada cambia.
+
+13
+00:01:07,920 --> 00:01:15,480
+Vale ahora vamos a redimensionar o redimensionar los elementos redimensionar.
+
+14
+00:01:15,480 --> 00:01:19,850
+Para eso utilizamos elementos y utilizamos el método.
+
+15
+00:01:20,010 --> 00:01:23,800
+Para eso utilizamos el selector que hemos creado antes.
+
+16
+00:01:24,360 --> 00:01:32,980
+Seleccionamos los elementos cuya clase sea punto elemento y utilizamos el método reishi.
+
+17
+00:01:33,060 --> 00:01:39,150
+De esta manera si actualizo la pantalla me aparece la esquinita y yo puedo mover mi elemento y no solamente
+
+18
+00:01:39,150 --> 00:01:43,220
+moverlo sino que puedo redimensionar para que sea enorme.
+
+19
+00:01:43,330 --> 00:01:48,620
+Vale fíjate y lo borra dimensiones sin ningún tipo de problema.
+
+20
+00:01:48,690 --> 00:01:54,630
+Evidentemente aquí podría cambiar el tema de estilos darle posiciones assoluta y toda la historia para
+
+21
+00:01:54,630 --> 00:02:02,040
+que no se sobre escribieran la esquinita esta una encima de otra sino que tuvieran Unceta índex diferente.
+
+22
+00:02:02,280 --> 00:02:06,750
+Pero bueno a grandes rasgos ya estamos viendo como también podemos redimensionar elementos.

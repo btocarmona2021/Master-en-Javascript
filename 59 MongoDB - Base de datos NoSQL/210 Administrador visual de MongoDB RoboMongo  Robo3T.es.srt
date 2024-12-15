@@ -1,0 +1,279 @@
+1
+00:00:00,360 --> 00:00:05,770
+Una vez que tenemos instalado no DJs y Mungo ya podemos pasar a instalar una herramienta más.
+
+2
+00:00:05,880 --> 00:00:13,980
+Hay una herramienta que se llamaba robo Mungo que nos permitía trabajar con Mungo Debé de manera visual
+
+3
+00:00:14,010 --> 00:00:18,800
+con las bases de datos de Mungo y con las colecciones de datos de Mongo.
+
+4
+00:00:18,810 --> 00:00:23,820
+Ahora esa herramienta se llama robo 3T de acuerdo y es una herramienta visual que nos va a permitir
+
+5
+00:00:23,820 --> 00:00:30,170
+trabajar muy muy fácilmente con una base de datos de Mungo con sus colecciones con sus propiedades como
+
+6
+00:00:30,180 --> 00:00:37,800
+archivo Jayson de acuerdo con lo Allyson que realmente guarda que en realidad son son Bison de acuerdo
+
+7
+00:00:37,830 --> 00:00:44,380
+Binary Jayson y con todo eso entonces vamos a descargar robo mongo mongo de Guy.
+
+8
+00:00:44,460 --> 00:00:50,730
+De acuerdo que nos permite evitar la consola de comandos que es muy rudimentaria en este caso para trabajar
+
+9
+00:00:50,730 --> 00:00:57,540
+con Mungo entonces vamos a descargar robo Mungo me lo voy a descargar hay versión para Mac y Linux también
+
+10
+00:00:57,540 --> 00:01:04,470
+así que es muy fácil instalarlo y me voy a descargar la versión de Windows en la versión punto ExE para
+
+11
+00:01:04,470 --> 00:01:05,240
+instalarla.
+
+12
+00:01:06,490 --> 00:01:10,350
+Vale lo descargo y cuando acabe la descarga voy a ejecutar el instalador
+
+13
+00:01:16,730 --> 00:01:17,900
+ejecuto el instalador
+
+14
+00:01:22,200 --> 00:01:23,040
+y le digo que si
+
+15
+00:01:26,280 --> 00:01:31,560
+antes de continuar con la instalación de robo Mungo lo que voy a hacer va a ser recomendable arrancar
+
+16
+00:01:31,560 --> 00:01:37,230
+mi MongoDB porque si no lo tengo arrancado puede que no lo reconozca entonces voy a abrir archivos de
+
+17
+00:01:37,230 --> 00:01:47,010
+programa MongoDB Server 3.2 Binh y voy a abrir MongoDB que es el demonio que siempre tienen que estar
+
+18
+00:01:47,010 --> 00:01:52,860
+corriendo y luego se abre un mundo junto a ella en la consola para trabajar con Mongo pero esto no hace
+
+19
+00:01:52,860 --> 00:01:59,010
+falta lo que hace falta es tener el mongo de arrancado que es el demonio que realmente tiene ejecutándose
+
+20
+00:01:59,010 --> 00:02:00,380
+la base de datos.
+
+21
+00:02:00,460 --> 00:02:07,730
+Vale entonces le voy a dar la siguiente le voy a dar al que esto termino voy a dejar la ruta por defecto
+
+22
+00:02:07,740 --> 00:02:14,370
+al díasiguiente le doy a siguiente instalar y espero que lo instale esto es un programa muy ligero y
+
+23
+00:02:14,370 --> 00:02:15,990
+tarda nada en quitarlo.
+
+24
+00:02:15,990 --> 00:02:24,360
+De hecho ya lo caballista y ahora le voy a dar a ejecutar robo 3T de acuerdo le voy a terminar y ahora
+
+25
+00:02:24,360 --> 00:02:30,540
+me debe ejecutar robo Mungo me pregunta que si acepto las condiciones de uso que son de genio le digo
+
+26
+00:02:30,540 --> 00:02:39,840
+que si le digo siguiente y aquí puedo poner mi nombre Victor Robles y no hace falta ni siquiera introducir
+
+27
+00:02:39,840 --> 00:02:43,280
+el IMEI porque si llegamos a Finnish ya nos deja entrar.
+
+28
+00:02:43,300 --> 00:02:48,950
+Vale ahora lo que tenemos que hacer es configurar una conexión a MongoDB podríamos tener muchas conexiones
+
+29
+00:02:48,960 --> 00:02:55,830
+abierta en este programa por una conexión remota a una conexión local etc entonces puedo darle a create
+
+30
+00:02:56,190 --> 00:02:57,030
+una nueva conexión.
+
+31
+00:02:57,080 --> 00:03:05,130
+Entonces esto va a ser una conexión directa la conexión se va a llamar MongoDB local que es el nombre
+
+32
+00:03:05,130 --> 00:03:11,540
+que yo le quiero poner esto está en local y efectivamente el puerto por defecto de Mongo es 27 017.
+
+33
+00:03:11,770 --> 00:03:20,040
+Si no lo has cambiado es el que va a tener la autenticación no tiene SSH nada de nada y esto también
+
+34
+00:03:20,160 --> 00:03:29,820
+tampoco voy a tocarlo le he said y ya le puedo dar a Connect y efectivamente ya me carga a mi mi base
+
+35
+00:03:29,820 --> 00:03:37,830
+de datos de Mongo me acuerdo me cargo a mi me conecta Mungo a mi mongo Debé local a mi servidor de Mungo
+
+36
+00:03:37,920 --> 00:03:42,900
+y me carga toda mi base de datos del cual tengo aquí todas las bases de datos que yo tengo por ejemplo
+
+37
+00:03:45,630 --> 00:03:52,170
+en cursos anteriores tengo esta base de datos de álbums tengo también una base de datos del curso de
+
+38
+00:03:52,170 --> 00:03:59,250
+1002 que tengo una serie de colecciones que son algunos Marthita canciones usuario entonce aquí podríamos
+
+39
+00:03:59,250 --> 00:04:03,330
+ver por ejemplo un usuario tendría tendríamos visible el índice.
+
+40
+00:04:03,360 --> 00:04:12,690
+Cuáles son las claves de las claves primarias que tienen de acuerdo a la clave principal con la cual
+
+41
+00:04:12,690 --> 00:04:15,500
+se va a relacionar un objeto con otro.
+
+42
+00:04:15,660 --> 00:04:22,590
+Si doy doble clic veo los registros que tengo de acuerdo e incluso nos pone que consulta ha ejecutado
+
+43
+00:04:22,590 --> 00:04:26,010
+en Mungo para que saca este listado.
+
+44
+00:04:26,040 --> 00:04:29,390
+Por ejemplo yo aquí tengo varios usuarios.
+
+45
+00:04:30,120 --> 00:04:36,000
+Fíjate que me lo muestra aquí que son datos que yo tengo guardado en esta tabla o en esta colección
+
+46
+00:04:36,000 --> 00:04:39,920
+de objetos de Mongo de acuerdo en la colección uses.
+
+47
+00:04:40,020 --> 00:04:44,980
+Entonces tengo pues todo esto objeto guardado en esta colección.
+
+48
+00:04:45,040 --> 00:04:50,940
+Estos objetos son de acuerdo pero aquí los podemos procesar fácilmente por ejemplo si yo quisiera modificar
+
+49
+00:04:50,940 --> 00:04:56,730
+este usuario simplemente le doy a Eric document y me saca el Jayson Akita el cual es limpio y yo puedo
+
+50
+00:04:56,730 --> 00:05:02,640
+modificar lo que quiera si modifico evidentemente el opioide esto se va a romper si lo tenemos relacionado
+
+51
+00:05:02,640 --> 00:05:07,830
+con algo de acuerdo si tenemos Etty de guardado en nuestro campo o de otro sitio como aquí no hay ningún
+
+52
+00:05:07,830 --> 00:05:14,220
+tipo de anti de integridad referencial puesto a PTAR es decir luego cuando intenté sacar registro relacionado
+
+53
+00:05:14,400 --> 00:05:19,110
+no va a funcionar pero bueno yo podría modificar cualquier dato malillo pudiera cambiarle el nombre
+
+54
+00:05:19,110 --> 00:05:27,750
+aquí a esto y darle a validar para que no diga que el Guillo no es válido o no es válido.
+
+55
+00:05:27,800 --> 00:05:30,060
+Qué idea guardar de esa manera.
+
+56
+00:05:30,060 --> 00:05:37,830
+Yo ya he modificado fíjate lo todo usuario y aquí nos muestra toda la información todos los datos páginas.
+
+57
+00:05:38,660 --> 00:05:44,860
+En fin si abro otra colección pues también me lo muestra absolutamente todo.
+
+58
+00:05:45,020 --> 00:05:51,300
+Es decir que con esto vamos a poder trabajar muy fácilmente con Mongo deve y con sus colecciones de
+
+59
+00:05:51,300 --> 00:05:53,810
+objetos de acuerdo que guardamos.
+
+60
+00:05:53,850 --> 00:06:00,730
+También podemos modificar lo que vienen siendo la consulta y simplemente buscar por algún tipo de criterio
+
+61
+00:06:00,730 --> 00:06:01,560
+o lo que sea.
+
+62
+00:06:02,010 --> 00:06:15,150
+Por ejemplo yo puedo buscar cuando la duración duration sea igual a 4 40
+
+63
+00:06:18,230 --> 00:06:26,690
+en este caso y si idea Play píllate que me saca solamente las canciones o en este caso los registros
+
+64
+00:06:26,690 --> 00:06:32,540
+que tienen como duración 4:40 vale puedo filtrar aquí puedo ejecutar comando como si estuviera en la
+
+65
+00:06:32,540 --> 00:06:40,190
+consola y también puedo añadir nueva no documento o que puedo darle insertó como Iñaqui yo me codificó
+
+66
+00:06:40,200 --> 00:06:47,420
+Mollison y introduzco un nuevo documento así que esta herramienta no va a ser clave para trabajar con
+
+67
+00:06:47,420 --> 00:06:47,960
+Mungo.
+
+68
+00:06:47,960 --> 00:06:54,110
+Anteriormente yo no lo había usado porque muchas veces intento ser purista con las cosas y simplemente
+
+69
+00:06:54,950 --> 00:07:01,330
+utilizar lo que me da por defecto o un lenguaje o una herramienta pero bueno esta herramienta está muy
+
+70
+00:07:01,370 --> 00:07:05,510
+bien para trabajar con mungo y la vamos a estar utilizando eventualmente.

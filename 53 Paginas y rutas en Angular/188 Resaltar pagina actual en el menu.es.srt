@@ -1,0 +1,107 @@
+1
+00:00:01,140 --> 00:00:06,330
+Otra cosa que podríamos hacer con el menú de navegación es que cuando nosotros accedemos a cualquiera
+
+2
+00:00:06,330 --> 00:00:12,720
+de las secciones de nuestra web se nos marque cómo estamos en esa sección en el menú es decir que se
+
+3
+00:00:12,720 --> 00:00:20,490
+nos active o se nos resalte la sección en la cual estamos de acuerdo eso se puede hacer fácilmente utilizando
+
+4
+00:00:20,490 --> 00:00:26,880
+una directiva del router y además en base a la web después se puede remarcar cualquiera de los elementos
+
+5
+00:00:27,180 --> 00:00:33,320
+de nuestro menú así que vamos a utilizar una directiva que se llama Rutter linga Active que si se la
+
+6
+00:00:33,360 --> 00:00:49,520
+aplico aquí Rutter Link active yo puedo aplicarle una clase de CSS una o muchas clases de CSS a mi elemento
+
+7
+00:00:49,520 --> 00:00:55,350
+del menú por ejemplo le voy a poner la clase activado o active le vamos a poner y ahora vamos a crear
+
+8
+00:00:55,370 --> 00:00:56,550
+nuestro CSS.
+
+9
+00:00:57,830 --> 00:01:07,670
+Vamos a copiar y pegar esta directiva en cada uno de los links de este atributo Rutter Link active cuando
+
+10
+00:01:07,760 --> 00:01:13,570
+estemos con este link activo se nos va a añadir esta clase a nuestro elemento del menú actualizamos
+
+11
+00:01:13,580 --> 00:01:22,310
+la pantalla y presionamos el elemento ahora mismo esto tiene el Rute Annika active tiene la clase Active.
+
+12
+00:01:22,310 --> 00:01:28,820
+Si me voy a zapatillas y lo reviso ahora tiene la clase activa de zapatillas así que nos quedaría Añadir
+
+13
+00:01:28,830 --> 00:01:37,460
+nuevo estilo CSS en nuestro archivo de assets esta vez aquí añadimos la clase Active y le vamos a poner
+
+14
+00:01:37,460 --> 00:01:48,860
+uno estilo vamos a poner un border trepé X Solid Yellow Male de esta manera fíjate lo que pasa cuando
+
+15
+00:01:50,000 --> 00:01:50,760
+yo marco
+
+16
+00:01:55,110 --> 00:02:04,520
+un elemento con la clase Active y cuando yo navego entre las diferentes páginas de la web vale realmente
+
+17
+00:02:04,580 --> 00:02:07,510
+como en la web R.L existe lo que hay en el local.
+
+18
+00:02:07,550 --> 00:02:11,690
+Fíjate que en nuestro router hemos puesto barra.
+
+19
+00:02:11,720 --> 00:02:13,820
+Esto existe realmente en
+
+20
+00:02:16,650 --> 00:02:24,400
+todos los links del local 4200 la barra inicial existe en todos los Lim por eso se resalta entonce quizás
+
+21
+00:02:24,420 --> 00:02:33,000
+sea recomendable crear una ruta alternativa que sea la ruta Jonh que deben cargar el componente y ponerlo
+
+22
+00:02:33,000 --> 00:02:34,800
+aquí en el router.
+
+23
+00:02:34,800 --> 00:02:41,790
+Barra John ponerlo en el link del menú que vaya rajón en lugar de barra solamente y de esa manera solucionamos
+
+24
+00:02:41,790 --> 00:02:42,920
+el pequeño problemilla.
+
+25
+00:02:42,960 --> 00:02:51,410
+Y ahora pues el resultado queda perfecto y ya sabemos en qué página estamos en concreto de nuestra aplicación.
+
+26
+00:02:51,420 --> 00:02:57,920
+También podríamos poner un HDR por aquí para separar lo que viene siendo el menú de la parte de abajo
+
+27
+00:02:57,930 --> 00:03:03,720
+de acuerdo de la parte de la sección en concreto con lo cual ya tenemos nuestro menú de navegación hecho.

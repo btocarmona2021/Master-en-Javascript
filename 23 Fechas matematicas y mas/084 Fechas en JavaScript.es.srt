@@ -1,0 +1,219 @@
+1
+00:00:01,020 --> 00:00:07,320
+Ahora vamos a aprender a trabajar con las fechas en JavaScript y también con las funciones matemáticas.
+
+2
+00:00:07,330 --> 00:00:12,810
+Vale primero vamos a trabajar con la fecha para esto nos vamos a crear un nuevo archivo de JavaScript
+
+3
+00:00:12,900 --> 00:00:19,370
+dentro de nuestro directorio de JS Que se va a llamar 38 fechas.
+
+4
+00:00:19,540 --> 00:00:23,990
+JS vale y vamos a empezar a trabajar con el tema de la fecha.
+
+5
+00:00:24,030 --> 00:00:29,160
+Para esto tenemos que utilizar el objeto de acuerdo si queríamos crear una variable adicional en fecha
+
+6
+00:00:29,920 --> 00:00:37,110
+aquí yo puedo crear un objeto Daguet con la palabra New Darth Vader y con esto simplemente yo ya tengo
+
+7
+00:00:37,110 --> 00:00:37,620
+la fecha.
+
+8
+00:00:37,620 --> 00:00:48,540
+Si hiciera Consol y punto fecha aquí va a estar guardada la fecha vale vamos a cargar este archivo aquí
+
+9
+00:00:48,630 --> 00:00:58,280
+en nuestro código HTML datos de tennō en HTML el 38 fecha fechas.
+
+10
+00:00:59,190 --> 00:01:03,420
+Si yo hago esto y muestro la consola
+
+11
+00:01:09,280 --> 00:01:10,470
+y actualizo la pantalla
+
+12
+00:01:13,210 --> 00:01:18,170
+aquí me indica la fecha que tenemos en este caso me dice.
+
+13
+00:01:18,170 --> 00:01:22,750
+Miércoles 4 de abril de 2018 y la hora de acuerdo nos dice todo.
+
+14
+00:01:22,750 --> 00:01:23,750
+Toda la información.
+
+15
+00:01:24,720 --> 00:01:25,760
+OK.
+
+16
+00:01:25,930 --> 00:01:31,280
+Así que de esa manera podemos sacar la fecha y volver a invocar a la variable fecha aquí vamos a ver
+
+17
+00:01:31,280 --> 00:01:33,660
+lo que tiene dentro fecha.
+
+18
+00:01:34,020 --> 00:01:39,820
+Me saca pues el horario de acuerdo a la hora en la que estábamos la hora acordada dentro de la variable.
+
+19
+00:01:39,860 --> 00:01:46,960
+De igual forma se hiciera New Day aquí vale me sacaría la hora actualizada de acuerdo.
+
+20
+00:01:46,970 --> 00:01:53,660
+Fíjate que en cada momento que yo ejecuto esto me muestra los lo segundo actualizado.
+
+21
+00:01:53,660 --> 00:01:59,130
+De igual forma voy yo podría hacer un reloj dinámico que se fue actualizando cada segundo y tal vez
+
+22
+00:01:59,230 --> 00:02:05,360
+por eso igual lo vemos luego como hacerlo en base a la fecha bloquearme era una variable que se llame
+
+23
+00:02:05,840 --> 00:02:12,760
+que se llame texto Hola Balerio ponen las comillas invertidas para meter aquí texto.
+
+24
+00:02:13,150 --> 00:02:20,280
+Y entonces yo podría sacar aquí el día el día el mes el año la hora y podría ser.
+
+25
+00:02:20,350 --> 00:02:29,900
+Empezamos por el año el año es y aquí yo voy a mostrar con una interpolación de variable mostraré aquí
+
+26
+00:02:30,200 --> 00:02:36,290
+el año Geer de acuerdo dirigías la variable IER que vamos a aclarar ahora después bañábamos y creándola
+
+27
+00:02:37,190 --> 00:02:44,360
+var Guier de aquí crearemos la variable vale cómo acabar el año en base a una fecha pues puedo hacer
+
+28
+00:02:44,810 --> 00:02:49,230
+fecha punto días y de esta manera tan sencilla.
+
+29
+00:02:49,250 --> 00:02:57,470
+Yo ya tengo aquí el año si yo imprimo aquí texto ahora en el consuelo me va a sacar que el año es el
+
+30
+00:02:57,470 --> 00:03:06,410
+2018 OK cuando acabe hacer esto efectivamente el año es 1 1 8 me saca el 1 1 8 pero si quiero sacar
+
+31
+00:03:06,530 --> 00:03:13,190
+el mes del año completo tendré tendré que hacer Jet four years que me sacaré el año completo.
+
+32
+00:03:13,460 --> 00:03:20,690
+De esa manera si estuviese en la pantalla me Sakaki que el año es el 2018 o que vamos a sacar más información
+
+33
+00:03:23,970 --> 00:03:33,390
+por ejemplo el mes es y aquí podemos meterle el mes la variable mes
+
+34
+00:03:36,140 --> 00:03:42,510
+y yo puedo utilizar la variable fecha y utiliza el método GET Mac.
+
+35
+00:03:42,810 --> 00:03:52,070
+De esa manera me va a sacar el mes en el que estamos aquí de paso un es cierto es pantalla a quienes
+
+36
+00:03:52,080 --> 00:03:53,930
+sacan en meses el 3.
+
+37
+00:03:54,140 --> 00:04:01,010
+Efectivamente es el mestre pero es el mes 3 empezando por cero de acuerdo de forma que este sería el
+
+38
+00:04:01,010 --> 00:04:08,160
+mes 4 realmente al mes 4 del año.
+
+39
+00:04:08,620 --> 00:04:16,730
+Lo que pasa es que empieza a contar en el cero cero y enero bien luego podemos sacar también el día
+
+40
+00:04:16,970 --> 00:04:18,380
+de acuerdo el día del mes.
+
+41
+00:04:18,380 --> 00:04:23,240
+En este caso el día es entonces Guillo puede utilizar
+
+42
+00:04:26,300 --> 00:04:34,240
+el objeto fecha y utilizar el método GET Dadd date Get It.
+
+43
+00:04:34,370 --> 00:04:36,400
+De esa manera me van a sacar que el día es el
+
+44
+00:04:40,650 --> 00:04:41,940
+es el cuadro.
+
+45
+00:04:42,730 --> 00:04:47,460
+Pero como no lo he puesto no lo imprimido por aquí pues no sale el día
+
+46
+00:04:51,820 --> 00:04:59,130
+el 10 el 4 efectivamente de acuerdo si lo miramos en el calendario efectivamente es el día 4 bien y
+
+47
+00:04:59,140 --> 00:05:12,490
+así podría estar sacando datos continuamente pudiera las horas vale la hora pueden hacer fecha.
+
+48
+00:05:12,500 --> 00:05:14,920
+Punto que Ors
+
+49
+00:05:18,250 --> 00:05:25,570
+entonces ahora mismo podría decir la hora es imprimir pues la hora
+
+50
+00:05:31,920 --> 00:05:35,210
+efectivamente son las 18 las 18 y 39.
+
+51
+00:05:35,220 --> 00:05:42,080
+Si yo quisiera mostrar los minutos puedo hacer Goeth minutes si quiero mostrar los segundos seconds.
+
+52
+00:05:42,150 --> 00:05:48,330
+Y así tenemos un montón de método y también dejaría una pequeña referencia enlazada a esta clase para
+
+53
+00:05:48,330 --> 00:05:56,130
+que puedas consultarlo pero básicamente si buscas en google Doggett JavaScript te van a salir referencia
+
+54
+00:05:56,490 --> 00:06:01,620
+en cuanto a estos métodos en todas partes así que de esta manera podemos trabajar con las fechas de
+
+55
+00:06:01,620 --> 00:06:02,070
+acuerdo.

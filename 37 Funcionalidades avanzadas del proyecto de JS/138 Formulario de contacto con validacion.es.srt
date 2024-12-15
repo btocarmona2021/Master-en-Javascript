@@ -1,0 +1,747 @@
+1
+00:00:01,270 --> 00:00:07,810
+Ahora nos queda crear un formulario de contacto y darle una validación el formulario lo vamos a hacer
+
+2
+00:00:07,810 --> 00:00:12,900
+en HTML y la validación podemos hacerla de dos formas manualmente.
+
+3
+00:00:12,910 --> 00:00:17,440
+Como ya hemos visto anteriormente en el curso o utilizando un plugin de Quay que es la forma que vamos
+
+4
+00:00:17,440 --> 00:00:21,990
+a utilizar para hacerlo mucho más limpio más rápido y mejor al final.
+
+5
+00:00:22,750 --> 00:00:31,780
+Así que vamos con eso voy a crear una nueva página de un nuevo HTML
+
+6
+00:00:35,900 --> 00:00:37,250
+que se va a llamar Contact
+
+7
+00:00:41,430 --> 00:00:45,820
+punto HTML y aquí voy a copiar lo que tengo por ejemplo en el About
+
+8
+00:00:48,670 --> 00:00:55,560
+Me a copiar todo el HTML porque va a ser parecido lo copio europeo y simplemente lo que vamos a cambiar
+
+9
+00:00:55,560 --> 00:01:06,510
+va a ser la parte del box del DIP con IDE Box aquí vamos a cargar un formulario de contacto.
+
+10
+00:01:06,510 --> 00:01:13,290
+En principio ya estaría vale ya estaría si ahora voy navegando por la página puedo ir ya a la página
+
+11
+00:01:13,290 --> 00:01:14,040
+de contacto
+
+12
+00:01:16,860 --> 00:01:25,130
+vale voy a la página de contactos y aquí es donde voy a crear mi propio formulario de contacto bien
+
+13
+00:01:25,350 --> 00:01:26,700
+para hacer el formulario.
+
+14
+00:01:26,760 --> 00:01:28,340
+Simplemente con HTML.
+
+15
+00:01:28,350 --> 00:01:41,400
+Vamos a poner un H2 que ponga contacto y voy a crear mi formulario Foll y cierro la etiqueta Forth vale
+
+16
+00:01:41,400 --> 00:01:47,580
+vamos a tener varios campos vamos a tener un nombre
+
+17
+00:01:50,370 --> 00:01:52,950
+vamos a tener unos apellido también un email
+
+18
+00:01:56,410 --> 00:01:57,790
+de nombre apellidos
+
+19
+00:02:00,600 --> 00:02:01,260
+email
+
+20
+00:02:06,090 --> 00:02:08,100
+sexo y fecha de nacimiento.
+
+21
+00:02:12,990 --> 00:02:15,370
+Y aparte de la fecha de nacimiento.
+
+22
+00:02:15,390 --> 00:02:19,800
+Otro campo que va a ser edad para ser redundante todavía.
+
+23
+00:02:19,960 --> 00:02:25,250
+Y en cada uno vamos a aplicar una validación diferente con un plugin que vamos a buscar para cuerito
+
+24
+00:02:26,180 --> 00:02:37,860
+bien podemos crear el primer campo que va a ser un input type text cuyo name va a ser Nein.
+
+25
+00:02:38,580 --> 00:02:44,030
+Vale cierro el input y de momento ya está el label.
+
+26
+00:02:44,040 --> 00:02:45,840
+Voy a poner el label for name
+
+27
+00:02:49,270 --> 00:02:54,850
+guardo y actualizo la pantalla y efectivamente me aparece aquí mi campo.
+
+28
+00:02:54,850 --> 00:02:58,990
+Luego modificaremos los estilos de esto para que se vea lo mejor posible en apellido.
+
+29
+00:02:58,990 --> 00:03:11,140
+Lo mismo un campo tipo texto cuyo Nein va a ser su Arnheim y el label for su nein.
+
+30
+00:03:11,380 --> 00:03:20,690
+Lo mismo con el e-mail un campo de tipo e-mail cuyo NiMH va a ser e-mail.
+
+31
+00:03:20,920 --> 00:03:26,160
+Luego vamos a tener otro campo que va a ser de sexo que va a ser un lugar y un imput un C.L Me acuerdo
+
+32
+00:03:26,170 --> 00:03:30,220
+va a ser un Select con nombre sex.
+
+33
+00:03:30,700 --> 00:03:39,520
+Vamos a cerrar el Select y vamos a meterle varias opciones OPTION la primera opción con el valio men
+
+34
+00:03:40,880 --> 00:03:43,120
+que diríamos que es que sería hombre
+
+35
+00:03:45,880 --> 00:03:54,660
+Option y luego el segundo valor que sería Huaman y le vamos a poner.
+
+36
+00:03:54,660 --> 00:03:55,210
+Mujer
+
+37
+00:03:59,420 --> 00:04:09,590
+vale y la fecha de nacimiento que sería un campo de tipo texto igual que uno de estos de aquí vamos
+
+38
+00:04:09,590 --> 00:04:13,320
+a ponerle aquí el label for sex.
+
+39
+00:04:13,550 --> 00:04:21,830
+Aquí sería Label for Death y el nombre va a ser droit y luego va para la edad va a ser un campo de tipo
+
+40
+00:04:23,060 --> 00:04:29,300
+number aunque también podría hacerlo de tipo texto que va a ser
+
+41
+00:04:32,510 --> 00:04:41,060
+year's y aquí el label for years made.
+
+42
+00:04:41,060 --> 00:04:58,460
+Por último añado mi botón de enviar input submit con el valor enviar tiarrón el imput y lo hizo la pantalla
+
+43
+00:04:59,390 --> 00:05:01,220
+aquí aparece mi formulario.
+
+44
+00:05:01,220 --> 00:05:06,860
+Qué pasa porque me aparece un poco mal formateado yo quiero darle el mismo tipo de formato que tengo
+
+45
+00:05:06,860 --> 00:05:15,890
+aquí vale decir la especia no puedo ver que tengo mi Label tal y cual es porque lo estilo de aquí se
+
+46
+00:05:15,890 --> 00:05:23,480
+lo he puesto yo manualmente en el CSS así que vamos a poner eso estilo sabriamos estaís CSS y buscamos
+
+47
+00:05:23,480 --> 00:05:25,910
+el formulario.
+
+48
+00:05:26,450 --> 00:05:32,360
+Vale al Label no le da ningún estilo.
+
+49
+00:05:32,360 --> 00:05:33,810
+Efectivamente.
+
+50
+00:05:34,130 --> 00:05:42,500
+Entonces aquí me aparece con este tamaño y todo porque el tamaño del DIP corresponde a eso.
+
+51
+00:05:42,520 --> 00:05:48,870
+Entonces lo que voy a hacer es meter darle un estilo al formulario este mal le vamos a dar un estilo
+
+52
+00:05:48,890 --> 00:05:55,630
+le voy a poner una idea que va a ser form Contact.
+
+53
+00:05:55,670 --> 00:06:05,780
+También le voy a poner el Auction que va a ser un action vacío y le voy a poner el método POST balet.
+
+54
+00:06:05,810 --> 00:06:09,140
+Ahora vamos a darle uno estilo a este formulario.
+
+55
+00:06:09,200 --> 00:06:21,170
+Vamos para abajo y aquí vamos a darle estilo al elemento cuyo IDE es form Contact vale y vamos a poner
+
+56
+00:06:21,890 --> 00:06:33,310
+lo siguiente Le vamos a poner un width de 60 por ciento de la pantalla efectivamente vale incluso lo
+
+57
+00:06:33,310 --> 00:06:42,070
+podemos hacer de un tamaño menor 50 por 100 del contenedor que lo contiene del dip que lo contiene y
+
+58
+00:06:42,340 --> 00:06:44,530
+vamos a darle un estilo a los Labels.
+
+59
+00:06:44,530 --> 00:06:55,510
+También vale voy a ponerle un margen superior Malin top de 10 píxeles o de 15 y vamos a darle un estilo
+
+60
+00:06:55,570 --> 00:07:10,240
+a los labels full contact Label le vamos a dar un Wiz 100 por ciento un font family que se lo vamos
+
+61
+00:07:10,240 --> 00:07:16,720
+a hacer de manera global en el formulario realmente le vamos a dar un font family de
+
+62
+00:07:20,210 --> 00:07:29,280
+Helvética y si no Arial con Puntí puntico actualizó la pantalla para ello aquí no aparece luego a los
+
+63
+00:07:29,280 --> 00:07:35,630
+L.T también le quiero dar un estilo parecido a los que tengo en el resto de campos y además también
+
+64
+00:07:36,190 --> 00:07:38,390
+a los campos de tipo number.
+
+65
+00:07:38,390 --> 00:07:45,280
+Para eso subo al objetivo de los formularios que he ido antes y voy a añadir etiquetas o selectores
+
+66
+00:07:45,380 --> 00:07:49,820
+de los imput de tipo Manver
+
+67
+00:07:52,760 --> 00:08:01,460
+y de los campos Selectah me guardo actualizo la pantalla y ahora me parece mucho mejor formateado todo
+
+68
+00:08:02,070 --> 00:08:11,920
+le voy a poner display Block al Label para que hagan un salto de línea y actúen como un bloque se actualizó
+
+69
+00:08:11,920 --> 00:08:12,770
+la pantalla.
+
+70
+00:08:12,770 --> 00:08:21,740
+Ahora sí que me lo muestra bien y además le voy a poner un margen superior a los label de cinco pixeles
+
+71
+00:08:21,980 --> 00:08:25,770
+para que se pare un campo de otro.
+
+72
+00:08:26,210 --> 00:08:32,570
+Así queda bien y nada más conecto ya tenemos el formulario maquetado a nivel de HTML y ahora vamos a
+
+73
+00:08:32,570 --> 00:08:39,440
+darle una validación para eso yo utilizaría un plugin para hacerlo de la manera más óptima posible así
+
+74
+00:08:39,440 --> 00:08:47,430
+que vamos con un plugin de cuero que nos permita hacer la validación si buscamos Kairi validación plugin.
+
+75
+00:08:47,510 --> 00:08:55,250
+Tenemos un montón seguramente privaría Dom valiã de un plugin y a mí esto me gusta mucho personalmente.
+
+76
+00:08:55,250 --> 00:09:03,530
+El chico Uniform validador así que vamos a utilizar este ya nos enseña cómo a cómo cargarlo via r.p.m
+
+77
+00:09:03,530 --> 00:09:10,890
+o Bower que eso lo verán después o vía el CDN o descargando y incluyéndolo lo vamos a hacer vía el CD
+
+78
+00:09:11,030 --> 00:09:17,390
+simplemente copiando esta línea de aquí lo que hacemos cargo de la librería desde el CD remoto servidor
+
+79
+00:09:17,390 --> 00:09:19,420
+de assets remoto.
+
+80
+00:09:19,790 --> 00:09:24,840
+Copiamos esa línea y la ponemos en nuestro contacto HTML.
+
+81
+00:09:25,280 --> 00:09:26,930
+En este caso variadísimos por aquí
+
+82
+00:09:30,390 --> 00:09:32,770
+sería el plugin variacion
+
+83
+00:09:35,730 --> 00:09:36,850
+lo por aquí.
+
+84
+00:09:36,900 --> 00:09:45,120
+Vale si actualizamos la pantalla pues todo ir correcto y me abro la herramienta de desarrollador.
+
+85
+00:09:45,120 --> 00:09:46,710
+Aunque claro me dice que esto no lo encuentra.
+
+86
+00:09:46,720 --> 00:09:54,270
+Esto tenemos que ponerle HTTP S 2 puntos barra barra para que lo cargue.
+
+87
+00:09:54,570 --> 00:09:59,220
+Ahora si lo carga perfectamente vale y ya tenemos control y damos clic.
+
+88
+00:09:59,220 --> 00:10:05,160
+Pues no lo va a cargar FDN imperfectamente vale pues ya tenemos esa librería cómo podemos utilizarla.
+
+89
+00:10:05,190 --> 00:10:10,530
+Pues mira muy fácil la documentación no lo explica simplemente en cada input tendríamos que ponerle
+
+90
+00:10:10,530 --> 00:10:16,950
+un atributo DATA validación de los atributos data son atributos que yo puedo poner customizado de acuerdo
+
+91
+00:10:16,960 --> 00:10:23,880
+yo puedo tener un data ideé y meterle una idea de un campo que yo estoy recorriendo o hacer lo que sea
+
+92
+00:10:24,300 --> 00:10:31,550
+y pueda hacer atributos data para pasar datos de lo que es el HTML a lo que es la parte de JavaScript
+
+93
+00:10:31,560 --> 00:10:32,740
+de cuerito.
+
+94
+00:10:33,330 --> 00:10:39,030
+Pues aquí igual hay un atributo de alta validación que la librería lo va a leer y ahí le ponemos las
+
+95
+00:10:39,030 --> 00:10:45,200
+reglas de validación vale y luego también tenemos más atributos como el Data validación Lent data validación
+
+96
+00:10:45,260 --> 00:10:45,860
+format.
+
+97
+00:10:45,900 --> 00:10:51,990
+Hay un montón de cosas que podemos revisar aquí en la documentación entonces simplemente le vamos a
+
+98
+00:10:51,990 --> 00:10:56,850
+poner los atributos que nos indica que nos indica la documentación.
+
+99
+00:10:56,850 --> 00:11:02,520
+Vamos a ponerle un data validación Lent y alfanumérica los campos que sea necesario vamos a copiar esta
+
+100
+00:11:02,520 --> 00:11:11,520
+línea o estos atributos y vamos a ver cómo hacemos la validación bajamos al formulario y por ejemplo
+
+101
+00:11:11,520 --> 00:11:19,140
+el nombre tiene que tener un data validación LEED no porque no quiero que tenga ninguna longitud pero
+
+102
+00:11:19,140 --> 00:11:21,840
+sí que quiero que sea Alfa numérico.
+
+103
+00:11:21,990 --> 00:11:28,710
+Lo mismo voy a hacer con la validación de los apellidos que solamente se puedan meter caracteres alfanuméricos
+
+104
+00:11:29,880 --> 00:11:30,570
+en el email.
+
+105
+00:11:30,570 --> 00:11:37,880
+Obviamente darle un dato a validación y email de acuerdo a un validador que es el e-mail.
+
+106
+00:11:37,890 --> 00:11:44,820
+Si lo miramos en forma y datos y mail efectivamente tenemos el de estabilidad de un email para que valide
+
+107
+00:11:44,820 --> 00:11:54,370
+eso y también esto realmente no lo vamos a validar porque hay que seleccionar una de las dos opciones.
+
+108
+00:11:54,370 --> 00:11:55,880
+Vale si buscamos required
+
+109
+00:11:59,110 --> 00:12:06,740
+vale podemos ponerle simplemente un data validación required para poder indicar que ese campo es obligatorio
+
+110
+00:12:07,340 --> 00:12:14,680
+se lo vamos a poner a sheks el dato pues también lo podemos validar si buscamos aquí la validación de
+
+111
+00:12:16,000 --> 00:12:20,790
+pues tenemos estas dos.
+
+112
+00:12:21,140 --> 00:12:27,140
+Estos dos atributos en la estabilidad de EIT y en la variedad de formas para indicarle el formato que
+
+113
+00:12:27,140 --> 00:12:31,870
+yo quiero lo copio los dos y yo quiero que sea una validación así.
+
+114
+00:12:31,910 --> 00:12:39,380
+Pero además como le voy a poner un calendario de Kourí yo voy luego modificaremos esto para que el formato
+
+115
+00:12:39,380 --> 00:12:40,170
+sea éste.
+
+116
+00:12:42,020 --> 00:12:47,360
+Y por último quiero una validación de números aquí data validación Number
+
+117
+00:12:51,000 --> 00:12:58,140
+para que solamente me permita números iluminamos en la documentación y buscamos Numbers.
+
+118
+00:12:58,140 --> 00:13:02,790
+Pues si eso no me deja meter valor numérico vale.
+
+119
+00:13:03,030 --> 00:13:08,720
+De momento ya tenemos lo que es la validación hecha pero realmente no va a funcionar.
+
+120
+00:13:08,880 --> 00:13:13,420
+Si yo le voy a enviar eso no va a funcionar porque realmente no estoy cargando la librería como tal
+
+121
+00:13:13,500 --> 00:13:20,190
+y no estoy ejecutando el plugin valian estoy ejecutando el método que hace que se lance el plugin entonces
+
+122
+00:13:20,190 --> 00:13:27,730
+para ejecutarlo tendría que utilizar el dólar validad de hacerlo así copió esto y me lo llevo a la parte
+
+123
+00:13:27,730 --> 00:13:28,440
+de.
+
+124
+00:13:29,000 --> 00:13:31,620
+Vale no llevo aquí abajo que va a ser validación
+
+125
+00:13:36,490 --> 00:13:37,380
+me voy a llevar aquí.
+
+126
+00:13:37,390 --> 00:13:42,970
+Además esto solamente se va ejecutar cuando estemos en la página de contacto así que vamos a hacer Elif
+
+127
+00:13:43,090 --> 00:13:43,510
+este
+
+128
+00:13:49,590 --> 00:13:54,840
+y aquí vamos a ver que exista contacto en la web.
+
+129
+00:13:54,850 --> 00:14:00,610
+En el caso de que sea una página de contacto porque se ejecute esto se actualiza la pantalla a ver voy
+
+130
+00:14:00,610 --> 00:14:02,570
+a actualizar la pantalla.
+
+131
+00:14:03,130 --> 00:14:09,100
+Si ahora trato de enviar los datos me lo marca en rojo y me dice el valor proporcionado no es un número
+
+132
+00:14:09,100 --> 00:14:09,520
+válido.
+
+133
+00:14:09,520 --> 00:14:11,320
+No sé no sé cuánto vale.
+
+134
+00:14:11,320 --> 00:14:16,980
+Si yo voy metiendo aquí valores y le voy dando a enviar me va marcando lo que es correcto y lo que no
+
+135
+00:14:16,990 --> 00:14:18,550
+es correcto.
+
+136
+00:14:19,180 --> 00:14:24,970
+Si me meto aquí hubo una cosa que no en un email me dice oye la dirección de email no es válida y lo
+
+137
+00:14:24,970 --> 00:14:32,110
+que vienen siendo los errores me los va mostrando aquí abajo vale vamos a inspeccionar esto me lo meto
+
+138
+00:14:32,110 --> 00:14:32,870
+aquí.
+
+139
+00:14:33,050 --> 00:14:39,350
+Este pan lo podríamos nosotros modificar a nivel de estilo vale si revisamos si revisamos aquí se han
+
+140
+00:14:39,370 --> 00:14:40,870
+configuration.
+
+141
+00:14:40,870 --> 00:14:46,360
+Aquí podemos hacer que la validación sea sólo para un formulario o para unos formularios en concreto
+
+142
+00:14:50,020 --> 00:14:59,230
+tenemos Callback de validación vale para coger esos errores y mostrarlo en algún sitio concreto y tenemos
+
+143
+00:14:59,230 --> 00:15:05,170
+un montón un montón de cosas que podríamos hacer vale pero de momento simplemente con que se marquen
+
+144
+00:15:05,170 --> 00:15:13,420
+en rojo los que están mal y con indicar una pequeña una pequeña alerta aquí al lado del botón Vale esté.
+
+145
+00:15:13,860 --> 00:15:22,690
+Este es para darle un estilo es malo ponerle un float REIT
+
+146
+00:15:25,600 --> 00:15:32,020
+ponerle un FOM 6 de 13 PX
+
+147
+00:15:34,730 --> 00:15:42,840
+ponerle también un background Red ponerle un color.
+
+148
+00:15:42,890 --> 00:15:43,460
+También
+
+149
+00:15:46,570 --> 00:15:47,190
+Waid
+
+150
+00:15:50,370 --> 00:16:00,280
+Okkhoy y ponerle también un Padín y un borde para Hynde 20 x 20 no porque si no no cabría
+
+151
+00:16:08,850 --> 00:16:09,740
+de 10.
+
+152
+00:16:09,810 --> 00:16:12,810
+Vamos a poner de 10 y le vamos a poner un Witz
+
+153
+00:16:16,850 --> 00:16:19,730
+del 60 por ciento.
+
+154
+00:16:21,360 --> 00:16:22,340
+Vale incluso menos
+
+155
+00:16:26,940 --> 00:16:29,070
+y le vamos a poner un float left
+
+156
+00:16:41,070 --> 00:16:48,730
+le ponemos un 65 por ciento le quitamos incluso el tamaño de letra así.
+
+157
+00:16:48,770 --> 00:16:55,270
+Así queda bien y hasta ahí conecto estilo ya no valdría todos vamos a copiar esto estilo.
+
+158
+00:16:55,320 --> 00:17:04,680
+Yo no puedo copiar estoy copiando lo de esta manera y me lo voy a llevar a mi CCS vale y esto tiene
+
+159
+00:17:04,680 --> 00:17:09,990
+que ser tiene que actuar sobre el spam con la clase.
+
+160
+00:17:09,990 --> 00:17:18,160
+El blog vale o FOM error que ponía el Guilford error fue un error.
+
+161
+00:17:18,410 --> 00:17:18,740
+Vale.
+
+162
+00:17:18,750 --> 00:17:24,520
+Así que montamos esta regla CSS con todas estas propiedades.
+
+163
+00:17:24,540 --> 00:17:26,800
+Guardo actualizo la pantalla.
+
+164
+00:17:27,040 --> 00:17:30,110
+Si ahora tengo un error me lo muestro por aquí vale.
+
+165
+00:17:30,120 --> 00:17:31,950
+Así que todo correcto.
+
+166
+00:17:31,950 --> 00:17:39,270
+Pero de momento pues la validación va funcionando bien sin método los datos correctos
+
+167
+00:17:43,500 --> 00:17:47,100
+vale Fíjate que cuando he hecho el cambio y se me ha quedado bien ya no me parece un error ahí.
+
+168
+00:17:47,220 --> 00:17:53,130
+Si me toque algo mal y Kimetto estoy bien ya dinámicamente va diciendo que la ficha proporcionada no
+
+169
+00:17:53,140 --> 00:18:00,760
+es válida si le pongo una fecha correcta pues ya que estamos vamos a cargar el plugin del calendario
+
+170
+00:18:01,480 --> 00:18:06,870
+vale para eso simplemente tendremos que seleccionar ese campo.
+
+171
+00:18:07,200 --> 00:18:11,050
+Vale vamos a hacerlo por aquí todos los campos de formularios
+
+172
+00:18:14,140 --> 00:18:19,000
+cuyo nivel sea igual al.
+
+173
+00:18:19,750 --> 00:18:20,890
+Pues esto va a tener
+
+174
+00:18:27,160 --> 00:18:28,180
+un date piquera
+
+175
+00:18:31,010 --> 00:18:38,050
+vale sectorizada pantalla si yo selecciona la fecha ya me la pone mal porque realmente en mi validación
+
+176
+00:18:38,310 --> 00:18:43,660
+yo tenía marcado que debería tener este formato así que si se lo cambio a las barras
+
+177
+00:18:47,140 --> 00:18:48,360
+ya me lo dejará bien
+
+178
+00:18:52,710 --> 00:18:55,450
+vale me va marcando dinámicamente los errores que va viendo
+
+179
+00:19:00,100 --> 00:19:07,660
+vale ahora me dice que hay un error claro el formato debe ser esto es el mes esto es el día y esto es
+
+180
+00:19:07,660 --> 00:19:12,810
+el año donde yo quiero cambiar el formato QWERTY Higüey date Pikes.
+
+181
+00:19:12,820 --> 00:19:19,180
+A esto le quiere le quiero cambiar el formato entonces para cambiar el formato Jayson que le puedo pasar
+
+182
+00:19:19,180 --> 00:19:32,380
+como parámetro vindicar el dato de Format y aquí le puedo decir que el formato va a ser dd mm y el año
+
+183
+00:19:32,500 --> 00:19:44,650
+vale día mes y año y este formato va a ser el que yo voy a meter en la validación aquí día mes y año.
+
+184
+00:19:44,990 --> 00:19:52,270
+Vale si ahora actualizo la pantalla y yo meto Kimmy fecha aquí he metido demasiados datos.
+
+185
+00:19:52,270 --> 00:20:00,100
+Esto sería y nada más vale actualizo la pantalla ahora sí me lo marca bien vale no me da ningún error
+
+186
+00:20:01,400 --> 00:20:08,550
+y en el caso de que me diga alguien un dato malo pues vale pues ya tenemos la validación del formulario
+
+187
+00:20:08,550 --> 00:20:15,540
+hecha y ya hemos visto cómo validar un formulario utilizando un plugin de allí Quay.

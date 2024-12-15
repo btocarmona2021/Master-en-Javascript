@@ -1,0 +1,239 @@
+1
+00:00:01,160 --> 00:00:07,190
+Cuando hemos estado trabajando con las directivas hemos visto directivas estructurales que consistían
+
+2
+00:00:07,190 --> 00:00:13,100
+en hacer bucles y condicionales en nuestras vistas cuando hemos visto el condicional if el NG y con
+
+3
+00:00:13,100 --> 00:00:19,270
+esa directiva hemos visto que solamente podíamos hacer un IHF una condición pero no podíamos hacer un
+
+4
+00:00:19,320 --> 00:00:25,630
+Else o por lo menos no hemos visto cómo hacer un ense en angular en la plantilla de angular.
+
+5
+00:00:25,640 --> 00:00:32,680
+Esto es porque hay una directiva nueva que se llama M.G. template que nos permite hacer un Else aparte
+
+6
+00:00:32,690 --> 00:00:36,800
+de hacer también el IP de forma que ahora vamos a poder hacer un IP y un enlace también.
+
+7
+00:00:36,800 --> 00:00:42,200
+Entonces vamos a ver cómo se hace pues si nos interesa utilizarlo en algún momento vale vamos a cerrar
+
+8
+00:00:42,660 --> 00:00:45,430
+todos los archivos que tenemos abiertos por el momento.
+
+9
+00:00:45,800 --> 00:00:46,920
+Vamos a ir a ese.
+
+10
+00:00:47,030 --> 00:00:52,700
+Vamos a ir a Pepe y vamos a trabajar en el componente Jonh para hacer este pequeño ejemplo.
+
+11
+00:00:53,110 --> 00:00:58,670
+Entonces voy a hacer aquí un H1 para poner página principal
+
+12
+00:01:03,830 --> 00:01:09,930
+ok guardo la página se va a actualizar y aquí me va a parecer página principal.
+
+13
+00:01:09,950 --> 00:01:11,820
+Hasta aquí todo perfecto.
+
+14
+00:01:12,140 --> 00:01:15,120
+Quizá un H2 para que sea un poco más pequeño.
+
+15
+00:01:17,100 --> 00:01:25,880
+Ok entonces yo podría tener una propiedad en mi John component que fuera públic identificado que va
+
+16
+00:01:25,880 --> 00:01:33,220
+a ser un vulcano y que por default va a ir inicializar Atrus
+
+17
+00:01:35,810 --> 00:01:41,590
+públic disputo identificado es igual a otro.
+
+18
+00:01:41,660 --> 00:01:43,120
+Hasta aquí todo perfecto.
+
+19
+00:01:43,130 --> 00:01:51,440
+Yo puedo hacer un IHF puedo hacer un Fakih aquí dentro de un Dib puedo hacer un NG y utilizando la directiva
+
+20
+00:01:52,430 --> 00:02:01,120
+que sea así identificado es igual a Truth pues que muestre este Dib y el contenido que tiene dentro.
+
+21
+00:02:01,220 --> 00:02:08,020
+En este caso el contenido podría ser un H3 que dijera
+
+22
+00:02:11,450 --> 00:02:16,100
+estás identificado en la aplicación Balet
+
+23
+00:02:19,640 --> 00:02:23,760
+perfecto entonces yo tengo MILF y como esto está Tru me pone.
+
+24
+00:02:23,770 --> 00:02:25,890
+Estás identificado en la aplicación.
+
+25
+00:02:25,920 --> 00:02:27,040
+Vale.
+
+26
+00:02:27,410 --> 00:02:29,000
+Hasta aquí todo correcto.
+
+27
+00:02:31,690 --> 00:02:35,340
+Pero qué pasa si no estoy identificado cómo a hacer el Else vale.
+
+28
+00:02:35,440 --> 00:02:39,130
+Cómo puedo hacer el caso de que la variable venga.
+
+29
+00:02:39,310 --> 00:02:44,950
+Para poder hacer el Elche tengo que utilizar el LG template el LG template una nueva directiva que se
+
+30
+00:02:44,950 --> 00:02:51,900
+utiliza con la etiqueta NG template vale y le podemos poner un nombre a esa plantilla o esa si es el
+
+31
+00:02:51,910 --> 00:02:57,340
+elemento que vamos a poner un nombre con la almohadilla y con esto con la almohadilla dentro de angular
+
+32
+00:02:57,550 --> 00:03:03,190
+lo que podemos hacer es crear variables dentro de una plantilla de acuerdo dentro de una vista.
+
+33
+00:03:03,220 --> 00:03:11,980
+Entonces yo voy a quedarme aquí la variable con el nombre no identificado no lo puedo hacer perfectamente
+
+34
+00:03:11,980 --> 00:03:15,850
+así y cierro el NG template.
+
+35
+00:03:15,850 --> 00:03:19,210
+De esta manera este template tiene este nombre no identificado.
+
+36
+00:03:19,210 --> 00:03:25,300
+Vale entonces en ese caso de que no esté identificado yo lo que voy a hacer va a ser mostrar un párrafo
+
+37
+00:03:25,630 --> 00:03:28,630
+que diga No estás identificado
+
+38
+00:03:31,270 --> 00:03:32,320
+pulsa este botón
+
+39
+00:03:36,110 --> 00:03:37,340
+para identificarte.
+
+40
+00:03:39,250 --> 00:03:47,210
+Vale y aquí voy a añadir yo un botón aquí abajo que lo que vamos a hacer va a ser con el evento clic
+
+41
+00:03:48,390 --> 00:03:54,770
+cambia el valor de la propiedad identificado mediante un método que se va a llamar ser identificado
+
+42
+00:03:56,800 --> 00:04:00,110
+vale y lo vamos a crear en nuestro componente
+
+43
+00:04:04,080 --> 00:04:05,330
+identificarse.
+
+44
+00:04:05,520 --> 00:04:13,170
+Vamos a crear ese método en nuestra clase del componente ser identificado y le vamos a dar un valor
+
+45
+00:04:13,660 --> 00:04:18,720
+disputo otro ya disputo identificado que es igual a otro.
+
+46
+00:04:19,390 --> 00:04:22,570
+Entonces por defecto vamos a hacer que sea Fores false.
+
+47
+00:04:22,950 --> 00:04:27,800
+Entonces si esto lo revisamos ahora aquí no me aparece nada y es porque todavía no he utilizado BLS
+
+48
+00:04:27,810 --> 00:04:30,910
+para utilizar el LS tengo que ponerle puntico aquí.
+
+49
+00:04:31,020 --> 00:04:37,860
+Entonces después de la condición que diga Else y en el caso de que no se cumpla la condición vamos a
+
+50
+00:04:37,860 --> 00:04:43,800
+pasar al ense y vamos a llamar a una NG template a la plantilla que hemos creado ahora mismo Alain template
+
+51
+00:04:43,800 --> 00:04:48,370
+que acaban de crear que se llama no identificado.
+
+52
+00:04:48,600 --> 00:04:54,140
+Si hacemos esto de esta manera guardamos actualizamos la pantalla efectivamente y me aparece no identificado.
+
+53
+00:04:54,240 --> 00:04:58,490
+Si le doy al botón de identificarse Pam ahora sí estoy identificado.
+
+54
+00:04:58,520 --> 00:05:03,480
+Vale yo podría poner otro botón también que fuera
+
+55
+00:05:06,330 --> 00:05:08,790
+un set identificado
+
+56
+00:05:12,950 --> 00:05:19,250
+y que ponga a borrar identificacion el botón y voy a crear el método
+
+57
+00:05:22,330 --> 00:05:32,390
+un Shetty identificado y le voy a dar un valor a false y guardo guardo y ahora mismo pues pásale se
+
+58
+00:05:32,480 --> 00:05:40,190
+me carga la NG template y soy de identificarme pues se queda dentro del IP de aquí y ya puedo cargarlo
+
+59
+00:05:40,310 --> 00:05:45,350
+así que ya hemos visto cómo utilizar en template y cómo utilizar el Else dentro de nuestras plantillas
+
+60
+00:05:45,740 --> 00:05:46,220
+deambular.

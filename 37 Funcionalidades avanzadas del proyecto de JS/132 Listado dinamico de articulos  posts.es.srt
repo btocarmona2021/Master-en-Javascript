@@ -1,0 +1,455 @@
+1
+00:00:01,140 --> 00:00:08,070
+Ya hemos hecho el punto 2 de nuestro proyecto que es buscar un plugin para hacer un líder de acuerdo
+
+2
+00:00:08,070 --> 00:00:11,450
+y si ya lo hemos hecho sí lo vamos a marcar en verde.
+
+3
+00:00:11,490 --> 00:00:17,770
+Lo siguiente es hacer el listado de post almacenado en un Jayson y que se vayan mostrando dinámicamente.
+
+4
+00:00:17,860 --> 00:00:26,160
+Esto es sencillo vale vamos a abrir nuestro JavaScript Aquí tenemos nuestro Leider ahora vamos a hacer
+
+5
+00:00:26,820 --> 00:00:28,500
+la parte de los post
+
+6
+00:00:33,000 --> 00:00:46,470
+post bien lo que tenemos que hacer básicamente es creando un Jayson Bahr post y esto va a ser un Jayson
+
+7
+00:00:46,700 --> 00:00:59,340
+más que un Jayson va a ser un array de Jacksons aquí dentro voy a tener varios Jayson uno dos tres y
+
+8
+00:00:59,340 --> 00:01:00,660
+cuatro.
+
+9
+00:01:01,340 --> 00:01:09,210
+Voy a tener 4 voy a hacer el primero y el resto lo copio y pego van a tener varias propiedades va a
+
+10
+00:01:09,220 --> 00:01:09,640
+tener
+
+11
+00:01:13,250 --> 00:01:25,080
+un título una fecha y el cuerpo del del post vale entonces vamos a tener la propiedad el título lo vamos
+
+12
+00:01:25,080 --> 00:01:32,110
+a poner en inglés mejor títol y el título sería prueba de Título 1.
+
+13
+00:01:32,530 --> 00:01:41,770
+Luego va a tener una fecha de y para no hacerlo muy complicado simplemente vamos a hacer un New Day
+
+14
+00:01:42,240 --> 00:01:49,550
+vamos a cargar aquí a instancias de ese objeto vamos a crearlo y simplemente eso nos va a mostrar pues
+
+15
+00:01:49,560 --> 00:02:00,840
+toda la fecha actual y luego vamos a tener el contenido Content y aquí tendremos un párrafo que será
+
+16
+00:02:01,050 --> 00:02:01,980
+parecido a este
+
+17
+00:02:07,310 --> 00:02:15,740
+que con ese contenido ya tenemos nuestro primer objeto vale ahora vamos a hacer cuatro o cinco que van
+
+18
+00:02:15,740 --> 00:02:20,300
+a ser muy parecidos uno dos tres y cuatro más
+
+19
+00:02:23,860 --> 00:02:33,210
+el primero prueba el Título II prueba del Título III prueba Título IV prueba de título 5.
+
+20
+00:02:33,220 --> 00:02:38,820
+Vale ya tenemos nuestro objeto Jayson o nuestra colección de objetos Jayson vamos a hacer un console
+
+21
+00:02:38,990 --> 00:02:44,290
+Autolog para ver qué hay dentro de ese objeto vale.
+
+22
+00:02:44,410 --> 00:02:51,080
+Dentro de esa colección de objetos dentro del post vamos a abrir la herramienta de desarrolladores.
+
+23
+00:02:51,730 --> 00:02:56,780
+Actualizamos la pantalla y vemos nuestro objetos perfectamente hechos.
+
+24
+00:02:57,550 --> 00:03:05,640
+Evidentemente la fecha podríamos modificarla o formatearlo de una manera mucho más efectiva.
+
+25
+00:03:05,650 --> 00:03:10,570
+Si nosotros empezáramos a utilizar todos esos métodos para poner una fecha como ya expliqué en un video
+
+26
+00:03:10,570 --> 00:03:15,220
+anterior incluso podríamos utilizar librerías como moment J.S.
+
+27
+00:03:15,280 --> 00:03:21,520
+De acuerdo si buscamos si la buscamos en Google momento JS CDN vamos a buscarla y la vamos a incluir
+
+28
+00:03:21,520 --> 00:03:25,140
+en nuestro proyecto.
+
+29
+00:03:25,150 --> 00:03:29,410
+Simplemente vamos a copiar la que esté en español es
+
+30
+00:03:32,470 --> 00:03:39,040
+ésta vamos a copiar el TCN de esta librería de J.S y la vamos a cargar en nuestro índex en la parte
+
+31
+00:03:39,040 --> 00:03:40,640
+del Jaider.
+
+32
+00:03:41,470 --> 00:03:48,800
+Aquí vamos a cargar este plugin que sería momento J.S
+
+33
+00:03:51,790 --> 00:03:54,910
+y si utilizamos esto vamos a cargarlo evidentemente dentro de un script
+
+34
+00:04:01,950 --> 00:04:08,470
+si utilizamos esto nosotros podemos utilizar un método que se llama moment podemos utilizar el objeto
+
+35
+00:04:08,480 --> 00:04:15,970
+momento y esto tiene varios métodos no podemos coger directamente y utilizar el método Format y decir
+
+36
+00:04:15,970 --> 00:04:27,880
+mira entre comillas claro muéstrame el mes con cuatro memes toda su letra muéstrame luego el día vamos
+
+37
+00:04:27,910 --> 00:04:34,590
+a poner duh y luego muéstrame el año ok.
+
+38
+00:04:34,630 --> 00:04:36,730
+Si hago esto y actualizo la pantalla
+
+39
+00:04:41,440 --> 00:04:44,590
+veo que Mommsen no sé qué no sé cuánta Faydit.
+
+40
+00:04:45,460 --> 00:04:49,120
+Vamos a incluir eso porque además tenemos que incluir
+
+41
+00:04:54,480 --> 00:05:00,600
+lo que es la librería es decir eso exactamente tenemos que incluye también la librería.
+
+42
+00:05:00,860 --> 00:05:09,910
+Parte del local y por eso en este error de aquí aparte de incluir el local que sería la traducción de
+
+43
+00:05:10,330 --> 00:05:15,290
+J.S. para que nos muestre fecha en español vamos a incluir también la librería como tal.
+
+44
+00:05:15,340 --> 00:05:26,670
+MJS script Ramón escribe guardo y vamos a ver aquí tenemos el moment Format y la fecha formateada como
+
+45
+00:05:26,670 --> 00:05:29,440
+yo quiero sectorizar la pantalla ahora.
+
+46
+00:05:29,850 --> 00:05:34,960
+Ahora no me da fallo y además me muestra abril 12 2018.
+
+47
+00:05:35,030 --> 00:05:38,050
+Okey me lo muestra correctamente formateado.
+
+48
+00:05:38,080 --> 00:05:49,410
+Vale entonces yo puedo con conecto con moment hacer cosa increíble es decir de manera muy sencilla puedo
+
+49
+00:05:49,410 --> 00:05:55,310
+formatear una fecha Vale ya estamos viendo cómo usar otro plug in puedo decir no mira muéstrame el día
+
+50
+00:05:59,250 --> 00:06:01,140
+vale y aquí me lo va a mostrar me dice.
+
+51
+00:06:01,130 --> 00:06:03,350
+Abril jueves 2018.
+
+52
+00:06:05,640 --> 00:06:10,170
+Y ya sabes si investigan en la documentación de Moment pueden encontrar muchas formas de hacer esto
+
+53
+00:06:10,800 --> 00:06:11,730
+o demostrar fecha
+
+54
+00:06:15,930 --> 00:06:20,670
+podríamos hacer un estreno aquí que dijera publicado
+
+55
+00:06:24,150 --> 00:06:28,980
+el día y aquí poner simplemente concatenar
+
+56
+00:06:31,800 --> 00:06:33,330
+concatenan solamente el día
+
+57
+00:06:37,940 --> 00:06:39,210
+vale y aquí decir
+
+58
+00:06:43,620 --> 00:06:49,320
+de concatenar el mes también utilizamos lo mismo
+
+59
+00:06:58,830 --> 00:07:13,990
+y luego un patearle el año.
+
+60
+00:07:14,140 --> 00:07:23,640
+Si guardo y actualizo la pantalla veremos que aquí no aparece publicado el día jueves de abril del 2018.
+
+61
+00:07:23,660 --> 00:07:34,050
+Vale yo quisiera mostrar el lugar de el día en texto mostrar lo que viene siendo el día en número.
+
+62
+00:07:34,070 --> 00:07:42,350
+Para eso movilizara un método que se llama Whitey UICC Day o directamente
+
+63
+00:07:45,150 --> 00:07:52,010
+Day y de esa manera si actualizo la pantalla me saca el día 4
+
+64
+00:07:59,530 --> 00:08:00,940
+el día 4 de mi semana
+
+65
+00:08:04,080 --> 00:08:09,860
+si pongo aquí realmente me va a sacar el número de El día del mes.
+
+66
+00:08:09,940 --> 00:08:14,680
+Efectivamente el 12 es la fecha en la que estoy yo actualmente.
+
+67
+00:08:14,680 --> 00:08:17,960
+Vale pues de esa manera queda mucho mejor formateada la fecha.
+
+68
+00:08:18,070 --> 00:08:26,690
+Si que el objeto va a utilizar esta línea para formatear la fecha en los diferentes objetos.
+
+69
+00:08:27,340 --> 00:08:32,910
+Ya tengo mi objeto preparado como puedo ver por aquí con todo su datos correspondiente.
+
+70
+00:08:32,950 --> 00:08:35,020
+Ahora simplemente tengo que hacer un frizz
+
+71
+00:08:37,840 --> 00:08:45,340
+de esos objeto ir añadiendo un Artic el Konecta estructura dentro de el DIP DE POST.
+
+72
+00:08:45,370 --> 00:08:58,620
+Vale voy a copiarme la estructura y voy a hacer un Fortich de post punto for each.
+
+73
+00:08:59,190 --> 00:09:00,370
+Esto tiene un índex
+
+74
+00:09:04,880 --> 00:09:10,760
+la estructura del artículo la voy a pegar por aquí para tenerla de referencia
+
+75
+00:09:15,300 --> 00:09:25,070
+entonces el foril tiene un índice y tiene también un valor o un elemento un item en donde en cada iteración
+
+76
+00:09:25,070 --> 00:09:32,510
+que haga el Forat sobre esa colección de objetos yo voy a crearme una variable que se va a llamar post
+
+77
+00:09:33,820 --> 00:09:40,820
+y esto simplemente va a ser una plantilla de JavaScript en la cual voy a tener justamente esta plantilla
+
+78
+00:09:41,590 --> 00:09:50,630
+de aquí esta plantilla de un artículo y voy a sustituir los datos que son variables de acuerdo en este
+
+79
+00:09:50,630 --> 00:09:51,610
+caso el título.
+
+80
+00:09:51,710 --> 00:09:58,310
+Para eso voy a utilizar el dólar y las llaves y voy a clavar aquí el item Puntoticket que es el valor
+
+81
+00:09:58,310 --> 00:10:03,680
+que tiene es decir accedo al objeto y cojo la propiedad Bitel luego la fecha.
+
+82
+00:10:03,680 --> 00:10:08,860
+Lo mismo voy a utilizar el dólar llaves para hacer la interpolación de las variables y voy a acceder
+
+83
+00:10:08,870 --> 00:10:13,340
+a item y a su propiedad Daguet cada vez que se recorra.
+
+84
+00:10:13,340 --> 00:10:20,590
+Esto va a pasar así cada vez que se recorra un elemento o en cada iteración del bucle.
+
+85
+00:10:20,600 --> 00:10:21,730
+Esto va a pasar así.
+
+86
+00:10:22,850 --> 00:10:31,280
+Y por último dolar item punto content para mostrar el contenido dentro del párrafo y luego dejo el botón
+
+87
+00:10:31,370 --> 00:10:32,380
+tal cual está.
+
+88
+00:10:32,390 --> 00:10:34,700
+De momento todo correcto si yo hago con su reloj
+
+89
+00:10:37,610 --> 00:10:46,310
+de post en cada iteración me va a mostrar por la consola efectivamente mis plantillas con su texto correspondiente
+
+90
+00:10:46,310 --> 00:10:51,470
+vemos que lo ha sustituido todo todo bien vale todo correcto.
+
+91
+00:10:51,470 --> 00:10:56,720
+Vale ya tenemos la plantilla ya verán lo que tenemos que hacer simplemente es incrustar la o añadirla
+
+92
+00:10:57,140 --> 00:11:00,980
+en nuestro div de post.
+
+93
+00:11:00,980 --> 00:11:11,210
+Vale para eso vamos a utilizar QWERTY para seleccionar el DIB el Live se llama Post tiene una idea que
+
+94
+00:11:11,210 --> 00:11:21,500
+se llama post post acabado en SP y voy a utilizar el método Append para añadir el post que yo quiera.
+
+95
+00:11:21,530 --> 00:11:31,380
+De esta manera si guardo yo puedo quitar incluso los artículos que yo tengo aquí los voy a quitar y
+
+96
+00:11:31,590 --> 00:11:33,170
+aquí simplemente se van a cargar
+
+97
+00:11:38,600 --> 00:11:40,900
+los postes de un Jayson.
+
+98
+00:11:41,870 --> 00:11:44,990
+Si yo guardo y ya actualizo la pantalla.
+
+99
+00:11:45,320 --> 00:11:54,100
+Efectivamente aquí me aparecen todos mis post como yo tengo configurados en mi archivo de Jayson.
+
+100
+00:11:54,230 --> 00:12:03,090
+Vale si yo quisiera añadir un nuevo elemento a mi archivo de Jayson si me voy a mis archivos js.
+
+101
+00:12:03,290 --> 00:12:05,570
+Si yo quisiera añadir un nuevo elemento
+
+102
+00:12:08,650 --> 00:12:13,910
+prueba de título 6 y actualizo la pantalla.
+
+103
+00:12:14,090 --> 00:12:21,240
+Pues si bajo pabajo evidentemente tengo mi nuevo elemento mi nuevo post que acabo de añadir a mi Jayson
+
+104
+00:12:21,290 --> 00:12:27,260
+el cual se está recorriendo de manera dinámica así que el ejercicio número 3 o la parte número 3 del
+
+105
+00:12:27,260 --> 00:12:35,270
+proyecto queda concluida y ya sabemos también cómo crear ese Array y mostrar todos esos elementos dinámicamente
+
+106
+00:12:35,270 --> 00:12:35,900
+en la página.
+
+107
+00:12:35,900 --> 00:12:41,900
+De igual forma si esta información la sacáramos desde un servicio Rest pues simplemente tendríamos que
+
+108
+00:12:41,900 --> 00:12:48,560
+hacer lo mismo recorrer estos elemento y ir mostrándolo en la pantalla como en forma de plantilla o
+
+109
+00:12:48,560 --> 00:12:53,510
+en forma de tener una plantilla clavada en nuestro HTML.
+
+110
+00:12:53,510 --> 00:13:00,950
+Vale aquí en la parte de post tener una plantilla ya luego hacer un Clone en la parte de JavaScript
+
+111
+00:13:01,450 --> 00:13:09,350
+y sobre ese Clone vale ir metiendo estos trozos o estos diferentes artículos basándose en una plantilla
+
+112
+00:13:09,350 --> 00:13:12,260
+que tenemos en el código HTML.
+
+113
+00:13:12,380 --> 00:13:18,170
+Vale pero en este caso es muy correcto hacer esto de esta manera porque es la manera más eficiente y
+
+114
+00:13:18,170 --> 00:13:20,000
+más rápida y más sencilla.

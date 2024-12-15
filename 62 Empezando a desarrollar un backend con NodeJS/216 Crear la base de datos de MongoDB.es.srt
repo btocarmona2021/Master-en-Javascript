@@ -1,0 +1,175 @@
+1
+00:00:01,290 --> 00:00:03,690
+Bien ya hemos visto como instalar MongoDB.
+
+2
+00:00:03,690 --> 00:00:06,030
+Ya hemos visto como instalar robo Mungo.
+
+3
+00:00:06,180 --> 00:00:09,450
+Ya hemos visto el tipo de elemento que hay dentro de MongoDB.
+
+4
+00:00:09,660 --> 00:00:12,320
+Los documentos las colecciones etcétera.
+
+5
+00:00:12,420 --> 00:00:15,440
+Ahora lo que vamos a hacer va a ser crear nuestra base de datos.
+
+6
+00:00:15,450 --> 00:00:17,070
+Para eso vamos a utilizar.
+
+7
+00:00:17,070 --> 00:00:18,060
+Robo mongo
+
+8
+00:00:20,660 --> 00:00:32,410
+robot 3T en este caso se llama el programa y lo que vamos a hacer en este programa es crear nuestra
+
+9
+00:00:32,410 --> 00:00:36,880
+base de datos que vamos a estar utilizando en el proyecto.
+
+10
+00:00:36,880 --> 00:00:42,400
+Vamos a utilizar la conexión a Mungo de local para eso tenemos que tener un vodevil abierto recuerda
+
+11
+00:00:42,400 --> 00:00:45,030
+lo tenemos que ir a la ruta donde lo tengamos instalado.
+
+12
+00:00:45,020 --> 00:00:56,200
+En este caso archivo de programa MongoDB Server 3.2 Binh y aquí ejecutar el Mungo di que es el demonio
+
+13
+00:00:56,200 --> 00:01:01,780
+de Mongo que es el servicio que tienen que estar corriendo cada vez que yo arranque MongoDB vale cada
+
+14
+00:01:01,780 --> 00:01:06,790
+vez que yo quiera estar funcionando con la base de datos de Mungo entonces lo arranco y me conecto a
+
+15
+00:01:06,790 --> 00:01:08,030
+Mungo de local.
+
+16
+00:01:08,110 --> 00:01:13,770
+Con esto vale y aquí para crear una nueva base de datos Ledecky derecho CREATE DATABASE.
+
+17
+00:01:13,950 --> 00:01:19,360
+Y aquí lo voy poner el nombre a mi base de datos la aplicación que vamos a estar creando es una aplicación
+
+18
+00:01:19,360 --> 00:01:20,720
+para un portafolio.
+
+19
+00:01:20,790 --> 00:01:29,210
+Vale así que simplemente la aplicación pues se va a llamar portafolio un portafolio donde habrá pues
+
+20
+00:01:29,260 --> 00:01:35,830
+los proyectos nuestro que queramos añadir bien y ahora mismo tenemos cero colecciones para crear una
+
+21
+00:01:35,830 --> 00:01:36,450
+colección.
+
+22
+00:01:36,460 --> 00:01:41,980
+Yo puedo darle a create Collection y voy a poner el nombre a mi colección en este caso creo que quiero
+
+23
+00:01:41,980 --> 00:01:50,890
+que se llame proyecto vale mi colección y ahí se van a guardar todos los proyectos que yo quiera ir
+
+24
+00:01:50,890 --> 00:01:53,910
+añadiendo todos los documentos de tipo proyecto.
+
+25
+00:01:54,100 --> 00:02:00,670
+Vale ya tengo mi colección y si le doy insert Documet yo puedo crear aquí un proyecto vale que puedo
+
+26
+00:02:00,670 --> 00:02:04,780
+poner el nombre al proyecto blog
+
+27
+00:02:08,070 --> 00:02:11,070
+le puedo poner la descripción
+
+28
+00:02:16,510 --> 00:02:28,030
+blog personal le puedo poner la temática con la categoría category en este caso informática
+
+29
+00:02:30,760 --> 00:02:40,900
+le puedo poner la tecnología con la que lo he creado o los lenguajes Language links aquí puedo añadir
+
+30
+00:02:40,900 --> 00:02:50,820
+incluso un objeto más o un mismo Array puedo añadir con los lenguajes con los que he creado esto o con
+
+31
+00:02:50,820 --> 00:02:57,050
+las tecnologías con lo que he creado este boom PHP y SQL
+
+32
+00:03:01,500 --> 00:03:02,320
+y CSS.
+
+33
+00:03:02,330 --> 00:03:03,140
+Vamos a poner
+
+34
+00:03:05,970 --> 00:03:15,600
+vale y puedo decir el año de creación llegar a poner dos mil trece.
+
+35
+00:03:16,170 --> 00:03:22,200
+Vale ahora le doy a validarse me dice que el Jayson es válido y le doy ya 6 y se acaba de crear un documento
+
+36
+00:03:22,200 --> 00:03:24,640
+dentro de mi colección Speedway documents.
+
+37
+00:03:24,720 --> 00:03:28,200
+Ya tengo un registro o un documento con toda la información.
+
+38
+00:03:28,230 --> 00:03:34,560
+Si veo la información en formato Jayson aquí me aparece toda la información con su IDE y con toda la
+
+39
+00:03:34,560 --> 00:03:35,020
+historia.
+
+40
+00:03:36,240 --> 00:03:43,260
+Así que ya hemos visto cómo crear nuestra base de datos dentro de MongoDB y más concretamente utilizando
+
+41
+00:03:43,260 --> 00:03:45,020
+este programa robot Traité.
+
+42
+00:03:45,180 --> 00:03:49,950
+Hemos visto cómo crear la colección y ya hemos creado un documento dentro de la misma.
+
+43
+00:03:50,370 --> 00:03:57,570
+Así que en la siguiente clase lo que vamos a hacer va a ser conectar Mongo DB con DJs y con nuestro
+
+44
+00:03:57,630 --> 00:03:59,550
+proyecto de DJs.
